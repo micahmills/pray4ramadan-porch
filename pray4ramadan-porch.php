@@ -1,13 +1,13 @@
 <?php
 /**
- * Plugin Name: Disciple Tools - Porch Template
- * Plugin URI: https://github.com/DiscipleTools/disciple-tools-porch-template
- * Description: This plugin adds a front porch to a Disciple Tools system.
- * Text Domain: disciple-tools-porch-template
+ * Plugin Name: Pray4Ramadan Porch
+ * Plugin URI: https://github.com/Pray4Movement/pray4ramadan-porch
+ * Description: This is this microsite plugin to support the Ramadan 24/7 Campaign
+ * Text Domain: pray4ramadan-porch
  * Domain Path: /languages
  * Version:  0.1
  * Author URI: https://github.com/DiscipleTools
- * GitHub Plugin URI: https://github.com/DiscipleTools/disciple-tools-porch-template
+ * GitHub Plugin URI: https://github.com/Pray4Movement/pray4ramadan-porch
  * Requires at least: 4.7.0
  * (Requires 4.7+ because of the integration of the REST API at 4.7 and the security requirements of this milestone version.)
  * Tested up to: 5.6
@@ -17,30 +17,6 @@
  * @license GPL-2.0 or later
  *          https://www.gnu.org/licenses/gpl-2.0.html
  */
-
-/***********************************************************************************************************************
-/***********************************************************************************************************************
- * REFACTOR THIS PLUGIN!
- * This entire template plugin can be converted to your project by finding and replacing the follow strings throughout
- * the plugin folder. Accomplish the @todo tasks below.
- *
- * (full url of your github repo location)
- * @example https://github.com/YourGithubAccount/your-project-name
- * (user account and repo name on Github)
- * @example ACCOUNT-REPO-SLUG = YourGithubAccount/your-project-name
- * (repo name of your project on Github)
- * @example REPO-SLUG = your-project-name
- *
- * @todo Rename file name in the root folder called [ disciple-tools-porch-template.php ] to your repo slug name, i.e. [ REPO-SLUG ].php.
- *
- * @todo find/replace string [ DiscipleTools/disciple-tools-porch-template ] with your [ ACCOUNT-REPO-SLUG ]
- *
- * Find and Replace the following strings with your custom strings.
- * @todo find/replace string [ Porch Template ] with [ Your Project Name ]
- * @todo find/replace string [ Disciple_Tools_Porch_Template ] with [ Your_Project_Name ]
- * @todo find/replace string [ disciple-tools-porch-template ] with [ your-project-name ]
- * @todo find/replace string [ dt_porch_template ] with [ your_project_name ]
-***********************************************************************************************************************/
 
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -54,8 +30,8 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @access public
  * @return object|bool
  */
-function dt_porch_template() {
-    $dt_porch_template_required_dt_theme_version = '1.8.1';
+function p4r_porch() {
+    $p4r_porch_required_dt_theme_version = '1.8.1';
     $wp_theme = wp_get_theme();
     $version = $wp_theme->version;
 
@@ -63,8 +39,8 @@ function dt_porch_template() {
      * Check if the Disciple.Tools theme is loaded and is the latest required version
      */
     $is_theme_dt = strpos( $wp_theme->get_template(), "disciple-tools-theme" ) !== false || $wp_theme->name === "Disciple Tools";
-    if ( $is_theme_dt && version_compare( $version, $dt_porch_template_required_dt_theme_version, "<" ) ) {
-        add_action( 'admin_notices', 'dt_porch_template_hook_admin_notice' );
+    if ( $is_theme_dt && version_compare( $version, $p4r_porch_required_dt_theme_version, "<" ) ) {
+        add_action( 'admin_notices', 'p4r_porch_hook_admin_notice' );
         add_action( 'wp_ajax_dismissed_notice_handler', 'dt_hook_ajax_notice_handler' );
         return false;
     }
@@ -80,7 +56,7 @@ function dt_porch_template() {
 
     return DT_Porch_Template::instance();
 }
-add_action( 'after_setup_theme', 'dt_porch_template', 20 );
+add_action( 'after_setup_theme', 'p4r_porch', 20 );
 
 /**
  * Singleton class for setting up the plugin.
@@ -199,7 +175,7 @@ class DT_Porch_Template {
      * @return void
      */
     public function i18n() {
-        $domain = 'disciple-tools-porch-template';
+        $domain = 'pray4ramadan-porch';
         load_plugin_textdomain( $domain, false, trailingslashit( dirname( plugin_basename( __FILE__ ) ) ). 'support/languages' );
     }
 
@@ -211,7 +187,7 @@ class DT_Porch_Template {
      * @return string
      */
     public function __toString() {
-        return 'disciple-tools-porch-template';
+        return 'pray4ramadan-porch';
     }
 
     /**
@@ -246,7 +222,7 @@ class DT_Porch_Template {
      * @access public
      */
     public function __call( $method = '', $args = array() ) {
-        _doing_it_wrong( "dt_porch_template::" . esc_html( $method ), 'Method does not exist.', '0.1' );
+        _doing_it_wrong( "p4r_porch::" . esc_html( $method ), 'Method does not exist.', '0.1' );
         unset( $method, $args );
         return null;
     }
@@ -258,28 +234,28 @@ register_activation_hook( __FILE__, [ 'DT_Porch_Template', 'activation' ] );
 register_deactivation_hook( __FILE__, [ 'DT_Porch_Template', 'deactivation' ] );
 
 
-if ( ! function_exists( 'dt_porch_template_hook_admin_notice' ) ) {
-    function dt_porch_template_hook_admin_notice() {
-        global $dt_porch_template_required_dt_theme_version;
+if ( ! function_exists( 'p4r_porch_hook_admin_notice' ) ) {
+    function p4r_porch_hook_admin_notice() {
+        global $p4r_porch_required_dt_theme_version;
         $wp_theme = wp_get_theme();
         $current_version = $wp_theme->version;
-        $message = "'Disciple Tools - Porch Template' plugin requires 'Disciple Tools' theme to work. Please activate 'Disciple Tools' theme or make sure it is latest version.";
+        $message = "'Pray4Ramadan Porch' plugin requires 'Disciple Tools' theme to work. Please activate 'Disciple Tools' theme or make sure it is latest version.";
         if ( $wp_theme->get_template() === "disciple-tools-theme" ){
-            $message .= ' ' . sprintf( esc_html( 'Current Disciple Tools version: %1$s, required version: %2$s' ), esc_html( $current_version ), esc_html( $dt_porch_template_required_dt_theme_version ) );
+            $message .= ' ' . sprintf( esc_html( 'Current Disciple Tools version: %1$s, required version: %2$s' ), esc_html( $current_version ), esc_html( $p4r_porch_required_dt_theme_version ) );
         }
         // Check if it's been dismissed...
-        if ( ! get_option( 'dismissed-disciple-tools-porch-template', false ) ) { ?>
-            <div class="notice notice-error notice-disciple-tools-porch-template is-dismissible" data-notice="disciple-tools-porch-template">
+        if ( ! get_option( 'dismissed-pray4ramadan-porch', false ) ) { ?>
+            <div class="notice notice-error notice-pray4ramadan-porch is-dismissible" data-notice="pray4ramadan-porch">
                 <p><?php echo esc_html( $message );?></p>
             </div>
             <script>
                 jQuery(function($) {
-                    $( document ).on( 'click', '.notice-disciple-tools-porch-template .notice-dismiss', function () {
+                    $( document ).on( 'click', '.notice-pray4ramadan-porch .notice-dismiss', function () {
                         $.ajax( ajaxurl, {
                             type: 'POST',
                             data: {
                                 action: 'dismissed_notice_handler',
-                                type: 'disciple-tools-porch-template',
+                                type: 'pray4ramadan-porch',
                                 security: '<?php echo esc_html( wp_create_nonce( 'wp_rest_dismiss' ) ) ?>'
                             }
                         })
@@ -311,7 +287,7 @@ if ( ! function_exists( "dt_hook_ajax_notice_handler" )){
  * This section runs the remote plugin updating service, so you can issue distributed updates to your plugin
  *
  * @note See the instructions for version updating to understand the steps involved.
- * @link https://github.com/DiscipleTools/disciple-tools-porch-template/wiki/Configuring-Remote-Updating-System
+ * @link https://github.com/Pray4Movement/pray4ramadan-porch/wiki/Configuring-Remote-Updating-System
  *
  * @todo Enable this section with your own hosted file
  * @todo An example of this file can be found in (version-control.json)
@@ -336,9 +312,9 @@ if ( ! function_exists( "dt_hook_ajax_notice_handler" )){
 //        }
 //        if ( class_exists( 'Puc_v4_Factory' ) ){
 //            Puc_v4_Factory::buildUpdateChecker(
-//                'https://raw.githubusercontent.com/DiscipleTools/disciple-tools-porch-template/master/version-control.json',
+//                'https://raw.githubusercontent.com/Pray4Movement/pray4ramadan-porch/master/version-control.json',
 //                __FILE__,
-//                'disciple-tools-porch-template'
+//                'pray4ramadan-porch'
 //            );
 //
 //        }

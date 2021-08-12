@@ -8,7 +8,7 @@
             'type' => $this->type,
         ],
         'trans' => [
-            'add' => __( 'Add Magic', 'disciple-tools-porch-template' ),
+            'add' => __( 'Add Magic', 'pray4ramadan-porch' ),
         ],
     ]) ?>][0]
 

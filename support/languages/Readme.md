@@ -2,4 +2,4 @@
 {translation-domain}-{localisation}.po
 
 ex:
-disciple-tools-porch-template-fr_FR.po
+pray4ramadan-porch-fr_FR.po
