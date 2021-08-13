@@ -57,47 +57,47 @@ class DT_Porch_Template_Landing_Post_Type
     } // End __construct()
 
     public function dt_porch_template_allowed_wp_v2_paths( $allowed_wp_v2_paths ) {
-      if ( user_can( get_current_user_id(), 'wp_api_allowed_user') ) {
-            $allowed_wp_v2_paths[] = '/wp/v2/'.PORCH_LANDING_POST_TYPE;
-            $allowed_wp_v2_paths[] = '/wp/v2/'.PORCH_LANDING_POST_TYPE.'/(?P<id>[\d]+)';
-            $allowed_wp_v2_paths[] = '/wp/v2/'.PORCH_LANDING_POST_TYPE.'/(?P<parent>[\d]+)/revisions';
-            $allowed_wp_v2_paths[] = '/wp/v2/'.PORCH_LANDING_POST_TYPE.'/(?P<parent>[\d]+)/revisions/(?P<id>[\d]+)';
-            $allowed_wp_v2_paths[] = '/wp/v2/'.PORCH_LANDING_POST_TYPE.'/(?P<id>[\d]+)/autosaves';
-            $allowed_wp_v2_paths[] = '/wp/v2/'.PORCH_LANDING_POST_TYPE.'/(?P<parent>[\d]+)/autosaves/(?P<id>[\d]+)';
+          if ( user_can( get_current_user_id(), 'wp_api_allowed_user') ) {
+                $allowed_wp_v2_paths[] = '/wp/v2/'.PORCH_LANDING_POST_TYPE;
+                $allowed_wp_v2_paths[] = '/wp/v2/'.PORCH_LANDING_POST_TYPE.'/(?P<id>[\d]+)';
+                $allowed_wp_v2_paths[] = '/wp/v2/'.PORCH_LANDING_POST_TYPE.'/(?P<parent>[\d]+)/revisions';
+                $allowed_wp_v2_paths[] = '/wp/v2/'.PORCH_LANDING_POST_TYPE.'/(?P<parent>[\d]+)/revisions/(?P<id>[\d]+)';
+                $allowed_wp_v2_paths[] = '/wp/v2/'.PORCH_LANDING_POST_TYPE.'/(?P<id>[\d]+)/autosaves';
+                $allowed_wp_v2_paths[] = '/wp/v2/'.PORCH_LANDING_POST_TYPE.'/(?P<parent>[\d]+)/autosaves/(?P<id>[\d]+)';
 
-            $allowed_wp_v2_paths[] = '/wp/v2/types';
-            $allowed_wp_v2_paths[] = '/wp/v2/types/(?P<type>[\w-]+)';
+                $allowed_wp_v2_paths[] = '/wp/v2/types';
+                $allowed_wp_v2_paths[] = '/wp/v2/types/(?P<type>[\w-]+)';
 
-            $allowed_wp_v2_paths[] = '/wp/v2/blocks';
-            $allowed_wp_v2_paths[] = '/wp/v2/blocks/(?P<id>[\d]+)';
-            $allowed_wp_v2_paths[] = '/wp/v2/blocks/(?P<parent>[\d]+)/revisions';
-            $allowed_wp_v2_paths[] = '/wp/v2/blocks/(?P<parent>[\d]+)/revisions/(?P<id>[\d]+)';
-            $allowed_wp_v2_paths[] = '/wp/v2/blocks/(?P<id>[\d]+)/autosaves';
-            $allowed_wp_v2_paths[] = '/wp/v2/blocks/(?P<parent>[\d]+)/autosaves/(?P<id>[\d]+)';
-            $allowed_wp_v2_paths[] = '/wp/v2/block-directory/search';
+                $allowed_wp_v2_paths[] = '/wp/v2/blocks';
+                $allowed_wp_v2_paths[] = '/wp/v2/blocks/(?P<id>[\d]+)';
+                $allowed_wp_v2_paths[] = '/wp/v2/blocks/(?P<parent>[\d]+)/revisions';
+                $allowed_wp_v2_paths[] = '/wp/v2/blocks/(?P<parent>[\d]+)/revisions/(?P<id>[\d]+)';
+                $allowed_wp_v2_paths[] = '/wp/v2/blocks/(?P<id>[\d]+)/autosaves';
+                $allowed_wp_v2_paths[] = '/wp/v2/blocks/(?P<parent>[\d]+)/autosaves/(?P<id>[\d]+)';
+                $allowed_wp_v2_paths[] = '/wp/v2/block-directory/search';
 
-            $allowed_wp_v2_paths[] = '/wp/v2/media/(?P<id>[\d]+)';
-            $allowed_wp_v2_paths[] = '/wp/v2/media/(?P<id>[\d]+)/post-process';
-            $allowed_wp_v2_paths[] = '/wp/v2/media/(?P<id>[\d]+)/edit';
+                $allowed_wp_v2_paths[] = '/wp/v2/media/(?P<id>[\d]+)';
+                $allowed_wp_v2_paths[] = '/wp/v2/media/(?P<id>[\d]+)/post-process';
+                $allowed_wp_v2_paths[] = '/wp/v2/media/(?P<id>[\d]+)/edit';
 
-            $allowed_wp_v2_paths[] = '/wp/v2/taxonomies';
-            $allowed_wp_v2_paths[] = '/wp/v2/taxonomies/(?P<taxonomy>[\w-]+)';
+                $allowed_wp_v2_paths[] = '/wp/v2/taxonomies';
+                $allowed_wp_v2_paths[] = '/wp/v2/taxonomies/(?P<taxonomy>[\w-]+)';
 
-            $allowed_wp_v2_paths[] = '/wp/v2/themes';
-            $allowed_wp_v2_paths[] = '/wp/v2/themes/(?P<stylesheet>[\w-]+)';
+                $allowed_wp_v2_paths[] = '/wp/v2/themes';
+                $allowed_wp_v2_paths[] = '/wp/v2/themes/(?P<stylesheet>[\w-]+)';
 
-            $allowed_wp_v2_paths[] = '/wp/v2/templates';
-            $allowed_wp_v2_paths[] = '/wp/v2/templates/(?P<id>[\/\w-]+)';
-            $allowed_wp_v2_paths[] = '/wp/v2/templates/(?P<parent>[\d]+)/revisions';
-            $allowed_wp_v2_paths[] = '/wp/v2/templates/(?P<parent>[\d]+)/revisions/(?P<id>[\d]+)';
-            $allowed_wp_v2_paths[] = '/wp/v2/templates/(?P<id>[\d]+)/autosaves';
-            $allowed_wp_v2_paths[] = '/wp/v2/templates/(?P<parent>[\d]+)/autosaves/(?P<id>[\d]+)';
+                $allowed_wp_v2_paths[] = '/wp/v2/templates';
+                $allowed_wp_v2_paths[] = '/wp/v2/templates/(?P<id>[\/\w-]+)';
+                $allowed_wp_v2_paths[] = '/wp/v2/templates/(?P<parent>[\d]+)/revisions';
+                $allowed_wp_v2_paths[] = '/wp/v2/templates/(?P<parent>[\d]+)/revisions/(?P<id>[\d]+)';
+                $allowed_wp_v2_paths[] = '/wp/v2/templates/(?P<id>[\d]+)/autosaves';
+                $allowed_wp_v2_paths[] = '/wp/v2/templates/(?P<parent>[\d]+)/autosaves/(?P<id>[\d]+)';
 
-            $allowed_wp_v2_paths[] = '/wp/v2/users/me';
-            $allowed_wp_v2_paths[] = '/wp/v2/users/me?_locale=user';
-            $allowed_wp_v2_paths[] = '/wp/v2/users';
+                $allowed_wp_v2_paths[] = '/wp/v2/users/me';
+                $allowed_wp_v2_paths[] = '/wp/v2/users/me?_locale=user';
+                $allowed_wp_v2_paths[] = '/wp/v2/users';
 
-      }
+          }
         return $allowed_wp_v2_paths;
     }
 
