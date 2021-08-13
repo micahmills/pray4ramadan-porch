@@ -18,4 +18,4 @@
 <script src="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>js/waypoints.min.js"></script>
 <script src="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>js/form-validator.min.js"></script>
 <script src="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>js/contact-form-script.js"></script>
-<script src="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>js/main.js"></script>
+<script src="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>js/main.js?ver=<?php echo filemtime( trailingslashit( plugin_dir_path( __FILE__ ) ) . 'js/main.js' )  ?>"></script>

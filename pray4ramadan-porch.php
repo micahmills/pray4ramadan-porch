@@ -76,49 +76,13 @@ class DT_Porch_Template {
 
     private function __construct() {
 
-        /***************************************************************************************************************
-        /***************************************************************************************************************
-         * @todo STEP 1: CHOOSE HOME PAGE STYLE
-         * 8 starter sites are listed below. Uncomment the loader file to show the site style. Choose only 1 at a time.
-         *
-         * @todo STEP 2: ONCE A STYLE IS SELECTED, REMOVE ADDITIONAL LINES AND DELETE CORRESPONDING FOLDERS
-         * @todo STEP 3: EDIT THE BODY CONTENT OF THE SELECTED STYLE IN THE `body.php` file.
-         **************************************************************************************************************/
-//        require_once( 'home-1/loader.php' ); /* Pray4Movement */
-        require_once( 'home-2/loader.php' ); /* Simple, Big images, White and Image */
-//        require_once( 'home-3/loader.php'); /* Parallax, White/Green, thin sections, sticky top nav */
-//        require_once( 'home-4/loader.php' ); /* Large sections, white/light blue, */
-//        require_once( 'home-5/loader.php' ); /* White/blue/grey, big sections, hover effects/animations */
-//        require_once( 'home-6/loader.php'); /* greeen/white, simple, bold */
-//        require_once( 'home-7/loader.php'); /* single image, full screen */
-//        require_once( 'home-8/loader.php'); /* single looping video, full screen */
+        require_once( 'home-5/loader.php' ); /* White/blue/grey, big sections, hover effects/animations */
 
-//        require_once( 'home-blank/loader.php'); /* blank setup. You can drop a single page site into this folder. */
+//        require_once( 'logged-in-1/loader.php' );
+
+        require_once( 'landing-pages/loader.php' );
 
 
-
-        /***************************************************************************************************************
-        /***************************************************************************************************************
-         * @todo ADDITIONAL STEP: SELECT LOGGED IN PAGE STYLE
-         * This page style allows a person to register to the site, and get a custom profile page, without giving
-         * them access to disciple tools. This page is recommended to be used with the custom login plugin so that
-         * a registered role can be applied.
-         *
-         * @use Use this to give a partner a dashboard on the project without giving them access to the entire DT system.
-         * @use Allows you to collect data from a user without giving them full Disciple Tools access.
-         *
-         * Remove all of these if a logged in page is not required.
-         **************************************************************************************************************/
-        require_once( 'logged-in-1/loader.php' );
-
-
-        /***************************************************************************************************************
-        /***************************************************************************************************************
-         * @todo ADDITIONAL STEP: CONFIGURE REQUIRED PLUGINS
-         * The `config-required-plugins.php` file triggers a recommendation in the admin area to also require other plugins
-         * when this plugin is enabled. One key plugin is the `disciple-tools-custom-login' plugin to help with the
-         * logged in user experience.
-         **************************************************************************************************************/
         if ( is_admin() ) {
             require_once( 'support/required-plugins/class-tgm-plugin-activation.php' );
             require_once( 'support/required-plugins/config-required-plugins.php' );

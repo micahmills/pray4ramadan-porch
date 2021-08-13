@@ -37,18 +37,30 @@ add_action( 'tgmpa_register', function () {
      * If the source is NOT from the .org repo, then source is also required.
      */
     $plugins = array(
+//        array(
+//            'name'                  => 'Disciple Tools - Custom Login',
+//            'slug'                  => 'disciple-tools-custom-login',
+//            'required'              => false,
+//            'version'               => '0.1',
+//        ),
         array(
-            'name'                  => 'Disciple Tools - Custom Login',
-            'slug'                  => 'disciple-tools-custom-login',
+            'name'                  => 'Disciple Tools - Webform',
+            'slug'                  => 'disciple-tools-webform',
             'required'              => false,
+            'version'               => '4.4',
+        ),
+        array(
+            'name'                  => 'Disciple Tools - Prayer Campaigns',
+            'slug'                  => 'disciple-tools-prayer-campaigns',
+            'required'              => true,
             'version'               => '0.1',
         ),
-        array(
-            'name'                  => 'Genesis Blocks',
-            'slug'                  => 'genesis-blocks',
-            'required'              => false,
-            'version'               => '1.2.5',
-        ),
+//        array(
+//            'name'                  => 'Genesis Blocks',
+//            'slug'                  => 'genesis-blocks',
+//            'required'              => false,
+//            'version'               => '1.2.5',
+//        ),
     );
 
     /*

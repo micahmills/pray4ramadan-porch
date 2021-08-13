@@ -95,6 +95,7 @@ class DT_Porch_Template_Home_5 extends DT_Magic_Url_Base
     }
 
     public function body(){
+//        require_once( 'scratch-body.php' );
         require_once( 'body.php' );
     }
 }

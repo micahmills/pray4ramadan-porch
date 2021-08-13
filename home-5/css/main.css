@@ -310,7 +310,7 @@ a:not([href]):not([tabindex]):hover {
   position: relative;
 }
 #video-area .contents {
-  padding: 160px 0 80px;
+  padding: 220px 0 220px;
 }
 #video-area .contents h1 {
   color: #fff;
@@ -393,6 +393,10 @@ a:not([href]):not([tabindex]):hover {
 #services {
   position: relative;
   background: #f2f2f2;
+}
+.gray-background {
+    position: relative;
+    background: #f2f2f2;
 }
 /* ==========================================================================
    Features Section Style
@@ -777,7 +781,7 @@ a:not([href]):not([tabindex]):hover {
    Counter Section Style
    ========================================================================== */
 .counters {
-  background: url(../img/bg1.jpg) fixed;
+  /*background: url(../img/placeholders/1900x1200_img_1.jpg) fixed;*/
   position: relative;
 }
 .counters .facts-item {
@@ -839,7 +843,7 @@ a:not([href]):not([tabindex]):hover {
   margin-top: 20px;
 }
 /* ==========================================================================
-   Download 
+   Download
    ========================================================================== */
 #download {
   background-image: linear-gradient(120deg, #89f7fe 0%, #4676fa 100%);
@@ -855,7 +859,7 @@ a:not([href]):not([tabindex]):hover {
   margin-right: 5px;
 }
 /* ==========================================================================
-   Blog 
+   Blog
    ========================================================================== */
 #blog .blog-item-wrapper {
   background: #fff;
