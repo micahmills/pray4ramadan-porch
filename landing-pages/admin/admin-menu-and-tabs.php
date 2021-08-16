@@ -31,7 +31,7 @@ class DT_Porch_Template_Landing_Menu {
      * @since 0.1
      */
     public function register_menu() {
-        add_submenu_page( 'edit.php?post_type=landing', $this->title, $this->title, 'manage_dt', $this->token, [ $this, 'content' ] );
+        add_submenu_page( 'edit.php?post_type='.PORCH_LANDING_POST_TYPE, $this->title, $this->title, 'manage_dt', $this->token, [ $this, 'content' ] );
     }
 
     /**

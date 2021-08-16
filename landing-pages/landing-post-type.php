@@ -127,7 +127,7 @@ class DT_Porch_Template_Landing_Post_Type
 
 
     public function transition_post( $new_status, $old_status, $post ) {
-        if ( 'publish' == $new_status && $post->post_type == 'landing' ) {
+        if ( 'publish' == $new_status && $post->post_type == PORCH_LANDING_POST_TYPE ) {
 
             $post_id = $post->ID;
             $slug = trim( strtolower( $post->post_title ) );
