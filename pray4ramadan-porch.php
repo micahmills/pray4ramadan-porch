@@ -76,7 +76,7 @@ class DT_Porch_Template {
 
     private function __construct() {
 
-        require_once( 'home-5/loader.php' ); /* White/blue/grey, big sections, hover effects/animations */
+//        require_once( 'home-5/loader.php' ); /* White/blue/grey, big sections, hover effects/animations */
 
 //        require_once( 'logged-in-1/loader.php' );
 

@@ -76,7 +76,7 @@ class DT_Porch_Template_Landing extends DT_Magic_Url_Base
             ]) ?>][0]
 
             jQuery(document).ready(function(){
-                jQuery(document).foundation();
+                // jQuery(document).foundation();
                 window.get_user_app()
             })
 

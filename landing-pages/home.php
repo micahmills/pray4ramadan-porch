@@ -68,7 +68,7 @@ class DT_Porch_Template_Landing_Home extends DT_Magic_Url_Base
 
     public function body(){
         // body
-        $my_postid = get_option( 'dt_porch_landing_page' );
+        $my_postid = get_option( PORCH_LANDING_META_KEY . '_home_page'  );
         $post_status = get_post_status( $my_postid );
         if ( 'publish' === $post_status ) {
             $content_post = get_post( $my_postid );

@@ -7,7 +7,7 @@ if ( ! defined( 'ABSPATH' ) ) { exit; } // Exit if accessed directly
 class DT_Porch_Template_Landing_Menu {
 
     public $token = 'dt_porch_template';
-    public $title = 'Porch Template';
+    public $title = 'Settings';
 
     private static $_instance = null;
     public static function instance() {
@@ -31,7 +31,7 @@ class DT_Porch_Template_Landing_Menu {
      * @since 0.1
      */
     public function register_menu() {
-        add_submenu_page( 'dt_extensions', $this->title, $this->title, 'manage_dt', $this->token, [ $this, 'content' ] );
+        add_submenu_page( 'edit.php?post_type=landing', $this->title, $this->title, 'manage_dt', $this->token, [ $this, 'content' ] );
     }
 
     /**
@@ -125,11 +125,18 @@ class DT_Porch_Template_Landing_Tab_General {
         if ( isset( $_POST['landing_home'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['landing_home'] ) ), 'landing_home'. get_current_user_id() ) && isset( $_POST['selected_home_page'] ) ) {
             dt_write_log( $_POST );
             $id = sanitize_text_field( wp_unslash( $_POST['selected_home_page'] ) );
-            update_option( 'dt_porch_landing_page', $id, true );
+            update_option( PORCH_LANDING_META_KEY . '_home_page', $id, true );
         }
 
-        $selected = get_option( 'dt_porch_landing_page' );
-        $list = get_posts( [ 'post_type' => 'landing', 'post_status' => 'published', 'numberposts' => -1, 'orderby' => 'post_title', 'order' => 'ASC' ] );
+        $selected = get_option( PORCH_LANDING_META_KEY . '_home_page' );
+        $args = array(
+            'post_type' => PORCH_LANDING_POST_TYPE,
+            'post_status' => 'publish',
+            'posts_per_page' => -1,
+            'orderby' => 'post_title',
+            'order' => 'ASC'
+        );
+        $list = new WP_Query($args);
         ?>
         <!-- Box -->
         <form method="post">
@@ -147,9 +154,8 @@ class DT_Porch_Template_Landing_Tab_General {
                     <select name="selected_home_page">
                         <option></option>
                         <?php
-                        if ( ! empty( $list ) ) {
-                            foreach ( $list as $post_object ) {
-
+                        if ( ! empty( $list->posts ) ) {
+                            foreach ( $list->posts as $post_object ) {
                                 if ( $selected == $post_object->ID ) {
                                     ?>
                                     <option value="<?php echo esc_attr( $post_object->ID ) ?>" selected><?php echo esc_html( $post_object->post_title ) ?></option>

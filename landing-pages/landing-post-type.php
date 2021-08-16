@@ -46,60 +46,28 @@ class DT_Porch_Template_Landing_Post_Type
 
         add_action( 'init', [ $this, 'register_post_type' ] );
         add_action( 'transition_post_status', [ $this, 'transition_post' ], 10, 3 );
-        add_filter( 'allowed_wp_v2_paths', [ $this, 'dt_porch_template_allowed_wp_v2_paths'], 10, 1 );
+        add_action( 'add_meta_boxes', [ $this, 'add_meta_box' ] );
 
+        if ( is_admin() && isset( $_GET['post_type'] ) && PORCH_LANDING_POST_TYPE === $_GET['post_type'] ){
 
-        if ( is_admin() ){
             add_filter( 'manage_'.$this->post_type.'_posts_columns', [ $this, 'set_custom_edit_columns' ] );
             add_action( 'manage_'.$this->post_type.'_posts_custom_column', [ $this, 'custom_column' ], 10, 2 );
         }
 
     } // End __construct()
 
-    public function dt_porch_template_allowed_wp_v2_paths( $allowed_wp_v2_paths ) {
-          if ( user_can( get_current_user_id(), 'wp_api_allowed_user') ) {
-                $allowed_wp_v2_paths[] = '/wp/v2/'.PORCH_LANDING_POST_TYPE;
-                $allowed_wp_v2_paths[] = '/wp/v2/'.PORCH_LANDING_POST_TYPE.'/(?P<id>[\d]+)';
-                $allowed_wp_v2_paths[] = '/wp/v2/'.PORCH_LANDING_POST_TYPE.'/(?P<parent>[\d]+)/revisions';
-                $allowed_wp_v2_paths[] = '/wp/v2/'.PORCH_LANDING_POST_TYPE.'/(?P<parent>[\d]+)/revisions/(?P<id>[\d]+)';
-                $allowed_wp_v2_paths[] = '/wp/v2/'.PORCH_LANDING_POST_TYPE.'/(?P<id>[\d]+)/autosaves';
-                $allowed_wp_v2_paths[] = '/wp/v2/'.PORCH_LANDING_POST_TYPE.'/(?P<parent>[\d]+)/autosaves/(?P<id>[\d]+)';
-
-                $allowed_wp_v2_paths[] = '/wp/v2/types';
-                $allowed_wp_v2_paths[] = '/wp/v2/types/(?P<type>[\w-]+)';
-
-                $allowed_wp_v2_paths[] = '/wp/v2/blocks';
-                $allowed_wp_v2_paths[] = '/wp/v2/blocks/(?P<id>[\d]+)';
-                $allowed_wp_v2_paths[] = '/wp/v2/blocks/(?P<parent>[\d]+)/revisions';
-                $allowed_wp_v2_paths[] = '/wp/v2/blocks/(?P<parent>[\d]+)/revisions/(?P<id>[\d]+)';
-                $allowed_wp_v2_paths[] = '/wp/v2/blocks/(?P<id>[\d]+)/autosaves';
-                $allowed_wp_v2_paths[] = '/wp/v2/blocks/(?P<parent>[\d]+)/autosaves/(?P<id>[\d]+)';
-                $allowed_wp_v2_paths[] = '/wp/v2/block-directory/search';
-
-                $allowed_wp_v2_paths[] = '/wp/v2/media/(?P<id>[\d]+)';
-                $allowed_wp_v2_paths[] = '/wp/v2/media/(?P<id>[\d]+)/post-process';
-                $allowed_wp_v2_paths[] = '/wp/v2/media/(?P<id>[\d]+)/edit';
-
-                $allowed_wp_v2_paths[] = '/wp/v2/taxonomies';
-                $allowed_wp_v2_paths[] = '/wp/v2/taxonomies/(?P<taxonomy>[\w-]+)';
-
-                $allowed_wp_v2_paths[] = '/wp/v2/themes';
-                $allowed_wp_v2_paths[] = '/wp/v2/themes/(?P<stylesheet>[\w-]+)';
-
-                $allowed_wp_v2_paths[] = '/wp/v2/templates';
-                $allowed_wp_v2_paths[] = '/wp/v2/templates/(?P<id>[\/\w-]+)';
-                $allowed_wp_v2_paths[] = '/wp/v2/templates/(?P<parent>[\d]+)/revisions';
-                $allowed_wp_v2_paths[] = '/wp/v2/templates/(?P<parent>[\d]+)/revisions/(?P<id>[\d]+)';
-                $allowed_wp_v2_paths[] = '/wp/v2/templates/(?P<id>[\d]+)/autosaves';
-                $allowed_wp_v2_paths[] = '/wp/v2/templates/(?P<parent>[\d]+)/autosaves/(?P<id>[\d]+)';
-
-                $allowed_wp_v2_paths[] = '/wp/v2/users/me';
-                $allowed_wp_v2_paths[] = '/wp/v2/users/me?_locale=user';
-                $allowed_wp_v2_paths[] = '/wp/v2/users';
-
-          }
-        return $allowed_wp_v2_paths;
+    public function add_meta_box( $post_type ) {
+        if ( PORCH_LANDING_POST_TYPE === $post_type ) {
+            add_meta_box( PORCH_LANDING_POST_TYPE . '_custom_permalink', PORCH_LANDING_POST_TYPE_SINGLE . ' Url', [ $this, 'meta_box_custom_permalink'], PORCH_LANDING_POST_TYPE, 'side', 'default' );
+        }
     }
+
+    public function meta_box_custom_permalink( $post ) {
+        $public_key = get_post_meta( $post->ID, PORCH_LANDING_META_KEY, true );
+        echo '<a href="' . trailingslashit( site_url() ) . PORCH_LANDING_ROOT . '/' . PORCH_LANDING_TYPE . '/' . $public_key . '">'. trailingslashit( site_url() ) . PORCH_LANDING_ROOT . '/' . PORCH_LANDING_TYPE . '/' . $public_key .'</a>';
+    }
+
+
 
     /**
      * Register the post type.
@@ -152,7 +120,7 @@ class DT_Porch_Template_Landing_Post_Type
                 'capability_type' => $this->post_type,
                 'hierarchical' => true,
                 'show_in_rest' => true,
-                'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt', 'revisions' )
+                'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt' )
             ) /* end of options */
         ); /* end of register post type */
     } // End register_post_type()
@@ -191,6 +159,8 @@ class DT_Porch_Template_Landing_Post_Type
 
         return $columns;
     }
+
+
 
 // Add the data to the custom columns for the book post type:
 
