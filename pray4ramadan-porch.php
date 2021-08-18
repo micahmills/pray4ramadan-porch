@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * Gets the instance of the `DT_Porch_Template` class.
+ * Gets the instance of the `P4_Ramadan_Porch` class.
  *
  * @since  0.1
  * @access public
@@ -54,7 +54,7 @@ function p4r_porch() {
         require_once get_template_directory() . '/dt-core/global-functions.php';
     }
 
-    return DT_Porch_Template::instance();
+    return P4_Ramadan_Porch::instance();
 }
 add_action( 'after_setup_theme', 'p4r_porch', 20 );
 
@@ -64,7 +64,7 @@ add_action( 'after_setup_theme', 'p4r_porch', 20 );
  * @since  0.1
  * @access public
  */
-class DT_Porch_Template {
+class P4_Ramadan_Porch {
 
     private static $_instance = null;
     public static function instance() {
@@ -77,9 +77,6 @@ class DT_Porch_Template {
     private function __construct() {
 
         require_once( 'home-5/loader.php' ); /* White/blue/grey, big sections, hover effects/animations */
-
-//        require_once( 'logged-in-1/loader.php' );
-
         require_once( 'landing-pages/loader.php' );
 
 
@@ -194,8 +191,8 @@ class DT_Porch_Template {
 
 
 // Register activation hook.
-register_activation_hook( __FILE__, [ 'DT_Porch_Template', 'activation' ] );
-register_deactivation_hook( __FILE__, [ 'DT_Porch_Template', 'deactivation' ] );
+register_activation_hook( __FILE__, [ 'P4_Ramadan_Porch', 'activation' ] );
+register_deactivation_hook( __FILE__, [ 'P4_Ramadan_Porch', 'deactivation' ] );
 
 
 if ( ! function_exists( 'p4r_porch_hook_admin_notice' ) ) {

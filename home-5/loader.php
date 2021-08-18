@@ -22,10 +22,10 @@ if ( ! defined( 'PORCH_TOKEN' ) ) {
  * preset, teal, forestgreen, green, purple, orange
  */
 if ( ! defined( 'PORCH_COLOR_SCHEME' ) ) {
-    define( 'PORCH_COLOR_SCHEME', 'preset' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
+    define( 'PORCH_COLOR_SCHEME', 'forestgreen' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
 }
 
-class DT_Porch_Template_Home_5 extends DT_Magic_Url_Base
+class P4_Ramadan_Porch_Home_5 extends DT_Magic_Url_Base
 {
     public $magic = false;
     public $parts = false;
@@ -95,8 +95,7 @@ class DT_Porch_Template_Home_5 extends DT_Magic_Url_Base
     }
 
     public function body(){
-//        require_once( 'scratch-body.php' );
         require_once( 'body.php' );
     }
 }
-DT_Porch_Template_Home_5::instance();
+P4_Ramadan_Porch_Home_5::instance();

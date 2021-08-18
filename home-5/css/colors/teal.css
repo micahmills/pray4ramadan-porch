@@ -22,7 +22,7 @@ a:hover{
 	color: #1AB7D8;
 }
 .section-header .lines{
-	border-color: #1AB7D8; 
+	border-color: #1AB7D8;
 }
 .section-header .lines:before{
 	background: #1AB7D8;
@@ -74,7 +74,7 @@ a:hover{
 	background: #1AB7D8;
 	border-color: #1AB7D8;
 }
-.shot-item .overlay:before, 
+.shot-item .overlay:before,
 .shot-item .overlay:after{
 	background: #1AB7D8;
 }
@@ -110,5 +110,14 @@ a:hover{
 
 .tp-bullets.preview4 .bullet:hover, .tp-bullets.preview4 .bullet.selected{
 	border-color: #1AB7D8!important;
+}
+
+#download {
+    background-image: linear-gradient(120deg, #8ee3f5 0%, #09b1d6 100%);
+    width: 100%;
+}
+.gradient-bar {
+    background-image: linear-gradient(120deg, #8ee3f5 0%, #09b1d6 100%);
+    width: 100%;
 }
 

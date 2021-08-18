@@ -74,7 +74,7 @@
 
 
 <!-- SIGN UP TO PRAY -->
-<section id="features" class="section" data-stellar-background-ratio="0.2">
+<section id="features" name="sign_up" class="section" data-stellar-background-ratio="0.2">
     <div class="container">
         <div class="section-header">
             <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Sign Up to <span>Pray</span></h2>
@@ -145,71 +145,9 @@
             <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">15-Minute <span>Prayer Fuel</span></h2>
             <hr class="lines wow zoomIn" data-wow-delay="0.3s">
             <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy <br> nibh euismod tincidunt ut laoreet dolore magna.</p>
+            <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><a href="/prayer/list" class="btn btn-common btn-rm">View All</a></p>
         </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item">
-                <!-- Blog Item Starts -->
-                <div class="blog-item-wrapper wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="blog-item-img">
-                        <a href="#">
-                            <img src="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>img/blog/img1.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="blog-item-text">
-                        <h3>
-                            <a href="#">Today's Prayer Fuel</a>
-                        </h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
-                        </p>
-                        <a href="#" class="btn btn-common btn-rm">Read More</a>
-                    </div>
-                </div>
-                <!-- Blog Item Wrapper Ends-->
-            </div>
 
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item">
-                <!-- Blog Item Starts -->
-                <div class="blog-item-wrapper wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="blog-item-img">
-                        <a href="#">
-                            <img src="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>img/blog/img2.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="blog-item-text">
-                        <h3>
-                            <a href="#">Previous Day's Focus</a>
-                        </h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
-                        </p>
-                        <a href="#" class="btn btn-common btn-rm">Read More</a>
-                    </div>
-                </div>
-                <!-- Blog Item Wrapper Ends-->
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item">
-                <!-- Blog Item Starts -->
-                <div class="blog-item-wrapper wow fadeInUp" data-wow-delay="0.9s">
-                    <div class="blog-item-img">
-                        <a href="#">
-                            <img src="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>img/prayer-tool-graphic.png" alt="">
-                        </a>
-                    </div>
-                    <div class="blog-item-text">
-                        <h3>
-                            <a href="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>pdf/Prayer-Wheel.pdf">1 Hour Prayer Wheel</a>
-                        </h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
-                        </p>
-                        <a href="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>pdf/Prayer-Wheel.pdf" class="btn btn-common btn-rm">Download</a>
-                    </div>
-                </div>
-                <!-- Blog Item Wrapper Ends-->
-            </div>
-        </div>
     </div>
 </section>
 <!-- blog Section End -->

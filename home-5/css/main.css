@@ -3,13 +3,13 @@
 body {
   font-family: 'Lato', sans-serif;
   color: #333;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 300;
   background: #fff;
   overflow-x: hidden;
 }
 p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 26px;
 }
 a:hover,
@@ -975,6 +975,15 @@ a:not([href]):not([tabindex]):hover {
 }
 .list-unstyled li {
   color: #d9534f;
+}
+
+.fuel-block {
+    background: #fff;
+    padding: 30px;
+    overflow: hidden;
+}
+.fuel-block strong {
+    font-weight: 600;
 }
 /* ==========================================================================
     Subscribe Style

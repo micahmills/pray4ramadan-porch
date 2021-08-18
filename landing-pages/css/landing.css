@@ -1,12 +1,6 @@
-body {
-    background: white;
+#video-area {
+    height:250px !important;
 }
-.center{
-    text-align:center;
-}
-.top-bar, .top-bar ul {
-     background-color: white;
-}
-#off-canvas-menu {
-    cursor:pointer;
+#video-area .contents {
+     padding: 100px 0 120px !important;
 }

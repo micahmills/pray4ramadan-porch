@@ -2,9 +2,9 @@
 if ( ! defined( 'ABSPATH' ) ) { exit; } // Exit if accessed directly
 
 /**
- * Class DT_Porch_Template_Menu
+ * Class P4_Ramadan_Porch_Menu
  */
-class DT_Porch_Template_Landing_Media_Tab {
+class P4_Ramadan_Porch_Landing_Media_Tab {
 
     public $token = 'disciple_tools_porch_template';
     public $title = 'Porch Template';
@@ -56,4 +56,4 @@ class DT_Porch_Template_Landing_Media_Tab {
         <?php
     }
 }
-DT_Porch_Template_Landing_Media_Tab::instance();
+P4_Ramadan_Porch_Landing_Media_Tab::instance();
