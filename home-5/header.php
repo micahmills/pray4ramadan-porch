@@ -30,5 +30,5 @@
     ]) ?>][0]
 </script>
 
-<link rel="stylesheet" id="colors" href="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>css/colors/<?php echo esc_attr( PORCH_COLOR_SCHEME ) ?>.css" type="text/css" />
+<link rel="stylesheet" id="colors" href="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>css/colors/<?php echo esc_attr( PORCH_COLOR_SCHEME ) ?>.css?ver=<?php echo filemtime( trailingslashit( plugin_dir_path( __FILE__ ) )  . 'css/colors/'. esc_attr( PORCH_COLOR_SCHEME ) .'.css' )  ?>" type="text/css" />
 

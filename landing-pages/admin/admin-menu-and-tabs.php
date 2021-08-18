@@ -2,9 +2,9 @@
 if ( ! defined( 'ABSPATH' ) ) { exit; } // Exit if accessed directly
 
 /**
- * Class DT_Porch_Template_Menu
+ * Class P4_Ramadan_Porch_Menu
  */
-class DT_Porch_Template_Landing_Menu {
+class P4_Ramadan_Porch_Landing_Menu {
 
     public $token = 'dt_porch_template';
     public $title = 'Settings';
@@ -69,11 +69,11 @@ class DT_Porch_Template_Landing_Menu {
             <?php
             switch ($tab) {
                 case "general":
-                    $object = new DT_Porch_Template_Landing_Tab_General();
+                    $object = new P4_Ramadan_Porch_Landing_Tab_General();
                     $object->content();
                     break;
                 case "second":
-                    $object = new DT_Porch_Template_Landing_Tab_Second();
+                    $object = new P4_Ramadan_Porch_Landing_Tab_Second();
                     $object->content();
                     break;
                 default:
@@ -86,18 +86,18 @@ class DT_Porch_Template_Landing_Menu {
         <?php
     }
 }
-DT_Porch_Template_Landing_Menu::instance();
+P4_Ramadan_Porch_Landing_Menu::instance();
 
 
 /**
- * Class DT_Porch_Template_Tab_General
+ * Class P4_Ramadan_Porch_Tab_General
  */
-class DT_Porch_Template_Landing_Tab_General {
+class P4_Ramadan_Porch_Landing_Tab_General {
     public function content() {
         ?>
         <div class="wrap">
             <div id="poststuff">
-                <div id="post-body" class="metabox-holder columns-2">
+                <div id="post-body" class="metabox-holder columns-1">
                     <div id="post-body-content">
                         <!-- Main Column -->
 
@@ -105,15 +105,6 @@ class DT_Porch_Template_Landing_Tab_General {
 
                         <!-- End Main Column -->
                     </div><!-- end post-body-content -->
-                    <div id="postbox-container-1" class="postbox-container">
-                        <!-- Right Column -->
-
-                        <?php $this->right_column() ?>
-
-                        <!-- End Right Column -->
-                    </div><!-- postbox-container 1 -->
-                    <div id="postbox-container-2" class="postbox-container">
-                    </div><!-- postbox-container 2 -->
                 </div><!-- post-body meta box container -->
             </div><!--poststuff end -->
         </div><!-- wrap end -->
@@ -121,94 +112,48 @@ class DT_Porch_Template_Landing_Tab_General {
     }
 
     public function main_column() {
-
-        if ( isset( $_POST['landing_home'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['landing_home'] ) ), 'landing_home'. get_current_user_id() ) && isset( $_POST['selected_home_page'] ) ) {
+        if ( isset( $_POST['home_page_nonce'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['home_page_nonce'] ) ) ) ) {
             dt_write_log( $_POST );
-            $id = sanitize_text_field( wp_unslash( $_POST['selected_home_page'] ) );
-            update_option( PORCH_LANDING_META_KEY . '_home_page', $id, true );
         }
-
-        $selected = get_option( PORCH_LANDING_META_KEY . '_home_page' );
-        $args = array(
-            'post_type' => PORCH_LANDING_POST_TYPE,
-            'post_status' => 'publish',
-            'posts_per_page' => -1,
-            'orderby' => 'post_title',
-            'order' => 'ASC'
-        );
-        $list = new WP_Query($args);
         ?>
         <!-- Box -->
         <form method="post">
-            <?php wp_nonce_field( 'landing_home'. get_current_user_id(), 'landing_home' ) ?>
-        <table class="widefat striped">
-            <thead>
+            <?php wp_nonce_field( 'home_page_nonce', 'home_page_nonce') ?>
+            <table class="widefat striped">
+                <thead>
                 <tr>
                     <th>Home Page</th>
                 </tr>
-            </thead>
-            <tbody>
-
-            <tr>
-                <td>
-                    <select name="selected_home_page">
-                        <option></option>
-                        <?php
-                        if ( ! empty( $list->posts ) ) {
-                            foreach ( $list->posts as $post_object ) {
-                                if ( $selected == $post_object->ID ) {
-                                    ?>
-                                    <option value="<?php echo esc_attr( $post_object->ID ) ?>" selected><?php echo esc_html( $post_object->post_title ) ?></option>
-                                    <?php
-                                } else {
-                                    ?>
-                                    <option value="<?php echo esc_attr( $post_object->ID ) ?>"><?php echo esc_html( $post_object->post_title ) ?></option>
-                                    <?php
-                                }
-                            }
-                        }
-                        ?>
-                    </select>
-
-                    <button type="submit" class="button">Update</button>
-                </td>
-            </tr>
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        Theme Color
+                        <select name="theme_color">
+                            <option value="preset">Blue (preset)</option>
+                            <option value="teal">Teal</option>
+                            <option value="green">Green</option>
+                            <option value="forestgreen">Forest Green</option>
+                            <option value="purple">Purple</option>
+                            <option value="orange">Orange</option>
+                        </select>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
         </form>
         <br>
         <!-- End Box -->
         <?php
     }
 
-    public function right_column() {
-        ?>
-        <!-- Box -->
-        <table class="widefat striped">
-            <thead>
-                <tr>
-                    <th>Information</th>
-                </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>
-                    Content
-                </td>
-            </tr>
-            </tbody>
-        </table>
-        <br>
-        <!-- End Box -->
-        <?php
-    }
 }
 
 
 /**
- * Class DT_Porch_Template_Tab_Second
+ * Class P4_Ramadan_Porch_Tab_Second
  */
-class DT_Porch_Template_Landing_Tab_Second {
+class P4_Ramadan_Porch_Landing_Tab_Second {
     public function content() {
         ?>
         <div class="wrap">
