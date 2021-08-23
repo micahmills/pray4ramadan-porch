@@ -1,7 +1,7 @@
 <?php
 if ( !defined( 'ABSPATH' ) ) { exit; } // Exit if accessed directly.
 
-class P4_Ramadan_Porch_Home_5 extends DT_Magic_Url_Base
+class P4_Ramadan_Porch_Home_5_Signup extends DT_Magic_Url_Base
 {
     public $magic = false;
     public $parts = false;
@@ -22,7 +22,7 @@ class P4_Ramadan_Porch_Home_5 extends DT_Magic_Url_Base
         parent::__construct();
 
         $url = dt_get_url_path();
-        if ( empty( $url ) && ! dt_is_rest() ) {
+        if ('signup' === $url && ! dt_is_rest() ) {
 
             // register url and access
             add_action( "template_redirect", [ $this, 'theme_redirect' ] );
@@ -72,7 +72,7 @@ class P4_Ramadan_Porch_Home_5 extends DT_Magic_Url_Base
 
     public function body(){
         require_once( 'top-section.php' );
-        require_once( 'body.php' );
+        require_once( 'signup-body.php' );
     }
 }
-P4_Ramadan_Porch_Home_5::instance();
+P4_Ramadan_Porch_Home_5_Signup::instance();

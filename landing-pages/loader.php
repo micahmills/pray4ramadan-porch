@@ -1,40 +1,6 @@
 <?php
 if ( !defined( 'ABSPATH' ) ) { exit; } // Exit if accessed directly.
 
-if ( ! defined( 'PORCH_LANDING_ROOT' ) ) {
-    define( 'PORCH_LANDING_ROOT', 'prayer' ); // Alphanumeric key. Use underscores not hyphens. No special characters.
-}
-if ( ! defined( 'PORCH_LANDING_TYPE' ) ) {
-    define( 'PORCH_LANDING_TYPE', 'fuel' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
-}
-if ( ! defined( 'PORCH_LANDING_META_KEY' ) ) {
-    define( 'PORCH_LANDING_META_KEY', PORCH_LANDING_ROOT . '_' . PORCH_LANDING_TYPE . '_magic_key' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
-}
-if ( ! defined( 'PORCH_LANDING_POST_TYPE' ) ) {
-    define( 'PORCH_LANDING_POST_TYPE', 'landing' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
-}
-if ( ! defined( 'PORCH_LANDING_POST_TYPE_SINGLE' ) ) {
-    define( 'PORCH_LANDING_POST_TYPE_SINGLE', 'Landing' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
-}
-if ( ! defined( 'PORCH_LANDING_POST_TYPE_PLURAL' ) ) {
-    define( 'PORCH_LANDING_POST_TYPE_PLURAL', 'Landings' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
-}
-
-// load required files
-// load admin files only if in admin
-if ( is_admin() ) {
-    $required_admin_files = scandir( plugin_dir_path( __FILE__ ) . '/admin' );
-    foreach ( $required_admin_files as $file ) {
-        if ( substr( $file, -4, '4' ) === '.php' ) {
-            require_once( trailingslashit( plugin_dir_path( __FILE__ ) ) . '/admin/' . $file );
-        }
-    }
-}
-require_once( 'roles-and-permissions.php' );
-require_once( 'landing-post-type.php' );
-require_once( 'archive.php' );
-require_once( 'rest.php' );
-
 
 class P4_Ramadan_Porch_Landing extends DT_Magic_Url_Base
 {
@@ -92,6 +58,7 @@ class P4_Ramadan_Porch_Landing extends DT_Magic_Url_Base
     }
 
     public function body(){
+        require_once( plugin_dir_path(__DIR__) . 'home-5/top-section.php' );
         require_once('body.php');
     }
 

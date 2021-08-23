@@ -87,7 +87,7 @@ a{
 }
 h1,h2,h3,h4,h5{
 	font-family: 'Raleway', sans-serif;
-	font-size: 40px;	
+	font-size: 40px;
 	font-weight: 100;
 	letter-spacing: 1px;
 }
@@ -177,7 +177,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{
 			color: @preset;
 		}
 	}
-	
+
 	.logo-menu a{color: @preset;}
 
    }
@@ -211,7 +211,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{
    .navbar-light .navbar-nav .active > .nav-link,
    .navbar-light .navbar-nav .nav-link.active,
    .navbar-light .navbar-nav .nav-link.active:before,
-   .navbar-light .navbar-nav .nav-link.open, 
+   .navbar-light .navbar-nav .nav-link.open,
    .navbar-light .navbar-nav .open > .nav-link{
    	color: @preset;
    	-webkit-transform: scale(1);
@@ -228,12 +228,12 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{
    		color: #333!important;
    	}
    }
-   
+
 /* ==========================================================================
    Hero Area Style
-   ========================================================================== */  
+   ========================================================================== */
 	#hero-area{
-		background: url(../img/hero-area.jpg) fixed no-repeat;
+		//background: url(../img/hero-area.jpg) fixed no-repeat;
 		background-size: cover;
 		color: #fff;
 		overflow: hidden;
@@ -242,7 +242,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{
 			position: absolute;
 			width: 100%;
 			height: 100%;
-			top: 0px;			
+			top: 0px;
 			left: 0px;
 			background: @preset;
 			opacity: 0.7;
@@ -250,7 +250,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{
 		}
 		.contents{
 			padding: 160px 0 80px;
-			h1{	
+			h1{
 				color: #fff;
 				font-size: 50px;
 				font-weight: 100;
@@ -292,7 +292,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{
 			line-height: 36px;
 			text-transform: uppercase;
 		}
-		p{			
+		p{
 			color: #ffffff;
 			font-size: 14px;
 			font-weight: 400;
@@ -313,7 +313,49 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{
 		position: relative;
 		.contents{
 			padding: 160px 0 80px;
-			h1{	
+			h1{
+				color: #fff;
+				font-size: 50px;
+				font-weight: 600;
+				margin-bottom: 25px;
+				line-height: 70px;
+			}
+			p{
+				font-size: 14px;
+				color: #fff;
+				font-weight: 400;
+				line-height: 30px;
+				letter-spacing: 0.5px;
+			}
+			.btn{margin:20px 10px; text-transform: uppercase;}
+		}
+		.banner_bottom_btn{
+			margin-top: 40px;
+			i{
+				color: #fff;
+				font-size: 48px;
+				-webkit-transition: all 0.2s linear;
+				-moz-transition: all 0.2s linear;
+				-o-transition: all 0.2s linear;
+				transition: all 0.2s linear;
+				&:hover{
+					color: @preset;
+				}
+			}
+		}
+	}
+
+	.overlay-2{background: rgba(0, 0, 0, 0.7) !important;}
+
+	/* ==========================================================================
+	Image Background
+	========================================================================== */
+	#image-area{
+		overflow: hidden;
+		position: relative;
+		.contents{
+			padding: 160px 0 80px;
+			h1{
 				color: #fff;
 				font-size: 50px;
 				font-weight: 600;
@@ -353,7 +395,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{
    ========================================================================== */
    #about{
    	position: relative;
-   	background: #f2f2f2;   	
+   	background: #f2f2f2;
    }
    .item-boxes{
    		text-align: center;
@@ -394,7 +436,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{
 
 	#services{
 	   	position: relative;
-	   	background: #f2f2f2;   	
+	   	background: #f2f2f2;
    }
 
  /* ==========================================================================
@@ -479,13 +521,13 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{
    Screenshots Section Start
    ========================================================================== */
    #screenshots{
-   	 background: #f2f2f2;	   
+   	 background: #f2f2f2;
    	}
 	.shot-item{
 		margin-right: 15px;
 		padding: 8px;
 		border-radius: 4px;
-		background: #fff;   		
+		background: #fff;
 		img{
 			width: 100%;
 		}
@@ -571,7 +613,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{
 	}
 	.controls{
 	  text-align: center;
-	  padding: 0px 0px 20px;  
+	  padding: 0px 0px 20px;
 	  .mixitup-control-active{
 	    color: @preset!important;
 	    border-color: @preset;
@@ -591,7 +633,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{
 	  position: relative;
 	  img{
 	    width: 100%;
-	  } 
+	  }
 	}
 	.portfoli-content{
 	  width: 100%;
@@ -615,7 +657,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{
 	    -o-transform:scale(0.9);
 	    transform:scale(0.9);
 	    -webkit-transition: all 400ms ease;
-	    transition: all 400ms ease; 
+	    transition: all 400ms ease;
 	  }
 	}
 	.sup-desc-wrap{
@@ -695,7 +737,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{
    .video-promo{
 	   	background: url(../img/bg_2.jpg) fixed;
 	   	background-position: cover;
-		position: relative;		
+		position: relative;
 		.video-promo-content{
 			color: #fff;
 			h2{
@@ -750,7 +792,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{
 		-moz-transition: all 0.3s;
 		transition: all 0.3s;
 		&:hover{
-			box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);			
+			box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);
 		}
 		text-align: center;
 		.icon{
@@ -808,7 +850,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{
 					color: #fff;
 				}
 			}
-			
+
 			.fact-count{
 				h3{
 					font-size: 35px;
@@ -825,10 +867,10 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{
 
 /* ==========================================================================
    Testimonial Section Style
-   ========================================================================== */   
+   ========================================================================== */
 	#testimonial {
 		background: #f2f2f2;
-	}	
+	}
 	.testimonial-item{
 		text-align: center;
 		img {
@@ -846,7 +888,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{
 				font-size: 15px;
 				color: #999;
 			}
-			p {			  	
+			p {
 			  	font-size: 14px;
 				font-weight: 400;
 			  	padding: 20px 10px 20px 10px;
@@ -865,7 +907,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{
 		margin-top: 20px;
 	}
 /* ==========================================================================
-   Download 
+   Download
    ========================================================================== */
    #download{
 background-image: linear-gradient(120deg, #89f7fe 0%, #4676fa 100%);
@@ -884,14 +926,14 @@ background-image: linear-gradient(120deg, #89f7fe 0%, #4676fa 100%);
 
 
 /* ==========================================================================
-   Blog 
+   Blog
    ========================================================================== */
   #blog{
     .blog-item-wrapper{
       background: #fff;
-      border-radius: 0px;  
-      margin-bottom: 30px;       
-      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);	
+      border-radius: 0px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
       -webkit-transition: transform 0.2s linear, -webkit-box-shadow 0.2s linear;
       -moz-transition: transform 0.2s linear, -moz-box-shadow 0.2s linear;
       transition: transform 0.2s linear, box-shadow 0.2s linear;
@@ -905,7 +947,7 @@ background-image: linear-gradient(120deg, #89f7fe 0%, #4676fa 100%);
     	width: 100%;
     }
     .blog-item-img{
-      position: relative; 
+      position: relative;
       img{
         width: 100%;
       }
@@ -958,11 +1000,11 @@ background-image: linear-gradient(120deg, #89f7fe 0%, #4676fa 100%);
       }
       p{
       		line-height: 25px; margin-bottom: 20px;
-      	}    
+      	}
       }
   }
 
- 
+
  /* ==========================================================================
     Contact Us
     ========================================================================== */
@@ -995,7 +1037,7 @@ background-image: linear-gradient(120deg, #89f7fe 0%, #4676fa 100%);
 		#contactForm{
 			margin-top: 30px;
 		}
-	} 
+	}
 	.text-danger{
 		font-size: 14px;
 		margin-top: 10px;
@@ -1042,8 +1084,8 @@ background-image: linear-gradient(120deg, #89f7fe 0%, #4676fa 100%);
 		font-family: 'Lato', sans-serif;
 		cursor: pointer;
     }
- 
- 
+
+
 /* ==========================================================================
    Footer Style
    ========================================================================== */
@@ -1225,7 +1267,7 @@ background-image: linear-gradient(120deg, #89f7fe 0%, #4676fa 100%);
 	  position: absolute;
 	  top: 0;
 	  left: 0;
-	  
+
 	  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
 	  animation: sk-bounce 2.0s infinite ease-in-out;
 	}
@@ -1241,10 +1283,10 @@ background-image: linear-gradient(120deg, #89f7fe 0%, #4676fa 100%);
 	}
 
 	@keyframes sk-bounce {
-	  0%, 100% { 
+	  0%, 100% {
 	    transform: scale(0.0);
 	    -webkit-transform: scale(0.0);
-	  } 50% { 
+	  } 50% {
 	    transform: scale(1.0);
 	    -webkit-transform: scale(1.0);
 	  }

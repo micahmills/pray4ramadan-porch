@@ -1,48 +1,4 @@
 
-<!-- WHAT IS RAMADAN -->
-<section id="description" class="section gray-background">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">What is <span>Ramadan</span>?</h2>
-            <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-sm-6">
-                <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
-                    <p>
-                        Ramadan is one of the five requirements (or pillars) of Islam. During each of its 30 days, Muslims
-                        are obligated to fast from dawn until sunset. During this time they are supposed to abstain from
-                        food, drinking liquids, smoking, and sexual relations.
-                    </p>
-                    <p>
-                        In Tunisia, women typically spend the afternoons preparing a big meal. At sunset, families often
-                        gather to break the fast. Traditionally the families break the fast with a drink of water, then
-                        three dried date fruits, and a multi-course meal. After watching the new Ramadan TV series, men
-                        (and some women) go out to coffee shops where they drink coffee, and smoke with friends until late
-                        into the night.
-                    </p>
-                    <p>
-                        Though many Tunisians have stopped fasting in recent years, and lots of Tunisians are turned off
-                        by the hypocrisy, increased crime rates, and rudeness that is pervasive through the month, lots
-                        of Tunisians become more serious about religion during this time. Many attend the evening prayer
-                        services and do the other ritual prayers. Some even read the entire Quran (about a tenth the length
-                        of the Bible). This sincere seeking makes it a strategic time for us to pray for them.
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-6">
-                <div class="item-boxes wow fadeInDown" data-wow-delay="0.4s">
-                    <div class="shot-item">
-                        <img src="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>img/portfolio/img1.jpg" alt="" />
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-<!-- Services Section End -->
-
 
 <!-- SIGN UP TO PRAY -->
 <section id="features" name="sign_up" class="section" data-stellar-background-ratio="0.2">
@@ -60,7 +16,7 @@
 <!-- Features Section End -->
 
 <!-- BLUE COUNTER ROW -->
-<div class="counters section" data-stellar-background-ratio="0.5" >
+<div class="counters section" data-stellar-background-ratio="0.5" style="background:url(<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>img/placeholders/1900x1200_img_1.jpg) fixed;">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">

@@ -31,7 +31,9 @@ class P4_Ramadan_Porch_Landing_Menu {
      * @since 0.1
      */
     public function register_menu() {
-        add_submenu_page( 'edit.php?post_type='.PORCH_LANDING_POST_TYPE, $this->title, $this->title, 'manage_dt', $this->token, [ $this, 'content' ] );
+        if ( current_user_can( 'wp_api_allowed_user' ) ) {
+            add_submenu_page( 'edit.php?post_type='.PORCH_LANDING_POST_TYPE, $this->title, $this->title, 'manage_dt', $this->token, [ $this, 'content' ] );
+        }
     }
 
     /**
@@ -45,7 +47,7 @@ class P4_Ramadan_Porch_Landing_Menu {
      */
     public function content() {
 
-        if ( !current_user_can( 'manage_dt' ) ) { // manage dt is a permission that is specific to Disciple Tools and allows admins, strategists and dispatchers into the wp-admin
+        if ( !current_user_can( 'wp_api_allowed_user' ) ) { // manage dt is a permission that is specific to Disciple Tools and allows admins, strategists and dispatchers into the wp-admin
             wp_die( 'You do not have sufficient permissions to access this page.' );
         }
 
@@ -112,9 +114,24 @@ class P4_Ramadan_Porch_Landing_Tab_General {
     }
 
     public function main_column() {
-        if ( isset( $_POST['home_page_nonce'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['home_page_nonce'] ) ) ) ) {
-            dt_write_log( $_POST );
+        if ( isset( $_POST['home_page_nonce'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['home_page_nonce'] ) ), 'home_page_nonce' ) ) {
+            if ( isset( $_POST['theme_color'] ) ) {
+                $theme = sanitize_text_field( wp_unslash( $_POST['theme_color'] ) );
+                update_option( PORCH_LANDING_META_KEY . '_theme_color', $theme, true );
+            }
         }
+
+        $dir = scandir( plugin_dir_path(__DIR__) . '../home-5/css/colors');
+        $list = [];
+        foreach( $dir as $file ) {
+            if ( substr( $file, -4, 4 ) === '.css' ){
+                $f = explode('.', $file );
+                $key = $f[0];
+                $label = ucwords( $key );
+                $list[$key] = $label;
+            }
+        }
+        $theme_color = get_option( PORCH_LANDING_META_KEY . '_theme_color' );
         ?>
         <!-- Box -->
         <form method="post">
@@ -128,15 +145,27 @@ class P4_Ramadan_Porch_Landing_Tab_General {
                 <tbody>
                 <tr>
                     <td>
-                        Theme Color
+                        <strong>Theme Color</strong><br>
                         <select name="theme_color">
-                            <option value="preset">Blue (preset)</option>
-                            <option value="teal">Teal</option>
-                            <option value="green">Green</option>
-                            <option value="forestgreen">Forest Green</option>
-                            <option value="purple">Purple</option>
-                            <option value="orange">Orange</option>
+                            <?php
+                            if ( $theme_color ) {
+                                ?>
+                                <option value="<?php echo $theme_color ?>"><?php echo $list[$theme_color] ?? ''?></option>
+                                <option disabled>-----</option>
+                                <?php
+                            }
+                            foreach( $list as $key => $label ) {
+                                 ?>
+                                <option value="<?php echo $key ?>"><?php echo $label ?></option>
+                                <?php
+                            }
+                           ?>
                         </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit" class="button">Update</button>
                     </td>
                 </tr>
                 </tbody>

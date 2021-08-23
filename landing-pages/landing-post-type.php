@@ -68,7 +68,6 @@ class P4_Ramadan_Porch_Landing_Post_Type
     }
 
 
-
     /**
      * Register the post type.
      *
@@ -96,15 +95,15 @@ class P4_Ramadan_Porch_Landing_Post_Type
                 ), /* end of arrays */
                 'description' => $this->singular, /* Custom Type Description */
                 'public' => true,
-                'publicly_queryable' => false,
+                'publicly_queryable' => true,
                 'exclude_from_search' => true,
                 'show_ui' => true,
-                'query_var' => false,
+                'query_var' => true,
                 'show_in_nav_menus' => true,
                 'menu_position' => 5, /* this is what order you want it to appear in on the left hand side menu */
                 'menu_icon' => 'dashicons-book', /* the icon for the custom post type menu. uses built-in dashicons (CSS class name) */
-                'rewrite' => false, /* you can specify its url slug */
-                'has_archive' => false, /* you can rename the slug here */
+                'rewrite' => true, /* you can specify its url slug */
+                'has_archive' => true, /* you can rename the slug here */
                 'capabilities' => [
                     'create_posts'        => 'create_'.$this->post_type,
                     'edit_post'           => 'edit_'.$this->post_type, // needed for bulk edit
@@ -127,7 +126,7 @@ class P4_Ramadan_Porch_Landing_Post_Type
 
 
     public function transition_post( $new_status, $old_status, $post ) {
-        if ( 'publish' == $new_status && $post->post_type == PORCH_LANDING_POST_TYPE ) {
+        if ( ('publish' == $new_status || 'future' == $new_status ) && $post->post_type == PORCH_LANDING_POST_TYPE ) {
 
             $post_id = $post->ID;
             $slug = trim( strtolower( $post->post_title ) );
@@ -168,7 +167,7 @@ class P4_Ramadan_Porch_Landing_Post_Type
         switch ( $column ) {
             case 'url' :
                 $public_key = get_post_meta( $post_id, PORCH_LANDING_META_KEY, true );
-                echo '<a href="' . trailingslashit( site_url() ) . PORCH_LANDING_ROOT . '/' . PORCH_LANDING_TYPE . '/' . $public_key . '">'. trailingslashit( site_url() ) . PORCH_LANDING_ROOT . '/' . PORCH_LANDING_TYPE . '/' . $public_key .'</a>';
+                echo '<a href="' . esc_url( trailingslashit( site_url() ) ) . esc_attr( PORCH_LANDING_ROOT ) . '/' . esc_attr( PORCH_LANDING_TYPE ) . '/' . esc_attr( $public_key ) . '">'. esc_url( trailingslashit( site_url() ) ) . esc_attr( PORCH_LANDING_ROOT ) . '/' . esc_attr( PORCH_LANDING_TYPE ) . '/' . esc_attr( $public_key ) .'</a>';
                 break;
 
         }

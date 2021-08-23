@@ -30,59 +30,6 @@ $args = array(
 $list = new WP_Query( $args );
 ?>
 
-<div class="menu-wrap">
-    <nav class="menu navbar">
-        <div class="icon-list navbar-collapse">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/#">Sign Up</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/prayer/list">Prayer Fuel</a>
-                </li>
-            </ul>
-            <hr>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Today's Fuel</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#blog">All Days</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <button class="close-button" id="close-button"><i class="lnr lnr-cross"></i></button>
-</div>
-
-<!-- HEADER -->
-<header id="video-area" data-stellar-background-ratio="0.5">
-    <!-- Note: Video file background is defined through the data-vide-bg param using the jquery.vide.js library. The .mp4 is not needed, the jQuery plugin senses the file type. video(folder)/video(filename) -->
-    <div id="block" data-vide-bg="<?php echo esc_url( trailingslashit( plugin_dir_url( __DIR__ ) ) ) ?>home-5/video/video"></div>
-    <div class="fixed-top">
-        <div class="container">
-            <div class="logo-menu">
-                <a href="/" class="logo">Pray4Tunisia</a>
-                <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button>
-            </div>
-        </div>
-    </div>
-    <div class="overlay overlay-2"></div>
-    <div class="container">
-        <div class="row justify-content-md-center">
-            <div class="col-md-10">
-                <div class="contents text-center">
-                    <h1><?php echo $title ?></h1>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-<!-- Header Section End -->
-
 
 <!-- Contact Section Start -->
 <section id="contact" class="section">

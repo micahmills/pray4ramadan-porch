@@ -75,10 +75,64 @@ class P4_Ramadan_Porch {
     }
 
     private function __construct() {
+        if ( ! defined( 'PORCH_TITLE' ) ) {
+            define( 'PORCH_TITLE', 'Home 5' ); // Used in tabs and titles, avoid special characters. Spaces are okay.
+        }
+        if ( ! defined( 'PORCH_ROOT' ) ) {
+            define( 'PORCH_ROOT', 'porch_app' ); // Alphanumeric key. Use underscores not hyphens. No special characters.
+        }
+        if ( ! defined( 'PORCH_TYPE' ) ) {
+            define( 'PORCH_TYPE', '5' ); // Alphanumeric key. Use underscores not hyphens. No special characters.
+        }
+        if ( ! defined( 'PORCH_TOKEN' ) ) {
+            define( 'PORCH_TOKEN', 'porch_app_5' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
+        }
+        if ( ! defined( 'PORCH_LANDING_ROOT' ) ) {
+            define( 'PORCH_LANDING_ROOT', 'prayer' ); // Alphanumeric key. Use underscores not hyphens. No special characters.
+        }
+        if ( ! defined( 'PORCH_LANDING_TYPE' ) ) {
+            define( 'PORCH_LANDING_TYPE', 'fuel' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
+        }
+        if ( ! defined( 'PORCH_LANDING_META_KEY' ) ) {
+            define( 'PORCH_LANDING_META_KEY', PORCH_LANDING_ROOT . '_' . PORCH_LANDING_TYPE . '_magic_key' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
+        }
+        if ( ! defined( 'PORCH_LANDING_POST_TYPE' ) ) {
+            define( 'PORCH_LANDING_POST_TYPE', 'landing' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
+        }
+        if ( ! defined( 'PORCH_LANDING_POST_TYPE_SINGLE' ) ) {
+            define( 'PORCH_LANDING_POST_TYPE_SINGLE', 'Landing' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
+        }
+        if ( ! defined( 'PORCH_LANDING_POST_TYPE_PLURAL' ) ) {
+            define( 'PORCH_LANDING_POST_TYPE_PLURAL', 'Landings' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
+        }
 
+        /**
+         * This template includes 6 color schemes set by the definition below.
+         * preset, teal, forestgreen, green, purple, orange
+         */
+        $theme = get_option( PORCH_LANDING_META_KEY . '_theme_color', 'preset' );
+        if ( ! defined( 'PORCH_COLOR_SCHEME' ) ) {
+            define( 'PORCH_COLOR_SCHEME', $theme ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
+        }
+
+        // MICROSITE
         require_once( 'home-5/loader.php' ); /* White/blue/grey, big sections, hover effects/animations */
-        require_once( 'landing-pages/loader.php' );
+        require_once( 'home-5/signup.php' );
 
+        // LANDING PAGE STRUCTURE
+        if ( is_admin() ) {
+            $required_admin_files = scandir( plugin_dir_path( __FILE__ ) . '/landing-pages/admin' );
+            foreach ( $required_admin_files as $file ) {
+                if ( substr( $file, -4, '4' ) === '.php' ) {
+                    require_once( trailingslashit( plugin_dir_path( __FILE__ ) ) . '/landing-pages/admin/' . $file );
+                }
+            }
+        }
+        require_once( 'landing-pages/roles-and-permissions.php' );
+        require_once( 'landing-pages/landing-post-type.php' );
+        require_once( 'landing-pages/archive.php' );
+        require_once( 'landing-pages/rest.php' );
+        require_once( 'landing-pages/loader.php' );
 
         if ( is_admin() ) {
             require_once( 'support/required-plugins/class-tgm-plugin-activation.php' );

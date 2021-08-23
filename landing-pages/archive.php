@@ -57,6 +57,7 @@ class P4_Ramadan_Porch_Landing_Archive extends DT_Magic_Url_Base
     }
 
     public function body(){
+        require_once( plugin_dir_path(__DIR__) . 'home-5/top-section.php' );
         require_once('archive-body.php');
     }
 
