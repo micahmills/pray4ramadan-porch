@@ -76,7 +76,7 @@ class P4_Ramadan_Porch {
 
     private function __construct() {
         if ( ! defined( 'PORCH_TITLE' ) ) {
-            define( 'PORCH_TITLE', 'Home 5' ); // Used in tabs and titles, avoid special characters. Spaces are okay.
+            define( 'PORCH_TITLE', 'Ramadan' ); // Used in tabs and titles, avoid special characters. Spaces are okay.
         }
         if ( ! defined( 'PORCH_ROOT' ) ) {
             define( 'PORCH_ROOT', 'porch_app' ); // Alphanumeric key. Use underscores not hyphens. No special characters.
@@ -115,30 +115,30 @@ class P4_Ramadan_Porch {
             define( 'PORCH_COLOR_SCHEME', $theme ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
         }
 
-        // MICROSITE
-        require_once( 'home-5/loader.php' ); /* White/blue/grey, big sections, hover effects/animations */
-        require_once( 'home-5/signup.php' );
+        // POST TYPE and ACCESS
+        require_once( 'site/roles-and-permissions.php' );
+        require_once( 'site/landing-post-type.php' );
 
-        // LANDING PAGE STRUCTURE
+        // MICROSITE Magic Links
+        require_once( 'site/home.php' );
+        require_once( 'site/signup.php' );
+        require_once( 'site/archive.php' );
+        require_once( 'site/landing.php' );
+        require_once( 'site/rest.php' );
+
+        // Admin Pages
         if ( is_admin() ) {
-            $required_admin_files = scandir( plugin_dir_path( __FILE__ ) . '/landing-pages/admin' );
+            $required_admin_files = scandir( plugin_dir_path( __FILE__ ) . '/site/admin' );
             foreach ( $required_admin_files as $file ) {
                 if ( substr( $file, -4, '4' ) === '.php' ) {
-                    require_once( trailingslashit( plugin_dir_path( __FILE__ ) ) . '/landing-pages/admin/' . $file );
+                    require_once( trailingslashit( plugin_dir_path( __FILE__ ) ) . '/site/admin/' . $file );
                 }
             }
-        }
-        require_once( 'landing-pages/roles-and-permissions.php' );
-        require_once( 'landing-pages/landing-post-type.php' );
-        require_once( 'landing-pages/archive.php' );
-        require_once( 'landing-pages/rest.php' );
-        require_once( 'landing-pages/loader.php' );
 
-        if ( is_admin() ) {
             require_once( 'support/required-plugins/class-tgm-plugin-activation.php' );
             require_once( 'support/required-plugins/config-required-plugins.php' );
-        }
 
+        }
 
         if ( is_admin() ){
             add_filter( 'plugin_row_meta', [ $this, 'plugin_description_links' ], 10, 4 ); // admin plugin page description

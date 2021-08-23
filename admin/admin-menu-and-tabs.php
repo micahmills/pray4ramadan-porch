@@ -121,11 +121,11 @@ class P4_Ramadan_Porch_Landing_Tab_General {
             }
         }
 
-        $dir = scandir( plugin_dir_path(__DIR__) . '../home-5/css/colors');
+        $dir = scandir( plugin_dir_path( __DIR__ ) . '../site/css/colors' );
         $list = [];
-        foreach( $dir as $file ) {
+        foreach ( $dir as $file ) {
             if ( substr( $file, -4, 4 ) === '.css' ){
-                $f = explode('.', $file );
+                $f = explode( '.', $file );
                 $key = $f[0];
                 $label = ucwords( $key );
                 $list[$key] = $label;
@@ -135,7 +135,7 @@ class P4_Ramadan_Porch_Landing_Tab_General {
         ?>
         <!-- Box -->
         <form method="post">
-            <?php wp_nonce_field( 'home_page_nonce', 'home_page_nonce') ?>
+            <?php wp_nonce_field( 'home_page_nonce', 'home_page_nonce' ) ?>
             <table class="widefat striped">
                 <thead>
                 <tr>
@@ -150,16 +150,16 @@ class P4_Ramadan_Porch_Landing_Tab_General {
                             <?php
                             if ( $theme_color ) {
                                 ?>
-                                <option value="<?php echo $theme_color ?>"><?php echo $list[$theme_color] ?? ''?></option>
+                                <option value="<?php echo esc_attr( $theme_color ) ?>"><?php echo esc_html( $list[$theme_color] ) ?? ''?></option>
                                 <option disabled>-----</option>
                                 <?php
                             }
-                            foreach( $list as $key => $label ) {
-                                 ?>
-                                <option value="<?php echo $key ?>"><?php echo $label ?></option>
+                            foreach ( $list as $key => $label ) {
+                                ?>
+                                <option value="<?php echo esc_attr( $key ) ?>"><?php echo esc_attr( $label ) ?></option>
                                 <?php
                             }
-                           ?>
+                            ?>
                         </select>
                     </td>
                 </tr>

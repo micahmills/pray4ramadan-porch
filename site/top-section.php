@@ -35,7 +35,7 @@
         <div class="row justify-content-md-center">
             <div class="col-md-12">
                 <div class="contents content-height text-center">
-                    <img src="<?php echo plugin_dir_url(__FILE__) ?>img/logo.png" alt=""  />
+                    <img src="<?php echo esc_url( plugin_dir_url( __FILE__ ) ) ?>img/logo.png" alt=""  />
                 </div>
             </div>
         </div>

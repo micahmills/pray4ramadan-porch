@@ -1,12 +1,11 @@
 <?php
 if ( !defined( 'ABSPATH' ) ) { exit; } // Exit if accessed directly.
 
-
-class P4_Ramadan_Porch_Landing extends DT_Magic_Url_Base
+class P4_Ramadan_Porch_Landing_Archive extends DT_Magic_Url_Base
 {
-    public $page_title = PORCH_LANDING_POST_TYPE_SINGLE;
+    public $page_title = 'Ramadan Posts';
     public $root = PORCH_LANDING_ROOT;
-    public $type = PORCH_LANDING_TYPE;
+    public $type = 'list';
     public $post_type = PORCH_LANDING_POST_TYPE;
     public $meta_key = PORCH_LANDING_META_KEY;
 
@@ -25,7 +24,7 @@ class P4_Ramadan_Porch_Landing extends DT_Magic_Url_Base
          * tests if other URL
          */
         $url = dt_get_url_path();
-        $length = strlen($this->root . '/' . $this->type );
+        $length = strlen( $this->root . '/' . $this->type );
         if ( substr( $url, 0, $length ) !== $this->root . '/' . $this->type ) {
             return;
         }
@@ -58,16 +57,16 @@ class P4_Ramadan_Porch_Landing extends DT_Magic_Url_Base
     }
 
     public function body(){
-        require_once( plugin_dir_path(__DIR__) . 'home-5/top-section.php' );
-        require_once('body.php');
+        require_once( 'top-section.php' );
+        require_once( 'archive-body.php' );
     }
 
     public function footer_javascript(){
-        require_once('footer.php');
+        require_once( 'footer.php' );
     }
 
     public function header_javascript(){
         require_once( 'header.php' );
     }
 }
-P4_Ramadan_Porch_Landing::instance();
+P4_Ramadan_Porch_Landing_Archive::instance();

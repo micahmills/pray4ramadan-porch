@@ -24,7 +24,7 @@ class P4_Ramadan_Porch_Landing_Media_Tab {
 
         // Adds back Media to Disciple Tools system
         add_filter( 'dt_remove_menu_pages', [ $this, 'add_media_tab' ], 10, 1 );
-        if ( '/wp-admin/upload.php' === $_SERVER['REQUEST_URI'] ) {
+        if ( isset( $_SERVER['REQUEST_URI'] ) && '/wp-admin/upload.php' === $_SERVER['REQUEST_URI'] ) {
             $this->media_page_warning();
         }
         add_filter( 'upload_mimes', [ $this, 'add_additional_mime_types' ], 1, 1 );

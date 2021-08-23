@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>css/magnific-popup.css">
 <link rel="stylesheet" href="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>css/animate.css">
 <link rel="stylesheet" href="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>css/menu_sideslide.css">
-<link rel="stylesheet" href="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>css/main.css?ver=<?php echo filemtime( trailingslashit( plugin_dir_path( __FILE__ ) ) . 'css/main.css' )  ?>">
+<link rel="stylesheet" href="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>css/main.css?ver=<?php echo esc_attr( filemtime( trailingslashit( plugin_dir_path( __FILE__ ) ) . 'css/main.css' ) ) ?>">
 <link rel="stylesheet" href="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>css/responsive.css">
 <script>
     let jsObject = [<?php echo json_encode([
@@ -30,5 +30,5 @@
     ]) ?>][0]
 </script>
 
-<link rel="stylesheet" id="colors" href="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>css/colors/<?php echo esc_attr( PORCH_COLOR_SCHEME ) ?>.css?ver=<?php echo filemtime( trailingslashit( plugin_dir_path( __FILE__ ) )  . 'css/colors/'. esc_attr( PORCH_COLOR_SCHEME ) .'.css' )  ?>" type="text/css" />
+<link rel="stylesheet" id="colors" href="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>css/colors/<?php echo esc_attr( PORCH_COLOR_SCHEME ) ?>.css?ver=<?php echo esc_attr( filemtime( trailingslashit( plugin_dir_path( __FILE__ ) ) ) . 'css/colors/'. esc_attr( PORCH_COLOR_SCHEME ) .'.css' )  ?>" type="text/css" />
 

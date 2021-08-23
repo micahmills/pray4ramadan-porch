@@ -58,13 +58,13 @@ class P4_Ramadan_Porch_Landing_Post_Type
 
     public function add_meta_box( $post_type ) {
         if ( PORCH_LANDING_POST_TYPE === $post_type ) {
-            add_meta_box( PORCH_LANDING_POST_TYPE . '_custom_permalink', PORCH_LANDING_POST_TYPE_SINGLE . ' Url', [ $this, 'meta_box_custom_permalink'], PORCH_LANDING_POST_TYPE, 'side', 'default' );
+            add_meta_box( PORCH_LANDING_POST_TYPE . '_custom_permalink', PORCH_LANDING_POST_TYPE_SINGLE . ' Url', [ $this, 'meta_box_custom_permalink' ], PORCH_LANDING_POST_TYPE, 'side', 'default' );
         }
     }
 
     public function meta_box_custom_permalink( $post ) {
         $public_key = get_post_meta( $post->ID, PORCH_LANDING_META_KEY, true );
-        echo '<a href="' . trailingslashit( site_url() ) . PORCH_LANDING_ROOT . '/' . PORCH_LANDING_TYPE . '/' . $public_key . '">'. trailingslashit( site_url() ) . PORCH_LANDING_ROOT . '/' . PORCH_LANDING_TYPE . '/' . $public_key .'</a>';
+        echo '<a href="' . esc_url( trailingslashit( site_url() ) . PORCH_LANDING_ROOT . '/' . PORCH_LANDING_TYPE . '/' . $public_key ) . '">'. esc_url( trailingslashit( site_url() ) . PORCH_LANDING_ROOT . '/' . PORCH_LANDING_TYPE . '/' . $public_key ) .'</a>';
     }
 
 
@@ -126,7 +126,7 @@ class P4_Ramadan_Porch_Landing_Post_Type
 
 
     public function transition_post( $new_status, $old_status, $post ) {
-        if ( ('publish' == $new_status || 'future' == $new_status ) && $post->post_type == PORCH_LANDING_POST_TYPE ) {
+        if ( ( 'publish' == $new_status || 'future' == $new_status ) && $post->post_type == PORCH_LANDING_POST_TYPE ) {
 
             $post_id = $post->ID;
             $slug = trim( strtolower( $post->post_title ) );
@@ -151,8 +151,7 @@ class P4_Ramadan_Porch_Landing_Post_Type
     }
 
     // Add the custom columns to the book post type:
-
-    function set_custom_edit_columns( $columns) {
+    public function set_custom_edit_columns( $columns) {
         unset( $columns['author'] );
         $columns['url'] = 'URL';
 
@@ -161,9 +160,8 @@ class P4_Ramadan_Porch_Landing_Post_Type
 
 
 
-// Add the data to the custom columns for the book post type:
-
-    function custom_column( $column, $post_id ) {
+    // Add the data to the custom columns for the book post type:
+    public function custom_column( $column, $post_id ) {
         switch ( $column ) {
             case 'url' :
                 $public_key = get_post_meta( $post_id, PORCH_LANDING_META_KEY, true );

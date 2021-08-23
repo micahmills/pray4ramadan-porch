@@ -33,7 +33,7 @@ $list = new WP_Query( $args );
                         <hr class="lines wow zoomIn" data-wow-delay="0.3s">
                     </div>
                     <div class="row">
-                        <?php foreach($today->posts as $item ) : ?>
+                        <?php foreach ($today->posts as $item ) : ?>
                             <?php echo wp_kses_post( $item->post_content ) ?>
                         <?php endforeach; ?>
                     </div>
@@ -54,27 +54,27 @@ $list = new WP_Query( $args );
             <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy <br> nibh euismod tincidunt ut laoreet dolore magna.</p>
         </div>
         <div class="row">
-            <?php foreach($list->posts as $item ) : ?>
-            <?php $public_key = get_post_meta( $item->ID, PORCH_LANDING_META_KEY, true ); ?>
+            <?php foreach ($list->posts as $item ) : ?>
+                <?php $public_key = get_post_meta( $item->ID, PORCH_LANDING_META_KEY, true ); ?>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item">
                 <!-- Blog Item Starts -->
                 <div class="blog-item-wrapper wow fadeInUp" data-wow-delay="0.3s">
                     <div class="blog-item-img">
-                        <a href="/prayer/fuel/<?php echo $public_key ?>">
+                        <a href="/prayer/fuel/<?php echo esc_attr( $public_key ) ?>">
                             <img src="<?php echo esc_url( trailingslashit( plugin_dir_url( __DIR__ ) ) ) ?>landing-pages/img/300x1.png" alt="">
                         </a>
                     </div>
                     <div class="blog-item-text">
                         <h3>
-                            <a href="#"><?php echo $item->post_title ?></a>
+                            <a href="#"><?php echo esc_html( $item->post_title ) ?></a>
                         </h3>
                         <div class="meta-tags">
-                            <span class="date"><i class="lnr lnr-calendar-full"></i>on <?php echo $item->post_date ?></span>
+                            <span class="date"><i class="lnr lnr-calendar-full"></i>on <?php echo esc_html( $item->post_date ) ?></span>
                         </div>
                         <p>
-                            <?php echo wp_kses_post( $item->post_excerpt ) ?>
+                            <?php echo wp_kses_post( esc_html( $item->post_excerpt ) ) ?>
                         </p>
-                        <a href="/prayer/fuel/<?php echo $public_key ?>" class="btn btn-common btn-rm">Read</a>
+                        <a href="/prayer/fuel/<?php echo esc_attr( $public_key ) ?>" class="btn btn-common btn-rm">Read</a>
                     </div>
                 </div>
                 <!-- Blog Item Wrapper Ends-->
