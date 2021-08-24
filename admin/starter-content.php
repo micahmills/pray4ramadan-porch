@@ -5,7 +5,6 @@ class P4_Ramadan_Porch_Starter_Content {
     public static $target_year = '2021'; // @todo update to 2022 for release
 
     public static function load_content() {
-        dt_write_log( __METHOD__ );
         $days = [
             'sample_fuel',
             'april_2',
@@ -156,7 +155,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p><em>"Now faith is the assurance of things hoped for, the conviction of things not seen. For by it the people of old received their commendation." (Hebrews 11:1-2) Give every believer in Tunisia courage to live by faith instead of by sight."</p>',
+                '<p>"Now faith is the assurance of things hoped for, the conviction of things not seen. For by it the people of old received their commendation." (Hebrews 11:1-2) Give every believer in Tunisia courage to live by faith instead of by sight."</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -197,7 +196,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>Thank You for the man in Beja who said he is reading slowly through the Bible. Please open the eyes of his heart to the truth of Your word.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -205,7 +204,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>I am H. from Tunis. I have been a believer for 4 years. I shared with my sister and her daughters, and they also believed! However, my husband and my own daughter have refused to believe. My daughter suffers from the results of witchcraft and is possessed by evil spirits. Please pray for her. She sometimes tries to take her own life.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -213,7 +212,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>"By faith we understand that the universe was created by the word of God, so that what is seen was not made out of things that are visible." (Hebrews 11:3) As Tunisians encounter the beauty of your creation through Mediterranean beaches, Saharan desert dunes, and luscious green hills may they be drawn to the Word through whom You created the world.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -221,7 +220,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>When Tunisians decide to follow Christ, they often find it hard to read the Bible.  There may be several reasons.  In the Tunisian culture people don`t tend to enjoy reading because it is rare to find books in the heart language. As Muslims, the Koran is difficult to understand so they leave the reading to the religious leaders.  Many Tunisians now prefer to watch YouTube videos rather than read. When Tunisians become Christians, if they don\'t immerse themselves in the Word, they find that they can\'t defend their faith when opposition comes. New believers don\'t continue in maturity when they don\'t read the Bible.  Recently, a few groups have begun, focusing on reading the Bible in a short period of time in order to understand God\'s big picture plan.  Pray for these groups to grow and continue.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -229,7 +228,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>The LORD alone is Owner. The heavens, the earth, and all the nations belong to You. (Psalm 24:1). "The earth is the Lord\'s and the fullness thereof, the world and those who dwell therein..."</p>',
                 '<!-- /wp:paragraph -->',
             ]
         ];
@@ -247,7 +246,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>We pray for the man in Ben Arous who has been on a journey towards Christ for quite a while. He has been reading the Bible and seems to be more open than ever. </p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -255,7 +254,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>I am S. from Bizerte. I am a Christian. I would like for you to pray for me. I suffer from severe back pain. Also pray that I will be able to share my faith with those I love.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -263,7 +262,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>"By faith Abel offered to God a more acceptable sacrifice than Cain, through which he was commended as righteous..." (Hebrews 11:4a) Convict Tunisians this Ramadan, Lord, that we can only be made right before you on your terms through faith, not ours.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -271,7 +270,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>For many Tunisians, money is their god.  Many are poor and believe the value of a person lies in how much money he has.  People marry based on the amount of money someone has.  Friendships are based on money.  Even in Christian families, couples find themselves still struggling to agree on how to view money.  Christians sometimes struggle to break away from money as a motivator in their lives.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -279,7 +278,10 @@ class P4_Ramadan_Porch_Starter_Content {
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>"The LORD alone is Ruler. You govern the heavens, the earth, and all the nations. (Psalm 33:10-11) ""The Lord brings the counsel of the nations to nothing;
+    he frustrates the plans of the peoples.
+The counsel of the Lord stands forever,
+    the plans of his heart to all generations."</p>',
                 '<!-- /wp:paragraph -->',
             ]
         ];
@@ -297,7 +299,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>We pray for the man in Binzerte who started reading the Bible after his wife left him and their children. Draw his heart to you and may he bring Good News to his whole family. </p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -305,7 +307,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>I am S. from just outside Tunis. I am learning about the Christian faith. I was severely abused as a child. I have friends like me who are now confused about the trauma of the past and about gender. Please pray for us. I want the Lord to forgive me, and I want to know His will for my life.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -313,7 +315,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>"...Now before he [Enoch] was taken he was commended as having pleased God." (Hebrews 11:5b) May believers in Tunisia, through faith, seek commendation from You more than man. May they live their lives in pursuit of Your approval alone.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -321,7 +323,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>Many young people today say that all religions are the same.  When they reject Islam because of its violence or lack of love, they reject all religions as man-made.  They claim to be atheists.  Pray for those who reject Islam, that they would search for a true relationship with God. </p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -329,7 +331,12 @@ class P4_Ramadan_Porch_Starter_Content {
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>"The LORD alone is Judge. You call the heavens, the earth, and all the nations to account. (Psalm 33:13-15) ""The Lord looks down from heaven;
+    he sees all the children of man;
+from where he sits enthroned he looks out
+    on all the inhabitants of the earth,
+he who fashions the hearts of them all
+    and observes all their deeds."""</p>',
                 '<!-- /wp:paragraph -->',
             ]
         ];

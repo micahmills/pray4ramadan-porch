@@ -24,7 +24,7 @@ $args = array(
     'post_type' => PORCH_LANDING_POST_TYPE,
     'post_status' => 'publish',
     'posts_per_page' => -1,
-    'orderby' => 'post_title',
+    'orderby' => 'post_date',
     'order' => 'DESC'
 );
 $list = new WP_Query( $args );
