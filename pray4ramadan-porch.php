@@ -169,6 +169,7 @@ class P4_Ramadan_Porch {
      */
     public static function activation() {
         // add elements here that need to fire on activation
+        P4_Ramadan_Porch_Starter_Content::load_content();
     }
 
     /**
