@@ -354,7 +354,7 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>Thank You for the man In Gabes who is reading the Bible every night. We pray for him to courageously obey Your Word and to find others who are open to reading the Bible, too.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -362,7 +362,7 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>I am N. My three daughters and I are Christians. We want to share our faith with others. My husband passed away this year and left us with many debts. Pray that I will be able to pay for my daughters’ education expenses and at the same time pay off our debts.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -370,7 +370,7 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>"And without faith it is impossible to please him, for whoever would draw near to God must believe that he exists and that he rewards those who seek him." (Hebrews 11:6) Lord, please cause multitudes of Tunisians to seek You and experience the greatest reward -- Yourself! </p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -378,7 +378,7 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>Sometimes Tunisian Christians find it hard to have strong relationships with other Tunisians.  Satan divides.  Pray that God would unify believers in One Spirit and One Truth.  </p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -386,7 +386,8 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>"The LORD alone is Revealer. In relation to the heavens, the earth, and all the nations, You speak the truth. (Psalm 33:4) ""For the word of the Lord is upright,
+    and all his work is done in faithfulness."""</p>',
                 '<!-- /wp:paragraph -->',
             ]
         ];
@@ -404,7 +405,7 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>Thank You for the woman in Gafsa who is hungry to read the Bible. May she voraciously read it and share it with others.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -412,7 +413,7 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>I am from Ben Arous. I chose to follow Jesus this year. I love reading the Bible and learning more about God. Two years ago my father died. Please pray for my mother and sister. I have been sharing the gospel with them.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -420,7 +421,7 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>"By faith Noah, being warned by God concerning events as yet unseen, in reverent fear constructed an ark for the saving of his household..." (Hebrews 11:7a) We pray for many heads of household, who like Noah, would take outrageous risks for the sake of saving their families.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -428,7 +429,7 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>Distractions can be a major obstacle to spiritual growth.  Tunisians who begin a relationship with Jesus, sometimes find themselves distracted by jobs, relationships, health, and the worries of this world.  Even when Christians pray, sometimes they find it hard to pray without distraction.  Pray that Tunisian Christians will have clarity as they pray and grow in the Word.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -436,7 +437,8 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>"The LORD alone is Lover. You love all that You made -- the heavens, the earth, and all the nations. (Psalm 145:9) ""The Lord is good to all,
+    and his mercy is over all that he has made."</p>',
                 '<!-- /wp:paragraph -->',
             ]
         ];
@@ -454,7 +456,7 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>Thank you for the man in Jendouba who is reading the Bible for the first time. Lead him to faith in You and to share Your word with others. </p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -462,7 +464,7 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>I am S. from Tunis. I am a Christian. My husband and daughters are Christians as well. We face persecution from our extended family. Please pray for our relatives and that we will know how to love them and be a light to them.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -470,7 +472,7 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>"By faith Abraham obeyed when he was called to go out to a place that he was to receive as an inheritance. And he went out, not knowing where he was going." (Hebrews 11:8) May both seekers and believers in Tunisia be willing to start on a journey of obedience to You despite not knowing how it may turn out in this life. </p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -478,7 +480,7 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>There is long held belief that treasures are hidden in the earth and that spirits protect them.  If one will give sacrifices to the spirits, they will reveal the treasure.  Some have even offered their babies with a special mark as a sacrifice.  Pray that this evil practice would stop.  Pray that people would no longer be drawn to these earthly treasures but to God\'s heavenly treasure.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -486,7 +488,9 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>"The LORD alone is Savior. You save all who turn to You in all the earth and among the nations. (Psalm 36:6) "" Your righteousness is like the mountains of God;
+    your judgments are like the great deep;
+    man and beast you save, O Lord."</p>',
                 '<!-- /wp:paragraph -->',
             ]
         ];
@@ -504,7 +508,7 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>We praise you for the man in Kairouan who is reading the Bible and has questions. May he find that all of his questions are answered in Christ\'s life, death, burial, and resurrection. </p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -512,7 +516,7 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>I am I. I have been a believer for 15 years. My wife and daughters are also believers. I have a dream to see all of Tunisia reached for Christ. I travel the country sharing my faith. Pray that our family will be able to minister together. Pray that we will be able to help others start house churches.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -520,7 +524,7 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>"By faith he went to live in the land of promise as in a foreign land, living in tents with Isaac and Jacob, heirs with him of the same promise. For he was looking forward to the city that has foundations, whose designer and builder is God." (Hebrews 11:9-10) May Tunisian believers embrace their heavenly citizenship and being confirmed into heaven\'s customs, language, priorities, and values in ever-increasing measures.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -528,7 +532,7 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>Every small town has its own saint and shrines dedicated to these saints.  These shrines are often found outside the town in a high place, just as the high places in the Old Testament, so that the saint can protect the area.  Tunisians go to these shrines and offer animal sacrifices and vows in order to receive help in their studies, finding a mate, fertility, and money.  These covenants tie them spiritually to spirits that keep them in bondage.  Pray for freedom from those who have previously made covenants with these spirits.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -536,7 +540,9 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>"The LORD alone is Leader. You guide all the nations. (Psalm 67:4) ""Let the nations be glad and sing for joy,
+    for you judge the peoples with equity
+    and guide the nations upon earth."""</p>',
                 '<!-- /wp:paragraph -->',
             ]
         ];
@@ -554,7 +560,7 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>Thank you for the man in Kasserine who is reading the Bible and has put his trust in Jesus. May he be soil that goes on to reproduce 30, 60, and 100 fold throughout this region. </p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -562,7 +568,7 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>I am R and am from a traditional family in the countryside. I have been a believer for 2 months. I was disillusioned with Islam and found much hope and love in Christ. I ask that you pray that I can share the gospel of Christ with my family. Pray that God will begin to work on opening their hearts.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -570,7 +576,7 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>"By faith Sarah herself received power to conceive, even when she was past the age, since she considered him faithful who had promised." (Hebrews 11:11) Please give every believer in Tunisia spiritual children no matter how long they have in the faith. Let each one trust Your faithfulness that You will give them spiritual children as they obey You. </p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -578,7 +584,7 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>Before they became Christans, some Tunisians were possessed by spirits who enabled them to prophesy or speak in other languages.  In Acts 16:16-24 we read the story of Paul delivering a slave girl from an evil spirit that allowed her to prophesy.  In the same way, pray that seekers and Christians would be delivered from these spirits.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -586,7 +592,15 @@ he who fashions the hearts of them all
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>replace</p>',
+                '<p>"The LORD alone is Creator. You made the heavens, the earth, and all the nations. (Jeremiah 10:10-12) ""But the Lord is the true God;
+    he is the living God and the everlasting King.
+At his wrath the earth quakes,
+    and the nations cannot endure his indignation.
+Thus shall you say to them: “The gods who did not make the heavens and the earth shall perish from the earth and from under the heavens.”
+
+It is he who made the earth by his power,
+    who established the world by his wisdom,
+    and by his understanding stretched out the heavens."""</p>',
                 '<!-- /wp:paragraph -->',
             ]
         ];
