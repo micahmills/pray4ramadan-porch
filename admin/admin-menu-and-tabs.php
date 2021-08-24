@@ -121,7 +121,7 @@ class P4_Ramadan_Porch_Landing_Tab_General {
             }
         }
 
-        $dir = scandir( plugin_dir_path( __DIR__ ) . '../site/css/colors' );
+        $dir = scandir( plugin_dir_path( __DIR__ ) . 'site/css/colors' );
         $list = [];
         foreach ( $dir as $file ) {
             if ( substr( $file, -4, 4 ) === '.css' ){
