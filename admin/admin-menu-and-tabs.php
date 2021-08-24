@@ -119,6 +119,32 @@ class P4_Ramadan_Porch_Landing_Tab_General {
                 $theme = sanitize_text_field( wp_unslash( $_POST['theme_color'] ) );
                 update_option( PORCH_LANDING_META_KEY . '_theme_color', $theme, true );
             }
+
+            if ( isset( $_POST["active_campaign"] ) ){
+                $active_campaign_id = sanitize_text_field( wp_unslash( $_POST['active_campaign'] ) );
+                $active_campaign = DT_Posts::get_post( "campaigns", $active_campaign_id );
+                $campaign_root = "campaign_app";
+                $campaign_type = $active_campaign["type"]["key"];
+                $key_name = 'public_key';
+                $key = "";
+                if ( method_exists( "DT_Magic_URL", "get_public_key_meta_key" ) ){
+                    $key_name = DT_Magic_URL::get_public_key_meta_key( $campaign_root, $campaign_type );
+                }
+                if ( isset( $active_campaign[$key_name] )) {
+                    $key = $active_campaign[$key_name];
+                }
+                $atts = [
+                    "root" => $campaign_root,
+                    "type" => $campaign_type,
+                    "public_key" => $key,
+                    "meta_key" => $key_name,
+                    "post_id" => $active_campaign_id,
+                    "rest_url" => rest_url(),
+                    "lang" => "en_US"
+                ];
+                update_option( "dt_ramadan_selected_campaign_magic_link_settings", $atts, true );
+
+            }
         }
 
         $dir = scandir( plugin_dir_path( __DIR__ ) . 'site/css/colors' );
@@ -132,6 +158,12 @@ class P4_Ramadan_Porch_Landing_Tab_General {
             }
         }
         $theme_color = get_option( PORCH_LANDING_META_KEY . '_theme_color' );
+        $dt_ramadan_selected_campaign_magic_link_settings = get_option( 'dt_ramadan_selected_campaign_magic_link_settings' );
+
+        $campaigns = DT_Posts::list_posts( "campaigns", [ "status" => [ "active" ] ] );
+        if ( is_wp_error( $campaigns ) ){
+            $campaigns = [];
+        }
         ?>
         <!-- Box -->
         <form method="post">
@@ -160,6 +192,21 @@ class P4_Ramadan_Porch_Landing_Tab_General {
                                 <?php
                             }
                             ?>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Active Campaign
+                        <select name="active_campaign">
+                            <option value="none"></option>
+                            <?php foreach ( $campaigns["posts"] as $campaign ) :?>
+                                <option value="<?php echo esc_html( $campaign["ID"] ) ?>"
+                                    <?php selected( $campaign["ID"] === $dt_ramadan_selected_campaign_magic_link_settings["post_id"] ?? 0 ) ?>
+                                    >
+                                    <?php echo esc_html( $campaign["name"] ) ?>
+                                </option>
+                            <?php endforeach; ?>
                         </select>
                     </td>
                 </tr>

@@ -53,7 +53,16 @@
             <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy <br> nibh euismod tincidunt ut laoreet dolore magna.</p>
         </div>
         <div class="row">
-            <iframe src="https://tunisia.pray4movement.org/campaign_app/24hour/9caeaaf5336bcdb33e5dad0ea643ed207e38426c2b30ae939917a3e0cfb1ec6e/shortcode" class="shadow p-3 mb-5 bg-white" style="width:100%; height:1000px; border: 1px solid lightgrey;" ></iframe>
+            <?php
+            $dt_ramadan_selected_campaign_magic_link_settings = get_option( 'dt_ramadan_selected_campaign_magic_link_settings' );
+            if ( empty( $dt_ramadan_selected_campaign_magic_link_settings ) ) :?>
+                <p style="margin:auto">Choose campaign in settings <a href="<?php echo esc_html( admin_url( 'admin.php?page=dt_porch_template&tab=general' ) );?>">here</a></p>
+            <?php else :
+                dt_24hour_campaign_shortcode(
+                    $dt_ramadan_selected_campaign_magic_link_settings
+                );
+            endif;
+            ?>
         </div>
     </div>
 </section>
