@@ -65,7 +65,7 @@ class P4_Ramadan_Porch_Landing_Menu {
             <h2 class="nav-tab-wrapper">
                 <a href="<?php echo esc_attr( $link ) . 'general' ?>"
                    class="nav-tab <?php echo esc_html( ( $tab == 'general' || !isset( $tab ) ) ? 'nav-tab-active' : '' ); ?>">General</a>
-                <a href="<?php echo esc_attr( $link ) . 'second' ?>" class="nav-tab <?php echo esc_html( ( $tab == 'second' || !isset( $tab ) ) ? 'nav-tab-active' : '' ); ?>">Second</a>
+                <a href="<?php echo esc_attr( $link ) . 'content' ?>" class="nav-tab <?php echo esc_html( ( $tab == 'content' ) ? 'nav-tab-active' : '' ); ?>">Starter Content</a>
             </h2>
 
             <?php
@@ -74,8 +74,8 @@ class P4_Ramadan_Porch_Landing_Menu {
                     $object = new P4_Ramadan_Porch_Landing_Tab_General();
                     $object->content();
                     break;
-                case "second":
-                    $object = new P4_Ramadan_Porch_Landing_Tab_Second();
+                case "content":
+                    $object = new P4_Ramadan_Porch_Landing_Tab_Starter_Content();
                     $object->content();
                     break;
                 default:
@@ -229,7 +229,7 @@ class P4_Ramadan_Porch_Landing_Tab_General {
 /**
  * Class P4_Ramadan_Porch_Tab_Second
  */
-class P4_Ramadan_Porch_Landing_Tab_Second {
+class P4_Ramadan_Porch_Landing_Tab_Starter_Content {
     public function content() {
         ?>
         <div class="wrap">
@@ -245,7 +245,6 @@ class P4_Ramadan_Porch_Landing_Tab_Second {
                     <div id="postbox-container-1" class="postbox-container">
                         <!-- Right Column -->
 
-                        <?php $this->right_column() ?>
 
                         <!-- End Right Column -->
                     </div><!-- postbox-container 1 -->
@@ -258,24 +257,45 @@ class P4_Ramadan_Porch_Landing_Tab_Second {
     }
 
     public function main_column() {
+
+        $result = [];
+        if ( isset( $_POST['install_ramadan_nonce'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['install_ramadan_nonce'] ) ), 'install_ramadan_nonce' ) ) {
+             $result = P4_Ramadan_Porch_Starter_Content::load_content();
+        }
+
         ?>
-        <!-- Box -->
-        <table class="widefat striped">
-            <thead>
+        <form method="post">
+            <?php wp_nonce_field( 'install_ramadan_nonce', 'install_ramadan_nonce' ) ?>
+            <!-- Box -->
+            <table class="widefat striped">
+                <thead>
                 <tr>
-                    <th>Header</th>
+                    <th>Install Starter Ramadan Content</th>
                 </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        Content
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <br>
-        <!-- End Box -->
+                </thead>
+                <tbody>
+
+                <?php if ( $result ) : ?>
+                    <tr>
+                        <td>
+                            <a href="<?php echo esc_url( admin_url() ); ?>edit.php?post_type=landing">List of Landing Page</a><br><hr><br>
+                            <?php foreach ( $result as $item ) : ?>
+                                <a href="<?php echo esc_url( admin_url() ); ?>post.php?post=<?php echo esc_attr( $item ) ?>&action=edit"><?php echo esc_html( get_the_title( $item ) ) ?></a><br>
+                            <?php endforeach; ?>
+                        </td>
+                    </tr>
+                <?php else : ?>
+                    <tr>
+                        <td>
+                            <button type="submit" name="install_ramadan_1" class="button" value="1">Install Ramadan Starter Content</button>
+                        </td>
+                    </tr>
+                <?php endif; ?>
+                </tbody>
+            </table>
+            <br>
+            <!-- End Box -->
+        </form>
         <?php
     }
 

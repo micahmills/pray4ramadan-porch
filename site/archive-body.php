@@ -54,7 +54,10 @@ $list = new WP_Query( $args );
             <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy <br> nibh euismod tincidunt ut laoreet dolore magna.</p>
         </div>
         <div class="row">
-            <?php foreach ($list->posts as $item ) : ?>
+            <?php foreach ($list->posts as $item ) :
+                $date = date( $item->post_date );
+                ?>
+
                 <?php $public_key = get_post_meta( $item->ID, PORCH_LANDING_META_KEY, true ); ?>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item">
                 <!-- Blog Item Starts -->
@@ -69,7 +72,7 @@ $list = new WP_Query( $args );
                             <a href="#"><?php echo esc_html( $item->post_title ) ?></a>
                         </h3>
                         <div class="meta-tags">
-                            <span class="date"><i class="lnr lnr-calendar-full"></i>on <?php echo esc_html( $item->post_date ) ?></span>
+                            <span class="date"><i class="lnr lnr-calendar-full"></i>on <?php echo esc_html( gmdate( 'Y-m-d', strtotime( $item->post_date ) ) )  ?></span>
                         </div>
                         <p>
                             <?php echo wp_kses_post( esc_html( $item->post_excerpt ) ) ?>
