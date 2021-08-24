@@ -76,6 +76,14 @@ class P4_Ramadan_Porch_Starter_Content {
             'excerpt' => 'Focus prayer on the Amazigh in Zaghouan, the southern region of Tunisia.',
             'content' => [
                 '<!-- wp:heading {"level":3} -->',
+                '<h3><strong>SAMPLE OF THE DAILY PRAYER FUEL</strong></h3>',
+                '<!-- /wp:heading -->',
+
+                '<!-- wp:separator {"className":"is-style-wide"} -->',
+                '<hr class="wp-block-separator is-style-wide"/>',
+                '<!-- /wp:separator -->',
+
+                '<!-- wp:heading {"level":3} -->',
                 '<h3><strong>Regions/UUPGs:&nbsp;</strong></h3>',
                 '<!-- /wp:heading -->',
 
