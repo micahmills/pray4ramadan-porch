@@ -197,7 +197,7 @@ class P4_Ramadan_Porch_Landing_Tab_General {
                 </tr>
                 <tr>
                     <td>
-                        Active Campaign
+                        <strong>Active Campaign</strong><br>
                         <select name="active_campaign">
                             <option value="none"></option>
                             <?php foreach ( $campaigns["posts"] as $campaign ) :?>

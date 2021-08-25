@@ -169,7 +169,20 @@ class P4_Ramadan_Porch {
      */
     public static function activation() {
         // add elements here that need to fire on activation
-        P4_Ramadan_Porch_Starter_Content::load_content();
+//        if ( ! defined( 'PORCH_ROOT' ) ) {
+//            define( 'PORCH_ROOT', 'porch_app' ); // Alphanumeric key. Use underscores not hyphens. No special characters.
+//        }
+//        if ( ! defined( 'PORCH_TYPE' ) ) {
+//            define( 'PORCH_TYPE', '5' ); // Alphanumeric key. Use underscores not hyphens. No special characters.
+//        }
+//        if ( ! defined( 'PORCH_LANDING_TYPE' ) ) {
+//            define( 'PORCH_LANDING_TYPE', 'fuel' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
+//        }
+//        if ( ! defined( 'PORCH_LANDING_META_KEY' ) ) {
+//            define( 'PORCH_LANDING_META_KEY', PORCH_LANDING_ROOT . '_' . PORCH_LANDING_TYPE . '_magic_key' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
+//        }
+//        require_once( 'admin/starter-content.php' );
+//        P4_Ramadan_Porch_Starter_Content::load_content();
     }
 
     /**
