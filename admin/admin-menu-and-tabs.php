@@ -65,6 +65,7 @@ class P4_Ramadan_Porch_Landing_Menu {
             <h2 class="nav-tab-wrapper">
                 <a href="<?php echo esc_attr( $link ) . 'general' ?>"
                    class="nav-tab <?php echo esc_html( ( $tab == 'general' || !isset( $tab ) ) ? 'nav-tab-active' : '' ); ?>">General</a>
+                <a href="<?php echo esc_attr( $link ) . 'home' ?>" class="nav-tab <?php echo esc_html( ( $tab == 'home' ) ? 'nav-tab-active' : '' ); ?>">Home Page</a>
                 <a href="<?php echo esc_attr( $link ) . 'content' ?>" class="nav-tab <?php echo esc_html( ( $tab == 'content' ) ? 'nav-tab-active' : '' ); ?>">Starter Content</a>
             </h2>
 
@@ -72,6 +73,10 @@ class P4_Ramadan_Porch_Landing_Menu {
             switch ($tab) {
                 case "general":
                     $object = new P4_Ramadan_Porch_Landing_Tab_General();
+                    $object->content();
+                    break;
+                case "home":
+                    $object = new P4_Ramadan_Porch_Landing_Tab_Home();
                     $object->content();
                     break;
                 case "content":
@@ -225,6 +230,59 @@ class P4_Ramadan_Porch_Landing_Tab_General {
 
 }
 
+class P4_Ramadan_Porch_Landing_Tab_Home {
+    public function content() {
+        ?>
+        <div class="wrap">
+            <div id="poststuff">
+                <div id="post-body" class="metabox-holder columns-1">
+                    <div id="post-body-content">
+                        <!-- Main Column -->
+
+                        <?php $this->main_column() ?>
+
+                        <!-- End Main Column -->
+                    </div><!-- end post-body-content -->
+                </div><!-- post-body meta box container -->
+            </div><!--poststuff end -->
+        </div><!-- wrap end -->
+        <?php
+    }
+
+    public function main_column() {
+        $fields = [
+            'title' => 'Site Title',
+            'logo_url' => 'Logo URL',
+            'header_background_url' => 'Header Background URL'
+        ];
+
+        $result = [];
+        if ( isset( $_POST['install_ramadan_nonce'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['install_ramadan_nonce'] ) ), 'install_ramadan_nonce' ) ) {
+            $result = P4_Ramadan_Porch_Starter_Content::load_content();
+        }
+
+        ?>
+        <form method="post">
+            <?php wp_nonce_field( 'install_ramadan_nonce', 'install_ramadan_nonce' ) ?>
+            <!-- Box -->
+            <table class="widefat striped">
+                <thead>
+                <tr>
+                    <th>Home Page Details</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+            <br>
+            <!-- End Box -->
+        </form>
+        <?php
+    }
+
+}
+
 
 /**
  * Class P4_Ramadan_Porch_Tab_Second
@@ -321,4 +379,6 @@ class P4_Ramadan_Porch_Landing_Tab_Starter_Content {
         <?php
     }
 }
+
+
 

@@ -32,3 +32,20 @@
 
 <link rel="stylesheet" id="colors" href="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>css/colors/<?php echo esc_attr( PORCH_COLOR_SCHEME ) ?>.css?ver=<?php echo esc_attr( filemtime( trailingslashit( plugin_dir_path( __FILE__ ) ) ) . 'css/colors/'. esc_attr( PORCH_COLOR_SCHEME ) .'.css' )  ?>" type="text/css" />
 
+<style>
+    .stencil-background {
+        background-image: url(<?php echo esc_url( plugin_dir_url( __FILE__ ) ) ?>img/stencil-header.png);
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+    }
+    .logo-background {
+
+    }
+    .button.cp-nav {
+        background-color: <?php echo PORCH_COLOR_SCHEME_HEX ?> !important;
+    }
+</style>

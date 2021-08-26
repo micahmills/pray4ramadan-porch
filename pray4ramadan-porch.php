@@ -113,6 +113,27 @@ class P4_Ramadan_Porch {
         $theme = get_option( PORCH_LANDING_META_KEY . '_theme_color', 'preset' );
         if ( ! defined( 'PORCH_COLOR_SCHEME' ) ) {
             define( 'PORCH_COLOR_SCHEME', $theme ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
+            switch( $theme ) {
+                case 'preset':
+                    $hex = '#4676fa';
+                    break;
+                case 'forestgreen':
+                    $hex = '#1EB858';
+                    break;
+                case 'green':
+                    $hex = '#94C523';
+                    break;
+                case 'orange':
+                    $hex = '#F57D41';
+                    break;
+                case 'purple':
+                    $hex = '#6B58CD';
+                    break;
+                case 'teal':
+                    $hex = '#1AB7D8';
+                    break;
+            }
+            define( 'PORCH_COLOR_SCHEME_HEX', $hex );
         }
 
         // POST TYPE and ACCESS
@@ -121,7 +142,6 @@ class P4_Ramadan_Porch {
 
         // MICROSITE Magic Links
         require_once( 'site/home.php' );
-        require_once( 'site/signup.php' );
         require_once( 'site/archive.php' );
         require_once( 'site/landing.php' );
         require_once( 'site/rest.php' );
