@@ -250,29 +250,86 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
     }
 
     public function main_column() {
-        $fields = [
-            'title' => 'Site Title',
-            'logo_url' => 'Logo URL',
-            'header_background_url' => 'Header Background URL'
-        ];
+        $fields = pray4ramadan_porch_fields();
 
-        $result = [];
         if ( isset( $_POST['install_ramadan_nonce'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['install_ramadan_nonce'] ) ), 'install_ramadan_nonce' ) ) {
-            $result = P4_Ramadan_Porch_Starter_Content::load_content();
-        }
 
+            dt_write_log('pre add');
+            dt_write_log($_POST);
+
+            if ( isset( $_POST['list'] ) ) {
+                $saved_fields = $fields;
+
+                $list = $_POST['list'];
+                
+                foreach( $list as $key => $value ) {
+                    if ( ! isset( $saved_fields[$key] ) ) {
+                        $saved_fields[$key] = [];
+                    }
+                    $saved_fields[$key]['value'] = $value;
+                }
+
+                $fields = p4r_recursive_parse_args($saved_fields,$fields);
+
+                update_option('pray4ramadan_porch_fields', $fields );
+            }
+
+            if ( isset( $_POST['reset_values'] ) ) {
+                update_option('pray4ramadan_porch_fields', [] );
+                $fields = pray4ramadan_porch_fields();
+            }
+
+            dt_write_log('post add');
+            dt_write_log($fields);
+
+        }
         ?>
-        <form method="post">
+        <style>
+            #home_page input {
+                width: 100%;
+            }
+            #home_page textarea {
+                width: 100%;
+                height: 100px;
+            }
+        </style>
+        <form method="post" id="home_page">
             <?php wp_nonce_field( 'install_ramadan_nonce', 'install_ramadan_nonce' ) ?>
             <!-- Box -->
             <table class="widefat striped">
                 <thead>
                 <tr>
-                    <th>Home Page Details</th>
+                    <th style="width:20%">Home Page Details</th>
+                    <th><span style="float:right;"><button type="submit" name="reset_values" value='delete'>Reset</button></span></th>
                 </tr>
                 </thead>
                 <tbody>
-
+                    <?php foreach( $fields as $key => $field ) : ?>
+                        <?php if ( !isset( $field['type'] ) || 'text' === $field['type'] ) : ?>
+                            <tr>
+                                <td>
+                                    <?php echo $field['label']; ?>
+                                </td>
+                                <td>
+                                    <input type="text" name="list[<?php echo $key; ?>]" id="<?php echo $key; ?>" value="<?php echo $field['value']; ?>" />
+                                </td>
+                            </tr>
+                        <?php elseif ( 'textarea' === $field['type'] ) : ?>
+                            <tr>
+                                <td>
+                                    <?php echo $field['label']; ?>
+                                </td>
+                                <td>
+                                    <textarea name="list[<?php echo $key; ?>]" id="<?php echo $key; ?>" ><?php echo $field['value']; ?></textarea>
+                                </td>
+                            </tr>
+                        <?php endif; ?>
+                    <?php endforeach; ?>
+                    <tr>
+                        <td>
+                            <button class="button" type="submit">Update</button>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
             <br>

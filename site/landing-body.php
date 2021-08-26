@@ -127,6 +127,9 @@ $list = new WP_Query( $args );
                 <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
                     <p>All copyrights reserved &copy;  <script>document.write(new Date().getFullYear())</script></p>
                 </div>
+                <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
+                    <p><a href="/login">Login</a></p>
+                </div>
             </div>
         </div>
     </div>

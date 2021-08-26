@@ -188,21 +188,7 @@ class P4_Ramadan_Porch {
      * @return void
      */
     public static function activation() {
-        // add elements here that need to fire on activation
-//        if ( ! defined( 'PORCH_ROOT' ) ) {
-//            define( 'PORCH_ROOT', 'porch_app' ); // Alphanumeric key. Use underscores not hyphens. No special characters.
-//        }
-//        if ( ! defined( 'PORCH_TYPE' ) ) {
-//            define( 'PORCH_TYPE', '5' ); // Alphanumeric key. Use underscores not hyphens. No special characters.
-//        }
-//        if ( ! defined( 'PORCH_LANDING_TYPE' ) ) {
-//            define( 'PORCH_LANDING_TYPE', 'fuel' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
-//        }
-//        if ( ! defined( 'PORCH_LANDING_META_KEY' ) ) {
-//            define( 'PORCH_LANDING_META_KEY', PORCH_LANDING_ROOT . '_' . PORCH_LANDING_TYPE . '_magic_key' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
-//        }
-//        require_once( 'admin/starter-content.php' );
-//        P4_Ramadan_Porch_Starter_Content::load_content();
+
     }
 
     /**
@@ -328,47 +314,76 @@ if ( ! function_exists( "dt_hook_ajax_notice_handler" )){
     }
 }
 
-/**
- * Plugin Releases and updates
- * @todo Uncomment and change the url if you want to support remote plugin updating with new versions of your plugin
- * To remove: delete the section of code below and delete the file called version-control.json in the plugin root
- *
- * This section runs the remote plugin updating service, so you can issue distributed updates to your plugin
- *
- * @note See the instructions for version updating to understand the steps involved.
- * @link https://github.com/Pray4Movement/pray4ramadan-porch/wiki/Configuring-Remote-Updating-System
- *
- * @todo Enable this section with your own hosted file
- * @todo An example of this file can be found in (version-control.json)
- * @todo Github is a good option for delivering static json.
- */
-/**
- * Check for plugin updates even when the active theme is not Disciple.Tools
- *
- * Below is the publicly hosted .json file that carries the version information. This file can be hosted
- * anywhere as long as it is publicly accessible. You can download the version file listed below and use it as
- * a template.
- * Also, see the instructions for version updating to understand the steps involved.
- * @see https://github.com/DiscipleTools/disciple-tools-version-control/wiki/How-to-Update-the-Starter-Plugin
- */
-//add_action( 'plugins_loaded', function (){
-//    if ( is_admin() ){
-//        // Check for plugin updates
-//        if ( ! class_exists( 'Puc_v4_Factory' ) ) {
-//            if ( file_exists( get_template_directory() . '/dt-core/libraries/plugin-update-checker/plugin-update-checker.php' )){
-//                require( get_template_directory() . '/dt-core/libraries/plugin-update-checker/plugin-update-checker.php' );
-//            }
-//        }
-//        if ( class_exists( 'Puc_v4_Factory' ) ){
-//            Puc_v4_Factory::buildUpdateChecker(
-//                'https://raw.githubusercontent.com/Pray4Movement/pray4ramadan-porch/master/version-control.json',
-//                __FILE__,
-//                'pray4ramadan-porch'
-//            );
-//
-//        }
-//    }
-//} );
+add_action( 'plugins_loaded', function (){
+    if ( is_admin() ){
+        // Check for plugin updates
+        if ( ! class_exists( 'Puc_v4_Factory' ) ) {
+            if ( file_exists( get_template_directory() . '/dt-core/libraries/plugin-update-checker/plugin-update-checker.php' )){
+                require( get_template_directory() . '/dt-core/libraries/plugin-update-checker/plugin-update-checker.php' );
+            }
+        }
+        if ( class_exists( 'Puc_v4_Factory' ) ){
+            Puc_v4_Factory::buildUpdateChecker(
+                'https://raw.githubusercontent.com/Pray4Movement/pray4ramadan-porch/master/version-control.json',
+                __FILE__,
+                'pray4ramadan-porch'
+            );
+
+        }
+    }
+} );
+
+if ( ! function_exists( 'pray4ramadan_porch_fields' ) ) {
+    function pray4ramadan_porch_fields() {
+        $defaults = [
+            'title' => [
+                'label' => 'Site Title',
+                'value' => '',
+                'type' => 'text',
+            ],
+            'logo_url' => [
+                'label' => 'Logo URL',
+                'value' => '',
+                'type' => 'text',
+            ],
+            'header_background_url' => [
+                'label' => 'Header Background URL',
+                'value' => '',
+                'type' => 'text',
+            ],
+            'what_content' => [
+                'label' => 'What is Ramadan Content',
+                'value' => '',
+                'type' => 'textarea',
+            ],
+            'what_image' => [
+                'label' => 'What is Ramadan Image',
+                'value' => '',
+                'type' => 'text',
+            ]
+        ];
+
+        $saved_fields = get_option('pray4ramadan_porch_fields', [] );
+
+        return p4r_recursive_parse_args($saved_fields,$defaults);
+    }
+}
+if ( ! function_exists( 'p4r_recursive_parse_args' ) ) {
+    function p4r_recursive_parse_args( $args, $defaults ) {
+        $new_args = (array) $defaults;
+
+        foreach ( $args as $key => $value ) {
+            if ( is_array( $value ) && isset( $new_args[ $key ] ) ) {
+                $new_args[ $key ] = p4r_recursive_parse_args( $value, $new_args[ $key ] );
+            }
+            else {
+                $new_args[ $key ] = $value;
+            }
+        }
+
+        return $new_args;
+    }
+}
 
 
 

@@ -48,4 +48,10 @@
     .button.cp-nav {
         background-color: <?php echo PORCH_COLOR_SCHEME_HEX ?> !important;
     }
+    #cp-wrapper {
+        background-color: white !important;
+    }
+    #cp-submit-form-later {
+        background-color: <?php echo PORCH_COLOR_SCHEME_HEX ?> !important;
+    }
 </style>
