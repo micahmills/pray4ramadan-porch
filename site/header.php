@@ -54,4 +54,7 @@
     #cp-submit-form-later {
         background-color: <?php echo PORCH_COLOR_SCHEME_HEX ?> !important;
     }
+    .logo {
+        color:  <?php echo PORCH_COLOR_SCHEME_HEX ?> !important;
+    }
 </style>

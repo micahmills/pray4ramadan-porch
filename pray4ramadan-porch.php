@@ -385,5 +385,9 @@ if ( ! function_exists( 'p4r_recursive_parse_args' ) ) {
     }
 }
 
+function p4r_next_ramadan_start() {
+
+}
+
 
 

@@ -182,6 +182,12 @@ class P4_Ramadan_Porch_Landing_Tab_General {
                 <tbody>
                 <tr>
                     <td>
+                        <strong>Ramadan Target Date</strong>
+                        <input type="date" value="" name="ramadan_target_date" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <strong>Theme Color</strong><br>
                         <select name="theme_color">
                             <?php
@@ -261,7 +267,7 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                 $saved_fields = $fields;
 
                 $list = $_POST['list'];
-                
+
                 foreach( $list as $key => $value ) {
                     if ( ! isset( $saved_fields[$key] ) ) {
                         $saved_fields[$key] = [];

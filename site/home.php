@@ -75,6 +75,7 @@ class P4_Ramadan_Porch_Home_5 extends DT_Magic_Url_Base
     public function body(){
         require_once( 'top-section.php' );
         require_once( 'home-body.php' );
+//        require_once( 'temp-body.php' );
     }
 }
 P4_Ramadan_Porch_Home_5::instance();
