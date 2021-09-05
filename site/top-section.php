@@ -1,10 +1,6 @@
 <?php
-$p4r_porch_title = 'Pray4Tunisia';
-$p4r_porch_logo = esc_url( plugin_dir_url( __FILE__ ) . 'img/logo.png' );
-
+$porch_fields = p4r_porch_fields();
 ?>
-
-
 
 <!-- Nav -->
 <div class="menu-wrap">
@@ -17,7 +13,6 @@ $p4r_porch_logo = esc_url( plugin_dir_url( __FILE__ ) . 'img/logo.png' );
                 <li class="nav-item">
                     <a class="nav-link" href="/prayer/list">Prayer Fuel</a>
                 </li>
-
             </ul>
         </div>
     </nav>
@@ -30,7 +25,7 @@ $p4r_porch_logo = esc_url( plugin_dir_url( __FILE__ ) . 'img/logo.png' );
     <div class="fixed-top">
         <div class="container">
             <div class="logo-menu">
-                <a href="/" class="logo"><?php echo esc_html( $p4r_porch_title ) ?></a>
+                <a href="/" class="logo"><?php echo esc_html(  $porch_fields['title']['value']  ) ?></a>
                 <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button>
             </div>
         </div>
@@ -40,10 +35,10 @@ $p4r_porch_logo = esc_url( plugin_dir_url( __FILE__ ) . 'img/logo.png' );
         <div class="row justify-content-md-center">
             <div class="col-md-12">
                 <div class="contents content-height text-center">
-                    <?php if ( $p4r_porch_logo ) : ?>
-                        <img src="<?php echo esc_url( $p4r_porch_logo ) ?>" alt=""  />
+                    <?php if ( isset( $porch_fields['logo_url']['value'] ) && ! empty( $porch_fields['logo_url']['value'] ) ) : ?>
+                        <img src="<?php echo esc_url( $porch_fields['logo_url']['value'] ) ?>" alt=""  />
                     <?php else : ?>
-                        <h1 class="wow fadeInDown" style="font-size: 3em;" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php echo esc_html( $p4r_porch_title ) ?></h1>
+                        <h1 class="wow fadeInDown" style="font-size: 3em;" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php echo esc_html( $porch_fields['title']['value'] ) ?></h1>
                     <?php endif; ?>
                 </div>
             </div>

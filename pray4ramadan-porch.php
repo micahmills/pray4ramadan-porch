@@ -110,9 +110,11 @@ class P4_Ramadan_Porch {
          * This template includes 6 color schemes set by the definition below.
          * preset, teal, forestgreen, green, purple, orange
          */
-        $theme = get_option( PORCH_LANDING_META_KEY . '_theme_color', 'preset' );
-        if ( ! defined( 'PORCH_COLOR_SCHEME' ) ) {
-            define( 'PORCH_COLOR_SCHEME', $theme ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
+        $fields = p4r_porch_fields();
+        $theme = 'preset';
+        $hex = '#4676fa';
+        if ( isset( $fields['theme_color']['value'] ) && ! empty( $fields['theme_color']['value'] ) && ! defined( 'PORCH_COLOR_SCHEME' ) ) {
+            $theme = $fields['theme_color']['value'];
             switch( $theme ) {
                 case 'preset':
                     $hex = '#4676fa';
@@ -133,8 +135,9 @@ class P4_Ramadan_Porch {
                     $hex = '#1AB7D8';
                     break;
             }
-            define( 'PORCH_COLOR_SCHEME_HEX', $hex );
         }
+        define( 'PORCH_COLOR_SCHEME', $theme );
+        define( 'PORCH_COLOR_SCHEME_HEX', $hex );
 
         // POST TYPE and ACCESS
         require_once( 'site/roles-and-permissions.php' );
@@ -333,12 +336,22 @@ add_action( 'plugins_loaded', function (){
     }
 } );
 
-if ( ! function_exists( 'pray4ramadan_porch_fields' ) ) {
-    function pray4ramadan_porch_fields() {
+if ( ! function_exists( 'p4r_porch_fields' ) ) {
+    function p4r_porch_fields() {
         $defaults = [
-            'title' => [
-                'label' => 'Site Title',
+            'theme_color' => [
+                'label' => 'Theme Color',
+                'value' => 'preset',
+                'type' => 'theme_select',
+            ],
+            'country_name' => [
+                'label' => 'Location Name',
                 'value' => '',
+                'type' => 'text',
+            ],
+            'title' => [
+                'label' => 'Campaign/Site Title',
+                'value' => get_bloginfo('name'),
                 'type' => 'text',
             ],
             'logo_url' => [
@@ -348,12 +361,16 @@ if ( ! function_exists( 'pray4ramadan_porch_fields' ) ) {
             ],
             'header_background_url' => [
                 'label' => 'Header Background URL',
-                'value' => '',
+                'value' => trailingslashit( plugin_dir_url( __FILE__ ) ) . 'site/img/stencil-header.png',
                 'type' => 'text',
             ],
             'what_content' => [
                 'label' => 'What is Ramadan Content',
-                'value' => '',
+                'value' => 'Ramadan is one of the five requirements (or pillars) of Islam. During each of its 30 days, Muslims are obligated to fast from dawn until sunset. During this time they are supposed to abstain from food, drinking liquids, smoking, and sexual relations.
+
+In Tunisia, women typically spend the afternoons preparing a big meal. At sunset, families often gather to break the fast. Traditionally the families break the fast with a drink of water, then three dried date fruits, and a multi-course meal. After watching the new Ramadan TV series, men (and some women) go out to coffee shops where they drink coffee, and smoke with friends until late into the night.
+
+Though many Tunisians have stopped fasting in recent years, and lots of Tunisians are turned off by the hypocrisy, increased crime rates, and rudeness that is pervasive through the month, lots of Tunisians become more serious about religion during this time. Many attend the evening prayer services and do the other ritual prayers. Some even read the entire Quran (about a tenth the length of the Bible). This sincere seeking makes it a strategic time for us to pray for them.',
                 'type' => 'textarea',
             ],
             'what_image' => [
@@ -363,9 +380,99 @@ if ( ! function_exists( 'pray4ramadan_porch_fields' ) ) {
             ]
         ];
 
-        $saved_fields = get_option('pray4ramadan_porch_fields', [] );
+        $saved_fields = get_option('p4r_porch_fields', [] );
 
         return p4r_recursive_parse_args($saved_fields,$defaults);
+    }
+}
+if ( ! function_exists( 'p4r_get_campaign' ) ) {
+    function p4r_get_campaign()
+    {
+
+        $selected_campaign = get_option('pray4ramadan_selected_campaign', false);
+
+        if ( empty( $selected_campaign ) ) {
+            return [];
+        }
+
+        $campaign = DT_Posts::get_post('campaigns', (int) $selected_campaign );
+        if ( is_wp_error( $campaign ) ) {
+            return [];
+        }
+
+        /**
+         *  Array
+        (
+        [peoplegroups] => Array
+        (
+        )
+
+        [subscriptions] => Array
+        (
+        )
+
+        [ID] => 3
+        [post_date] => Array
+        (
+        [timestamp] => 1629483776
+        [formatted] => 2021-08-20
+        )
+
+        [permalink] => {url}
+        [post_type] => campaigns
+        [post_author] => 7
+        [post_author_display_name] => Chris
+        [start_date] => Array
+        (
+        [timestamp] => 1648857600
+        [formatted] => 2022-04-02
+        )
+
+        [last_modified] => Array
+        (
+        [timestamp] => 1630080963
+        [formatted] => 2021-08-27
+        )
+
+        [end_date] => Array
+        (
+        [timestamp] => 1651276800
+        [formatted] => 2022-04-30
+        )
+
+        [campaign_timezone] => Array
+        (
+        [key] => Europe/Amsterdam
+        [label] => Europe/Amsterdam
+        )
+
+        [status] => Array
+        (
+        [key] => active
+        [label] => Active
+        )
+
+        [campaign_app_24hour_magic_key] => 9caeaaf5336bcdb33e5dad0ea643ed207e38426c2b30ae939917a3e0cfb1ec6e
+        [type] => Array
+        (
+        [key] => 24hour
+        [label] => 24hr Prayer Calendar
+        )
+
+        [min_time_duration] => Array
+        (
+        [key] => 15
+        [label] => 15 Minutes
+        )
+
+        [_edit_lock] => 1630066844:7
+        [name] => Ramadan
+        [title] => Ramadan
+        )
+
+         */
+
+        return $campaign;
     }
 }
 if ( ! function_exists( 'p4r_recursive_parse_args' ) ) {

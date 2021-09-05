@@ -1,10 +1,14 @@
+<?php
+$porch_content = p4r_porch_fields()
+?>
+
 <!-- FAQ -->
 <section id="services" class="section">
     <div class="container">
         <div class="section-header">
             <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Our <span>Vision</span></h2>
             <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-            <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">We want to cover the country of Tunisia with 24 prayer during the mont of Ramadan. </p>
+            <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">We want to cover the country of <?php echo esc_html( $porch_content['country_name']['value'] ?? '' ) ?> with 24 prayer during the month of Ramadan. </p>
         </div>
         <div class="row">
             <div class="col-md-4 col-sm-6">
@@ -12,7 +16,7 @@
                     <div class="icon">
                         <i class="lnr lnr-pencil"></i>
                     </div>
-                    <h4>Fact 1</h4>
+                    <h4>Extraordinary Prayer</h4>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
                 </div>
             </div>
@@ -21,7 +25,7 @@
                     <div class="icon">
                         <i class="lnr lnr-cog"></i>
                     </div>
-                    <h4>Fact 2</h4>
+                    <h4>Movement Focused</h4>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
                 </div>
             </div>
@@ -30,38 +34,12 @@
                     <div class="icon">
                         <i class="lnr lnr-chart-bars"></i>
                     </div>
-                    <h4>Fact 3</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-                    <div class="icon">
-                        <i class="lnr lnr-layers"></i>
-                    </div>
-                    <h4>Fact 4</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="item-boxes wow fadeInDown" data-wow-delay="1s">
-                    <div class="icon">
-                        <i class="lnr lnr-tablet"></i>
-                    </div>
-                    <h4>Fact 5</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="item-boxes wow fadeInDown" data-wow-delay="1.2s">
-                    <div class="icon">
-                        <i class="lnr lnr-briefcase"></i>
-                    </div>
-                    <h4>Fact 6</h4>
+                    <h4>24/7 for 30 Days</h4>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
                 </div>
             </div>
         </div>
+
     </div>
 </section>
 <!-- Services Section End -->
@@ -149,6 +127,7 @@
         <div class="row">
             <?php
             $dt_ramadan_selected_campaign_magic_link_settings = get_option( 'dt_ramadan_selected_campaign_magic_link_settings' );
+            dt_write_log($dt_ramadan_selected_campaign_magic_link_settings );
             if ( empty( $dt_ramadan_selected_campaign_magic_link_settings ) ) :?>
                 <p style="margin:auto">Choose campaign in settings <a href="<?php echo esc_html( admin_url( 'admin.php?page=dt_porch_template&tab=general' ) );?>">here</a></p>
             <?php else :
@@ -201,7 +180,7 @@
                         </div>
                         <div class="fact-count">
                             <h3>2880</h3>
-                            <h4>Prayer Commitments</h4>
+                            <h4>Prayer Commitments Needed</h4>
                         </div>
                     </div>
                 </div>
@@ -234,26 +213,8 @@
         </div>
         <div class="row">
             <div class="col-md-6 col-sm-6">
-                <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
-                    <p>
-                        Ramadan is one of the five requirements (or pillars) of Islam. During each of its 30 days, Muslims
-                        are obligated to fast from dawn until sunset. During this time they are supposed to abstain from
-                        food, drinking liquids, smoking, and sexual relations.
-                    </p>
-                    <p>
-                        In Tunisia, women typically spend the afternoons preparing a big meal. At sunset, families often
-                        gather to break the fast. Traditionally the families break the fast with a drink of water, then
-                        three dried date fruits, and a multi-course meal. After watching the new Ramadan TV series, men
-                        (and some women) go out to coffee shops where they drink coffee, and smoke with friends until late
-                        into the night.
-                    </p>
-                    <p>
-                        Though many Tunisians have stopped fasting in recent years, and lots of Tunisians are turned off
-                        by the hypocrisy, increased crime rates, and rudeness that is pervasive through the month, lots
-                        of Tunisians become more serious about religion during this time. Many attend the evening prayer
-                        services and do the other ritual prayers. Some even read the entire Quran (about a tenth the length
-                        of the Bible). This sincere seeking makes it a strategic time for us to pray for them.
-                    </p>
+                <div class="wow fadeInDown" data-wow-delay="0.2s">
+                    <?php echo wp_kses_post( nl2br( $porch_content['what_content']['value'] ) ) ?>
                 </div>
             </div>
             <div class="col-md-6 col-sm-6">

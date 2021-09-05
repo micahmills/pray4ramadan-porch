@@ -54,7 +54,7 @@ class P4_Ramadan_Porch_Landing_Menu {
         if ( isset( $_GET["tab"] ) ) {
             $tab = sanitize_key( wp_unslash( $_GET["tab"] ) );
         } else {
-            $tab = 'general';
+            $tab = 'home';
         }
 
         $link = 'admin.php?page='.$this->token.'&tab=';
@@ -63,18 +63,12 @@ class P4_Ramadan_Porch_Landing_Menu {
         <div class="wrap">
             <h2>Public Porch Template</h2>
             <h2 class="nav-tab-wrapper">
-                <a href="<?php echo esc_attr( $link ) . 'general' ?>"
-                   class="nav-tab <?php echo esc_html( ( $tab == 'general' || !isset( $tab ) ) ? 'nav-tab-active' : '' ); ?>">General</a>
-                <a href="<?php echo esc_attr( $link ) . 'home' ?>" class="nav-tab <?php echo esc_html( ( $tab == 'home' ) ? 'nav-tab-active' : '' ); ?>">Home Page</a>
+                <a href="<?php echo esc_attr( $link ) . 'home' ?>" class="nav-tab <?php echo esc_html( ( $tab == 'home' || !isset( $tab ) ) ? 'nav-tab-active' : '' ); ?>">Home Page</a>
                 <a href="<?php echo esc_attr( $link ) . 'content' ?>" class="nav-tab <?php echo esc_html( ( $tab == 'content' ) ? 'nav-tab-active' : '' ); ?>">Starter Content</a>
             </h2>
 
             <?php
             switch ($tab) {
-                case "general":
-                    $object = new P4_Ramadan_Porch_Landing_Tab_General();
-                    $object->content();
-                    break;
                 case "home":
                     $object = new P4_Ramadan_Porch_Landing_Tab_Home();
                     $object->content();
@@ -95,18 +89,28 @@ class P4_Ramadan_Porch_Landing_Menu {
 }
 P4_Ramadan_Porch_Landing_Menu::instance();
 
-
-/**
- * Class P4_Ramadan_Porch_Tab_General
- */
-class P4_Ramadan_Porch_Landing_Tab_General {
+class P4_Ramadan_Porch_Landing_Tab_Home {
     public function content() {
         ?>
+        <style>
+            .metabox-table input {
+                width: 100%;
+            }
+            .metabox-table select {
+                width: 100%;
+            }
+            .metabox-table textarea {
+                width: 100%;
+                height: 100px;
+            }
+        </style>
         <div class="wrap">
             <div id="poststuff">
                 <div id="post-body" class="metabox-holder columns-1">
                     <div id="post-body-content">
                         <!-- Main Column -->
+
+                        <?php $this->box_campaign() ?>
 
                         <?php $this->main_column() ?>
 
@@ -118,157 +122,99 @@ class P4_Ramadan_Porch_Landing_Tab_General {
         <?php
     }
 
-    public function main_column() {
-        if ( isset( $_POST['home_page_nonce'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['home_page_nonce'] ) ), 'home_page_nonce' ) ) {
-            if ( isset( $_POST['theme_color'] ) ) {
-                $theme = sanitize_text_field( wp_unslash( $_POST['theme_color'] ) );
-                update_option( PORCH_LANDING_META_KEY . '_theme_color', $theme, true );
-            }
+    public function box_campaign() {
 
-            if ( isset( $_POST["active_campaign"] ) ){
-                $active_campaign_id = sanitize_text_field( wp_unslash( $_POST['active_campaign'] ) );
-                $active_campaign = DT_Posts::get_post( "campaigns", $active_campaign_id );
-                $campaign_root = "campaign_app";
-                $campaign_type = $active_campaign["type"]["key"];
-                $key_name = 'public_key';
-                $key = "";
-                if ( method_exists( "DT_Magic_URL", "get_public_key_meta_key" ) ){
-                    $key_name = DT_Magic_URL::get_public_key_meta_key( $campaign_root, $campaign_type );
-                }
-                if ( isset( $active_campaign[$key_name] )) {
-                    $key = $active_campaign[$key_name];
-                }
-                $atts = [
-                    "root" => $campaign_root,
-                    "type" => $campaign_type,
-                    "public_key" => $key,
-                    "meta_key" => $key_name,
-                    "post_id" => $active_campaign_id,
-                    "rest_url" => rest_url(),
-                    "lang" => "en_US"
-                ];
-                update_option( "dt_ramadan_selected_campaign_magic_link_settings", $atts, true );
-
-            }
+        if ( isset( $_POST['install_campaign_nonce'] )
+            && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['install_campaign_nonce'] ) ), 'install_campaign_nonce' )
+            && isset( $_POST['selected_campaign'] )
+        ) {
+            $campaign_id = sanitize_text_field( wp_unslash( $_POST['selected_campaign'] ) );
+            update_option( 'pray4ramadan_selected_campaign', $campaign_id );
         }
-
-        $dir = scandir( plugin_dir_path( __DIR__ ) . 'site/css/colors' );
-        $list = [];
-        foreach ( $dir as $file ) {
-            if ( substr( $file, -4, 4 ) === '.css' ){
-                $f = explode( '.', $file );
-                $key = $f[0];
-                $label = ucwords( $key );
-                $list[$key] = $label;
-            }
+        $fields = p4r_get_campaign();
+        if ( empty( $fields ) ) {
+            $fields = [ 'ID' => 0 ];
         }
-        $theme_color = get_option( PORCH_LANDING_META_KEY . '_theme_color' );
-        $dt_ramadan_selected_campaign_magic_link_settings = get_option( 'dt_ramadan_selected_campaign_magic_link_settings' );
 
         $campaigns = DT_Posts::list_posts( "campaigns", [ "status" => [ "active" ] ] );
         if ( is_wp_error( $campaigns ) ){
             $campaigns = [];
         }
+
         ?>
-        <!-- Box -->
-        <form method="post">
-            <?php wp_nonce_field( 'home_page_nonce', 'home_page_nonce' ) ?>
+        <style>
+            .metabox-table select {
+                width: 100%;
+            }
+        </style>
+        <form method="post" class="metabox-table">
+            <?php wp_nonce_field( 'install_campaign_nonce', 'install_campaign_nonce' ) ?>
+            <!-- Box -->
             <table class="widefat striped">
                 <thead>
                 <tr>
-                    <th>Home Page</th>
+                    <th style="width:20%">Link Campaign</th>
+                    <th></th>
                 </tr>
                 </thead>
                 <tbody>
-                <tr>
-                    <td>
-                        <strong>Ramadan Target Date</strong>
-                        <input type="date" value="" name="ramadan_target_date" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <strong>Theme Color</strong><br>
-                        <select name="theme_color">
-                            <?php
-                            if ( $theme_color ) {
-                                ?>
-                                <option value="<?php echo esc_attr( $theme_color ) ?>"><?php echo esc_html( $list[$theme_color] ) ?? ''?></option>
-                                <option disabled>-----</option>
-                                <?php
-                            }
-                            foreach ( $list as $key => $label ) {
-                                ?>
-                                <option value="<?php echo esc_attr( $key ) ?>"><?php echo esc_attr( $label ) ?></option>
-                                <?php
-                            }
-                            ?>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <strong>Active Campaign</strong><br>
-                        <select name="active_campaign">
-                            <option value="none"></option>
-                            <?php foreach ( $campaigns["posts"] as $campaign ) :?>
-                                <option value="<?php echo esc_html( $campaign["ID"] ) ?>"
-                                    <?php selected( $campaign["ID"] === $dt_ramadan_selected_campaign_magic_link_settings["post_id"] ?? 0 ) ?>
+                    <tr>
+                        <td>
+                            Select Campaign
+                        </td>
+                        <td>
+                            <select name="selected_campaign">
+                                <option value="none"></option>
+                                <?php foreach ( $campaigns["posts"] as $campaign ) :?>
+                                    <option value="<?php echo esc_html( $campaign["ID"] ) ?>"
+                                        <?php selected( (int) $campaign["ID"] === (int) $fields['ID'] ) ?>
                                     >
-                                    <?php echo esc_html( $campaign["name"] ) ?>
-                                </option>
-                            <?php endforeach; ?>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <button type="submit" class="button">Update</button>
-                    </td>
-                </tr>
+                                        <?php echo esc_html( $campaign["name"] ) ?>
+                                    </option>
+                                <?php endforeach; ?>
+                            </select>
+                            <button class="button" type="submit">Update</button>
+                        </td>
+                    </tr>
+                    <?php if ( ! empty( $fields['ID'] ) ) : ?>
+                        <?php foreach( $fields as $key => $value ) :
+                            if ( in_array($key, [ 'start_date', 'end_date', 'status' ])) :
+                            ?>
+                                <tr>
+                                    <td><?php echo esc_attr( ucwords( str_replace( '_', ' ', $key ) ) ) ?></td>
+                                    <td><?php echo ( is_array($value) ) ? esc_html( $value['formatted'] ?? $value['label'] ) : esc_html( $value ); ?></td>
+                                </tr>
+                        <?php endif; endforeach; ?>
+                    <?php endif; ?>
                 </tbody>
             </table>
+            <br>
+            <!-- End Box -->
         </form>
-        <br>
-        <!-- End Box -->
-        <?php
-    }
-
-}
-
-class P4_Ramadan_Porch_Landing_Tab_Home {
-    public function content() {
-        ?>
-        <div class="wrap">
-            <div id="poststuff">
-                <div id="post-body" class="metabox-holder columns-1">
-                    <div id="post-body-content">
-                        <!-- Main Column -->
-
-                        <?php $this->main_column() ?>
-
-                        <!-- End Main Column -->
-                    </div><!-- end post-body-content -->
-                </div><!-- post-body meta box container -->
-            </div><!--poststuff end -->
-        </div><!-- wrap end -->
         <?php
     }
 
     public function main_column() {
-        $fields = pray4ramadan_porch_fields();
+        $fields = p4r_porch_fields();
+        $dir = scandir( plugin_dir_path( __DIR__ ) . 'site/css/colors' );
+        $list = [];
+        foreach ( $dir as $file ) {
+            if ( substr( $file, -4, 4 ) === '.css' ){
+                $f = explode( '.', $file );
+                $l_key = $f[0];
+                $label = ucwords( $l_key );
+                $list[$l_key] = $label;
+            }
+        }
 
         if ( isset( $_POST['install_ramadan_nonce'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['install_ramadan_nonce'] ) ), 'install_ramadan_nonce' ) ) {
-
-            dt_write_log('pre add');
-            dt_write_log($_POST);
 
             if ( isset( $_POST['list'] ) ) {
                 $saved_fields = $fields;
 
-                $list = $_POST['list'];
+                $post_list = $_POST['list'];
 
-                foreach( $list as $key => $value ) {
+                foreach( $post_list as $key => $value ) {
                     if ( ! isset( $saved_fields[$key] ) ) {
                         $saved_fields[$key] = [];
                     }
@@ -277,29 +223,17 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
 
                 $fields = p4r_recursive_parse_args($saved_fields,$fields);
 
-                update_option('pray4ramadan_porch_fields', $fields );
+                update_option('p4r_porch_fields', $fields );
             }
 
             if ( isset( $_POST['reset_values'] ) ) {
-                update_option('pray4ramadan_porch_fields', [] );
-                $fields = pray4ramadan_porch_fields();
+                update_option('p4r_porch_fields', [] );
+                $fields = p4r_porch_fields();
             }
-
-            dt_write_log('post add');
-            dt_write_log($fields);
 
         }
         ?>
-        <style>
-            #home_page input {
-                width: 100%;
-            }
-            #home_page textarea {
-                width: 100%;
-                height: 100px;
-            }
-        </style>
-        <form method="post" id="home_page">
+        <form method="post" class="metabox-table">
             <?php wp_nonce_field( 'install_ramadan_nonce', 'install_ramadan_nonce' ) ?>
             <!-- Box -->
             <table class="widefat striped">
@@ -329,12 +263,36 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                                     <textarea name="list[<?php echo $key; ?>]" id="<?php echo $key; ?>" ><?php echo $field['value']; ?></textarea>
                                 </td>
                             </tr>
+                        <?php elseif ( 'theme_select' === $field['type'] ) : ?>
+                            <tr>
+                                <td>
+                                    <?php echo $field['label']; ?>
+                                </td>
+                                <td>
+                                    <select name="list[<?php echo $key; ?>]">
+                                        <?php
+                                        if ( isset( $field['value'] ) && ! empty( $field['value'] ) ) {
+                                            ?>
+                                            <option value="<?php echo esc_attr( $field['value'] ) ?>"><?php echo esc_html( $list[$field['value']] ) ?? ''?></option>
+                                            <option disabled>-----</option>
+                                            <?php
+                                        }
+                                        foreach ( $list as $list_key => $list_label ) {
+                                            ?>
+                                            <option value="<?php echo esc_attr( $list_key ) ?>"><?php echo esc_attr( $list_label ) ?></option>
+                                            <?php
+                                        }
+                                        ?>
+                                    </select>
+                                </td>
+                            </tr>
                         <?php endif; ?>
                     <?php endforeach; ?>
                     <tr>
-                        <td>
+                        <td colspan="2">
                             <button class="button" type="submit">Update</button>
                         </td>
+
                     </tr>
                 </tbody>
             </table>
@@ -352,25 +310,27 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
  */
 class P4_Ramadan_Porch_Landing_Tab_Starter_Content {
     public function content() {
+
         ?>
         <div class="wrap">
             <div id="poststuff">
-                <div id="post-body" class="metabox-holder columns-2">
+                <div id="post-body" class="metabox-holder columns-1">
                     <div id="post-body-content">
                         <!-- Main Column -->
 
-                        <?php $this->main_column() ?>
+                        <?php
+                        $object = new P4_Ramadan_Porch_Landing_Tab_Home();
+                        $object->box_campaign();
+
+                        $fields = p4r_get_campaign();
+                        if ( ! empty( $fields ) ) {
+                            $this->main_column();
+                        }
+
+                        ?>
 
                         <!-- End Main Column -->
                     </div><!-- end post-body-content -->
-                    <div id="postbox-container-1" class="postbox-container">
-                        <!-- Right Column -->
-
-
-                        <!-- End Right Column -->
-                    </div><!-- postbox-container 1 -->
-                    <div id="postbox-container-2" class="postbox-container">
-                    </div><!-- postbox-container 2 -->
                 </div><!-- post-body meta box container -->
             </div><!--poststuff end -->
         </div><!-- wrap end -->
@@ -417,28 +377,6 @@ class P4_Ramadan_Porch_Landing_Tab_Starter_Content {
             <br>
             <!-- End Box -->
         </form>
-        <?php
-    }
-
-    public function right_column() {
-        ?>
-        <!-- Box -->
-        <table class="widefat striped">
-            <thead>
-                <tr>
-                    <th>Information</th>
-                </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>
-                    Content
-                </td>
-            </tr>
-            </tbody>
-        </table>
-        <br>
-        <!-- End Box -->
         <?php
     }
 }

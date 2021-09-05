@@ -2,9 +2,17 @@
 if ( ! defined( 'ABSPATH' ) ) { exit; } // Exit if accessed directly
 
 class P4_Ramadan_Porch_Starter_Content {
-    public static $start_of_ramadan = 'April 2, 2021';
-
     public static function load_content() {
+        $fields = p4r_get_campaign();
+        if ( empty( $fields ) ) {
+            dt_write_log('Campaign not set');
+            return false;
+        }
+        $start = $fields['start_date']['formatted'] ?? '';
+        if ( empty( $start ) ) {
+            dt_write_log('Start date not set');
+            return false;
+        }
 
         self::sample_fuel();
 
@@ -12,9 +20,9 @@ class P4_Ramadan_Porch_Starter_Content {
         $content =  self::content();
         for( $i = 0; $i <= 30; $i++ ) {
 
-            $title = date( 'F j', strtotime( self::$start_of_ramadan . ' + ' . $i . ' day' ) );
-            $date = date( 'Y-m-d', strtotime( self::$start_of_ramadan . ' + ' . $i . ' day' ) );
-            $slug = str_replace( ' ', '-', strtolower( date( 'F j', strtotime( self::$start_of_ramadan . ' + ' . $i . ' day' ) ) ) ) ;
+            $title = date( 'F j', strtotime( $start . ' + ' . $i . ' day' ) );
+            $date = date( 'Y-m-d', strtotime( $start . ' + ' . $i . ' day' ) );
+            $slug = str_replace( ' ', '-', strtolower( date( 'F j', strtotime( $start . ' + ' . $i . ' day' ) ) ) ) ;
             $post_content = implode( '', wp_unslash( $content[$i]['content'] ) );
 
             $args = [
@@ -47,9 +55,9 @@ class P4_Ramadan_Porch_Starter_Content {
             'date' => gmdate( "Y-m-d" ),
             'excerpt' => 'Focus prayer on the Amazigh in Zaghouan, the southern region of Tunisia.',
             'content' => [
-                '<!-- wp:heading {"level":3} -->',
-                '<h3><strong>SAMPLE OF THE DAILY PRAYER FUEL</strong></h3>',
-                '<!-- /wp:heading -->',
+                '<!-- wp:paragraph -->',
+                '<p>This is an example of the type of prayer guidance provided to focus and encourage your prayer each day of the prayer effort.</p>',
+                '<!-- /wp:paragraph -->',
 
                 '<!-- wp:separator {"className":"is-style-wide"} -->',
                 '<hr class="wp-block-separator is-style-wide"/>',

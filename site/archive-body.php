@@ -27,7 +27,7 @@ $list = new WP_Query( $args );
     <div class="container">
         <div class="row justify-content-md-center">
             <div class="col-md-9 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">
-                <div class="contact-block">
+                <div class="fuel-block">
                     <div class="section-header">
                         <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Today's Prayer <span>Fuel</span></h2>
                         <hr class="lines wow zoomIn" data-wow-delay="0.3s">

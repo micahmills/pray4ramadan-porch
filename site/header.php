@@ -1,3 +1,7 @@
+<?php
+$porch_fields = p4r_porch_fields();
+?>
+
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -32,15 +36,18 @@
 
 <link rel="stylesheet" id="colors" href="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>css/colors/<?php echo esc_attr( PORCH_COLOR_SCHEME ) ?>.css?ver=<?php echo esc_attr( filemtime( trailingslashit( plugin_dir_path( __FILE__ ) ) ) . 'css/colors/'. esc_attr( PORCH_COLOR_SCHEME ) .'.css' )  ?>" type="text/css" />
 
+<?php
+
+?>
 <style>
     .stencil-background {
-        background-image: url(<?php echo esc_url( plugin_dir_url( __FILE__ ) ) ?>img/stencil-header.png);
+        background-image: url(<?php echo ( empty( $porch_fields['header_background_url']['value'] ) ) ? trailingslashit( plugin_dir_url( __FILE__ ) ) . 'img/stencil-header.png' : $porch_fields['header_background_url']['value'] ?>);
         background-size: cover;
         position: absolute;
-        top: 0px;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
     }
     .logo-background {
 
