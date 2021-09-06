@@ -61,7 +61,7 @@ class P4_Ramadan_Porch_Landing_Menu {
 
         ?>
         <div class="wrap">
-            <h2>Public Porch Template</h2>
+            <h2><?php echo esc_html( PORCH_LANDING_POST_TYPE_SINGLE ) ?></h2>
             <h2 class="nav-tab-wrapper">
                 <a href="<?php echo esc_attr( $link ) . 'home' ?>" class="nav-tab <?php echo esc_html( ( $tab == 'home' || !isset( $tab ) ) ? 'nav-tab-active' : '' ); ?>">Home Page</a>
                 <a href="<?php echo esc_attr( $link ) . 'content' ?>" class="nav-tab <?php echo esc_html( ( $tab == 'content' ) ? 'nav-tab-active' : '' ); ?>">Starter Content</a>

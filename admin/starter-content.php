@@ -22,7 +22,7 @@ class P4_Ramadan_Porch_Starter_Content {
 
             $title = date( 'F j', strtotime( $start . ' + ' . $i . ' day' ) );
             $date = date( 'Y-m-d', strtotime( $start . ' + ' . $i . ' day' ) );
-            $slug = str_replace( ' ', '-', strtolower( date( 'F j', strtotime( $start . ' + ' . $i . ' day' ) ) ) ) ;
+            $slug = str_replace( ' ', '-', strtolower( date( 'F j Y', strtotime( $start . ' + ' . $i . ' day' ) ) ) ) ;
             $post_content = implode( '', wp_unslash( $content[$i]['content'] ) );
 
             $args = [
@@ -58,10 +58,6 @@ class P4_Ramadan_Porch_Starter_Content {
                 '<!-- wp:paragraph -->',
                 '<p>This is an example of the type of prayer guidance provided to focus and encourage your prayer each day of the prayer effort.</p>',
                 '<!-- /wp:paragraph -->',
-
-                '<!-- wp:separator {"className":"is-style-wide"} -->',
-                '<hr class="wp-block-separator is-style-wide"/>',
-                '<!-- /wp:separator -->',
 
                 '<!-- wp:heading {"level":3} -->',
                 '<h3><strong>Regions/UUPGs:&nbsp;</strong></h3>',

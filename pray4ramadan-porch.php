@@ -100,10 +100,10 @@ class P4_Ramadan_Porch {
             define( 'PORCH_LANDING_POST_TYPE', 'landing' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
         }
         if ( ! defined( 'PORCH_LANDING_POST_TYPE_SINGLE' ) ) {
-            define( 'PORCH_LANDING_POST_TYPE_SINGLE', 'Landing' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
+            define( 'PORCH_LANDING_POST_TYPE_SINGLE', 'Porch' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
         }
         if ( ! defined( 'PORCH_LANDING_POST_TYPE_PLURAL' ) ) {
-            define( 'PORCH_LANDING_POST_TYPE_PLURAL', 'Landings' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
+            define( 'PORCH_LANDING_POST_TYPE_PLURAL', 'Porch' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
         }
 
         /**
@@ -375,6 +375,21 @@ Though many Tunisians have stopped fasting in recent years, and lots of Tunisian
             ],
             'what_image' => [
                 'label' => 'What is Ramadan Image',
+                'value' => '',
+                'type' => 'text',
+            ],
+            'facebook' => [
+                'label' => 'Facebook',
+                'value' => '',
+                'type' => 'text',
+            ],
+            'instagram' => [
+                'label' => 'Instagram',
+                'value' => '',
+                'type' => 'text',
+            ],
+            'twitter' => [
+                'label' => 'Twitter',
                 'value' => '',
                 'type' => 'text',
             ]

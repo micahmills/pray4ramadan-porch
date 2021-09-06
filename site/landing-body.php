@@ -1,23 +1,15 @@
 <?php
+$porch_fields = p4r_porch_fields();
 if ( isset( $this->parts['post_id'] ) && ! empty( $this->parts['post_id'] ) ) {
     $my_postid = $this->parts['post_id'];//This is page id or post id
     $post_status = get_post_status( $my_postid );
-    if ( 'publish' === $post_status ) {
-        $content_post = get_post( $my_postid );
-        $content = $content_post->post_content;
-        $content = apply_filters( 'the_content', $content );
-        $content = str_replace( ']]>', ']]&gt;', $content );
-
-
-    }
-    else {
-        echo 'No post found';
-        return;
-    }
+    $content_post = get_post( $my_postid );
+    $content = $content_post->post_content;
+    $content = apply_filters( 'the_content', $content );
+    $content = str_replace( ']]>', ']]&gt;', $content );
 }
 else {
-    echo 'No post found';
-    return;
+    $content = 'No post found';
 }
 
 $args = array(
@@ -77,7 +69,7 @@ $list = new WP_Query( $args );
         <div class="section-header">
             <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">All <span>Days</span></h2>
             <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-            <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy <br> nibh euismod tincidunt ut laoreet dolore magna.</p>
+            <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Use these resources to help pray specifically each day for the month of Ramadan.</p>
         </div>
         <div class="row">
             <?php foreach ($list->posts as $item ) : ?>
@@ -111,6 +103,57 @@ $list = new WP_Query( $args );
 </section>
 <!-- blog Section End -->
 
+
+<!-- COUNTER ROW -->
+<div class="counters section" data-stellar-background-ratio="0.5" >
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="wow fadeInUp" data-wow-delay=".2s">
+                    <div class="facts-item">
+                        <div class="icon">
+                            <i class="lnr lnr-calendar-full"></i>
+                        </div>
+                        <div class="fact-count">
+                            <h3><span class="counter">30</span></h3>
+                            <h4>Days</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="wow fadeInUp" data-wow-delay=".6s">
+                    <div class="facts-item">
+                        <div class="icon">
+                            <i class="lnr lnr-user"></i>
+                        </div>
+                        <div class="fact-count">
+                            <h3>720</h3>
+                            <h4>Hours of Prayer</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="wow fadeInUp" data-wow-delay=".8s">
+                    <div class="facts-item">
+                        <div class="icon">
+                            <i class="lnr lnr-heart"></i>
+                        </div>
+                        <div class="fact-count">
+                            <h3>2880</h3>
+                            <h4>Prayer Commitments Needed</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Counter Section End -->
+
+
 <!-- Footer Section Start -->
 <footer>
     <div class="container">
@@ -118,17 +161,31 @@ $list = new WP_Query( $args );
             <div class="col-md-12">
                 <div class="social-icons wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">
                     <ul>
-                        <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li class="pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <!-- facebook -->
+                        <?php if ( ! empty( $porch_fields['facebook'] ) ) : ?>
+                            <li class="facebook"><a href="<?php echo esc_url( $porch_fields['facebook'] ) ?>"><i class="fa fa-facebook"></i></a></li>
+                        <?php endif; ?>
+
+                        <!-- instagram -->
+                        <?php if ( ! empty( $porch_fields['instagram'] ) ) : ?>
+                            <li class="instagram"><a href="<?php echo esc_url( $porch_fields['instagram'] ) ?>"><i class="fa fa-instagram"></i></a></li>
+                        <?php endif; ?>
+
+                        <!-- twitter -->
+                        <?php if ( ! empty( $porch_fields['twitter'] ) ) : ?>
+                            <li class="twitter"><a href="<?php echo esc_url( $porch_fields['twitter'] ) ?>"><i class="fa fa-twitter"></i></a></li>
+                        <?php endif; ?>
                     </ul>
                 </div>
                 <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
-                    <p>All copyrights reserved &copy;  <script>document.write(new Date().getFullYear())</script></p>
+                    <p>
+                        Made with &#10084;&#65039; by <a href="https://pray4movement.org">Pray4Movments.org</a><br>
+                        Powered by <a href="https://disciple.tools">Disciple.Tools</a><br>
+                        &copy;  <script>document.write(new Date().getFullYear())</script>
+                    </p>
                 </div>
                 <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
-                    <p><a href="/login">Login</a></p>
+                    <p><a href="/contacts">Login</a></p>
                 </div>
             </div>
         </div>

@@ -1,5 +1,8 @@
 <?php
 $porch_fields = p4r_porch_fields();
+$campaign_fields = p4r_get_campaign();
+//dt_write_log($porch_fields);
+//dt_write_log($campaign_fields);
 ?>
 
 <!-- Nav -->
@@ -11,7 +14,10 @@ $porch_fields = p4r_porch_fields();
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/prayer/list">Prayer Fuel</a>
+                    <a class="nav-link" href="<?php echo esc_url( site_url() ) ?>#sign-up">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo esc_url( site_url() ) ?>/prayer/list">Prayer Fuel</a>
                 </li>
             </ul>
         </div>
@@ -41,9 +47,9 @@ $porch_fields = p4r_porch_fields();
                         <h1 class="wow fadeInDown" style="font-size: 3em;" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php echo esc_html( $porch_fields['title']['value'] ) ?></h1>
                     <?php endif; ?>
                     <?php
-                    if ( time() <= strtotime( $porch_fields['end'] ) ) :
+                    if ( time() <= strtotime( $campaign_fields['end_date']['formatted'] ?? '' ) ) :
                         ?>
-                        <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><a href="<?php echo site_url() ?>#sign-up" class="btn btn-common btn-rm">Sign Up to Pray</a></p>
+                        <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><a href="<?php echo esc_url( site_url() ) ?>#sign-up" class="btn btn-common btn-rm">Sign Up to Pray</a></p>
                     <?php endif; ?>
                 </div>
             </div>

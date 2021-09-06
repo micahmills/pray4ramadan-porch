@@ -1,4 +1,5 @@
 <?php
+$porch_fields = p4r_porch_fields();
 $args = array(
     'post_type' => PORCH_LANDING_POST_TYPE,
     'post_status' => 'publish',
@@ -10,13 +11,12 @@ $today = new WP_Query( $args );
 
 $args = array(
     'post_type' => PORCH_LANDING_POST_TYPE,
-    'post_status' => 'publish',
+    'post_status' => ['publish'],
     'posts_per_page' => -1,
     'orderby' => 'post_date',
     'order' => 'DESC'
 );
 $list = new WP_Query( $args );
-
 ?>
 
 
@@ -51,7 +51,7 @@ $list = new WP_Query( $args );
         <div class="section-header">
             <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">All <span>Days</span></h2>
             <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-            <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy <br> nibh euismod tincidunt ut laoreet dolore magna.</p>
+            <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Use these resources to help pray specifically each day for the month of Ramadan.</p>
         </div>
         <div class="row">
             <?php foreach ($list->posts as $item ) :
@@ -95,17 +95,31 @@ $list = new WP_Query( $args );
             <div class="col-md-12">
                 <div class="social-icons wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">
                     <ul>
-                        <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li class="pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <!-- facebook -->
+                        <?php if ( ! empty( $porch_fields['facebook'] ) ) : ?>
+                            <li class="facebook"><a href="<?php echo esc_url( $porch_fields['facebook'] ) ?>"><i class="fa fa-facebook"></i></a></li>
+                        <?php endif; ?>
+
+                        <!-- instagram -->
+                        <?php if ( ! empty( $porch_fields['instagram'] ) ) : ?>
+                            <li class="instagram"><a href="<?php echo esc_url( $porch_fields['instagram'] ) ?>"><i class="fa fa-instagram"></i></a></li>
+                        <?php endif; ?>
+
+                        <!-- twitter -->
+                        <?php if ( ! empty( $porch_fields['twitter'] ) ) : ?>
+                            <li class="twitter"><a href="<?php echo esc_url( $porch_fields['twitter'] ) ?>"><i class="fa fa-twitter"></i></a></li>
+                        <?php endif; ?>
                     </ul>
                 </div>
                 <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
-                    <p>All copyrights reserved &copy;  <script>document.write(new Date().getFullYear())</script></p>
+                    <p>
+                        Made with &#10084;&#65039; by <a href="https://pray4movement.org">Pray4Movments.org</a><br>
+                        Powered by <a href="https://disciple.tools">Disciple.Tools</a><br>
+                        &copy;  <script>document.write(new Date().getFullYear())</script>
+                    </p>
                 </div>
                 <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
-                    <p><a href="/login">Login</a></p>
+                    <p><a href="/contacts">Login</a></p>
                 </div>
             </div>
         </div>

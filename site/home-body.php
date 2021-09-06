@@ -1,5 +1,6 @@
 <?php
-$porch_fields = p4r_porch_fields()
+$porch_fields = p4r_porch_fields();
+$campaign_fields = p4r_get_campaign();
 ?>
 
 <!-- FAQ -->
@@ -45,7 +46,7 @@ $porch_fields = p4r_porch_fields()
 <!-- Services Section End -->
 
 
-<?php if ( time() <= strtotime( $porch_fields['end'] ) ) : ?>
+<?php if ( time() <= strtotime( $campaign_fields['end_date']['formatted'] ?? '' ) ) : ?>
     <!-- COUNTER ROW -->
     <div id="days_until" class="counters section" data-stellar-background-ratio="0.5" >
         <div class="overlay"></div>
@@ -68,8 +69,8 @@ $porch_fields = p4r_porch_fields()
     <script>
         var myfunc = setInterval(function() {
             // The data/time we want to countdown to
-            var countDownDate = new Date("<?php echo $porch_fields['start'] ?> 00:00:00").getTime();
-            var endCountDownDate = new Date("<?php echo $porch_fields['end'] ?> 00:00:00").getTime();
+            var countDownDate = new Date("<?php echo $campaign_fields['start_date']['formatted'] ?> 00:00:00").getTime();
+            var endCountDownDate = new Date("<?php echo $campaign_fields['end_date']['formatted'] ?> 00:00:00").getTime();
 
             var now = new Date().getTime();
             var timeleft = countDownDate - now;
@@ -193,7 +194,7 @@ $porch_fields = p4r_porch_fields()
         <div class="section-header">
             <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">15-Minute <span>Prayer Fuel</span></h2>
             <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-            <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy <br> nibh euismod tincidunt ut laoreet dolore magna.</p>
+            <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Use these resources to help pray specifically each day for the month of Ramadan</p>
             <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><a href="/prayer/list" class="btn btn-common btn-rm">View All</a></p>
         </div>
     </div>
@@ -233,14 +234,28 @@ $porch_fields = p4r_porch_fields()
             <div class="col-md-12">
                 <div class="social-icons wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">
                     <ul>
-                        <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li class="pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <!-- facebook -->
+                        <?php if ( ! empty( $porch_fields['facebook'] ) ) : ?>
+                        <li class="facebook"><a href="<?php echo esc_url( $porch_fields['facebook'] ) ?>"><i class="fa fa-facebook"></i></a></li>
+                        <?php endif; ?>
+
+                        <!-- instagram -->
+                        <?php if ( ! empty( $porch_fields['instagram'] ) ) : ?>
+                        <li class="instagram"><a href="<?php echo esc_url( $porch_fields['instagram'] ) ?>"><i class="fa fa-instagram"></i></a></li>
+                        <?php endif; ?>
+
+                        <!-- twitter -->
+                        <?php if ( ! empty( $porch_fields['twitter'] ) ) : ?>
+                        <li class="twitter"><a href="<?php echo esc_url( $porch_fields['twitter'] ) ?>"><i class="fa fa-twitter"></i></a></li>
+                        <?php endif; ?>
                     </ul>
                 </div>
                 <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
-                    <p>Made with &#10084;&#65039; by <a href="https://pray4movement.org">Pray4Movments.org</a>. Powered by <a href="https://disciple.tools">Disciple.Tools</a> <br>All copyrights reserved &copy;  <script>document.write(new Date().getFullYear())</script></p>
+                    <p>
+                        Made with &#10084;&#65039; by <a href="https://pray4movement.org">Pray4Movments.org</a><br>
+                        Powered by <a href="https://disciple.tools">Disciple.Tools</a><br>
+                        &copy;  <script>document.write(new Date().getFullYear())</script>
+                    </p>
                 </div>
                 <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
                     <p><a href="/contacts">Login</a></p>
