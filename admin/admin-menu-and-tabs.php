@@ -136,7 +136,7 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
             $fields = [ 'ID' => 0 ];
         }
 
-        $campaigns = DT_Posts::list_posts( "campaigns", [ "status" => [ "active" ] ] );
+        $campaigns = DT_Posts::list_posts( "campaigns", [ "status" => [ "active", "pre_signup", "inactive" ] ] );
         if ( is_wp_error( $campaigns ) ){
             $campaigns = [];
         }
