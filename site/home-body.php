@@ -1,5 +1,5 @@
 <?php
-$porch_content = p4r_porch_fields()
+$porch_fields = p4r_porch_fields()
 ?>
 
 <!-- FAQ -->
@@ -8,7 +8,7 @@ $porch_content = p4r_porch_fields()
         <div class="section-header">
             <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Our <span>Vision</span></h2>
             <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-            <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">We want to cover the country of <?php echo esc_html( $porch_content['country_name']['value'] ?? '' ) ?> with 24 prayer during the month of Ramadan. </p>
+            <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">We want to cover the country of <?php echo esc_html( $porch_fields['country_name']['value'] ?? '' ) ?> with 24 prayer during the month of Ramadan. </p>
         </div>
         <div class="row">
             <div class="col-md-4 col-sm-6">
@@ -45,101 +45,97 @@ $porch_content = p4r_porch_fields()
 <!-- Services Section End -->
 
 
-<!-- COUNTER ROW -->
-<div id="days_until" class="counters section" data-stellar-background-ratio="0.5" >
-    <div class="overlay"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="wow fadeInUp" data-wow-delay=".3s">
-                    <div class="facts-item">
-                        <div class="fact-count">
-                            <h2 id="counter_title" style="font-size:3em;"></h2>
-                            <h3><span id="days"></span><span id="hours"></span><span id="mins"></span><span id="secs"></span><span id="end"></span></h3>
+<?php if ( time() <= strtotime( $porch_fields['end'] ) ) : ?>
+    <!-- COUNTER ROW -->
+    <div id="days_until" class="counters section" data-stellar-background-ratio="0.5" >
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="wow fadeInUp" data-wow-delay=".3s">
+                        <div class="facts-item">
+                            <div class="fact-count">
+                                <h2 id="counter_title" style="font-size:3em;"></h2>
+                                <h3><span id="days"></span><span id="hours"></span><span id="mins"></span><span id="secs"></span><span id="end"></span></h3>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Counter Section End -->
-<?php
+    <!-- Counter Section End -->
+    <script>
+        var myfunc = setInterval(function() {
+            // The data/time we want to countdown to
+            var countDownDate = new Date("<?php echo $porch_fields['start'] ?> 00:00:00").getTime();
+            var endCountDownDate = new Date("<?php echo $porch_fields['end'] ?> 00:00:00").getTime();
 
-?>
-<script>
-    var myfunc = setInterval(function() {
-        // The data/time we want to countdown to
-        var countDownDate = new Date("Apr 2, 2022 00:00:00").getTime();
-        var endCountDownDate = new Date("May 2, 2022 00:00:00").getTime();
+            var now = new Date().getTime();
+            var timeleft = countDownDate - now;
+            var endtimeleft = endCountDownDate - now;
 
-        var now = new Date().getTime();
-        var timeleft = countDownDate - now;
-        var endtimeleft = endCountDownDate - now;
+            var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
 
-        var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
+            if ( endtimeleft < 0 ) {
+                clearInterval(myfunc);
+                document.getElementById("counter_title").innerHTML = "Ramadan is Finished"
+                document.getElementById("days").innerHTML = ""
+                document.getElementById("hours").innerHTML = ""
+                document.getElementById("mins").innerHTML = ""
+                document.getElementById("secs").innerHTML = ""
+            }
+            else if (timeleft < 0) {
 
-        if ( endtimeleft < 0 ) {
-            clearInterval(myfunc);
-            document.getElementById("counter_title").innerHTML = "Ramadan is Finished"
-            document.getElementById("days").innerHTML = ""
-            document.getElementById("hours").innerHTML = ""
-            document.getElementById("mins").innerHTML = ""
-            document.getElementById("secs").innerHTML = ""
-        }
-        else if (timeleft < 0) {
+                days = Math.floor(endtimeleft / (1000 * 60 * 60 * 24));
+                hours = Math.floor((endtimeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                minutes = Math.floor((endtimeleft % (1000 * 60 * 60)) / (1000 * 60));
+                seconds = Math.floor((endtimeleft % (1000 * 60)) / 1000);
 
-            days = Math.floor(endtimeleft / (1000 * 60 * 60 * 24));
-            hours = Math.floor((endtimeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            minutes = Math.floor((endtimeleft % (1000 * 60 * 60)) / (1000 * 60));
-            seconds = Math.floor((endtimeleft % (1000 * 60)) / 1000);
+                document.getElementById("counter_title").innerHTML = "Ramadan Ends ..."
+                document.getElementById("days").innerHTML = days + " days, "
+                document.getElementById("hours").innerHTML = hours + " hours, "
+                document.getElementById("mins").innerHTML = minutes + " minutes, "
+                document.getElementById("secs").innerHTML = seconds + " seconds"
 
-            document.getElementById("counter_title").innerHTML = "Ramadan Ends ..."
-            document.getElementById("days").innerHTML = days + " days, "
-            document.getElementById("hours").innerHTML = hours + " hours, "
-            document.getElementById("mins").innerHTML = minutes + " minutes, "
-            document.getElementById("secs").innerHTML = seconds + " seconds"
+            } else {
+                document.getElementById("counter_title").innerHTML = "Ramadan Begins ..."
+                document.getElementById("days").innerHTML = days + " days, "
+                document.getElementById("hours").innerHTML = hours + " hours, "
+                document.getElementById("mins").innerHTML = minutes + " minutes, "
+                document.getElementById("secs").innerHTML = seconds + " seconds"
+            }
 
-        } else {
-            document.getElementById("counter_title").innerHTML = "Ramadan Begins ..."
-            document.getElementById("days").innerHTML = days + " days, "
-            document.getElementById("hours").innerHTML = hours + " hours, "
-            document.getElementById("mins").innerHTML = minutes + " minutes, "
-            document.getElementById("secs").innerHTML = seconds + " seconds"
-        }
+        }, 1000)
+    </script>
 
-    }, 1000)
-
-
-</script>
-<!-- <i class="lnr lnr-calendar-full"></i> -->
-
-<!-- SIGN UP TO PRAY -->
-<section id="features" name="sign_up" class="section" data-stellar-background-ratio="0.2">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Sign Up to <span>Pray</span></h2>
-            <hr class="lines wow zoomIn" data-wow-delay="0.3s">
+    <!-- SIGN UP TO PRAY -->
+    <section id="features" class="section" data-stellar-background-ratio="0.2">
+        <div id="sign-up" name="sign-up" class="container">
+            <div class="section-header">
+                <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Sign Up to <span>Pray</span></h2>
+                <hr class="lines wow zoomIn" data-wow-delay="0.3s">
+            </div>
+            <div class="row">
+                <?php
+                $dt_ramadan_selected_campaign_magic_link_settings = get_option( 'dt_ramadan_selected_campaign_magic_link_settings' );
+                if ( empty( $dt_ramadan_selected_campaign_magic_link_settings ) ) :?>
+                    <p style="margin:auto">Choose campaign in settings <a href="<?php echo esc_html( admin_url( 'admin.php?page=dt_porch_template&tab=general' ) );?>">here</a></p>
+                <?php else :
+                    dt_24hour_campaign_shortcode(
+                        $dt_ramadan_selected_campaign_magic_link_settings
+                    );
+                endif;
+                ?>
+            </div>
         </div>
-        <div class="row">
-            <?php
-            $dt_ramadan_selected_campaign_magic_link_settings = get_option( 'dt_ramadan_selected_campaign_magic_link_settings' );
-            dt_write_log($dt_ramadan_selected_campaign_magic_link_settings );
-            if ( empty( $dt_ramadan_selected_campaign_magic_link_settings ) ) :?>
-                <p style="margin:auto">Choose campaign in settings <a href="<?php echo esc_html( admin_url( 'admin.php?page=dt_porch_template&tab=general' ) );?>">here</a></p>
-            <?php else :
-                dt_24hour_campaign_shortcode(
-                    $dt_ramadan_selected_campaign_magic_link_settings
-                );
-            endif;
-            ?>
-        </div>
-    </div>
-</section>
-<!-- Features Section End -->
+    </section>
+    <!-- Features Section End -->
+
+<?php endif; ?><!-- campaign passed -->
 
 <!-- COUNTER ROW -->
 <div class="counters section" data-stellar-background-ratio="0.5" >
@@ -214,7 +210,7 @@ $porch_content = p4r_porch_fields()
         <div class="row">
             <div class="col-md-6 col-sm-6">
                 <div class="wow fadeInDown" data-wow-delay="0.2s">
-                    <?php echo wp_kses_post( nl2br( $porch_content['what_content']['value'] ) ) ?>
+                    <?php echo wp_kses_post( nl2br( $porch_fields['what_content']['value'] ) ) ?>
                 </div>
             </div>
             <div class="col-md-6 col-sm-6">
@@ -244,7 +240,7 @@ $porch_content = p4r_porch_fields()
                     </ul>
                 </div>
                 <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
-                    <p>All copyrights reserved &copy;  <script>document.write(new Date().getFullYear())</script></p>
+                    <p>Made with &#10084;&#65039; by <a href="https://pray4movement.org">Pray4Movments.org</a>. Powered by <a href="https://disciple.tools">Disciple.Tools</a> <br>All copyrights reserved &copy;  <script>document.write(new Date().getFullYear())</script></p>
                 </div>
                 <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
                     <p><a href="/contacts">Login</a></p>

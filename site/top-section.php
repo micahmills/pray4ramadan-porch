@@ -40,6 +40,11 @@ $porch_fields = p4r_porch_fields();
                     <?php else : ?>
                         <h1 class="wow fadeInDown" style="font-size: 3em;" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php echo esc_html( $porch_fields['title']['value'] ) ?></h1>
                     <?php endif; ?>
+                    <?php
+                    if ( time() <= strtotime( $porch_fields['end'] ) ) :
+                        ?>
+                        <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><a href="<?php echo site_url() ?>#sign-up" class="btn btn-common btn-rm">Sign Up to Pray</a></p>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
