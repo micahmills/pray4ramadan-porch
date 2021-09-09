@@ -43,8 +43,6 @@ class P4_Ramadan_Porch_Starter_Content {
 
         }
 
-        dt_write_log( $installed );
-
         return $installed;
     }
 
