@@ -177,14 +177,15 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                         </td>
                     </tr>
                     <?php if ( ! empty( $fields['ID'] ) ) : ?>
-                        <?php foreach( $fields as $key => $value ) :
-                            if ( in_array($key, [ 'start_date', 'end_date', 'status' ])) :
-                            ?>
+                        <?php foreach ( $fields as $key => $value ) :
+                            if ( in_array( $key, [ 'start_date', 'end_date', 'status' ] )) :
+                                ?>
                                 <tr>
                                     <td><?php echo esc_attr( ucwords( str_replace( '_', ' ', $key ) ) ) ?></td>
-                                    <td><?php echo ( is_array($value) ) ? esc_html( $value['formatted'] ?? $value['label'] ) : esc_html( $value ); ?></td>
+                                    <td><?php echo esc_html( ( is_array( $value ) ) ? $value['formatted'] ?? $value['label'] : $value ); ?></td>
                                 </tr>
-                        <?php endif; endforeach; ?>
+                            <?php endif;
+                        endforeach; ?>
                     <?php endif; ?>
                 </tbody>
             </table>
@@ -212,25 +213,24 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
             if ( isset( $_POST['list'] ) ) {
                 $saved_fields = $fields;
 
-                $post_list = $_POST['list'];
+                $post_list = dt_recursive_sanitize_array( $_POST['list'] );
 
-                foreach( $post_list as $key => $value ) {
+                foreach ( $post_list as $key => $value ) {
                     if ( ! isset( $saved_fields[$key] ) ) {
                         $saved_fields[$key] = [];
                     }
                     $saved_fields[$key]['value'] = $value;
                 }
 
-                $fields = p4r_recursive_parse_args($saved_fields,$fields);
+                $fields = p4r_recursive_parse_args( $saved_fields, $fields );
 
-                update_option('p4r_porch_fields', $fields );
+                update_option( 'p4r_porch_fields', $fields );
             }
 
             if ( isset( $_POST['reset_values'] ) ) {
-                update_option('p4r_porch_fields', [] );
+                update_option( 'p4r_porch_fields', [] );
                 $fields = p4r_porch_fields();
             }
-
         }
         ?>
         <form method="post" class="metabox-table">
@@ -244,32 +244,32 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                 </tr>
                 </thead>
                 <tbody>
-                    <?php foreach( $fields as $key => $field ) : ?>
+                    <?php foreach ( $fields as $key => $field ) : ?>
                         <?php if ( !isset( $field['type'] ) || 'text' === $field['type'] ) : ?>
                             <tr>
                                 <td>
-                                    <?php echo $field['label']; ?>
+                                    <?php echo esc_html( $field['label'] ); ?>
                                 </td>
                                 <td>
-                                    <input type="text" name="list[<?php echo $key; ?>]" id="<?php echo $key; ?>" value="<?php echo $field['value']; ?>" />
+                                    <input type="text" name="list[<?php echo esc_html( $key ); ?>]" id="<?php echo esc_html( $key ); ?>" value="<?php echo esc_html( $field['value'] ); ?>" />
                                 </td>
                             </tr>
                         <?php elseif ( 'textarea' === $field['type'] ) : ?>
                             <tr>
                                 <td>
-                                    <?php echo $field['label']; ?>
+                                    <?php echo esc_html( $field['label'] ); ?>
                                 </td>
                                 <td>
-                                    <textarea name="list[<?php echo $key; ?>]" id="<?php echo $key; ?>" ><?php echo $field['value']; ?></textarea>
+                                    <textarea name="list[<?php echo esc_html( $key ); ?>]" id="<?php echo esc_html( $key ); ?>" ><?php echo esc_html( $field['value'] ); ?></textarea>
                                 </td>
                             </tr>
                         <?php elseif ( 'theme_select' === $field['type'] ) : ?>
                             <tr>
                                 <td>
-                                    <?php echo $field['label']; ?>
+                                    <?php echo esc_html( $field['label'] ); ?>
                                 </td>
                                 <td>
-                                    <select name="list[<?php echo $key; ?>]">
+                                    <select name="list[<?php echo esc_html( $key ); ?>]">
                                         <?php
                                         if ( isset( $field['value'] ) && ! empty( $field['value'] ) ) {
                                             ?>

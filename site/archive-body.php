@@ -11,7 +11,7 @@ $today = new WP_Query( $args );
 
 $args = array(
     'post_type' => PORCH_LANDING_POST_TYPE,
-    'post_status' => ['publish'],
+    'post_status' => [ 'publish' ],
     'posts_per_page' => -1,
     'orderby' => 'post_date',
     'order' => 'DESC'
@@ -55,7 +55,7 @@ $list = new WP_Query( $args );
         </div>
         <div class="row">
             <?php foreach ($list->posts as $item ) :
-                $date = date( $item->post_date );
+                $date = gmdate( $item->post_date );
                 ?>
 
                 <?php $public_key = get_post_meta( $item->ID, PORCH_LANDING_META_KEY, true ); ?>

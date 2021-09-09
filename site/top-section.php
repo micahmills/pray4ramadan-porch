@@ -31,7 +31,7 @@ $campaign_fields = p4r_get_campaign();
     <div class="fixed-top">
         <div class="container">
             <div class="logo-menu">
-                <a href="/" class="logo"><?php echo esc_html(  $porch_fields['title']['value']  ) ?></a>
+                <a href="/" class="logo"><?php echo esc_html( $porch_fields['title']['value'] ) ?></a>
                 <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button>
             </div>
         </div>

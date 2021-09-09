@@ -69,8 +69,8 @@ $campaign_fields = p4r_get_campaign();
     <script>
         var myfunc = setInterval(function() {
             // The data/time we want to countdown to
-            var countDownDate = new Date("<?php echo $campaign_fields['start_date']['formatted'] ?> 00:00:00").getTime();
-            var endCountDownDate = new Date("<?php echo $campaign_fields['end_date']['formatted'] ?> 00:00:00").getTime();
+            var countDownDate = new Date("<?php echo esc_html( $campaign_fields['start_date']['formatted'] ) ?> 00:00:00").getTime();
+            var endCountDownDate = new Date("<?php echo esc_html( $campaign_fields['end_date']['formatted'] ) ?> 00:00:00").getTime();
 
             var now = new Date().getTime();
             var timeleft = countDownDate - now;
@@ -235,18 +235,18 @@ $campaign_fields = p4r_get_campaign();
                 <div class="social-icons wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">
                     <ul>
                         <!-- facebook -->
-                        <?php if ( ! empty( $porch_fields['facebook'] ) ) : ?>
-                        <li class="facebook"><a href="<?php echo esc_url( $porch_fields['facebook'] ) ?>"><i class="fa fa-facebook"></i></a></li>
+                        <?php if ( isset( $porch_fields['facebook']["url"] ) && !empty( $porch_fields['facebook']["url"] ) ) : ?>
+                        <li class="facebook"><a href="<?php echo esc_url( $porch_fields['facebook']["url"] ) ?>"><i class="fa fa-facebook"></i></a></li>
                         <?php endif; ?>
 
                         <!-- instagram -->
-                        <?php if ( ! empty( $porch_fields['instagram'] ) ) : ?>
-                        <li class="instagram"><a href="<?php echo esc_url( $porch_fields['instagram'] ) ?>"><i class="fa fa-instagram"></i></a></li>
+                        <?php if ( isset( $porch_fields['instagram']["url"] ) && !empty( $porch_fields['instagram']["url"] ) ) : ?>
+                        <li class="instagram"><a href="<?php echo esc_url( $porch_fields['instagram']["url"] ) ?>"><i class="fa fa-instagram"></i></a></li>
                         <?php endif; ?>
 
                         <!-- twitter -->
-                        <?php if ( ! empty( $porch_fields['twitter'] ) ) : ?>
-                        <li class="twitter"><a href="<?php echo esc_url( $porch_fields['twitter'] ) ?>"><i class="fa fa-twitter"></i></a></li>
+                        <?php if ( isset( $porch_fields['twitter']["url"] ) && !empty( $porch_fields['twitter']["url"] ) ) : ?>
+                        <li class="twitter"><a href="<?php echo esc_url( $porch_fields['twitter']["url"] ) ?>"><i class="fa fa-twitter"></i></a></li>
                         <?php endif; ?>
                     </ul>
                 </div>

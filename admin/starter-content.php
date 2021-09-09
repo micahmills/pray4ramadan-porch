@@ -5,24 +5,24 @@ class P4_Ramadan_Porch_Starter_Content {
     public static function load_content() {
         $fields = p4r_get_campaign();
         if ( empty( $fields ) ) {
-            dt_write_log('Campaign not set');
+            dt_write_log( 'Campaign not set' );
             return false;
         }
         $start = $fields['start_date']['formatted'] ?? '';
         if ( empty( $start ) ) {
-            dt_write_log('Start date not set');
+            dt_write_log( 'Start date not set' );
             return false;
         }
 
         self::sample_fuel();
 
         $installed = [];
-        $content =  self::content();
-        for( $i = 0; $i <= 30; $i++ ) {
+        $content = self::content();
+        for ( $i = 0; $i <= 30; $i++ ) {
 
-            $title = date( 'F j', strtotime( $start . ' + ' . $i . ' day' ) );
-            $date = date( 'Y-m-d', strtotime( $start . ' + ' . $i . ' day' ) );
-            $slug = str_replace( ' ', '-', strtolower( date( 'F j Y', strtotime( $start . ' + ' . $i . ' day' ) ) ) ) ;
+            $title = gmdate( 'F j', strtotime( $start . ' + ' . $i . ' day' ) );
+            $date = gmdate( 'Y-m-d', strtotime( $start . ' + ' . $i . ' day' ) );
+            $slug = str_replace( ' ', '-', strtolower( gmdate( 'F j Y', strtotime( $start . ' + ' . $i . ' day' ) ) ) );
             $post_content = implode( '', wp_unslash( $content[$i]['content'] ) );
 
             $args = [
@@ -43,13 +43,13 @@ class P4_Ramadan_Porch_Starter_Content {
 
         }
 
-        dt_write_log($installed);
+        dt_write_log( $installed );
 
         return $installed;
     }
 
     public static function sample_fuel(){
-        $data =  [
+        $data = [
             'title' => 'Sample Prayer Fuel',
             'slug' => 'sample-prayer-fuel',
             'date' => gmdate( "Y-m-d" ),

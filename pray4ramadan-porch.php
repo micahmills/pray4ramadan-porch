@@ -115,7 +115,7 @@ class P4_Ramadan_Porch {
         $hex = '#4676fa';
         if ( isset( $fields['theme_color']['value'] ) && ! empty( $fields['theme_color']['value'] ) && ! defined( 'PORCH_COLOR_SCHEME' ) ) {
             $theme = $fields['theme_color']['value'];
-            switch( $theme ) {
+            switch ( $theme ) {
                 case 'preset':
                     $hex = '#4676fa';
                     break;
@@ -351,7 +351,7 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
             ],
             'title' => [
                 'label' => 'Campaign/Site Title',
-                'value' => get_bloginfo('name'),
+                'value' => get_bloginfo( 'name' ),
                 'type' => 'text',
             ],
             'logo_url' => [
@@ -395,22 +395,21 @@ Though many Tunisians have stopped fasting in recent years, and lots of Tunisian
             ]
         ];
 
-        $saved_fields = get_option('p4r_porch_fields', [] );
+        $saved_fields = get_option( 'p4r_porch_fields', [] );
 
-        return p4r_recursive_parse_args($saved_fields,$defaults);
+        return p4r_recursive_parse_args( $saved_fields, $defaults );
     }
 }
 if ( ! function_exists( 'p4r_get_campaign' ) ) {
-    function p4r_get_campaign()
-    {
+    function p4r_get_campaign() {
 
-        $selected_campaign = get_option('pray4ramadan_selected_campaign', false);
+        $selected_campaign = get_option( 'pray4ramadan_selected_campaign', false );
 
         if ( empty( $selected_campaign ) ) {
             return [];
         }
 
-        $campaign = DT_Posts::get_post('campaigns', (int) $selected_campaign, true, false );
+        $campaign = DT_Posts::get_post( 'campaigns', (int) $selected_campaign, true, false );
         if ( is_wp_error( $campaign ) ) {
             return [];
         }
