@@ -410,7 +410,7 @@ if ( ! function_exists( 'p4r_get_campaign' ) ) {
             return [];
         }
 
-        $campaign = DT_Posts::get_post('campaigns', (int) $selected_campaign );
+        $campaign = DT_Posts::get_post('campaigns', (int) $selected_campaign, true, false );
         if ( is_wp_error( $campaign ) ) {
             return [];
         }
