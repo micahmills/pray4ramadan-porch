@@ -49,7 +49,7 @@ $porch_fields = p4r_porch_fields();
     .logo-background {
 
     }
-    .button.cp-nav {
+    #cp-wrapper button {
         background-color: <?php echo esc_attr( PORCH_COLOR_SCHEME_HEX ) ?> !important;
     }
     #cp-wrapper {
