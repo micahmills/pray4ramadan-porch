@@ -1,7 +1,27 @@
 <?php
 $porch_fields = p4r_porch_fields();
 $campaign_fields = p4r_get_campaign();
-$dt_ramadan_selected_campaign_magic_link_settings = get_option( 'dt_ramadan_selected_campaign_magic_link_settings' );
+
+$campaign_root = "campaign_app";
+$campaign_type = $campaign_fields["type"]["key"];
+$key_name = 'public_key';
+$key = "";
+if ( method_exists( "DT_Magic_URL", "get_public_key_meta_key" ) ){
+    $key_name = DT_Magic_URL::get_public_key_meta_key( $campaign_root, $campaign_type );
+}
+if ( isset( $campaign_fields[$key_name] )) {
+    $key = $campaign_fields[$key_name];
+}
+$atts = [
+    "root" => $campaign_root,
+    "type" => $campaign_type,
+    "public_key" => $key,
+    "meta_key" => $key_name,
+    "post_id" => $campaign_fields["ID"],
+    "rest_url" => rest_url(),
+    "lang" => "en_US"
+];
+$dt_ramadan_selected_campaign_magic_link_settings = $atts;
 $dt_ramadan_selected_campaign_magic_link_settings["color"] = $porch_fields["theme_color"]["value"];
 ?>
 
