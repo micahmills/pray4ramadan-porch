@@ -49,15 +49,6 @@ $porch_fields = p4r_porch_fields();
     .logo-background {
 
     }
-    #cp-wrapper button {
-        background-color: <?php echo esc_attr( PORCH_COLOR_SCHEME_HEX ) ?> !important;
-    }
-    #cp-wrapper {
-        background-color: white !important;
-    }
-    #cp-submit-form-later {
-        background-color: <?php echo esc_attr( PORCH_COLOR_SCHEME_HEX ) ?> !important;
-    }
     .logo {
         color: <?php echo esc_attr( PORCH_COLOR_SCHEME_HEX ) ?> !important;
     }

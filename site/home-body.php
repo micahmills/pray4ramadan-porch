@@ -1,17 +1,29 @@
 <?php
 $porch_fields = p4r_porch_fields();
 $campaign_fields = p4r_get_campaign();
+$dt_ramadan_selected_campaign_magic_link_settings = get_option( 'dt_ramadan_selected_campaign_magic_link_settings' );
+$dt_ramadan_selected_campaign_magic_link_settings["color"] = $porch_fields["theme_color"]["value"];
 ?>
 
 <!-- FAQ -->
 <section id="services" class="section">
     <div class="container">
-        <div class="section-header">
-            <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Our <span>Vision</span></h2>
-            <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-            <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-                We want to cover the country of <?php echo esc_html( $porch_fields['country_name']['value'] ?? '' ) ?> with continuous 24/7 prayer during the entire 30 days of Ramadan.
-            </p>
+        <div class="section-header row">
+            <div class="col-sm-12 col-md-6">
+                <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Our <span>Vision</span></h2>
+                <hr class="lines wow zoomIn" data-wow-delay="0.3s">
+                <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
+                    We want to cover the country of <?php echo esc_html( $porch_fields['country_name']['value'] ?? '' ) ?> with continuous 24/7 prayer during the entire 30 days of Ramadan.
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <?php
+                $dt_ramadan_selected_campaign_magic_link_settings["section"] = "percentage";
+                dt_24hour_campaign_shortcode(
+                    $dt_ramadan_selected_campaign_magic_link_settings
+                );
+                ?>
+            </div>
         </div>
         <div class="row">
             <div class="col-md-4 col-sm-6">
@@ -78,7 +90,12 @@ $campaign_fields = p4r_get_campaign();
                     </p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    Cal
+                    <?php
+                    $dt_ramadan_selected_campaign_magic_link_settings["section"] = "calendar";
+                    dt_24hour_campaign_shortcode(
+                        $dt_ramadan_selected_campaign_magic_link_settings
+                    );
+                    ?>
                 </div>
             </div>
         </div>
@@ -140,10 +157,11 @@ $campaign_fields = p4r_get_campaign();
             </div>
             <div class="row">
                 <?php
-                $dt_ramadan_selected_campaign_magic_link_settings = get_option( 'dt_ramadan_selected_campaign_magic_link_settings' );
                 if ( empty( $dt_ramadan_selected_campaign_magic_link_settings ) ) :?>
                     <p style="margin:auto">Choose campaign in settings <a href="<?php echo esc_html( admin_url( 'admin.php?page=dt_porch_template&tab=general' ) );?>">here</a></p>
                 <?php else :
+
+                    $dt_ramadan_selected_campaign_magic_link_settings["section"] = "sign_up";
                     dt_24hour_campaign_shortcode(
                         $dt_ramadan_selected_campaign_magic_link_settings
                     );
