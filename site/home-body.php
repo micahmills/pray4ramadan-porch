@@ -17,7 +17,7 @@ $atts = [
     "type" => $campaign_type,
     "public_key" => $key,
     "meta_key" => $key_name,
-    "post_id" => $campaign_fields["ID"],
+    "post_id" => (int) $campaign_fields["ID"],
     "rest_url" => rest_url(),
     "lang" => "en_US"
 ];
