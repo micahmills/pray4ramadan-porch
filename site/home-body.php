@@ -29,14 +29,14 @@ $dt_ramadan_selected_campaign_magic_link_settings["color"] = $porch_fields["them
 <section id="services" class="section">
     <div class="container">
         <div class="section-header row">
-            <div class="col-sm-12 col-md-6">
+            <div class="col-sm-12 col-md-8">
                 <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Our <span>Vision</span></h2>
                 <hr class="lines wow zoomIn" data-wow-delay="0.3s">
                 <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
                     We want to cover the country of <?php echo esc_html( $porch_fields['country_name']['value'] ?? '' ) ?> with continuous 24/7 prayer during the entire 30 days of Ramadan.
                 </p>
             </div>
-            <div class="col-sm-12 col-md-6">
+            <div class="col-sm-12 col-md-4">
                 <?php
                 $dt_ramadan_selected_campaign_magic_link_settings["section"] = "percentage";
                 dt_24hour_campaign_shortcode(
