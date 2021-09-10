@@ -46,10 +46,13 @@ $campaign_fields = p4r_get_campaign();
                     <?php else : ?>
                         <h1 class="wow fadeInDown" style="font-size: 3em;" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php echo esc_html( $porch_fields['title']['value'] ) ?></h1>
                     <?php endif; ?>
+                    <h4>Strategic prayer for a disciple making movement<?php echo esc_html( !empty( $porch_fields["country_name"]["value"] ) ? " in " . $porch_fields["country_name"]["value"] : '' ); ?></h4>
                     <?php
                     if ( time() <= strtotime( $campaign_fields['end_date']['formatted'] ?? '' ) ) :
                         ?>
-                        <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><a href="<?php echo esc_url( site_url() ) ?>#sign-up" class="btn btn-common btn-rm">Sign Up to Pray</a></p>
+                        <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">
+                            <a href="<?php echo esc_url( site_url() ) ?>#sign-up" class="btn btn-common btn-rm">Sign Up to Pray</a>
+                        </p>
                     <?php endif; ?>
                 </div>
             </div>

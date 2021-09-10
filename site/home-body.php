@@ -9,7 +9,9 @@ $campaign_fields = p4r_get_campaign();
         <div class="section-header">
             <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Our <span>Vision</span></h2>
             <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-            <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">We want to cover the country of <?php echo esc_html( $porch_fields['country_name']['value'] ?? '' ) ?> with 24 prayer during the month of Ramadan. </p>
+            <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
+                We want to cover the country of <?php echo esc_html( $porch_fields['country_name']['value'] ?? '' ) ?> with continuous 24/7 prayer during the entire 30 days of Ramadan.
+            </p>
         </div>
         <div class="row">
             <div class="col-md-4 col-sm-6">
@@ -18,7 +20,7 @@ $campaign_fields = p4r_get_campaign();
                         <i class="lnr lnr-pencil"></i>
                     </div>
                     <h4>Extraordinary Prayer</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
+                    <p>Every disciple making movement in history has happened in the context of extraordinary prayer.</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
@@ -27,7 +29,7 @@ $campaign_fields = p4r_get_campaign();
                         <i class="lnr lnr-cog"></i>
                     </div>
                     <h4>Movement Focused</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
+                    <p>Join us in asking, seeking, and knocking for streams of disciples and churches to be made.</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
@@ -36,7 +38,7 @@ $campaign_fields = p4r_get_campaign();
                         <i class="lnr lnr-chart-bars"></i>
                     </div>
                     <h4>24/7 for 30 Days</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
+                    <p>Choose a 15-minute (or more!) time slot that you can pray during each day. Invite someone else to sign up too.</p>
                 </div>
             </div>
         </div>
@@ -61,6 +63,22 @@ $campaign_fields = p4r_get_campaign();
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px">
+                <div class="col-sm-12 col-md-8" style="color: white">
+                    <p>
+                        Ramadan is one of the five requirements (or pillars) of Islam. During each of its 30 days, Muslims are obligated to fast from dawn until sunset. During this time they are supposed to abstain from food, drinking liquids, smoking, and sexual relations.
+                    </p>
+                    <p>
+                        In Tunisia, women typically spend the afternoons preparing a big meal. At sunset, families often gather to break the fast. Traditionally the families break the fast with a drink of water, then three dried date fruits, and a multi-course meal. After watching the new Ramadan TV series, men (and some women) go out to coffee shops where they drink coffee, and smoke with friends until late into the night.
+                    </p>
+                    <p>
+                        Though many Tunisians have stopped fasting in recent years, and lots of Tunisians are turned off by the hypocrisy, increased crime rates, and rudeness that is pervasive through the month, lots of Tunisians become more serious about religion during this time. Many attend the evening prayer services and do the other ritual prayers. Some even read the entire Quran (about a tenth the length of the Bible). This sincere seeking makes it a strategic time for us to pray for them.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    Cal
                 </div>
             </div>
         </div>
@@ -202,29 +220,29 @@ $campaign_fields = p4r_get_campaign();
 <!-- blog Section End -->
 
 <!-- WHAT IS RAMADAN -->
-<section id="description" class="section gray-background">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">What is <span>Ramadan</span>?</h2>
-            <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-sm-6">
-                <div class="wow fadeInDown" data-wow-delay="0.2s">
-                    <?php echo wp_kses_post( nl2br( $porch_fields['what_content']['value'] ) ) ?>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-6">
-                <div class="item-boxes wow fadeInDown" data-wow-delay="0.4s">
-                    <div class="shot-item">
-                        <img src="<?php echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?>img/portfolio/img1.jpg" alt="" />
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
+<!--<section id="description" class="section gray-background">-->
+<!--    <div class="container">-->
+<!--        <div class="section-header">-->
+<!--            <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">What is <span>Ramadan</span>?</h2>-->
+<!--            <hr class="lines wow zoomIn" data-wow-delay="0.3s">-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-6 col-sm-6">-->
+<!--                <div class="wow fadeInDown" data-wow-delay="0.2s">-->
+<!--                    --><?php //echo wp_kses_post( nl2br( $porch_fields['what_content']['value'] ) ) ?>
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-md-6 col-sm-6">-->
+<!--                <div class="item-boxes wow fadeInDown" data-wow-delay="0.4s">-->
+<!--                    <div class="shot-item">-->
+<!--                        <img src="--><?php //echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?><!--img/portfolio/img1.jpg" alt="" />-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
 <!-- Services Section End -->
 
 <!-- Footer Section Start -->
