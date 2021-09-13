@@ -123,3 +123,6 @@ a:hover{
     background-image: linear-gradient(120deg, #4676fa 0%, #91afff 100%);
     width: 100%;
 }
+img.color-img {
+    filter: invert(39%) sepia(57%) saturate(3254%) hue-rotate(213deg) brightness(102%) contrast(96%);
+}

@@ -49,7 +49,7 @@ $dt_ramadan_selected_campaign_magic_link_settings["color"] = $porch_fields["them
             <div class="col-md-4 col-sm-6">
                 <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
                     <div class="icon">
-                        <i class="lnr lnr-pencil"></i>
+                        <img class="color-img" style="height: 40px; margin-top:10px" src="<?php echo esc_html( plugin_dir_url( __File__ ) . 'img/pray.svg' ) ?>"/>
                     </div>
                     <h4>Extraordinary Prayer</h4>
                     <p>Every disciple making movement in history has happened in the context of extraordinary prayer.</p>
@@ -58,7 +58,7 @@ $dt_ramadan_selected_campaign_magic_link_settings["color"] = $porch_fields["them
             <div class="col-md-4 col-sm-6">
                 <div class="item-boxes wow fadeInDown" data-wow-delay="0.4s">
                     <div class="icon">
-                        <i class="lnr lnr-cog"></i>
+                        <img class="color-img" style="height: 40px; margin-top:10px" src="<?php echo esc_html( plugin_dir_url( __File__ ) . 'img/movement.svg' ) ?>"/>
                     </div>
                     <h4>Movement Focused</h4>
                     <p>Join us in asking, seeking, and knocking for streams of disciples and churches to be made.</p>
@@ -67,7 +67,7 @@ $dt_ramadan_selected_campaign_magic_link_settings["color"] = $porch_fields["them
             <div class="col-md-4 col-sm-6">
                 <div class="item-boxes wow fadeInDown" data-wow-delay="0.6s">
                     <div class="icon">
-                        <i class="lnr lnr-chart-bars"></i>
+                        <img class="color-img" style="height: 40px; margin-top:10px" src="<?php echo esc_html( plugin_dir_url( __File__ ) . 'img/24_7.svg' ) ?>"/>
                     </div>
                     <h4>24/7 for 30 Days</h4>
                     <p>Choose a 15-minute (or more!) time slot that you can pray during each day. Invite someone else to sign up too.</p>
