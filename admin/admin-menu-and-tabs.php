@@ -214,6 +214,11 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                 $saved_fields = $fields;
 
                 $post_list = dt_recursive_sanitize_array( $_POST['list'] );
+                foreach ( $post_list as $field_key => $value ){
+                    if ( isset( $saved_fields[$field_key]["type"], $_POST['list'][$field_key] ) && $saved_fields[$field_key]["type"] === "textarea" ){
+                        $post_list[$field_key] = wp_kses_post( wp_unslash( $_POST['list'][$field_key] ) );
+                    }
+                }
 
                 foreach ( $post_list as $key => $value ) {
                     if ( ! isset( $saved_fields[$key] ) ) {

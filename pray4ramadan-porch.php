@@ -364,6 +364,29 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
                 'value' => trailingslashit( plugin_dir_url( __FILE__ ) ) . 'site/img/stencil-header.png',
                 'type' => 'text',
             ],
+
+            'what_image' => [
+                'label' => 'What is Ramadan Image',
+                'value' => '',
+                'type' => 'text',
+            ],
+            'facebook' => [
+                'label' => 'Facebook Url',
+                'value' => '',
+                'type' => 'text',
+            ],
+            'instagram' => [
+                'label' => 'Instagram Url',
+                'value' => '',
+                'type' => 'text',
+            ],
+            'twitter' => [
+                'label' => 'Twitter Url',
+                'value' => '',
+                'type' => 'text',
+            ],
+
+            //strings
             'what_content' => [
                 'label' => 'What is Ramadan Content',
                 'value' => 'Ramadan is one of the five requirements (or pillars) of Islam. During each of its 30 days, Muslims are obligated to fast from dawn until sunset. During this time they are supposed to abstain from food, drinking liquids, smoking, and sexual relations.
@@ -373,27 +396,14 @@ In Tunisia, women typically spend the afternoons preparing a big meal. At sunset
 Though many Tunisians have stopped fasting in recent years, and lots of Tunisians are turned off by the hypocrisy, increased crime rates, and rudeness that is pervasive through the month, lots of Tunisians become more serious about religion during this time. Many attend the evening prayer services and do the other ritual prayers. Some even read the entire Quran (about a tenth the length of the Bible). This sincere seeking makes it a strategic time for us to pray for them.',
                 'type' => 'textarea',
             ],
-            'what_image' => [
-                'label' => 'What is Ramadan Image',
-                'value' => '',
-                'type' => 'text',
-            ],
-            'facebook' => [
-                'label' => 'Facebook',
-                'value' => '',
-                'type' => 'text',
-            ],
-            'instagram' => [
-                'label' => 'Instagram',
-                'value' => '',
-                'type' => 'text',
-            ],
-            'twitter' => [
-                'label' => 'Twitter',
-                'value' => '',
+            'goal' => [
+                'label' => 'Goal',
+                'value' => "We want to cover the country of COUNTRY with continuous 24/7 prayer during the entire 30 days of Ramadan.",
                 'type' => 'text',
             ]
         ];
+
+        $defaults = apply_filters( 'p4r_porch_fields', $defaults );
 
         $saved_fields = get_option( 'p4r_porch_fields', [] );
 

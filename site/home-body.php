@@ -25,7 +25,7 @@ $dt_ramadan_selected_campaign_magic_link_settings = $atts;
 $dt_ramadan_selected_campaign_magic_link_settings["color"] = $porch_fields["theme_color"]["value"];
 ?>
 
-<!-- FAQ -->
+<!-- Vision -->
 <section id="services" class="section">
     <div class="container">
         <div class="section-header row">
@@ -33,7 +33,7 @@ $dt_ramadan_selected_campaign_magic_link_settings["color"] = $porch_fields["them
                 <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Our <span>Vision</span></h2>
                 <hr class="lines wow zoomIn" data-wow-delay="0.3s">
                 <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
-                    We want to cover the country of <?php echo esc_html( $porch_fields['country_name']['value'] ?? '' ) ?> with continuous 24/7 prayer during the entire 30 days of Ramadan.
+                    <?php echo nl2br( esc_html( $porch_fields["goal"]["value"] ) ); ?>
                 </p>
             </div>
             <div class="col-sm-12 col-md-4">
@@ -99,15 +99,7 @@ $dt_ramadan_selected_campaign_magic_link_settings["color"] = $porch_fields["them
             </div>
             <div class="row" style="margin-top: 30px">
                 <div class="col-sm-12 col-md-8" style="color: white">
-                    <p>
-                        Ramadan is one of the five requirements (or pillars) of Islam. During each of its 30 days, Muslims are obligated to fast from dawn until sunset. During this time they are supposed to abstain from food, drinking liquids, smoking, and sexual relations.
-                    </p>
-                    <p>
-                        In Tunisia, women typically spend the afternoons preparing a big meal. At sunset, families often gather to break the fast. Traditionally the families break the fast with a drink of water, then three dried date fruits, and a multi-course meal. After watching the new Ramadan TV series, men (and some women) go out to coffee shops where they drink coffee, and smoke with friends until late into the night.
-                    </p>
-                    <p>
-                        Though many Tunisians have stopped fasting in recent years, and lots of Tunisians are turned off by the hypocrisy, increased crime rates, and rudeness that is pervasive through the month, lots of Tunisians become more serious about religion during this time. Many attend the evening prayer services and do the other ritual prayers. Some even read the entire Quran (about a tenth the length of the Bible). This sincere seeking makes it a strategic time for us to pray for them.
-                    </p>
+                    <?php echo nl2br( esc_html( $porch_fields["what_content"]["value"] ) ); ?>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <?php
@@ -291,18 +283,18 @@ $dt_ramadan_selected_campaign_magic_link_settings["color"] = $porch_fields["them
                 <div class="social-icons wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">
                     <ul>
                         <!-- facebook -->
-                        <?php if ( isset( $porch_fields['facebook']["url"] ) && !empty( $porch_fields['facebook']["url"] ) ) : ?>
-                        <li class="facebook"><a href="<?php echo esc_url( $porch_fields['facebook']["url"] ) ?>"><i class="fa fa-facebook"></i></a></li>
+                        <?php if ( isset( $porch_fields['facebook']["value"] ) && !empty( $porch_fields['facebook']["value"] ) ) : ?>
+                        <li class="facebook"><a href="<?php echo esc_url( $porch_fields['facebook']["value"] ) ?>"><i class="fa fa-facebook"></i></a></li>
                         <?php endif; ?>
 
                         <!-- instagram -->
-                        <?php if ( isset( $porch_fields['instagram']["url"] ) && !empty( $porch_fields['instagram']["url"] ) ) : ?>
-                        <li class="instagram"><a href="<?php echo esc_url( $porch_fields['instagram']["url"] ) ?>"><i class="fa fa-instagram"></i></a></li>
+                        <?php if ( isset( $porch_fields['instagram']["value"] ) && !empty( $porch_fields['instagram']["value"] ) ) : ?>
+                        <li class="instagram"><a href="<?php echo esc_url( $porch_fields['instagram']["value"] ) ?>"><i class="fa fa-instagram"></i></a></li>
                         <?php endif; ?>
 
                         <!-- twitter -->
-                        <?php if ( isset( $porch_fields['twitter']["url"] ) && !empty( $porch_fields['twitter']["url"] ) ) : ?>
-                        <li class="twitter"><a href="<?php echo esc_url( $porch_fields['twitter']["url"] ) ?>"><i class="fa fa-twitter"></i></a></li>
+                        <?php if ( isset( $porch_fields['twitter']["value"] ) && !empty( $porch_fields['twitter']["value"] ) ) : ?>
+                        <li class="twitter"><a href="<?php echo esc_url( $porch_fields['twitter']["value"] ) ?>"><i class="fa fa-twitter"></i></a></li>
                         <?php endif; ?>
                     </ul>
                 </div>
