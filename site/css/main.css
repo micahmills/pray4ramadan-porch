@@ -1270,3 +1270,7 @@ footer {
     -webkit-transform: scale(1);
   }
 }
+
+.cp-progress-wrapper.cp-wrapper {
+    padding: 0
+}

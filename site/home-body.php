@@ -26,15 +26,17 @@ $dt_ramadan_selected_campaign_magic_link_settings["color"] = $porch_fields["them
 ?>
 
 <!-- Vision -->
-<section id="services" class="section">
+<section id="campaign-vision" class="section">
     <div class="container">
         <div class="section-header row">
             <div class="col-sm-12 col-md-8">
                 <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Our <span>Vision</span></h2>
                 <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-                <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
+                <div style="padding: 2em">
+                <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s" style="padding:2em">
                     <?php echo nl2br( esc_html( $porch_fields["goal"]["value"] ) ); ?>
                 </p>
+                </div>
             </div>
             <div class="col-sm-12 col-md-4">
                 <?php
@@ -73,6 +75,9 @@ $dt_ramadan_selected_campaign_magic_link_settings["color"] = $porch_fields["them
                     <p>Choose a 15-minute (or more!) time slot that you can pray during each day. Invite someone else to sign up too.</p>
                 </div>
             </div>
+        </div>
+        <div class="row" style="justify-content: center">
+            <a href="<?php echo esc_url( site_url() ) ?>#sign-up" class="btn btn-common">Sign Up to Pray</a>
         </div>
 
     </div>
