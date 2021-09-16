@@ -187,6 +187,14 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                             <?php endif;
                         endforeach; ?>
                     <?php endif; ?>
+                    <?php if ( isset( $fields['ID'] ) ) : ?>
+                    <tr>
+                        <td>Edit Campaign Details</td>
+                        <td>
+                            <a href="<?php echo esc_html( site_url() . "/campaigns/" . $fields['ID'] ); ?>" target="_blank">Edit Campaign</a>
+                        </td>
+                    </tr>
+                    <?php endif; ?>
                 </tbody>
             </table>
             <br>
