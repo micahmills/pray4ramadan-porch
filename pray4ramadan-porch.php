@@ -162,6 +162,7 @@ class P4_Ramadan_Porch {
             require_once( 'support/required-plugins/config-required-plugins.php' );
 
         }
+        require_once( 'admin/campaigns_config.php' );
 
         if ( is_admin() ){
             add_filter( 'plugin_row_meta', [ $this, 'plugin_description_links' ], 10, 4 ); // admin plugin page description
