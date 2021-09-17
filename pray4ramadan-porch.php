@@ -371,6 +371,11 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
                 'value' => '',
                 'type' => 'text',
             ],
+            "email" => [
+                "label" => "Address to send sign-up and notification emails from",
+                "value" => "no-reply@" . parse_url( home_url() )["host"],
+                'type' => 'text'
+            ],
             'facebook' => [
                 'label' => 'Facebook Url',
                 'value' => '',
