@@ -28,7 +28,7 @@ Purpose purpose purpose purpose purpose purpose purpose purpose purpose purpose 
 
 ## Requirements
 
-- Disciple Tools Theme installed on a Wordpress Server
+- Disciple.Tools Theme installed on a Wordpress Server
 
 ## Installing
 
