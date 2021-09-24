@@ -41,7 +41,7 @@ $dt_ramadan_selected_campaign_magic_link_settings["color"] = $porch_fields["them
             <div class="col-sm-12 col-md-4">
                 <?php
                 $dt_ramadan_selected_campaign_magic_link_settings["section"] = "percentage";
-                dt_24hour_campaign_shortcode(
+                echo dt_24hour_campaign_shortcode( //phpcs:ignore
                     $dt_ramadan_selected_campaign_magic_link_settings
                 );
                 ?>
@@ -109,7 +109,7 @@ $dt_ramadan_selected_campaign_magic_link_settings["color"] = $porch_fields["them
                 <div class="col-sm-12 col-md-4">
                     <?php
                     $dt_ramadan_selected_campaign_magic_link_settings["section"] = "calendar";
-                    dt_24hour_campaign_shortcode(
+                    echo dt_24hour_campaign_shortcode( //phpcs:ignore
                         $dt_ramadan_selected_campaign_magic_link_settings
                     );
                     ?>
@@ -179,7 +179,7 @@ $dt_ramadan_selected_campaign_magic_link_settings["color"] = $porch_fields["them
                 <?php else :
 
                     $dt_ramadan_selected_campaign_magic_link_settings["section"] = "sign_up";
-                    dt_24hour_campaign_shortcode(
+                    echo dt_24hour_campaign_shortcode( //phpcs:ignore
                         $dt_ramadan_selected_campaign_magic_link_settings
                     );
                 endif;
