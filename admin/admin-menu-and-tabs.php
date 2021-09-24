@@ -32,7 +32,7 @@ class P4_Ramadan_Porch_Landing_Menu {
      */
     public function register_menu() {
         if ( current_user_can( 'wp_api_allowed_user' ) ) {
-            add_submenu_page( 'edit.php?post_type='.PORCH_LANDING_POST_TYPE, $this->title, $this->title, 'manage_dt', $this->token, [ $this, 'content' ] );
+            add_submenu_page( 'edit.php?post_type=' . PORCH_LANDING_POST_TYPE, $this->title, $this->title, "edit_" . PORCH_LANDING_POST_TYPE, $this->token, [ $this, 'content' ] );
         }
     }
 
@@ -138,7 +138,7 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
 
         $campaigns = DT_Posts::list_posts( "campaigns", [ "status" => [ "active", "pre_signup", "inactive" ] ] );
         if ( is_wp_error( $campaigns ) ){
-            $campaigns = [];
+            $campaigns = [ "posts" => [] ];
         }
 
         ?>
