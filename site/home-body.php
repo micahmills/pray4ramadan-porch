@@ -311,7 +311,7 @@ $dt_ramadan_selected_campaign_magic_link_settings["color"] = $porch_fields["them
                     </p>
                 </div>
                 <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
-                    <p><a href="/contacts">Login</a></p>
+                    <p><a href="<?php echo esc_html( site_url( '/contacts' ) ); ?>">Login</a> | <a href="<?php echo esc_html( admin_url( 'edit.php?post_type=landing&page=dt_porch_template' ) ); ?>">Page Settings</a></p>
                 </div>
             </div>
         </div>
