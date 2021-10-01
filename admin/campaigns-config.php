@@ -13,7 +13,7 @@ class DT_Campaigns_Config {
             $post = DT_Posts::get_post( $post_type, $post_id );
             if ( !isset( $post["campaign_strings"] ) ){
                 $link = site_url() . '/prayer/list';
-                $content = 'Be sure to pray through today\'s prayer content: <a href="' . $link . '">' . $link . '</a>';
+                $content = 'Click here to see the prayer prompts for today: <a href="' . $link . '">' . $link . '</a>';
                 $campaign_strings = [
                     "en_US" => [
                         "reminder_content" => $content,
