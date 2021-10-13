@@ -51,14 +51,14 @@ class P4_Ramadan_Porch_Starter_Content {
             'title' => 'Sample Prayer Fuel',
             'slug' => 'sample-prayer-fuel',
             'date' => gmdate( "Y-m-d" ),
-            'excerpt' => 'Focusing prayer',
+            'excerpt' => 'On being intentional disciple making disciples.',
             'content' => [
                 '<!-- wp:heading {"level":3} -->',
                 '<h3><strong>PRAISE</strong></h3>',
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>content</p>',
+                '<p>"And they sing the song of Moses, the servant of God, and the song of the Lamb, saying, ’Great and amazing are your deeds, O Lord God the Almighty! Just and true are your ways, O King of the [French] nations!’" (Revelation 15:3)</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -66,7 +66,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>content</p>',
+                '<p>"But woe to you, scribes and Pharisees, hypocrites! For you shut the kingdom of heaven in people’s faces. For you neither enter yourselves nor allow those who would enter to go in." (Matthew 23:13) In Jesus’ day there were many opposed to the Kingdom, so today is no different. We appeal to Jesus, the One who opens and no one will shut (Revelation 3:7) to open the Kingdom to many in [France] today.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -74,7 +74,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>content</p>',
+                '<p>Jesus told Paul that "I am sending you to open their eyes, so that they may turn from darkness to light and from the power of Satan to God, that they may receive forgiveness of sins and a place among those who are sanctified by faith in me." (Acts 26:18) We beseech You, Lord, to send many [French] Pauls to do the same throughout every corner of [France].</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -82,7 +82,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>content</p>',
+                '<p> "And what more shall I say? For time would fail me to tell of Gideon..." (Hebrews 11:32-35a) Gideon allowed God to dwindle an army of more than 30,000 to 300 so that God would receive all of the glory for the victory. Raise up leaders like Gideon in [France], men and women who will have more confidence in God than in their resources.</p>',
                 '<!-- /wp:paragraph -->',
 
                 '<!-- wp:heading {"level":3} -->',
@@ -90,7 +90,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 '<!-- /wp:heading -->',
 
                 '<!-- wp:paragraph -->',
-                '<p>content</p>',
+                '<p>Lord, we pray for believers in [France] <a href="https://zume.training/god-uses-ordinary-people/">to be intentional making disciples</a>.</p>',
                 '<!-- /wp:paragraph -->',
             ]
         ];
@@ -118,7 +118,7 @@ class P4_Ramadan_Porch_Starter_Content {
     public static function content() {
         return [
             [
-              'excerpt' => 'Focus prayer for the Amazigh of Zaghouan.',
+              'excerpt' => 'Pray fo believers to discover the essence of being a disciple, making disciple, and what the church is.',
               'content' => [
                   '<!-- wp:heading {"level":3} -->',
                   '<h3><strong>PRAISE</strong></h3>',
@@ -162,7 +162,7 @@ class P4_Ramadan_Porch_Starter_Content {
               ]
             ],
             [
-                'excerpt' => 'Focus prayer for the man in Ariana who is reading the Bible.',
+                'excerpt' => 'Pray for beleivers to be disciples who hear from God and then obey God.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -206,7 +206,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the man in Beja who said he is reading slowly through the Bible.',
+                'excerpt' => 'Pray that many people study the Bible, understand it, obey it, and share it.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -250,7 +250,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the man in Ben Arous who has been on a journey towards Christ for quite a while.',
+                'excerpt' => 'Pray many people meet in groups of two or three to encourage and correct one another.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -289,12 +289,12 @@ class P4_Ramadan_Porch_Starter_Content {
                     '<!-- /wp:heading -->',
 
                     '<!-- wp:paragraph -->',
-                    '<p>God, we pray both the men and women of [France] will find ways to <a href="https://zume.training/accountability-groups/">meet in groups of two or three to encourage and correct one another</a>.</p>',
+                    '<p>God, we pray both the men and women of [France] will find ways to <a href="https://zume.training/accountability-groups/">meet in groups of two or three to encourage and correct one another.</a>.</p>',
                     '<!-- /wp:paragraph -->',
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the man in Binzerte who started reading the Bible.',
+                'excerpt' => 'Pray for many people to discover the ways God that make us more like Jesus.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -338,7 +338,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the man In Gabes who is reading the Bible every night.',
+                'excerpt' => 'Pray the believers know how to spend an hour in prayer.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -382,7 +382,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the woman in Gafsa who is hungry to read the Bible.',
+                'excerpt' => 'Pray believers be good stewards of their relationships.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -426,7 +426,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the man in Jendouba who is reading the Bible for the first time.',
+                'excerpt' => 'Pray for believers in to be generous with all their resources.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -470,7 +470,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the man in Kairouan who is reading the Bible and has question.',
+                'excerpt' => 'Pray for believers who will not only understand the Gospel, but share it.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -514,7 +514,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the man in Kasserine who is reading the Bible and has put his trust in Jesus.',
+                'excerpt' => 'Pray for believers to be baptized and know how to baptize.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -558,7 +558,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the woman in Kebili who has a copy of the Bible.',
+                'excerpt' => 'Pray for believers to know how to share testimonies about how Jesus impacted their lives.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -602,7 +602,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 ]
             ],
             [
-                'excerpt' => "Focus prayer for the woman in Mahdia who said: I've read the Injil and I like it",
+                'excerpt' => "Pray for believers to know how to cast vision to others about forming spiritual families who multiply for generations to come.",
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -646,7 +646,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the man in Manouba who said he is slowly reading the Bible.',
+                'excerpt' => 'Pray for believers to be like ducklings in ways they make disciples.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -690,7 +690,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the woman in Medenine who wants to read the Bible.',
+                'excerpt' => 'Pray for believers to have eyes that see where the Kingdom isn’t.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -734,7 +734,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the man in Monastir who has started reading the Bible.',
+                'excerpt' => 'Pray for believers to enjoy the intimate connection with you in the Lord’s supper, and know how to lead others in celebrating it.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -778,7 +778,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the woman in Nabeul who is reading the Bible and is impressed by the holy view of marriage.',
+                'excerpt' => 'Pray for believers to know how to pray for others, even as they walk around.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -822,7 +822,7 @@ class P4_Ramadan_Porch_Starter_Content {
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the woman in Sfax who wants to read the Bible because she is convinced that the religion she grew up in is not the truth.',
+                'excerpt' => 'Pray for believers to know what a person of peace is, and where to find one.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -837,8 +837,7 @@ class P4_Ramadan_Porch_Starter_Content {
                     '<!-- /wp:heading -->',
 
                     '<!-- wp:paragraph -->',
-                    '<p>(The Parable of the Hidden Treasure) "The kingdom of heaven is like treasure hidden in a field, which a man found and covered up. Then in his joy he goes and sells all that he has and buys that field." (Matthew 13:44)
-We pray for many today to see You for the treasure You are. We pray for [French] in every segment of society to joyfully give up all they have in order to gain You.</p>',
+                    '<p>(The Parable of the Hidden Treasure) "The kingdom of heaven is like treasure hidden in a field, which a man found and covered up. Then in his joy he goes and sells all that he has and buys that field." (Matthew 13:44) We pray for many today to see You for the treasure You are. We pray for [French] in every segment of society to joyfully give up all they have in order to gain You.</p>',
                     '<!-- /wp:paragraph -->',
 
                     '<!-- wp:heading {"level":3} -->',
@@ -867,7 +866,7 @@ We pray for many today to see You for the treasure You are. We pray for [French]
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the man in Sidi Bou Zid who read the New Testament.',
+                'excerpt' => 'Pray for believers to know areas they can pray for others, like the BLESS Prayer Pattern.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -911,7 +910,7 @@ We pray for many today to see You for the treasure You are. We pray for [French]
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the man in Siliana who has the Bible and has decided to follow Christ.',
+                'excerpt' => 'Pray for believers to not only esteem knowing but also doing.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -955,7 +954,7 @@ We pray for many today to see You for the treasure You are. We pray for [French]
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for revealing yourself to a man in Sousse through a dream where Jesus clothed him in white.',
+                'excerpt' => 'Pray for believers to know how to meet, pray, learn, grow, fellowship, and practice obeying and sharing in simple churches.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -999,7 +998,7 @@ We pray for many today to see You for the treasure You are. We pray for [French]
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the man in Tataouine who is searching for the truth.',
+                'excerpt' => 'Pray for believers to know how to apply the training cycle for maturing disciples.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -1043,7 +1042,7 @@ We pray for many today to see You for the treasure You are. We pray for [French]
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the woman in Tozeur who has read a lot of the Bible.',
+                'excerpt' => 'Pray for believers to know how to develop as leaders by practicing serving.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -1087,7 +1086,7 @@ We pray for many today to see You for the treasure You are. We pray for [French]
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the man in Tunis who is reading the Bible very slowly be so impacted by the truth.',
+                'excerpt' => 'Pray for believers to expect non-sequential growth in their disciple making.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -1131,7 +1130,7 @@ We pray for many today to see You for the treasure You are. We pray for [French]
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the man in Zaghouan who is reading the Bible.',
+                'excerpt' => 'Pray for believers to understand why multiplying matters, and multiplying quickly matters even more.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -1175,7 +1174,7 @@ We pray for many today to see You for the treasure You are. We pray for [French]
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the Jews of Tunisia do not observe Ramadan.',
+                'excerpt' => 'Pray for believers to know how to obey your commands by going AND staying.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -1219,7 +1218,7 @@ We pray for many today to see You for the treasure You are. We pray for [French]
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the lady from the Amazigh of Gafsa UUPG who got to hear a Tunisian believer share her testimony.',
+                'excerpt' => 'Pray for believers to be intentional in making disciples.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -1258,12 +1257,12 @@ We pray for many today to see You for the treasure You are. We pray for [French]
                     '<!-- /wp:heading -->',
 
                     '<!-- wp:paragraph -->',
-                    '<p>Lord, we pray for believers in [France] <a href="https://zume.training/god-uses-ordinary-people/">to be intentional making disciples</a>.</p>',
+                    '<p>Lord, we pray for believers in [France] <a href="https://zume.training/god-uses-ordinary-people/">to be intentional in making disciples</a>.</p>',
                     '<!-- /wp:paragraph -->',
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the Tunisian believer who expressed a desire to take the Gospel to the Amazigh.',
+                'excerpt' => 'Pray for believers to know how to assess strengths and vulnerabilities their disciples.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -1307,7 +1306,7 @@ We pray for many today to see You for the treasure You are. We pray for [French]
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for Libyan Christians who find themselves living in Tunisia for various reasons.',
+                'excerpt' => 'Pray for believers to learn how multiplying churches stay connected and live life together as an extended, spiritual family.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -1351,7 +1350,7 @@ We pray for many today to see You for the treasure You are. We pray for [French]
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the love You have for the deaf in Tunisia.',
+                'excerpt' => 'Pray for believers to discover ways to assess the spiritual health of your work among churches they are starting.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -1395,7 +1394,7 @@ We pray for many today to see You for the treasure You are. We pray for [French]
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the man from the Amazigh of Matmata who has heard the Gospel and has a copy of the New Testament.',
+                'excerpt' => 'Pray for believers to learn simple tools like Four Fields to reflect on the status of current efforts.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',
@@ -1439,7 +1438,7 @@ We pray for many today to see You for the treasure You are. We pray for [French]
                 ]
             ],
             [
-                'excerpt' => 'Focus prayer for the Amazigh of Tataouine.',
+                'excerpt' => 'Pray for believers to have and use tools like Generational Maps to understand the growth of their disciples and churches.',
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>PRAISE</strong></h3>',

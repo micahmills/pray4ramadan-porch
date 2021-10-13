@@ -158,7 +158,6 @@ class P4_Ramadan_Porch {
                 }
             }
 
-            require_once( 'support/required-plugins/class-tgm-plugin-activation.php' );
             require_once( 'support/required-plugins/config-required-plugins.php' );
 
         }
