@@ -32,7 +32,7 @@ $list = new WP_Query( $args );
                         <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Today's Prayer <span>Fuel</span></h2>
                         <hr class="lines wow zoomIn" data-wow-delay="0.3s">
                     </div>
-                    <div class="row">
+                    <div class="">
                         <?php foreach ($today->posts as $item ) : ?>
                             <?php echo wp_kses_post( $item->post_content ) ?>
                         <?php endforeach; ?>
@@ -119,7 +119,7 @@ $list = new WP_Query( $args );
                     </p>
                 </div>
                 <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
-                    <p><a href="/contacts">Login</a></p>
+                    <p><a href="<?php echo esc_html( site_url( '/contacts' ) ); ?>">Login</a> | <a href="<?php echo esc_html( admin_url( 'edit.php?post_type=landing&page=dt_porch_template' ) ); ?>">Page Settings</a></p>
                 </div>
             </div>
         </div>

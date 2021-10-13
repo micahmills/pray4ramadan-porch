@@ -33,7 +33,7 @@ $list = new WP_Query( $args );
                         <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Prayer <span>Fuel</span></h2>
                         <hr class="lines wow zoomIn" data-wow-delay="0.3s">
                     </div>
-                    <div class="row">
+                    <div class="">
                         <?php echo wp_kses_post( $content ) ?>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ $list = new WP_Query( $args );
         <div class="row">
             <div class="col-md-12">
                 <div class="download-area text-center wow fadeInUp" data-wow-delay="0.3s">
-                    <a href="https://www.youversion.com/the-bible-app/" class="btn btn-border">Download Now</a>
+                    <a href="https://www.youversion.com/the-bible-app/" class="btn btn-border">Download Bible App</a>
                 </div>
             </div>
         </div>
@@ -185,7 +185,7 @@ $list = new WP_Query( $args );
                     </p>
                 </div>
                 <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
-                    <p><a href="/contacts">Login</a></p>
+                    <p><a href="<?php echo esc_html( site_url( '/contacts' ) ); ?>">Login</a> | <a href="<?php echo esc_html( admin_url( 'edit.php?post_type=landing&page=dt_porch_template' ) ); ?>">Page Settings</a></p>
                 </div>
             </div>
         </div>

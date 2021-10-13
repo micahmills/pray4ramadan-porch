@@ -40,18 +40,21 @@ add_action( 'tgmpa_register', function () {
 //        array(
 //            'name'                  => 'Disciple.Tools - Custom Login',
 //            'slug'                  => 'disciple-tools-custom-login',
+//            'source'                => 'https://github.com/DiscipleTools/disciple-tools-custom-login/releases/latest/download/disciple-tools-custom-login.zip',
 //            'required'              => false,
 //            'version'               => '0.1',
 //        ),
         array(
             'name'                  => 'Disciple.Tools - Webform',
             'slug'                  => 'disciple-tools-webform',
+            'source'                => 'https://github.com/DiscipleTools/disciple-tools-webform/releases/latest/download/disciple-tools-webform.zip',
             'required'              => false,
             'version'               => '4.4',
         ),
         array(
             'name'                  => 'Disciple.Tools - Prayer Campaigns',
             'slug'                  => 'disciple-tools-prayer-campaigns',
+            'source'                => 'https://github.com/DiscipleTools/disciple-tools-prayer-campaigns/releases/latest/download/disciple-tools-prayer-campaigns.zip',
             'required'              => true,
             'version'               => '0.1',
         ),
