@@ -23,6 +23,9 @@ $atts = [
 ];
 $dt_ramadan_selected_campaign_magic_link_settings = $atts;
 $dt_ramadan_selected_campaign_magic_link_settings["color"] = $porch_fields["theme_color"]["value"];
+if ( $dt_ramadan_selected_campaign_magic_link_settings["color"] === "preset" ){
+    $dt_ramadan_selected_campaign_magic_link_settings["color"] = '#4676fa';
+}
 ?>
 
 <!-- Vision -->
