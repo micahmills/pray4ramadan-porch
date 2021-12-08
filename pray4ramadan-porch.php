@@ -75,8 +75,10 @@ class P4_Ramadan_Porch {
     }
 
     private function __construct() {
+        $fields = p4r_porch_fields();
         if ( ! defined( 'PORCH_TITLE' ) ) {
-            define( 'PORCH_TITLE', 'Ramadan' ); // Used in tabs and titles, avoid special characters. Spaces are okay.
+            $title = $fields['title']['value'] ?? 'Ramadan';
+            define( 'PORCH_TITLE', $title ); // Used in tabs and titles, avoid special characters. Spaces are okay.
         }
         if ( ! defined( 'PORCH_ROOT' ) ) {
             define( 'PORCH_ROOT', 'porch_app' ); // Alphanumeric key. Use underscores not hyphens. No special characters.
@@ -110,7 +112,6 @@ class P4_Ramadan_Porch {
          * This template includes 6 color schemes set by the definition below.
          * preset, teal, forestgreen, green, purple, orange
          */
-        $fields = p4r_porch_fields();
         $theme = 'preset';
         $hex = '#4676fa';
         if ( isset( $fields['theme_color']['value'] ) && ! empty( $fields['theme_color']['value'] ) && ! defined( 'PORCH_COLOR_SCHEME' ) ) {
