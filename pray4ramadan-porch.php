@@ -405,7 +405,12 @@ Though many Tunisians have stopped fasting in recent years, and lots of Tunisian
                 'label' => 'Goal',
                 'value' => "We want to cover the country of COUNTRY with continuous 24/7 prayer during the entire 30 days of Ramadan.",
                 'type' => 'text',
-            ]
+            ],
+            'google_analytics' => [
+                'label' => 'Google Analytics',
+                'value' => '',
+                'type' => 'textarea',
+            ],
         ];
 
         $defaults = apply_filters( 'p4r_porch_fields', $defaults );

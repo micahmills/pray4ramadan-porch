@@ -204,6 +204,11 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
     }
 
     public function main_column() {
+        global $allowed_tags;
+        $allowed_tags['script'] =  array(
+            'async' => array(),
+            'src' => array()
+        );
         $fields = p4r_porch_fields();
         $dir = scandir( plugin_dir_path( __DIR__ ) . 'site/css/colors' );
         $list = [];
@@ -223,8 +228,8 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
 
                 $post_list = dt_recursive_sanitize_array( $_POST['list'] );
                 foreach ( $post_list as $field_key => $value ){
-                    if ( isset( $saved_fields[$field_key]["type"], $_POST['list'][$field_key] ) && $saved_fields[$field_key]["type"] === "textarea" ){
-                        $post_list[$field_key] = wp_kses_post( wp_unslash( $_POST['list'][$field_key] ) );
+                    if ( isset( $saved_fields[$field_key]["type"], $_POST['list'][$field_key] ) && $saved_fields[$field_key]["type"] === "textarea" ){ // if textarea
+                        $post_list[$field_key] = wp_kses( wp_unslash( $_POST['list'][$field_key] ), $allowed_tags );
                     }
                 }
 
@@ -273,7 +278,7 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                                     <?php echo esc_html( $field['label'] ); ?>
                                 </td>
                                 <td>
-                                    <textarea name="list[<?php echo esc_html( $key ); ?>]" id="<?php echo esc_html( $key ); ?>" ><?php echo esc_html( $field['value'] ); ?></textarea>
+                                    <textarea name="list[<?php echo esc_html( $key ); ?>]" id="<?php echo esc_html( $key ); ?>" ><?php echo wp_kses( $field['value'], $allowed_tags ); ?></textarea>
                                 </td>
                             </tr>
                         <?php elseif ( 'theme_select' === $field['type'] ) : ?>
