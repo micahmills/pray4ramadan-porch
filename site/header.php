@@ -8,7 +8,7 @@ $porch_fields = p4r_porch_fields();
 ?>
 
 <!-- Required meta tags -->
-<?php echo wp_kses( $porch_fields['google_analytics']['value'] ?? '', $allowed_tags ) ?><!--test-->
+<?php echo wp_kses( $porch_fields['google_analytics']['value'] ?? '', $allowed_tags ) ?>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
