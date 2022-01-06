@@ -1,4 +1,9 @@
 <?php
+$lang = "en_US";
+if ( isset( $_GET["lang"] ) && !empty( $_GET["lang"] ) ){
+    $lang = sanitize_text_field( wp_unslash( $_GET["lang"] ) );
+}
+
 $porch_fields = p4r_porch_fields();
 $campaign_fields = p4r_get_campaign();
 
@@ -19,7 +24,7 @@ $atts = [
     "meta_key" => $key_name,
     "post_id" => (int) $campaign_fields["ID"],
     "rest_url" => rest_url(),
-    "lang" => "en_US"
+    "lang" => $lang
 ];
 $dt_ramadan_selected_campaign_magic_link_settings = $atts;
 $dt_ramadan_selected_campaign_magic_link_settings["color"] = $porch_fields["theme_color"]["value"];
@@ -37,7 +42,7 @@ if ( $dt_ramadan_selected_campaign_magic_link_settings["color"] === "preset" ){
                 <hr class="lines wow zoomIn" data-wow-delay="0.3s">
                 <div style="padding: 2em">
                 <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s" style="padding:2em">
-                    <?php echo nl2br( esc_html( $porch_fields["goal"]["value"] ) ); ?>
+                    <?php echo nl2br( esc_html( $porch_fields["goal"]["value"] ?: $porch_fields["goal"]["default"] ) ); ?>
                 </p>
                 </div>
             </div>
@@ -107,7 +112,7 @@ if ( $dt_ramadan_selected_campaign_magic_link_settings["color"] === "preset" ){
             </div>
             <div class="row" style="margin-top: 30px">
                 <div class="col-sm-12 col-md-8" style="color: white">
-                    <?php echo nl2br( esc_html( $porch_fields["what_content"]["value"] ) ); ?>
+                    <?php echo nl2br( esc_html( $porch_fields["what_content"]["value"] ?: $porch_fields["what_content"]["default"] ) ); ?>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <?php

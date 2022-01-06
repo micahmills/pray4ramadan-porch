@@ -395,16 +395,18 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
             //strings
             'what_content' => [
                 'label' => 'What is Ramadan Content',
-                'value' => __( 'Ramadan is one of the five requirements (or pillars) of Islam. During each of its 30 days, Muslims are obligated to fast from dawn until sunset. During this time they are supposed to abstain from food, drinking liquids, smoking, and sexual relations.
+                'default' => __( 'Ramadan is one of the five requirements (or pillars) of Islam. During each of its 30 days, Muslims are obligated to fast from dawn until sunset. During this time they are supposed to abstain from food, drinking liquids, smoking, and sexual relations.
 
  In Tunisia, women typically spend the afternoons preparing a big meal. At sunset, families often gather to break the fast. Traditionally the families break the fast with a drink of water, then three dried date fruits, and a multi-course meal. After watching the new Ramadan TV series, men (and some women) go out to coffee shops where they drink coffee, and smoke with friends until late into the night.
 
  Though many Tunisians have stopped fasting in recent years, and lots of Tunisians are turned off by the hypocrisy, increased crime rates, and rudeness that is pervasive through the month, lots of Tunisians become more serious about religion during this time. Many attend the evening prayer services and do the other ritual prayers. Some even read the entire Quran (about a tenth the length of the Bible). This sincere seeking makes it a strategic time for us to pray for them.', 'pray4ramadan-porch' ),
+                'value' => '',
                 'type' => 'textarea',
             ],
             'goal' => [
                 'label' => 'Goal',
-                'value' => __( "We want to cover the country of COUNTRY with continuous 24/7 prayer during the entire 30 days of Ramadan.", 'pray4ramadan-porch' ),
+                'default' => __( "We want to cover the country of %s with continuous 24/7 prayer during the entire 30 days of Ramadan.", 'pray4ramadan-porch' ),
+                'value' => "",
                 'type' => 'text',
             ],
             'google_analytics' => [
@@ -417,6 +419,8 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
         $defaults = apply_filters( 'p4r_porch_fields', $defaults );
 
         $saved_fields = get_option( 'p4r_porch_fields', [] );
+
+        $defaults["goal"]["default"] = sprintf( $defaults["goal"]["default"], isset( $saved_fields["country_name"]["value"] ) ? $saved_fields["country_name"]["value"] : "COUNTRY" );
 
         return p4r_recursive_parse_args( $saved_fields, $defaults );
     }
@@ -514,11 +518,11 @@ if ( ! function_exists( 'p4r_recursive_parse_args' ) ) {
     function p4r_recursive_parse_args( $args, $defaults ) {
         $new_args = (array) $defaults;
 
-        foreach ( $args as $key => $value ) {
+        foreach ( $args ?: [] as $key => $value ) {
             if ( is_array( $value ) && isset( $new_args[ $key ] ) ) {
                 $new_args[ $key ] = p4r_recursive_parse_args( $value, $new_args[ $key ] );
             }
-            else {
+            elseif ( $key !== "default" ){
                 $new_args[ $key ] = $value;
             }
         }

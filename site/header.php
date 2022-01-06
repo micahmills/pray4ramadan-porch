@@ -35,7 +35,7 @@ $porch_fields = p4r_porch_fields();
             'type' => $this->type,
         ],
         'trans' => [
-            'add' => __( 'Add Magic', 'pray4ramadan-porch' ),
+            'add' => 'Add Magic'
         ],
     ]) ?>][0]
 </script>

@@ -269,7 +269,9 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                                     <?php echo esc_html( $field['label'] ); ?>
                                 </td>
                                 <td>
-                                    <input type="text" name="list[<?php echo esc_html( $key ); ?>]" id="<?php echo esc_html( $key ); ?>" value="<?php echo esc_html( $field['value'] ); ?>" />
+                                    <input type="text" name="list[<?php echo esc_html( $key ); ?>]" id="<?php echo esc_html( $key ); ?>" value="<?php echo esc_html( $field['value'] ); ?>"
+                                        placeholder="<?php echo esc_html( $field["default"] ?? "" ); ?>"
+                                    />
                                 </td>
                             </tr>
                         <?php elseif ( 'textarea' === $field['type'] ) : ?>
@@ -278,7 +280,7 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                                     <?php echo esc_html( $field['label'] ); ?>
                                 </td>
                                 <td>
-                                    <textarea name="list[<?php echo esc_html( $key ); ?>]" id="<?php echo esc_html( $key ); ?>" ><?php echo wp_kses( $field['value'], $allowed_tags ); ?></textarea>
+                                    <textarea name="list[<?php echo esc_html( $key ); ?>]" id="<?php echo esc_html( $key ); ?>" placeholder="<?php echo esc_html( $field["default"] ?? "" ); ?>"><?php echo wp_kses( $field['value'], $allowed_tags ); ?></textarea>
                                 </td>
                             </tr>
                         <?php elseif ( 'theme_select' === $field['type'] ) : ?>

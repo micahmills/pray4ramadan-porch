@@ -52,7 +52,7 @@ class P4_Ramadan_Porch_Landing_Roles
         ];
         if ( !isset( $expected_roles["porch_admin"] ) ){
             $expected_roles["porch_admin"] = [
-                "label" => __( 'Porch Admin', 'disciple_tools' ),
+                "label" => 'Porch Admin',
                 "description" => "Administrates porch public pages",
                 "permissions" => $landing_page_permissions
             ];
