@@ -350,6 +350,11 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
                 'value' => '',
                 'type' => 'text',
             ],
+            'people_name' => [
+                'label' => 'People Name',
+                'value' => '',
+                'type' => 'text',
+            ],
             'title' => [
                 'label' => 'Campaign/Site Title',
                 'value' => get_bloginfo( 'name' ),
@@ -395,11 +400,11 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
             //strings
             'what_content' => [
                 'label' => 'What is Ramadan Content',
-                'default' => __( 'Ramadan is one of the five requirements (or pillars) of Islam. During each of its 30 days, Muslims are obligated to fast from dawn until sunset. During this time they are supposed to abstain from food, drinking liquids, smoking, and sexual relations.
+                'default' =>__( 'Ramadan is one of the five requirements (or pillars) of Islam. During each of its 30 days, Muslims are obligated to fast from dawn until sunset. During this time they are supposed to abstain from food, drinking liquids, smoking, and sexual relations.
 
- In Tunisia, women typically spend the afternoons preparing a big meal. At sunset, families often gather to break the fast. Traditionally the families break the fast with a drink of water, then three dried date fruits, and a multi-course meal. After watching the new Ramadan TV series, men (and some women) go out to coffee shops where they drink coffee, and smoke with friends until late into the night.
+ In %1$s, women typically spend the afternoons preparing a big meal. At sunset, families often gather to break the fast. Traditionally the families break the fast with a drink of water, then three dried date fruits, and a multi-course meal. After watching the new Ramadan TV series, men (and some women) go out to coffee shops where they drink coffee, and smoke with friends until late into the night.
 
- Though many Tunisians have stopped fasting in recent years, and lots of Tunisians are turned off by the hypocrisy, increased crime rates, and rudeness that is pervasive through the month, lots of Tunisians become more serious about religion during this time. Many attend the evening prayer services and do the other ritual prayers. Some even read the entire Quran (about a tenth the length of the Bible). This sincere seeking makes it a strategic time for us to pray for them.', 'pray4ramadan-porch' ),
+ Though many %2$s have stopped fasting in recent years, and lots of %2$s are turned off by the hypocrisy, increased crime rates, and rudeness that is pervasive through the month, lots of %2$s become more serious about religion during this time. Many attend the evening prayer services and do the other ritual prayers. Some even read the entire Quran (about a tenth the length of the Bible). This sincere seeking makes it a strategic time for us to pray for them.', 'pray4ramadan-porch' ),
                 'value' => '',
                 'type' => 'textarea',
             ],
@@ -421,6 +426,12 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
         $saved_fields = get_option( 'p4r_porch_fields', [] );
 
         $defaults["goal"]["default"] = sprintf( $defaults["goal"]["default"], isset( $saved_fields["country_name"]["value"] ) ? $saved_fields["country_name"]["value"] : "COUNTRY" );
+
+        $defaults["what_content"]["default"] = sprintf(
+            $defaults["what_content"]["default"],
+            isset( $saved_fields["country_name"]["value"] ) ? $saved_fields["country_name"]["value"] : "COUNTRY",
+            isset( $saved_fields["people_name"]["value"] ) ? $saved_fields["people_name"]["value"] : "PEOPLE",
+        );
 
         return p4r_recursive_parse_args( $saved_fields, $defaults );
     }
