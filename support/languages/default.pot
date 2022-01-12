@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Pray4Ramadan Porch\n"
-"POT-Creation-Date: 2021-12-17 17:48+0100\n"
+"POT-Creation-Date: 2022-01-12 16:08+0100\n"
 "PO-Revision-Date: 2018-01-29 05:53-0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,125 +22,147 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SearchPathExcluded-1: */libraries/*\n"
 
-#: pray4ramadan-porch.php:398
+#: pray4ramadan-porch.php:403
+#, php-format
 msgid ""
 "Ramadan is one of the five requirements (or pillars) of Islam. During each "
 "of its 30 days, Muslims are obligated to fast from dawn until sunset. "
 "During this time they are supposed to abstain from food, drinking liquids, "
 "smoking, and sexual relations.\n"
 "\n"
-" In Tunisia, women typically spend the afternoons preparing a big meal. At "
+" In %1$s, women typically spend the afternoons preparing a big meal. At "
 "sunset, families often gather to break the fast. Traditionally the "
 "families break the fast with a drink of water, then three dried date "
 "fruits, and a multi-course meal. After watching the new Ramadan TV series, "
 "men (and some women) go out to coffee shops where they drink coffee, and "
 "smoke with friends until late into the night.\n"
 "\n"
-" Though many Tunisians have stopped fasting in recent years, and lots of "
-"Tunisians are turned off by the hypocrisy, increased crime rates, and "
-"rudeness that is pervasive through the month, lots of Tunisians become "
-"more serious about religion during this time. Many attend the evening "
-"prayer services and do the other ritual prayers. Some even read the entire "
-"Quran (about a tenth the length of the Bible). This sincere seeking makes "
-"it a strategic time for us to pray for them."
+" Though many %2$s have stopped fasting in recent years, and lots of %2$s "
+"are turned off by the hypocrisy, increased crime rates, and rudeness that "
+"is pervasive through the month, lots of %2$s become more serious about "
+"religion during this time. Many attend the evening prayer services and do "
+"the other ritual prayers. Some even read the entire Quran (about a tenth "
+"the length of the Bible). This sincere seeking makes it a strategic time "
+"for us to pray for them."
 msgstr ""
 
-#: pray4ramadan-porch.php:407
+#: pray4ramadan-porch.php:413
+#, php-format
 msgid ""
-"We want to cover the country of COUNTRY with continuous 24/7 prayer during "
-"the entire 30 days of Ramadan."
+"We want to cover the country of %s with continuous 24/7 prayer during the "
+"entire 30 days of Ramadan."
 msgstr ""
 
-#: site/header.php:38
-msgid "Add Magic"
-msgstr ""
-
-#: site/home-body.php:36
+#: site/home-body.php:41
 msgid "Our"
 msgstr ""
 
-#: site/home-body.php:36
+#: site/home-body.php:41
 msgid "Vision"
 msgstr ""
 
-#: site/home-body.php:59
+#: site/home-body.php:64
 msgid "Extraordinary Prayer"
 msgstr ""
 
-#: site/home-body.php:60
+#: site/home-body.php:65
 msgid ""
 "Every disciple making movement in history has happened in the context of "
 "extraordinary prayer."
 msgstr ""
 
-#: site/home-body.php:68
+#: site/home-body.php:73
 msgid "Movement Focused"
 msgstr ""
 
-#: site/home-body.php:69
+#: site/home-body.php:74
 msgid ""
 "Join us in asking, seeking, and knocking for streams of disciples and "
 "churches to be made."
 msgstr ""
 
-#: site/home-body.php:77
+#: site/home-body.php:82
 msgid "24/7 for 30 Days"
 msgstr ""
 
-#: site/home-body.php:78
+#: site/home-body.php:83
 msgid ""
 "Choose a 15-minute (or more!) time slot that you can pray during each day. "
 "Invite someone else to sign up too."
 msgstr ""
 
-#: site/home-body.php:83 site/top-section.php:56
+#: site/home-body.php:88 site/top-section.php:56
 msgid "Sign Up to Pray"
 msgstr ""
 
-#: site/home-body.php:175
+#: site/home-body.php:146
+msgid "Ramadan is Finished"
+msgstr ""
+
+#: site/home-body.php:159
+msgid "Ramadan Ends ..."
+msgstr ""
+
+#: site/home-body.php:160 site/home-body.php:167
+msgid "days"
+msgstr ""
+
+#: site/home-body.php:161 site/home-body.php:168
+msgid "hours"
+msgstr ""
+
+#: site/home-body.php:162 site/home-body.php:169
+msgid "minutes"
+msgstr ""
+
+#: site/home-body.php:163 site/home-body.php:170
+msgid "seconds"
+msgstr ""
+
+#: site/home-body.php:166
+msgid "Ramadan Begins ..."
+msgstr ""
+
+#: site/home-body.php:180
 msgid "Sign Up to"
 msgstr ""
 
-#: site/home-body.php:175
+#: site/home-body.php:180
 msgid "Pray"
 msgstr ""
 
-#: site/home-body.php:181
+#: site/home-body.php:186
 msgid "here"
 msgstr ""
 
-#: site/home-body.php:210
+#: site/home-body.php:215
 msgid "Days"
 msgstr ""
 
-#: site/home-body.php:223
+#: site/home-body.php:228
 msgid "Hours of Prayer"
 msgstr ""
 
-#: site/home-body.php:236
+#: site/home-body.php:241
 msgid "Prayer Commitments Needed"
 msgstr ""
 
-#: site/home-body.php:251
+#: site/home-body.php:256
 msgid "15-Minute"
 msgstr ""
 
-#: site/home-body.php:251 site/top-section.php:18
+#: site/home-body.php:256 site/top-section.php:18
 msgid "Prayer Fuel"
 msgstr ""
 
-#: site/home-body.php:253
+#: site/home-body.php:258
 msgid ""
 "Use these resources to help pray specifically each day for the month of "
 "Ramadan"
 msgstr ""
 
-#: site/home-body.php:254
+#: site/home-body.php:259
 msgid "View All"
-msgstr ""
-
-#: site/roles-and-permissions.php:55
-msgid "Porch Admin"
 msgstr ""
 
 #: site/top-section.php:12
