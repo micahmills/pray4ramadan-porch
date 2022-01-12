@@ -416,6 +416,7 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
             ],
             'google_analytics' => [
                 'label' => 'Google Analytics',
+                'default' => get_option( "p4r_porch_google_analytics" ),
                 'value' => '',
                 'type' => 'textarea',
             ],
