@@ -129,22 +129,19 @@ if ( $dt_ramadan_selected_campaign_magic_link_settings["color"] === "preset" ){
     <script>
         var myfunc = setInterval(function() {
             // The data/time we want to countdown to
-            var countDownDate = <?php echo strtotime( $campaign_fields['end_date']['formatted'] ) * 1000 ?>;
-            var endCountDownDate = <?php echo strtotime( $campaign_fields['end_date']['formatted'] ) . 1000 ?>;
 
-            console.log(countDownDate)
-            console.log(endCountDownDate)
+            var countDownDate = '<?php echo $campaign_fields['start_date']['timestamp'] ?>'
+            var endCountDownDate = '<?php echo $campaign_fields['end_date']['timestamp'] ?>'
 
-            var now = new Date().getTime();
+
+            var now = '<?php echo strtotime( 'Now' ) ?>'
             var timeleft = countDownDate - now;
-            var endtimeleft = endCountDownDate - now;
+            var endtimeleft = endCountDownDate - now ;
 
-            var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
+            var days = Math.floor(timeleft / (60 * 60 * 24));
             var hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
-
-
 
             if ( endtimeleft < 0 ) {
                 clearInterval(myfunc);
