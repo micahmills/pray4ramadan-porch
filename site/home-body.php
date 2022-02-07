@@ -129,8 +129,11 @@ if ( $dt_ramadan_selected_campaign_magic_link_settings["color"] === "preset" ){
     <script>
         var myfunc = setInterval(function() {
             // The data/time we want to countdown to
-            var countDownDate = new Date("<?php echo esc_html( $campaign_fields['start_date']['formatted'] ) ?> 00:00:00").getTime();
-            var endCountDownDate = new Date("<?php echo esc_html( $campaign_fields['end_date']['formatted'] ) ?> 00:00:00").getTime();
+            var countDownDate = <?php echo strtotime( $campaign_fields['end_date']['formatted'] ) * 1000 ?>;
+            var endCountDownDate = <?php echo strtotime( $campaign_fields['end_date']['formatted'] ) . 1000 ?>;
+
+            console.log(countDownDate)
+            console.log(endCountDownDate)
 
             var now = new Date().getTime();
             var timeleft = countDownDate - now;
@@ -140,6 +143,8 @@ if ( $dt_ramadan_selected_campaign_magic_link_settings["color"] === "preset" ){
             var hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
+
+
 
             if ( endtimeleft < 0 ) {
                 clearInterval(myfunc);
@@ -261,32 +266,6 @@ if ( $dt_ramadan_selected_campaign_magic_link_settings["color"] === "preset" ){
     </div>
 </section>
 <!-- blog Section End -->
-
-<!-- WHAT IS RAMADAN -->
-<!--<section id="description" class="section gray-background">-->
-<!--    <div class="container">-->
-<!--        <div class="section-header">-->
-<!--            <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">What is <span>Ramadan</span>?</h2>-->
-<!--            <hr class="lines wow zoomIn" data-wow-delay="0.3s">-->
-<!--        </div>-->
-<!--        <div class="row">-->
-<!--            <div class="col-md-6 col-sm-6">-->
-<!--                <div class="wow fadeInDown" data-wow-delay="0.2s">-->
-<!--                    --><?php //echo wp_kses_post( nl2br( $porch_fields['what_content']['value'] ) ) ?>
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-md-6 col-sm-6">-->
-<!--                <div class="item-boxes wow fadeInDown" data-wow-delay="0.4s">-->
-<!--                    <div class="shot-item">-->
-<!--                        <img src="--><?php //echo esc_url( trailingslashit( plugin_dir_url( __FILE__ ) ) ) ?><!--img/portfolio/img1.jpg" alt="" />-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!---->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-<!-- Services Section End -->
 
 <!-- Footer Section Start -->
 <footer>
