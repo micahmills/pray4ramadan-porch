@@ -1,6 +1,16 @@
 <?php
 $porch_fields = p4r_porch_fields();
 $campaign_fields = p4r_get_campaign();
+
+$lang = "en_US";
+if ( isset( $_GET["lang"] ) && !empty( $_GET["lang"] ) ){
+    $lang = sanitize_text_field( wp_unslash( $_GET["lang"] ));
+    setcookie( 'dt-magic-link-lang', $lang );
+} elseif ( isset( $_COOKIE["dt-magic-link-lang"] ) && !empty( $_COOKIE["dt-magic-link-lang"] ) ){
+    $lang = sanitize_text_field( wp_unslash( $_COOKIE["dt-magic-link-lang"] ) );
+}
+
+
 ?>
 
 <!-- Nav -->
@@ -30,6 +40,11 @@ $campaign_fields = p4r_get_campaign();
         <div class="container">
             <div class="logo-menu">
                 <a href="/" class="logo"><?php echo esc_html( $porch_fields['title']['value'] ) ?></a>
+                <select class="dt-magic-link-language-selector">
+                    <option value="en_US" <?php selected( $lang === "en_US" ) ?>>English</option>
+                    <option value="fr_FR" <?php selected( $lang === "fr_FR" ) ?>>Français</option>
+                    <option value="es_ES" <?php selected( $lang === "es_ES" ) ?>>Español</option>
+                </select>
                 <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button>
             </div>
         </div>
