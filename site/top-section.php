@@ -41,9 +41,9 @@ if ( isset( $_GET["lang"] ) && !empty( $_GET["lang"] ) ){
             <div class="logo-menu">
                 <a href="/" class="logo"><?php echo esc_html( $porch_fields['title']['value'] ) ?></a>
                 <select class="dt-magic-link-language-selector">
-                    <option value="en_US" <?php selected( $lang === "en_US" ) ?>>English</option>
-                    <option value="fr_FR" <?php selected( $lang === "fr_FR" ) ?>>Français</option>
-                    <option value="es_ES" <?php selected( $lang === "es_ES" ) ?>>Español</option>
+                    <option value="en_US" <?php selected( $lang === "en_US" ) ?>>🇺🇸 English</option>
+                    <option value="fr_FR" <?php selected( $lang === "fr_FR" ) ?>>🇫🇷 Français</option>
+                    <option value="es_ES" <?php selected( $lang === "es_ES" ) ?>>🇪🇸 Español</option>
                 </select>
                 <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button>
             </div>
