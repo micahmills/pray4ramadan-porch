@@ -1274,3 +1274,22 @@ footer {
 .cp-progress-wrapper.cp-wrapper {
     padding: 0
 }
+.dt-magic-link-language-selector {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-inline-start: 1em;
+}
+.menu-bg .dt-magic-link-language-selector {
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+}
+.dt-magic-link-language-selector:focus-visible {
+    outline: transparent;
+}
+.dt-magic-link-language-selector option {
+    color: black;
+}
