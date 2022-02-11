@@ -9,8 +9,7 @@ if ( isset( $_GET["lang"] ) && !empty( $_GET["lang"] ) ){
 } elseif ( isset( $_COOKIE["dt-magic-link-lang"] ) && !empty( $_COOKIE["dt-magic-link-lang"] ) ){
     $lang = sanitize_text_field( wp_unslash( $_COOKIE["dt-magic-link-lang"] ) );
 }
-
-
+$langs = dt_ramadan_list_languages();
 ?>
 
 <!-- Nav -->
@@ -41,9 +40,11 @@ if ( isset( $_GET["lang"] ) && !empty( $_GET["lang"] ) ){
             <div class="logo-menu">
                 <a href="/" class="logo"><?php echo esc_html( $porch_fields['title']['value'] ) ?></a>
                 <select class="dt-magic-link-language-selector">
-                    <option value="en_US" <?php selected( $lang === "en_US" ) ?>>🇺🇸 English</option>
-                    <option value="fr_FR" <?php selected( $lang === "fr_FR" ) ?>>🇫🇷 Français</option>
-                    <!--<option value="es_ES" <?php selected( $lang === "es_ES" ) ?>>🇪🇸 Español</option>-->
+                    <?php foreach ( $langs as $code => $language ) : ?>
+                        <option value="<?php echo esc_html( $code ); ?>" <?php selected( $lang === $code ) ?>>
+                            <?php echo esc_html( $language["flag"] ); ?> <?php echo esc_html( $language["native_name"] ); ?>
+                        </option>
+                    <?php endforeach; ?>
                 </select>
                 <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button>
             </div>
@@ -57,10 +58,10 @@ if ( isset( $_GET["lang"] ) && !empty( $_GET["lang"] ) ){
                     <?php if ( isset( $porch_fields['logo_url']['value'] ) && ! empty( $porch_fields['logo_url']['value'] ) ) : ?>
                         <img src="<?php echo esc_url( $porch_fields['logo_url']['value'] ) ?>" alt=""  />
                     <?php else : ?>
-                        <h1 class="wow fadeInDown" style="font-size: 3em;" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php echo esc_html( $porch_fields['title']['value'] ) ?></h1>
+                        <h1 class="wow fadeInDown" style="font-size: 3em;" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php echo esc_html( get_field_translation( $porch_fields["title"], $lang ) ) ?></h1>
                     <?php endif; ?>
                     <?php if ( !empty( $porch_fields["country_name"]["value"] ) ) : ?>
-                        <h4><?php echo sprintf( __( 'Strategic prayer for a disciple making movement in %s', 'pray4ramadan-porch' ), $porch_fields["country_name"]["value"] ); ?></h4>
+                        <h4><?php echo sprintf( __( 'Strategic prayer for a disciple making movement in %s', 'pray4ramadan-porch' ), get_field_translation( $porch_fields["country_name"], $lang ) ); ?></h4>
                     <?php else : ?>
                         <h4><?php esc_html_e( 'Strategic prayer for a disciple making movement', 'pray4ramadan-porch' ); ?>
                     <?php endif; ?>

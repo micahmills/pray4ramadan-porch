@@ -23,6 +23,7 @@ class P4_Ramadan_Porch_Landing_Menu {
         }
 
         add_action( "admin_menu", array( $this, "register_menu" ) );
+        add_action( 'admin_enqueue_scripts', [ $this, 'scripts' ] );
 
     } // End __construct()
 
@@ -34,6 +35,12 @@ class P4_Ramadan_Porch_Landing_Menu {
         if ( current_user_can( 'wp_api_allowed_user' ) ) {
             add_submenu_page( 'edit.php?post_type=' . PORCH_LANDING_POST_TYPE, $this->title, $this->title, "edit_" . PORCH_LANDING_POST_TYPE, $this->token, [ $this, 'content' ] );
         }
+    }
+
+    public function scripts(){
+        wp_enqueue_script( 'dt_ramadan_script', plugin_dir_url( __FILE__ ) . '/admin.js', [
+            'jquery',
+        ], filemtime( plugin_dir_path( __FILE__ ) . '/admin.js' ), true );
     }
 
     /**
@@ -203,6 +210,39 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
         <?php
     }
 
+    private function translation_cell( $langs, $key, $field ){
+        ?>
+        <td>
+            <button class="button small expand_translations">
+                <?php
+                $number_of_translations = 0;
+                foreach ( $langs as $lang => $val ){
+                    if ( !empty( $field["translations"][$val['language']] ) ){
+                        $number_of_translations++;
+                    }
+                }
+                ?>
+                <img style="height: 15px; vertical-align: middle" src="<?php echo esc_html( get_template_directory_uri() . "/dt-assets/images/languages.svg" ); ?>">
+                (<?php echo esc_html( $number_of_translations ); ?>)
+            </button>
+            <div class="translation_container hide">
+                <table style="width:100%">
+                    <?php foreach ( $langs as $lang => $val ) : ?>
+                        <tr>
+                            <td><label for="field_key_<?php echo esc_html( $key )?>_translation-<?php echo esc_html( $val['language'] )?>"><?php echo esc_html( $val['native_name'] )?></label></td>
+                            <?php if ( $field["type"] === "textarea" ) :?>
+                                <td><textarea name="field_key_<?php echo esc_html( $key )?>_translation-<?php echo esc_html( $val['language'] )?>"><?php echo wp_kses_post( $field["translations"][$val['language']] ?? "" );?></textarea></td>
+                            <?php else: ?>
+                                <td><input name="field_key_<?php echo esc_html( $key )?>_translation-<?php echo esc_html( $val['language'] )?>" type="text" value="<?php echo esc_html( $field["translations"][$val['language']] ?? "" );?>"/></td>
+                            <?php endif; ?>
+                        </tr>
+                    <?php endforeach; ?>
+                </table>
+            </div>
+        </td>
+        <?php
+    }
+
     public function main_column() {
         global $allowed_tags;
         $allowed_tags['script'] =  array(
@@ -210,6 +250,7 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
             'src' => array()
         );
         $fields = p4r_porch_fields();
+        $langs = dt_ramadan_list_languages();
         $dir = scandir( plugin_dir_path( __DIR__ ) . 'site/css/colors' );
         $list = [];
         foreach ( $dir as $file ) {
@@ -226,6 +267,7 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
             if ( isset( $_POST['list'] ) ) {
                 $saved_fields = $fields;
 
+                $post_fields = dt_recursive_sanitize_array( $_POST );
                 $post_list = dt_recursive_sanitize_array( $_POST['list'] );
                 foreach ( $post_list as $field_key => $value ){
                     if ( isset( $saved_fields[$field_key]["type"], $_POST['list'][$field_key] ) && $saved_fields[$field_key]["type"] === "textarea" ){ // if textarea
@@ -238,6 +280,16 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                         $saved_fields[$key] = [];
                     }
                     $saved_fields[$key]['value'] = $value;
+                }
+
+                foreach ( $fields as $field_key => $field ){
+                    if ( isset( $field["translations"] ) ){
+                        foreach ( $langs as $lang_code => $lang_values ){
+                            if ( isset ( $post_fields["field_key_" . $field_key . "_translation-" . $lang_code] ) ){
+                                $saved_fields[$field_key]["translations"][$lang_code] = $post_fields["field_key_" . $field_key . "_translation-" . $lang_code];
+                            }
+                        }
+                    }
                 }
 
                 $fields = p4r_recursive_parse_args( $saved_fields, $fields );
@@ -259,6 +311,7 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                 <tr>
                     <th style="width:20%">Home Page Details</th>
                     <th><span style="float:right;"><button type="submit" name="reset_values" value='delete'>Reset</button></span></th>
+                    <th></th>
                 </tr>
                 </thead>
                 <tbody>
@@ -273,6 +326,9 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                                         placeholder="<?php echo esc_html( $field["default"] ?? "" ); ?>"
                                     />
                                 </td>
+                                <?php if ( isset( $field["translations"] ) ){
+                                    self::translation_cell( $langs, $key, $field );
+                                } ?>
                             </tr>
                         <?php elseif ( 'textarea' === $field['type'] ) : ?>
                             <tr>
@@ -282,6 +338,9 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                                 <td>
                                     <textarea name="list[<?php echo esc_html( $key ); ?>]" id="<?php echo esc_html( $key ); ?>" placeholder="<?php echo esc_html( $field["default"] ?? "" ); ?>"><?php echo wp_kses( $field['value'], $allowed_tags ); ?></textarea>
                                 </td>
+                                <?php if ( isset( $field["translations"] ) ){
+                                    self::translation_cell( $langs, $key, $field );
+                                } ?>
                             </tr>
                         <?php elseif ( 'theme_select' === $field['type'] ) : ?>
                             <tr>

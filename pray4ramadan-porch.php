@@ -75,6 +75,7 @@ class P4_Ramadan_Porch {
     }
 
     private function __construct() {
+        require_once( 'site/functions.php' );
         $fields = p4r_porch_fields();
         if ( ! defined( 'PORCH_TITLE' ) ) {
             $title = $fields['title']['value'] ?? 'Ramadan';
@@ -349,16 +350,19 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
                 'label' => 'Location Name',
                 'value' => '',
                 'type' => 'text',
+                'translations' => [],
             ],
             'people_name' => [
                 'label' => 'People Name',
                 'value' => '',
                 'type' => 'text',
+                'translations' => [],
             ],
             'title' => [
                 'label' => 'Campaign/Site Title',
                 'value' => get_bloginfo( 'name' ),
                 'type' => 'text',
+                'translations' => [],
             ],
             'logo_url' => [
                 'label' => 'Logo URL',
@@ -407,12 +411,14 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
  Though many %2$s have stopped fasting in recent years, and lots of %2$s are turned off by the hypocrisy, increased crime rates, and rudeness that is pervasive through the month, lots of %2$s become more serious about religion during this time. Many attend the evening prayer services and do the other ritual prayers. Some even read the entire Quran (about a tenth the length of the Bible). This sincere seeking makes it a strategic time for us to pray for them.', 'pray4ramadan-porch' ),
                 'value' => '',
                 'type' => 'textarea',
+                'translations' => [],
             ],
             'goal' => [
                 'label' => 'Goal',
                 'default' => __( "We want to cover the country of %s with continuous 24/7 prayer during the entire 30 days of Ramadan.", 'pray4ramadan-porch' ),
                 'value' => "",
                 'type' => 'text',
+                'translations' => [],
             ],
             'google_analytics' => [
                 'label' => 'Google Analytics',
@@ -426,12 +432,16 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
 
         $saved_fields = get_option( 'p4r_porch_fields', [] );
 
-        $defaults["goal"]["default"] = sprintf( $defaults["goal"]["default"], isset( $saved_fields["country_name"]["value"] ) ? $saved_fields["country_name"]["value"] : "COUNTRY" );
+        $lang = dt_ramadan_get_current_lang();
+        $people_name = get_field_translation( $saved_fields["people_name"], $lang );
+        $country_name = get_field_translation( $saved_fields["country_name"], $lang );
+
+        $defaults["goal"]["default"] = sprintf( $defaults["goal"]["default"], !empty( $country_name ) ? $country_name : "COUNTRY", );
 
         $defaults["what_content"]["default"] = sprintf(
             $defaults["what_content"]["default"],
-            isset( $saved_fields["country_name"]["value"] ) ? $saved_fields["country_name"]["value"] : "COUNTRY",
-            isset( $saved_fields["people_name"]["value"] ) ? $saved_fields["people_name"]["value"] : "PEOPLE",
+            !empty( $country_name ) ? $country_name : "COUNTRY",
+            !empty( $people_name ) ? $people_name : "PEOPLE",
         );
 
         return p4r_recursive_parse_args( $saved_fields, $defaults );
