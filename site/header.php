@@ -55,7 +55,8 @@ $porch_fields = p4r_porch_fields();
     .logo-background {
 
     }
-    .logo {
-        color: <?php echo esc_attr( PORCH_COLOR_SCHEME_HEX ) ?> !important;
+    a.logo {
+        text-shadow: none;
+        color: #6CA0B3;
     }
 </style>

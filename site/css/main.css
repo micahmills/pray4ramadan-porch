@@ -169,9 +169,9 @@ a:not([href]):not([tabindex]):hover {
   cursor: pointer;
   color: #4676fa;
 }
-.menu-bg .logo-menu a {
+/* .menu-bg .logo-menu a {
   color: #4676fa;
-}
+} */
 .menu-button:hover {
   cursor: pointer;
   opacity: #eee;
