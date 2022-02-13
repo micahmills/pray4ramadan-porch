@@ -1,13 +1,13 @@
 <?php
 /**
- * Plugin Name: Pray4Ramadan Porch
- * Plugin URI: https://github.com/Pray4Movement/pray4ramadan-porch
+ * Plugin Name: Pray4Noruz Porch
+ * Plugin URI: https://github.com/micahmills/pray4ramadan-porch
  * Description: This is this microsite plugin to support the Ramadan 24/7 Campaign
  * Text Domain: pray4ramadan-porch
  * Domain Path: /languages
- * Version:  0.2.1
+ * Version:  0.2.2
  * Author URI: https://github.com/DiscipleTools
- * GitHub Plugin URI: https://github.com/Pray4Movement/pray4ramadan-porch
+ * GitHub Plugin URI: https://github.com/micahmills/pray4ramadan-porch
  * Requires at least: 4.7.0
  * (Requires 4.7+ because of the integration of the REST API at 4.7 and the security requirements of this milestone version.)
  * Tested up to: 5.6
@@ -328,7 +328,7 @@ add_action( 'plugins_loaded', function (){
         }
         if ( class_exists( 'Puc_v4_Factory' ) ){
             Puc_v4_Factory::buildUpdateChecker(
-                'https://raw.githubusercontent.com/Pray4Movement/pray4ramadan-porch/master/version-control.json',
+                'https://raw.githubusercontent.com/micahmills/pray4ramadan-porch/master/version-control.json',
                 __FILE__,
                 'pray4ramadan-porch'
             );
