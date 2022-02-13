@@ -39,12 +39,6 @@ if ( isset( $_GET["lang"] ) && !empty( $_GET["lang"] ) ){
     <div class="fixed-top">
         <div class="container">
             <div class="logo-menu">
-                <a href="/" class="logo"><?php echo esc_html( $porch_fields['title']['value'] ) ?></a>
-                <select class="dt-magic-link-language-selector">
-                    <option value="en_US" <?php selected( $lang === "en_US" ) ?>>🇺🇸 English</option>
-                    <option value="fr_FR" <?php selected( $lang === "fr_FR" ) ?>>🇫🇷 Français</option>
-                    <!--<option value="es_ES" <?php selected( $lang === "es_ES" ) ?>>🇪🇸 Español</option>-->
-                </select>
                 <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button>
             </div>
         </div>
@@ -59,11 +53,7 @@ if ( isset( $_GET["lang"] ) && !empty( $_GET["lang"] ) ){
                     <?php else : ?>
                         <h1 class="wow fadeInDown" style="font-size: 3em;" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php echo esc_html( $porch_fields['title']['value'] ) ?></h1>
                     <?php endif; ?>
-                    <?php if ( !empty( $porch_fields["country_name"]["value"] ) ) : ?>
-                        <h4><?php echo sprintf( __( 'Strategic prayer for a disciple making movement in %s', 'pray4ramadan-porch' ), $porch_fields["country_name"]["value"] ); ?></h4>
-                    <?php else : ?>
-                        <h4><?php esc_html_e( 'Strategic prayer for a disciple making movement', 'pray4ramadan-porch' ); ?>
-                    <?php endif; ?>
+                    <h4 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Pray for Iran during Persian New Year and the Month of Ramadan</h4>
                     <?php
                     if ( time() <= strtotime( $campaign_fields['end_date']['formatted'] ?? '' ) ) :
                         ?>

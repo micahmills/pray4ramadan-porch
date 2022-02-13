@@ -113,12 +113,12 @@ class P4_Ramadan_Porch {
          * preset, teal, forestgreen, green, purple, orange
          */
         $theme = 'preset';
-        $hex = '#4676fa';
+        $hex = '#6CA0B3';
         if ( isset( $fields['theme_color']['value'] ) && ! empty( $fields['theme_color']['value'] ) && ! defined( 'PORCH_COLOR_SCHEME' ) ) {
             $theme = $fields['theme_color']['value'];
             switch ( $theme ) {
                 case 'preset':
-                    $hex = '#4676fa';
+                    $hex = '#6CA0B3';
                     break;
                 case 'forestgreen':
                     $hex = '#1EB858';
@@ -178,7 +178,7 @@ class P4_Ramadan_Porch {
         if ( strpos( $plugin_file_name, basename( __FILE__ ) ) ) {
 
             // You can still use `array_unshift()` to add links at the beginning.
-            $links_array[] = '<a href="https://disciple.tools">Disciple.Tools Community</a>'; // @todo replace with your links.
+            $links_array[] = '<a href="https://disciple.tools">Disciple.Tools Community'; // @todo replace with your links.
         }
 
         return $links_array;

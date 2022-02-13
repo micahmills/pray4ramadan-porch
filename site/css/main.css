@@ -223,7 +223,8 @@ a:not([href]):not([tabindex]):hover {
 #hero-area {
   /*background: url(../img/hero-area.jpg) fixed no-repeat;*/
   background-size: cover;
-  color: #fff;
+  color: #E0E4D6;
+  text-shadow: 0 0 2px #105777, 0 0 2px #105777, 0 0 2px #105777, 0 0 2px #105777;
   overflow: hidden;
   position: relative;
 }
@@ -241,14 +242,14 @@ a:not([href]):not([tabindex]):hover {
   padding: 150px 0;
 }
 #hero-area .contents h1 {
-  color: #fff;
+  color: #E0E4D6;
     font-size: 4em;
     font-weight: 900;
   margin-bottom: 25px;
 }
 #hero-area .contents p {
   font-size: 14px;
-  color: #fff;
+  color: #E0E4D6;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.5px;
@@ -767,8 +768,8 @@ a:not([href]):not([tabindex]):hover {
   top: 0px;
   left: 0px;
   background: #4676fa;
-  opacity: 0.7;
-  filter: alpha(opacity=70);
+  opacity: 0.8;
+  filter: alpha(opacity=80);
 }
 /* ==========================================================================
     Pricing Table
