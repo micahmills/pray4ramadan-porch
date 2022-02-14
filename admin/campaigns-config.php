@@ -2,9 +2,10 @@
 if ( !defined( 'ABSPATH' ) ) { exit; } // Exit if accessed directly.
 class DT_Campaigns_Config {
     public function __construct(){
-        add_action( "dt_post_created", [ $this, "dt_post_created" ], 10, 3 );
+//        add_action( "dt_post_created", [ $this, "dt_post_created" ], 10, 3 );
         add_filter( 'wp_mail_from_name', [ $this, "wp_mail_from_name" ] );
         add_filter( 'wp_mail_from', [ $this, "wp_mail_from" ] );
+        add_filter( 'dt_campaign_reminder_prayer_content', [ $this, 'dt_campaign_reminder_prayer_content' ] );
     }
 
     //Set ramadan prayer fuel content url
@@ -42,6 +43,15 @@ class DT_Campaigns_Config {
             $email = "no-reply@" . $domain;
         }
         return $email;
+    }
+
+    public function dt_campaign_reminder_prayer_content( $dt_campaign_reminder_prayer_content ){
+        if ( empty( $dt_campaign_reminder_prayer_content ) ){
+            $url = site_url() . '/prayer/list';
+            $link = '<a href="' . $url . '">' . $url . '</a>';
+            $dt_campaign_reminder_prayer_content = sprintf( __( 'Click here to see the prayer prompts for today: %s', 'pray4ramadan-porch' ), $link );
+        }
+        return $dt_campaign_reminder_prayer_content;
     }
 }
 

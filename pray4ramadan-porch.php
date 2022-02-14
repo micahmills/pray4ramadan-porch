@@ -56,7 +56,7 @@ function p4r_porch() {
 
     return P4_Ramadan_Porch::instance();
 }
-add_action( 'after_setup_theme', 'p4r_porch', 20 );
+add_action( 'after_setup_theme', 'p4r_porch', 15 );
 
 /**
  * Singleton class for setting up the plugin.
