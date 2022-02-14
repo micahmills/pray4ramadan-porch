@@ -28,8 +28,8 @@ function dt_ramadan_list_languages(){
             'flag' => '🇫🇷'
         ],
         'pt_BR' => [
-            'language' => 'pt_BR',
-            'english_name' => 'Portuguese (Brazil)',
+            'language' => 'pt_PT',
+            'english_name' => 'Portuguese',
             'native_name' => 'Português',
             'flag' => '🇵🇹'
         ],
