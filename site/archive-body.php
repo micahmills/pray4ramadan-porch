@@ -62,11 +62,11 @@ $list = new WP_Query( $args );
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item">
                 <!-- Blog Item Starts -->
                 <div class="blog-item-wrapper wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="blog-item-img">
+                    <!-- <div class="blog-item-img">
                         <a href="/prayer/prompt/<?php echo esc_attr( $public_key ) ?>">
                             <img src="<?php echo esc_url( trailingslashit( plugin_dir_url( __DIR__ ) ) ) ?>landing-pages/img/300x1.png" alt="">
                         </a>
-                    </div>
+                    </div> -->
                     <div class="blog-item-text">
                         <h3>
                             <a href="#"><?php echo esc_html( $item->post_title ) ?></a>

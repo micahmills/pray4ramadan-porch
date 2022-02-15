@@ -224,6 +224,7 @@ a:not([href]):not([tabindex]):hover {
 #hero-area {
   /*background: url(../img/hero-area.jpg) fixed no-repeat;*/
   background-size: cover;
+  background-position: bottom center;
   color: #E0E4D6;
   text-shadow: 0 0 2px #105777, 0 0 2px #105777, 0 0 2px #105777, 0 0 2px #105777;
   overflow: hidden;
@@ -235,12 +236,24 @@ a:not([href]):not([tabindex]):hover {
   height: 100%;
   top: 0px;
   left: 0px;
+  display: none;
   /*background: #4676fa;*/
   /*opacity: 0.7;*/
   /*filter: alpha(opacity=70);*/
 }
 #hero-area .content-height {
-  padding: 150px 0;
+  padding-top: 24%;
+}
+#hero-area .lnr {
+    color: #37525d;
+    background: #f4f5f0;
+    border-radius: 5px;
+    padding: 0.35rem;
+}
+#hero-area .contents svg {
+    transform: translate(-1vw, -3vw);
+    width: 30%;
+    height: auto;
 }
 #hero-area .contents h1 {
   color: #E0E4D6;
