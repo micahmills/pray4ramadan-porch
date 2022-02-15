@@ -62,7 +62,16 @@
     margin-bottom: 30px;
   }
 }
+@media (min-width: 555px) {
+  #hero-area .contents svg {
+    transform: translate(-1vw, -3vw);
+  }
+}
 @media (min-width: 320px) and (max-width: 480px) {
+    #hero-area .contents svg {
+        transform: translate(-2vw, -10vw);
+        max-width: 65vw;
+    }
   .bg-faded {
     background: #fff!important;
   }

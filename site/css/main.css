@@ -229,6 +229,7 @@ a:not([href]):not([tabindex]):hover {
   text-shadow: 0 0 2px #105777, 0 0 2px #105777, 0 0 2px #105777, 0 0 2px #105777;
   overflow: hidden;
   position: relative;
+  min-height: 40vh;
 }
 #hero-area .overlay {
   position: absolute;
@@ -242,7 +243,7 @@ a:not([href]):not([tabindex]):hover {
   /*filter: alpha(opacity=70);*/
 }
 #hero-area .content-height {
-  padding-top: 24%;
+  padding-top: 26vh;
 }
 #hero-area .lnr {
     color: #37525d;
@@ -251,9 +252,8 @@ a:not([href]):not([tabindex]):hover {
     padding: 0.35rem;
 }
 #hero-area .contents svg {
-    transform: translate(-1vw, -3vw);
-    width: 30%;
-    height: auto;
+    transform: translate(-2vw, -10vw);
+    max-height: 18vh;
 }
 #hero-area .contents h1 {
   color: #E0E4D6;
