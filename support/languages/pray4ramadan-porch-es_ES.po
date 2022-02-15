@@ -5,99 +5,99 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
 "Project-Id-Version: Ramadan Landing Page\n"
-"Language: fr\n"
+"Language: es\n"
 
 #: site/home-body.php:41
 msgid "Our"
-msgstr "Notre"
+msgstr "Nuestra"
 
 #: site/home-body.php:41
 msgid "Vision"
-msgstr "Vision"
+msgstr "Visión"
 
 #: site/home-body.php:64
 msgid "Extraordinary Prayer"
-msgstr "Prière extraordinaire"
+msgstr "Oración Extraordinaria"
 
 #: site/home-body.php:65
 msgid "Every disciple making movement in history has happened in the context of extraordinary prayer."
-msgstr "Chaque mouvement de formation de disciples dans l'histoire s'est produit dans le contexte d'une prière extraordinaire."
+msgstr "Cada movimiento de formación de discípulos en la historia sucedió en el contexto de oración extraordinaria."
 
 #: site/home-body.php:73
 msgid "Movement Focused"
-msgstr "Concentré sur le mouvement"
+msgstr "Enfoque en Movimientos"
 
 #: site/home-body.php:74
 msgid "Join us in asking, seeking, and knocking for streams of disciples and churches to be made."
-msgstr "Rejoignez-nous pour demander, chercher et frapper pour que des flots de disciples et d'églises soient créés."
+msgstr "Únete con nosotros en pedir, buscar y tocar para que se formen corrientes de discípulos e iglesias."
 
 #: site/home-body.php:82
 msgid "24/7 for 30 Days"
-msgstr "24/7 pour 30 jours"
+msgstr "24/7 Durante 30 Días"
 
 #: site/home-body.php:83
 msgid "Choose a 15-minute (or more!) time slot that you can pray during each day. Invite someone else to sign up too."
-msgstr "Choisissez un créneau horaire de 15 minutes (ou plus !) que vous pouvez prier chaque jour. Invitez quelqu'un d'autre à s'inscrire également."
+msgstr "Escoja una espacio de tiempo de 15 minutos (¡o más!) en la cual puedas orar cada día. También invite a alguien más a sumarse ."
 
 #: site/home-body.php:88 site/top-section.php:56
 msgid "Sign Up to Pray"
-msgstr "Inscrivez-vous pour prier"
+msgstr "Regístrese para Orar"
 
 #: site/home-body.php:180
 msgid "Sign Up to"
-msgstr "Inscrivez-vous pour"
+msgstr "Regístrese para"
 
 #: site/home-body.php:180
 msgid "Pray"
-msgstr "Prier"
+msgstr "Orar"
 
 #: site/home-body.php:186
 msgid "here"
-msgstr "ici"
+msgstr "aquí"
 
 #: site/home-body.php:215
 msgid "Days"
-msgstr "Jours"
+msgstr "Días"
 
 #: site/home-body.php:228
 msgid "Hours of Prayer"
-msgstr "Heures de prière"
+msgstr "Horas de Oración"
 
 #: site/home-body.php:241
 msgid "Prayer Commitments Needed"
-msgstr "Engagements de prière nécessaires"
+msgstr "Compromisos de Oración Requeridos"
 
 #: site/home-body.php:256
 msgid "15-Minute"
-msgstr "15-Minute"
+msgstr "15-Minutos"
 
 #: site/home-body.php:256 site/top-section.php:18
 msgid "Prayer Fuel"
-msgstr "Carburant de prière"
+msgstr "Combustible de Oración"
 
 #: site/home-body.php:258
 msgid "Use these resources to help pray specifically each day for the month of Ramadan"
-msgstr "Utilisez ces ressources pour vous aider à prier spécifiquement chaque jour pour le mois de Ramadan"
+msgstr "Utilice estos recursos para poder orar específicamente cada día durante el mes de Ramadán"
 
 #: site/home-body.php:259
 msgid "View All"
-msgstr "Tout voir"
+msgstr "Ver Todos"
 
 #: site/top-section.php:12
 msgid "Home"
-msgstr "Acceuil"
+msgstr "Inicio"
 
 #: site/top-section.php:15
 msgid "Sign Up"
-msgstr "S'inscrire"
+msgstr "Inscribirse"
 
 #: site/top-section.php:48
 msgid "Strategic prayer for a disciple making movement in %s"
-msgstr "Prière stratégique pour un mouvement faisant des disciples à %s"
+msgstr "Oración estratégica para un movimiento de formación de discípulos en %s"
 
 #: site/top-section.php:50
 msgid "Strategic prayer for a disciple making movement"
-msgstr "Prière stratégique pour un mouvement de formation de disciples"
+msgstr "Oración estratégica para un movimiento de formación de discípulos"
 
 #. Plugin Name of the plugin/theme
 #: 
@@ -112,7 +112,7 @@ msgstr "https://github.com/Pray4Movement/pray4ramadan-porch"
 #. Description of the plugin/theme
 #: 
 msgid "This is this microsite plugin to support the Ramadan 24/7 Campaign"
-msgstr "Ceci est ce plugin de microsite pour soutenir la campagne Ramadan 24/7"
+msgstr "Este es un micrositio de apoyo para la Campaña de Ramadán 24/7"
 
 #. Author URI of the plugin/theme
 #: 
@@ -121,35 +121,35 @@ msgstr "https://github.com/DiscipleTools"
 
 #: pray4ramadan-porch.php:413
 msgid "We want to cover the country of %s with continuous 24/7 prayer during the entire 30 days of Ramadan."
-msgstr "Nous voulons couvrir le pays de %s avec une prière 25/7 continuel pendent les 30 jours du Ramadan."
+msgstr "Queremos cubrir al país de %s con oración continua de 24/7 durante todos los 30 días de Ramadán."
 
 #: site/home-body.php:146
 msgid "Ramadan is Finished"
-msgstr "Le ramadan est fini"
+msgstr "Ramadán ha terminado"
 
 #: site/home-body.php:159
 msgid "Ramadan Ends ..."
-msgstr "La fin du ramadan..."
+msgstr "Ramadán termina en ..."
 
 #: site/home-body.php:160 site/home-body.php:167
 msgid "days"
-msgstr "jours"
+msgstr "días"
 
 #: site/home-body.php:161 site/home-body.php:168
 msgid "hours"
-msgstr "heures"
+msgstr "horas"
 
 #: site/home-body.php:162 site/home-body.php:169
 msgid "minutes"
-msgstr "minutes"
+msgstr "minutos"
 
 #: site/home-body.php:163 site/home-body.php:170
 msgid "seconds"
-msgstr "secondes"
+msgstr "segundos"
 
 #: site/home-body.php:166
 msgid "Ramadan Begins ..."
-msgstr "Le Ramadan commence..."
+msgstr "Ramadán comienza en ..."
 
 #: pray4ramadan-porch.php:403
 msgid "Ramadan is one of the five requirements (or pillars) of Islam. During each of its 30 days, Muslims are obligated to fast from dawn until sunset. During this time they are supposed to abstain from food, drinking liquids, smoking, and sexual relations.\n"
@@ -157,9 +157,9 @@ msgid "Ramadan is one of the five requirements (or pillars) of Islam. During eac
 " In %1$s, women typically spend the afternoons preparing a big meal. At sunset, families often gather to break the fast. Traditionally the families break the fast with a drink of water, then three dried date fruits, and a multi-course meal. After watching the new Ramadan TV series, men (and some women) go out to coffee shops where they drink coffee, and smoke with friends until late into the night.\n"
 "\n"
 " Though many %2$s have stopped fasting in recent years, and lots of %2$s are turned off by the hypocrisy, increased crime rates, and rudeness that is pervasive through the month, lots of %2$s become more serious about religion during this time. Many attend the evening prayer services and do the other ritual prayers. Some even read the entire Quran (about a tenth the length of the Bible). This sincere seeking makes it a strategic time for us to pray for them."
-msgstr "Le ramadan est l'une des cinq exigences (ou piliers) de l'islam. Pendant chacun de ses 30 jours, les musulmans sont obligés de jeûner de l'aube au coucher du soleil. Pendant cette période, ils sont doivent s'abstenir de manger, de boire des liquides, de fumer et d'avoir des relations sexuelles.\n"
+msgstr "El Ramadán es uno de los cinco requerimientos (o pilares) del Islam. Durante cada uno de sus 30 días, los musulmanes están obligados a ayunar desde el amanecer hasta que se pone el sol. Durante este tiempo se supone que deben abstenerse de alimentos, beber líquidos, fumar, y tener relaciones sexuales.\n"
 "\n"
-"Dans %1$s, les femmes passent l'après-midi à préparer un gros repas. Au coucher du soleil, les familles se rassemblent souvent pour rompre le jeûne. Traditionnellement, les familles rompent le jeûne avec un verre d'eau, puis trois dattes séchées et un repas composé de plusieurs plats. Après avoir regardé la nouvelle série télévisée Ramadan, les hommes (et parfois les femmes) sortent dans des cafés où ils boivent du café et fument avec des amis jusque tard dans la nuit.\n"
+"En %1$s, las mujeres típicamente pasan las tardes preparando una gran comida. Al ponerse el sol, las familias se juntan para romper el ayuno. Tradicionalmente las familias rompen el ayuno con un vaso de agua y luego tres dátiles disecados seguidos de una comida de múltiples platos. Luego de mirar la nueva serie de televisión de Ramadán, los hombres (y algunas mujeres) salen a cafeterías donde beben café y fuman con amigos hasta tarde en la noche.\n"
 "\n"
-"Bien que de nombreux %2$s aient cessé de jeûner ces dernières années, et que beaucoup de %2$s soient découragés par l'hypocrisie, l'augmentation du taux de criminalité et l'impolitesse omniprésente tout au long du mois, beaucoup de %2$s pratiquent leur religiou plus sérieusement pendant le ramadan. Beaucoup assistent aux services de prière du soir et font les autres prières rituelles. Certains lisent même le Coran en entier (environ un dixième de la longueur de la Bible). Cette recherche sincère nous offre un temps stratégique pour prier pour eux."
+"Aunque muchos %2$s han dejado de ayunar en los años recientes y muchos de los %2$s desaniman por la hipocresía, el incremento de las tasas de crimen y de la agresión que prevalece durante el mes, muchos de los %2$s se vuelven más serios con lo relacionado a la religión durante este tiempo. Muchos asisten servicios de oración por la noche y hacen otros rituales de oración. Algunos hasta leen el Corán entero (cerca de un décimo del largo de la Biblia). Esta búsqueda sincera hace que sea un tiempo estratégico para que nosotros oremos por ellos."
 

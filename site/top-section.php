@@ -9,8 +9,7 @@ if ( isset( $_GET["lang"] ) && !empty( $_GET["lang"] ) ){
 } elseif ( isset( $_COOKIE["dt-magic-link-lang"] ) && !empty( $_COOKIE["dt-magic-link-lang"] ) ){
     $lang = sanitize_text_field( wp_unslash( $_COOKIE["dt-magic-link-lang"] ) );
 }
-
-
+$langs = dt_ramadan_list_languages();
 ?>
 
 <!-- Nav -->
@@ -52,7 +51,7 @@ if ( isset( $_GET["lang"] ) && !empty( $_GET["lang"] ) ){
                     <?php if ( isset( $porch_fields['logo_url']['value'] ) && ! empty( $porch_fields['logo_url']['value'] ) ) : ?>
                         <img src="<?php echo esc_url( $porch_fields['logo_url']['value'] ) ?>" alt=""  />
                     <?php else : ?>
-                        <h1 class="wow fadeInDown" style="font-size: 3em;" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php echo esc_html( $porch_fields['title']['value'] ) ?></h1>
+                        <h1 class="wow fadeInDown" style="font-size: 3em;" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php echo esc_html( get_field_translation( $porch_fields["title"], $lang ) ) ?></h1>
                     <?php endif; ?>
                     <h4 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Pray for Iran during Persian New Year and the Month of Ramadan</h4>
                     <?php
