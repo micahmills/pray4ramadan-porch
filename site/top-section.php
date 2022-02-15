@@ -25,7 +25,7 @@ if ( isset( $_GET["lang"] ) && !empty( $_GET["lang"] ) ){
                     <a class="nav-link" href="<?php echo esc_url( site_url() ) ?>#sign-up"><?php esc_html_e( 'Sign Up', 'pray4ramadan-porch' ); ?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo esc_url( site_url() ) ?>/prayer/list"><?php esc_html_e( 'Prayer Fuel', 'pray4ramadan-porch' ); ?></a>
+                    <a class="nav-link" href="<?php echo esc_url( site_url() ) ?>/prayer/list"><?php esc_html_e( 'Prayer Prompts', 'pray4ramadan-porch' ); ?></a>
                 </li>
             </ul>
         </div>

@@ -28,9 +28,9 @@ $list = new WP_Query( $args );
     <div class="container">
         <div class="row justify-content-md-center">
             <div class="col-md-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">
-                <div class="fuel-block">
+                <div class="prompt-block">
                     <div class="section-header">
-                        <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Prayer <span>Fuel</span></h2>
+                        <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Prayer <span>Prompt</span></h2>
                         <hr class="lines wow zoomIn" data-wow-delay="0.3s">
                     </div>
                     <div class="">
@@ -78,7 +78,7 @@ $list = new WP_Query( $args );
                     <!-- Blog Item Starts -->
                     <div class="blog-item-wrapper wow fadeInUp" data-wow-delay="0.3s">
                         <div class="blog-item-img">
-                            <a href="/prayer/fuel/<?php echo esc_attr( $public_key ) ?>">
+                            <a href="/prayer/prompt/<?php echo esc_attr( $public_key ) ?>">
                                 <img src="<?php echo esc_url( trailingslashit( plugin_dir_url( __DIR__ ) ) ) ?>landing-pages/img/300x1.png" alt="">
                             </a>
                         </div>
@@ -92,7 +92,7 @@ $list = new WP_Query( $args );
                             <p>
                                 <?php echo wp_kses_post( $item->post_excerpt ) ?>
                             </p>
-                            <a href="/prayer/fuel/<?php echo esc_attr( $public_key ) ?>" class="btn btn-common btn-rm">Read</a>
+                            <a href="/prayer/prompt/<?php echo esc_attr( $public_key ) ?>" class="btn btn-common btn-rm">Read</a>
                         </div>
                     </div>
                     <!-- Blog Item Wrapper Ends-->

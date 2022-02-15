@@ -253,17 +253,17 @@ if ( $dt_ramadan_selected_campaign_magic_link_settings["color"] === "preset" ){
 <!-- Counter Section End -->
 
 <!-- Blog Section -->
-<!-- <section id="blog" class="section"> -->
+<section id="blog" class="section">
     <!-- Container Starts -->
-    <!-- <div class="container">
+     <div class="container">
         <div class="section-header">
-            <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( '15-Minute', 'pray4ramadan-porch' ); ?> <span><?php esc_html_e( 'Prayer Fuel', 'pray4ramadan-porch' ); ?></span></h2>
+            <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( '15-Minute', 'pray4ramadan-porch' ); ?> <span><?php esc_html_e( 'Prayer Prompts', 'pray4ramadan-porch' ); ?></span></h2>
             <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-            <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Use these resources to help pray specifically each day for the month of Ramadan', 'pray4ramadan-porch' ); ?></p>
+            <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Use these resources to help pray specifically each day during Noruz and Ramadan', 'pray4ramadan-porch' ); ?></p>
             <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><a href="/prayer/list" class="btn btn-common btn-rm"><?php esc_html_e( 'View All', 'pray4ramadan-porch' ); ?></a></p>
         </div>
-    </div> -->
-<!-- </section> -->
+    </div>
+</section>
 <!-- blog Section End -->
 
 <!-- Footer Section Start -->

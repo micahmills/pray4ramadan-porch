@@ -93,7 +93,7 @@ class P4_Ramadan_Porch {
             define( 'PORCH_LANDING_ROOT', 'prayer' ); // Alphanumeric key. Use underscores not hyphens. No special characters.
         }
         if ( ! defined( 'PORCH_LANDING_TYPE' ) ) {
-            define( 'PORCH_LANDING_TYPE', 'fuel' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
+            define( 'PORCH_LANDING_TYPE', 'prompt' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters
         }
         if ( ! defined( 'PORCH_LANDING_META_KEY' ) ) {
             define( 'PORCH_LANDING_META_KEY', PORCH_LANDING_ROOT . '_' . PORCH_LANDING_TYPE . '_magic_key' ); // Alphanumeric key. Use underscores not hyphens. No special characters. Must be less than 20 characters

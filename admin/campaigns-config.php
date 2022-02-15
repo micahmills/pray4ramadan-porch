@@ -7,7 +7,7 @@ class DT_Campaigns_Config {
         add_filter( 'wp_mail_from', [ $this, "wp_mail_from" ] );
     }
 
-    //Set ramadan prayer fuel content url
+    //Set ramadan prayer prompt content url
     public function dt_post_created( $post_type, $post_id, $initial_fields ){
         if ( $post_type === "campaigns" ){
             $post = DT_Posts::get_post( $post_type, $post_id );

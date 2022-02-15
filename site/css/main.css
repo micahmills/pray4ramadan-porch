@@ -1035,12 +1035,12 @@ a:not([href]):not([tabindex]):hover {
   color: #d9534f;
 }
 
-.fuel-block {
+.prompt-block {
     background: #fff;
     padding: 30px;
     overflow: hidden;
 }
-.fuel-block strong {
+.prompt-block strong {
     font-weight: 600;
 }
 /* ==========================================================================

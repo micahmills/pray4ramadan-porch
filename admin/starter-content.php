@@ -14,7 +14,7 @@ class P4_Ramadan_Porch_Starter_Content {
             return false;
         }
 
-        self::sample_fuel();
+        self::sample_prompt();
 
         $installed = [];
         $content = self::content();
@@ -46,10 +46,10 @@ class P4_Ramadan_Porch_Starter_Content {
         return $installed;
     }
 
-    public static function sample_fuel(){
+    public static function sample_prompt(){
         $data = [
-            'title' => 'Sample Prayer Fuel',
-            'slug' => 'sample-prayer-fuel',
+            'title' => 'Sample Prayer prompt',
+            'slug' => 'sample-prayer-prompt',
             'date' => gmdate( "Y-m-d" ),
             'excerpt' => 'On being intentional disciple making disciples.',
             'content' => [
@@ -98,7 +98,7 @@ class P4_Ramadan_Porch_Starter_Content {
 
         // build args
         $args = [
-            'post_title'    => 'Sample Prayer Fuel',
+            'post_title'    => 'Sample Prayer prompt',
             'post_date'    => $data['date'],
             'post_content'  => $content,
             'post_excerpt'  => $data['excerpt'] ,
