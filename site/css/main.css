@@ -1101,7 +1101,7 @@ a:not([href]):not([tabindex]):hover {
    ========================================================================== */
 footer {
   background: #333;
-  padding: 60px 0px 30px;
+  padding: 10px 0px 10px;
   text-align: center;
 }
 .site-info p {
