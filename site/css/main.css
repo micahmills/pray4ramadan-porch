@@ -223,7 +223,7 @@ a:not([href]):not([tabindex]):hover {
   text-shadow: 0 0 2px #105777, 0 0 2px #105777, 0 0 2px #105777, 0 0 2px #105777;
   overflow: hidden;
   position: relative;
-  min-height: 40vh;
+  /* min-height: 40vh; */
 }
 #hero-area:after{
     content: "";
@@ -253,7 +253,7 @@ a:not([href]):not([tabindex]):hover {
     padding: 0.35rem;
 }
 #hero-area .contents svg {
-    transform: translate(-2vw, -10vw);
+    transform: translate(-2vw, -3vw);
     max-height: 18vh;
 }
 #hero-area .contents h1 {
