@@ -29,7 +29,7 @@ $langs = dt_ramadan_list_languages();
             </ul>
         </div>
     </nav>
-    <button class="close-button" id="close-button"><i class="lnr lnr-cross"></i></button>
+    <button class="close-button" id="close-button" aria-label="Menu Close"><i class="lnr lnr-cross"></i></button>
 </div>
 <!-- end Nav -->
 
@@ -46,7 +46,7 @@ $langs = dt_ramadan_list_languages();
                         </option>
                     <?php endforeach; ?>
                 </select>
-                <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button>
+                <button class="menu-button" id="open-button" aria-label="Menu Open"><i class="lnr lnr-menu"></i></button>
             </div>
         </div>
     </div>

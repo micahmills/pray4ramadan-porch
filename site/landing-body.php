@@ -194,7 +194,7 @@ $list = new WP_Query( $args );
 <!-- Footer Section End -->
 
 <!-- Go To Top Link -->
-<a href="#" class="back-to-top">
+<a href="#" class="back-to-top" aria-label="back to top">
     <i class="lnr lnr-arrow-up"></i>
 </a>
 
