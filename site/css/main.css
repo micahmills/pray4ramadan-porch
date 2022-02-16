@@ -13,9 +13,6 @@ a:focus {
   color: #4676fa;
 }
 a {
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
 .btn {
@@ -25,9 +22,6 @@ a {
   font-weight: 400;
   color: #fff;
   text-transform: uppercase;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
   display: inline-block;
   font-family: 'Lato', sans-serif;
@@ -50,7 +44,6 @@ a {
   border: 2px solid #4676fa;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
 }
 .btn-border {
   color: #fff;
@@ -198,7 +191,6 @@ a:not([href]):not([tabindex]):hover {
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:hover:before {
   color: #4676fa;
-  -webkit-transform: scale(1);
   transform: scale(1);
 }
 .navbar-light .navbar-nav .active > .nav-link,
@@ -207,7 +199,6 @@ a:not([href]):not([tabindex]):hover {
 .navbar-light .navbar-nav .nav-link.open,
 .navbar-light .navbar-nav .open > .nav-link {
   color: #4676fa;
-  -webkit-transform: scale(1);
   transform: scale(1);
 }
 .navbar-light .navbar-toggler {
@@ -291,9 +282,6 @@ a:not([href]):not([tabindex]):hover {
 #hero-area .banner_bottom_btn i {
   color: #fff;
   font-size: 48px;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
 #hero-area .banner_bottom_btn i:hover {
@@ -359,9 +347,6 @@ a:not([href]):not([tabindex]):hover {
 #video-area .banner_bottom_btn i {
   color: #fff;
   font-size: 48px;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
 #video-area .banner_bottom_btn i:hover {
@@ -406,9 +391,6 @@ a:not([href]):not([tabindex]):hover {
 #image-area.banner_bottom_btn i {
     color: #fff;
     font-size: 48px;
-    -webkit-transition: all 0.2s linear;
-    -moz-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
 }
 #image-area.banner_bottom_btn i:hover {
@@ -430,8 +412,6 @@ a:not([href]):not([tabindex]):hover {
   padding: 15px;
   border-radius: 4px;
   margin-bottom: 15px;
-  webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 .item-boxes .icon {
@@ -443,8 +423,6 @@ a:not([href]):not([tabindex]):hover {
   border-radius: 5px;
   margin-top: 10px;
   margin-bottom: 15px;
-  webkit-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 .item-boxes .icon i {
@@ -510,18 +488,13 @@ a:not([href]):not([tabindex]):hover {
   border: 1px solid #4676fa;
   text-align: center;
   margin: 12px;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
 #features .box-item .icon i {
   color: #4676fa;
   font-size: 24px;
   line-height: 60px;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
+
   transition: all 0.2s linear;
 }
 #features .box-item .text h4 {
@@ -572,7 +545,6 @@ a:not([href]):not([tabindex]):hover {
   width: 30%;
   background: #346afe;
   opacity: 0;
-  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 .shot-item .overlay:before {
@@ -611,8 +583,6 @@ a:not([href]):not([tabindex]):hover {
   cursor: pointer;
   text-align: center;
   font-size: 24px;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -666,7 +636,6 @@ a:not([href]):not([tabindex]):hover {
   height: 100%;
   opacity: 0;
   top: 0;
-  -webkit-transition: opacity 0.8s cubic-bezier(0.19, 1, 0.22, 1);
   transition: opacity 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 }
 .portfoli-content:before {
@@ -677,12 +646,7 @@ a:not([href]):not([tabindex]):hover {
   right: 30px;
   content: '';
   position: absolute;
-  -webkit-transform: scale(0.9);
-  -moz-transform: scale(0.9);
-  -ms-transform: scale(0.9);
-  -o-transform: scale(0.9);
   transform: scale(0.9);
-  -webkit-transition: all 400ms ease;
   transition: all 400ms ease;
 }
 .sup-desc-wrap {
@@ -700,14 +664,8 @@ a:not([href]):not([tabindex]):hover {
   display: block;
   outline: none;
   margin-bottom: 10px;
-  -webkit-transform: scale(0);
-  -moz-transform: scale(0);
-  -ms-transform: scale(0);
-  -o-transform: scale(0);
   transform: scale(0);
   opacity: 0;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 .sup-desc-wrap .sup-meta-wrap .sup-title h4 {
@@ -723,33 +681,21 @@ a:not([href]):not([tabindex]):hover {
   line-height: 22px;
   color: #fff;
   text-align: center;
-  -webkit-transform: translateY(40px);
   transform: translateY(40px);
   opacity: 0;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 .portfolio-item:hover .portfoli-content,
 .portfolio-item:hover .portfoli-content:before {
   opacity: 1;
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
   transform: scale(1);
 }
 .portfolio-item:hover .sup-title {
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
   transform: scale(1);
   opacity: 1;
 }
 .portfolio-item:hover .sup-description {
   opacity: 1;
-  -webkit-transform: translateY(0px);
   transform: translateY(0px);
 }
 /* ==========================================================================
@@ -779,8 +725,6 @@ a:not([href]):not([tabindex]):hover {
   color: #fff;
   display: inline-block;
   font-size: 38px;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 .video-promo .video-promo-content .video-popup:hover {
@@ -808,8 +752,6 @@ a:not([href]):not([tabindex]):hover {
   border: transparent;
   background-color: #FFFFFF;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
   transition: all 0.3s;
   text-align: center;
 }
@@ -940,8 +882,6 @@ a:not([href]):not([tabindex]):hover {
   border-radius: 0px;
   margin-bottom: 30px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-  -webkit-transition: transform 0.2s linear, -webkit-box-shadow 0.2s linear;
-  -moz-transition: transform 0.2s linear, -moz-box-shadow 0.2s linear;
   transition: transform 0.2s linear, box-shadow 0.2s linear;
 }
 #blog .blog-item-wrapper:hover {
@@ -969,8 +909,6 @@ a:not([href]):not([tabindex]):hover {
   right: 0;
   background: rgba(70, 118, 250, 0.7);
   opacity: 0;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
 #blog .blog-item-text {
@@ -1019,8 +957,6 @@ a:not([href]):not([tabindex]):hover {
   color: #fff;
   font-size: 14px;
   border-radius: 4px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
   transition: all 0.3s;
   font-family: 'Lato', sans-serif;
 }
@@ -1090,8 +1026,6 @@ a:not([href]):not([tabindex]):hover {
   top: 0;
   height: 50px;
   background: #4676fa;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
   transition: all 0.3s;
   font-family: 'Lato', sans-serif;
   cursor: pointer;
@@ -1199,9 +1133,6 @@ footer {
   border: none;
   background: #fff;
   border-radius: 0px;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  -o-border-radius: 0px;
   outline: none;
 }
 .subscribe-box input[type="submit"] {
@@ -1214,13 +1145,7 @@ footer {
   border: none;
   padding: 7px 16px;
   border-radius: 0px;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  -o-border-radius: 0px;
   transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
   font-family: 'Lato', sans-serif;
   cursor: pointer;
 }
@@ -1240,9 +1165,6 @@ footer {
   text-align: center;
   border-radius: 4px;
   background-color: #4676fa;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
 #loader {
@@ -1271,31 +1193,18 @@ footer {
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-animation: sk-bounce 2s infinite ease-in-out;
   animation: sk-bounce 2s infinite ease-in-out;
 }
 .double-bounce2 {
-  -webkit-animation-delay: -1s;
   animation-delay: -1s;
-}
-@-webkit-keyframes sk-bounce {
-  0%,
-  100% {
-    -webkit-transform: scale(0);
-  }
-  50% {
-    -webkit-transform: scale(1);
-  }
 }
 @keyframes sk-bounce {
   0%,
   100% {
     transform: scale(0);
-    -webkit-transform: scale(0);
   }
   50% {
     transform: scale(1);
-    -webkit-transform: scale(1);
   }
 }
 
