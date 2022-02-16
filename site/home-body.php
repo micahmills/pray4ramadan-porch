@@ -131,19 +131,29 @@ if ( $dt_ramadan_selected_campaign_magic_link_settings["color"] === "preset" ){
     <script>
         var myfunc = setInterval(function() {
             // The data/time we want to countdown to
+            <?php
+            $timezone = !empty( $campaign_fields["campaign_timezone"] ) ? $campaign_fields["campaign_timezone"]["key"] : 'America/Chicago';
+            $tz = new DateTimeZone( $timezone );
+            $begin_date = new DateTime( "@".$campaign_fields['start_date']['timestamp'] );
+            $begin_date->setTimezone( $tz );
+            $timezone_offset = $tz->getOffset( $begin_date );
 
-            var countDownDate = '<?php echo $campaign_fields['start_date']['timestamp'] ?>'
-            var endCountDownDate = '<?php echo $campaign_fields['end_date']['timestamp'] ?>'
+            $timezone_adjusted_start_date = $campaign_fields['start_date']['timestamp'] - $timezone_offset;
+
+            $timezone_adjusted_end_date = $campaign_fields['end_date']['timestamp'] - $timezone_offset;
+            ?>
+            var countDownDate = '<?php echo $timezone_adjusted_start_date?>'
+            var endCountDownDate = '<?php echo $timezone_adjusted_end_date ?>'
 
 
-            var now = '<?php echo strtotime( 'Now' ) ?>'
+            var now = moment.utc(moment.now()).unix()
             var timeleft = countDownDate - now;
             var endtimeleft = endCountDownDate - now ;
 
             var days = Math.floor(timeleft / (60 * 60 * 24));
-            var hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
+            var hours = Math.floor((timeleft % (60 * 60 * 24)) / (60 * 60));
+            var minutes = Math.floor((timeleft % (60 * 60)) / 60);
+            var seconds = Math.floor(timeleft % 60);
 
             if ( endtimeleft < 0 ) {
                 clearInterval(myfunc);
@@ -153,12 +163,12 @@ if ( $dt_ramadan_selected_campaign_magic_link_settings["color"] === "preset" ){
                 document.getElementById("mins").innerHTML = ""
                 document.getElementById("secs").innerHTML = ""
             }
-            else if (timeleft < 0) {
+            else if ( timeleft < 0 ) {
 
-                days = Math.floor(endtimeleft / (1000 * 60 * 60 * 24));
-                hours = Math.floor((endtimeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                minutes = Math.floor((endtimeleft % (1000 * 60 * 60)) / (1000 * 60));
-                seconds = Math.floor((endtimeleft % (1000 * 60)) / 1000);
+                days = Math.floor(endtimeleft / (60 * 60 * 24));
+                hours = Math.floor((endtimeleft % (60 * 60 * 24)) / (60 * 60));
+                minutes = Math.floor((endtimeleft % (60 * 60)) / 60);
+                seconds = Math.floor(endtimeleft % 60);
 
                 document.getElementById("counter_title").innerHTML = "<?php echo esc_html__( "Ramadan Ends ...", 'pray4ramadan-porch' ); ?>"
                 document.getElementById("days").innerHTML = days + " <?php echo esc_html__( "days", 'pray4ramadan-porch' ); ?>, "
