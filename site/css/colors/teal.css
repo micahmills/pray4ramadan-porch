@@ -5,12 +5,24 @@ a:hover{
 	color: #6CA0B3;
 }
 .btn-common{
-	border-color: #6CA0B3;
-    background-color: #6CA0B3;
+	border-color: #38515C;
+    background-color: #38515C;
 }
 .btn-common:hover{
-	border-color: #37525d;
-    color: #37525d;
+	border-color: #38515C;
+    color: #38515C;
+}
+#cp-wrapper, .cp-wrapper.cp-progress-wrapper {
+    background: transparent;
+}
+#cp-wrapper button{
+    border-color: #38515C !important;
+    background-color: #38515C !important;
+}
+#cp-wrapper button:hover{
+    border-color: #38515C !important;
+    background-color: transparent !important;
+    color: #38515C !important;
 }
 .btn-border:hover{
 	background-color: #112C77;
@@ -121,5 +133,5 @@ a:hover{
     width: 100%;
 }
 img.color-img {
-    filter: invert(60%) sepia(15%) saturate(7252%) hue-rotate(150deg) brightness(80%) contrast(80%)
+    filter: invert(60%) sepia(15%) saturate(4515%) hue-rotate(150deg) brightness(55%) contrast(80%)
 }

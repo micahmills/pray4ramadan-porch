@@ -29,9 +29,9 @@ $atts = [
     "lang" => $lang
 ];
 $dt_ramadan_selected_campaign_magic_link_settings = $atts;
-$dt_ramadan_selected_campaign_magic_link_settings["color"] = "#6CA0B3";
+$dt_ramadan_selected_campaign_magic_link_settings["color"] = "#38515C";
 if ( $dt_ramadan_selected_campaign_magic_link_settings["color"] === "preset" ){
-    $dt_ramadan_selected_campaign_magic_link_settings["color"] = '#6CA0B3';
+    $dt_ramadan_selected_campaign_magic_link_settings["color"] = '#38515C';
 }
 ?>
 

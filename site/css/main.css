@@ -225,6 +225,13 @@ a:not([href]):not([tabindex]):hover {
   position: relative;
   min-height: 40vh;
 }
+#hero-area:after{
+    content: "";
+    display: block;
+    background: #38515C;
+    height: 0.4rem;
+    margin-top: 0.1rem;
+}
 #hero-area .overlay {
   position: absolute;
   width: 100%;
