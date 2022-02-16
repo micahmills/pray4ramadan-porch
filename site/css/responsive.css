@@ -65,6 +65,7 @@
 @media (min-width: 555px) {
   #hero-area .contents svg {
     transform: translate(-1vw, -3vw);
+    max-height: 15vh;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
