@@ -5,12 +5,12 @@ a:hover{
 	color: #6CA0B3;
 }
 .btn-common{
-	border-color: #112C77;
-    background-color: #112C77;
+	border-color: #6CA0B3;
+    background-color: #6CA0B3;
 }
 .btn-common:hover{
-	border-color: #112C77;
-    color: #112C77;
+	border-color: #37525d;
+    color: #37525d;
 }
 .btn-border:hover{
 	background-color: #112C77;
@@ -28,7 +28,7 @@ a:hover{
 	background: #6CA0B3;
 }
 .overlay{
-	background: #6CA0B3;
+	background: #37525d;
 }
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.active::before, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open > .nav-link{
 	color: #6CA0B3;

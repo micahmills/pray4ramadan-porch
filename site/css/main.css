@@ -38,8 +38,8 @@ a {
   color: #fff;
 }
 .btn-common {
-  border: 2px solid #4676fa;
-  background-color: #4676fa;
+  border: 2px solid #6CA0B3;
+  background-color: #6CA0B3;
   position: relative;
   z-index: 1;
   border-radius: 4px;
@@ -153,12 +153,15 @@ a:not([href]):not([tabindex]):hover {
 .bg-faded {
   background-color: #fff;
 }
+.menu-bg .logo-menu {
+    height: 2.1em;
+}
 .logo-menu a {
   font-size: 20px;
   color: #fff;
 }
 .menu-bg {
-  background-color: #fff!important;
+  background-color: #5E757C !important;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
   z-index: 999;
   padding: 3px;
