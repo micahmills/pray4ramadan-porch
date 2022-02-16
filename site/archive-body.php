@@ -115,7 +115,7 @@ $list = new WP_Query( $args );
                     <p>
                         Made with &#10084;&#65039; by <a href="https://pray4movement.org">Pray4Movments.org</a><br>
                         Powered by <a href="https://disciple.tools">Disciple.Tools</a><br>
-                        &copy;  <script>document.write(new Date().getFullYear())</script>
+                        &copy;  <?php echo esc_html ( date("Y") ); ?>
                     </p>
                 </div>
                 <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
@@ -128,7 +128,7 @@ $list = new WP_Query( $args );
 <!-- Footer Section End -->
 
 <!-- Go To Top Link -->
-<a href="#" class="back-to-top">
+<a href="#" class="back-to-top" aria-label="back to top">
     <i class="lnr lnr-arrow-up"></i>
 </a>
 
