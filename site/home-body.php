@@ -61,7 +61,7 @@ if ( $dt_ramadan_selected_campaign_magic_link_settings["color"] === "preset" ){
             <div class="col-md-4 col-sm-6">
                 <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
                     <div class="icon">
-                        <img class="color-img" style="height: 40px; margin-top:10px" src="<?php echo esc_html( plugin_dir_url( __File__ ) . 'img/pray.svg' ) ?>"/>
+                        <img class="color-img" style="height: 40px; margin-top:10px" src="<?php echo esc_html( plugin_dir_url( __File__ ) . 'img/pray.svg' ) ?>" alt="Praying hands icon"/>
                     </div>
                     <h4><?php esc_html_e( 'Extraordinary Prayer', 'pray4ramadan-porch' ); ?></h4>
                     <p><?php esc_html_e( 'Every disciple making movement in history has happened within the context of extraordinary prayer.', 'pray4ramadan-porch' ); ?></p>
@@ -70,7 +70,7 @@ if ( $dt_ramadan_selected_campaign_magic_link_settings["color"] === "preset" ){
             <div class="col-md-4 col-sm-6">
                 <div class="item-boxes wow fadeInDown" data-wow-delay="0.4s">
                     <div class="icon">
-                        <img class="color-img" style="height: 40px; margin-top:10px" src="<?php echo esc_html( plugin_dir_url( __File__ ) . 'img/movement.svg' ) ?>"/>
+                        <img class="color-img" style="height: 40px; margin-top:10px" src="<?php echo esc_html( plugin_dir_url( __File__ ) . 'img/movement.svg' ) ?>" alt="a network icon indicating movement"/>
                     </div>
                     <h4><?php esc_html_e( 'Church Focused', 'pray4ramadan-porch' ); ?></h4>
                     <p><?php esc_html_e( 'Join us in asking the Lord to move mightily so that disciples are made and healthy churches are planted in Iran.', 'pray4ramadan-porch' ); ?></p>
@@ -79,7 +79,7 @@ if ( $dt_ramadan_selected_campaign_magic_link_settings["color"] === "preset" ){
             <div class="col-md-4 col-sm-6">
                 <div class="item-boxes wow fadeInDown" data-wow-delay="0.6s">
                     <div class="icon">
-                        <img class="color-img" style="height: 40px; margin-top:10px" src="<?php echo esc_html( plugin_dir_url( __File__ ) . 'img/24_7.svg' ) ?>"/>
+                        <img class="color-img" style="height: 40px; margin-top:10px" src="<?php echo esc_html( plugin_dir_url( __File__ ) . 'img/24_7.svg' ) ?>" alt="clock icon"/>
                     </div>
                     <h4><?php esc_html_e( '24/7 for 6 weeks', 'pray4ramadan-porch' ); ?></h4>
                     <p><?php esc_html_e( 'Choose a 15-minute (or more!) time slot to pray for the people of Iran. Invite someone else to sign up too.', 'pray4ramadan-porch' ); ?></p>
@@ -316,7 +316,7 @@ if ( $dt_ramadan_selected_campaign_magic_link_settings["color"] === "preset" ){
 <!-- Footer Section End -->
 
 <!-- Go To Top Link -->
-<a href="#" class="back-to-top">
+<a href="#" class="back-to-top" aria-label="back to top">
     <i class="lnr lnr-arrow-up"></i>
 </a>
 
