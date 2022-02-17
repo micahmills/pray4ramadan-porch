@@ -4,98 +4,146 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: Ramadan Landing Page\n"
+"Project-Id-Version: test\n"
 "Language: es\n"
 
-#: site/home-body.php:41
+#: admin/campaigns-config.php:52
+msgid "Click here to see the prayer prompts for today: %s"
+msgstr ""
+
+#: pray4ramadan-porch.php:407
+msgid "Ramadan is one of the five requirements (or pillars) of Islam. During each of its 30 days, Muslims are obligated to fast from dawn until sunset. During this time they are supposed to abstain from food, drinking liquids, smoking, and sexual relations.\n"
+"\n"
+" In %1$s, women typically spend the afternoons preparing a big meal. At sunset, families often gather to break the fast. Traditionally the families break the fast with a drink of water, then three dried date fruits, and a multi-course meal. After watching the new Ramadan TV series, men (and some women) go out to coffee shops where they drink coffee, and smoke with friends until late into the night.\n"
+"\n"
+" Though many %2$s have stopped fasting in recent years, and lots of %2$s are turned off by the hypocrisy, increased crime rates, and rudeness that is pervasive through the month, lots of %2$s become more serious about religion during this time. Many attend the evening prayer services and do the other ritual prayers. Some even read the entire Quran (about a tenth the length of the Bible). This sincere seeking makes it a strategic time for us to pray for them."
+msgstr "El Ramadán es uno de los cinco requerimientos (o pilares) del Islam. Durante cada uno de sus 30 días, los musulmanes están obligados a ayunar desde el amanecer hasta que se pone el sol. Durante este tiempo se supone que deben abstenerse de alimentos, beber líquidos, fumar, y tener relaciones sexuales.\n"
+"\n"
+"En %1$s, las mujeres típicamente pasan las tardes preparando una gran comida. Al ponerse el sol, las familias se juntan para romper el ayuno. Tradicionalmente las familias rompen el ayuno con un vaso de agua y luego tres dátiles disecados seguidos de una comida de múltiples platos. Luego de mirar la nueva serie de televisión de Ramadán, los hombres (y algunas mujeres) salen a cafeterías donde beben café y fuman con amigos hasta tarde en la noche.\n"
+"\n"
+"Aunque muchos %2$s han dejado de ayunar en los años recientes y muchos de los %2$s desaniman por la hipocresía, el incremento de las tasas de crimen y de la agresión que prevalece durante el mes, muchos de los %2$s se vuelven más serios con lo relacionado a la religión durante este tiempo. Muchos asisten servicios de oración por la noche y hacen otros rituales de oración. Algunos hasta leen el Corán entero (cerca de un décimo del largo de la Biblia). Esta búsqueda sincera hace que sea un tiempo estratégico para que nosotros oremos por ellos."
+
+#: pray4ramadan-porch.php:418
+msgid "We want to cover the country of %s with continuous 24/7 prayer during the entire 30 days of Ramadan."
+msgstr "Queremos cubrir al país de %s con oración continua de 24/7 durante todos los 30 días de Ramadán."
+
+#: site/home-body.php:43
 msgid "Our"
 msgstr "Nuestra"
 
-#: site/home-body.php:41
+#: site/home-body.php:43
 msgid "Vision"
 msgstr "Visión"
 
-#: site/home-body.php:64
+#: site/home-body.php:66
 msgid "Extraordinary Prayer"
 msgstr "Oración Extraordinaria"
 
-#: site/home-body.php:65
+#: site/home-body.php:67
 msgid "Every disciple making movement in history has happened in the context of extraordinary prayer."
 msgstr "Cada movimiento de formación de discípulos en la historia sucedió en el contexto de oración extraordinaria."
 
-#: site/home-body.php:73
+#: site/home-body.php:75
 msgid "Movement Focused"
 msgstr "Enfoque en Movimientos"
 
-#: site/home-body.php:74
+#: site/home-body.php:76
 msgid "Join us in asking, seeking, and knocking for streams of disciples and churches to be made."
 msgstr "Únete con nosotros en pedir, buscar y tocar para que se formen corrientes de discípulos e iglesias."
 
-#: site/home-body.php:82
+#: site/home-body.php:84
 msgid "24/7 for 30 Days"
 msgstr "24/7 Durante 30 Días"
 
-#: site/home-body.php:83
+#: site/home-body.php:85
 msgid "Choose a 15-minute (or more!) time slot that you can pray during each day. Invite someone else to sign up too."
 msgstr "Escoja una espacio de tiempo de 15 minutos (¡o más!) en la cual puedas orar cada día. También invite a alguien más a sumarse ."
 
-#: site/home-body.php:88 site/top-section.php:56
+#: site/home-body.php:90 site/top-section.php:72
 msgid "Sign Up to Pray"
 msgstr "Regístrese para Orar"
 
+#: site/home-body.php:160
+msgid "Ramadan is Finished"
+msgstr "Ramadán ha terminado"
+
+#: site/home-body.php:173
+msgid "Ramadan Ends ..."
+msgstr "Ramadán termina en ..."
+
+#: site/home-body.php:174 site/home-body.php:181
+msgid "days"
+msgstr "días"
+
+#: site/home-body.php:175 site/home-body.php:182
+msgid "hours"
+msgstr "horas"
+
+#: site/home-body.php:176 site/home-body.php:183
+msgid "minutes"
+msgstr "minutos"
+
+#: site/home-body.php:177 site/home-body.php:184
+msgid "seconds"
+msgstr "segundos"
+
 #: site/home-body.php:180
+msgid "Ramadan Begins ..."
+msgstr "Ramadán comienza en ..."
+
+#: site/home-body.php:194
 msgid "Sign Up to"
 msgstr "Regístrese para"
 
-#: site/home-body.php:180
+#: site/home-body.php:194
 msgid "Pray"
 msgstr "Orar"
 
-#: site/home-body.php:186
+#: site/home-body.php:200
 msgid "here"
 msgstr "aquí"
 
-#: site/home-body.php:215
+#: site/home-body.php:229
 msgid "Days"
 msgstr "Días"
 
-#: site/home-body.php:228
+#: site/home-body.php:242
 msgid "Hours of Prayer"
 msgstr "Horas de Oración"
 
-#: site/home-body.php:241
+#: site/home-body.php:255
 msgid "Prayer Commitments Needed"
 msgstr "Compromisos de Oración Requeridos"
 
-#: site/home-body.php:256
+#: site/home-body.php:270
 msgid "15-Minute"
 msgstr "15-Minutos"
 
-#: site/home-body.php:256 site/top-section.php:18
+#: site/home-body.php:270 site/top-section.php:27
 msgid "Prayer Fuel"
 msgstr "Combustible de Oración"
 
-#: site/home-body.php:258
+#: site/home-body.php:272
 msgid "Use these resources to help pray specifically each day for the month of Ramadan"
 msgstr "Utilice estos recursos para poder orar específicamente cada día durante el mes de Ramadán"
 
-#: site/home-body.php:259
+#: site/home-body.php:273
 msgid "View All"
 msgstr "Ver Todos"
 
-#: site/top-section.php:12
+#: site/top-section.php:21
 msgid "Home"
 msgstr "Inicio"
 
-#: site/top-section.php:15
+#: site/top-section.php:24
 msgid "Sign Up"
 msgstr "Inscribirse"
 
-#: site/top-section.php:48
+#: site/top-section.php:64
 msgid "Strategic prayer for a disciple making movement in %s"
 msgstr "Oración estratégica para un movimiento de formación de discípulos en %s"
 
-#: site/top-section.php:50
+#: site/top-section.php:66
 msgid "Strategic prayer for a disciple making movement"
 msgstr "Oración estratégica para un movimiento de formación de discípulos"
 
@@ -119,47 +167,127 @@ msgstr "Este es un micrositio de apoyo para la Campaña de Ramadán 24/7"
 msgid "https://github.com/DiscipleTools"
 msgstr "https://github.com/DiscipleTools"
 
-#: pray4ramadan-porch.php:413
-msgid "We want to cover the country of %s with continuous 24/7 prayer during the entire 30 days of Ramadan."
-msgstr "Queremos cubrir al país de %s con oración continua de 24/7 durante todos los 30 días de Ramadán."
+#: admin/starter-content.php:161
+msgid "\"For this I will praise you, O Lord, among the nations [in location_name], and sing to your name. (Psalm 18:49)"
+msgstr "Por tanto yo te confesaré entre las naciones en [location_name], oh Jehová,  Y cantaré a tu nombre. (Salmos 18:49)"
 
-#: site/home-body.php:146
-msgid "Ramadan is Finished"
-msgstr "Ramadán ha terminado"
+#: admin/starter-content.php:162
+msgid "\"And this gospel of the kingdom will be proclaimed throughout the whole world as a testimony to all nations, and then the end will come.\" (Matthew 24:14) With faith and confidence, we pray for the Gospel of the Kingdom to spread throughout the nation of [location_name]. We know it is not a question of ’if’, but a question of ’when’. Please Lord, let it happen in our generation."
+msgstr "\"Y será predicado este evangelio del reino en todo el mundo, para testimonio a todas las naciones; y entonces vendrá el fin.\" (Mateo 24:14) Con Fe I confianza Nosotros oramos para que el evangelio del Reino sea esparcido por toda la nación de [location_name]. Sabemos que no es cuestión de \"si\" sino una cuestión de \"cuando\". Por favor Señor Permite que esto ocurra en nuestra generación."
 
-#: site/home-body.php:159
-msgid "Ramadan Ends ..."
-msgstr "Ramadán termina en ..."
+#: admin/starter-content.php:163
+msgid "\"All these with one accord were devoting themselves to prayer...\" (Acts 1:14) Father, in this time of social distancing we thank you for the virtual prayer groups you are raising up among [people_name] believers and we pray the same abiding that happened among the early disciples would likewise result in bold proclamation and many turning to faith in Jesus in [location_name]."
+msgstr "\"Todos estos perseveraban unánimes en oración....\" (hechos 1:14) Padre, en este tiempo de distanciamiento social te damos gracias por los grupos virtuales dé oración que tu has levantado en medio de los creyentes [people_plural_masculine], y oramos que la misma permanencia que hubo entre primeros discípulos también resulte en una proclamación audaz y muchos vuelvan a la fe en Jesús en [location_name]."
 
-#: site/home-body.php:160 site/home-body.php:167
-msgid "days"
-msgstr "días"
+#: admin/starter-content.php:164
+msgid "\"Now faith is the assurance of things hoped for, the conviction of things not seen. For by it the people of old received their commendation.\" (Hebrews 11:1-2) Give every believer in [location_name] courage to live by faith instead of by sight."
+msgstr "\"Es, pues, la fe la certeza de lo que se espera, la convicción de lo que no se ve.  Porque por ella alcanzaron buen testimonio los antiguos.\"\" (Hebreos 11:1-2) \n"
+"Dale a todos los creyentes de [location_name] la valentía de vivir por fe en vez de por vista.\""
 
-#: site/home-body.php:161 site/home-body.php:168
-msgid "hours"
-msgstr "horas"
+#: admin/starter-content.php:165
+msgid "Lord, help the people of [location_name] to discover the essence of being a disciple, making disciple, and what the church is. https://zume.training/definition-of-disciple-and-church/"
+msgstr "\"Señor, ayuda a las personas de [location_name] a descubrir la esencia de lo que es ser un discípulo , que hace discípulos y lo que es ser iglesia. \n"
+"https://zume.training/es/simple-definition-of-disciple-and-church-es/\""
 
-#: site/home-body.php:162 site/home-body.php:169
-msgid "minutes"
-msgstr "minutos"
+#: admin/starter-content.php:168
+msgid "\"All the ends of the earth shall remember and turn to the Lord, and all the families of the [people_name] nations shall worship before you.\" (Psalm 22:27)"
+msgstr "\"Se acordarán, y se volverán a Jehová todos los confines de la tierra, Y todas las familias de las naciones [location_name] adorarán delante de ti.\"  (salmos 22:27)"
 
-#: site/home-body.php:163 site/home-body.php:170
-msgid "seconds"
-msgstr "segundos"
+#: admin/starter-content.php:169
+msgid "\"Repent, for the kingdom of heaven is at hand.\" (Matthew 3:2) Pray for [people_name] throughout the country to experience true repentance as they see the holy standard of a Righteous King and their inability to ever measure up."
+msgstr "“Arrepentíos, porque el reino de los cielos se ha acercado”. (Mateo 3:2)\n"
+"Ore por los [people_plural_masculine] en todo el país para que experimenten un verdadero arrepentimiento al ver el estándar sagrado de un Rey Justo y su incapacidad para estar a la altura.\""
 
-#: site/home-body.php:166
-msgid "Ramadan Begins ..."
-msgstr "Ramadán comienza en ..."
+#: admin/starter-content.php:170
+msgid "\"And they were selling their possessions and belongings and distributing the proceeds to all, as any had need... and the Lord added to their number day by day those who were being saved.\" (Acts 2:42-47). As believers in [location_name] seek to be living out these verses, would you, Lord, please add daily those who are being saved."
+msgstr "\"Y vendían sus posesiones y pertenencias y distribuían el producto a todos, según cada uno tenía necesidad... y el Señor añadía a su número día tras día los que se iban salvando\". (Hechos 2:42-47). A medida que los creyentes en [location_name] buscan vivir estos versículos, Señor, por favor, agrega diariamente a los que están siendo salvos."
 
-#: pray4ramadan-porch.php:403
-msgid "Ramadan is one of the five requirements (or pillars) of Islam. During each of its 30 days, Muslims are obligated to fast from dawn until sunset. During this time they are supposed to abstain from food, drinking liquids, smoking, and sexual relations.\n"
-"\n"
-" In %1$s, women typically spend the afternoons preparing a big meal. At sunset, families often gather to break the fast. Traditionally the families break the fast with a drink of water, then three dried date fruits, and a multi-course meal. After watching the new Ramadan TV series, men (and some women) go out to coffee shops where they drink coffee, and smoke with friends until late into the night.\n"
-"\n"
-" Though many %2$s have stopped fasting in recent years, and lots of %2$s are turned off by the hypocrisy, increased crime rates, and rudeness that is pervasive through the month, lots of %2$s become more serious about religion during this time. Many attend the evening prayer services and do the other ritual prayers. Some even read the entire Quran (about a tenth the length of the Bible). This sincere seeking makes it a strategic time for us to pray for them."
-msgstr "El Ramadán es uno de los cinco requerimientos (o pilares) del Islam. Durante cada uno de sus 30 días, los musulmanes están obligados a ayunar desde el amanecer hasta que se pone el sol. Durante este tiempo se supone que deben abstenerse de alimentos, beber líquidos, fumar, y tener relaciones sexuales.\n"
-"\n"
-"En %1$s, las mujeres típicamente pasan las tardes preparando una gran comida. Al ponerse el sol, las familias se juntan para romper el ayuno. Tradicionalmente las familias rompen el ayuno con un vaso de agua y luego tres dátiles disecados seguidos de una comida de múltiples platos. Luego de mirar la nueva serie de televisión de Ramadán, los hombres (y algunas mujeres) salen a cafeterías donde beben café y fuman con amigos hasta tarde en la noche.\n"
-"\n"
-"Aunque muchos %2$s han dejado de ayunar en los años recientes y muchos de los %2$s desaniman por la hipocresía, el incremento de las tasas de crimen y de la agresión que prevalece durante el mes, muchos de los %2$s se vuelven más serios con lo relacionado a la religión durante este tiempo. Muchos asisten servicios de oración por la noche y hacen otros rituales de oración. Algunos hasta leen el Corán entero (cerca de un décimo del largo de la Biblia). Esta búsqueda sincera hace que sea un tiempo estratégico para que nosotros oremos por ellos."
+#: admin/starter-content.php:171
+msgid "\"By faith we understand that the universe was created by the word of God, so that what is seen was not made out of things that are visible.\" (Hebrews 11:3) As [people_name] encounter the beauty of your creation through Mediterranean beaches, Saharan desert dunes, and luscious green hills may they be drawn to the Word through whom You created the world."
+msgstr "\"Por la fe entendemos que el universo fue creado por la palabra de Dios, de modo que lo que se ve no fue hecho de cosas que son visibles\". (Hebreos 11:3) A medida que [los people_plural_masculine] encuentren la belleza de tu creación a través de las playas del Mediterráneo, las dunas del desierto del Sahara y las exuberantes colinas verdes, que se sientan atraídos por la Palabra a través de la cual creaste el mundo."
+
+#: admin/starter-content.php:172
+msgid "God, please help the people of [location_name] to be disciples who hear from you and then obey you. https://zume.training/spiritual-breathing-is-hearing-and-obeying-god/"
+msgstr "Dios, Por favor ayuda a las personas de [location_name] a ser discípulos que te escuchen y que te obedezcan. https://zume.training/es/spiritual-breathing-is-hearing-and-obeying-god-es/"
+
+#: admin/starter-content.php:175
+msgid "For kingship belongs to the Lord, and he rules over the [people_name] nations. (Psalm 22:28)"
+msgstr ""
+
+#: admin/starter-content.php:176
+msgid "\"And he went throughout all Galilee, teaching in their synagogues and proclaiming the gospel of the kingdom and healing every disease and every affliction among the people.\" (Matthew 4:23) Pray for the proclamation of the Gospel to be accompanied by miracles and signs and wonders throughout [location_name]."
+msgstr ""
+
+#: admin/starter-content.php:177
+msgid "\"And in your offspring shall all the families of the earth be blessed.\" (Acts 3:25b) Lord, please fulfill your promise to Abraham among the many [people_name] families spread from the north to the south."
+msgstr ""
+
+#: admin/starter-content.php:178
+msgid "\"By faith Abel offered to God a more acceptable sacrifice than Cain, through which he was commended as righteous...\" (Hebrews 11:4a) Convict [people_name] this Ramadan, Lord, that we can only be made right before you on your terms through faith, not ours."
+msgstr ""
+
+#: admin/starter-content.php:179
+msgid "Father, we pray that the people of [location_name] will learn to study the Bible, understand it, obey it, and share it. https://zume.training/soaps-bible-reading/"
+msgstr ""
+
+#: admin/starter-content.php:182
+msgid "\"I will cause your name to be remembered in all generations; therefore nations (including [location_name]) will praise you forever and ever.\" (Psalm 45:17)"
+msgstr ""
+
+#: admin/starter-content.php:183
+msgid "\"Blessed are the poor in spirit, for theirs is the kingdom of heaven.\" (Matthew 5:3) May the [people_name] church joyfully demonstrate the blessing that comes from being poor in spirit. Pray for them to experience fuller measures of the Kingdom through their poverty of spirit.\""
+msgstr ""
+
+#: admin/starter-content.php:184
+msgid "\"And now, Lord, look upon their threats and grant to your servants to continue to speak your word with all boldness, while you stretch out your hand to heal, and signs and wonders are performed through the name of your holy servant Jesus.\" (Acts 4:30-31) Do it, Lord, please!"
+msgstr ""
+
+#: admin/starter-content.php:185
+msgid "\"...Now before he (Enoch) was taken he was commended as having pleased God.\" (Hebrews 11:5b) May believers in [location_name], through faith, seek commendation from You more than man. May they live their lives in pursuit of Your approval alone."
+msgstr ""
+
+#: admin/starter-content.php:186
+msgid "God, we pray both the men and women of [location_name] will find ways to meet in groups of two or three to encourage and correct one another. https://zume.training/accountability-groups/"
+msgstr ""
+
+#: admin/starter-content.php:189
+msgid "“Be still, and know that I am God. I will be exalted among the [people_name] nations, I will be exalted in the earth!\" (Psalm 46:10)"
+msgstr ""
+
+#: admin/starter-content.php:190
+msgid "\"Blessed are those who are persecuted for righteousness sake, for theirs is the kingdom of heaven.\" (Matthew 5:10) Father, we intercede on behalf of every [people_name] brother and sister undergoing persecution for the sake of righteousness. Bless them with greater intimacy with You and give them perseverance in suffering."
+msgstr ""
+
+#: admin/starter-content.php:191
+msgid "\"And every day, in the temple and from house to house, they did not cease teaching and preaching that the Christ is Jesus.\" (Acts 5:41) May believers in [location_name] saturate the country with the truth that Jesus is the Christ -- loaded with all the richness of that title from Scripture. May every home have an opportunity to hear this truth."
+msgstr ""
+
+#: admin/starter-content.php:192
+msgid "\"And without faith it is impossible to please him, for whoever would draw near to God must believe that he exists and that he rewards those who seek him.\" (Hebrews 11:6) Lord, please cause multitudes of [people_name] to seek You and experience the greatest reward -- Yourself!"
+msgstr ""
+
+#: admin/starter-content.php:193
+msgid "Lord, we pray for believers in [location_name] who will discover the ways you make us more like Jesus. https://zume.training/consumer-vs-producer-lifestyle/"
+msgstr ""
+
+#: admin/starter-content.php:394
+msgid "PRAISE"
+msgstr "FELICITAR"
+
+#: admin/starter-content.php:402
+msgid "KINGDOM COME"
+msgstr "VENGA EL REINO"
+
+#: admin/starter-content.php:410
+msgid "PRAY THE BOOK OF ACTS"
+msgstr "ORA EL LIBRO DE LOS HECHOS\n"
+""
+
+#: admin/starter-content.php:418
+msgid "PRAY THE HALL OF FAITH"
+msgstr "ORA EL SALÓN DE LA FE"
+
+#: admin/starter-content.php:426
+msgid "PRAYER"
+msgstr "ORACIÓN"
 

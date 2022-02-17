@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Pray4Ramadan Porch\n"
-"POT-Creation-Date: 2022-01-12 16:08+0100\n"
+"POT-Creation-Date: 2022-02-17 13:56+0100\n"
 "PO-Revision-Date: 2018-01-29 05:53-0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,7 +22,227 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SearchPathExcluded-1: */libraries/*\n"
 
-#: pray4ramadan-porch.php:403
+#: admin/campaigns-config.php:52
+#, php-format
+msgid "Click here to see the prayer prompts for today: %s"
+msgstr ""
+
+#: admin/starter-content.php:161
+msgid ""
+"\"For this I will praise you, O Lord, among the nations [in "
+"location_name], and sing to your name. (Psalm 18:49)"
+msgstr ""
+
+#: admin/starter-content.php:162
+msgid ""
+"\"And this gospel of the kingdom will be proclaimed throughout the whole "
+"world as a testimony to all nations, and then the end will come."
+"\" (Matthew 24:14) With faith and confidence, we pray for the Gospel of "
+"the Kingdom to spread throughout the nation of [location_name]. We know it "
+"is not a question of ’if’, but a question of ’when’. Please Lord, let it "
+"happen in our generation."
+msgstr ""
+
+#: admin/starter-content.php:163
+msgid ""
+"\"All these with one accord were devoting themselves to prayer...\" (Acts "
+"1:14) Father, in this time of social distancing we thank you for the "
+"virtual prayer groups you are raising up among [people_name] believers and "
+"we pray the same abiding that happened among the early disciples would "
+"likewise result in bold proclamation and many turning to faith in Jesus in "
+"[location_name]."
+msgstr ""
+
+#: admin/starter-content.php:164
+msgid ""
+"\"Now faith is the assurance of things hoped for, the conviction of things "
+"not seen. For by it the people of old received their commendation."
+"\" (Hebrews 11:1-2) Give every believer in [location_name] courage to live "
+"by faith instead of by sight."
+msgstr ""
+
+#: admin/starter-content.php:165
+msgid ""
+"Lord, help the people of [location_name] to discover the essence of being "
+"a disciple, making disciple, and what the church is. https://zume.training/"
+"definition-of-disciple-and-church/"
+msgstr ""
+
+#: admin/starter-content.php:168
+msgid ""
+"\"All the ends of the earth shall remember and turn to the Lord, and all "
+"the families of the [people_name] nations shall worship before you."
+"\" (Psalm 22:27)"
+msgstr ""
+
+#: admin/starter-content.php:169
+msgid ""
+"\"Repent, for the kingdom of heaven is at hand.\" (Matthew 3:2) Pray for "
+"[people_name] throughout the country to experience true repentance as they "
+"see the holy standard of a Righteous King and their inability to ever "
+"measure up."
+msgstr ""
+
+#: admin/starter-content.php:170
+msgid ""
+"\"And they were selling their possessions and belongings and distributing "
+"the proceeds to all, as any had need... and the Lord added to their number "
+"day by day those who were being saved.\" (Acts 2:42-47). As believers in "
+"[location_name] seek to be living out these verses, would you, Lord, "
+"please add daily those who are being saved."
+msgstr ""
+
+#: admin/starter-content.php:171
+msgid ""
+"\"By faith we understand that the universe was created by the word of God, "
+"so that what is seen was not made out of things that are visible."
+"\" (Hebrews 11:3) As [people_name] encounter the beauty of your creation "
+"through Mediterranean beaches, Saharan desert dunes, and luscious green "
+"hills may they be drawn to the Word through whom You created the world."
+msgstr ""
+
+#: admin/starter-content.php:172
+msgid ""
+"God, please help the people of [location_name] to be disciples who hear "
+"from you and then obey you. https://zume.training/spiritual-breathing-is-"
+"hearing-and-obeying-god/"
+msgstr ""
+
+#: admin/starter-content.php:175
+msgid ""
+"For kingship belongs to the Lord, and he rules over the [people_name] "
+"nations. (Psalm 22:28)"
+msgstr ""
+
+#: admin/starter-content.php:176
+msgid ""
+"\"And he went throughout all Galilee, teaching in their synagogues and "
+"proclaiming the gospel of the kingdom and healing every disease and every "
+"affliction among the people.\" (Matthew 4:23) Pray for the proclamation of "
+"the Gospel to be accompanied by miracles and signs and wonders throughout "
+"[location_name]."
+msgstr ""
+
+#: admin/starter-content.php:177
+msgid ""
+"\"And in your offspring shall all the families of the earth be blessed."
+"\" (Acts 3:25b) Lord, please fulfill your promise to Abraham among the "
+"many [people_name] families spread from the north to the south."
+msgstr ""
+
+#: admin/starter-content.php:178
+msgid ""
+"\"By faith Abel offered to God a more acceptable sacrifice than Cain, "
+"through which he was commended as righteous...\" (Hebrews 11:4a) Convict "
+"[people_name] this Ramadan, Lord, that we can only be made right before "
+"you on your terms through faith, not ours."
+msgstr ""
+
+#: admin/starter-content.php:179
+msgid ""
+"Father, we pray that the people of [location_name] will learn to study the "
+"Bible, understand it, obey it, and share it. https://zume.training/soaps-"
+"bible-reading/"
+msgstr ""
+
+#: admin/starter-content.php:182
+msgid ""
+"\"I will cause your name to be remembered in all generations; therefore "
+"nations (including [location_name]) will praise you forever and ever."
+"\" (Psalm 45:17)"
+msgstr ""
+
+#: admin/starter-content.php:183
+msgid ""
+"\"Blessed are the poor in spirit, for theirs is the kingdom of heaven."
+"\" (Matthew 5:3) May the [people_name] church joyfully demonstrate the "
+"blessing that comes from being poor in spirit. Pray for them to experience "
+"fuller measures of the Kingdom through their poverty of spirit.\""
+msgstr ""
+
+#: admin/starter-content.php:184
+msgid ""
+"\"And now, Lord, look upon their threats and grant to your servants to "
+"continue to speak your word with all boldness, while you stretch out your "
+"hand to heal, and signs and wonders are performed through the name of your "
+"holy servant Jesus.\" (Acts 4:30-31) Do it, Lord, please!"
+msgstr ""
+
+#: admin/starter-content.php:185
+msgid ""
+"\"...Now before he (Enoch) was taken he was commended as having pleased "
+"God.\" (Hebrews 11:5b) May believers in [location_name], through faith, "
+"seek commendation from You more than man. May they live their lives in "
+"pursuit of Your approval alone."
+msgstr ""
+
+#: admin/starter-content.php:186
+msgid ""
+"God, we pray both the men and women of [location_name] will find ways to "
+"meet in groups of two or three to encourage and correct one another. "
+"https://zume.training/accountability-groups/"
+msgstr ""
+
+#: admin/starter-content.php:189
+msgid ""
+"“Be still, and know that I am God. I will be exalted among the "
+"[people_name] nations, I will be exalted in the earth!\" (Psalm 46:10)"
+msgstr ""
+
+#: admin/starter-content.php:190
+msgid ""
+"\"Blessed are those who are persecuted for righteousness sake, for theirs "
+"is the kingdom of heaven.\" (Matthew 5:10) Father, we intercede on behalf "
+"of every [people_name] brother and sister undergoing persecution for the "
+"sake of righteousness. Bless them with greater intimacy with You and give "
+"them perseverance in suffering."
+msgstr ""
+
+#: admin/starter-content.php:191
+msgid ""
+"\"And every day, in the temple and from house to house, they did not cease "
+"teaching and preaching that the Christ is Jesus.\" (Acts 5:41) May "
+"believers in [location_name] saturate the country with the truth that "
+"Jesus is the Christ -- loaded with all the richness of that title from "
+"Scripture. May every home have an opportunity to hear this truth."
+msgstr ""
+
+#: admin/starter-content.php:192
+msgid ""
+"\"And without faith it is impossible to please him, for whoever would draw "
+"near to God must believe that he exists and that he rewards those who seek "
+"him.\" (Hebrews 11:6) Lord, please cause multitudes of [people_name] to "
+"seek You and experience the greatest reward -- Yourself!"
+msgstr ""
+
+#: admin/starter-content.php:193
+msgid ""
+"Lord, we pray for believers in [location_name] who will discover the ways "
+"you make us more like Jesus. https://zume.training/consumer-vs-producer-"
+"lifestyle/"
+msgstr ""
+
+#: admin/starter-content.php:394
+msgid "PRAISE"
+msgstr ""
+
+#: admin/starter-content.php:402
+msgid "KINGDOM COME"
+msgstr ""
+
+#: admin/starter-content.php:410
+msgid "PRAY THE BOOK OF ACTS"
+msgstr ""
+
+#: admin/starter-content.php:418
+msgid "PRAY THE HALL OF FAITH"
+msgstr ""
+
+#: admin/starter-content.php:426
+msgid "PRAYER"
+msgstr ""
+
+#: pray4ramadan-porch.php:407
 #, php-format
 msgid ""
 "Ramadan is one of the five requirements (or pillars) of Islam. During each "
@@ -46,139 +266,139 @@ msgid ""
 "for us to pray for them."
 msgstr ""
 
-#: pray4ramadan-porch.php:413
+#: pray4ramadan-porch.php:418
 #, php-format
 msgid ""
 "We want to cover the country of %s with continuous 24/7 prayer during the "
 "entire 30 days of Ramadan."
 msgstr ""
 
-#: site/home-body.php:41
+#: site/home-body.php:43
 msgid "Our"
 msgstr ""
 
-#: site/home-body.php:41
+#: site/home-body.php:43
 msgid "Vision"
 msgstr ""
 
-#: site/home-body.php:64
+#: site/home-body.php:66
 msgid "Extraordinary Prayer"
 msgstr ""
 
-#: site/home-body.php:65
+#: site/home-body.php:67
 msgid ""
 "Every disciple making movement in history has happened in the context of "
 "extraordinary prayer."
 msgstr ""
 
-#: site/home-body.php:73
+#: site/home-body.php:75
 msgid "Movement Focused"
 msgstr ""
 
-#: site/home-body.php:74
+#: site/home-body.php:76
 msgid ""
 "Join us in asking, seeking, and knocking for streams of disciples and "
 "churches to be made."
 msgstr ""
 
-#: site/home-body.php:82
+#: site/home-body.php:84
 msgid "24/7 for 30 Days"
 msgstr ""
 
-#: site/home-body.php:83
+#: site/home-body.php:85
 msgid ""
 "Choose a 15-minute (or more!) time slot that you can pray during each day. "
 "Invite someone else to sign up too."
 msgstr ""
 
-#: site/home-body.php:88 site/top-section.php:56
+#: site/home-body.php:90 site/top-section.php:72
 msgid "Sign Up to Pray"
 msgstr ""
 
-#: site/home-body.php:146
+#: site/home-body.php:160
 msgid "Ramadan is Finished"
 msgstr ""
 
-#: site/home-body.php:159
+#: site/home-body.php:173
 msgid "Ramadan Ends ..."
 msgstr ""
 
-#: site/home-body.php:160 site/home-body.php:167
+#: site/home-body.php:174 site/home-body.php:181
 msgid "days"
 msgstr ""
 
-#: site/home-body.php:161 site/home-body.php:168
+#: site/home-body.php:175 site/home-body.php:182
 msgid "hours"
 msgstr ""
 
-#: site/home-body.php:162 site/home-body.php:169
+#: site/home-body.php:176 site/home-body.php:183
 msgid "minutes"
 msgstr ""
 
-#: site/home-body.php:163 site/home-body.php:170
+#: site/home-body.php:177 site/home-body.php:184
 msgid "seconds"
 msgstr ""
 
-#: site/home-body.php:166
+#: site/home-body.php:180
 msgid "Ramadan Begins ..."
 msgstr ""
 
-#: site/home-body.php:180
+#: site/home-body.php:194
 msgid "Sign Up to"
 msgstr ""
 
-#: site/home-body.php:180
+#: site/home-body.php:194
 msgid "Pray"
 msgstr ""
 
-#: site/home-body.php:186
+#: site/home-body.php:200
 msgid "here"
 msgstr ""
 
-#: site/home-body.php:215
+#: site/home-body.php:229
 msgid "Days"
 msgstr ""
 
-#: site/home-body.php:228
+#: site/home-body.php:242
 msgid "Hours of Prayer"
 msgstr ""
 
-#: site/home-body.php:241
+#: site/home-body.php:255
 msgid "Prayer Commitments Needed"
 msgstr ""
 
-#: site/home-body.php:256
+#: site/home-body.php:270
 msgid "15-Minute"
 msgstr ""
 
-#: site/home-body.php:256 site/top-section.php:18
+#: site/home-body.php:270 site/top-section.php:27
 msgid "Prayer Fuel"
 msgstr ""
 
-#: site/home-body.php:258
+#: site/home-body.php:272
 msgid ""
 "Use these resources to help pray specifically each day for the month of "
 "Ramadan"
 msgstr ""
 
-#: site/home-body.php:259
+#: site/home-body.php:273
 msgid "View All"
 msgstr ""
 
-#: site/top-section.php:12
+#: site/top-section.php:21
 msgid "Home"
 msgstr ""
 
-#: site/top-section.php:15
+#: site/top-section.php:24
 msgid "Sign Up"
 msgstr ""
 
-#: site/top-section.php:48
+#: site/top-section.php:64
 #, php-format
 msgid "Strategic prayer for a disciple making movement in %s"
 msgstr ""
 
-#: site/top-section.php:50
+#: site/top-section.php:66
 msgid "Strategic prayer for a disciple making movement"
 msgstr ""
 

@@ -418,9 +418,32 @@ class P4_Ramadan_Porch_Landing_Tab_Starter_Content {
 
     public function main_column() {
 
-        $result = [];
+        $installed_posts = [];
         if ( isset( $_POST['install_ramadan_nonce'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['install_ramadan_nonce'] ) ), 'install_ramadan_nonce' ) ) {
-             $result = P4_Ramadan_Porch_Starter_Content::load_content();
+            $language = 'en_US';
+            if ( isset( $_POST["install_ramadan_language"] ) ){
+                $language = sanitize_text_field( wp_unslash( $_POST["install_ramadan_language"] ) );
+            }
+            $installed_posts = P4_Ramadan_Porch_Starter_Content::load_content( $language );
+        }
+        $languages = dt_ramadan_list_languages();
+        global $wpdb;
+        $installed_langs_query = $wpdb->get_results( "
+            SELECT pm.meta_value, count(*) as count
+            FROM $wpdb->posts p
+            LEFT JOIN $wpdb->postmeta pm ON ( p.ID = pm.post_id AND meta_key = 'post_language' )
+            WHERE post_type = 'landing' and ( post_status = 'publish' or post_status = 'future')
+            GROUP BY meta_value
+        ", ARRAY_A);
+        $installed_langs = [];
+        foreach ( $installed_langs_query as $result ){
+            if ( $result["meta_value"] === NULL ){
+                $result["meta_value"] = 'en_US';
+            }
+            if ( !isset( $installed_langs[$result["meta_value"]] ) ){
+                $installed_langs[$result["meta_value"]] = 0;
+            }
+            $installed_langs[$result["meta_value"]] += $result["count"];
         }
 
         ?>
@@ -435,22 +458,41 @@ class P4_Ramadan_Porch_Landing_Tab_Starter_Content {
                 </thead>
                 <tbody>
 
-                <?php if ( $result ) : ?>
-                    <tr>
-                        <td>
-                            <a href="<?php echo esc_url( admin_url() ); ?>edit.php?post_type=landing">List of Landing Page</a><br><hr><br>
-                            <?php foreach ( $result as $item ) : ?>
-                                <a href="<?php echo esc_url( admin_url() ); ?>post.php?post=<?php echo esc_attr( $item ) ?>&action=edit"><?php echo esc_html( get_the_title( $item ) ) ?></a><br>
-                            <?php endforeach; ?>
-                        </td>
-                    </tr>
-                <?php else : ?>
-                    <tr>
-                        <td>
-                            <button type="submit" name="install_ramadan_1" class="button" value="1">Install Ramadan Starter Content</button>
-                        </td>
-                    </tr>
-                <?php endif; ?>
+<!--                --><?php //if ( $installed_posts ) : ?>
+<!--                    <tr>-->
+<!--                        <td>-->
+<!--                            <a href="--><?php //echo esc_url( admin_url() ); ?><!--edit.php?post_type=landing">List of Landing Page</a><br><hr><br>-->
+<!--                            --><?php //foreach ( $installed_posts as $item ) : ?>
+<!--                                <a href="--><?php //echo esc_url( admin_url() ); ?><!--post.php?post=--><?php //echo esc_attr( $item ) ?><!--&action=edit">--><?php //echo esc_html( get_the_title( $item ) ) ?><!--</a><br>-->
+<!--                            --><?php //endforeach; ?>
+<!--                        </td>-->
+<!--                    </tr>-->
+<!--                --><?php //else : ?>
+                    <tr><td>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>Language</th>
+                            <th>Installed Posts</th>
+                            <th>Install English Posts</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        <?php foreach ( $languages as $language_key => $language ) : ?>
+                            <tr>
+                                <td><?php echo esc_html( $language["flag"] ); ?></td>
+                                <td><?php echo esc_html( $installed_langs[$language_key] ?? 0 ); ?></td>
+                                <td>
+                                    <button type="submit" name="install_ramadan_language" class="button" value="<?php echo esc_html( $language_key ); ?>">Install English Ramadan Starter Content</button>
+                                </td>
+                            </tr>
+
+                        <?php endforeach; ?>
+                        </tbody>
+                    </table>
+                    </td></tr>
+<!--                --><?php //endif; ?>
                 </tbody>
             </table>
             <br>
