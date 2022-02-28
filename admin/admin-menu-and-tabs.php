@@ -348,7 +348,10 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                                     <?php if ( !empty( $field["default"] ) && isset( $field["translations"] ) ) {
                                         echo '<h3>Default translated text:</h3>';
                                         echo nl2br( esc_html( $field["default"] ) );
-                                        echo '<br> <br> <p>Custom text for all languages. For each language click the <img style="height: 15px; vertical-align: middle" src="' . esc_html( get_template_directory_uri() . "/dt-assets/images/languages.svg" ) . '"> button</p>';
+                                        echo '<br><br>';
+                                    }
+                                    if ( isset( $field["translations"] ) ){
+                                        echo '<p>Custom text for all languages. Click the <img style="height: 15px; vertical-align: middle" src="' . esc_html( get_template_directory_uri() . "/dt-assets/images/languages.svg" ) . '"> button to set a value for each language</p>';
                                     } ?>
                                     <textarea name="list[<?php echo esc_html( $key ); ?>]" id="<?php echo esc_html( $key ); ?>" placeholder=""><?php echo wp_kses( $field['value'], $allowed_tags ); ?></textarea>
                                 </td>
