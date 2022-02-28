@@ -326,12 +326,10 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                                         echo '<br><br>';
                                     }
                                     if ( isset( $field["translations"] ) ){
-                                        echo '<p>Custom text for all languages. Click the <img style="height: 15px; vertical-align: middle" src="' . esc_html( get_template_directory_uri() . "/dt-assets/images/languages.svg" ) . '"> button to set a value for each language</p>';
+                                        echo '<p>Click the <img style="height: 15px; vertical-align: middle" src="' . esc_html( get_template_directory_uri() . "/dt-assets/images/languages.svg" ) . '"> button to set a value for each language. Custom text for all languages: </p>';
                                     }
                                     ?>
-                                    <input type="text" name="list[<?php echo esc_html( $key ); ?>]" id="<?php echo esc_html( $key ); ?>" value="<?php echo esc_html( $field['value'] ); ?>"
-                                        placeholder="<?php echo esc_html( $field["default"] ?? "" ); ?>"
-                                    />
+                                    <input type="text" name="list[<?php echo esc_html( $key ); ?>]" id="<?php echo esc_html( $key ); ?>" value="<?php echo esc_html( $field['value'] ); ?>"/>
                                 </td>
                                 <td style="vertical-align: middle;">
                                     <?php if ( isset( $field["translations"] ) ){
@@ -351,7 +349,7 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                                         echo '<br><br>';
                                     }
                                     if ( isset( $field["translations"] ) ){
-                                        echo '<p>Custom text for all languages. Click the <img style="height: 15px; vertical-align: middle" src="' . esc_html( get_template_directory_uri() . "/dt-assets/images/languages.svg" ) . '"> button to set a value for each language</p>';
+                                        echo '<p>Click the <img style="height: 15px; vertical-align: middle" src="' . esc_html( get_template_directory_uri() . "/dt-assets/images/languages.svg" ) . '"> button to set a value for each language. Custom text for all languages:</p>';
                                     } ?>
                                     <textarea name="list[<?php echo esc_html( $key ); ?>]" id="<?php echo esc_html( $key ); ?>" placeholder=""><?php echo wp_kses( $field['value'], $allowed_tags ); ?></textarea>
                                 </td>
