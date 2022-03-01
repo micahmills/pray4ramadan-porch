@@ -212,34 +212,32 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
 
     private function translation_cell( $langs, $key, $field ){
         ?>
-        <td>
-            <button class="button small expand_translations">
-                <?php
-                $number_of_translations = 0;
-                foreach ( $langs as $lang => $val ){
-                    if ( !empty( $field["translations"][$val['language']] ) ){
-                        $number_of_translations++;
-                    }
+        <button class="button small expand_translations">
+            <?php
+            $number_of_translations = 0;
+            foreach ( $langs as $lang => $val ){
+                if ( !empty( $field["translations"][$val['language']] ) ){
+                    $number_of_translations++;
                 }
-                ?>
-                <img style="height: 15px; vertical-align: middle" src="<?php echo esc_html( get_template_directory_uri() . "/dt-assets/images/languages.svg" ); ?>">
-                (<?php echo esc_html( $number_of_translations ); ?>)
-            </button>
-            <div class="translation_container hide">
-                <table style="width:100%">
-                    <?php foreach ( $langs as $lang => $val ) : ?>
-                        <tr>
-                            <td><label for="field_key_<?php echo esc_html( $key )?>_translation-<?php echo esc_html( $val['language'] )?>"><?php echo esc_html( $val['native_name'] )?></label></td>
-                            <?php if ( $field["type"] === "textarea" ) :?>
-                                <td><textarea name="field_key_<?php echo esc_html( $key )?>_translation-<?php echo esc_html( $val['language'] )?>"><?php echo wp_kses_post( $field["translations"][$val['language']] ?? "" );?></textarea></td>
-                            <?php else: ?>
-                                <td><input name="field_key_<?php echo esc_html( $key )?>_translation-<?php echo esc_html( $val['language'] )?>" type="text" value="<?php echo esc_html( $field["translations"][$val['language']] ?? "" );?>"/></td>
-                            <?php endif; ?>
-                        </tr>
-                    <?php endforeach; ?>
-                </table>
-            </div>
-        </td>
+            }
+            ?>
+            <img style="height: 15px; vertical-align: middle" src="<?php echo esc_html( get_template_directory_uri() . "/dt-assets/images/languages.svg" ); ?>">
+            (<?php echo esc_html( $number_of_translations ); ?>)
+        </button>
+        <div class="translation_container hide">
+            <table style="width:100%">
+                <?php foreach ( $langs as $lang => $val ) : ?>
+                    <tr>
+                        <td><label for="field_key_<?php echo esc_html( $key )?>_translation-<?php echo esc_html( $val['language'] )?>"><?php echo esc_html( $val['native_name'] )?></label></td>
+                        <?php if ( $field["type"] === "textarea" ) :?>
+                            <td><textarea name="field_key_<?php echo esc_html( $key )?>_translation-<?php echo esc_html( $val['language'] )?>"><?php echo wp_kses_post( $field["translations"][$val['language']] ?? "" );?></textarea></td>
+                        <?php else: ?>
+                            <td><input name="field_key_<?php echo esc_html( $key )?>_translation-<?php echo esc_html( $val['language'] )?>" type="text" value="<?php echo esc_html( $field["translations"][$val['language']] ?? "" );?>"/></td>
+                        <?php endif; ?>
+                    </tr>
+                <?php endforeach; ?>
+            </table>
+        </div>
         <?php
     }
 
@@ -262,7 +260,7 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
             }
         }
 
-        if ( isset( $_POST['install_ramadan_nonce'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['install_ramadan_nonce'] ) ), 'install_ramadan_nonce' ) ) {
+        if ( isset( $_POST['ramadan_settings_nonce'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['ramadan_settings_nonce'] ) ), 'ramadan_settings' ) ) {
 
             if ( isset( $_POST['list'] ) ) {
                 $saved_fields = $fields;
@@ -304,14 +302,14 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
         }
         ?>
         <form method="post" class="metabox-table">
-            <?php wp_nonce_field( 'install_ramadan_nonce', 'install_ramadan_nonce' ) ?>
+            <?php wp_nonce_field( 'ramadan_settings', 'ramadan_settings_nonce' ) ?>
             <!-- Box -->
             <table class="widefat striped">
                 <thead>
                 <tr>
                     <th style="width:20%">Home Page Details</th>
-                    <th><span style="float:right;"><button type="submit" name="reset_values" value='delete'>Reset</button></span></th>
-                    <th></th>
+                    <th style="width:50%"></th>
+                    <th ><span style="float:right;"><button type="submit" name="reset_values" value='delete'>Reset all to default</button></span></th>
                 </tr>
                 </thead>
                 <tbody>
@@ -322,13 +320,22 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                                     <?php echo esc_html( $field['label'] ); ?>
                                 </td>
                                 <td>
-                                    <input type="text" name="list[<?php echo esc_html( $key ); ?>]" id="<?php echo esc_html( $key ); ?>" value="<?php echo esc_html( $field['value'] ); ?>"
-                                        placeholder="<?php echo esc_html( $field["default"] ?? "" ); ?>"
-                                    />
+                                    <?php if ( !empty( $field["default"] ) && isset( $field["translations"] ) ) {
+                                        echo '<h3>Default translated text:</h3>';
+                                        echo nl2br( esc_html( $field["default"] ) );
+                                        echo '<br><br>';
+                                    }
+                                    if ( isset( $field["translations"] ) ){
+                                        echo '<p>Click the <img style="height: 15px; vertical-align: middle" src="' . esc_html( get_template_directory_uri() . "/dt-assets/images/languages.svg" ) . '"> button to set a value for each language. Custom text for all languages: </p>';
+                                    }
+                                    ?>
+                                    <input type="text" name="list[<?php echo esc_html( $key ); ?>]" id="<?php echo esc_html( $key ); ?>" value="<?php echo esc_html( $field['value'] ); ?>" placeholder="<?php echo esc_html( $field['label'] ); ?>"/>
                                 </td>
-                                <?php if ( isset( $field["translations"] ) ){
-                                    self::translation_cell( $langs, $key, $field );
-                                } ?>
+                                <td style="vertical-align: middle;">
+                                    <?php if ( isset( $field["translations"] ) ){
+                                        self::translation_cell( $langs, $key, $field );
+                                    } ?>
+                                </td>
                             </tr>
                         <?php elseif ( 'textarea' === $field['type'] ) : ?>
                             <tr>
@@ -336,11 +343,21 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                                     <?php echo esc_html( $field['label'] ); ?>
                                 </td>
                                 <td>
-                                    <textarea name="list[<?php echo esc_html( $key ); ?>]" id="<?php echo esc_html( $key ); ?>" placeholder="<?php echo esc_html( $field["default"] ?? "" ); ?>"><?php echo wp_kses( $field['value'], $allowed_tags ); ?></textarea>
+                                    <?php if ( !empty( $field["default"] ) && isset( $field["translations"] ) ) {
+                                        echo '<h3>Default translated text:</h3>';
+                                        echo nl2br( esc_html( $field["default"] ) );
+                                        echo '<br><br>';
+                                    }
+                                    if ( isset( $field["translations"] ) ){
+                                        echo '<p>Click the <img style="height: 15px; vertical-align: middle" src="' . esc_html( get_template_directory_uri() . "/dt-assets/images/languages.svg" ) . '"> button to set a value for each language. Custom text for all languages:</p>';
+                                    } ?>
+                                    <textarea name="list[<?php echo esc_html( $key ); ?>]" id="<?php echo esc_html( $key ); ?>" placeholder="<?php echo esc_html( $field['label'] ); ?>"><?php echo wp_kses( $field['value'], $allowed_tags ); ?></textarea>
                                 </td>
-                                <?php if ( isset( $field["translations"] ) ){
-                                    self::translation_cell( $langs, $key, $field );
-                                } ?>
+                                <td style="vertical-align: middle;">
+                                    <?php if ( isset( $field["translations"] ) ){
+                                        self::translation_cell( $langs, $key, $field );
+                                    } ?>
+                                </td>
                             </tr>
                         <?php elseif ( 'theme_select' === $field['type'] ) : ?>
                             <tr>
@@ -364,6 +381,7 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                                         ?>
                                     </select>
                                 </td>
+                                <td></td>
                             </tr>
                         <?php endif; ?>
                     <?php endforeach; ?>
@@ -371,7 +389,7 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                         <td colspan="2">
                             <button class="button" type="submit">Update</button>
                         </td>
-
+                        <td></td>
                     </tr>
                 </tbody>
             </table>
@@ -419,7 +437,7 @@ class P4_Ramadan_Porch_Landing_Tab_Starter_Content {
     public function main_column() {
 
 
-        if ( isset( $_POST['install_ramadan_nonce'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['install_ramadan_nonce'] ) ), 'install_ramadan_nonce' ) ) {
+        if ( isset( $_POST['install_ramadan_nonce'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['install_ramadan_nonce'] ) ), 'install_ramadan' ) ) {
             $language = 'en_US';
             if ( isset( $_POST["install_ramadan_language"] ) ){
                 $language = sanitize_text_field( wp_unslash( $_POST["install_ramadan_language"] ) );
@@ -462,7 +480,7 @@ class P4_Ramadan_Porch_Landing_Tab_Starter_Content {
 
         ?>
         <form method="post">
-            <?php wp_nonce_field( 'install_ramadan_nonce', 'install_ramadan_nonce' ) ?>
+            <?php wp_nonce_field( 'install_ramadan', 'install_ramadan_nonce' ) ?>
             <!-- Box -->
             <table class="widefat striped">
                 <thead>
