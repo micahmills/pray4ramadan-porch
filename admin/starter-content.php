@@ -2,7 +2,7 @@
 if ( ! defined( 'ABSPATH' ) ) { exit; } // Exit if accessed directly
 
 class P4_Ramadan_Porch_Starter_Content {
-    public static function load_content( $language = 'en_US', $names = [] ) {
+    public static function load_content( $language = 'en_US', $names = [], $from_translation = null ) {
         $fields = p4r_get_campaign();
         if ( empty( $fields ) ) {
             dt_write_log( 'Campaign not set' );
@@ -17,7 +17,7 @@ class P4_Ramadan_Porch_Starter_Content {
         self::sample_fuel();
 
         $installed = [];
-        $content = self::content( $language, $names );
+        $content = self::content( $language, $names, $from_translation ?? $language );
         foreach ( $content as $i => $day ) {
 
             $title = gmdate( 'F j Y', strtotime( $start . ' + ' . $i . ' day' ) );
@@ -116,7 +116,7 @@ class P4_Ramadan_Porch_Starter_Content {
 
     }
 
-    public static function content( $language, $names ) {
+    public static function content( $language, $names, $from_translation = 'en_US' ) {
         $values = p4r_porch_fields();
         $fields = [
             "location_name" => $names["location_name"],
@@ -127,19 +127,20 @@ class P4_Ramadan_Porch_Starter_Content {
             "people_plural_feminine" => $names["people_plural_feminine"],
         ];
 
-        add_filter( 'determine_locale', function ( $locale ) use ( $language ) {
-            if ( ! empty( $language ) ) {
-                return $language;
+
+        add_filter( 'determine_locale', function ( $locale ) use ( $from_translation ) {
+            if ( ! empty( $from_translation ) ) {
+                return $from_translation;
             }
             return $locale;
         }, 1001, 1 );
-        if ( $language !== "en_US" ){
+        if ( $from_translation !== "en_US" ){
             load_plugin_textdomain( 'pray4ramadan-porch', false, trailingslashit( dirname( plugin_basename( __FILE__ ), 2 ) ). 'support/languages' );
         }
 
         $data = [
             [
-                __( '"For this I will praise you, O Lord, among the nations [in location_name], and sing to your name. (Psalm 18:49)', 'pray4ramadan-porch' ),
+                __( '"For this I will praise you, O Lord, among the nations in [location_name], and sing to your name. (Psalm 18:49)', 'pray4ramadan-porch' ),
                 __( '"And this gospel of the kingdom will be proclaimed throughout the whole world as a testimony to all nations, and then the end will come." (Matthew 24:14) With faith and confidence, we pray for the Gospel of the Kingdom to spread throughout the nation of [location_name]. We know it is not a question of ’if’, but a question of ’when’. Please Lord, let it happen in our generation.', 'pray4ramadan-porch' ),
                 __( '"All these with one accord were devoting themselves to prayer..." (Acts 1:14) Father, in this time of social distancing we thank you for the virtual prayer groups you are raising up among [people_name] believers and we pray the same abiding that happened among the early disciples would likewise result in bold proclamation and many turning to faith in Jesus in [location_name].', 'pray4ramadan-porch' ),
                 __( '"Now faith is the assurance of things hoped for, the conviction of things not seen. For by it the people of old received their commendation." (Hebrews 11:1-2) Give every believer in [location_name] courage to live by faith instead of by sight.', 'pray4ramadan-porch' ),

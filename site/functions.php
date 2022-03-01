@@ -13,13 +13,15 @@ function dt_ramadan_list_languages(){
             'language' => 'en_US',
             'english_name' => 'English (United States)',
             'native_name' => 'English',
-            'flag' => '🇺🇸'
+            'flag' => '🇺🇸',
+            'prayer_fuel' => true
         ],
         'es_ES' => [
             'language' => 'es_ES',
             'english_name' => 'Spanish (Spain)',
             'native_name' => 'Español',
-            'flag' => '🇪🇸'
+            'flag' => '🇪🇸',
+            'prayer_fuel' => true
         ],
         'fr_FR' => [
             'language' => 'fr_FR',
