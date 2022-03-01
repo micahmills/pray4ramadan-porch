@@ -260,7 +260,7 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
             }
         }
 
-        if ( isset( $_POST['install_ramadan_nonce'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['install_ramadan_nonce'] ) ), 'install_ramadan_nonce' ) ) {
+        if ( isset( $_POST['ramadan_settings_nonce'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['ramadan_settings_nonce'] ) ), 'ramadan_settings' ) ) {
 
             if ( isset( $_POST['list'] ) ) {
                 $saved_fields = $fields;
@@ -302,7 +302,7 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
         }
         ?>
         <form method="post" class="metabox-table">
-            <?php wp_nonce_field( 'install_ramadan_nonce', 'install_ramadan_nonce' ) ?>
+            <?php wp_nonce_field( 'ramadan_settings', 'ramadan_settings_nonce' ) ?>
             <!-- Box -->
             <table class="widefat striped">
                 <thead>
@@ -437,13 +437,13 @@ class P4_Ramadan_Porch_Landing_Tab_Starter_Content {
     public function main_column() {
 
         $result = [];
-        if ( isset( $_POST['install_ramadan_nonce'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['install_ramadan_nonce'] ) ), 'install_ramadan_nonce' ) ) {
+        if ( isset( $_POST['install_ramadan_nonce'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['install_ramadan_nonce'] ) ), 'install_ramadan' ) ) {
              $result = P4_Ramadan_Porch_Starter_Content::load_content();
         }
 
         ?>
         <form method="post">
-            <?php wp_nonce_field( 'install_ramadan_nonce', 'install_ramadan_nonce' ) ?>
+            <?php wp_nonce_field( 'install_ramadan', 'install_ramadan_nonce' ) ?>
             <!-- Box -->
             <table class="widefat striped">
                 <thead>
