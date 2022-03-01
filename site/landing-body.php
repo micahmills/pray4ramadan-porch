@@ -97,7 +97,7 @@ $list = new WP_Query( $args );
         <div class="section-header">
             <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">All <span>Days</span></h2>
             <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-            <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Use these resources to help pray specifically each day for the month of Ramadan.</p>
+            <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Use these resources to help pray specifically each day for the month of Ramadan.', 'pray4ramadan-porch' ); ?></p>
         </div>
         <div class="row">
             <?php foreach ($list->posts as $item ) : ?>

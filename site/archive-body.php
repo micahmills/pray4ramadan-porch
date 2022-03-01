@@ -81,7 +81,7 @@ if ( empty( $list->posts ) ){
             <div class="col-md-9 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">
                 <div class="fuel-block">
                     <div class="section-header">
-                        <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Today's Prayer <span>Fuel</span></h2>
+                        <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( "Today's Prayer Fuel", 'pray4ramadan-porch' ); ?></h2>
                         <hr class="lines wow zoomIn" data-wow-delay="0.3s">
                     </div>
                     <div class="">
@@ -101,9 +101,9 @@ if ( empty( $list->posts ) ){
     <!-- Container Starts -->
     <div class="container">
         <div class="section-header">
-            <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">All <span>Days</span></h2>
+            <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'All Days', 'pray4ramadan-porch' ); ?></h2>
             <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-            <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Use these resources to help pray specifically each day for the month of Ramadan.</p>
+            <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Use these resources to help pray specifically each day for the month of Ramadan.', 'pray4ramadan-porch' ); ?></p>
         </div>
         <div class="row">
             <?php foreach ($list->posts as $item ) :
@@ -129,7 +129,7 @@ if ( empty( $list->posts ) ){
                         <p>
                             <?php echo wp_kses_post( esc_html( $item->post_excerpt ) ) ?>
                         </p>
-                        <a href="/prayer/fuel/<?php echo esc_attr( $public_key ) ?>" class="btn btn-common btn-rm">Read</a>
+                        <a href="/prayer/fuel/<?php echo esc_attr( $public_key ) ?>" class="btn btn-common btn-rm"><?php esc_html_e( 'Read', 'pray4ramadan-porch' ); ?></a>
                     </div>
                 </div>
                 <!-- Blog Item Wrapper Ends-->

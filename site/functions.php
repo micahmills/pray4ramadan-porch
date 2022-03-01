@@ -62,3 +62,15 @@ function dt_ramadan_get_current_lang(){
     }
     return $lang;
 }
+
+function dt_ramadan_set_translation( $lang ){
+    if ( $lang !== "en_US" ){
+        add_filter( 'determine_locale', function ( $locale ) use ( $lang ){
+            if ( !empty( $lang ) ){
+                return $lang;
+            }
+            return $locale;
+        }, 1000, 1 );
+        load_plugin_textdomain( 'pray4ramadan-porch', false, trailingslashit( dirname( plugin_basename( __FILE__ ), 2 ) ). 'support/languages' );
+    }
+}

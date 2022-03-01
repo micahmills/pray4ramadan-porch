@@ -1,10 +1,5 @@
 <?php
-$lang = "en_US";
-if ( isset( $_GET["lang"] ) && !empty( $_GET["lang"] ) ){
-    $lang = sanitize_text_field( wp_unslash( $_GET["lang"] ));
-} elseif ( isset( $_COOKIE["dt-magic-link-lang"] ) && !empty( $_COOKIE["dt-magic-link-lang"] ) ){
-    $lang = sanitize_text_field( wp_unslash( $_COOKIE["dt-magic-link-lang"] ) );
-}
+$lang = dt_ramadan_get_current_lang();
 
 $porch_fields = p4r_porch_fields();
 $campaign_fields = p4r_get_campaign();

@@ -1,6 +1,4 @@
 <?php
-$porch_fields = p4r_porch_fields();
-$campaign_fields = p4r_get_campaign();
 
 $lang = "en_US";
 if ( isset( $_GET["lang"] ) && !empty( $_GET["lang"] ) ){
@@ -9,6 +7,10 @@ if ( isset( $_GET["lang"] ) && !empty( $_GET["lang"] ) ){
 } elseif ( isset( $_COOKIE["dt-magic-link-lang"] ) && !empty( $_COOKIE["dt-magic-link-lang"] ) ){
     $lang = sanitize_text_field( wp_unslash( $_COOKIE["dt-magic-link-lang"] ) );
 }
+dt_ramadan_set_translation( $lang );
+
+$porch_fields = p4r_porch_fields();
+$campaign_fields = p4r_get_campaign();
 $langs = dt_ramadan_list_languages();
 ?>
 

@@ -48,21 +48,6 @@ class P4_Ramadan_Porch_Home_5 extends DT_Magic_Url_Base
             add_filter( 'dt_magic_url_base_allowed_css', [ $this, 'dt_magic_url_base_allowed_css' ], 10, 1 );
             add_filter( 'dt_magic_url_base_allowed_js', [ $this, 'dt_magic_url_base_allowed_js' ], 10, 1 );
 
-            $lang = "en_US";
-            if ( isset( $_GET["lang"] ) && !empty( $_GET["lang"] ) ){
-                $lang = sanitize_text_field( wp_unslash( $_GET["lang"] ));
-            } elseif ( isset( $_COOKIE["dt-magic-link-lang"] ) && !empty( $_COOKIE["dt-magic-link-lang"] ) ){
-                $lang = sanitize_text_field( wp_unslash( $_COOKIE["dt-magic-link-lang"] ) );
-            }
-            if ( $lang !== "en_US" ){
-                add_filter( 'determine_locale', function ( $locale ) use ( $lang ){
-                    if ( !empty( $lang ) ){
-                        return $lang;
-                    }
-                    return $locale;
-                }, 1000, 1 );
-                load_plugin_textdomain( 'pray4ramadan-porch', false, trailingslashit( dirname( plugin_basename( __FILE__ ), 2 ) ). 'support/languages' );
-            }
         }
 
         if ( dt_is_rest() ) {
