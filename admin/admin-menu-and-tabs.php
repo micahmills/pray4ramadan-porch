@@ -437,8 +437,9 @@ class P4_Ramadan_Porch_Landing_Tab_Starter_Content {
     public function main_column() {
 
 
+        global $wpdb;
         if ( isset( $_POST['install_ramadan_nonce'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['install_ramadan_nonce'] ) ), 'install_ramadan' ) ) {
-            $language = 'en_US';
+            $language = null;
             if ( isset( $_POST["install_ramadan_language"] ) ){
                 $language = sanitize_text_field( wp_unslash( $_POST["install_ramadan_language"] ) );
             }
@@ -447,19 +448,33 @@ class P4_Ramadan_Porch_Landing_Tab_Starter_Content {
                 $language = sanitize_text_field( wp_unslash( $_POST["install_ramadan_language_english"] ) );
                 $from_translation = 'en_US';
             }
-            $args = [
-                "location_name" => isset( $_POST[ $language . "_location_name"] ) ? sanitize_text_field( wp_unslash( $_POST[ $language . "_location_name"] ) ) : null,
-                "people_singular_masculine" => isset( $_POST[ $language . "_people_singular_masculine"] ) ? sanitize_text_field( wp_unslash( $_POST[ $language . "_people_singular_masculine"] ) ) : null,
-                "people_singular_feminine" => isset( $_POST[ $language . "_people_singular_feminine"] ) ? sanitize_text_field( wp_unslash( $_POST[ $language . "_people_singular_feminine"] ) ) : null,
-                "people_plural_masculine" => isset( $_POST[ $language . "_people_plural_masculine"] ) ? sanitize_text_field( wp_unslash( $_POST[ $language . "_people_plural_masculine"] ) ) : null,
-                "people_plural_feminine" => isset( $_POST[ $language . "_people_plural_feminine"] ) ? sanitize_text_field( wp_unslash( $_POST[ $language . "_people_plural_feminine"] ) ) : null,
-            ];
+            if ( $language ){
+                $args = [
+                    "location_name" => isset( $_POST[ $language . "_location_name"] ) ? sanitize_text_field( wp_unslash( $_POST[ $language . "_location_name"] ) ) : null,
+                    "people_singular_masculine" => isset( $_POST[ $language . "_people_singular_masculine"] ) ? sanitize_text_field( wp_unslash( $_POST[ $language . "_people_singular_masculine"] ) ) : null,
+                    "people_singular_feminine" => isset( $_POST[ $language . "_people_singular_feminine"] ) ? sanitize_text_field( wp_unslash( $_POST[ $language . "_people_singular_feminine"] ) ) : null,
+                    "people_plural_masculine" => isset( $_POST[ $language . "_people_plural_masculine"] ) ? sanitize_text_field( wp_unslash( $_POST[ $language . "_people_plural_masculine"] ) ) : null,
+                    "people_plural_feminine" => isset( $_POST[ $language . "_people_plural_feminine"] ) ? sanitize_text_field( wp_unslash( $_POST[ $language . "_people_plural_feminine"] ) ) : null,
+                ];
 
-            P4_Ramadan_Porch_Starter_Content::load_content( $language, $args, $from_translation );
+                P4_Ramadan_Porch_Starter_Content::load_content( $language, $args, $from_translation );
+            }
+
+            if ( isset( $_POST["delete_duplicates"] ) ){
+                $wpdb->query( "
+                    DELETE t1 FROM $wpdb->posts t1
+                    INNER JOIN $wpdb->posts t2
+                    LEFT JOIN $wpdb->postmeta t1m ON ( t1m.post_ID = t1.ID and t1m.meta_key = 'post_language')
+                    LEFT JOIN $wpdb->postmeta t2m ON ( t2m.post_ID = t2.ID and t2m.meta_key = 'post_language')
+                    WHERE t1.ID > t2.ID
+                    AND t1.post_title = t2.post_title
+                    AND t1m.meta_value = t2m.meta_value
+                ");
+            }
         }
         $languages = dt_ramadan_list_languages();
         $fields = p4r_porch_fields();
-        global $wpdb;
+
         $installed_langs_query = $wpdb->get_results( "
             SELECT pm.meta_value, count(*) as count
             FROM $wpdb->posts p
@@ -529,6 +544,11 @@ class P4_Ramadan_Porch_Landing_Tab_Starter_Content {
                                     <button type="submit" name="install_ramadan_language_english" class="button" value="<?php echo esc_html( $language_key ); ?>" <?php disabled( $already_installed ) ?>>
                                         Install Content in English
                                     </button>
+                                </td>
+                                <td>
+                                    <?php if ( ( $installed_langs[$language_key] ?? 0 ) > 60 ) :?>
+                                        <button type="submit" name="delete_duplicates" value="<?php echo esc_html( $language_key ); ?>">Delete Duplicates?</button>
+                                    <?php endif; ?>
                                 </td>
                             </tr>
 
