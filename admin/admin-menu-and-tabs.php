@@ -468,7 +468,10 @@ class P4_Ramadan_Porch_Landing_Tab_Starter_Content {
                     LEFT JOIN $wpdb->postmeta t2m ON ( t2m.post_ID = t2.ID and t2m.meta_key = 'post_language')
                     WHERE t1.ID > t2.ID
                     AND t1.post_title = t2.post_title
-                    AND t1m.meta_value = t2m.meta_value
+                    AND ( t1m.meta_value = t2m.meta_value OR ( t1m.meta_value IS NULL AND t2m.meta_value IS NULL ) )
+                    AND t1.post_type = 'landing' AND t2.post_type = 'landing'
+                    AND ( t1.post_status = 'publish' OR t1.post_status = 'future' )
+                    AND ( t2.post_status = 'publish' OR t2.post_status = 'future' )
                 ");
             }
         }
@@ -541,7 +544,7 @@ class P4_Ramadan_Porch_Landing_Tab_Starter_Content {
                                     </button>
                                 </td>
                                 <td>
-                                    <button type="submit" name="install_ramadan_language_english" class="button" value="<?php echo esc_html( $language_key ); ?>" <?php disabled( $already_installed ) ?>>
+                                    <button type="submit" name="install_ramadan_language_english" class="button" value="<?php echo esc_html( $language_key ); ?>" <?php disabled( false ) ?>>
                                         Install Content in English
                                     </button>
                                 </td>
