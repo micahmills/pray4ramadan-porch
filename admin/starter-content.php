@@ -361,10 +361,10 @@ class P4_Ramadan_Porch_Starter_Content {
 
         function ramadan_format_message( $message, $fields ) {
             $message = make_clickable( $message );
-            $message = str_replace( '[people_singular_masculine]', $fields["people_name"], $message );
-            $message = str_replace( '[people_singular_feminine]', $fields["people_name"], $message );
-            $message = str_replace( '[people_plural_masculine]', $fields["people_name"], $message );
-            $message = str_replace( '[people_plural_feminine]', $fields["people_name"], $message );
+            $message = str_replace( '[people_singular_masculine]', $fields["people_singular_masculine"], $message );
+            $message = str_replace( '[people_singular_feminine]', $fields["people_singular_feminine"], $message );
+            $message = str_replace( '[people_plural_masculine]', $fields["people_plural_masculine"], $message );
+            $message = str_replace( '[people_plural_feminine]', $fields["people_plural_feminine"], $message );
             $message = str_replace( '[people_name]', $fields["people_name"], $message );
             $message = str_replace( '[location_name]', $fields["location_name"], $message );
             return $message;
