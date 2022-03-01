@@ -544,7 +544,7 @@ class P4_Ramadan_Porch_Landing_Tab_Starter_Content {
                                     </button>
                                 </td>
                                 <td>
-                                    <button type="submit" name="install_ramadan_language_english" class="button" value="<?php echo esc_html( $language_key ); ?>" <?php disabled( false ) ?>>
+                                    <button type="submit" name="install_ramadan_language_english" class="button" value="<?php echo esc_html( $language_key ); ?>" <?php disabled( $already_installed ) ?>>
                                         Install Content in English
                                     </button>
                                 </td>
