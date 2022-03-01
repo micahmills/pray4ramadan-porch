@@ -50,7 +50,7 @@ class P4_Ramadan_Porch_Landing_Post_Type
         add_action( 'save_post', [ $this, 'save_post' ] );
 
         if ( is_admin() && isset( $_GET['post_type'] ) && PORCH_LANDING_POST_TYPE === $_GET['post_type'] ){
-
+            add_action( 'pre_get_posts', [ $this, 'dt_landing_order_by_date' ] );
             add_filter( 'manage_'.$this->post_type.'_posts_columns', [ $this, 'set_custom_edit_columns' ] );
             add_action( 'manage_'.$this->post_type.'_posts_custom_column', [ $this, 'custom_column' ], 10, 2 );
         }
@@ -149,6 +149,26 @@ class P4_Ramadan_Porch_Landing_Post_Type
             ) /* end of options */
         ); /* end of register post type */
     } // End register_post_type()
+
+
+    /**
+     * Order post list by date by default
+     * @param $query
+     * @return void
+     */
+    public function dt_landing_order_by_date( $query ){
+        if( !is_admin() )
+            return;
+
+        $screen = get_current_screen();
+        if( 'edit' == $screen->base
+            && 'landing' == $screen->post_type
+            && !isset( $_GET['orderby'] ) ){
+            $query->set( 'orderby', 'date' );
+            $query->set( 'order', 'ASC' );
+        }
+    }
+
 
 
     public function transition_post( $new_status, $old_status, $post ) {
