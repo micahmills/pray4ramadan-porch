@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pray4Ramadan Porch\n"
-"POT-Creation-Date: 2022-03-01 12:10+0100\n"
+"POT-Creation-Date: 2022-03-01 13:09+0100\n"
 "PO-Revision-Date: 2018-01-29 05:53-0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1360,132 +1360,150 @@ msgid ""
 "entire 30 days of Ramadan."
 msgstr ""
 
-#: site/home-body.php:43
+#: site/archive-body.php:84
+msgid "Today's Prayer Fuel"
+msgstr ""
+
+#: site/archive-body.php:104
+msgid "All Days"
+msgstr ""
+
+#: site/archive-body.php:106 site/landing-body.php:100
+msgid ""
+"Use these resources to help pray specifically each day for the month of "
+"Ramadan."
+msgstr ""
+
+#: site/archive-body.php:132
+msgid "Read"
+msgstr ""
+
+#: site/home-body.php:38
 msgid "Our"
 msgstr ""
 
-#: site/home-body.php:43
+#: site/home-body.php:38
 msgid "Vision"
 msgstr ""
 
-#: site/home-body.php:66
+#: site/home-body.php:61
 msgid "Extraordinary Prayer"
 msgstr ""
 
-#: site/home-body.php:67
+#: site/home-body.php:62
 msgid ""
 "Every disciple making movement in history has happened in the context of "
 "extraordinary prayer."
 msgstr ""
 
-#: site/home-body.php:75
+#: site/home-body.php:70
 msgid "Movement Focused"
 msgstr ""
 
-#: site/home-body.php:76
+#: site/home-body.php:71
 msgid ""
 "Join us in asking, seeking, and knocking for streams of disciples and "
 "churches to be made."
 msgstr ""
 
-#: site/home-body.php:84
+#: site/home-body.php:79
 msgid "24/7 for 30 Days"
 msgstr ""
 
-#: site/home-body.php:85
+#: site/home-body.php:80
 msgid ""
 "Choose a 15-minute (or more!) time slot that you can pray during each day. "
 "Invite someone else to sign up too."
 msgstr ""
 
-#: site/home-body.php:90 site/top-section.php:72
+#: site/home-body.php:85 site/top-section.php:74
 msgid "Sign Up to Pray"
 msgstr ""
 
-#: site/home-body.php:160
+#: site/home-body.php:155
 msgid "Ramadan is Finished"
 msgstr ""
 
-#: site/home-body.php:173
+#: site/home-body.php:168
 msgid "Ramadan Ends ..."
 msgstr ""
 
-#: site/home-body.php:174 site/home-body.php:181
+#: site/home-body.php:169 site/home-body.php:176
 msgid "days"
 msgstr ""
 
-#: site/home-body.php:175 site/home-body.php:182
+#: site/home-body.php:170 site/home-body.php:177
 msgid "hours"
 msgstr ""
 
-#: site/home-body.php:176 site/home-body.php:183
+#: site/home-body.php:171 site/home-body.php:178
 msgid "minutes"
 msgstr ""
 
-#: site/home-body.php:177 site/home-body.php:184
+#: site/home-body.php:172 site/home-body.php:179
 msgid "seconds"
 msgstr ""
 
-#: site/home-body.php:180
+#: site/home-body.php:175
 msgid "Ramadan Begins ..."
 msgstr ""
 
-#: site/home-body.php:194
+#: site/home-body.php:189
 msgid "Sign Up to"
 msgstr ""
 
-#: site/home-body.php:194
+#: site/home-body.php:189
 msgid "Pray"
 msgstr ""
 
-#: site/home-body.php:200
+#: site/home-body.php:195
 msgid "here"
 msgstr ""
 
-#: site/home-body.php:229
+#: site/home-body.php:224
 msgid "Days"
 msgstr ""
 
-#: site/home-body.php:242
+#: site/home-body.php:237
 msgid "Hours of Prayer"
 msgstr ""
 
-#: site/home-body.php:255
+#: site/home-body.php:250
 msgid "Prayer Commitments Needed"
 msgstr ""
 
-#: site/home-body.php:270
+#: site/home-body.php:265
 msgid "15-Minute"
 msgstr ""
 
-#: site/home-body.php:270 site/top-section.php:27
+#: site/home-body.php:265 site/top-section.php:29
 msgid "Prayer Fuel"
 msgstr ""
 
-#: site/home-body.php:272
+#: site/home-body.php:267
 msgid ""
 "Use these resources to help pray specifically each day for the month of "
 "Ramadan"
 msgstr ""
 
-#: site/home-body.php:273
+#: site/home-body.php:268
 msgid "View All"
 msgstr ""
 
-#: site/top-section.php:21
+#: site/top-section.php:23
 msgid "Home"
 msgstr ""
 
-#: site/top-section.php:24
+#: site/top-section.php:26
 msgid "Sign Up"
 msgstr ""
 
-#: site/top-section.php:64
+#: site/top-section.php:66
 #, php-format
 msgid "Strategic prayer for a disciple making movement in %s"
 msgstr ""
 
-#: site/top-section.php:66
+#: site/top-section.php:68
 msgid "Strategic prayer for a disciple making movement"
 msgstr ""
 
