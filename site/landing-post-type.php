@@ -47,6 +47,7 @@ class P4_Ramadan_Porch_Landing_Post_Type
         add_action( 'init', [ $this, 'register_post_type' ] );
         add_action( 'transition_post_status', [ $this, 'transition_post' ], 10, 3 );
         add_action( 'add_meta_boxes', [ $this, 'add_meta_box' ] );
+        add_action( 'save_post', [ $this, 'save_post' ] );
 
         if ( is_admin() && isset( $_GET['post_type'] ) && PORCH_LANDING_POST_TYPE === $_GET['post_type'] ){
 
@@ -59,12 +60,37 @@ class P4_Ramadan_Porch_Landing_Post_Type
     public function add_meta_box( $post_type ) {
         if ( PORCH_LANDING_POST_TYPE === $post_type ) {
             add_meta_box( PORCH_LANDING_POST_TYPE . '_custom_permalink', PORCH_LANDING_POST_TYPE_SINGLE . ' Url', [ $this, 'meta_box_custom_permalink' ], PORCH_LANDING_POST_TYPE, 'side', 'default' );
+            add_meta_box( PORCH_LANDING_POST_TYPE . '_page_language', 'Post Language', [ $this, 'meta_box_page_language' ], PORCH_LANDING_POST_TYPE, 'side', 'default' );
         }
     }
 
     public function meta_box_custom_permalink( $post ) {
         $public_key = get_post_meta( $post->ID, PORCH_LANDING_META_KEY, true );
         echo '<a href="' . esc_url( trailingslashit( site_url() ) . PORCH_LANDING_ROOT . '/' . PORCH_LANDING_TYPE . '/' . $public_key ) . '">'. esc_url( trailingslashit( site_url() ) . PORCH_LANDING_ROOT . '/' . PORCH_LANDING_TYPE . '/' . $public_key ) .'</a>';
+    }
+
+    public function meta_box_page_language( $post ) {
+        $lang = get_post_meta( $post->ID, 'post_language', true );
+        $langs = dt_ramadan_list_languages();
+        if ( empty( $lang ) ){
+            $lang = 'en_US';
+        }
+        ?>
+        <select class="dt-magic-link-language-selector" name="dt-landing-language-selector">
+            <?php foreach ( $langs as $code => $language ) : ?>
+                <option value="<?php echo esc_html( $code ); ?>" <?php selected( $lang === $code ) ?>>
+                    <?php echo esc_html( $language["flag"] ); ?> <?php echo esc_html( $language["native_name"] ); ?>
+                </option>
+            <?php endforeach; ?>
+        </select>
+        <?php
+    }
+
+    public function save_post( $id ){
+        if ( isset( $_POST["dt-landing-language-selector"] ) ){
+            $post_submission = dt_recursive_sanitize_array( $_POST );
+            update_post_meta( $post_submission["ID"], 'post_language', $post_submission["dt-landing-language-selector"]);
+        }
     }
 
 
@@ -154,6 +180,7 @@ class P4_Ramadan_Porch_Landing_Post_Type
     public function set_custom_edit_columns( $columns) {
         unset( $columns['author'] );
         $columns['url'] = 'URL';
+        $columns['language'] = 'Language';
 
         return $columns;
     }
@@ -166,6 +193,18 @@ class P4_Ramadan_Porch_Landing_Post_Type
             case 'url' :
                 $public_key = get_post_meta( $post_id, PORCH_LANDING_META_KEY, true );
                 echo '<a href="' . esc_url( trailingslashit( site_url() ) ) . esc_attr( PORCH_LANDING_ROOT ) . '/' . esc_attr( PORCH_LANDING_TYPE ) . '/' . esc_attr( $public_key ) . '">'. esc_url( trailingslashit( site_url() ) ) . esc_attr( PORCH_LANDING_ROOT ) . '/' . esc_attr( PORCH_LANDING_TYPE ) . '/' . esc_attr( $public_key ) .'</a>';
+                break;
+            case 'language' :
+                $language = get_post_meta( $post_id, 'post_language', true );
+                if ( empty( $language ) ){
+                    $language = "en_US";
+                }
+                $languages = dt_ramadan_list_languages();
+                if ( !isset( $languages[$language]["flag"] ) ){
+                    echo esc_html( $language );
+                } else {
+                    echo esc_html( $languages[$language]["flag"] );
+                }
                 break;
 
         }

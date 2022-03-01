@@ -33,7 +33,7 @@ class P4_Ramadan_Porch_Landing_Menu {
      */
     public function register_menu() {
         if ( current_user_can( 'wp_api_allowed_user' ) ) {
-            add_submenu_page( 'edit.php?post_type=' . PORCH_LANDING_POST_TYPE, $this->title, $this->title, "edit_" . PORCH_LANDING_POST_TYPE, $this->token, [ $this, 'content' ] );
+            add_submenu_page( 'edit.php?post_type=' . PORCH_LANDING_POST_TYPE, $this->title, $this->title, "edit_" . PORCH_LANDING_POST_TYPE, $this->token, [ $this, 'content' ], 0 );
         }
     }
 
@@ -436,9 +436,46 @@ class P4_Ramadan_Porch_Landing_Tab_Starter_Content {
 
     public function main_column() {
 
-        $result = [];
+
         if ( isset( $_POST['install_ramadan_nonce'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['install_ramadan_nonce'] ) ), 'install_ramadan' ) ) {
-             $result = P4_Ramadan_Porch_Starter_Content::load_content();
+            $language = 'en_US';
+            if ( isset( $_POST["install_ramadan_language"] ) ){
+                $language = sanitize_text_field( wp_unslash( $_POST["install_ramadan_language"] ) );
+            }
+            $from_translation = null;
+            if ( isset( $_POST["install_ramadan_language_english"] ) ){
+                $language = sanitize_text_field( wp_unslash( $_POST["install_ramadan_language_english"] ) );
+                $from_translation = 'en_US';
+            }
+            $args = [
+                "location_name" => isset( $_POST[ $language . "_location_name"] ) ? sanitize_text_field( wp_unslash( $_POST[ $language . "_location_name"] ) ) : null,
+                "people_singular_masculine" => isset( $_POST[ $language . "_people_singular_masculine"] ) ? sanitize_text_field( wp_unslash( $_POST[ $language . "_people_singular_masculine"] ) ) : null,
+                "people_singular_feminine" => isset( $_POST[ $language . "_people_singular_feminine"] ) ? sanitize_text_field( wp_unslash( $_POST[ $language . "_people_singular_feminine"] ) ) : null,
+                "people_plural_masculine" => isset( $_POST[ $language . "_people_plural_masculine"] ) ? sanitize_text_field( wp_unslash( $_POST[ $language . "_people_plural_masculine"] ) ) : null,
+                "people_plural_feminine" => isset( $_POST[ $language . "_people_plural_feminine"] ) ? sanitize_text_field( wp_unslash( $_POST[ $language . "_people_plural_feminine"] ) ) : null,
+            ];
+
+            P4_Ramadan_Porch_Starter_Content::load_content( $language, $args, $from_translation );
+        }
+        $languages = dt_ramadan_list_languages();
+        $fields = p4r_porch_fields();
+        global $wpdb;
+        $installed_langs_query = $wpdb->get_results( "
+            SELECT pm.meta_value, count(*) as count
+            FROM $wpdb->posts p
+            LEFT JOIN $wpdb->postmeta pm ON ( p.ID = pm.post_id AND meta_key = 'post_language' )
+            WHERE post_type = 'landing' and ( post_status = 'publish' or post_status = 'future')
+            GROUP BY meta_value
+        ", ARRAY_A);
+        $installed_langs = [];
+        foreach ( $installed_langs_query as $result ){
+            if ( $result["meta_value"] === NULL ){
+                $result["meta_value"] = 'en_US';
+            }
+            if ( !isset( $installed_langs[$result["meta_value"]] ) ){
+                $installed_langs[$result["meta_value"]] = 0;
+            }
+            $installed_langs[$result["meta_value"]] += $result["count"];
         }
 
         ?>
@@ -452,23 +489,53 @@ class P4_Ramadan_Porch_Landing_Tab_Starter_Content {
                 </tr>
                 </thead>
                 <tbody>
+                    <tr><td>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>Language</th>
+                            <th>Installed Posts</th>
+                            <th>Location Name</th>
+                            <th>People Singular Masculine</th>
+                            <th>People Singular Feminine</th>
+                            <th>People Plural Masculine</th>
+                            <th>People Plural Feminine</th>
+                            <th>Install</th>
+                            <th>Install in English</th>
+                        </tr>
+                        </thead>
+                        <tbody>
 
-                <?php if ( $result ) : ?>
-                    <tr>
-                        <td>
-                            <a href="<?php echo esc_url( admin_url() ); ?>edit.php?post_type=landing">List of Landing Page</a><br><hr><br>
-                            <?php foreach ( $result as $item ) : ?>
-                                <a href="<?php echo esc_url( admin_url() ); ?>post.php?post=<?php echo esc_attr( $item ) ?>&action=edit"><?php echo esc_html( get_the_title( $item ) ) ?></a><br>
-                            <?php endforeach; ?>
-                        </td>
-                    </tr>
-                <?php else : ?>
-                    <tr>
-                        <td>
-                            <button type="submit" name="install_ramadan_1" class="button" value="1">Install Ramadan Starter Content</button>
-                        </td>
-                    </tr>
-                <?php endif; ?>
+                        <?php foreach ( $languages as $language_key => $language ) :
+                            $people_name = get_field_translation( $fields["people_name"], $language_key );
+                            $country_name = get_field_translation( $fields["country_name"], $language_key );
+                            $already_installed = ( $installed_langs[$language_key] ?? 0 ) > 0;
+                            $available_in_language = $language["prayer_fuel"] ?? false;
+                            ?>
+                            <tr>
+                                <td><?php echo esc_html( $language["flag"] ); ?></td>
+                                <td><?php echo esc_html( $installed_langs[$language_key] ?? 0 ); ?></td>
+                                <td><input style="width:150px" name="<?php echo esc_html( $language_key ); ?>_location_name" value="<?php echo esc_html( $country_name ); ?>"></td>
+                                <td><input style="width:150px" name="<?php echo esc_html( $language_key ); ?>_people_singular_masculine" value="<?php echo esc_html( $people_name ); ?>"></td>
+                                <td><input style="width:150px" name="<?php echo esc_html( $language_key ); ?>_people_singular_feminine" value="<?php echo esc_html( $people_name ); ?>"></td>
+                                <td><input style="width:150px" name="<?php echo esc_html( $language_key ); ?>_people_plural_masculine" value="<?php echo esc_html( $people_name ); ?>"></td>
+                                <td><input style="width:150px" name="<?php echo esc_html( $language_key ); ?>_people_plural_feminine" value="<?php echo esc_html( $people_name ); ?>"></td>
+                                <td>
+                                    <button type="submit" name="install_ramadan_language" class="button" value="<?php echo esc_html( $language_key ); ?>" <?php disabled( $already_installed || !$available_in_language ) ?>>
+                                        Install Ramadan Starter Content
+                                    </button>
+                                </td>
+                                <td>
+                                    <button type="submit" name="install_ramadan_language_english" class="button" value="<?php echo esc_html( $language_key ); ?>" <?php disabled( $already_installed ) ?>>
+                                        Install Content in English
+                                    </button>
+                                </td>
+                            </tr>
+
+                        <?php endforeach; ?>
+                        </tbody>
+                    </table>
+                    </td></tr>
                 </tbody>
             </table>
             <br>

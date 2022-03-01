@@ -1,7 +1,35 @@
 <?php
+$lang = dt_ramadan_get_current_lang();
 $porch_fields = p4r_porch_fields();
 if ( isset( $this->parts['post_id'] ) && ! empty( $this->parts['post_id'] ) ) {
     $my_postid = $this->parts['post_id'];//This is page id or post id
+    global $wpdb;
+    $post_id = $wpdb->get_var( $wpdb->prepare("
+        SELECT p.ID
+        FROM $wpdb->posts p
+        JOIN $wpdb->postmeta pm ON ( p.ID = pm.post_ID AND pm.meta_key = 'prayer_fuel_magic_key' AND pm.meta_value = %s )
+        JOIN $wpdb->postmeta lang ON ( p.ID = lang.post_ID AND lang.meta_key = 'post_language' AND lang.meta_value = %s )
+        WHERE post_type = %s
+        AND post_status = 'publish'
+    ", $this->parts['public_key'], $lang, PORCH_LANDING_POST_TYPE ) );
+
+    if ( empty( $post_id ) ){
+        $post_id = $wpdb->get_var( $wpdb->prepare("
+            SELECT p.ID
+            FROM $wpdb->posts p
+            JOIN $wpdb->postmeta pm ON ( p.ID = pm.post_ID AND pm.meta_key = 'prayer_fuel_magic_key' AND pm.meta_value = %s )
+            LEFT JOIN $wpdb->postmeta lang ON ( p.ID = lang.post_ID AND lang.meta_key = 'post_language' )
+            WHERE post_type = %s
+            AND post_status = 'publish'
+            AND ( lang.meta_value = 'en_US' OR lang.meta_value IS NULL )
+        ", $this->parts['public_key'], PORCH_LANDING_POST_TYPE ) );
+    }
+
+    if ( !empty( $post_id ) ){
+        $my_postid = $post_id;
+    }
+
+
     $post_status = get_post_status( $my_postid );
     $content_post = get_post( $my_postid );
     $content = $content_post->post_content;
