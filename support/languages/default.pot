@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pray4Ramadan Porch\n"
-"POT-Creation-Date: 2022-03-01 13:09+0100\n"
+"POT-Creation-Date: 2022-03-03 15:57+0100\n"
 "PO-Revision-Date: 2018-01-29 05:53-0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -443,7 +443,7 @@ msgid ""
 "Today as another day of fasting and feasting passes, we take comfort in "
 "knowing nothing can hinder your Kingdom advancing among the nations. We "
 "pray for many in [location_name] to actively participate in bringing Your "
-"Kingdom to the peoples of [Europe]."
+"Kingdom among the nations."
 msgstr ""
 
 #: admin/starter-content.php:215
@@ -536,7 +536,7 @@ msgid ""
 "throughout the whole region.\" (Acts 13:47,49) Thank you that "
 "[location_name] is a part of those ’ends of the earth’. We agree with Your "
 "word today Lord and pray that it would spread throughout the whole region "
-"of [location_name] and [Europe]."
+"of [location_name]."
 msgstr ""
 
 #: admin/starter-content.php:230
@@ -800,7 +800,7 @@ msgstr ""
 
 #: admin/starter-content.php:272
 msgid ""
-" \"By faith Moses, when he was grown up, refused to be called the son of "
+"\"By faith Moses, when he was grown up, refused to be called the son of "
 "Pharaoh’s daughter, choosing rather to be mistreated with the people of "
 "God than to enjoy the fleeting pleasures of sin.\" (Hebrews 11:24-25) "
 "Lord, give all believers in [location_name] an eternal perspective to find "
@@ -960,7 +960,7 @@ msgstr ""
 
 #: admin/starter-content.php:300
 msgid ""
-" \"By faith the people crossed the Red Sea as on dry land, but the "
+"\"By faith the people crossed the Red Sea as on dry land, but the "
 "Egyptians, when they attempted to do the same, were drowned.\" (Hebrews "
 "11:29) We pray for God’s miraculous works recorded in the Bible to stir "
 "believers in [location_name] to live by faith in ever-increasing measure."
@@ -1087,7 +1087,7 @@ msgstr ""
 
 #: admin/starter-content.php:321
 msgid ""
-" \"And what more shall I say? For time would fail me to tell of Gideon..."
+"\"And what more shall I say? For time would fail me to tell of Gideon..."
 "\" (Hebrews 11:32-35a) Gideon allowed God to dwindle an army of more than "
 "30,000 to 300 so that God would receive all of the glory for the victory. "
 "Raise up leaders like Gideon in [location_name], men and women who will "
@@ -1129,7 +1129,7 @@ msgstr ""
 
 #: admin/starter-content.php:328
 msgid ""
-" \"And what more shall I say? For time would fail me to tell of... Barak..."
+"\"And what more shall I say? For time would fail me to tell of... Barak..."
 "\" (Hebrews 11:32-35a) Though Barak stumbled with fear, he still led "
 "10,000 people to victory and freedom for the people of God. We pray for "
 "godly [people_name] leaders to be used by God, despite their weaknesses, "
@@ -1165,7 +1165,7 @@ msgstr ""
 
 #: admin/starter-content.php:335
 msgid ""
-" \"And what more shall I say? For time would fail me to tell of... David..."
+"\"And what more shall I say? For time would fail me to tell of... David..."
 "\" (Hebrews 11:32-35a) Please raise up many like David in [location_name], "
 "men and women after God’s own heart. As they chase after God’s heart, may "
 "they lead many others into relationship with Him."
@@ -1270,7 +1270,7 @@ msgstr ""
 
 #: admin/starter-content.php:353
 msgid ""
-" “O Lord, God of our fathers, are you not God in heaven? You rule over all "
+"“O Lord, God of our fathers, are you not God in heaven? You rule over all "
 "the kingdoms of the [people_name] nations. In your hand are power and "
 "might, so that none is able to withstand you. (2 Chronicles 20:6)"
 msgstr ""
