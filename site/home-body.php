@@ -296,7 +296,7 @@ if ( $dt_ramadan_selected_campaign_magic_link_settings["color"] === "preset" ){
                 </div>
                 <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
                     <p>
-                        Made with &#10084;&#65039; by <a href="https://pray4movement.org">Pray4Movments.org</a><br>
+                        Made with &#10084;&#65039; by <a href="https://pray4movement.org">Pray4Movement.org</a><br>
                         Powered by <a href="https://disciple.tools">Disciple.Tools</a><br>
                         &copy;  <?php echo esc_html ( date("Y") ); ?>
                     </p>
