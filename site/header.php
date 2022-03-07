@@ -48,7 +48,7 @@ $porch_fields = p4r_porch_fields();
         background-image: url(<?php echo esc_html( empty( $porch_fields['header_background_url']['value'] ) ? trailingslashit( plugin_dir_url( __FILE__ ) ) . 'img/stencil-header.png' : $porch_fields['header_background_url']['value'] ) ?>);
         background-size: cover;
         position: absolute;
-        top: 0;
+        top: -20px;
         right: 0;
         bottom: 0;
         left: 0;
