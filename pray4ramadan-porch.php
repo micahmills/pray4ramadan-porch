@@ -117,6 +117,7 @@ class P4_Ramadan_Porch {
         $hex = '#4676fa';
         if ( isset( $fields['theme_color']['value'] ) && ! empty( $fields['theme_color']['value'] ) && ! defined( 'PORCH_COLOR_SCHEME' ) ) {
             $theme = $fields['theme_color']['value'];
+            $hex = $fields['theme_color']['value'];
             switch ( $theme ) {
                 case 'preset':
                     $hex = '#4676fa';
@@ -137,6 +138,10 @@ class P4_Ramadan_Porch {
                     $hex = '#1AB7D8';
                     break;
             }
+        }
+        if ( isset( $fields['custom_theme_color']['value'] ) && ! empty( $fields['custom_theme_color']['value'] ) ){
+            $theme = 'custom';
+            $hex = $fields['custom_theme_color']['value'];
         }
         define( 'PORCH_COLOR_SCHEME', $theme );
         define( 'PORCH_COLOR_SCHEME_HEX', $hex );
@@ -345,6 +350,11 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
                 'label' => 'Theme Color',
                 'value' => 'preset',
                 'type' => 'theme_select',
+            ],
+            'custom_theme_color' => [
+                'label' => 'Custom Theme Color',
+                'value' => '',
+                'type' => 'text'
             ],
             'country_name' => [
                 'label' => 'Location Name',

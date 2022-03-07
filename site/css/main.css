@@ -234,7 +234,7 @@ a:not([href]):not([tabindex]):hover {
   top: 0px;
   left: 0px;
   /*background: #4676fa;*/
-  /*opacity: 0.7;*/
+  opacity: 0.7;
   /*filter: alpha(opacity=70);*/
 }
 #hero-area .content-height {
@@ -767,8 +767,8 @@ a:not([href]):not([tabindex]):hover {
   top: 0px;
   left: 0px;
   background: #4676fa;
-  opacity: 0.7;
-  filter: alpha(opacity=70);
+  /*opacity: 0.7;*/
+  /*filter: alpha(opacity=70);*/
 }
 /* ==========================================================================
     Pricing Table
