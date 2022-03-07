@@ -36,7 +36,7 @@ $langs = dt_ramadan_list_languages();
 <!-- end Nav -->
 
 <!-- HEADER -->
-<header id="hero-area" data-stellar-background-ratio="0.7" class="stencil-background">
+<header id="hero-area" data-stellar-background-ratio="0.5" class="stencil-background">
     <div class="fixed-top">
         <div class="container">
             <div class="logo-menu">
