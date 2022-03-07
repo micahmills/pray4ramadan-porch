@@ -40,7 +40,7 @@ $langs = dt_ramadan_list_languages();
     <div class="fixed-top">
         <div class="container">
             <div class="logo-menu">
-                <a href="/" class="logo"><?php echo esc_html( $porch_fields['title']['value'] ) ?></a>
+                <a href="<?php echo esc_url( $porch_fields['logo_link_url']['value'] ?? "/" ) ?>" class="logo"><?php echo esc_html( $porch_fields['title']['value'] ) ?></a>
                 <select class="dt-magic-link-language-selector">
                     <?php foreach ( $langs as $code => $language ) : ?>
                         <option value="<?php echo esc_html( $code ); ?>" <?php selected( $lang === $code ) ?>>

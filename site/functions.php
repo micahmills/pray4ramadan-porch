@@ -47,10 +47,13 @@ function dt_ramadan_list_languages(){
 }
 
 function get_field_translation( $field, $code ){
+    if ( empty( $field ) ){
+        return "";
+    }
     if ( isset( $field["translations"][$code] ) && !empty( $field["translations"][$code] ) ){
         return $field["translations"][$code];
     }
-    return $field["value"] ?: $field["default"];
+    return $field["value"] ?: ( $field["default"] ?? "" );
 }
 
 function dt_ramadan_get_current_lang(){

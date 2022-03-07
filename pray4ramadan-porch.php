@@ -365,7 +365,12 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
                 'translations' => [],
             ],
             'logo_url' => [
-                'label' => 'Logo URL',
+                'label' => 'Logo Image URL',
+                'value' => '',
+                'type' => 'text',
+            ],
+            'logo_link_url' => [
+                'label' => 'Logo Link to URL',
                 'value' => '',
                 'type' => 'text',
             ],
@@ -433,8 +438,8 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
         $saved_fields = get_option( 'p4r_porch_fields', [] );
 
         $lang = dt_ramadan_get_current_lang();
-        $people_name = get_field_translation( $saved_fields["people_name"], $lang );
-        $country_name = get_field_translation( $saved_fields["country_name"], $lang );
+        $people_name = get_field_translation( $saved_fields["people_name"] ?? [], $lang );
+        $country_name = get_field_translation( $saved_fields["country_name"] ?? [], $lang );
 
         $defaults["goal"]["default"] = sprintf( $defaults["goal"]["default"], !empty( $country_name ) ? $country_name : "COUNTRY", );
 
