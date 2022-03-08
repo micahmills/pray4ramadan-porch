@@ -141,7 +141,7 @@ if ( $dt_ramadan_selected_campaign_magic_link_settings["color"] === "preset" ){
             var endCountDownDate = '<?php echo $timezone_adjusted_end_date ?>'
 
 
-            var now = new Date().getTime()
+            var now = new Date().getTime() / 1000
             var timeleft = countDownDate - now;
             var endtimeleft = endCountDownDate - now ;
 
