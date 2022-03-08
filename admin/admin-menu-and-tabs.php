@@ -475,6 +475,26 @@ class P4_Ramadan_Porch_Landing_Tab_Starter_Content {
                     AND ( t2.post_status = 'publish' OR t2.post_status = 'future' )
                 ");
             }
+
+            if ( isset( $_POST["delete_posts"] ) ){
+                $language = sanitize_text_field( wp_unslash( $_POST["delete_posts"] ) );
+                $wpdb->query( $wpdb->prepare( "
+                    DELETE t1 FROM $wpdb->posts t1
+                    LEFT JOIN $wpdb->postmeta t1m ON ( t1m.post_ID = t1.ID and t1m.meta_key = 'post_language')
+                    WHERE t1m.meta_value = %s
+                    AND ( t1.post_status = 'publish' OR t1.post_status = 'future' )
+                    AND t1.post_type = 'landing'
+                ", $language ) );
+                if ( $language === "en_US" ){
+                    $wpdb->query( "
+                        DELETE t1 FROM $wpdb->posts t1
+                        LEFT JOIN $wpdb->postmeta t1m ON ( t1m.post_ID = t1.ID and t1m.meta_key = 'post_language')
+                        WHERE t1m.meta_value IS NULL
+                        AND ( t1.post_status = 'publish' OR t1.post_status = 'future' )
+                        AND t1.post_type = 'landing'
+                    " );
+                }
+            }
         }
         $languages = dt_ramadan_list_languages();
         $fields = p4r_porch_fields();
@@ -521,6 +541,8 @@ class P4_Ramadan_Porch_Landing_Tab_Starter_Content {
                             <th>People Plural Feminine</th>
                             <th>Install</th>
                             <th>Install in English</th>
+                            <th>Delete Posts</th>
+                            <th>Duplicates</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -530,6 +552,7 @@ class P4_Ramadan_Porch_Landing_Tab_Starter_Content {
                             $country_name = get_field_translation( $fields["country_name"], $language_key );
                             $already_installed = ( $installed_langs[$language_key] ?? 0 ) > 0;
                             $available_in_language = $language["prayer_fuel"] ?? false;
+                            $delete_enabled = ( $installed_langs[$language_key] ?? 0 ) > 1
                             ?>
                             <tr>
                                 <td><?php echo esc_html( $language["flag"] ); ?></td>
@@ -548,6 +571,16 @@ class P4_Ramadan_Porch_Landing_Tab_Starter_Content {
                                     <button type="submit" name="install_ramadan_language_english" class="button" value="<?php echo esc_html( $language_key ); ?>" <?php disabled( $already_installed ) ?>>
                                         Install Content in English
                                     </button>
+                                </td>
+                                <td>
+                                    <button type="button" onclick="jQuery('#confirm-delete-<?php echo esc_html( $language_key ); ?>').show()" class="button" <?php disabled( !$delete_enabled ) ?>>
+                                        Delete all <?php echo esc_html( $language["flag"] ); ?>
+                                    </button>
+                                    <div id="confirm-delete-<?php echo esc_html( $language_key ); ?>" style="display: none">
+                                        Are you sure? <button type="submit" class="button button-primary" name="delete_posts" value="<?php echo esc_html( $language_key ); ?>">Yes</button>
+                                        <button type="button" class="button button-secondary" onclick="jQuery('#confirm-delete-<?php echo esc_html( $language_key ); ?>').hide()">No</button>
+                                    </div>
+
                                 </td>
                                 <td>
                                     <?php if ( ( $installed_langs[$language_key] ?? 0 ) > 60 ) :?>
