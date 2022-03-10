@@ -314,7 +314,7 @@ if ( ! function_exists( 'p4r_porch_hook_admin_notice' ) ) {
 /**
  * AJAX handler to store the state of dismissible notices.
  */
-if ( ! function_exists( "dt_hook_ajax_notice_handler" )){
+if ( !function_exists( "dt_hook_ajax_notice_handler" ) ){
     function dt_hook_ajax_notice_handler(){
         check_ajax_referer( 'wp_rest_dismiss', 'security' );
         if ( isset( $_POST["type"] ) ){
@@ -328,7 +328,7 @@ add_action( 'plugins_loaded', function (){
     if ( is_admin() && !( is_multisite() && class_exists( "DT_Multisite" ) ) || wp_doing_cron() ){
         // Check for plugin updates
         if ( ! class_exists( 'Puc_v4_Factory' ) ) {
-            if ( file_exists( get_template_directory() . '/dt-core/libraries/plugin-update-checker/plugin-update-checker.php' )){
+            if ( file_exists( get_template_directory() . '/dt-core/libraries/plugin-update-checker/plugin-update-checker.php' ) ){
                 require( get_template_directory() . '/dt-core/libraries/plugin-update-checker/plugin-update-checker.php' );
             }
         }
@@ -451,12 +451,12 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
         $people_name = get_field_translation( $saved_fields["people_name"] ?? [], $lang );
         $country_name = get_field_translation( $saved_fields["country_name"] ?? [], $lang );
 
-        $defaults["goal"]["default"] = sprintf( $defaults["goal"]["default"], !empty( $country_name ) ? $country_name : "COUNTRY", );
+        $defaults["goal"]["default"] = sprintf( $defaults["goal"]["default"], !empty( $country_name ) ? $country_name : "COUNTRY" );
 
         $defaults["what_content"]["default"] = sprintf(
             $defaults["what_content"]["default"],
             !empty( $country_name ) ? $country_name : "COUNTRY",
-            !empty( $people_name ) ? $people_name : "PEOPLE",
+            !empty( $people_name ) ? $people_name : "PEOPLE"
         );
 
         return p4r_recursive_parse_args( $saved_fields, $defaults );
