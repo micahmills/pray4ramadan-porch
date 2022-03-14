@@ -24,7 +24,8 @@ if ( empty( $today->posts ) ){
                 'key'     => 'post_language',
                 'value'   => 'en_US',
                 'compare' => '=',
-            ],[
+            ],
+            [
                 'key'     => 'post_language',
                 'compare' => 'NOT EXISTS',
             ],
@@ -60,7 +61,8 @@ if ( empty( $list->posts ) ){
                 'key'     => 'post_language',
                 'value'   => 'en_US',
                 'compare' => '=',
-            ],[
+            ],
+            [
                 'key'     => 'post_language',
                 'compare' => 'NOT EXISTS',
             ],
@@ -68,11 +70,7 @@ if ( empty( $list->posts ) ){
     );
     $list = new WP_Query( $args );
 }
-
 ?>
-
-
-
 
 <!-- TODAYS POST Section -->
 <section id="contact" class="section">
@@ -89,6 +87,14 @@ if ( empty( $list->posts ) ){
                             <?php echo wp_kses_post( $item->post_content ) ?>
                         <?php endforeach; ?>
                     </div>
+                    <?php
+                    if ( isset( $porch_fields['show_prayer_timer']['value'] ) && ( $porch_fields['show_prayer_timer']['value'] === 'yes' ) || empty( $porch_fields['show_prayer_timer']['value'] ) ) :
+                        if ( function_exists( 'show_prayer_timer' ) ) : ?>
+                            <div class="mt-5">
+                                <?php show_prayer_timer( [ 'color' => PORCH_COLOR_SCHEME_HEX, 'duration' => 15] ); ?>
+                            </div>
+                        <?php endif;
+                    endif; ?>
                 </div>
             </div>
         </div>
@@ -167,7 +173,7 @@ if ( empty( $list->posts ) ){
                     <p>
                         Made with &#10084;&#65039; by <a href="https://pray4movement.org">Pray4Movement.org</a><br>
                         Powered by <a href="https://disciple.tools">Disciple.Tools</a><br>
-                        &copy;  <?php echo esc_html ( date("Y") ); ?>
+                        &copy;  <?php echo esc_html( date( "Y" ) ); ?>
                     </p>
                 </div>
                 <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">

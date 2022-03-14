@@ -139,6 +139,7 @@ class P4_Ramadan_Porch {
                     break;
             }
         }
+
         if ( isset( $fields['custom_theme_color']['value'] ) && ! empty( $fields['custom_theme_color']['value'] ) ){
             $theme = 'custom';
             $hex = $fields['custom_theme_color']['value'];
@@ -389,11 +390,16 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
                 'value' => trailingslashit( plugin_dir_url( __FILE__ ) ) . 'site/img/stencil-header.png',
                 'type' => 'text',
             ],
-
             'what_image' => [
                 'label' => 'What is Ramadan Image',
                 'value' => '',
                 'type' => 'text',
+            ],
+            'show_prayer_timer' => [
+                'label' => 'Show Prayer Timer',
+                'default' => __( 'Yes', 'pray4ramadan-porch' ),
+                'value' => 'yes',
+                'type' => 'prayer_timer_toggle',
             ],
             "email" => [
                 "label" => "Address to send sign-up and notification emails from",
