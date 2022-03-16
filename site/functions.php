@@ -33,13 +33,14 @@ function dt_ramadan_list_languages(){
             'language' => 'pt_PT',
             'english_name' => 'Portuguese',
             'native_name' => 'Português',
-            'flag' => '🇵🇹'
+            'flag' => '🇵🇹',
+            'prayer_fuel' => true
         ],
     ];
 
     foreach ( $available_language_codes as $code ){
         $code = str_replace( "pray4ramadan-porch-", "", $code );
-        if ( isset( $translations[$code] )){
+        if ( isset( $translations[$code] ) ){
             $available_translations[$code] = $translations[$code];
         }
     }
@@ -59,7 +60,7 @@ function get_field_translation( $field, $code ){
 function dt_ramadan_get_current_lang(){
     $lang = "en_US";
     if ( isset( $_GET["lang"] ) && !empty( $_GET["lang"] ) ){
-        $lang = sanitize_text_field( wp_unslash( $_GET["lang"] ));
+        $lang = sanitize_text_field( wp_unslash( $_GET["lang"] ) );
     } elseif ( isset( $_COOKIE["dt-magic-link-lang"] ) && !empty( $_COOKIE["dt-magic-link-lang"] ) ){
         $lang = sanitize_text_field( wp_unslash( $_COOKIE["dt-magic-link-lang"] ) );
     }
