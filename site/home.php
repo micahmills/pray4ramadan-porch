@@ -57,7 +57,7 @@ class P4_Ramadan_Porch_Home_5 extends DT_Magic_Url_Base
     }
 
     public function dt_magic_url_base_allowed_js( $allowed_js ) {
-        return ['jquery', 'lodash', 'lodash-core'];
+        return [ 'jquery', 'lodash', 'lodash-core' ];
     }
 
     public function dt_magic_url_base_allowed_css( $allowed_css ) {

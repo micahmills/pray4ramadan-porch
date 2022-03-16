@@ -2,7 +2,7 @@
 
 $lang = "en_US";
 if ( isset( $_GET["lang"] ) && !empty( $_GET["lang"] ) ){
-    $lang = sanitize_text_field( wp_unslash( $_GET["lang"] ));
+    $lang = sanitize_text_field( wp_unslash( $_GET["lang"] ) );
     setcookie( 'dt-magic-link-lang', $lang );
 } elseif ( isset( $_COOKIE["dt-magic-link-lang"] ) && !empty( $_COOKIE["dt-magic-link-lang"] ) ){
     $lang = sanitize_text_field( wp_unslash( $_COOKIE["dt-magic-link-lang"] ) );
@@ -63,7 +63,7 @@ $langs = dt_ramadan_list_languages();
                         <h1 class="wow fadeInDown" style="font-size: 3em;" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php echo esc_html( get_field_translation( $porch_fields["title"], $lang ) ) ?></h1>
                     <?php endif; ?>
                     <?php if ( !empty( $porch_fields["country_name"]["value"] ) ) : ?>
-                        <h4><?php echo sprintf( __( 'Strategic prayer for a disciple making movement in %s', 'pray4ramadan-porch' ), get_field_translation( $porch_fields["country_name"], $lang ) ); ?></h4>
+                        <h4><?php echo esc_html( sprintf( __( 'Strategic prayer for a disciple making movement in %s', 'pray4ramadan-porch' ), get_field_translation( $porch_fields["country_name"], $lang ) ) ); ?></h4>
                     <?php else : ?>
                         <h4><?php esc_html_e( 'Strategic prayer for a disciple making movement', 'pray4ramadan-porch' ); ?>
                     <?php endif; ?>
