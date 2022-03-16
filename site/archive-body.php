@@ -83,7 +83,7 @@ if ( empty( $list->posts ) ){
                         <hr class="lines wow zoomIn" data-wow-delay="0.3s">
                     </div>
                     <div class="">
-                        <?php foreach ($today->posts as $item ) : ?>
+                        <?php foreach ( $today->posts as $item ) : ?>
                             <?php echo wp_kses_post( $item->post_content ) ?>
                         <?php endforeach; ?>
                     </div>
@@ -112,7 +112,7 @@ if ( empty( $list->posts ) ){
             <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Use these resources to help pray specifically each day for the month of Ramadan.', 'pray4ramadan-porch' ); ?></p>
         </div>
         <div class="row">
-            <?php foreach ($list->posts as $item ) :
+            <?php foreach ( $list->posts as $item ) :
                 $date = gmdate( $item->post_date );
                 ?>
 
@@ -173,7 +173,7 @@ if ( empty( $list->posts ) ){
                     <p>
                         Made with &#10084;&#65039; by <a href="https://pray4movement.org">Pray4Movement.org</a><br>
                         Powered by <a href="https://disciple.tools">Disciple.Tools</a><br>
-                        &copy;  <?php echo esc_html( date( "Y" ) ); ?>
+                        &copy; <?php echo esc_html( gmdate( "Y" ) ); ?>
                     </p>
                 </div>
                 <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">

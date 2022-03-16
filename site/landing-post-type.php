@@ -3,7 +3,7 @@
  * Post Type Template
  */
 
-if ( !defined( 'ABSPATH' )) {
+if ( !defined( 'ABSPATH' ) ){
     exit;
 } // Exit if accessed directly.
 
@@ -25,7 +25,7 @@ class P4_Ramadan_Porch_Landing_Post_Type
     public $taxonomies;
     private static $_instance = null;
     public static function instance() {
-        if (is_null( self::$_instance )) {
+        if ( is_null( self::$_instance ) ){
             self::$_instance = new self();
         }
         return self::$_instance;
@@ -89,7 +89,7 @@ class P4_Ramadan_Porch_Landing_Post_Type
     public function save_post( $id ){
         if ( isset( $_POST["dt-landing-language-selector"] ) ){
             $post_submission = dt_recursive_sanitize_array( $_POST );
-            update_post_meta( $post_submission["ID"], 'post_language', $post_submission["dt-landing-language-selector"]);
+            update_post_meta( $post_submission["ID"], 'post_language', $post_submission["dt-landing-language-selector"] );
         }
     }
 
@@ -157,11 +157,12 @@ class P4_Ramadan_Porch_Landing_Post_Type
      * @return void
      */
     public function dt_landing_order_by_date( $query ){
-        if( !is_admin() )
+        if ( !is_admin() ){
             return;
+        }
 
         $screen = get_current_screen();
-        if( 'edit' == $screen->base
+        if ( 'edit' == $screen->base
             && 'landing' == $screen->post_type
             && !isset( $_GET['orderby'] ) ){
             $query->set( 'orderby', 'date' );
@@ -197,7 +198,7 @@ class P4_Ramadan_Porch_Landing_Post_Type
     }
 
     // Add the custom columns to the book post type:
-    public function set_custom_edit_columns( $columns) {
+    public function set_custom_edit_columns( $columns ){
         unset( $columns['author'] );
         $columns['url'] = 'URL';
         $columns['language'] = 'Language';

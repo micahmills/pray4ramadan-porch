@@ -11,7 +11,7 @@ $key = "";
 if ( method_exists( "DT_Magic_URL", "get_public_key_meta_key" ) ){
     $key_name = DT_Magic_URL::get_public_key_meta_key( $campaign_root, $campaign_type );
 }
-if ( isset( $campaign_fields[$key_name] )) {
+if ( isset( $campaign_fields[$key_name] ) ){
     $key = $campaign_fields[$key_name];
 }
 $atts = [
@@ -298,7 +298,7 @@ if ( $dt_ramadan_selected_campaign_magic_link_settings["color"] === "preset" ){
                     <p>
                         Made with &#10084;&#65039; by <a href="https://pray4movement.org">Pray4Movement.org</a><br>
                         Powered by <a href="https://disciple.tools">Disciple.Tools</a><br>
-                        &copy;  <?php echo esc_html ( date("Y") ); ?>
+                        &copy;  <?php echo esc_html ( gmdate("Y") ); ?>
                     </p>
                 </div>
                 <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">

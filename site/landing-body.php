@@ -4,7 +4,7 @@ $porch_fields = p4r_porch_fields();
 if ( isset( $this->parts['post_id'] ) && ! empty( $this->parts['post_id'] ) ) {
     $my_postid = $this->parts['post_id'];//This is page id or post id
     global $wpdb;
-    $post_id = $wpdb->get_var( $wpdb->prepare("
+    $content_post_id = $wpdb->get_var( $wpdb->prepare( "
         SELECT p.ID
         FROM $wpdb->posts p
         JOIN $wpdb->postmeta pm ON ( p.ID = pm.post_ID AND pm.meta_key = 'prayer_fuel_magic_key' AND pm.meta_value = %s )
@@ -13,8 +13,8 @@ if ( isset( $this->parts['post_id'] ) && ! empty( $this->parts['post_id'] ) ) {
         AND post_status = 'publish'
     ", $this->parts['public_key'], $lang, PORCH_LANDING_POST_TYPE ) );
 
-    if ( empty( $post_id ) ){
-        $post_id = $wpdb->get_var( $wpdb->prepare("
+    if ( empty( $content_post_id ) ){
+        $content_post_id = $wpdb->get_var( $wpdb->prepare( "
             SELECT p.ID
             FROM $wpdb->posts p
             JOIN $wpdb->postmeta pm ON ( p.ID = pm.post_ID AND pm.meta_key = 'prayer_fuel_magic_key' AND pm.meta_value = %s )
@@ -25,8 +25,8 @@ if ( isset( $this->parts['post_id'] ) && ! empty( $this->parts['post_id'] ) ) {
         ", $this->parts['public_key'], PORCH_LANDING_POST_TYPE ) );
     }
 
-    if ( !empty( $post_id ) ){
-        $my_postid = $post_id;
+    if ( !empty( $content_post_id ) ){
+        $my_postid = $content_post_id;
     }
 
 
@@ -100,7 +100,7 @@ $list = new WP_Query( $args );
             <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Use these resources to help pray specifically each day for the month of Ramadan.', 'pray4ramadan-porch' ); ?></p>
         </div>
         <div class="row">
-            <?php foreach ($list->posts as $item ) : ?>
+            <?php foreach ( $list->posts as $item ) : ?>
                 <?php $public_key = get_post_meta( $item->ID, PORCH_LANDING_META_KEY, true ); ?>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item">
                     <!-- Blog Item Starts -->
@@ -209,7 +209,7 @@ $list = new WP_Query( $args );
                     <p>
                         Made with &#10084;&#65039; by <a href="https://pray4movement.org">Pray4Movement.org</a><br>
                         Powered by <a href="https://disciple.tools">Disciple.Tools</a><br>
-                        &copy;   <?php echo esc_html ( date("Y") ); ?>
+                        &copy; <?php echo esc_html( gmdate( "Y" ) ); ?>
                     </p>
                 </div>
                 <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
