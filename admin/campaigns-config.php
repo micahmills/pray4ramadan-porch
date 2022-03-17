@@ -68,7 +68,10 @@ class DT_Campaigns_Config {
         ", ARRAY_A );
         $languages = [];
         foreach ( $language_counts as $lang ){
-            if ( (int) $lang['count'] > 5 ){
+            if ( $lang["meta_value"] === null ){
+                $lang["meta_value"] = "en_US";
+            }
+            if ( !in_array( $lang["meta_value"], $languages, true ) ){
                 $languages[] = $lang['meta_value'];
             }
         }
