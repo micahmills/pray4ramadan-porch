@@ -37,7 +37,7 @@ class P4_Ramadan_Porch_Landing_Post_Type
      * @param array $args
      * @param array $taxonomies
      */
-    public function __construct( $args = [], $taxonomies = []) {
+    public function __construct( $args = [], $taxonomies = [] ){
         $this->post_type = PORCH_LANDING_POST_TYPE;
         $this->singular = PORCH_LANDING_POST_TYPE_SINGLE;
         $this->plural = PORCH_LANDING_POST_TYPE_PLURAL;
