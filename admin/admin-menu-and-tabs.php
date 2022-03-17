@@ -75,7 +75,7 @@ class P4_Ramadan_Porch_Landing_Menu {
             </h2>
 
             <?php
-            switch ($tab) {
+            switch ( $tab ){
                 case "home":
                     $object = new P4_Ramadan_Porch_Landing_Tab_Home();
                     $object->content();
@@ -185,7 +185,7 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                     </tr>
                     <?php if ( ! empty( $fields['ID'] ) ) : ?>
                         <?php foreach ( $fields as $key => $value ) :
-                            if ( in_array( $key, [ 'start_date', 'end_date', 'status' ] )) :
+                            if ( in_array( $key, [ 'start_date', 'end_date', 'status' ] ) ) :
                                 ?>
                                 <tr>
                                     <td><?php echo esc_attr( ucwords( str_replace( '_', ' ', $key ) ) ) ?></td>

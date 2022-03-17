@@ -6,6 +6,7 @@ class DT_Campaigns_Config {
         add_filter( 'wp_mail_from_name', [ $this, "wp_mail_from_name" ] );
         add_filter( 'wp_mail_from', [ $this, "wp_mail_from" ] );
         add_filter( 'dt_campaign_reminder_prayer_content', [ $this, 'dt_campaign_reminder_prayer_content' ] );
+        add_filter( 'prayer_campaign_info_response', [ $this, 'prayer_campaign_info_response' ] );
     }
 
     //Set ramadan prayer fuel content url
@@ -52,6 +53,27 @@ class DT_Campaigns_Config {
             $dt_campaign_reminder_prayer_content = sprintf( __( 'Click here to see the prayer prompts for today: %s', 'pray4ramadan-porch' ), $link );
         }
         return $dt_campaign_reminder_prayer_content;
+    }
+
+
+    public function prayer_campaign_info_response( $data ){
+        global $wpdb;
+        $language_counts = $wpdb->get_results( "
+            SELECT pm.meta_value, count(pm.meta_value) as count
+            FROM $wpdb->posts p
+            LEFT JOIN $wpdb->postmeta pm ON (pm.post_ID = p.ID and pm.meta_key = 'post_language' )
+            WHERE p.post_type = 'landing'
+            AND ( p.post_status = 'publish' OR p.post_status = 'future' )
+            GROUP BY pm.meta_value
+        ", ARRAY_A );
+        $languages = [];
+        foreach ( $language_counts as $lang ){
+            if ( (int) $lang['count'] > 5 ){
+                $languages[] = $lang['meta_value'];
+            }
+        }
+        $data['prayer_fuel_languages'] = $languages;
+        return $data;
     }
 }
 
