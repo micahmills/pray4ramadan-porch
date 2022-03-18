@@ -1,20 +1,49 @@
 <?php
 $porch_fields = p4r_porch_fields();
 $lang = dt_ramadan_get_current_lang();
-$args = array(
+
+
+// query for getting posts in the selected language.
+$lang_query = [
+    [
+        'key'     => 'post_language',
+        'value'   => $lang,
+        'compare' => '=',
+    ]
+];
+if ( $lang === "en_US" ){
+    $lang_query[] = [
+        'key'     => 'post_language',
+        'compare' => 'NOT EXISTS',
+    ];
+    $lang_query["relation"] = "OR";
+}
+
+//get latest published post
+$today = new WP_Query( [
     'post_type' => PORCH_LANDING_POST_TYPE,
     'post_status' => 'publish',
     'posts_per_page' => 1,
     'orderby' => 'post_date',
     'order' => 'DESC',
-    'meta_key' => 'post_language',
-    'meta_value' => $lang
-);
-$today = new WP_Query( $args );
+    'meta_query' => $lang_query
+] );
 if ( empty( $today->posts ) ){
+    //get earliest unpublished post
+    $today = new WP_Query( [
+        'post_type' => PORCH_LANDING_POST_TYPE,
+        'post_status' => 'future',
+        'posts_per_page' => 1,
+        'orderby' => 'post_date',
+        'order' => 'ASC',
+        'meta_query' => $lang_query
+    ] );
+}
+if ( empty( $today->posts ) ){
+    //post in english
     $args = array(
         'post_type' => PORCH_LANDING_POST_TYPE,
-        'post_status' => 'publish',
+        'post_status' => [ 'publish', 'future' ],
         'posts_per_page' => 1,
         'orderby' => 'post_date',
         'order' => 'DESC',
@@ -34,19 +63,15 @@ if ( empty( $today->posts ) ){
     $today = new WP_Query( $args );
 }
 
-$args = array(
+
+$list = new WP_Query( [
     'post_type' => PORCH_LANDING_POST_TYPE,
     'post_status' => [ 'publish' ],
     'posts_per_page' => -1,
     'orderby' => 'post_date',
     'order' => 'DESC',
-
-);
-if ( $lang !== 'en_US' ){
-    $args['meta_key'] = 'post_language';
-    $args['meta_value'] = $lang;
-}
-$list = new WP_Query( $args );
+    'meta_query' => $lang_query
+] );
 
 if ( empty( $list->posts ) ){
     $args = array(
