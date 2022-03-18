@@ -14,7 +14,9 @@ class P4_Ramadan_Porch_Starter_Content {
             return false;
         }
 
-        self::sample_fuel();
+        if ( $language === 'en_US' ){
+            self::sample_fuel();
+        }
 
         $installed = [];
         $content = self::content( $language, $names, $from_translation ?? $language );
@@ -361,12 +363,12 @@ class P4_Ramadan_Porch_Starter_Content {
 
         function ramadan_format_message( $message, $fields ) {
             $message = make_clickable( $message );
-            $message = str_replace( '[people_singular_masculine]', $fields["people_singular_masculine"], $message );
-            $message = str_replace( '[people_singular_feminine]', $fields["people_singular_feminine"], $message );
-            $message = str_replace( '[people_plural_masculine]', $fields["people_plural_masculine"], $message );
-            $message = str_replace( '[people_plural_feminine]', $fields["people_plural_feminine"], $message );
-            $message = str_replace( '[people_name]', $fields["people_name"], $message );
-            $message = str_replace( '[location_name]', $fields["location_name"], $message );
+            $message = str_replace( '[people_singular_masculine]', !empty( $fields["people_singular_masculine"] ) ? $fields["people_singular_masculine"] : '[people_singular_masculine]', $message );
+            $message = str_replace( '[people_singular_feminine]', !empty( $fields["people_singular_feminine"] ) ? $fields["people_singular_feminine"] : '[people_singular_feminine]', $message );
+            $message = str_replace( '[people_plural_masculine]', !empty( $fields["people_plural_masculine"] ) ? $fields["people_plural_masculine"] : '[people_plural_masculine]', $message );
+            $message = str_replace( '[people_plural_feminine]', !empty( $fields["people_plural_feminine"] ) ? $fields["people_plural_feminine"] : '[people_plural_feminine]', $message );
+            $message = str_replace( '[people_name]', !empty( $fields["people_name"] ) ? $fields["people_name"] : '[people_name]', $message );
+            $message = str_replace( '[location_name]', !empty( $fields["location_name"] ) ? $fields["location_name"] : '[location_name]', $message );
             return $message;
         }
 
