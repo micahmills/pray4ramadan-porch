@@ -59,6 +59,9 @@ function get_field_translation( $field, $code ){
 
 function dt_ramadan_get_current_lang(){
     $lang = "en_US";
+    if ( defined( "PORCH_DEFAULT_LANGUAGE" ) ){
+        $lang = PORCH_DEFAULT_LANGUAGE;
+    }
     if ( isset( $_GET["lang"] ) && !empty( $_GET["lang"] ) ){
         $lang = sanitize_text_field( wp_unslash( $_GET["lang"] ) );
     } elseif ( isset( $_COOKIE["dt-magic-link-lang"] ) && !empty( $_COOKIE["dt-magic-link-lang"] ) ){
