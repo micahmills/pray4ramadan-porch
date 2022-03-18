@@ -377,6 +377,27 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                                     </select>
                                 </td>
                             </tr>
+                        <?php elseif ( 'default_language_select' === $field['type'] ) : ?>
+                            <tr>
+                                <td>
+                                    <?php echo esc_html( $field['label'] ); ?>
+                                </td>
+                                <td>
+                                    <select name="list[<?php echo esc_html( $key ); ?>]">
+                                        <?php if ( isset( $field['value'] ) && ! empty( $field['value'] ) ) : ?>
+                                            <?php
+                                                $available_translations = dt_ramadan_list_languages();
+                                                $default_translation_label = $available_translations[ $field['value'] ]['native_name'];
+                                            ?>
+                                            <option value="<?php echo esc_html( $field['value'] ); ?>" selected="selected"><?php echo esc_html( $default_translation_label ); ?></option>
+                                            <option disabled>-----</option>
+                                        <?php endif; ?>
+                                        <?php foreach ( $available_translations as $available_translation ) : ?>
+                                            <option value="<?php echo esc_attr( $available_translation['language'] ); ?>"><?php echo esc_html( $available_translation['native_name'] ); ?></option>
+                                        <?php endforeach; ?>
+                                    </select>
+                                </td>
+                            </tr>
                         <?php elseif ( 'theme_select' === $field['type'] ) : ?>
                             <tr>
                                 <td>
