@@ -1,0 +1,832 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Ramadan Landing Page\n"
+"Language: id\n"
+
+#: site/home-body.php:38
+msgid "Our"
+msgstr "Kami"
+
+#: site/home-body.php:38
+msgid "Vision"
+msgstr "Visi"
+
+#: site/home-body.php:61
+msgid "Extraordinary Prayer"
+msgstr "Doa yang luar biasa"
+
+#: site/home-body.php:62
+msgid "Every disciple making movement in history has happened in the context of extraordinary prayer."
+msgstr "Setiap gerakan pemuridan di dalam sejarah telah terjadi dalam konteks doa yang luar biasa"
+
+#: site/home-body.php:70
+msgid "Movement Focused"
+msgstr "Fokus pada Kegerakan"
+
+#: site/home-body.php:71
+msgid "Join us in asking, seeking, and knocking for streams of disciples and churches to be made."
+msgstr "Bergabunglah dengan kami dalam meminta, mencari, dan mengetuk bagi aliran-aliran pemuridan dan gereja-gereja dibentuk"
+
+#: site/home-body.php:79
+msgid "24/7 for 30 Days"
+msgstr "24/7 selama 30 hari"
+
+#: site/home-body.php:80
+msgid "Choose a 15-minute (or more!) time slot that you can pray during each day. Invite someone else to sign up too."
+msgstr "Pilih 15 menit (atau lebih) slot waktu dimana Anda dapat berdoa tiap hari. Undang seseorang untuk mendaftar juga"
+
+#: site/home-body.php:85 site/top-section.php:74
+msgid "Sign Up to Pray"
+msgstr "Mendaftar untuk berdoa"
+
+#: site/home-body.php:189
+msgid "Sign Up to"
+msgstr "Mendaftar"
+
+#: site/home-body.php:189
+msgid "Pray"
+msgstr "Doa"
+
+#: site/home-body.php:195
+msgid "here"
+msgstr "disini"
+
+#: site/home-body.php:224
+msgid "Days"
+msgstr "Hari-hari"
+
+#: site/home-body.php:237
+msgid "Hours of Prayer"
+msgstr "Jam-jam Doa"
+
+#: site/home-body.php:250
+msgid "Prayer Commitments Needed"
+msgstr "Komitmen Doa Diperlukan"
+
+#: site/home-body.php:265
+msgid "15-Minute"
+msgstr "15 Menit"
+
+#: site/home-body.php:265 site/top-section.php:29
+msgid "Prayer Fuel"
+msgstr "Bahan Bakar Doa"
+
+#: site/home-body.php:267
+msgid "Use these resources to help pray specifically each day for the month of Ramadan"
+msgstr "Gunakan bahan-bahan ini untuk membantu doa khususnya tiap hari untuk bulan Ramadhan"
+
+#: site/home-body.php:268
+msgid "View All"
+msgstr "Tampilkan Keseluruhan"
+
+#: site/top-section.php:23
+msgid "Home"
+msgstr "Home"
+
+#: site/top-section.php:26
+msgid "Sign Up"
+msgstr "Mendaftar"
+
+#: site/top-section.php:66
+msgid "Strategic prayer for a disciple making movement in %s"
+msgstr "Doa Strategis bagi Gerakan Pemuridan dalam %s"
+
+#: site/top-section.php:68
+msgid "Strategic prayer for a disciple making movement"
+msgstr "Doa Strategi bagi Gerakan Pemuridan"
+
+#. Plugin Name of the plugin/theme
+#: 
+msgid "Pray4Ramadan Porch"
+msgstr "Bilik Doa4Ramadhan"
+
+#. Plugin URI of the plugin/theme
+#: 
+msgid "https://github.com/Pray4Movement/pray4ramadan-porch"
+msgstr "https://github.com/Pray4Movement/pray4ramadan-porch"
+
+#. Description of the plugin/theme
+#: 
+msgid "This is this microsite plugin to support the Ramadan 24/7 Campaign"
+msgstr "Ini adalah microsite plugin untuk mendukung Kampanya 24/7 Ramadhan"
+
+#. Author URI of the plugin/theme
+#: 
+msgid "https://github.com/DiscipleTools"
+msgstr "\n"
+"https://github.com/DiscipleTools"
+
+#: pray4ramadan-porch.php:418
+msgid "We want to cover the country of %s with continuous 24/7 prayer during the entire 30 days of Ramadan."
+msgstr "Kami akan mencakup negara dari %s dengan doa 24/7 terus menerus selama  30 hari Ramadhan sepenuhnya"
+
+#: site/home-body.php:155
+msgid "Ramadan is Finished"
+msgstr "Ramadhan sudah Selesai"
+
+#: site/home-body.php:168
+msgid "Ramadan Ends ..."
+msgstr "Ramadhan Berakhir"
+
+#: site/home-body.php:169 site/home-body.php:176
+msgid "days"
+msgstr "hari-hari"
+
+#: site/home-body.php:170 site/home-body.php:177
+msgid "hours"
+msgstr "jam-jam"
+
+#: site/home-body.php:171 site/home-body.php:178
+msgid "minutes"
+msgstr "menit-menit"
+
+#: site/home-body.php:172 site/home-body.php:179
+msgid "seconds"
+msgstr "detik-detik"
+
+#: site/home-body.php:175
+msgid "Ramadan Begins ..."
+msgstr "Ramadhan Mulai"
+
+#: pray4ramadan-porch.php:407
+msgid "Ramadan is one of the five requirements (or pillars) of Islam. During each of its 30 days, Muslims are obligated to fast from dawn until sunset. During this time they are supposed to abstain from food, drinking liquids, smoking, and sexual relations.\n"
+"\n"
+" In %1$s, women typically spend the afternoons preparing a big meal. At sunset, families often gather to break the fast. Traditionally the families break the fast with a drink of water, then three dried date fruits, and a multi-course meal. After watching the new Ramadan TV series, men (and some women) go out to coffee shops where they drink coffee, and smoke with friends until late into the night.\n"
+"\n"
+" Though many %2$s have stopped fasting in recent years, and lots of %2$s are turned off by the hypocrisy, increased crime rates, and rudeness that is pervasive through the month, lots of %2$s become more serious about religion during this time. Many attend the evening prayer services and do the other ritual prayers. Some even read the entire Quran (about a tenth the length of the Bible). This sincere seeking makes it a strategic time for us to pray for them."
+msgstr "Ramadhan adalah salah satu dari lima kewajiban (atau pilar) Islam. Selama 30 hari dalam bulan ramadhan, orang-orang Muslim berkewajiban untuk berpuasa dari fajar hari sampai matahari terbenam. Selama waktu ini mereka diminta untuk tidak makan dan minum, merokok dan melakukan hubungan seks.\n"
+"\n"
+"Dalam %1$s, para wanita biasanya menggunakan waktu siang hari untuk mempersiapkan makan besar. Di waktu matahari tenggelam, keluarga-keluarga seringkali berkumpul untuk berbuka puasa. Secara tradisional keluarga-keluarga berbuka puasa dengan minum ari, kemudian 3 buah yang dikeringkan (Seperti kurma), dan berbagai macam makanan. Setelah melihat serial TV Ramadhan yang baru, para lelaki (dan beberapa wanita) pergi ke warung kopi dimana mereka minum kopi, dan merokok bersama teman-teman mereka sampai jauh malam.\n"
+"\n"
+"Meski banyak %2$s telah tidak menjalankan puasa di tahun-tahun terakhir ini, dan banyak lagi antara %2$s dimatikan dengan kemunafikan, angka kejahatan yang kejahatan, dan kekerasan yang muncul banyak selama bulan itu, banyak dari %2$s menjadi lebih serius melakukan agama mereka selama waktu ini. Banyak yang menghadiri ibadah doa maghrib dan melakukan ritual-ritual doa lainnya. Bahkan ada beberapa yang membaca seluruh Quran (sekitar sepersepuluh panjangnya dari Alkitab). Pencarian yang tulus ini menjadi waktu yang strategis bagi kita untuk berdoa bagi mereka."
+
+#: admin/campaigns-config.php:52
+msgid "Click here to see the prayer prompts for today: %s"
+msgstr "Klik di sini untuk melihat petunjuk doa untuk hari ini: %s"
+
+#: admin/starter-content.php:144
+msgid "\"And this gospel of the kingdom will be proclaimed throughout the whole world as a testimony to all nations, and then the end will come.\" (Matthew 24:14) With faith and confidence, we pray for the Gospel of the Kingdom to spread throughout the nation of [location_name]. We know it is not a question of ’if’, but a question of ’when’. Please Lord, let it happen in our generation."
+msgstr "\"Dan Injil Kerajaan ini akan diberitakan di seluruh dunia menjadi kesaksian bagi semua bangsa, sesudah itu barulah tiba kesudahannya.\" (Matius 24:14) Dengan iman dan keyakinan, kami berdoa bagi Injil Kerajaan untuk menyebar ke seluruh negeri [location_name]. Kami tahu hal ini bukanlah suatu pertanyaan 'jikalau', tetapi sebuah pertanyaan 'kapan'. Kami mohon ya Tuhan, biarkan itu terjadi di dalam generasi kami."
+
+#: admin/starter-content.php:145
+msgid "\"All these with one accord were devoting themselves to prayer...\" (Acts 1:14) Father, in this time of social distancing we thank you for the virtual prayer groups you are raising up among [people_name] believers and we pray the same abiding that happened among the early disciples would likewise result in bold proclamation and many turning to faith in Jesus in [location_name]."
+msgstr "\"Mereka semua bertekun dengan sehati dalam doa bersama-sama,  (KPR 1:14) Bapa, di waktu adanya social distancing (tidak boleh berkumpul/menjaga jarak)  ini kami bersyukur dengan adanya kelompok-kelompok doa lewat internet yang Engkau gunakan diantara orang percaya di [people_name]   dan kami berdoa supaya cara para murid mula-mula yang mereka pakai untuk tinggal di dalam-Mu akan juga menghasilkan keberanian untuk memberitakan Kabar Baik dan banyak orang datang kepada Yesus di [location_name]"
+
+#: admin/starter-content.php:146
+msgid "\"Now faith is the assurance of things hoped for, the conviction of things not seen. For by it the people of old received their commendation.\" (Hebrews 11:1-2) Give every believer in [location_name] courage to live by faith instead of by sight."
+msgstr "\"Iman adalah dasar dari segala sesuatu yang kita harapkan dan bukti dari segala sesuatu yang tidak kita lihat.Sebab oleh imanlah telah diberikan kesaksian kepada nenek moyang kita. (Ibrani 11:1-2) Beri setiap orang percaya di [location_name]  keberanian untuk hidup oleh iman bukannya hidup oleh apa yang dilihat. "
+
+#: admin/starter-content.php:147
+msgid "Lord, help the people of [location_name] to discover the essence of being a disciple, making disciple, and what the church is. https://zume.training/definition-of-disciple-and-church/"
+msgstr "Ya Tuhan, tolong orang-orang di [location_name] untuk menemukan inti untuk menjadi seorang murid, memuridkan, dan dan apa itu gereja. https://zume.training/definition-of-disciple-and-church/  "
+
+#: admin/starter-content.php:150 admin/starter-content.php:332
+msgid "\"All the ends of the earth shall remember and turn to the Lord, and all the families of the [people_name] nations shall worship before you.\" (Psalm 22:27)"
+msgstr "\"Segala ujung bumi akan mengingatnya dan berbalik kepada TUHAN; dan segala kaum dari bangsa-bangsa [people_name]  akan sujud menyembah di hadapan-Nya\".Maz 22:27 (22-28)"
+
+#: admin/starter-content.php:151
+msgid "\"Repent, for the kingdom of heaven is at hand.\" (Matthew 3:2) Pray for [people_name] throughout the country to experience true repentance as they see the holy standard of a Righteous King and their inability to ever measure up."
+msgstr "\"Bertobatlah, sebab Kerajaan Sorga sudah dekat!\" (Matius 3:2) Berdoa bagi [people_name] di seluruh negeri untuk mengalami pertobatan sejati saat mereka melihat standar rohani seorang Raja Yang Benar dan ketidakmampuan untuk mengukur."
+
+#: admin/starter-content.php:152
+msgid "\"And they were selling their possessions and belongings and distributing the proceeds to all, as any had need... and the Lord added to their number day by day those who were being saved.\" (Acts 2:42-47). As believers in [location_name] seek to be living out these verses, would you, Lord, please add daily those who are being saved."
+msgstr "\"dan selalu ada dari mereka yang menjual harta miliknya, lalu membagi-bagikannya kepada semua orang sesuai dengan keperluan masing-masing... Dan tiap-tiap hari Tuhan menambah jumlah mereka dengan orang yang diselamatkan.\" (KPR  2:42-47). Sebagaimana orang-orang percaya di [location_name]  menghidupi seperti yang terjadi di ayat-ayat ini, O Tuhan, berkenanlah tiap-tiap hari menambahkannya dengan orang-orang yang diselamatkan."
+
+#: admin/starter-content.php:153
+msgid "\"By faith we understand that the universe was created by the word of God, so that what is seen was not made out of things that are visible.\" (Hebrews 11:3) As [people_name] encounter the beauty of your creation through Mediterranean beaches, Saharan desert dunes, and luscious green hills may they be drawn to the Word through whom You created the world."
+msgstr "\"Karena iman kita mengerti, bahwa alam semesta telah dijadikan oleh firman Allah, sehingga apa yang kita lihat telah terjadi dari apa yang tidak dapat kita lihat.\" (Ibrani 11:3) Saat   [people_name] bertemu dengan indahnya ciptaan-Mu di sepanjang pantai-pantai Mediterania, padang gurun Sahara, dan bukit-bukit yang menghijau semoga mereka diingatkan pada Firman dimana melalui Firman itu Engkau menciptakan dunia."
+
+#: admin/starter-content.php:154
+msgid "God, please help the people of [location_name] to be disciples who hear from you and then obey you. https://zume.training/spiritual-breathing-is-hearing-and-obeying-god/"
+msgstr "Ya Allah, tolong orang-orang di [location_name] menjadi murid-murid yang mendengar dari-Mu dan kemudian menaati-Mu. https://zume.training/spiritual-breathing-is-hearing-and-obeying-god/ "
+
+#: admin/starter-content.php:157
+msgid "For kingship belongs to the Lord, and he rules over the [people_name] nations. (Psalm 22:28)"
+msgstr "Sebab Tuhanlah yang empunya kerajaan, Dialah yang memerintah atas bangsa-bangsa [people_name]. Maz  22:28 (22-29) "
+
+#: admin/starter-content.php:158
+msgid "\"And he went throughout all Galilee, teaching in their synagogues and proclaiming the gospel of the kingdom and healing every disease and every affliction among the people.\" (Matthew 4:23) Pray for the proclamation of the Gospel to be accompanied by miracles and signs and wonders throughout [location_name]."
+msgstr "\"Yesuspun berkeliling di seluruh Galilea; Ia mengajar dalam rumah-rumah ibadat dan memberitakan Injil Kerajaan Allah serta melenyapkan segala penyakit dan kelemahan di antara bangsa itu.\" (Matius 4:23) Berdoa bagi pemberitaan Injil yang disertai dengan mujizat-mujizat dan tanda-tanda serta keajaiban-keajaiban di seluruh [location_name] .   "
+
+#: admin/starter-content.php:159
+msgid "\"And in your offspring shall all the families of the earth be blessed.\" (Acts 3:25b) Lord, please fulfill your promise to Abraham among the many [people_name] families spread from the north to the south."
+msgstr "\"Oleh keturunanmu semua bangsa di muka bumi akan diberkati.\" (KPR 3:25b) Ya Tuhan, mohon genapi janji-Mu kepada Abaraham diantara keluarga-keluarga orang-orang [people_name] menyebar luas dari utara ke selatan ."
+
+#: admin/starter-content.php:160
+msgid "\"By faith Abel offered to God a more acceptable sacrifice than Cain, through which he was commended as righteous...\" (Hebrews 11:4a) Convict [people_name] this Ramadan, Lord, that we can only be made right before you on your terms through faith, not ours."
+msgstr "\"Karena iman Habel telah mempersembahkan kepada Allah korban yang lebih baik dari pada korban Kain. Dengan jalan itu ia memperoleh kesaksian kepadanya, bahwa ia benar...\" (Ibrani 11:4a) Nyatakan [people_name]  Ramadhan ini, Ya Tuhan, bahwa kami hanya dapat dibenarkan dihadapan-Mu, lewat ketetapan-Mu melalui iman, bukan melalui diri kami."
+
+#: admin/starter-content.php:161
+msgid "Father, we pray that the people of [location_name] will learn to study the Bible, understand it, obey it, and share it. https://zume.training/soaps-bible-reading/"
+msgstr "Ya Bapa, kami berdoa bagi orang-orang di  [location_name] akan belajar untuk mempelajari Alkitab, memahaminya, dan manaatinya serta membagikannya. https://zume.training/soaps-bible-reading/ "
+
+#: admin/starter-content.php:164
+msgid "\"I will cause your name to be remembered in all generations; therefore nations (including [location_name]) will praise you forever and ever.\" (Psalm 45:17)"
+msgstr "\"Aku mau memasyhurkan namamu turun-temurun; sebab itu bangsa-bangsa  (including [location_name]) akan bersyukur kepadamu untuk seterusnya dan selamanya\" Maz 45:17 (45-18)"
+
+#: admin/starter-content.php:165
+msgid "\"Blessed are the poor in spirit, for theirs is the kingdom of heaven.\" (Matthew 5:3) May the [people_name] church joyfully demonstrate the blessing that comes from being poor in spirit. Pray for them to experience fuller measures of the Kingdom through their poverty of spirit.\""
+msgstr "\"Berbahagialah orang yang miskin di hadapan Allah, karena merekalah yang empunya Kerajaan Sorga.” (Matius 5:3) Semoga jemaat [people_name]   dengan suka cita menyatakan berkat yang berasal dari yang miskin secara rohani. Berdoa bagi mereka untuk mengalami kepenuhan Kerajaan melalui kemiskinan dalam kerohanian mereka.\"   \n"
+""
+
+#: admin/starter-content.php:166
+msgid "\"And now, Lord, look upon their threats and grant to your servants to continue to speak your word with all boldness, while you stretch out your hand to heal, and signs and wonders are performed through the name of your holy servant Jesus.\" (Acts 4:30-31) Do it, Lord, please!"
+msgstr "\" Dan sekarang, ya Tuhan, lihatlah bagaimana mereka mengancam kami dan berikanlah kepada hamba-hamba-Mu keberanian untuk memberitakan firman-Mu. Ulurkanlah tangan-Mu untuk menyembuhkan orang, dan adakanlah tanda-tanda dan mujizat-mujizat oleh nama Yesus, Hamba-Mu yang kudus.\".(KPR 4:29-30) Kami mohon lakukanlah hal itu Ya Tuhan!"
+
+#: admin/starter-content.php:167
+msgid "\"...Now before he (Enoch) was taken he was commended as having pleased God.\" (Hebrews 11:5b) May believers in [location_name], through faith, seek commendation from You more than man. May they live their lives in pursuit of Your approval alone."
+msgstr "\"... karena Allah berkenan akan persembahannya (Henok) itu dan karena iman ia masih berbicara, sesudah ia mati\" (Hebrews 11:5b) Semoga orang-orang percaya di [location_name],  melalui iman, hanya mencari pujian dari-Mu bukan pujian manusia. Semoga mereka menghidupi kehidupan mereka dalam mengejar perkenanan-Mu saja."
+
+#: admin/starter-content.php:168
+msgid "God, we pray both the men and women of [location_name] will find ways to meet in groups of two or three to encourage and correct one another. https://zume.training/accountability-groups/"
+msgstr "Ya Allah, kami berdoa baik bagi para laki-laki dan perempuan di [location_name] akan menemukan cara-cara untuk bertemu di dalam kelompok-kelompok jumlah dua atau tiga untuk memberi dorongan dan saling menasihati. https://zume.training/accountability-groups/"
+
+#: admin/starter-content.php:171
+msgid "“Be still, and know that I am God. I will be exalted among the [people_name] nations, I will be exalted in the earth!\" (Psalm 46:10)"
+msgstr "\"Diamlah  dan ketahuilah, bahwa Akulah Allah!  Aku ditinggikan  di antara bangsa-bangsa [people_name] , ditinggikan di bumi!\"Maz 46:10 (46-11)"
+
+#: admin/starter-content.php:172
+msgid "\"Blessed are those who are persecuted for righteousness sake, for theirs is the kingdom of heaven.\" (Matthew 5:10) Father, we intercede on behalf of every [people_name] brother and sister undergoing persecution for the sake of righteousness. Bless them with greater intimacy with You and give them perseverance in suffering."
+msgstr "”Berbahagialah orang yang dianiaya oleh sebab kebenaran, karena merekalah yang empunya Kerajaan Sorga.\"\" (Matius 5:10)  \n"
+"Bapa, kami berdoa bagi setiap saudara kami [people_name] yang mengalami penganiayaan karena kebenaran. Berkati mereka dengan kedekatan yang besar dengan Engkau dan berikan kepada mereka kekuatan untuk menanggungnya.\""
+
+#: admin/starter-content.php:173
+msgid "\"And every day, in the temple and from house to house, they did not cease teaching and preaching that the Christ is Jesus.\" (Acts 5:41) May believers in [location_name] saturate the country with the truth that Jesus is the Christ -- loaded with all the richness of that title from Scripture. May every home have an opportunity to hear this truth."
+msgstr "\"Dan setiap hari mereka melanjutkan pengajaran mereka di Bait Allah dan di rumah-rumah orang dan memberitakan Injil tentang Yesus yang adalah Mesias.\" (KPR 5:42) Semoga orang-orang percaya di [location_name]  memenuhi bangsanya dengan kebenaran bahwa Yesus adalah Kristus -- dipenuhi dengan semua kekayaan yang berasal dari Kitab Suci. Semoga tiap rumah memiliki kesempatan untuk mendengar kebenaran ini. "
+
+#: admin/starter-content.php:174
+msgid "\"And without faith it is impossible to please him, for whoever would draw near to God must believe that he exists and that he rewards those who seek him.\" (Hebrews 11:6) Lord, please cause multitudes of [people_name] to seek You and experience the greatest reward -- Yourself!"
+msgstr ".\"Tetapi tanpa iman tidak mungkin orang berkenan kepada Allah. Sebab barangsiapa berpaling kepada Allah, ia harus percaya bahwa Allah ada, dan bahwa Allah memberi upah kepada orang yang sungguh-sungguh mencari Dia. (Ibrani 11:6) Ya Tuhan, mohon buat banyak orang di [people_name]  untuk mencari-Mu dan mengalami upah terbesar --  yaitu Engkau sendiri ya Tuhan! "
+
+#: admin/starter-content.php:175
+msgid "Lord, we pray for believers in [location_name] who will discover the ways you make us more like Jesus. https://zume.training/consumer-vs-producer-lifestyle/"
+msgstr "Ya Tuhan, kami berdoa bagi orang-orang percaya di [location_name] yang akan menemukan cara-cara (jalan-jalan) bagaimana Engkau membentuk kami lebih serupa dengan Yesus . https://zume.training/consumer-vs-producer-lifestyle/ "
+
+#: admin/starter-content.php:178
+msgid "\"God reigns over the [people_name] nations; God sits on his holy throne.\" (Psalm 47:8)"
+msgstr "\"Allah memerintah sebagai raja atas bangsa-bangsa [people_name] , Allah bersemayam di atas takhta-Nya  yang kudus.\" Maz 47:8 (47-9)"
+
+#: admin/starter-content.php:179
+msgid "\"For I tell you, unless your righteousness exceeds that of the scribes and Pharisees, you will never enter the kingdom of heaven.\" (Matthew 5:20) Many think that Christians have an easier ’religion’ because of misunderstanding the Gospel of grace through Christ Jesus. We pray for every believer in [location_name]’s holiness to shine forth and for many to be drawn to Jesus through the authentic witness of Christ in His disciples.\""
+msgstr "\"”Maka Aku berkata kepadamu: Jika hidup keagamaanmu tidak lebih benar dari pada hidup keagamaan ahli-ahli Taurat dan orang-orang Farisi, sesungguhnya kamu tidak akan masuk ke dalam Kerajaan Sorga.\"\" (Matius 5:20) \n"
+"Banyak yang berpikir bahwa orang-orang Kristen memiliki 'agama' yang lebih mudah karena kesalah pengertian Injil anugerah melalui Yesus Kristus. Kami berdoa untuk setiap orang percaya di [location_name] memiliki kekudusan yang bersinar dan banyak orang ditarik kepada Yesus melalui kesaksian nyata Kristus di dalam hidup murid-murid-Nya.\"   "
+
+#: admin/starter-content.php:180
+msgid "\"And the word of God continued to increase, and the number of the disciples multiplied greatly in Jerusalem, and a great many of the priests became obedient to the faith.\" (Acts 6:7) Through prayer, ministry of the Word, service, care for the widows, and faith multiply the number of disciples in [location_name], Lord."
+msgstr "\" Firman Allah makin tersebar, dan jumlah murid di Yerusalem makin bertambah banyak; juga sejumlah besar imam menyerahkan diri dan percaya\" (KPR 6:7) Melalui doa, pelayanan Firman, kepedulian kepada para janda, dan iman melipatgandakan jumlah para murid di [location_name] , Ya Tuhan. "
+
+#: admin/starter-content.php:181
+msgid "\"By faith Noah, being warned by God concerning events as yet unseen, in reverent fear constructed an ark for the saving of his household...\" (Hebrews 11:7a) We pray for many heads of household, who like Noah, would take outrageous risks for the sake of saving their families."
+msgstr "\"Karena iman, maka Nuh--dengan petunjuk Allah tentang sesuatu yang belum kelihatan--dengan taat mempersiapkan bahtera untuk menyelamatkan keluarganya...\" (Ibrani 11:7a) Kami berdoa bagi banyak kepala rumah tangga, yang seperti Nuh, akan mengambil resiko yang besar demi menyelamatkan keluarga-keluarga mereka. "
+
+#: admin/starter-content.php:182
+msgid "God, we pray for believers in [location_name] who will know how easy it is to spend an hour in prayer with you, and will do it. https://zume.training/how-to-spend-an-hour-in-prayer/"
+msgstr "Ya Allah, kami berdoa bagi orang-orang percaya di  [location_name] yang akan tahu betapa mudahnya untuk memakai waktu satu jam di dalam doa bersama-Mu, dan akan melakukannya. https://zume.training/how-to-spend-an-hour-in-prayer/"
+
+#: admin/starter-content.php:185
+msgid "\"I will give thanks to you, O Lord, among the ([people_name]) peoples; I will sing praises to you among the nations.\" (Psalm 57:9)"
+msgstr "\"Aku mau bersyukur kepada-Mu di antara bangsa-bangsa ([people_name]) , ya Tuhan, aku mau bermazmur bagi-Mu di antara suku-suku bangsa\" Maz 57:9 (57-10) "
+
+#: admin/starter-content.php:186
+msgid "\"Your kingdom come, your will be done, on earth as it is in heaven.\" (Matthew 6:10) Your ways are not our ways. Your Kingdom is unlike every earthly kingdom. We pray for your heavenly Kingdom to come in every home, neighborhood, city, and region throughout this land.\""
+msgstr "”datanglah Kerajaan-Mu, jadilah kehendak-Mu di bumi seperti di sorga\"\". (Matius 6:10) Jalan-Mu bukanlah jalan kami. Kerajaan-Mu tidak sama dengan setiap kerajaan dunia. Kami berdoa Kerajaan surga-Mu untuk hadir di setiap rumah, setiap lingkungan, kota, dan di seluruh wilayah  tempat ini.\"   "
+
+#: admin/starter-content.php:187
+msgid "\"But he, full of the Holy Spirit gazed into heaven and saw the glory of God, and Jesus standing at the right hand of God...\" (Acts 7:56) Father, we pray for many Stephen-like believers in [location_name] -- men and women of good repute, full of the Spirit and of wisdom, and servants. May they be ready to do whatever you call them to at whatever cost because they are so gripped by Your glory."
+msgstr "\"Tetapi Stefanus, yang penuh dengan Roh Kudus, menatap ke langit, lalu melihat kemuliaan Allah dan Yesus berdiri di sebelah kanan Allah...\" (KPR 7:55) Bapa, kami berdoa bagi orang-orang percaya yang serupa Stefanus di  [location_name] -- para laki-laki dan perempuan yang memiliki reputasi baik, penuh dengan Roh Kudus dan hikmat, dan melayani. Semoga mereka siap melakukan apapun yang sesuai panggilanMu dengan pengorbanan apapun karena mereka begitu menggenggam Kemuliaan-Mu  "
+
+#: admin/starter-content.php:188
+msgid "\"By faith Abraham obeyed when he was called to go out to a place that he was to receive as an inheritance. And he went out, not knowing where he was going.\" (Hebrews 11:8) May both seekers and believers in [location_name] be willing to start on a journey of obedience to You despite not knowing how it may turn out in this life."
+msgstr "\"Karena iman Abraham taat, ketika ia dipanggil untuk berangkat ke negeri yang akan diterimanya menjadi milik pusakanya, lalu ia berangkat dengan tidak mengetahui tempat yang ia tujui.\" (Ibrani 11:8) Semoga baik mereka yang mencari dan yang percaya di [location_name] akan mau memulai perjalanan ketaatan kepada-Mu dengan tidak memperhitungkan apa yang mungkin terjadi di dalam kehidupan ini. "
+
+#: admin/starter-content.php:189
+msgid "Father, we pray for believers in [location_name] to be good stewards of their relationships. https://zume.training/relational-stewardship-list-of-100/"
+msgstr "Ya Bapa, kami berdoa bagi orang -orang percaya di   [location_name] untuk menjadi penatalayan yang baik dari hubungan-hubungan mereka. https://zume.training/relational-stewardship-list-of-100/"
+
+#: admin/starter-content.php:192
+msgid "\"May God be gracious to us and bless us and make his face to shine upon us, that your way may be known on earth, your saving power among all [people_name] nations.\" (Psalm 67:2)"
+msgstr "\"Kiranya Allah mengasihani kita dan memberkati kita, kiranya Ia menyinari kita dengan wajah-Nya,   supaya jalan-Mu dikenal di bumi, dan keselamatan-Mu di antara segala bangsa [people_name].\" Maz 67:2-3 "
+
+#: admin/starter-content.php:193
+msgid "\"But seek first the kingdom of God and his righteousness, and all these things will be added to you.\" (Matthew 6:33) We pray that Your Kingdom would be our first priority. May Your Kingdom values and purposes be the primary focus of every Christian in [location_name]."
+msgstr "”Tetapi carilah dahulu Kerajaan Allah dan kebenarannya, maka semuanya itu akan ditambahkan kepadamu. (Matius 6:33) Kami berdoa bahwa Kerajaan-Mu akan menjadi prioritas utama kami. Semoga nilai-nilai dan tujuan Kerajaan-Mu menjadi fokus bagi setiap orang Kristen di [location_name].\""
+
+#: admin/starter-content.php:194
+msgid "\"But when they believed Philip as he preached good news about the kingdom of God and the name of Jesus Christ, they were baptized, both men and women.\" (Acts 8:12). Empower believers in [location_name] to preach the good news of the Kingdom and prepare multitudes of men and women to respond and be baptized."
+msgstr "\"Tetapi sekarang mereka percaya kepada Filipus yang memberitakan Injil tentang Kerajaan Allah dan tentang nama Yesus Kristus, dan mereka memberi diri mereka dibaptis, baik laki-laki maupun perempuan.\" (KPR 8:12). Beri kuasa kepada orang-orang percaya di [location_name] untuk memberitakan kabar baik Kerajaan dan mempersiapkan banyak orang baik laki-laki maupun perempuan untuk menerimanya dan dibaptis. "
+
+#: admin/starter-content.php:195
+msgid "\"By faith he went to live in the land of promise as in a foreign land, living in tents with Isaac and Jacob, heirs with him of the same promise. For he was looking forward to the city that has foundations, whose designer and builder is God.\" (Hebrews 11:9-10) May [people_name] believers embrace their heavenly citizenship and being confirmed into heaven’s customs, language, priorities, and values in ever-increasing measures."
+msgstr "\" Karena iman ia diam di tanah yang dijanjikan itu seolah-olah di suatu tanah asing dan di situ ia tinggal di kemah dengan Ishak dan Yakub, yang turut menjadi ahli waris janji yang satu itu.Sebab ia menanti-nantikan kota yang mempunyai dasar, yang direncanakan dan dibangun oleh Allah.\" (Ibrani 11:9-10) Semoga orang-orang percaya [people_name] kewarganegaraan surga mereka dan dipastikan ke dalam kebiasaan, bahasa, prioritas, dan nilai-nilai surga dalam peningkatan yang terus menerus. "
+
+#: admin/starter-content.php:196
+msgid "God, we pray for believers in [location_name] to be generous that you would desire to invest more into them. https://zume.training/the-kingdom-economy/"
+msgstr "Ya Allah, kami berdoa bagi orang-orang percaya di [location_name]  untuk menjadi murah hati sehingga Engkau akan berkehendak untuk menginvestasikan lebih lagi ke dalam diri mereka. https://zume.training/the-kingdom-economy/"
+
+#: admin/starter-content.php:199
+msgid "\"Let the [people_name] nations be glad and sing for joy, for you judge the peoples with equity and guide the nations upon earth\" (Psalm 67:4)"
+msgstr "\" Kiranya suku-suku bangsa [people_name] bersukacita dan bersorak-sorai, sebab Engkau memerintah bangsa-bangsa dengan adil, dan menuntun suku-suku bangsa di atas bumi\" Mazmur 67:4 (67-5)"
+
+#: admin/starter-content.php:200
+msgid "\"Not everyone who says to me, ’Lord, Lord,’ will enter the kingdom of heaven, but the one who does the will of my Father who is in heaven.\" (Matthew 7:21) Many God-fearing [people_name] seek to obey what they’ve been taught about Him by fasting during Ramadan. Father we pray that they would have an encounter with You, their true Heavenly Father during these thirty days and enter into Your family through Christ, our older brother."
+msgstr "\"Bukan setiap orang yang berseru kepada-Ku: Tuhan, Tuhan! akan masuk ke dalam Kerajaan Sorga, melainkan dia yang melakukan kehendak Bapa-Ku yang di sorga.\"\" (Matius 7:21) Banyak orang yang takut pada Allah [people_name] mencari cara untuk menaati apa yang telah diajarkan kepada mereka tentang Allah dengan berpuasa selama bulan Ramadhan. Bapa, kami berdoa bahwa mereka akan mengalami pertemuan dengan-Mu, Bapa Surgawi mereka yang sejati, selama 30 hari ini dan masuk ke dalam Keluarga-Mu melalaui Kristus, kakak kami\"   "
+
+#: admin/starter-content.php:201
+msgid "\"So Ananias departed and entered the house. And laying his hands on him he said, ’Brother Saul, the Lord Jesus who appeared to you on the road by which you came has sent me so that you may regain your sight and be filled with the Holy Spirit.’\" (Acts 9:17) Lord, we ask for many Saul-like hearts in [location_name] to be brought to repentance and faith in You. We pray for many Ananias-like believers to openly receive those who were staunchly opposed to the Gospel into fellowship."
+msgstr "\"Lalu pergilah Ananias ke situ dan masuk ke rumah itu. Ia menumpangkan tangannya ke atas Saulus, katanya: \"Saulus, saudaraku, Tuhan Yesus, yang telah menampakkan diri kepadamu di jalan yang engkau lalui, telah menyuruh aku kepadamu, supaya engkau dapat melihat lagi dan penuh dengan Roh Kudus.\" (KPR  9:17) Ya Tuhan, kami mohon ada banyak orang yang memiliki hati seperti Saulus di [location_name]  yang dibawa kepada pertobatan dan iman di dalam Engkau. Kami berdoa untuk banyak orang percaya yang memiliki hati seperti Ananias yang secara terbuka menerima mereka yang berkeras hati menentang Injil masuk ke dalam  persekutuan orang percaya. "
+
+#: admin/starter-content.php:202
+msgid "\"By faith Sarah herself received power to conceive, even when she was past the age, since she considered him faithful who had promised.\" (Hebrews 11:11) Please give every believer in [location_name] spiritual children no matter how long they have in the faith. Let each one trust Your faithfulness that You will give them spiritual children as they obey You."
+msgstr "\"Karena iman ia juga dan Sara beroleh kekuatan untuk menurunkan anak cucu, walaupun usianya sudah lewat, karena ia menganggap Dia, yang memberikan janji itu setia\" (Ibrani 11:11) Mohon berikan setiap orang percaya di [location_name] anak rohani tidak peduli berapa lama mereka miliki dalam iman. Biarkan setiap orang percaya kesetiaan-Mu bahwa Engkau akan memberi mereka anak rohani seiring mereka menaati-Mu. "
+
+#: admin/starter-content.php:203
+msgid "Lord, we pray for believers in [location_name] who will not only understand the Gospel, but know how to share it. https://zume.training/the-gospel-and-how-to-share-it/"
+msgstr "Ya Tuhan, kami berdoa bagi orang-orang percaya di [location_name] yang bukan hanya memahami Injil, tetapi tahu juga bagaimana memberitakannya. https://zume.training/the-gospel-and-how-to-share-it/"
+
+#: admin/starter-content.php:206
+msgid "\"May all kings fall down before him, all [people_name] nations serve him!\" (Psalm 72:11)"
+msgstr "\"Kiranya semua raja sujud menyembah kepadanya, dan segala bangsa [people_name] menjadi hambanya\"Maz 72:11"
+
+#: admin/starter-content.php:207
+msgid "\"I tell you, many will come from east and west and recline at table with Abraham, Isaac, and Jacob in the kingdom of heaven\" (Matthew 8:11) We praise you Lord because you’ve called all nations to your table. We pray that many from the east, west, north, and south corners of [location_name] would join your Kingdom this month."
+msgstr "\"Aku berkata kepadamu: Banyak orang akan datang dari Timur dan Barat dan duduk makan bersama-sama dengan Abraham, Ishak, dan Yakub di dalam Kerajaan Sorga,\"\" (Matius 8:11) Kami memuji-Mu ya Tuhan karena Engkau telah memanggil semua bangsa untuk datang ke meja makan-Mu. Kami berdoa bahwa akan banyak orang dari  timur, barat, utara dan selatan  [location_name] akan bergabung di Kerajaan-Mu pada bulan ini\"   "
+
+#: admin/starter-content.php:208
+msgid "\"So I sent for you at once, and you have been kind enough to come. Now therefore we are all here in the presence of God to hear all that you have been commanded by the Lord.\" (Acts 10:33) Father, please stir many hearts of heads of households in [location_name], like Cornelius, to gather their family to hear the message of the Good News of Jesus."
+msgstr "\"Karena itu segera kusuruh orang kepadamu, dan dengan senang hati engkau telah datang. Sekarang kami semua sudah hadir di sini di hadapan Allah untuk mendengarkan apa yang ditugaskan Allah kepadamu.\" (KPR 10:33) Ya Bapa, kami mohon arahkan banyak hati kepala rumah tangga di  [location_name], seperti Kornelius ,mengumpulkan keluarganya untuk mendengar pesan Kabar Baik tentang Yesus. "
+
+#: admin/starter-content.php:209
+msgid "\"Therefore from one man, and him as good as dead, were born descendents as many as the stars of heaven and as many as the innumerable grains of sand by the seashore.\" (Hebrews 11:12) Lord, you promised Abraham he would be the father of many nations. We ask for breakthrough among the 10 Unengaged, Unreached People Groups in [location_name]. May they be included in this promise in our generation."
+msgstr "\"Itulah sebabnya, maka dari satu orang, malahan orang yang telah mati pucuk, terpancar keturunan besar, seperti bintang di langit dan seperti pasir di tepi laut, yang tidak terhitung banyaknya.\" (Ibrani 11:12) Ya Tuhan, Engkau berjanji pada Abraham bahwa ia akan menjadi bapa dari banyak bangsa. Kami memohon untuk terobosan di antara 10 UUPG (Unengaged, Unreached People Groups)  di [location_name]. Semoga mereka termasuk di dalam janji ini di generasi kami."
+
+#: admin/starter-content.php:210
+msgid "Jesus, we pray for believers in [location_name] to be baptized and know how to baptize. https://zume.training/baptism-and-how-to-do-it/"
+msgstr "Yesus, kami berdoa bagi orang-orang percaya di [location_name] untuk dibaptis dan mengetahui bagaimana membaptis. https://zume.training/baptism-and-how-to-do-it/"
+
+#: admin/starter-content.php:213
+msgid "\"May his name endure forever, his fame continue as long as the sun! May people be blessed in him, all [people_name] nations call him blessed!\" (Psalm 72:17)"
+msgstr "\" Biarlah namanya tetap selama-lamanya, kiranya namanya semakin dikenal selama ada matahari. Kiranya segala bangsa saling memberkati dengan namanya, dan menyebut dia berbahagia!\" Maz 72:17"
+
+#: admin/starter-content.php:215
+msgid "\"And the hand of the Lord was with them, and a great number who believed turned to the Lord.\" (Acts 11:21) Even in the midst of persecution, you empowered your disciples to lead many to faith in you. Please do it again, Lord, in [location_name]."
+msgstr "\"Dan tangan Tuhan menyertai mereka dan sejumlah besar orang menjadi percaya dan berbalik kepada Tuhan.\" (KPR 11:21) Meski di tengah penganiayaan, Engkau memberdayakan para murid-Mu untuk memimpin banyak orang kepada iman di dalam Engkau. Mohon Engkau melakukan hal itu lagi di [location_name] ya Tuhan.. "
+
+#: admin/starter-content.php:216
+msgid "\"These all died in faith, not having received the things promised, but having seen them and greeted them from afar, and having acknowledged that they were strangers and exiles on the earth.  For people who speak thus make it clear that they are seeking a homeland.\" (Hebrews 11:14) May [people_name] believers honorable and pure conduct make it clear to those watching them that they are strangers and exiles on the earth for Your glory."
+msgstr "\"Dalam iman mereka semua ini telah mati sebagai orang-orang yang tidak memperoleh apa yang dijanjikan itu, tetapi yang hanya dari jauh melihatnya dan melambai-lambai kepadanya dan yang mengakui, bahwa mereka adalah orang asing dan pendatang di bumi ini.Sebab mereka yang berkata demikian menyatakan, bahwa mereka dengan rindu mencari suatu tanah air.\" (Ibrani 11:13-14) Semoga orang-orang percaya [people_name] bertindak yang terhormat dan suci, buatlah itu jelas bagi mereka yang mengawasi mereka bahwa mereka adalah orang-orang asing dan para pengembara di bumi ini bagi kemuliaan-Mu."
+
+#: admin/starter-content.php:217
+msgid "Jesus, we pray for believers in [location_name] to know how to share testimonies about how you impacted their lives. https://zume.training/prepare-your-3-minute-testimony/"
+msgstr "Yesus, kami berdoa bagi orang-orang percaya di  [location_name] untuk mengetahui bagaimana membagikan kesaksian-kesaksian tentang bagaiman Engkau berdampak dalam kehidupan mereka. https://zume.training/prepare-your-3-minute-testimony/"
+
+#: admin/starter-content.php:220
+msgid "\"Arise, O God, judge the earth; for you shall inherit all the [people_name] nations!\" (Psalm 82:8)"
+msgstr "\"Bangunlah ya Allah, hakimilah bumi, sebab Engkaulah yang memiliki segala [people_name] bangsa.\" (Mazmur 82:8)"
+
+#: admin/starter-content.php:221
+msgid "\"Knowing their thoughts, he said to them, ’Every kingdom divided against itself is laid waste, and no city or house divided against itself will stand.’\" (Matthew 12:25) We pray for unity among your church in [location_name]. Though your followers in [location_name] may have differing strengths, gifts, and expressions of Your Spirit, may there be no division."
+msgstr "\"Tetapi Yesus mengetahui pikiran mereka lalu berkata kepada mereka: ”Setiap kerajaan yang terpecah-pecah pasti binasa dan setiap kota atau rumah tangga yang terpecah-pecah tidak dapat bertahan.\" (Matius 12:25) Kami berdoa untuk persatuan di antara gereja Engkau di [location_name]. Meskipun pengikut Engkau di [location_name] mungkin memiliki kekuatan, karunia, dan ekspresi Roh Engkau yang berbeda, semoga tidak ada perpecahan."
+
+#: admin/starter-content.php:222
+msgid "\"But the word of God increased and multiplied.\" (Acts 12:24) This verse comes in the context of an evil ruler bent on persecuting the church. No matter what the circumstances may be in [location_name], Lord, we pray the word of God would increase and multiply."
+msgstr "\"Maka firman Tuhan makin tersebar dan makin banyak didengar orang\" (KPR 12:24) Ayat ini terjadi pada konteks penguasa yang jahat yang menganiaya Gereja. Tidak peduli bagaimanapun keadaannya yang terjadi di [location_name], Ya Tuhan, kami berdoa supaya Firman Allah akan tersebar dan makin banyak didengar orang."
+
+#: admin/starter-content.php:223
+msgid "\"If they had been thinking of that land from which they had gone out, they would have had opportunity to return. But as it is, they desire a better country, that is, a heavenly one. Therefore God is not ashamed to be called their God, for he has prepared for them a city.\" (Hebrews 11:15-16) We cry out for You to raise up men and women from every region of [location_name] who desire a better country, a heavenly one. People who seek to store their treasure there, instead of here on earth."
+msgstr "\"Dan kalau sekiranya dalam hal itu mereka ingat akan tanah asal, yang telah mereka tinggalkan, maka mereka cukup mempunyai kesempatan untuk pulang ke situ.Tetapi sekarang mereka merindukan tanah air yang lebih baik yaitu satu tanah air sorgawi. Sebab itu Allah tidak malu disebut Allah mereka, karena Ia telah mempersiapkan sebuah kota bagi mereka\". (Ibrani 11:15-16) Kami berseru kepada Engkau ya Tuhan untuk membangkitkan para laki-laki dan perempuan dari setiap wilayah dari  [location_name] yang merindukan sebuah negeri yang lebih baik, suatu negeri yang surgawi. Orang-orang yang menyimpan hartanya di sana, bukannya di sini di bumi ini. \n"
+"\""
+
+#: admin/starter-content.php:224
+msgid "God, we pray for believers in [location_name] to know how to cast vision to others about forming spiritual families who multiply for generations to come. https://zume.training/vision-casting-the-greatest-blessing/"
+msgstr "Ya Allah, kami berdoa bagi orang-orang percaya di [location_name] untuk mengetahui bagaimana untuk memaparkan visi kepada orang-orang lain tentang pembentukan keluarga-keluarga rohani yang berlipatganda bagi generasi-generasi yang akan datang. https://zume.training/vision-casting-the-greatest-blessing/"
+
+#: admin/starter-content.php:227
+msgid "\"All the [people_name] nations you have made shall come and worship before you, O Lord, and shall glorify your name.\" (Psalm 86:9)"
+msgstr "\"Segala bangsa [people_name]  yang Kaujadikan akan datang sujud menyembah di hadapan-Mu, ya Tuhan, dan akan memuliakan nama-Mu.\" Maz 86:9"
+
+#: admin/starter-content.php:228
+msgid "\"When anyone hears the word of the kingdom and does not understand it, the evil one comes and snatches away what has been sown in his heart. This is what was sown along the path.\" (Matthew 13:19) We pray for many hearts in [location_name] to be receptive to the Kingdom seed that would take root, grow, and reproduce 30, 60, and 100 fold."
+msgstr "\"Kepada setiap orang yang mendengar firman tentang Kerajaan Sorga, tetapi tidak mengertinya, datanglah si jahat dan merampas yang ditaburkan dalam hati orang itu; itulah benih yang ditaburkan di pinggir jalan.\"\" (Matius 13:19).Kami berdoa untuk banyak hati di [location_name]  menjadi mudah menerima benih Kerajaan yang akan berakar, bertumbuh, dan berlipatganda menjadi 30, 60, dan 100 kali lipat.\""
+
+#: admin/starter-content.php:230
+msgid "\"By faith Abraham, when he was tested, offered up Isaac, and he who had received the promises was in the act of offering up his only son, of whom it was said, ’Through Isaac shall your offspring be named’.\" (Hebrews 11:17-18) Lord, may [people_name] be like Abraham, exhibiting radical, immediate, and costly obedience."
+msgstr "”Karena iman maka Abraham, tatkala ia dicobai, mempersembahkan Ishak. Ia, yang telah menerima janji itu, rela mempersembahkan anaknya yang tunggal, walaupun kepadanya telah dikatakan: \"Keturunan yang berasal dari Ishaklah yang akan disebut keturunanmu.\" (Ibrani 11:17-18) Ya Tuhan, semoga  [people_name] seperti Abraham, memperlihatkan ketaatan yang radikal, ketaatan yang langsung, dan ketaatan yang mahal harganya \""
+
+#: admin/starter-content.php:231
+msgid "Lord, we pray for believers in [location_name] to be like ducklings in ways they make disciples. https://zume.training/duckling-discipleship-leading-sooner/"
+msgstr "Ya Tuhan, kami berdoa bagi orang-orang percaya di [location_name] untuk menjadi seperti anak-anak bebek di dalam cara-cara mereka memuridkan para murid. https://zume.training/duckling-discipleship-leading-sooner/"
+
+#: admin/starter-content.php:234
+msgid "\"Declare his glory among the [people_name] nations, his marvelous works among all the peoples!\" (Psalm 96:3)"
+msgstr "\"Ceritakanlah kemuliaan-Nya di antara bangsa-bangsa  [people_name] dan perbuatan-perbuatan yang ajaib di antara segala suku bangsa\"Maz 96:3"
+
+#: admin/starter-content.php:235
+msgid "(The Parable of the Weeds) \"He put another parable before them, saying, ’The kingdom of heaven may be compared to a man who sowed good seed in his field’\" (Matthew 13:24-30) May the truth of this parable free Christians in [location_name] from fear of insincere seekers and those with evil intentions. We pray for far more reproducing good seed than weeds in this land. Give wisdom to your church, since only You can judge men’s hearts and motives."
+msgstr "\"[ Perumpamaan Ilalang dan Gandum ] \"Yesus membentangkan suatu perumpamaan lain lagi kepada mereka, kata-Nya: \"Hal Kerajaan Sorga itu seumpama orang yang menaburkan benih yang baik di ladangnya\"\" (Matius 13:24-30) Semoga kebenaran dari perumpamaan ini membebaskan orang Kristen di   [location_name] dari ketakutan menemukan orang pencari kebenaran yang tidak tulus dan mereka yang memiliki maksud jahat. Kami berdoa lebih jauh untuk berlipatgandanya benih baik di daerah ini. Beri hikmat kepada Gereja-Mu, karena Engkau menghakimi hati dan motif manusia.\""
+
+#: admin/starter-content.php:236
+msgid "Paul and Barnabas returned to places they had preached \"strengthening the souls of the disciples, encouraging them to continue in the faith, and saying that through many tribulations we must enter the kingdom of God.\" (Acts 14:22) May every believer in [location_name] be rooted in this truth. As they persevere through tribulations, may it powerfully proclaim the Gospel to the people around them."
+msgstr "Paulus dan Barnabas kembali ke tempat-tempat yang pernah mereka kunjungi. \"Di tempat itu mereka menguatkan hati murid-murid itu dan menasihati mereka supaya mereka bertekun di dalam iman, dan mengatakan, bahwa untuk masuk ke dalam Kerajaan Allah kita harus mengalami banyak sengsara. (KPR 14:22) Semoga setiap orang percaya di [location_name] menjadi berakar di dalam kebenaran ini.Seiring mereka bertahan di dalam sengsara, semoga hal itu menyatakan Injil secara berkuasa kepada orang-orang yang berada di sekitar mereka. "
+
+#: admin/starter-content.php:237
+msgid "\"He considered that God was able even to raise him from the dead, from which, figuratively speaking, he did receive him back.\" (Hebrews 11:19) Resurrected King, You conquered death on the cross! We pray for [people_name] to believe that reality and for it to free them from any fear of death -- be that physical or symbolic death to sin or of hopes and dreams."
+msgstr "\"Karena ia berpikir, bahwa Allah berkuasa membangkitkan orang-orang sekalipun dari antara orang mati. Dan dari sana ia seakan-akan telah menerimanya kembali\" (Ibrani 11:19) Ya Sang Raja yang telah bangkit, Engkau mengalahkan kematian di kayu salib! Kami berdoa bagi [people_name]  untuk mempercayai kenyataan itu dan bagi hal itu untuk membebaskan mereka dari ketakutan apapun atas kematian -- baik itu kematian jasmani ataupun kematian simbolik pada dosa atau atas harapan dan impian. "
+
+#: admin/starter-content.php:238
+msgid "Father, we pray for believers in [location_name] to have eyes that see where the Kingdom isn’t. https://zume.training/eyes-to-see-where-the-kingdom-isnt/"
+msgstr "Ya Bapa, kami berdoa bagi orang-orang percaya di  [location_name] untuk memiliki mata yang melihat dimana Kerajaan tidak. https://zume.training/eyes-to-see-where-the-kingdom-isnt/"
+
+#: admin/starter-content.php:241
+msgid "Say among the [people_name] nations, \"The Lord reigns! Yes, the world is established; it shall never be moved; he will judge the peoples with equity.\" (Psalm 96:10)"
+msgstr "\"Katakanlah di antara bangsa-bangsa [people_name] : \"TUHAN itu Raja! Sungguh tegak dunia, tidak goyang. Ia akan mengadili bangsa-bangsa dalam kebenaran\" Maz 96:10"
+
+#: admin/starter-content.php:242
+msgid "(The Mustard Seed and the Leaven ) \"He put another parable before them, saying, ’The kingdom of heaven is like a grain of mustard seed that a man took and sowed in his field.’\" (Matthew 13:31) Lord, may mustard seed-sized faith produce a great harvest in [location_name] for Your glory and for the powerful advancement of your Kingdom."
+msgstr "\"[ Perumpamaan tentang biji sesawi dan ragi ] \"Yesus membentangkan suatu perumpamaan lain lagi kepada mereka, kata-Nya: \"Hal Kerajaan Sorga itu seumpama biji sesawi, yang diambil dan ditaburkan orang di ladangnya\" (Matius 13:31) Tuhan, semoga iman sebesar biji sesawi menghasilkan tuaian besar di  [location_name] bagi kemuliaan-Mu dan bagi kemajuan penuh kuasa dari Kerajaan-Mu.\""
+
+#: admin/starter-content.php:243
+msgid "\"And God, who knows the heart, bore witnes to them by giving them the Holy Spirit just as he did to us...\" (Acts 15:8) Thank You for the precious gift of the Holy Spirit! May every believer in [location_name] grow in discerning His leading and quickly obey all He tells them to do. May the Spirit give all believers in [location_name] grace toward one another resulting in the strengthening and multiplying of your Church in this land."
+msgstr "\"Dan Allah, yang mengenal hati manusia, telah menyatakan kehendak-Nya untuk menerima mereka, sebab Ia mengaruniakan Roh Kudus juga kepada mereka sama seperti kepada kita...\" (KPR 15:8) Kami bersyukur untuk karunia Roh Kudus-Mu yang sangat berharga . Semoga setiap orang percaya di [location_name]  bertumbuh di dalam menangkap tuntunan-Nya dan dengan cepat menaati semua yang disampaikan-Nya untuk dilakukan. Semoga Roh Kudus memberi semua orang percaya di [location_name] karunia satu dengan yang lainnya sebagai hasil di dalam menguatkan dan melipatgandakan Gereja-Mu di tempat ini. "
+
+#: admin/starter-content.php:244
+msgid "\"By faith Isaac invoked future blessings on Jacob and Esau.\" (Hebrews 11:20) Despite brokenness in their family, Isaac agreed with God’s covenant and knew it would mean blessing for his sons. May conviction of Your desire that none would perish but all come to repentance, compel [people_name] believers to bless their family by speaking the Good News of Jesus."
+msgstr "\"Karena iman maka Ishak, sambil memandang jauh ke depan, memberikan berkatnya kepada Yakub dan Esau. (Ibrani 11:20) Dengan tidak melihat kehancuran di dalam keluarganya, Ishak setuju dengan janji Allah dan mengetahui bahwa itu akan berarti berkat bagi anak-anaknya. Semoga keyakinan atas kehendak-Mu bahwa tidak ada yang akan binasa tetapi mengalami pertobatan, menyatukan orang-orang percaya [people_name] untuk memberkati keluarga mereka dengan menyatakan Kabar Baik tentang Yesus. "
+
+#: admin/starter-content.php:245
+msgid "Jesus, we pray for believers in [location_name] to enjoy the intimate connection with you in the Lord’s supper, and know how to lead others in celebrating it too. https://zume.training/the-lords-supper-and-how-to-lead-it/"
+msgstr "Yesus, kami berdoa bagi orang-orang percaya di [location_name] untuk menikmati keintiman hubungan bersama-Mu di dalam Perjamuan Tuhan, dan tahu bagaimana memimpin orang lain untuk merayakan hal itu juga. https://zume.training/the-lords-supper-and-how-to-lead-it/"
+
+#: admin/starter-content.php:248
+msgid "\"The Lord has made known his salvation; he has revealed his righteousness in the sight of the [people_name] nations.\" (Psalm 98:2)"
+msgstr "\"TUHAN telah memperkenalkan keselamatan yang dari pada-Nya, telah menyatakan keadilan-Nya di depan mata bangsa-bangsa [people_name] \"Maz 98:2"
+
+#: admin/starter-content.php:249
+msgid "\"He told them another parable. ’The kingdom of heaven is like leaven that a woman took and hid in three measures of flour, till it was all leavened.’\" (Matthew 13:33) Thank you Lord that you delight in using simple, ordinary people to display Your glory. May this kind of yeast rapidly grow throughout every place in [location_name].\""
+msgstr "”Dan Ia menceriterakan perumpamaan ini juga kepada mereka: \"Hal Kerajaan Sorga itu seumpama ragi yang diambil seorang perempuan dan diadukkan ke dalam tepung terigu tiga sukat sampai khamir seluruhnya.\"\" (Matius 13:33) \n"
+"Kami bersyukur ya Tuhan bahwa Engkau suka memakai orang biasa dan sederhana untuk menyatakan kemuliaan-Mu. Semoga ragi yang seperti ini akan berkembang cepat di seluruh wilayah di [location_name]. \""
+
+#: admin/starter-content.php:250
+msgid "\"The Lord opened her (Lydia’s) heart to pay attention to what was said by Paul. And after she was baptized, and her household as well...\" (Acts 16:14-15) \"And he (the Philippian jailer) took them the same hour of the night and washed their wounds; and he was baptized at once, he and all his family.\" (Acts 16:33). Please repeat Lydia and the Philippian jailer’s stories over and over again in every region of [location_name]."
+msgstr "\"Seorang dari perempuan-perempuan itu yang bernama Lidia turut mendengarkan. Ia seorang penjual kain ungu dari kota Tiatira, yang beribadah kepada Allah. Tuhan membuka hatinya, sehingga ia memperhatikan apa yang dikatakan oleh Paulus.Sesudah ia dibaptis bersama-sama dengan seisi rumahnya... (KPR 16:14-15) \"Pada jam itu juga kepala penjara itu membawa mereka dan membasuh bilur mereka. Seketika itu juga ia dan keluarganya memberi diri dibaptis\". (KPR 16:33). Ya Tuhan kami mohon Engkau mengulang kisah Lydia dan Kepala Penjara di Filipi untuk terjadi terus dan menerus di wilayah [location_name]  ini."
+
+#: admin/starter-content.php:251
+msgid "\"By faith Jacob, when dying, blessed each of the sons of Joseph, bowing in worship over the head of his staff.\" (Hebrews 11:21) May every believer in [location_name] have spiritual children that they can, by faith, impart the same blessing to -- that there may be a multitude of multiplying disciples in the land. (Genesis 49:16)"
+msgstr "\" Karena iman maka Yakub, ketika hampir waktunya akan mati, memberkati kedua anak Yusuf, lalu menyembah sambil bersandar pada kepala tongkatnya.\"  (Ibrani 11:21) Semoga setiap orang percaya di [location_name]   memiliki anak-anak rohani yang mereka dapat, dengan iman, mengimpartasikan berkat yang sama -- sehingga akan ada banyak murid yang berlipatganda di wilayah ini.(Kejadian 49:16)"
+
+#: admin/starter-content.php:252
+msgid "God, we pray for believers in [location_name] to know how to pray for others, even as they walk around. https://zume.training/prayer-walking/"
+msgstr "Ya Allah, kami berdoa bagi orang-orang percaya di [location_name]  untuk tahu bagaiman berdoa bagi orang-orang lain, bahkan saat mereka berjalan berkeliling  https://zume.training/prayer-walking/"
+
+#: admin/starter-content.php:255
+msgid "[people_name] \"Nations will fear the name of the Lord, and all the kings of the earth will fear your glory.\" (Psalm 102:15)"
+msgstr "\"Maka bangsa-bangsa [people_name] menjadi takut akan nama TUHAN, dan semua raja bumi akan kemuliaan-Mu\" Maz 102:15 (102-16) "
+
+#: admin/starter-content.php:256
+msgid "(The Parable of the Hidden Treasure) \"The kingdom of heaven is like treasure hidden in a field, which a man found and covered up. Then in his joy he goes and sells all that he has and buys that field.\" (Matthew 13:44) We pray for many today to see You for the treasure You are. We pray for [people_name] in every segment of society to joyfully give up all they have in order to gain You."
+msgstr "\"[ Perumpamaan Harta Yang Terpendam ]  \"\"Hal Kerajaan Sorga itu seumpama harta yang terpendam di ladang, yang ditemukan orang, lalu dipendamkannya lagi. Oleh sebab sukacitanya pergilah ia menjual seluruh miliknya lalu membeli ladang itu.\"\" (Matius 13:44) Kami berdoa bagi banyak orang hari ini melihat Engkau untuk harta terpendam yang ada di dalam Engkau. Kami berdoa bagi [people_name] di setiap bagian masyarakat untuk secara suka cita menyerahkan segala hal yang mereka miliki untuk mendapatkan Engkau.\""
+
+#: admin/starter-content.php:257
+msgid "\"And he made from one man every nation of mankind to live on all the face of the earth, having determined allotted periods and their boundaries of their dwelling place, that they should seek God, and perhaps feel their way toward him and find him. Yet he is actually not far from each of us...\" (Acts 17:26-27) We confess your sovereignty in the midst of the uncertainties in [location_name] brought on by the coronavirus. We pray, Father, that you would use these circumstances to draw many [people_name] to yourself."
+msgstr "\"Dari satu orang saja Ia telah menjadikan semua bangsa dan umat manusia untuk mendiami seluruh muka bumi dan Ia telah menentukan musim-musim bagi mereka dan batas-batas kediaman mereka, supaya mereka mencari Dia dan mudah-mudahan menjamah dan menemukan Dia, walaupun Ia tidak jauh dari kita masing-masing...\" (KPR 17: 26-27) Kami mengakui kedaulatan-Mu di tengah-tengah ketidakpastian di [location_name] yang dibawa oleh virus korona. Kami berdoa, ya Bapa, bahwa Engkau akan memakai keadaan ini untuk menarik banyak orang [location_name] datang kepada-Mu. "
+
+#: admin/starter-content.php:258
+msgid "\"By faith Joseph, at the end of his life, made mention of the exodus of the Israelites and gave directions concerning his bones.\" (Hebrews 11:22) We pray for believers in [location_name] to be so certain of Your promises, that they would have foresight now to prepare for the day when there are multiplying churches in every neighborhood in the country by training and equipping all believers in scalable ways."
+msgstr "\"Karena iman maka Yusuf menjelang matinya memberitakan tentang keluarnya orang-orang Israel dan memberi pesan tentang tulang-belulangnya.\" (Ibrani 11:22) Kami berdoa bagi orang-orang percaya di  [location_name] menjadi sangat pasti akan Janji-janji-Mu, sehingga mereka akan dapat penglihatan saat ini untuk mempersiapkan hari ketika ada banyak gereja-gereja berlipatganda di setiap wilayah negeri dengan melatih dan memperlengkapi semua orang percaya dengan cara-cara yang terukur.  "
+
+#: admin/starter-content.php:259
+msgid "God, we pray for believers in [location_name] to know what a person of peace is, and where to find one. https://zume.training/a-person-of-peace-and-how-to-find-one/"
+msgstr "Ya Tuhan, kami berdoa bagi orang-orang percaya di [location_name]  untuk mengetahui siapa itu orang damai, dan dimana menemukan mereka . https://zume.training/a-person-of-peace-and-how-to-find-one/"
+
+#: admin/starter-content.php:262
+msgid "\"I will give thanks to you, O Lord, among the peoples; I will sing praises to you among the [people_name] nations.\" (Psalm 108:3)"
+msgstr "\"Aku mau bersyukur kepada-Mu di antara bangsa-bangsa, ya TUHAN, dan aku mau bermazmur bagi-Mu di antara suku-suku bangsa[people_name] \"Maz 108:3 (108-4)"
+
+#: admin/starter-content.php:263
+msgid "(The Parable of the Pearl of Great Value) \"Again, the kingdom of heaven is like a merchant in search of fine pearls, who, on finding one pearl of great value, went and sold all that he had and bought it.\" (Matthew 13:45-46) Thank You for every man and woman in [location_name] who have found You to be the pearl of great price. We pray their valuing and treasuring of You, would lead many others to enter Your Kingdom."
+msgstr "\"[Perumpamaan mutiara yang sangat berharga] ”Demikian pula hal Kerajaan Sorga itu seumpama seorang pedagang yang mencari mutiara yang indah.Setelah ditemukannya mutiara yang sangat berharga, iapun pergi menjual seluruh miliknya lalu membeli mutiara itu.\" (Matius 13:45-46) Kami bersyukur bagi setiap laki-laki dan perempuan di [location_name] yang telah menemukan Engkau sebagai mutiara yang sangat berharga. Kami berdoa karena mereka begitu menghargai dan mendambakan Engkau, akan menuntun banyak orang lain untuk masuk ke dalam Kerajaan-Mu.\""
+
+#: admin/starter-content.php:264
+msgid "\"Crispus, the ruler of the synagogue, believed in the Lord, together with his entire household. And many of the Corinthians hearing Paul believed and were baptized.\" (Acts 18:8) We pray for many religious leaders in [location_name] to believe in You, together with their entire households, and may it lead to entire neighborhoods and cities being reached with the Gospel."
+msgstr "\"Tetapi Krispus, kepala rumah ibadat itu, menjadi percaya kepada Tuhan bersama-sama dengan seisi rumahnya, dan banyak dari orang-orang Korintus, yang mendengarkan pemberitaan Paulus, menjadi percaya dan memberi diri mereka dibaptis\" (KPR 18:8) Kami berdoa untuk banyak pemimpin rohani di   [location_name] untuk percaya kepada-Mu, bersama seluruh keluarga mereka, dan semoga hal itu akan menuntun seluruh orang yang ada di lingkungan mereka serta kota-kota dijangkau dengan Injil. "
+
+#: admin/starter-content.php:265
+msgid "\"By faith Moses, when he was born, was hidden for three months by his parents, because they saw that the child was beautiful, and they were not afraid of the king’s edict.\" (Hebrews 11:23)  Thank you Lord for the example of Moses’ parents. We pray for believers in [location_name] to fear God more than they fear anyone or anything else."
+msgstr "\"Karena iman maka Musa, setelah ia lahir, disembunyikan selama tiga bulan oleh orang tuanya, karena mereka melihat, bahwa anak itu elok rupanya dan mereka tidak takut akan perintah raja\". (Ibrani 11:23)  Terima kasih ya Tuhan bagi teladan orang tua Musa. Kami berdoa bagi orang-orang percaya di [location_name] untuk takut akan Tuhan lebih dari mereka takut pada siapapun atau apapun juga."
+
+#: admin/starter-content.php:266
+msgid "Father, we pray for believers in [location_name] to know areas they can pray for others, the BLESS Prayer Pattern. like https://zume.training/the-bless-prayer-pattern/"
+msgstr "Ya Bapa, kami berdoa bagi orang-orang percaya di [location_name]  untuk mengetahui area-area yang mereka dapat doa untuk orang-orang lain. seperti Pola Doa BLESS. https://zume.training/the-bless-prayer-pattern/"
+
+#: admin/starter-content.php:269
+msgid "\"From the rising of the sun to its setting, the name of the Lord is to be praised! The Lord is high above all [people_name] nations, and his glory above the heavens!\" (Psalm 113:3-4)"
+msgstr "\"Dari terbitnya sampai kepada terbenamnya matahari terpujilah nama TUHAN. 113:4 TUHAN tinggi mengatasi segala bangsa [people_name], kemuliaan-Nya mengatasi langit\" Maz 113:3-4"
+
+#: admin/starter-content.php:270
+msgid "(The Parable of the Net) \"Again, the kingdom of heaven is like a net that was thrown into the sea and gathered fish of every kind.\" (Matthew 13:47-50) Many [people_name] of every kind be brought in Your glorious Kingdom, even this month. We pray for wealthy and poor, educated and uneducated, religious and secular, young and old to be among the ’good fish’ at the end of the age."
+msgstr "\"[ Perumpamaan pukat ] .\"\"Demikian pula hal Kerajaan Sorga itu seumpama pukat yang dilabuhkan di laut, lalu mengumpulkan berbagai-bagai jenis ikan. (Matthew 13:47-50) Banyak orang [people_name] dari berbagai tempat dibawa kepada Kerajaan-Mu yang mulia, di bulan ini. Kami berdoa bagi mereka yang kaya maupun yang miskin, yang berpendidikan maupun yang tidak berpendidikan, yang religius ataupun yang sekuler, yang muda ataupun tua untuk berada di antara \"ikan yang baik\" pada akhir zaman. \""
+
+#: admin/starter-content.php:271
+msgid "Paul reasoned daily in the hall of Tyrannnus and we’re told \"this continued for two years, so that all the residents of Asia heard the word of the Lord, both Jews and Greeks.\" (Acts 19:10) Empower believers in [location_name] to boldly, faithfully, and consistently proclaim the Gospel of the Kingdom so that all the residents of [location_name] would hear the word of the Lord and have an opportunity to respond to it."
+msgstr "Paulus berbicara setiap hari di ruang Tiranus dan dikatakan\"Hal ini dilakukannya dua tahun lamanya, sehingga semua penduduk Asia mendengar firman Tuhan, baik orang Yahudi maupun orang Yunani. (KPR 19:10) Perlengkapi orang-orang percaya di  [location_name] untuk dengan berani, penuh iman, serta secara konsisten memberitakan Injil Kerajaan sehingga semua wilayan di  [location_name] akan mendengar Tuhan dan memiliki kesempatan untuk menerimanya. "
+
+#: admin/starter-content.php:273
+msgid "Lord, we pray for believers in [location_name] to not only esteem knowing but also doing. https://zume.training/faithfulness-is-better-than-knowledge/"
+msgstr "Ya Tuhan, kami berdoa bagi orang-orang percaya di  [location_name] untuk tidak hanya menghormati untuk mengetahui tetapi juga melakukan. https://zume.training/faithfulness-is-better-than-knowledge/"
+
+#: admin/starter-content.php:276
+msgid "\"Praise the Lord, all nations! Extol him, all peoples [people_name]!\" (Psalm 117:1)"
+msgstr "\"Pujilah TUHAN, hai segala bangsa, megahkanlah Dia, hai segala suku bangsa [people_name]!\"Maz 117:1"
+
+#: admin/starter-content.php:277
+msgid "\"I will give you the keys of the kingdom of heaven, and whatever you bind on earth shall be bound in heaven, and whatever you loose on earth shall be loosed in heaven.\" (Matthew 16:19) As Your followers in [location_name] enter into spiritually dark places, may they exercise the Kingdom authority You have delegated to Your church through Christ Jesus."
+msgstr "\" Kepadamu akan Kuberikan kunci Kerajaan Sorga. Apa yang kauikat di dunia ini akan terikat di sorga dan apa yang kaulepaskan di dunia ini akan terlepas di sorga.\"\" (Matius 16:19) Saat para pengikut-Mu di   [location_name] masuk kedalam tempat-tempat yang secara rohani gelap, kami berdoa semoga mereka menyatakan kuasa Kerajaan yang telah Engkau berikan kepada jemaat-Mu melalui Yesus Kristus.\""
+
+#: admin/starter-content.php:278
+msgid "We pray that every believer in [location_name] would \"remember the words of the Lord Jesus, how he himself said, \"It is more blessed to give than to receive\". (Acts 20:35), especially when it comes to spiritual blessings. We pray that every believer would experience the deep joy of giving the gift of Christ to others. Bonus: Check out https://zume.training/the-kingdom-economy/Kingdom Economy  for more on this concept."
+msgstr "Kami berdoa bahwa setiap orang percaya di [location_name] akan \"mengingat perkataan Tuhan Yesus, sebab Ia sendiri telah mengatakan: Adalah lebih berbahagia memberi dari pada menerima.\" (KPR 20:35), khususnya saat hal itu berkaitan dengan berkat-berkat rohani. Kami berdoa semoga setiap orang percaya akan mengalami suka cita yang mendalam dari pemberian karunia Kristus kepada yang lainnya. Bonus : silakan lihat : https://zume.training/the-kingdom-economy/ for more on this concept. "
+
+#: admin/starter-content.php:279
+msgid "\"He considered the reproach of Christ greater wealth than the treasures of Egypt, for he was looking to the reward.\" (Hebrews 11:26) Awaken [people_name] to the greater wealth of Christ. May multitudes esteem Him more than any treasure they can have here on earth."
+msgstr "\"Ia menganggap penghinaan karena Kristus sebagai kekayaan yang lebih besar dari pada semua harta Mesir, sebab pandangannya ia arahkan kepada upah.\" (Ibrani 11:26)  Bangkitkan  [people_name] kepada kekayaan Kristus yang lebih besar. Semoga banyak orang menghargai Dia lebih dari harta benda yang mereka dapat miliki di bumi ini.  "
+
+#: admin/starter-content.php:280
+msgid "Father, we pray for believers in [location_name] to know how to meet, pray, learn, grow, fellowship, and practice obeying and sharing in simple churches with the 3/3 Group Meeting Pattern. https://zume.training/3-3-group-meeting-pattern/"
+msgstr "Ya Bapa, kami berdoa bagi orang-orang percaya di [location_name]  untuk tahu bagaimana untuk bertemu, berdoa, belajar, bertumbuh, bersekutu, dan mempraktikan untuk menaati dan memberitakan dalam gereja-gereja sederhana dengan Pola Pertemuan 3/3. https://zume.training/3-3-group-meeting-pattern/"
+
+#: admin/starter-content.php:283
+msgid "\"Sing praises to the Lord, who sits enthroned in Zion! Tell among the [people_name] peoples his deeds!\" (Psalm 9:11)"
+msgstr "\"Bermazmurlah bagi TUHAN, yang bersemayam di Sion, beritakanlah perbuatan-Nya di antara bangsa-bangsa [people_name]\" Maz 9:11 (9-12) "
+
+#: admin/starter-content.php:284
+msgid "\"Truly, I say to you, unless you turn and become like children, you will never enter the kingdom of heaven.\" (Matthew 18:3) Father, please continue to teach and reveal Your upside-down and inside-out Kingdom priorities to every Christian in [location_name]. We pray that child-like faith would be used by You to bring many [people_name] into your presence."
+msgstr "\"Aku berkata kepadamu, sesungguhnya jika kamu tidak bertobat dan menjadi seperti anak kecil ini, kamu tidak akan masuk ke dalam Kerajaan Sorga.\"(Matius 18:3) Bapa. mohon teruslah mengajar dan menyatakan segala hal tentang prioritas Kerajaan-Mu kepada setiap orang Kristen di [location_name]. Kami berdoa iman seperti anak kecil akan dipakai oleh Engkau untuk membawa banyak orang [location_name] ke dalam hadirat-Mu.\""
+
+#: admin/starter-content.php:285
+msgid "\"After greeting them, he related one by one the things that God had done among the Gentiles through his ministry. And when they heard it, they glorified God.\" (Acts 21:19-20) May the retelling of the stories of grace in [people_name] lives result in great glory to God and spur on workers of the Gospel in neighboring lands like Libya and Algeria!"
+msgstr "\"Paulus memberi salam kepada mereka, lalu menceriterakan dengan terperinci apa yang dilakukan Allah di antara bangsa-bangsa lain oleh pelayanannya. Mendengar itu mereka memuliakan Allah\"..(KPR 21:19-20) Semoga penyampaian kisah - kisah anugerah secara berulang-ulang di [people_name] terus berlanjut dalam kemuliaan yang besar bagi Allah serta memacu para pekerja Injil yang berada di wilayah-wilayah sekitar seperti Libya dan Algeria!"
+
+#: admin/starter-content.php:286
+msgid "\"By faith he left Egypt, not being afraid of the anger of the king, for he endured as seeing him who is invisible.\" (Hebrews 11:27) Fear is a powerful weapon of the enemy in [location_name]. As You draw men and women to Yourself, Lord, help them fix their eyes on You instead of on their fears."
+msgstr "\"Karena iman maka ia telah meninggalkan Mesir dengan tidak takut akan murka raja. Ia bertahan sama seperti ia melihat apa yang tidak kelihatan.\" (Ibrani 11:27) Ketakukan adalah sejata yang kuat dari musuh di  [location_name]. Seiring Engkau menarik para laki-laki dan perempuan kepada-Mu, ya Tuhan, tolong mereka, untuk mengarahkan mata mereka memandang kepada-Mu bukan kepada ketakutan-ketakutan mereka.  "
+
+#: admin/starter-content.php:287
+msgid "God, we pray for believers in [location_name] to know how to apply the training cycle for maturing disciples. https://zume.training/training-cycle-for-maturing-disciples/"
+msgstr "Ya Allah, kami berdoa bagi orang-orang percaya di  [location_name] untuk mengetahui bagaimana untuk menerapkan siklus pelatihan bagi murid-murid yang dewasa . https://zume.training/training-cycle-for-maturing-disciples/"
+
+#: admin/starter-content.php:290
+msgid "\"Clap your hands, all [people_name] peoples! Shout to God with loud songs of joy!\" (Psalm 47:1)"
+msgstr "\"Hai segala bangsa [people_name] , bertepuktanganlah, elu-elukanlah Allah dengan sorak-sorai!\" Maz 47:1(47-2)"
+
+#: admin/starter-content.php:291
+msgid "\"Whoever humbles himself like this child is the greatest in the kingdom of heaven.\" (Matthew 18:4) May the humility of Christians in [location_name] testify to the power and the truth of Your Kingdom. We pray for Christ-like humility to define Your church in this nation."
+msgstr "\"Sedangkan barangsiapa merendahkan diri dan menjadi seperti anak kecil ini, dialah yang terbesar dalam Kerajaan Sorga. (Matius 18:4) Semoga kerendah hatian orang Kristen di [location_name]  memberi kesaksian kepada kuasa dan kebenaran Kerajaan-Mu. Kami berdoa untuk kerendah hatian seperti Kristus untuk menyatakan gereja-Mu di tengah bangsa ini.\""
+
+#: admin/starter-content.php:292
+msgid "Paul was told by Ananias: \"for you will be a witness for him to everyone of what you have seen and heard.\" (Acts 22:15) We pray for every believer in [location_name] to be equipped to share their story (testimony) and Your story (the Gospel). We pray that every time the Gospel is shared in [location_name] that it would be the overflow of the speaker’s experience with You, the living God."
+msgstr "Paulus diberitahu oleh Ananias: \"Sebab engkau harus menjadi saksi-Nya terhadap semua orang tentang apa yang kaulihat dan yang kaudengar.\" (KPR 22:15) Kami berdoa bagi setiap orang percaya di [location_name] untuk diperlengkapi bagaimana membagikan kisah mereka (kesaksian) dan kisah-Mu (Injil). Kami berdoa bahwa setiap kali Injil diberitakan di [location_name] bahwa Injil akan melimpahi pengalaman orang yang menceritakannya dengan Engkau, Ya Allah yang hidup. "
+
+#: admin/starter-content.php:293
+msgid "\"By faith he kept the Passover and sprinkled the blood, so that the Destroyer of the firstborn might not touch them.\" (Hebrews 11:28) We pray for many in [location_name] to put their faith in Christ’s blood that was poured out for them. Let the power of Your death, burial, and resurrection convince them to put their faith in You and to be freed from the Destroyer."
+msgstr "\"Karena iman maka ia mengadakan Paskah dan pemercikan darah, supaya pembinasa anak-anak sulung jangan menyentuh mereka.\" (Ibrani 11:28) Kami berdoa bagi orang-orang di  [location_name] untuk meletakkan iman mereka pada darah Kristus yang tercurah bagi mereka. Biarlah kuasa kematian-Mu, penguburan-Mu, dan kebangkitan-Mu meyakinkan mereka untuk meletakkan iman mereka di dalam Engkau dan dibebaskan dari si Pembinasa. "
+
+#: admin/starter-content.php:294
+msgid "Lord, we pray for believers in [location_name] to know how to develop as leaders by practicing serving. https://zume.training/leadership-cells/"
+msgstr "Ya Tuhan, kami berdoa bagi orang-orang percaya di  [location_name] untuk mengetahui bagaimana untuk berkembang sebagai para pemimpin yang memraktikan pelayanan. https://zume.training/leadership-cells/"
+
+#: admin/starter-content.php:297
+msgid "\"Bless our God, O [people_name] peoples; let the sound of his praise be heard,\" (Psalm 66:8)"
+msgstr "\"Pujilah Allah kami, hai bangsa-bangsa [people_name] , dan perdengarkanlah puji-pujian kepada-Nya!\" Maz 66:8"
+
+#: admin/starter-content.php:298
+msgid "\"Jesus said, ’Let the little children come to me and do not hinder them, for to such belongs the kingdom of heaven.’\" (Matthew 19:14) We pray that nothing would hinder true seekers from entering into Your Kingdom —not gender, age, socioeconomic status, nationality, or education level."
+msgstr "\"”Tetapi Yesus berkata: \"\"Biarkanlah anak-anak itu, janganlah menghalang-halangi mereka datang kepada-Ku; sebab orang-orang yang seperti itulah yang empunya Kerajaan Sorga.\"\" (Matius 19:14) Kami berdoa bahwa tidak ada yang dapat menghindarkan para pencari-Mu yang sejati untuk masuk ke dalam Kerajaan-Mu — baik itu jenis kelamin, umur, status sosial ekonomi, kebangsaan, atau tingkat pendidikan.\""
+
+#: admin/starter-content.php:299
+msgid "\"And looking intently at the council, Paul said, ’Brothers, I have lived my life before God in all good conscience up to this day.’\" (Acts 23:1) As believers in [location_name], abide in the Vine, may their lives continually grow into Christ’s until they, too, can make such a claim. May their consistency and integrity lead many [people_name] to faith in Christ."
+msgstr "\"Sambil menatap anggota-anggota Mahkamah Agama, Paulus berkata: \"Hai saudara-saudaraku, sampai kepada hari ini aku tetap hidup dengan hati nurani yang murni di hadapan Allah.\" (Acts 23:1) Sebagai orang-orang percaya di  [location_name], yang tinggal di dalam Pokok Anggur, semoga kehidupan mereka terus menerus bertumbuh ke dalam Kristus sampai mereka, juga, dapat membuat pernyataan seperti itu.Semoga konsistensi dan integritas mereka menuntun banyak orang   [people_name]kepada iman di dalam Kritstus."
+
+#: admin/starter-content.php:301
+msgid "Father, we pray for believers in [location_name] to expect non-sequential growth in their disciple making. https://zume.training/expect-non-sequential-growth/"
+msgstr "Ya Bapa, kami berdoa bagi orang-orang percaya di  [location_name] untuk mengharapkan terjadinya pertumbuhan eksponensial (non sekuensial - tidak sesuai deret urut) di dalam pemuridan. https://zume.training/expect-non-sequential-growth/"
+
+#: admin/starter-content.php:304
+msgid "\"Let the [people_name] peoples praise you, O God; let all the peoples praise you!\" (Psalm 67:3)"
+msgstr "\"Kiranya bangsa-bangsa [people_name] bersyukur kepada-Mu, ya Allah; kiranya bangsa-bangsa semuanya bersyukur kepada-Mu\".Maz 67:3(67-4))"
+
+#: admin/starter-content.php:305
+msgid "\"And Jesus said to his disciples, ’Truly, I say to you, only with difficulty will a rich person enter the kingdom of heaven.’\" (Matthew 19:23) We know nothing can hinder the Lord from saving (1 Samuel 14:6), so Lord we ask You to be working in the hearts of the wealthy in [location_name]. Soften them and open their spiritual eyes to see the truth of Your Word."
+msgstr "\"Yesus berkata kepada murid-murid-Nya: \"Aku berkata kepadamu, sesungguhnya sukar sekali bagi seorang kaya untuk masuk ke dalam Kerajaan Sorga. (Matius 19:23) \n"
+"Kami tahu tidak ada yang dapat menghalangi Tuhan untuk menyelamatkan (1 Samuel 14:6), jadi ya Tuhan kami meminta Engkau untuk bekerja di dalam hati orang-orang kaya di [location_name]. Lembutkan hati mereka dan buka mata rohani mereka untuk melihat kebenaran Firman-Mu.\""
+
+#: admin/starter-content.php:306
+msgid "\"So I always take pains to have a clear conscience toward both God and man.\" (Acts 24:16) Lord, give believers in [location_name] perseverance in going to such pains as Paul describes here. May it result in many friends, family members, coworkers, and neighbors being drawn to a God who brings transformation from the inside out."
+msgstr "\"Sebab itu aku senantiasa berusaha untuk hidup dengan hati nurani yang murni di hadapan Allah dan manusia\".(KPR 24:16) \"Ya Tuhan, beri orang-orang percaya di  [location_name] ketahanan dalam menghadapi penderitaan seperti yang digambarkan Paulus  di sini. Semoga hal itu menghasilkan di banyak teman, anggota keluarga, teman sekerja, serta pada lingkungan sekitar ditarik kepada Allah yang memulai transformasi dari dalam ke luar. "
+
+#: admin/starter-content.php:307
+msgid "\"By faith the walls of Jericho fell down after they had been encircled for seven days.\" (Hebrews 11:30) May every wall that separates [people_name] from Christ fall down as we faithfully pray and obey His commands."
+msgstr "\"Karena iman maka runtuhlah tembok-tembok Yerikho, setelah kota itu dikelilingi tujuh hari lamanya.\" (Ibrani 11:30) Semoga setiap tembok yang memisahkan [people_name] dari Kristus runtuh saat kami berdoa dengan iman dan menaati perintah-perintah-Nya. "
+
+#: admin/starter-content.php:308
+msgid "Father, we pray for believers in [location_name] to understand why multiplying matters, and multiplying quickly matters even more. https://zume.training/pace-of-multiplication-matters/"
+msgstr "Ya Bapa, kami berdoa bagi orang-orang percaya di [location_name]  untuk memahami mengapa pelipatgandaan itu penting dan pelipatgandaan dengan cepat itu terlebih penting. https://zume.training/pace-of-multiplication-matters/"
+
+#: admin/starter-content.php:311
+msgid "\"You are the God who works wonders; you have made known your might among the [people_name] peoples.\" (Psalm 77:14)"
+msgstr " \"Engkaulah Allah yang melakukan keajaiban; Engkau telah menyatakan kuasa-Mu di antara bangsa-bangsa  [people_name]\".Maz 77:14 (77-15)"
+
+#: admin/starter-content.php:312
+msgid "(Laborers in the Vineyard) \"For the kingdom of heaven is like a master of a house who went out early in the morning to hire laborers for his vineyard.\" (Matthew 20:1) Your ways are not our ways. We praise You for Your generosity and ask that many [people_name] would enter Your Kingdom, even up until the last hour of the day."
+msgstr "\"[Perumpamaan tentang orang-orang upahan di kebun anggur]  \"\"Adapun hal Kerajaan Sorga sama seperti seorang tuan rumah yang pagi-pagi benar keluar mencari pekerja-pekerja untuk kebun anggurnya.\"\"(Matthew 20:1) Jalan-Mu berbeda dengan jalan kami. Kami memuji-Mu untuk kemurahan-Mu dan kami meminta bahwa banyak orang  [people_name]  akan masuk ke dalam Kerajaan-Mu, bahkan sampai akhir waktu hari ini. \""
+
+#: admin/starter-content.php:313
+msgid "\"So on the next day Agrippa and Bernice came with great pomp, and they entered the audience hall with the military tribunes and the prominent men of the city. Then, at the command of Festus, Paul was brought in.\" (Acts 25:23) Here Paul experienced Jesus’ words in Matthew 10:18, \"and you will be dragged before governors and kings for my sake, to bear witness before them and the Gentiles\". In the same way, may [people_name] believers, when this happens, experience Jesus’ promise as it was for Paul, \"do not be anxious how you are to speak or what you are to say, for what you are to say will be given you in that hour.\" (Matthew 10:19)"
+msgstr "\"Pada keesokan harinya datanglah Agripa dan Bernike dengan segala kebesaran dan sesudah mereka masuk ruang pengadilan bersama-sama dengan kepala-kepala pasukan dan orang-orang yang terkemuka dari kota itu, Festus memberi perintah, supaya Paulus dihadapkan. (KPR 25:23) Disini Paulus mengalami firman Yesus di dalam Matius 10:18, \"Dan karena Aku, kamu akan digiring ke muka penguasa-penguasa dan raja-raja sebagai suatu kesaksian bagi mereka dan bagi orang-orang yang tidak mengenal Allah\". Dalam cara yang sama, semoga orang -orang percaya di  [people_name], ketika hal ini terjadi, mengalami janji Yesus seperti yang terjadi pada Paulus, \" janganlah kamu kuatir akan bagaimana dan akan apa yang harus kamu katakan, karena semuanya itu akan dikaruniakan kepadamu pada saat itu juga.\" (Matius 10:19)"
+
+#: admin/starter-content.php:314
+msgid "\"By faith Rahab the prostitute did not perish with those who were disobedient, because she had given a friendly welcome to the spies.\" (Hebrews 11:31) Thank You Lord, for the reminder that no one is too far from Your saving grace. We pray for many [people_name], no matter their background, to be given new identities in Christ through faith."
+msgstr ".\"Karena iman maka Rahab, perempuan sundal itu, tidak turut binasa bersama-sama dengan orang-orang durhaka, karena ia telah menyambut pengintai-pengintai itu dengan baik\" (Ibrani 11:31)  Terima kasih ya Tuhan, untuk mengingatkan bahwa tidak seorangpun yang terlalu jauh dari karunia keselamatan-Mu. Kami berdoa bagi banyak orang  [people_name], tidak peduli latar belakang mereka, untuk diberi identitas di dalam Kristus melalui iman."
+
+#: admin/starter-content.php:315
+msgid "Jesus, we pray for believers in [location_name] to know how to obey your commands by going AND staying. https://zume.training/always-part-of-two-churches/"
+msgstr "Yesus, kami berdoa bagi orang-orang percaya di [location_name] untuk mengetahui bagaimana untuk menaati perintah-perintah-Mu dengan pergi DAN tinggal. https://zume.training/always-part-of-two-churches/"
+
+#: admin/starter-content.php:318
+msgid "\"And they sing the song of Moses, the servant of God, and the song of the Lamb, saying, ’Great and amazing are your deeds, O Lord God the Almighty! Just and true are your ways, O King of the [people_name] nations!’\" (Revelation 15:3)"
+msgstr "\"Dan mereka menyanyikan nyanyian Musa, hamba Allah, dan nyanyian Anak Domba, bunyinya: \"Besar dan ajaib segala pekerjaan-Mu, ya Tuhan, Allah, Yang Mahakuasa! Adil dan benar segala jalan-Mu, ya Raja segala bangsa [people_name]!\" Wahyu 15:3"
+
+#: admin/starter-content.php:319
+msgid "\"But woe to you, scribes and Pharisees, hypocrites! For you shut the kingdom of heaven in people’s faces. For you neither enter yourselves nor allow those who would enter to go in.\" (Matthew 23:13) In Jesus’ day there were many opposed to the Kingdom, so today is no different. We appeal to Jesus, the One who opens and no one will shut (Revelation 3:7) to open the Kingdom to many in [location_name] today."
+msgstr "“Celakalah kamu, hai ahli-ahli Taurat dan orang-orang Farisi, hai kamu orang-orang munafik, karena kamu menutup pintu-pintu Kerajaan Sorga di depan orang. Sebab kamu sendiri tidak masuk dan kamu merintangi mereka yang berusaha untuk masuk\"\". (Matius 23:13) Di masa Yesus ada banyak yang menjadi lawan Kerajaan Allah, masa kini pun demikian. Kami memohon kepada Yesus, Satu-satunya yang dapat membukakan di mana tak seorangpun dapat menutup  (Wahyu 3:7) untuk membuka Kerajaan bagi banyak orang di [location_name] saat ini.\""
+
+#: admin/starter-content.php:320
+msgid "Jesus told Paul that \"I am sending you to open their eyes, so that they may turn from darkness to light and from the power of Satan to God, that they may receive forgiveness of sins and a place among those who are sanctified by faith in me.\" (Acts 26:18) We beseech You, Lord, to send many [people_name] Pauls to do the same throughout every corner of [location_name]."
+msgstr "Yesus mengatakan kepada Paulus bahwa \"untuk membuka mata mereka, supaya mereka berbalik dari kegelapan kepada terang dan dari kuasa Iblis kepada Allah, supaya mereka oleh iman mereka kepada-Ku memperoleh pengampunan dosa dan mendapat bagian dalam apa yang ditentukan untuk orang-orang yang dikuduskan (KPR 26:18) Kami memohon kepada-Mu, ya Allah, untuk mengutus banyak orang [people_name] seperti Paulus untuk melakukan hal yang sama di seluruh wilayah [location_name]."
+
+#: admin/starter-content.php:322
+msgid "Lord, we pray for believers in [location_name] to be intentional in making disciples. https://zume.training/god-uses-ordinary-people/"
+msgstr "Ya Tuhan, kami berdoa bagi orang-orang percaya di [location_name] untuk secara sengaja melakukan pemuridan. https://zume.training/three-month-plan/"
+
+#: admin/starter-content.php:325
+msgid "\"Who will not fear, O Lord, and glorify your name? For you alone are holy. All [people_name] nations will come and worship you, for your righteous acts have been revealed.\" (Revelation 15:4)"
+msgstr "”Siapakah yang tidak takut, ya Tuhan, dan yang tidak memuliakan nama-Mu? Sebab Engkau saja yang kudus; karena semua bangsa [people_name] akan datang dan sujud menyembah Engkau, sebab telah nyata kebenaran segala penghakiman-Mu.\" Wahyu 15:4"
+
+#: admin/starter-content.php:326
+msgid "\"And this gospel of the kingdom will be proclaimed throughout the whole world as a testimony to all nations, and then the end will come.\" (Matthew 24:14) Father we pray for the Good News of the Kingdom to be shared in a clear, understandable, and reproducible way among all of the unengaged, unreached people groups in [location_name]."
+msgstr "\"\"\"Dan Injil Kerajaan ini akan diberitakan di seluruh dunia menjadi kesaksian bagi semua bangsa, sesudah itu barulah tiba kesudahannya\"\" (Matius 24:14) \n"
+"Bapa kami berdoa untuk Kabar Baik Kerajaan-Mu diberitakan secara jelas, dapat dipahami, dan dapat berlipatganda diantara kelompok orang yang terhilang, yang terabaikan di [location_name] \""
+
+#: admin/starter-content.php:327
+msgid "\"And when he had said these things, he took bread, and giving thanks to God in the presence of all he broke it and began to eat.\" (Acts 27:35) Lord, may believers in [location_name] exhibit such unshakeable confidence in Your Word and Your provision, that even in the scariest of circumstances they can still give thanks to You. We pray in the midst of the coronavirus pandemic that many will be drawn to Christ in [location_name] through believers’ firm faith in You."
+msgstr "\"Sesudah berkata demikian, ia mengambil roti, mengucap syukur kepada Allah di hadapan semua mereka, memecah-mecahkannya, lalu mulai makan\" (KPR 27:35) ya Tuhan, semoga orang-orang percaya di  [location_name] memperlihatkan keyakinan yang tak tergoyahkan di dalam Firman dan penyediaan-Mu, bahwa meski di tengah keadaan yang paling menakutkan mereka tetap dapat bersyukur kepada-Mu. Kami berdoa di tengah-tengah pandemi virus korona supaya banyak orang akan ditarik kepada Kristus di  [location_name] melalui iman orang-orang percaya yang teguh di dalam-Mu.  "
+
+#: admin/starter-content.php:329
+msgid "God, we pray for believers in [location_name] to know how to assess their strengths and vulnerabilities when it comes to making disciples who multiply. https://zume.training/coaching-checklist/"
+msgstr "Ya Allah, kami berdoa bagi orang-orang percaya di [location_name] untuk mengetahui bagaimana untuk membantu kekuatan-kekuatan mereka dan kelemahan-kelemahan mereka saat itu pada pemuridan murid-murid yang berlipatganda. https://zume.training/coaching-checklist/"
+
+#: admin/starter-content.php:333
+msgid "(The Parable of the Ten Virgins) \"Then the kingdom of heaven will be like ten virgins who took their lamps and went to meet the bridegroom.\" (Matthew 25:1) Prepare your Bride in [location_name] for Your return. We pray that every believer in this nation will be pursuing Your Kingdom and seeking opportunities to prepare their friends and family for Jesus’ return."
+msgstr "\"[Gadis-gadis yang bijaksana dan gadis-gadis yang bodoh] \"\"Pada waktu itu hal Kerajaan Sorga seumpama sepuluh gadis, yang mengambil pelitanya dan pergi menyongsong mempelai laki-laki.\"\" (Matius 25:1)  Siapkanlah Mempelai wanita-Mu di [location_name]untuk kedatangan-Mu. Kami berdoa bahwa setiap orang percaya di bangsa ini akan mencari Kerajaan-Mu dan mencari kesempatan-kesempatan untuk mempersiapkan teman-teman dan keluarga mereka untuk kedatangan Yesus yang kedua kali.\""
+
+#: admin/starter-content.php:334
+msgid "\"From morning till evening he expounded to them, testifying to the kingdom of God and trying to convince them about Jesus both from the Law of Moses and from the Prophets.\" (Acts 28:23) Continue to equip believers throughout [location_name] to testify convincingly of Your Kingdom using Moses and the Prophets as needed. Soften hearts throughout the land to believe in this glorious message!"
+msgstr "\"Lalu mereka menentukan suatu hari untuk Paulus. Pada hari yang ditentukan itu datanglah mereka dalam jumlah besar ke tempat tumpangannya. Ia menerangkan dan memberi kesaksian kepada mereka tentang Kerajaan Allah; dan berdasarkan hukum Musa dan kitab para nabi ia berusaha meyakinkan mereka tentang Yesus. Hal itu berlangsung dari pagi sampai sore (KPR 28:23) Teruslah untuk memperlengkapi orang-orang percaya di seluruh  [location_name] untuk bersaksi secara meyakinkan tentang Kerajaan-Mu dengan memakai kisah Musa dan para nabi seperti yang dibutuhkan. Lembutkanlah hati di seluruh wilayah yang ada untuk mempercayai pesan yang mulia ini."
+
+#: admin/starter-content.php:336
+msgid "Father, we pray for believers in [location_name] to learn how multiplying churches stay connected and live life together as an extended, spiritual family. https://zume.training/leadership-in-networks/"
+msgstr "Ya Bapa, kami berdoa bagi orang-orang percaya di [location_name] untuk belajar bagaimana melipatgandakan gereja-gereja dan terus terhubung dan hidup bersama sebagai suatu keluarga besar rohani.  https://zume.training/leadership-in-networks/"
+
+#: admin/starter-content.php:339
+msgid "\"And many [people_name] nations shall join themselves to the Lord in that day, and shall be my people. And I will dwell in your midst, and you shall know that the Lord of hosts has sent me to you.\" (Zechariah 2:11)"
+msgstr "\"dan banyak bangsa [people_name]akan menggabungkan diri kepada TUHAN pada waktu itu dan akan menjadi umat-Ku dan Aku akan diam di tengah-tengahmu. Maka engkau akan mengetahui, bahwa TUHAN semesta alam yang mengutus aku kepadamu\".Zakharia 2:11"
+
+#: admin/starter-content.php:340
+msgid "\"Then the King will say to those on his right, ’Come, you who are blessed by my Father, inherit the kingdom prepared for you from the foundation of the world.’\" (Matthew 25:34-36) Thank You Lord that you have prepared [people_name] to enter your kingdom from the foundation of the world. May every believer in this nation do the good works (feeding then hungry; giving water to the thirsty; etc.) that you prepared in advance for them to do (Ephesians 2:10)"
+msgstr "\"Dan Raja itu akan berkata kepada mereka yang di sebelah kanan-Nya: Mari, hai kamu yang diberkati oleh Bapa-Ku, terimalah Kerajaan yang telah disediakan bagimu sejak dunia dijadikan.\" (Matius 25:34-36)  Kami mengucap syukur ya Tuhan bahwa Engkau telah mempersiapkan  [people_name]untuk masuk Kerajaan-Mu dari dasar dunia. Semoga setiap orang percaya di bangsa ini melakukan perbuatan-perbuatan baik [memberi makan mereka yang lapar, memberi air kepada mereka yang haus, dsb.] yang telah Engkau sediakan terlebih dahulu bagi mereka untuk mereka lakukan (Efesus 2:10) \""
+
+#: admin/starter-content.php:341
+msgid "\"Proclaiming the kingdom of God and teaching about the Lord Jesus Christ with all boldness and without hindrance.\" (Acts 28:31) Just as the story of Acts ended with Paul living this verse out. We pray believers in [location_name] would proclaim the Kingdom of God and teach about the Lord with all boldness and without hindrance until their last breath."
+msgstr "\"Dengan terus terang   dan tanpa rintangan apa-apa ia memberitakan Kerajaan Allah dan mengajar tentang Tuhan Yesus Kristus. (K{R 28:31] Sama seperti kisah yang ada di dalam Kisah Para Rasul berakhir dengan Paulus menghidupi ayat-ayat ini .Kami berdoa orang-orang percaya di [location_name]  akan memberitakan Kerajaan Allah dan mengajar tentang Tuhan dengan seluruh keberanian dan tanpa rintangan apa-apa sampai nafas terakhir mereka."
+
+#: admin/starter-content.php:342
+msgid "\"Some were tortured, refusing to accept release, so that they might rise again to a better life. Others suffered mocking and flogging, and even chains and imprisonment. They were stoned, they were sawn in two, they were killed with the sword.\" (Hebrews 11:35b-37) Give all believers in [location_name] perseverance in the face of persecution. Comfort them by the great cloud of witnesses that have gone before them, witnesses like those described in these verses."
+msgstr ".\"Tetapi orang-orang lain membiarkan dirinya disiksa dan tidak mau menerima pembebasan, supaya mereka beroleh kebangkitan yang lebih baik.Ada pula yang diejek dan didera, bahkan yang dibelenggu dan dipenjarakan. (Ibrani 11:35b-37) Beri semua orang percaya di [location_name]  ketahanan di waktu penganiayaan. Hibur mereka dengan banyak saksi bagai awan-awan yang telah ada dihadapan mereka, saksi-saksi seperti mereka yang digambarkan di dalam ayat-ayat ini. "
+
+#: admin/starter-content.php:343
+msgid "God, we pray for believers in [location_name] to discover ways to assess the spiritual health of your work among churches they are starting. https://zume.training/peer-mentoring-groups/"
+msgstr "Ya Allah, kami berdoa bagi orang - orang percaya di [location_name]  untuk menemukan cara-cara untuk membantu kesehatan rohani dari pekerjaan-Mu diantara gereja-gereja yang mereka mulai. https://zume.training/peer-mentoring-groups/"
+
+#: admin/starter-content.php:346
+msgid "\"For from the rising of the sun to its setting my name will be great among the [people_name] nations, and in every place incense will be offered to my name, and a pure offering. For my name will be great among the [people_name] nations, says the Lord of hosts.\" (Malachi 1:11)"
+msgstr "\"Sebab dari terbitnya sampai kepada terbenamnya matahari nama-Ku besar di antara bangsa-bangsa [people_name], dan di setiap tempat dibakar dan dipersembahkan korban bagi nama-Ku dan juga korban sajian yang tahir; sebab nama-Ku besar di antara bangsa-bangsa [people_name], firman TUHAN semesta alam. Maleakhi 1:11"
+
+#: admin/starter-content.php:347
+msgid "\"I tell you I will not drink again of this fruit of the vine until that day when I drink it new with you in my Father’s kingdom.\" (Matthew 26:29) Even more strongly than fasting [people_name] today long for their thirst to be quenched and their bellies to be filled with extravagant food, may your Church’s anticipation be growing for the day when Jesus drinks again of the fruit of the vine that He secured through His death, burial, and resurrection. We pray that there will be many [people_name] from every people group around that table."
+msgstr "\"” Akan tetapi Aku berkata kepadamu: mulai dari sekarang Aku tidak akan minum lagi hasil pokok anggur ini sampai pada hari Aku meminumnya, yaitu yang baru, bersama-sama dengan kamu dalam Kerajaan Bapa-Ku.\"\"(Matius 26:29) \n"
+"Lebih kuat dari pada berpuasa  [people_name] hari ini berharap bahwa rasa haus mereka akan dipuaskan dan perut-perut mereka akan dikeyangkan dengan makanan yang luar biasa, semoga antisipasi gereja-Mu akan bertumbuh untuk hari dimana Yesus meminum lagi hasil dari pokok anggur yang tidak diminum-Nya melalui kematian, penguburan, dan kebangkitan-Nya. Kami berdoa bahwa akan banyak orang [people_name] dari setiap kelompok orang berada di meja perjamuan itu.\""
+
+#: admin/starter-content.php:348
+msgid "Thank you Lord for the example of the book of Acts, continue these stories and events in [location_name] today. We pray for unprecedented Kingdom advance this year in [location_name]!"
+msgstr "Terima kasih ya Tuhan untuk teladan yang ada di dalam Kitab Kisah Para Rasul, terus lanjutkan kisah-kisah ini dan peristiwa-peristiwa ini di[location_name]  pada masa kini. Kami berdoa bagi kemajuan Kerajaan yang belum pernah terjadi sebelumnya pada tahun ini di[location_name] !"
+
+#: admin/starter-content.php:349
+msgid "\"They went about in skins of sheep and goats, destitute, afflicted, mistreated— of whom the world was not worthy—wandering about in deserts and mountains, and in dens and caves of the earth.\" (Hebrews 11:37-38) Thank you for our many brothers and sisters in [location_name] -- of whom the world is not worthy. Protect them from the evil one and preserve their faith. May every persecution only strengthen their resolve and demonstrate the treasure of Christ."
+msgstr "\"Mereka dilempari, digergaji, dibunuh dengan pedang; mereka mengembara dengan berpakaian kulit domba dan kulit kambing sambil menderita kekurangan, kesesakan dan siksaan.Dunia ini tidak layak bagi mereka. Mereka mengembara di padang gurun dan di pegunungan, dalam gua-gua dan celah-celah gunung (Ibrani 11:37-38) Terima kasih untuk banyak saudara kami di [location_name] --  mereka yang dunia ini tidak layak bagi mereka. Lindungi mereka dari si jahat dan peliharakan iman mereka. Semoga setiap penganiayaan hanya memperkuat ketetapan dan kekayaan mereka di dalam Kristus."
+
+#: admin/starter-content.php:350
+msgid "Father, we pray for believers in [location_name] to learn simple tools like Four Fields to reflect on the status of current efforts and kingdom activity around them. https://zume.training/four-fields-tool/"
+msgstr "Ya Bapa, kami berdoa bagi orang-orang percaya di [location_name] untuk belajar alat-alat yang sederhana seperti Empat Ladang (Four Fields) untuk merefleksikan status dari usaha-usaha yang dikerjakan saat ini dan kegiatan-kegiatan Kerajaan di sekitar mereka  https://zume.training/four-fields-tool/"
+
+#: admin/starter-content.php:354
+msgid "\"And this gospel of the kingdom will be proclaimed throughout the whole world as a testimony to all nations, and then the end will come.\" (Matthew 24:14) Until you return, may the passion of Your church, both within [location_name] and beyond be the proclamation of the gospel of Your Kingdom among all nations."
+msgstr "\"Dan Injil Kerajaan ini akan diberitakan di seluruh dunia menjadi kesaksian bagi semua bangsa, sesudah itu barulah tiba kesudahannya.\"\" (Matius 24:14) \n"
+"Sampai Engkau kembali, semoga kerinduan hati gereja-Mu baik yang ada di   [location_name] dan wilayah lainnya adalah proklamasi Injil Kerajaan-Mu di antara semua bangsa.\""
+
+#: admin/starter-content.php:355
+msgid "\"Now the full number of those who believed were of one heart and soul...\" (Acts 4:32a) We praise You Lord for the ways believers in [location_name] care for one another. We pray for your Bride in this land to continue to grow in unity and love for one another."
+msgstr "\"Adapun kumpulan orang yang telah percaya itu, mereka sehati dan sejiwa...\" (KPR 4:32a) Kami memuji-Mu ya Tuhan untuk cara-cara orang percaya di [location_name] saling mengasihi satu dengan yang lainnya. kami berdoa bagi Mempelai Wanita-Mu di wilayah ini untuk terus bertumbuh di dalam kesatuan dan kasih satu dengan yang lain."
+
+#: admin/starter-content.php:356
+msgid "\"And all these, though commended through their faith, did not receive what was promised, since God had provided something better for us, that apart from us they should not be made perfect.\" (Hebrews 11:39-40) Thank You Lord for the beautiful tapestry of faith you are weaving through believers across the centuries. We pray for many [people_name] to be brought into this promise, even during this month of Ramadan. Amen!"
+msgstr "\"Dan mereka semua tidak memperoleh apa yang dijanjikan itu, sekalipun iman mereka telah memberikan kepada mereka suatu kesaksian yang baik.Sebab Allah telah menyediakan sesuatu yang lebih baik bagi kita; tanpa kita mereka tidak dapat sampai kepada kesempurnaan\" (Ibrani 11:39-40) Terima kasih ya Tuhan untuk jalinan iman yang indah yang Engkau sedang tenun melalui orang-orang percaya di seluruh abad. Kami berdoa bagi banyak orang [people_name]  untuk dibawa kepada janji ini, bahkan di sepanjang bulan Ramadhan ini. Amin!"
+
+#: admin/starter-content.php:357
+msgid "Father, we pray for believers in [location_name] to have and use tools like Generational Maps to understand the growth of their disciples and churches. https://zume.training/generational-mapping/"
+msgstr "Ya Bapa, kami berdoa bagi orang-orang percaya di  [location_name] untuk memiliki dan memakai alat-alat seperti Peta Generasi (Generational Maps) untuk memahami pertumbuhan murid-murid dan gereja-gereja mereka. https://zume.training/generational-mapping/"
+
+#: admin/starter-content.php:380
+msgid "PRAISE"
+msgstr "PUJIAN"
+
+#: admin/starter-content.php:388
+msgid "KINGDOM COME"
+msgstr "KERAJAAN DATANG"
+
+#: admin/starter-content.php:396
+msgid "PRAY THE BOOK OF ACTS"
+msgstr "DOA KITAB KISAH PARA RASUL"
+
+#: admin/starter-content.php:404
+msgid "PRAY THE HALL OF FAITH"
+msgstr "DOA  AULA IMAN"
+
+#: admin/starter-content.php:412
+msgid "PRAYER"
+msgstr "DOA"
+
+#: admin/starter-content.php:143
+msgid "\"For this I will praise you, O Lord, among the nations in [location_name], and sing to your name. (Psalm 18:49)"
+msgstr "\"Sebab itu aku mau menyanyikan syukur bagi-Mu di antara bangsa-bangsa [location_name] , ya TUHAN, dan aku mau menyanyikan  mazmur bagi nama-Mu\" Maz 18:49 (18:50)"
+
+#: site/archive-body.php:84
+msgid "Today's Prayer Fuel"
+msgstr "Bahan Bakar Doa Hari Ini"
+
+#: site/archive-body.php:104
+msgid "All Days"
+msgstr "Sepanjang Hari"
+
+#: site/archive-body.php:106 site/landing-body.php:100
+msgid "Use these resources to help pray specifically each day for the month of Ramadan."
+msgstr "Gunakan materi ini untuk membantu doa secara khusus setiap hari selama bulan Ramadhan"
+
+#: site/archive-body.php:132
+msgid "Read"
+msgstr "Baca"
+
+#: admin/starter-content.php:214
+msgid "\"From the days of John the Baptist until now the kingdom of heaven has suffered violence, and the violent take it by force.\" (Matthew 11:12) Today as another day of fasting and feasting passes, we take comfort in knowing nothing can hinder your Kingdom advancing among the nations. We pray for many in [location_name] to actively participate in bringing Your Kingdom among the nations."
+msgstr "\"Sejak tampilnya Yohanes Pembaptis hingga sekarang, Kerajaan Sorga diserong dan orang yang menyerongnya mencoba menguasainya (Matius 11:12)\n"
+"Hari ini saat hari-hari puasa dan perayaan berlalu, kami bersuka mengetahui bahwa tidak ada yang dapat menghalangi Kerajaan-Mu semakin maju di antara bangsa-bangsa. Kami berdoa bagi banyak orang di [location_name] untuk secara aktif ikut serta di dalam membawa Kerajaan-Mu diantara bangsa-bangsa.\""
+
+#: admin/starter-content.php:229
+msgid "\"I have made you a light for the Gentiles, that you may bring salvation to the ends of the earth... and the word of the Lord was spreading throughout the whole region.\" (Acts 13:47,49) Thank you that [location_name] is a part of those ’ends of the earth’. We agree with Your word today Lord and pray that it would spread throughout the whole region of [location_name]."
+msgstr "\"Sebab inilah yang diperintahkan kepada kami: Aku telah menentukan engkau menjadi terang bagi bangsa-bangsa yang tidak mengenal Allah, supaya engkau membawa keselamatan sampai ke ujung bumi.... Lalu firman Tuhan disiarkan di seluruh daerah itu.\" (KPR 13:47,49) Kami bersyukur bahwa [location_name] adalah bagian dari 'ujung bumi'. Kami mengimani firman-Mu hari ini ya Tuhan dan berdoa bahwa firman-Mu akan tersebar ke seluruh wilayah [location_name]"
+
+#: admin/starter-content.php:272
+msgid "\"By faith Moses, when he was grown up, refused to be called the son of Pharaoh’s daughter, choosing rather to be mistreated with the people of God than to enjoy the fleeting pleasures of sin.\" (Hebrews 11:24-25) Lord, give all believers in [location_name] an eternal perspective to find pleasure in You more than in the fleeting pleasures of sin. As they do, may it be a powerful testimony to onlooking family and friends."
+msgstr "\"Karena iman maka Musa, setelah dewasa, menolak disebut anak puteri Firaun, karena ia lebih suka menderita sengsara dengan umat Allah dari pada untuk sementara menikmati kesenangan dari dosa.\" (Ibrani 11:24-25) Ya Tuhan, beri semua orang percaya di [location_name]  sebuah perspektif kekal untuk mendapat sukacita di dalam-Mu lebih dari kesenangan di dalam dosa yang fana. Seiring mereka melakukan hal itu, semoga itu menjadi kesaksian yang kuat yang terlihat oleh keluarga dan teman-teman mereka. "
+
+#: admin/starter-content.php:300
+msgid "\"By faith the people crossed the Red Sea as on dry land, but the Egyptians, when they attempted to do the same, were drowned.\" (Hebrews 11:29) We pray for God’s miraculous works recorded in the Bible to stir believers in [location_name] to live by faith in ever-increasing measure."
+msgstr " \"Karena iman maka mereka telah melintasi Laut Merah sama seperti melintasi tanah kering, sedangkan orang-orang Mesir tenggelam, ketika mereka mencobanya juga\" (Ibrani 11:29) Kami berdoa bagi karya mujizat Tuhan yang tertulis di Alkitab untuk mengarahkan orang-orang percaya di  [location_name] untuk hidup oleh iman yang semakin lama semakin meningkat."
+
+#: admin/starter-content.php:321
+msgid "\"And what more shall I say? For time would fail me to tell of Gideon...\" (Hebrews 11:32-35a) Gideon allowed God to dwindle an army of more than 30,000 to 300 so that God would receive all of the glory for the victory. Raise up leaders like Gideon in [location_name], men and women who will have more confidence in God than in their resources."
+msgstr " \"Dan apakah lagi yang harus aku sebut? Sebab aku akan kekurangan waktu, apabila aku hendak menceriterakan tentang Gideon...\" (Ibrani 11:32-35a) Gideon  mempersilakan Allah untuk mengurangi pasukan perang yang berjumlah lebih dari 30.000 menjadi 300 sehingga Allah akan mernerima semua kemuliaan untuk kemenangan. Bangkitkan para pemimpin seperti Gideon di [location_name], para laki-laki dan perempuan yang akan memiliki keyakinan yang lebih di dalam Allah dari pada di dalam kemampuan-kemampuan mereka sendiri."
+
+#: admin/starter-content.php:328
+msgid "\"And what more shall I say? For time would fail me to tell of... Barak...\" (Hebrews 11:32-35a) Though Barak stumbled with fear, he still led 10,000 people to victory and freedom for the people of God. We pray for godly [people_name] leaders to be used by God, despite their weaknesses, to free others from the bondage of sin."
+msgstr "\" Dan apakah lagi yang harus aku sebut? Sebab aku akan kekurangan waktu, apabila aku hendak menceriterakan tentang...Barak... (Ibrani 11:32-35a) Meski Barak tersandung dengan rasa takut, dia masih memimpin 10.000 orang kepada kemenangan dan kebebasan bagi umat Allah. Kami berdoa bagi para pemimpin  [people_name] rohani dipakai oleh Allah, meski ada kelemahan mereka, untuk membebaskan orang-orang lain dari ikatan dosa."
+
+#: admin/starter-content.php:335
+msgid "\"And what more shall I say? For time would fail me to tell of... David...\" (Hebrews 11:32-35a) Please raise up many like David in [location_name], men and women after God’s own heart. As they chase after God’s heart, may they lead many others into relationship with Him."
+msgstr "\"Dan apakah lagi yang harus aku sebut? Sebab aku akan kekurangan waktu, apabila aku hendak menceriterakan tentang...Daud..\" (Ibrani 11:32-35a) Kami mohon ya Tuhan bangkitkan banyak orang seperti Daud di [location_name],  para laki-laki dan perempuan yang berkenan di hati Allah, semoga mereka memimpin banyak orang lain ke dalam hubungan dengan-Mu. "
+
+#: admin/starter-content.php:353
+msgid "“O Lord, God of our fathers, are you not God in heaven? You rule over all the kingdoms of the [people_name] nations. In your hand are power and might, so that none is able to withstand you. (2 Chronicles 20:6)"
+msgstr "\"Ya TUHAN, Allah nenek moyang kami, bukankah Engkau Allah di dalam sorga? Bukankah Engkau memerintah atas segenap kerajaan bangsa [people_name] ? Kuasa dan keperkasaan ada di dalam tangan-Mu, sehingga tidak ada orang yang dapat bertahan melawan Engkau. 2 Tawarikh 20:6"
+

@@ -36,6 +36,19 @@ function dt_ramadan_list_languages(){
             'flag' => '🇵🇹',
             'prayer_fuel' => true
         ],
+        'id_ID' => [
+            'language' => "id_ID",
+            'english_name' => 'Indonesian',
+            'native_name' => 'Bahasa Indonesia',
+            'flag' => '🇮🇩',
+            'prayer_fuel' => true
+        ],
+        'nl_NL' => [
+            'language' => "nl_NL",
+            'english_name' => 'Dutch',
+            'native_name' => 'Nederlands',
+            'flag' => '🇳🇱',
+        ]
     ];
 
     foreach ( $available_language_codes as $code ){
