@@ -48,6 +48,12 @@ function dt_ramadan_list_languages(){
             'english_name' => 'Dutch',
             'native_name' => 'Nederlands',
             'flag' => '🇳🇱',
+        ],
+        'ar_EG' => [
+            'language' => 'ar_EG',
+            'english_name' => 'Arabic',
+            'native_name' => 'العربية',
+            'flag' => '🇪🇬'
         ]
     ];
 
