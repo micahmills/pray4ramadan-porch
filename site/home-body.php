@@ -90,123 +90,120 @@ if ( $dt_ramadan_selected_campaign_magic_link_settings["color"] === "preset" ){
 <!-- Services Section End -->
 
 
-<?php if ( time() <= strtotime( $campaign_fields['end_date']['formatted'] ?? '' ) ) : ?>
-    <!-- COUNTER ROW -->
-    <div id="days_until" class="counters section" data-stellar-background-ratio="0.5" >
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="wow fadeInUp" data-wow-delay=".3s">
-                        <div class="facts-item">
-                            <div class="fact-count">
-                                <h2 id="counter_title" style="font-size:3em;"></h2>
-                                <h3><span id="days"></span><span id="hours"></span><span id="mins"></span><span id="secs"></span><span id="end"></span></h3>
-                            </div>
+<!-- COUNTER ROW -->
+<div id="days_until" class="counters section" data-stellar-background-ratio="0.5" >
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="wow fadeInUp" data-wow-delay=".3s">
+                    <div class="facts-item">
+                        <div class="fact-count">
+                            <h2 id="counter_title" style="font-size:3em;"></h2>
+                            <h3><span id="days"></span><span id="hours"></span><span id="mins"></span><span id="secs"></span><span id="end"></span></h3>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row" style="margin-top: 30px">
-                <div class="col-sm-12 col-md-8" style="color: white">
-                    <?php echo nl2br( esc_html( get_field_translation( $porch_fields["what_content"], $lang ) ) ); ?>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <?php
-                    $dt_ramadan_selected_campaign_magic_link_settings["section"] = "calendar";
-                    echo dt_24hour_campaign_shortcode( //phpcs:ignore
-                        $dt_ramadan_selected_campaign_magic_link_settings
-                    );
-                    ?>
-                </div>
-            </div>
         </div>
-    </div>
-    <!-- Counter Section End -->
-    <script>
-        var myfunc = setInterval(function() {
-            // The data/time we want to countdown to
-            <?php
-            $timezone = !empty( $campaign_fields["campaign_timezone"] ) ? $campaign_fields["campaign_timezone"]["key"] : 'America/Chicago';
-            $tz = new DateTimeZone( $timezone );
-            $begin_date = new DateTime( "@".$campaign_fields['start_date']['timestamp'] );
-            $begin_date->setTimezone( $tz );
-            $timezone_offset = $tz->getOffset( $begin_date );
-
-            $timezone_adjusted_start_date = $campaign_fields['start_date']['timestamp'] - $timezone_offset;
-
-            $timezone_adjusted_end_date = $campaign_fields['end_date']['timestamp'] - $timezone_offset;
-            ?>
-            var countDownDate = '<?php echo $timezone_adjusted_start_date?>'
-            var endCountDownDate = '<?php echo $timezone_adjusted_end_date ?>'
-
-
-            var now = new Date().getTime() / 1000
-            var timeleft = countDownDate - now;
-            var endtimeleft = endCountDownDate - now ;
-
-            var days = Math.floor(timeleft / (60 * 60 * 24));
-            var hours = Math.floor((timeleft % (60 * 60 * 24)) / (60 * 60));
-            var minutes = Math.floor((timeleft % (60 * 60)) / 60);
-            var seconds = Math.floor(timeleft % 60);
-
-            if ( endtimeleft < 0 ) {
-                clearInterval(myfunc);
-                document.getElementById("counter_title").innerHTML = "<?php echo esc_html__( "Ramadan is Finished", 'pray4ramadan-porch' ); ?>"
-                document.getElementById("days").innerHTML = ""
-                document.getElementById("hours").innerHTML = ""
-                document.getElementById("mins").innerHTML = ""
-                document.getElementById("secs").innerHTML = ""
-            }
-            else if ( timeleft < 0 ) {
-
-                days = Math.floor(endtimeleft / (60 * 60 * 24));
-                hours = Math.floor((endtimeleft % (60 * 60 * 24)) / (60 * 60));
-                minutes = Math.floor((endtimeleft % (60 * 60)) / 60);
-                seconds = Math.floor(endtimeleft % 60);
-
-                document.getElementById("counter_title").innerHTML = "<?php echo esc_html__( "Ramadan Ends ...", 'pray4ramadan-porch' ); ?>"
-                document.getElementById("days").innerHTML = days + " <?php echo esc_html__( "days", 'pray4ramadan-porch' ); ?>, "
-                document.getElementById("hours").innerHTML = hours + " <?php echo esc_html__( "hours", 'pray4ramadan-porch' ); ?>, "
-                document.getElementById("mins").innerHTML = minutes + " <?php echo esc_html__( "minutes", 'pray4ramadan-porch' ); ?>, "
-                document.getElementById("secs").innerHTML = seconds + " <?php echo esc_html__( "seconds", 'pray4ramadan-porch' ); ?>"
-
-            } else {
-                document.getElementById("counter_title").innerHTML = "<?php echo esc_html__( "Ramadan Begins ...", 'pray4ramadan-porch' ); ?>"
-                document.getElementById("days").innerHTML = days + " <?php echo esc_html__( "days", 'pray4ramadan-porch' ); ?>, "
-                document.getElementById("hours").innerHTML = hours + " <?php echo esc_html__( "hours", 'pray4ramadan-porch' ); ?>, "
-                document.getElementById("mins").innerHTML = minutes + " <?php echo esc_html__( "minutes", 'pray4ramadan-porch' ); ?>, "
-                document.getElementById("secs").innerHTML = seconds + " <?php echo esc_html__( "seconds", 'pray4ramadan-porch' ); ?>"
-            }
-
-        }, 1000)
-    </script>
-
-    <!-- SIGN UP TO PRAY -->
-    <section id="features" class="section" data-stellar-background-ratio="0.2">
-        <div id="sign-up" name="sign-up" class="container">
-            <div class="section-header">
-                <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Sign Up to', 'pray4ramadan-porch' ); ?> <span><?php esc_html_e( 'Pray', 'pray4ramadan-porch' ); ?></span></h2>
-                <hr class="lines wow zoomIn" data-wow-delay="0.3s">
+        <div class="row" style="margin-top: 30px">
+            <div class="col-sm-12 col-md-8" style="color: white">
+                <?php echo nl2br( esc_html( get_field_translation( $porch_fields["what_content"], $lang ) ) ); ?>
             </div>
-            <div class="row">
+            <div class="col-sm-12 col-md-4">
                 <?php
-                if ( empty( $dt_ramadan_selected_campaign_magic_link_settings ) ) :?>
-                    <p style="margin:auto">Choose campaign in settings <a href="<?php echo esc_html( admin_url( 'admin.php?page=dt_porch_template&tab=general' ) );?>"><?php esc_html_e( 'here', 'pray4ramadan-porch' ); ?></a></p>
-                <?php else :
-
-                    $dt_ramadan_selected_campaign_magic_link_settings["section"] = "sign_up";
-                    echo dt_24hour_campaign_shortcode( //phpcs:ignore
-                        $dt_ramadan_selected_campaign_magic_link_settings
-                    );
-                endif;
+                $dt_ramadan_selected_campaign_magic_link_settings["section"] = "calendar";
+                echo dt_24hour_campaign_shortcode( //phpcs:ignore
+                    $dt_ramadan_selected_campaign_magic_link_settings
+                );
                 ?>
             </div>
         </div>
-    </section>
-    <!-- Features Section End -->
+    </div>
+</div>
+<!-- Counter Section End -->
+<script>
+    var myfunc = setInterval(function() {
+        // The data/time we want to countdown to
+        <?php
+        $timezone = !empty( $campaign_fields["campaign_timezone"] ) ? $campaign_fields["campaign_timezone"]["key"] : 'America/Chicago';
+        $tz = new DateTimeZone( $timezone );
+        $begin_date = new DateTime( "@".$campaign_fields['start_date']['timestamp'] );
+        $begin_date->setTimezone( $tz );
+        $timezone_offset = $tz->getOffset( $begin_date );
 
-<?php endif; ?><!-- campaign passed -->
+        $timezone_adjusted_start_date = $campaign_fields['start_date']['timestamp'] - $timezone_offset;
+
+        $timezone_adjusted_end_date = $campaign_fields['end_date']['timestamp'] - $timezone_offset;
+        ?>
+        var countDownDate = '<?php echo $timezone_adjusted_start_date?>'
+        var endCountDownDate = '<?php echo $timezone_adjusted_end_date ?>'
+
+
+        var now = new Date().getTime() / 1000
+        var timeleft = countDownDate - now;
+        var endtimeleft = endCountDownDate - now ;
+
+        var days = Math.floor(timeleft / (60 * 60 * 24));
+        var hours = Math.floor((timeleft % (60 * 60 * 24)) / (60 * 60));
+        var minutes = Math.floor((timeleft % (60 * 60)) / 60);
+        var seconds = Math.floor(timeleft % 60);
+
+        if ( endtimeleft < 0 ) {
+            clearInterval(myfunc);
+            document.getElementById("counter_title").innerHTML = "<?php echo esc_html__( "Ramadan is Finished", 'pray4ramadan-porch' ); ?>"
+            document.getElementById("days").innerHTML = ""
+            document.getElementById("hours").innerHTML = ""
+            document.getElementById("mins").innerHTML = ""
+            document.getElementById("secs").innerHTML = ""
+        }
+        else if ( timeleft < 0 ) {
+
+            days = Math.floor(endtimeleft / (60 * 60 * 24));
+            hours = Math.floor((endtimeleft % (60 * 60 * 24)) / (60 * 60));
+            minutes = Math.floor((endtimeleft % (60 * 60)) / 60);
+            seconds = Math.floor(endtimeleft % 60);
+
+            document.getElementById("counter_title").innerHTML = "<?php echo esc_html__( "Ramadan Ends ...", 'pray4ramadan-porch' ); ?>"
+            document.getElementById("days").innerHTML = days + " <?php echo esc_html__( "days", 'pray4ramadan-porch' ); ?>, "
+            document.getElementById("hours").innerHTML = hours + " <?php echo esc_html__( "hours", 'pray4ramadan-porch' ); ?>, "
+            document.getElementById("mins").innerHTML = minutes + " <?php echo esc_html__( "minutes", 'pray4ramadan-porch' ); ?>, "
+            document.getElementById("secs").innerHTML = seconds + " <?php echo esc_html__( "seconds", 'pray4ramadan-porch' ); ?>"
+
+        } else {
+            document.getElementById("counter_title").innerHTML = "<?php echo esc_html__( "Ramadan Begins ...", 'pray4ramadan-porch' ); ?>"
+            document.getElementById("days").innerHTML = days + " <?php echo esc_html__( "days", 'pray4ramadan-porch' ); ?>, "
+            document.getElementById("hours").innerHTML = hours + " <?php echo esc_html__( "hours", 'pray4ramadan-porch' ); ?>, "
+            document.getElementById("mins").innerHTML = minutes + " <?php echo esc_html__( "minutes", 'pray4ramadan-porch' ); ?>, "
+            document.getElementById("secs").innerHTML = seconds + " <?php echo esc_html__( "seconds", 'pray4ramadan-porch' ); ?>"
+        }
+
+    }, 1000)
+</script>
+
+<!-- SIGN UP TO PRAY -->
+<section id="features" class="section" data-stellar-background-ratio="0.2">
+    <div id="sign-up" name="sign-up" class="container">
+        <div class="section-header">
+            <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Sign Up to', 'pray4ramadan-porch' ); ?> <span><?php esc_html_e( 'Pray', 'pray4ramadan-porch' ); ?></span></h2>
+            <hr class="lines wow zoomIn" data-wow-delay="0.3s">
+        </div>
+        <div class="row">
+            <?php
+            if ( empty( $dt_ramadan_selected_campaign_magic_link_settings ) ) :?>
+                <p style="margin:auto">Choose campaign in settings <a href="<?php echo esc_html( admin_url( 'admin.php?page=dt_porch_template&tab=general' ) );?>"><?php esc_html_e( 'here', 'pray4ramadan-porch' ); ?></a></p>
+            <?php else :
+
+                $dt_ramadan_selected_campaign_magic_link_settings["section"] = "sign_up";
+                echo dt_24hour_campaign_shortcode( //phpcs:ignore
+                    $dt_ramadan_selected_campaign_magic_link_settings
+                );
+            endif;
+            ?>
+        </div>
+    </div>
+</section>
+<!-- Features Section End -->
 
 <!-- COUNTER ROW -->
 <div class="counters section" data-stellar-background-ratio="0.5" >
