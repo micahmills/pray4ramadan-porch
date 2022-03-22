@@ -284,8 +284,8 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                 foreach ( $fields as $field_key => $field ){
                     if ( isset( $field["translations"] ) ){
                         foreach ( $langs as $lang_code => $lang_values ){
-                            if ( isset( $post_fields["field_key_" . $field_key . "_translation-" . $lang_code] ) ){
-                                $saved_fields[$field_key]["translations"][$lang_code] = $post_fields["field_key_" . $field_key . "_translation-" . $lang_code];
+                            if ( isset( $_POST["field_key_" . $field_key . "_translation-" . $lang_code] ) ){
+                                $saved_fields[$field_key]["translations"][$lang_code] = wp_kses( wp_unslash( $_POST["field_key_" . $field_key . "_translation-" . $lang_code] ), $allowed_tags );
                             }
                         }
                     }
