@@ -314,8 +314,11 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                 </tr>
                 </thead>
                 <tbody>
-                    <?php foreach ( $fields as $key => $field ) : ?>
-                        <?php if ( !isset( $field['type'] ) || 'text' === $field['type'] ) : ?>
+                    <?php foreach ( $fields as $key => $field ) :
+                        if ( isset( $field["enabled"] ) && $field["enabled"] === false ){
+                            continue;
+                        }
+                        if ( !isset( $field['type'] ) || 'text' === $field['type'] ) : ?>
                             <tr>
                                 <td>
                                     <?php echo esc_html( $field['label'] ); ?>

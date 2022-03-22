@@ -405,6 +405,7 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
                 'label' => 'What is Ramadan Image',
                 'value' => '',
                 'type' => 'text',
+                'enabled' => false
             ],
             'show_prayer_timer' => [
                 'label' => 'Show Prayer Timer',
