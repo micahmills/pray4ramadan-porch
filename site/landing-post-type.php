@@ -202,6 +202,7 @@ class P4_Ramadan_Porch_Landing_Post_Type
         unset( $columns['author'] );
         $columns['url'] = 'URL';
         $columns['language'] = 'Language';
+        $columns['last_modified'] = 'Last Modified';
 
         return $columns;
     }
@@ -227,7 +228,11 @@ class P4_Ramadan_Porch_Landing_Post_Type
                     echo esc_html( $languages[$language]["flag"] );
                 }
                 break;
-
+            case 'last_modified':
+                $post = get_post( $post_id, ARRAY_A );
+                if ( $post['post_modified'] !== $post['post_date'] ){
+                    echo esc_html( $post['post_modified'] );
+                }
         }
     }
 } // End Class
