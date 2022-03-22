@@ -72,24 +72,6 @@ $list = new WP_Query( $args );
 <!-- Contact Section End -->
 
 
-<!-- TOOLS SECTION -->
-<section id="download" class="section">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Prayer Tools</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="download-area text-center wow fadeInUp" data-wow-delay="0.3s">
-                    <a href="https://www.youversion.com/the-bible-app/" class="btn btn-border">Download Bible App</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Download Section End -->
-
-
 <!-- LIST OF POSTS Section -->
 <section id="blog" class="section">
     <!-- Container Starts -->
