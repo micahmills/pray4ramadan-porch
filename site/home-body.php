@@ -123,7 +123,7 @@ if ( $dt_ramadan_selected_campaign_magic_link_settings["color"] === "preset" ){
 </div>
 <!-- Counter Section End -->
 <script>
-    var myfunc = setInterval(function() {
+    let myfunc = setInterval(function() {
         // The data/time we want to countdown to
         <?php
         $timezone = !empty( $campaign_fields["campaign_timezone"] ) ? $campaign_fields["campaign_timezone"]["key"] : 'America/Chicago';
@@ -136,18 +136,18 @@ if ( $dt_ramadan_selected_campaign_magic_link_settings["color"] === "preset" ){
 
         $timezone_adjusted_end_date = $campaign_fields['end_date']['timestamp'] - $timezone_offset;
         ?>
-        var countDownDate = '<?php echo $timezone_adjusted_start_date?>'
-        var endCountDownDate = '<?php echo $timezone_adjusted_end_date ?>'
+        let countDownDate = '<?php echo esc_html( $timezone_adjusted_start_date )?>'
+        let endCountDownDate = '<?php echo esc_html( $timezone_adjusted_end_date ) ?>'
 
 
-        var now = new Date().getTime() / 1000
-        var timeleft = countDownDate - now;
-        var endtimeleft = endCountDownDate - now ;
+        let now = new Date().getTime() / 1000
+        let timeleft = countDownDate - now;
+        let endtimeleft = endCountDownDate - now ;
 
-        var days = Math.floor(timeleft / (60 * 60 * 24));
-        var hours = Math.floor((timeleft % (60 * 60 * 24)) / (60 * 60));
-        var minutes = Math.floor((timeleft % (60 * 60)) / 60);
-        var seconds = Math.floor(timeleft % 60);
+        let days = Math.floor(timeleft / (60 * 60 * 24));
+        let hours = Math.floor((timeleft % (60 * 60 * 24)) / (60 * 60));
+        let minutes = Math.floor((timeleft % (60 * 60)) / 60);
+        let seconds = Math.floor(timeleft % 60);
 
         if ( endtimeleft < 0 ) {
             clearInterval(myfunc);
@@ -295,7 +295,7 @@ if ( $dt_ramadan_selected_campaign_magic_link_settings["color"] === "preset" ){
                     <p>
                         Made with &#10084;&#65039; by <a href="https://pray4movement.org">Pray4Movement.org</a><br>
                         Powered by <a href="https://disciple.tools">Disciple.Tools</a><br>
-                        &copy;  <?php echo esc_html ( gmdate("Y") ); ?>
+                        &copy; <?php echo esc_html( gmdate( "Y" ) ); ?>
                     </p>
                 </div>
                 <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
