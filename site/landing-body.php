@@ -10,7 +10,7 @@ if ( isset( $this->parts['post_id'] ) && ! empty( $this->parts['post_id'] ) ) {
         JOIN $wpdb->postmeta pm ON ( p.ID = pm.post_ID AND pm.meta_key = 'prayer_fuel_magic_key' AND pm.meta_value = %s )
         JOIN $wpdb->postmeta lang ON ( p.ID = lang.post_ID AND lang.meta_key = 'post_language' AND lang.meta_value = %s )
         WHERE post_type = %s
-        AND post_status = 'publish'
+        AND ( post_status = 'publish' OR post_status = 'future' )
     ", $this->parts['public_key'], $lang, PORCH_LANDING_POST_TYPE ) );
 
     if ( empty( $content_post_id ) ){
@@ -20,7 +20,7 @@ if ( isset( $this->parts['post_id'] ) && ! empty( $this->parts['post_id'] ) ) {
             JOIN $wpdb->postmeta pm ON ( p.ID = pm.post_ID AND pm.meta_key = 'prayer_fuel_magic_key' AND pm.meta_value = %s )
             LEFT JOIN $wpdb->postmeta lang ON ( p.ID = lang.post_ID AND lang.meta_key = 'post_language' )
             WHERE post_type = %s
-            AND post_status = 'publish'
+            AND ( post_status = 'publish' OR post_status = 'future' )
             AND ( lang.meta_value = 'en_US' OR lang.meta_value IS NULL )
         ", $this->parts['public_key'], PORCH_LANDING_POST_TYPE ) );
     }
