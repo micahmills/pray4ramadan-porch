@@ -214,7 +214,12 @@ class P4_Ramadan_Porch_Landing_Post_Type
         switch ( $column ) {
             case 'url' :
                 $public_key = get_post_meta( $post_id, PORCH_LANDING_META_KEY, true );
-                echo '<a href="' . esc_url( trailingslashit( site_url() ) ) . esc_attr( PORCH_LANDING_ROOT ) . '/' . esc_attr( PORCH_LANDING_TYPE ) . '/' . esc_attr( $public_key ) . '">'. esc_url( trailingslashit( site_url() ) ) . esc_attr( PORCH_LANDING_ROOT ) . '/' . esc_attr( PORCH_LANDING_TYPE ) . '/' . esc_attr( $public_key ) .'</a>';
+                $language = get_post_meta( $post_id, 'post_language', true );
+                if ( empty( $language ) ){
+                    $language = "en_US";
+                }
+                $url = trailingslashit( site_url() ) . PORCH_LANDING_ROOT . '/' . PORCH_LANDING_TYPE . '/' . $public_key . '?lang=' . $language;
+                echo '<a href="' . esc_url( $url ) . '">'. esc_html( $url ) .'</a>';
                 break;
             case 'language' :
                 $language = get_post_meta( $post_id, 'post_language', true );
