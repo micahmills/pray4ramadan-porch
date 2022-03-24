@@ -186,6 +186,24 @@ class P4_Ramadan_Porch {
             add_filter( 'plugin_row_meta', [ $this, 'plugin_description_links' ], 10, 4 ); // admin plugin page description
         }
         $this->i18n();
+        add_filter( 'language_attributes', [ $this, 'dt_custom_dir_attr' ] );
+    }
+    public function dt_custom_dir_attr( $lang ){
+        if ( is_admin() ) {
+            return $lang;
+        }
+
+        $lang = dt_ramadan_get_current_lang();
+
+        $translations = dt_ramadan_list_languages();
+        $dir = "ltr";
+        if ( isset( $translations[$lang]["dir"] ) && $translations[$lang]['dir'] === 'rtl' ){
+            $dir = "rtl";
+        }
+
+        $dir_attr = 'dir="' . $dir . '"';
+
+        return 'lang="' . $lang .'" ' .$dir_attr;
     }
 
     /**
@@ -601,7 +619,7 @@ function og_protocol() {
     $og_url = get_site_url();
     ?>
 
-    
+
 <!-- Open Graph Protocol -->
 <meta property="og:title" content="<?php echo esc_attr( $og_title ); ?> - Pray4Movement"/>
 <meta property="og:description" content="<?php echo esc_attr( $og_description ); ?>"/>

@@ -1,6 +1,7 @@
 <?php
 $lang = dt_ramadan_get_current_lang();
 $porch_fields = p4r_porch_fields();
+$content = 'No post found';
 if ( isset( $this->parts['post_id'] ) && ! empty( $this->parts['post_id'] ) ) {
     $my_postid = $this->parts['post_id'];//This is page id or post id
     global $wpdb;
@@ -32,12 +33,11 @@ if ( isset( $this->parts['post_id'] ) && ! empty( $this->parts['post_id'] ) ) {
 
     $post_status = get_post_status( $my_postid );
     $content_post = get_post( $my_postid );
-    $content = $content_post->post_content;
-    $content = apply_filters( 'the_content', $content );
-    $content = str_replace( ']]>', ']]&gt;', $content );
-}
-else {
-    $content = 'No post found';
+    if ( !empty( $content_post ) ){
+        $content = $content_post->post_content;
+        $content = apply_filters( 'the_content', $content );
+        $content = str_replace( ']]>', ']]&gt;', $content );
+    }
 }
 
 $args = array(

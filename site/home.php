@@ -48,11 +48,19 @@ class P4_Ramadan_Porch_Home_5 extends DT_Magic_Url_Base
             add_filter( 'dt_magic_url_base_allowed_css', [ $this, 'dt_magic_url_base_allowed_css' ], 10, 1 );
             add_filter( 'dt_magic_url_base_allowed_js', [ $this, 'dt_magic_url_base_allowed_js' ], 10, 1 );
 
+            add_action( 'wp_enqueue_scripts', [ $this, 'wp_enqueue_scripts' ], 99 );
         }
 
         if ( dt_is_rest() ) {
             require_once( 'rest.php' );
             add_filter( 'dt_allow_rest_access', [ $this, 'authorize_url' ], 10, 1 );
+        }
+    }
+    public function wp_enqueue_scripts(){
+        $lang = dt_ramadan_get_current_lang();
+        $translations = dt_ramadan_list_languages();
+        if ( isset( $translations[$lang]["dir"] ) && $translations[$lang]['dir'] === 'rtl' ){
+            wp_enqueue_style( 'porch-style-css', trailingslashit( plugin_dir_url( __FILE__ ) ) . 'css/rtl.css', array(), filemtime( trailingslashit( plugin_dir_path( __FILE__ ) ) . 'css/rtl.css' ), 'all' );
         }
     }
 
@@ -61,7 +69,7 @@ class P4_Ramadan_Porch_Home_5 extends DT_Magic_Url_Base
     }
 
     public function dt_magic_url_base_allowed_css( $allowed_css ) {
-        return [];
+        return [ 'porch-style-css' ];
     }
 
     public function header_javascript(){

@@ -54,7 +54,8 @@ function dt_ramadan_list_languages(){
             'english_name' => 'Arabic',
             'native_name' => 'العربية',
             'flag' => '🇪🇬',
-            'prayer_fuel' => true
+            'prayer_fuel' => true,
+            'dir' => 'rtl'
         ]
     ];
 
