@@ -3,7 +3,7 @@
 $lang = PORCH_DEFAULT_LANGUAGE;
 if ( isset( $_GET["lang"] ) && !empty( $_GET["lang"] ) ){
     $lang = sanitize_text_field( wp_unslash( $_GET["lang"] ) );
-    setcookie( 'dt-magic-link-lang', $lang );
+    setcookie( 'dt-magic-link-lang', $lang, 0, '/' );
 } elseif ( isset( $_COOKIE["dt-magic-link-lang"] ) && !empty( $_COOKIE["dt-magic-link-lang"] ) ){
     $lang = sanitize_text_field( wp_unslash( $_COOKIE["dt-magic-link-lang"] ) );
 }
