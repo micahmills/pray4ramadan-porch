@@ -53,7 +53,8 @@ function dt_ramadan_list_languages(){
             'language' => 'ar_EG',
             'english_name' => 'Arabic',
             'native_name' => 'العربية',
-            'flag' => '🇪🇬'
+            'flag' => '🇪🇬',
+            'prayer_fuel' => true
         ]
     ];
 

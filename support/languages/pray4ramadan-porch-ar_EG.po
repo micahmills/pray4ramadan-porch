@@ -9,7 +9,7 @@ msgstr ""
 
 #: site/home-body.php:38
 msgid "Our"
-msgstr " "
+msgstr "نحن"
 
 #. the pronoun is included in the word.
 #: site/home-body.php:38
@@ -186,595 +186,597 @@ msgstr "يا رب، ساعد الناس في [location_name] ليكتشفوا ج
 
 #: admin/starter-content.php:150 admin/starter-content.php:332
 msgid "\"All the ends of the earth shall remember and turn to the Lord, and all the families of the [people_name] nations shall worship before you.\" (Psalm 22:27)"
-msgstr ""
+msgstr "\"تَذْكُرُ وَتَرْجعُ إِلَى الرَّبِّ كُلُّ أَقَاصِي الأَرْضِ. وَتَسْجُدُ قُدَّامَكَ كُلُّ قَبَائِلِ الأُمَمِ [people_name].\" (مزمور 22: 27)"
 
 #: admin/starter-content.php:151
 msgid "\"Repent, for the kingdom of heaven is at hand.\" (Matthew 3:2) Pray for [people_name] throughout the country to experience true repentance as they see the holy standard of a Righteous King and their inability to ever measure up."
-msgstr ""
+msgstr "\"تُوبُوا، لأَنَّهُ قَدِ اقْتَرَبَ مَلَكُوتُ السَّماوَاتِ.\" (متَّى 3: 2) \n"
+"صلِّ من أجل [people_name] في كل أنحاء البلد ليختبروا توبة حقيقية حين يرون المعيار المقدس للملك البار وعدم قدرتهم على الوصول لهذا المستوى.\""
 
 #: admin/starter-content.php:152
 msgid "\"And they were selling their possessions and belongings and distributing the proceeds to all, as any had need... and the Lord added to their number day by day those who were being saved.\" (Acts 2:42-47). As believers in [location_name] seek to be living out these verses, would you, Lord, please add daily those who are being saved."
-msgstr ""
+msgstr "\"وَالأَمْلاَكُ وَالْمُقْتَنَيَاتُ كَانُوا يَبِيعُونَهَا وَيَقْسِمُونَهَا بَيْنَ الْجَمِيعِ، كَمَا يَكُونُ لِكُلِّ وَاحِدٍ احْتِيَاجٌ. ... وَكَانَ الرَّبُّ كُلَّ يَوْمٍ يَضُمُّ إِلَى الْكَنِيسَةِ الَّذِينَ يَخْلُصُونَ.\" (الأعمال 2: 45-47). حين يطلب المؤمنون في [location_name] أن يهيشوا هذه الآيات، نرجوك يا رب أن تضم إليهم الذين يخلصون."
 
 #: admin/starter-content.php:153
 msgid "\"By faith we understand that the universe was created by the word of God, so that what is seen was not made out of things that are visible.\" (Hebrews 11:3) As [people_name] encounter the beauty of your creation through Mediterranean beaches, Saharan desert dunes, and luscious green hills may they be drawn to the Word through whom You created the world."
-msgstr ""
+msgstr "\"بِالإِيمَانِ نَفْهَمُ أَنَّ الْعَالَمِينَ أُتْقِنَتْ بِكَلِمَةِ اللهِ، حَتَّى لَمْ يَتَكَوَّنْ مَا يُرَى مِمَّا هُوَ ظَاهِرٌ.\" (العبرانيين 11: 3) حين يتقابل [people_name] مع جمال خليقتك على شواطئ البحرِ الأبيضِ المتوسط، وكثبان الصحراء الكبرى، والتلال الخضراء الفاتنة أن ينجذبوا لله الكلمة الذي به خلقتَ العالم."
 
 #: admin/starter-content.php:154
 msgid "God, please help the people of [location_name] to be disciples who hear from you and then obey you. https://zume.training/spiritual-breathing-is-hearing-and-obeying-god/"
-msgstr ""
+msgstr "يا رب، نرجوك أن تساعد اناس في [location_name] ليكونوا تلاميذ يسمعونك ثم يطيعونك. https://zume.training/spiritual-breathing-is-hearing-and-obeying-god/"
 
 #: admin/starter-content.php:157
 msgid "For kingship belongs to the Lord, and he rules over the [people_name] nations. (Psalm 22:28)"
-msgstr ""
+msgstr ":لأَنَّ لِلرَّبِّ الْمُلْكَ، وَهُوَ الْمُتَسَلِّطُ عَلَى الأُمَمِ [people_name].\" (مزمور 22: 28)"
 
 #: admin/starter-content.php:158
 msgid "\"And he went throughout all Galilee, teaching in their synagogues and proclaiming the gospel of the kingdom and healing every disease and every affliction among the people.\" (Matthew 4:23) Pray for the proclamation of the Gospel to be accompanied by miracles and signs and wonders throughout [location_name]."
-msgstr ""
+msgstr "\"وَكَانَ يَسُوعُ يَطُوفُ الْمُدُنَ كُلَّهَا وَالْقُرَى يُعَلِّمُ فِي مَجَامِعِهَا وَيَكْرِزُ بِبِشَارَةِ الْمَلَكُوتِ وَيَشْفِي كُلَّ مَرَضٍ وَكُلَّ ضُعْفٍ فِي الشَّعْبِ.\" (متَّى 4: 23) صلِّ من أجل إعلان الإنجيل وليكن معه معجزات وآيات وعجائب في كل [location_name].\""
 
 #: admin/starter-content.php:159
 msgid "\"And in your offspring shall all the families of the earth be blessed.\" (Acts 3:25b) Lord, please fulfill your promise to Abraham among the many [people_name] families spread from the north to the south."
-msgstr ""
+msgstr "\"وَيَتَبَارَكُ فِي نَسْلِكَ جَمِيعُ أُمَمِ الأَرْضِ.\" (الأعمال 3: 25) يا رب، نرجوك أن تتمم وعدك لإبراهيم بين الكثير من العائلات [people_name] المنتشرين من الشمال للجنوب."
 
 #: admin/starter-content.php:160
 msgid "\"By faith Abel offered to God a more acceptable sacrifice than Cain, through which he was commended as righteous...\" (Hebrews 11:4a) Convict [people_name] this Ramadan, Lord, that we can only be made right before you on your terms through faith, not ours."
-msgstr ""
+msgstr "\"بِالإِيمَانِ قَدَّمَ هَابِيلُ للهِ ذَبِيحَةً أَفْضَلَ مِنْ قَايِينَ. فَبِهِ شُهِدَ لَهُ أَنَّهُ بَارٌّ ...\" (العبرانيين 11: 4) بكِّت [people_name] في رمضان هذه السنة يا رب واجعلهم يعرفون أننا لا نقدر أن نتبرر أمامك إلا بطريقتك أنت؛ بالإيمان، وليس بطريقتنا."
 
 #: admin/starter-content.php:161
 msgid "Father, we pray that the people of [location_name] will learn to study the Bible, understand it, obey it, and share it. https://zume.training/soaps-bible-reading/"
-msgstr ""
+msgstr "يا أبانا، نصلي من أجل الناس في [location_name] ليتعلموا أن يدرسوا الكتاب المقدس، ويفهموه، ويطيعوه، ويشاركوا به الآخرين. https://zume.training/soaps-bible-reading/"
 
 #: admin/starter-content.php:164
 msgid "\"I will cause your name to be remembered in all generations; therefore nations (including [location_name]) will praise you forever and ever.\" (Psalm 45:17)"
-msgstr ""
+msgstr "\"أَذْكُرُ اسْمَكَ فِي كُلِّ دَوْرٍ فَدَوْرٍ. مِنْ أَجْلِ ذلِكَ تَحْمَدُكَ الشُّعُوبُ (بما فيها [location_name]) إِلَى الدَّهْرِ وَالأَبَدِ.\" (مزمور 45: 17)"
 
 #: admin/starter-content.php:165
 msgid "\"Blessed are the poor in spirit, for theirs is the kingdom of heaven.\" (Matthew 5:3) May the [people_name] church joyfully demonstrate the blessing that comes from being poor in spirit. Pray for them to experience fuller measures of the Kingdom through their poverty of spirit.\""
-msgstr ""
+msgstr "\"طُوبَى لِلْمَسَاكِينِ بِالرُّوحِ لأَنَّ لَهُمْ مَلَكُوتَ السَّمَاوَاتِ.\" (متَّى 5: 3) نصلي أن تُظهِر الكنيسة في [people_name] بفرح بركة أن تكون مسكينًا بالروح. صلِّ من أجلهم حتى يختبروا ملء الملكوت حين يكونوا مساكين بالروح."
 
 #: admin/starter-content.php:166
 msgid "\"And now, Lord, look upon their threats and grant to your servants to continue to speak your word with all boldness, while you stretch out your hand to heal, and signs and wonders are performed through the name of your holy servant Jesus.\" (Acts 4:30-31) Do it, Lord, please!"
-msgstr ""
+msgstr "\"وَالآنَ يَا رَبُّ انْظُرْ إِلَى تَهْدِيدَاتِهِمْ وَامْنَحْ عَبِيدَكَ أَنْ يَتَكَلَّمُوا بِكَلاَمِكَ بِكُلِّ مُجَاهَرَةٍ بِمَدِّ يَدِكَ لِلشِّفَاءِ وَلْتُجْرَ آيَاتٌ وَعَجَائِبُ بِاسْمِ فَتَاكَ الْقُدُّوسِ يَسُوعَ».\" (الأعمال 4: 30-31) نرجوك أن تفعل هذا يا رب."
 
 #: admin/starter-content.php:167
 msgid "\"...Now before he (Enoch) was taken he was commended as having pleased God.\" (Hebrews 11:5b) May believers in [location_name], through faith, seek commendation from You more than man. May they live their lives in pursuit of Your approval alone."
-msgstr ""
+msgstr "\"إِذْ قَبْلَ نَقْلِهِ (أخنوخ) شُهِدَ لَهُ بِأَنَّهُ قَدْ أَرْضَى اللهَ.\" (العبرانيين 11: 5) نصلي أن يسعى المؤمنون في [location_name] أن يحصلوا بالإيمان على تزكية منك لا من الناس. نصلي أن يحيوا حياتهم يسعون وراء استحسانك أنت وحدك."
 
 #: admin/starter-content.php:168
 msgid "God, we pray both the men and women of [location_name] will find ways to meet in groups of two or three to encourage and correct one another. https://zume.training/accountability-groups/"
-msgstr ""
+msgstr "يا رب، نصلي أن يجد رجال ونساء [location_name] طرقًا ليتقابلوا في مجموعات من اثنين أو ثلاثة ليشجعوا يهذبوا بعضهم البعض. https://zume.training/accountability-groups/"
 
 #: admin/starter-content.php:171
 msgid "“Be still, and know that I am God. I will be exalted among the [people_name] nations, I will be exalted in the earth!\" (Psalm 46:10)"
-msgstr ""
+msgstr "كُفُّوا وَاعْلَمُوا أَنِّي أَنَا اللهُ. أَتَعَالَى بَيْنَ الأُمَمِ [people_name]. أَتَعَالَى فِي الأَرْضِ.\" (مزمور 46: 10)"
 
 #: admin/starter-content.php:172
 msgid "\"Blessed are those who are persecuted for righteousness sake, for theirs is the kingdom of heaven.\" (Matthew 5:10) Father, we intercede on behalf of every [people_name] brother and sister undergoing persecution for the sake of righteousness. Bless them with greater intimacy with You and give them perseverance in suffering."
-msgstr ""
+msgstr "\"طُوبَى لِلْمَطْرُودِينَ مِنْ أَجْلِ الْبِرِّ، لأَنَّ لَهُمْ مَلَكُوتَ السَّمَاوَاتِ.\" (متَّى 5: 10) يا أبانا، نتشفع من أجل كل أخ وأخت [people_name] يمرون باضطهاد من أجا البر. باركهم بشركة أكبر معك وأعطِهم مثابرة في الألم."
 
 #: admin/starter-content.php:173
 msgid "\"And every day, in the temple and from house to house, they did not cease teaching and preaching that the Christ is Jesus.\" (Acts 5:41) May believers in [location_name] saturate the country with the truth that Jesus is the Christ -- loaded with all the richness of that title from Scripture. May every home have an opportunity to hear this truth."
-msgstr ""
+msgstr "\"وكانوا لا يَزالونَ كُلَّ يومٍ في الهَيكلِ وفي البُيوتِ مُعَلِّمينَ ومُبَشِّرينَ بيَسوعَ المَسيحِ.\". (أعمال 5: 41) ليغمر المؤمنون في [location_name] البلد بحقيقة أن يسوع هو المسيح - محملاً بكل ثراء هذا اللقب من الكتاب المقدس. أتمنى أن يكون لكل بيت فرصة لسماع هذه الحقيقة."
 
 #: admin/starter-content.php:174
 msgid "\"And without faith it is impossible to please him, for whoever would draw near to God must believe that he exists and that he rewards those who seek him.\" (Hebrews 11:6) Lord, please cause multitudes of [people_name] to seek You and experience the greatest reward -- Yourself!"
-msgstr ""
+msgstr "\"وَلكِنْ بِدُونِ إِيمَانٍ لاَ يُمْكِنُ إِرْضَاؤُهُ، لأَنَّهُ يَجِبُ أَنَّ الَّذِي يَأْتِي إِلَى اللهِ يُؤْمِنُ بِأَنَّهُ مَوْجُودٌ، وَأَنَّهُ يُجَازِي الَّذِينَ يَطْلُبُونَهُ.\" (العبرانيين 11: 6) يا رب، نرجوك أن تجعل جموعًا من [people_name] يطلبونك ويختبرون أعظم مكافأة، وهي أنت!"
 
 #: admin/starter-content.php:175
 msgid "Lord, we pray for believers in [location_name] who will discover the ways you make us more like Jesus. https://zume.training/consumer-vs-producer-lifestyle/"
-msgstr ""
+msgstr "يا رب، نحن نصلي من أجل المؤمنين في [location_name] الذين سيكتشفون كيف تجعلنا نشبه يسوع. https://zume.training/consumer-vs-producer-lifestyle/"
 
 #: admin/starter-content.php:178
 msgid "\"God reigns over the [people_name] nations; God sits on his holy throne.\" (Psalm 47:8)"
-msgstr ""
+msgstr "\"مَلَكَ اللهُ عَلَى الأُمَمِ [people_name]. اللهُ جَلَسَ عَلَى كُرْسِيِّ قُدْسِهِ..\"  (مزمور 47: 8)"
 
 #: admin/starter-content.php:179
 msgid "\"For I tell you, unless your righteousness exceeds that of the scribes and Pharisees, you will never enter the kingdom of heaven.\" (Matthew 5:20) Many think that Christians have an easier ’religion’ because of misunderstanding the Gospel of grace through Christ Jesus. We pray for every believer in [location_name]’s holiness to shine forth and for many to be drawn to Jesus through the authentic witness of Christ in His disciples.\""
-msgstr ""
+msgstr "\"فَإِنِّي أَقُولُ لَكُمْ: إِنَّكُمْ إِنْ لَمْ يَزِدْ بِرُّكُمْ عَلَى الْكَتَبَةِ وَالْفَرِّيسِيِّينَ لَنْ تَدْخُلُوا مَلَكُوتَ السَّماوَاتِ.\" (متَّى 5: 20) يعتقد الكثيرون أن المسيحيين لديهم \"ديانة\" أسهل لأنهم يسيؤون فهم إنجيل النعمة بيسوع المسيح. نصلي من أجل كل مؤمن في [location_name] لتشع قداسته حى ينجذب الكثيرون ليسوع من خلال الشهادة الصادقة عن المسيح التي يرونها في تلاميذه."
 
 #: admin/starter-content.php:180
 msgid "\"And the word of God continued to increase, and the number of the disciples multiplied greatly in Jerusalem, and a great many of the priests became obedient to the faith.\" (Acts 6:7) Through prayer, ministry of the Word, service, care for the widows, and faith multiply the number of disciples in [location_name], Lord."
-msgstr ""
+msgstr "\"وَكَانَتْ كَلِمَةُ اللهِ تَنْمُو، وَعَدَدُ التَّلاَمِيذِ يَتَكَاثَرُ جِدّاً فِي أُورُشَلِيمَ، وَجُمْهُورٌ كَثِيرٌ مِنَ الْكَهَنَةِ يُطِيعُونَ الإِيمَانَ.\" (الأعمال 6: 7) من خلال الصلاة وخدمة الكلمة والخدمات والاعتناء بالأرامل والإيمان، اجعل يا رب عدد التلاميذ يتضاعف في [location_name]."
 
 #: admin/starter-content.php:181
 msgid "\"By faith Noah, being warned by God concerning events as yet unseen, in reverent fear constructed an ark for the saving of his household...\" (Hebrews 11:7a) We pray for many heads of household, who like Noah, would take outrageous risks for the sake of saving their families."
-msgstr ""
+msgstr "\"بِالإِيمَانِ نُوحٌ لَمَّا أُوحِيَ إِلَيْهِ عَنْ أُمُورٍ لَمْ تُرَ بَعْدُ خَافَ، فَبَنَى فُلْكًا لِخَلاَصِ بَيْتِهِ.\" (العبرانيين 11: 7) نصلي من أجل كثير من رؤوس البيوت مثل نوح ليقوموا بخاطرات كبيرة من أجل خلاص عائلاتهم."
 
 #: admin/starter-content.php:182
 msgid "God, we pray for believers in [location_name] who will know how easy it is to spend an hour in prayer with you, and will do it. https://zume.training/how-to-spend-an-hour-in-prayer/"
-msgstr ""
+msgstr "يا رب، نصلي من أجل المؤمنين في [location_name] ليعرفوا كم أنه من السهل أن يقضوا ساعةً في الصلاة معك، يقومون بذلك. https://zume.training/how-to-spend-an-hour-in-prayer/"
 
 #: admin/starter-content.php:185
 msgid "\"I will give thanks to you, O Lord, among the ([people_name]) peoples; I will sing praises to you among the nations.\" (Psalm 57:9)"
-msgstr ""
+msgstr "\"أَحْمَدُكَ بَيْنَ الشُّعُوبِ [people_name] يَا رَبُّ، وَأُرَنِّمُ لَكَ بَيْنَ الأُمَمِ.\" (مزمور 57: 9)"
 
 #: admin/starter-content.php:186
 msgid "\"Your kingdom come, your will be done, on earth as it is in heaven.\" (Matthew 6:10) Your ways are not our ways. Your Kingdom is unlike every earthly kingdom. We pray for your heavenly Kingdom to come in every home, neighborhood, city, and region throughout this land.\""
-msgstr ""
+msgstr "\"لِيَأْتِ مَلَكُوتُكَ. لِتَكُنْ مَشِيئَتُكَ كَمَا فِي السَّمَاءِ كَذَلِكَ عَلَى الأَرْضِ.\" (متَّى 6: 10) ليست طرقك كطرقنا. ملكوتك يا رب مثل أيّ مملكة أرضية. نصلي أن يأتي ملكوتك السماوي في كل بيت ومنطقة سكنية ومدينة ومنطقة كبرى في هذه الأرض."
 
 #: admin/starter-content.php:187
 msgid "\"But he, full of the Holy Spirit gazed into heaven and saw the glory of God, and Jesus standing at the right hand of God...\" (Acts 7:56) Father, we pray for many Stephen-like believers in [location_name] -- men and women of good repute, full of the Spirit and of wisdom, and servants. May they be ready to do whatever you call them to at whatever cost because they are so gripped by Your glory."
-msgstr ""
+msgstr "\"وَأَمَّا هُوَ فَشَخَصَ إِلَى السَّمَاءِ وَهُوَ مُمْتَلِئٌ مِنَ الرُّوحِ الْقُدُسِ فَرَأَى مَجْدَ اللهِ وَيَسُوعَ قَائِماً عَنْ يَمِينِ اللهِ.\" (الأعمال 7: 56) يا أبانا، نصلي من أجل مؤمنين كثيرين مثل استفانوس في [location_name]، رجال ونساء مشهود لهم، ومملوئين من الروح القدس والحكمة والخدمة.  أعطِهم أن يكونوا مستعدين أن يفعلوا ما تدعوهم له مهما كان الثمن وذلك لأنهم مأخوذون بمجدك."
 
 #: admin/starter-content.php:188
 msgid "\"By faith Abraham obeyed when he was called to go out to a place that he was to receive as an inheritance. And he went out, not knowing where he was going.\" (Hebrews 11:8) May both seekers and believers in [location_name] be willing to start on a journey of obedience to You despite not knowing how it may turn out in this life."
-msgstr ""
+msgstr "\"بِالإِيمَانِ إِبْرَاهِيمُ لَمَّا دُعِيَ أَطَاعَ أَنْ يَخْرُجَ إِلَى الْمَكَانِ الَّذِي كَانَ عَتِيداً أَنْ يَأْخُذَهُ مِيرَاثاً، فَخَرَجَ وَهُوَ لاَ يَعْلَمُ إِلَى أَيْنَ يَأْتِي.\" (العبرانيين 11: 8) نصلي أن يكون كلٌّ من الباحثين عن الحق والمؤمنين في [location_name] على استعداد أن يبدأوا رحلة الطاعة لك بالرغم من معرفتهم أن هذا سيكلفهم الكثير في حياتهم."
 
 #: admin/starter-content.php:189
 msgid "Father, we pray for believers in [location_name] to be good stewards of their relationships. https://zume.training/relational-stewardship-list-of-100/"
-msgstr ""
+msgstr "يا أبانا، نصلي من أجل المؤمنين في [location_name] ليكونوا وكلاء صالحين على علاقاتهم. https://zume.training/relational-stewardship-list-of-100/"
 
 #: admin/starter-content.php:192
 msgid "\"May God be gracious to us and bless us and make his face to shine upon us, that your way may be known on earth, your saving power among all [people_name] nations.\" (Psalm 67:2)"
-msgstr ""
+msgstr "\"لِيَتَحَنَّنِ اللهُ عَلَيْنَا وَلْيُبَارِكْنَا. لِيُنِرْ بِوَجْهِهِ عَلَيْنَا. سِلاَهْ. لِكَيْ يُعْرَفَ فِي الأَرْضِ طَرِيقُكَ وَفِي كُلِّ الأُمَمِ [people_name] خَلاَصُكَ.\" (مزمور 67: 2)"
 
 #: admin/starter-content.php:193
 msgid "\"But seek first the kingdom of God and his righteousness, and all these things will be added to you.\" (Matthew 6:33) We pray that Your Kingdom would be our first priority. May Your Kingdom values and purposes be the primary focus of every Christian in [location_name]."
-msgstr ""
+msgstr "\"لَكِنِ اطْلُبُوا أَوَّلاً مَلَكُوتَ اللَّهِ وَبِرَّهُ وَهَذِهِ كُلُّهَا تُزَادُ لَكُمْ.\" (متَّى 6: 33) نصلي أن يكون ملكوتك هو أولويتنا الأولى. فلتكن قيم ملكوتك ومقاصدك هي التركيز الأول عند كل مؤمن في [location_name].\""
 
 #: admin/starter-content.php:194
 msgid "\"But when they believed Philip as he preached good news about the kingdom of God and the name of Jesus Christ, they were baptized, both men and women.\" (Acts 8:12). Empower believers in [location_name] to preach the good news of the Kingdom and prepare multitudes of men and women to respond and be baptized."
-msgstr ""
+msgstr "\"وَلَكِنْ لَمَّا صَدَّقُوا فِيلُبُّسَ وَهُوَ يُبَشِّرُ بِالْأُمُورِ الْمُخْتَصَّةِ بِمَلَكُوتِ اللهِ وَبِاسْمِ يَسُوعَ الْمَسِيحِ اعْتَمَدُوا رِجَالاً وَنِسَاءً.\" (الأعمال 8: 12). أعطِ القوة للجال والنساء في [location_name] ليكرزوا بأخبار الملكوت السارة ويجهزوا جماهير من الرجال والنساء ليؤمنوا ويعتمدوا."
 
 #: admin/starter-content.php:195
 msgid "\"By faith he went to live in the land of promise as in a foreign land, living in tents with Isaac and Jacob, heirs with him of the same promise. For he was looking forward to the city that has foundations, whose designer and builder is God.\" (Hebrews 11:9-10) May [people_name] believers embrace their heavenly citizenship and being confirmed into heaven’s customs, language, priorities, and values in ever-increasing measures."
-msgstr ""
+msgstr "\"بِالإِيمَانِ تَغَرَّبَ فِي أَرْضِ الْمَوْعِدِ كَأَنَّهَا غَرِيبَةٌ، سَاكِناً فِي خِيَامٍ مَعَ إِسْحَاقَ وَيَعْقُوبَ الْوَارِثَيْنِ مَعَهُ لِهَذَا الْمَوْعِدِ عَيْنِهِ. لأَنَّهُ كَانَ يَنْتَظِرُ الْمَدِينَةَ الَّتِي لَهَا الأَسَاسَاتُ، الَّتِي صَانِعُهَا وَبَارِئُهَا اللهُ.\" (العبرانيين 11: 9-10) ليعتنق كثير من المؤمنين [people_name] جنسيتهم السماوية ويتشكلوا بعادات السماء ولغتها وأولوياتها، وقيمها بمقاييس متزايدة."
 
 #: admin/starter-content.php:196
 msgid "God, we pray for believers in [location_name] to be generous that you would desire to invest more into them. https://zume.training/the-kingdom-economy/"
-msgstr ""
+msgstr "يا رب، نصلي من أجل المؤمنين في [location_name] ليكونوا أسخياء حتى ترغب أن تستثمر فيهم أكثر. https://zume.training/the-kingdom-economy/"
 
 #: admin/starter-content.php:199
 msgid "\"Let the [people_name] nations be glad and sing for joy, for you judge the peoples with equity and guide the nations upon earth\" (Psalm 67:4)"
-msgstr ""
+msgstr "\"تَفْرَحُ وَتَبْتَهِجُ الأُمَمُ [people_name] لأَنَّكَ تَدِينُ الشُّعُوبَ بِالاسْتِقَامَةِ، وَأُمَمَ الأَرْضِ تَهْدِيهِمْ\" (مزمور 67: 4)"
 
 #: admin/starter-content.php:200
 msgid "\"Not everyone who says to me, ’Lord, Lord,’ will enter the kingdom of heaven, but the one who does the will of my Father who is in heaven.\" (Matthew 7:21) Many God-fearing [people_name] seek to obey what they’ve been taught about Him by fasting during Ramadan. Father we pray that they would have an encounter with You, their true Heavenly Father during these thirty days and enter into Your family through Christ, our older brother."
-msgstr ""
+msgstr "\"لَيْسَ كُلُّ مَنْ يَقُولُ لِي: يَا رَبُّ، يَا رَبُّ! يَدْخُلُ مَلَكُوتَ السَّمَاوَاتِ. بَلِ الَّذِي يَفْعَلُ إِرَادَةَ أَبِي الَّذِي فِي السَّمَاوَاتِ.\" (متَّى 7: 21). يسعى الكثير ممن يخافون الله [people_name] أن يطيعوا ما تعلموه عن الله بأ، يصوموا شهر رمضان. نصلي، يا أبانا، أن يلتقوا بك، بأبيهم السماوي الحقيقي في هذه الثلاثين يومًا ويدخلوا في عائلتك في المسيح، أخينا الأكبر."
 
 #: admin/starter-content.php:201
 msgid "\"So Ananias departed and entered the house. And laying his hands on him he said, ’Brother Saul, the Lord Jesus who appeared to you on the road by which you came has sent me so that you may regain your sight and be filled with the Holy Spirit.’\" (Acts 9:17) Lord, we ask for many Saul-like hearts in [location_name] to be brought to repentance and faith in You. We pray for many Ananias-like believers to openly receive those who were staunchly opposed to the Gospel into fellowship."
-msgstr ""
+msgstr "\"فَمَضَى حَنَانِيَّا وَدَخَلَ الْبَيْتَ وَوَضَعَ عَلَيْهِ يَدَيْهِ وَقَالَ: «أَيُّهَا الأَخُ شَاوُلُ قَدْ أَرْسَلَنِي الرَّبُّ يَسُوعُ الَّذِي ظَهَرَ لَكَ فِي الطَّرِيقِ الَّذِي جِئْتَ فِيهِ لِكَيْ تُبْصِرَ وَتَمْتَلِئَ مِنَ الرُّوحِ الْقُدُسِ».\" (الأعمال 9: 17) نطلب يا رب من أجل الكثير من القلوب التي تشبه قلب شاول في [location_name] أن يتوبوا ويؤمنوا بك. نصلي من أجل الكثير من المؤمنين الذين على شاكلة حنانيا ليقبلوا بلا اعتراض الشركة مع من كانوا منغمسين في مقاومة الإنجيل."
 
 #: admin/starter-content.php:202
 msgid "\"By faith Sarah herself received power to conceive, even when she was past the age, since she considered him faithful who had promised.\" (Hebrews 11:11) Please give every believer in [location_name] spiritual children no matter how long they have in the faith. Let each one trust Your faithfulness that You will give them spiritual children as they obey You."
-msgstr ""
+msgstr "\"بِالإِيمَانِ سَارَةُ نَفْسُهَا أَيْضاً أَخَذَتْ قُدْرَةً عَلَى إِنْشَاءِ نَسْلٍ، وَبَعْدَ وَقْتِ السِّنِّ وَلَدَتْ، إِذْ حَسِبَتِ الَّذِي وَعَدَ صَادِقاً.\" (العبرانيين 11: 11) نرجوك أن تعطي كل مؤمن في [location_name] أبناء روحيين بغض النظر عن عمرهم في الإيمان. اجعل كلًا منم يثق في أمانتك أنك ستهبهم أبناء روحيين إنْ أطاعوك."
 
 #: admin/starter-content.php:203
 msgid "Lord, we pray for believers in [location_name] who will not only understand the Gospel, but know how to share it. https://zume.training/the-gospel-and-how-to-share-it/"
-msgstr ""
+msgstr "يا رب، نصلي من أجل المؤمنين في [location_name] الذين لن يفهموا الإنجيل وحسب، لكنهم سيعرفون كيف يشاركون به. https://zume.training/the-gospel-and-how-to-share-it/"
 
 #: admin/starter-content.php:206
 msgid "\"May all kings fall down before him, all [people_name] nations serve him!\" (Psalm 72:11)"
-msgstr ""
+msgstr "\"وَيَسْجُدُ لَهُ كُلُّ الْمُلُوكِ. كُلُّ [people_name] الأُمَمِ تَتَعَبَّدُ لَهُ.\" (مزمور 72: 11)\t"
 
 #: admin/starter-content.php:207
 msgid "\"I tell you, many will come from east and west and recline at table with Abraham, Isaac, and Jacob in the kingdom of heaven\" (Matthew 8:11) We praise you Lord because you’ve called all nations to your table. We pray that many from the east, west, north, and south corners of [location_name] would join your Kingdom this month."
-msgstr ""
+msgstr "\"وَأَقُولُ لَكُمْ: إِنَّ كَثِيرِينَ سَيَأْتُونَ مِنَ الْمَشَارِقِ وَالْمَغَارِب وَيَتَّكِئُونَ مَعَ إِبْرَاهِيمَ وَإِسْحَاقَ وَيَعْقُوبَ فِي مَلَكُوتِ السَّمَاوَاتِ\" (متَّى 8: 11). نحمدك يا رب لأنك دعوت كل الأمم لمائدتك. نصلي أن ينضم الكثيرون من شرق وغرب وشمال وجنوب [location_name] لملكوتك في هذا الشهر."
 
 #: admin/starter-content.php:208
 msgid "\"So I sent for you at once, and you have been kind enough to come. Now therefore we are all here in the presence of God to hear all that you have been commanded by the Lord.\" (Acts 10:33) Father, please stir many hearts of heads of households in [location_name], like Cornelius, to gather their family to hear the message of the Good News of Jesus."
-msgstr ""
+msgstr "\"فَأَرْسَلْتُ إِلَيْكَ حَالاً. وَأَنْتَ فَعَلْتَ حَسَناً إِذْ جِئْتَ. وَالآنَ نَحْنُ جَمِيعاً حَاضِرُونَ أَمَامَ اللهِ لِنَسْمَعَ جَمِيعَ مَا أَمَرَكَ بِهِ اللهُ».\" (الأعمال 10: 33) يا أبانا، نصلي أن تثير قلوب الكثيرين من أرباب البيوت في [location_name]، مثل كورنيليوس، ليجمعوا عائلاتهم ليسمعوا رسالة الأخبار السارة بيسوع المسيح."
 
 #: admin/starter-content.php:209
 msgid "\"Therefore from one man, and him as good as dead, were born descendents as many as the stars of heaven and as many as the innumerable grains of sand by the seashore.\" (Hebrews 11:12) Lord, you promised Abraham he would be the father of many nations. We ask for breakthrough among the 10 Unengaged, Unreached People Groups in [location_name]. May they be included in this promise in our generation."
-msgstr ""
+msgstr "\"لِذَلِكَ وُلِدَ أَيْضاً مِنْ وَاحِدٍ، وَذَلِكَ مِنْ مُمَاتٍ، مِثْلُ نُجُومِ السَّمَاءِ فِي الْكَثْرَةِ، وَكَالرَّمْلِ الَّذِي عَلَى شَاطِئِ الْبَحْرِ الَّذِي لاَ يُعَدُّ.\" (العبرانيين 11: 12) يا رب، لقد وعدتَ إبراهيم أنه سيكون أبًا لأمم كثيرة. نطلب اختراقًا يحدث في العشر مجموعات عرقية التي لم تتم الكرازة لها في [location_name]. نصلي أن يدخلوا في هذا الوعد في جيلنا."
 
 #: admin/starter-content.php:210
 msgid "Jesus, we pray for believers in [location_name] to be baptized and know how to baptize. https://zume.training/baptism-and-how-to-do-it/"
-msgstr ""
+msgstr "يا يسوع، نصلي من أجل المؤمنين في [location_name] ليعتمدوا ويعرفوا كيف يعمدون آحرين. https://zume.training/baptism-and-how-to-do-it/"
 
 #: admin/starter-content.php:213
 msgid "\"May his name endure forever, his fame continue as long as the sun! May people be blessed in him, all [people_name] nations call him blessed!\" (Psalm 72:17)"
-msgstr ""
+msgstr "\"يَكُونُ اسْمُهُ إِلَى الدَّهْرِ. قُدَّامَ الشَّمْسِ يَمْتَدُّ اسْمُهُ،  وَيَتَبَارَكُونَ بِهِ. كُلُّ [people_name] أُمَمِ الأَرْضِ يُطَوِّبُونَهُ.\"  (مزمور 72: 17)"
 
 #: admin/starter-content.php:215
 msgid "\"And the hand of the Lord was with them, and a great number who believed turned to the Lord.\" (Acts 11:21) Even in the midst of persecution, you empowered your disciples to lead many to faith in you. Please do it again, Lord, in [location_name]."
-msgstr ""
+msgstr "\"وَكَانَتْ يَدُ الرَّبِّ مَعَهُمْ فَآمَنَ عَدَدٌ كَثِيرٌ وَرَجَعُوا إِلَى الرَّبِّ.\" (الأعمال 11: 21) حتى في وسط الاضطهاد، كنتَ تعطي القوة لتلاميذك ليقودوا الكثيرين للإيمان بك. نرجوك أن تفعل هذا مجددًأ في [location_name]."
 
 #: admin/starter-content.php:216
 msgid "\"These all died in faith, not having received the things promised, but having seen them and greeted them from afar, and having acknowledged that they were strangers and exiles on the earth.  For people who speak thus make it clear that they are seeking a homeland.\" (Hebrews 11:14) May [people_name] believers honorable and pure conduct make it clear to those watching them that they are strangers and exiles on the earth for Your glory."
-msgstr ""
+msgstr "\"فِي الإِيمَانِ مَاتَ هَؤُلاَءِ أَجْمَعُونَ، وَهُمْ لَمْ يَنَالُوا الْمَوَاعِيدَ، بَلْ مِنْ بَعِيدٍ نَظَرُوهَا وَصَدَّقُوهَا وَحَيُّوهَا، وَأَقَرُّوا بِأَنَّهُمْ غُرَبَاءُ وَنُزَلاَءُ عَلَى الأَرْضِ.  فَإِنَّ الَّذِينَ يَقُولُونَ مِثْلَ هَذَا يُظْهِرُونَ أَنَّهُمْ يَطْلُبُونَ وَطَناً.\" (العبرانيين 11: 14) نصلي أن يُظهِر السلوك المحترم والنقي للمؤمنين [people_name] لمن يرونهم أنهم غرباء ونزلاء على الأرض ليمجدوك."
 
 #: admin/starter-content.php:217
 msgid "Jesus, we pray for believers in [location_name] to know how to share testimonies about how you impacted their lives. https://zume.training/prepare-your-3-minute-testimony/"
-msgstr ""
+msgstr "يا يسوع، نصلي من أجل المؤمنين في [location_name] ليعرفوا كيف يشاركون باختبارات تُظهِر تأثيرك في حياتهم. https://zume.training/prepare-your-3-minute-testimony/"
 
 #: admin/starter-content.php:220
 msgid "\"Arise, O God, judge the earth; for you shall inherit all the [people_name] nations!\" (Psalm 82:8)"
-msgstr ""
+msgstr "\"قُمْ يَا اَللهُ. دِنِ الأَرْضَ، لأَنَّكَ أَنْتَ تَمْتَلِكُ كُلَّ [people_name] الأُمَمِ.\" (مزمور 82: 8)"
 
 #: admin/starter-content.php:221
 msgid "\"Knowing their thoughts, he said to them, ’Every kingdom divided against itself is laid waste, and no city or house divided against itself will stand.’\" (Matthew 12:25) We pray for unity among your church in [location_name]. Though your followers in [location_name] may have differing strengths, gifts, and expressions of Your Spirit, may there be no division."
-msgstr ""
+msgstr "\"فَعَلِمَ يَسُوعُ أَفْكَارَهُمْ وَقَالَ لَهُمْ: «كُلُّ مَمْلَكَةٍ مُنْقَسِمَةٍ عَلَى ذَاتِهَا تُخْرَبُ وَكُلُّ مَدِينَةٍ أَوْ بَيْتٍ مُنْقَسِمٍ عَلَى ذَاتِهِ لاَ يَثْبُتُ.\" (متَّى 12: 25) نصلي من أجل الوحدة في كنيستك في [location_name].  رغم الاختلافات في نقاط القوى، والمواهب، وطرق التعبير عن روحك بين تابعيك في [location_name]، لكن نطلب عدم وجود انقسام."
 
 #: admin/starter-content.php:222
 msgid "\"But the word of God increased and multiplied.\" (Acts 12:24) This verse comes in the context of an evil ruler bent on persecuting the church. No matter what the circumstances may be in [location_name], Lord, we pray the word of God would increase and multiply."
-msgstr ""
+msgstr "\"وَأَمَّا كَلِمَةُ اللهِ فَكَانَتْ تَنْمُو وَتَزِيدُ.\" (الأعمال 12: 24) تأتي هذه الآية في سياق وجود حاكم شرير يريد أن يضطهد الكنيسة. مهما كانت الظروف في [location_name]، نصلي يا رب أن تنمو كلمة الله وتزيد."
 
 #: admin/starter-content.php:223
 msgid "\"If they had been thinking of that land from which they had gone out, they would have had opportunity to return. But as it is, they desire a better country, that is, a heavenly one. Therefore God is not ashamed to be called their God, for he has prepared for them a city.\" (Hebrews 11:15-16) We cry out for You to raise up men and women from every region of [location_name] who desire a better country, a heavenly one. People who seek to store their treasure there, instead of here on earth."
-msgstr ""
+msgstr "فَلَوْ ذَكَرُوا ذلِكَ الَّذِي خَرَجُوا مِنْهُ، لَكَانَ لَهُمْ فُرْصَةٌ لِلرُّجُوعِ. وَلَكِنِ الآنَ يَبْتَغُونَ وَطَناً أَفْضَلَ، أَيْ سَمَاوِيّاً. لِذَلِكَ لاَ يَسْتَحِي بِهِمِ اللهُ أَنْ يُدْعَى إِلَهَهُمْ، لأَنَّهُ أَعَدَّ لَهُمْ مَدِينَةً.\" (العبرانيين 11: 15-16) نصرخ طالبين أنم تقيم رجالًا ونساء من كل منطقة في [location_name] لديهم الرغبة في بلد أفضل، بلد سماويّ. أناس يطلبون أن يكنزوا لهم كنوزًأ هناك، وليس هنا على الأرض."
 
 #: admin/starter-content.php:224
 msgid "God, we pray for believers in [location_name] to know how to cast vision to others about forming spiritual families who multiply for generations to come. https://zume.training/vision-casting-the-greatest-blessing/"
-msgstr ""
+msgstr "يا رب، نصلي من أجل مؤمنين في [location_name] يعرفون كيف ينقلون الرؤية لآخرين عن تكوين عائلات روحية تتزايد لأجيال قادمة. https://zume.training/vision-casting-the-greatest-blessing/"
 
 #: admin/starter-content.php:227
 msgid "\"All the [people_name] nations you have made shall come and worship before you, O Lord, and shall glorify your name.\" (Psalm 86:9)"
-msgstr ""
+msgstr "\"كُلُّ [people_name] الأُمَمِ الَّذِينَ صَنَعْتَهُمْ يَأْتُونَ وَيَسْجُدُونَ أَمَامَكَ يَا رَبُّ، وَيُمَجِّدُونَ اسْمَكَ.\" (مزمور 86: 9)\t"
 
 #: admin/starter-content.php:228
 msgid "\"When anyone hears the word of the kingdom and does not understand it, the evil one comes and snatches away what has been sown in his heart. This is what was sown along the path.\" (Matthew 13:19) We pray for many hearts in [location_name] to be receptive to the Kingdom seed that would take root, grow, and reproduce 30, 60, and 100 fold."
-msgstr ""
+msgstr "\"كُلُّ مَنْ يَسْمَعُ كَلِمَةَ الْمَلَكُوتِ وَلاَ يَفْهَمُ فَيَأْتِي الشِّرِّيرُ وَيَخْطَفُ مَا قَدْ زُرِعَ فِي قَلْبِهِ. هَذَا هُوَ الْمَزْرُوعُ عَلَى الطَّرِيقِ.\" (متَّى 13: 19) نصلي من أجل قلوب كثيرة في [location_name] لتقبل بذور الملكوت التي تتأصل وتنمو وتأتي بثمر 30 و60 و100.\""
 
 #: admin/starter-content.php:230
 msgid "\"By faith Abraham, when he was tested, offered up Isaac, and he who had received the promises was in the act of offering up his only son, of whom it was said, ’Through Isaac shall your offspring be named’.\" (Hebrews 11:17-18) Lord, may [people_name] be like Abraham, exhibiting radical, immediate, and costly obedience."
-msgstr ""
+msgstr "\"بِالإِيمَانِ قَدَّمَ إِبْرَاهِيمُ إِسْحَاقَ وَهُوَ مُجَرَّبٌ. قَدَّمَ الَّذِي قَبِلَ الْمَوَاعِيدَ، وَحِيدَهُ الَّذِي قِيلَ لَهُ: «إِنَّهُ بِإِسْحَاقَ يُدْعَى لَكَ نَسْلٌ».\" (العبرانيين 11: 17-18) يا رب، ليكن [people_name] مثل إبراهيم، يُظهِرون طاعة قوية وفورية وغالية الثمن."
 
 #: admin/starter-content.php:231
 msgid "Lord, we pray for believers in [location_name] to be like ducklings in ways they make disciples. https://zume.training/duckling-discipleship-leading-sooner/"
-msgstr ""
+msgstr "يا رب، نصلي من أجل المؤمنين في [location_name] ليكونوا مثل فراخ البط في طريقة تملذتهم لآخرين. https://zume.training/duckling-discipleship-leading-sooner/"
 
 #: admin/starter-content.php:234
 msgid "\"Declare his glory among the [people_name] nations, his marvelous works among all the peoples!\" (Psalm 96:3)"
-msgstr ""
+msgstr "\"حَدِّثُوا بَيْنَ الأُمَمِ بِمَجْدِهِ بَيْنَ جَمِيعِ الشُّعُوبِ بِعَجَائِبِهِ.\" (مزمور 96: 3)"
 
 #: admin/starter-content.php:235
 msgid "(The Parable of the Weeds) \"He put another parable before them, saying, ’The kingdom of heaven may be compared to a man who sowed good seed in his field’\" (Matthew 13:24-30) May the truth of this parable free Christians in [location_name] from fear of insincere seekers and those with evil intentions. We pray for far more reproducing good seed than weeds in this land. Give wisdom to your church, since only You can judge men’s hearts and motives."
-msgstr ""
+msgstr "(مثَل الزوان) \"قَدَّمَ لَهُمْ مَثَلًا آخَرَ قِائِلًا: «يُشْبِهُ مَلَكُوتُ السَّمَاوَاتِ إِنْسَانًا زَرَعَ زَرْعًا جَيِّدًا فِي حَقْلِهِ.\" (متَّى 13: 24-30). نصلي أن يحرر الحق الموجود في هذا المثل المؤمنين في [location_name] من الخوف من المتسائلين غير الجادين والذين لهم نوايا شريرة. نصلي من أجل المزيد من منتجي البذور الجيدة وليس الزوان في هذه الأرض. أعطِ حكمة لكنيستك، لأنك أنت الوحيد الذي يدين قلوب الناس ودوافعهم."
 
 #: admin/starter-content.php:236
 msgid "Paul and Barnabas returned to places they had preached \"strengthening the souls of the disciples, encouraging them to continue in the faith, and saying that through many tribulations we must enter the kingdom of God.\" (Acts 14:22) May every believer in [location_name] be rooted in this truth. As they persevere through tribulations, may it powerfully proclaim the Gospel to the people around them."
-msgstr ""
+msgstr "رجع بولس وبرنابا لأماكن كانا يبشران فيها \"يُشَدِّدَانِ أَنْفُسَ التَّلاَمِيذِ وَيَعِظَانِهِمْ أَنْ يَثْبُتُوا فِي الإِيمَانِ وَأَنَّهُ بِضِيقَاتٍ كَثِيرَةٍ يَنْبَغِي أَنْ نَدْخُلَ مَلَكُوتَ اللهِ.\" (الأعمال 14: 22) نصلي أن يتأصل كل مؤمن في [location_name] في هذا الحق. وحين يجاهدون في الشدائد، فليكن ذلك إعلانًا قويًّا عن الإنجيل للذين حولهم."
 
 #: admin/starter-content.php:237
 msgid "\"He considered that God was able even to raise him from the dead, from which, figuratively speaking, he did receive him back.\" (Hebrews 11:19) Resurrected King, You conquered death on the cross! We pray for [people_name] to believe that reality and for it to free them from any fear of death -- be that physical or symbolic death to sin or of hopes and dreams."
-msgstr ""
+msgstr "\"إِذْ حَسِبَ أَنَّ اللهَ قَادِرٌ عَلَى الإِقَامَةِ مِنَ الأَمْوَاتِ أَيْضًا، الَّذِينَ مِنْهُمْ أَخَذَهُ أَيْضًا فِي مِثَال.\" (العبرانيين 11: 19) أيها الملك المقام، لقد غلبتَ الموت على الصليب. نصلي من أجل [people_name] حتى يؤمنوا بهذه الحقيقة وأن تحررهم من أي خوف من الموت سواء أكان هذا موتًا جسديًّا أو رمزيًا للموت عن الخطية أو موت الآمال الأحلام."
 
 #: admin/starter-content.php:238
 msgid "Father, we pray for believers in [location_name] to have eyes that see where the Kingdom isn’t. https://zume.training/eyes-to-see-where-the-kingdom-isnt/"
-msgstr ""
+msgstr "يا أبانا، نصلي من أجل المؤمنين في [location_name] لتكون لهم الأعين ليروا أين لا يوجد الملكوت. https://zume.training/eyes-to-see-where-the-kingdom-isnt/"
 
 #: admin/starter-content.php:241
 msgid "Say among the [people_name] nations, \"The Lord reigns! Yes, the world is established; it shall never be moved; he will judge the peoples with equity.\" (Psalm 96:10)"
-msgstr ""
+msgstr "قُولُوا بَيْنَ الأُمَمِ [people_name]: «الرَّبُّ قَدْ مَلَكَ. أَيْضاً تَثَبَّتَتِ الْمَسْكُونَةُ فَلاَ تَتَزَعْزَعُ. يَدِينُ الشُّعُوبَ بِالاِسْتِقَامَةِ.\" (مزمور 96: 10)\t"
 
 #: admin/starter-content.php:242
 msgid "(The Mustard Seed and the Leaven ) \"He put another parable before them, saying, ’The kingdom of heaven is like a grain of mustard seed that a man took and sowed in his field.’\" (Matthew 13:31) Lord, may mustard seed-sized faith produce a great harvest in [location_name] for Your glory and for the powerful advancement of your Kingdom."
-msgstr ""
+msgstr "(حبة الخردل والخميرة) \"قَدَّمَ لَهُمْ مَثَلًا آخَرَ قَائِلًا: «يُشْبِهُ مَلَكُوتُ السَّمَاوَاتِ حَبَّةَ خَرْدَل أَخَذَهَا إِنْسَانٌ وَزَرَعَهَا فِي حَقْلِهِ.\" (متَّى 13: 31) يا رب، نصلي أن يُنتِج الإيمان الذي كحبة الخردل حصادًا عظيمًا في [location_name] لمجدك ولامتداد قويّ لملكوتك."
 
 #: admin/starter-content.php:243
 msgid "\"And God, who knows the heart, bore witnes to them by giving them the Holy Spirit just as he did to us...\" (Acts 15:8) Thank You for the precious gift of the Holy Spirit! May every believer in [location_name] grow in discerning His leading and quickly obey all He tells them to do. May the Spirit give all believers in [location_name] grace toward one another resulting in the strengthening and multiplying of your Church in this land."
-msgstr ""
+msgstr "\"وَاللهُ الْعَارِفُ الْقُلُوبَ، شَهِدَ لَهُمْ مُعْطِيًا لَهُمُ الرُّوحَ الْقُدُسَ كَمَا لَنَا أَيْضًا.\" (الأعمال 15: 8) نشكرك على عَطِيَّةَ الرُّوحِ القُدُسِ الغالية! نصلي أن ينمو كل مؤمن في [location_name] في تمييز إرشاد الله وأن يطيع كل ما يخبره أن يفعله. وليعطِ روحك القدوس كل المؤمنين في [location_name] نعمة بعضهم لبعض مما ينشئ تقوية وتضاعفًا في كنيستك في هذه الأرض."
 
 #: admin/starter-content.php:244
 msgid "\"By faith Isaac invoked future blessings on Jacob and Esau.\" (Hebrews 11:20) Despite brokenness in their family, Isaac agreed with God’s covenant and knew it would mean blessing for his sons. May conviction of Your desire that none would perish but all come to repentance, compel [people_name] believers to bless their family by speaking the Good News of Jesus."
-msgstr ""
+msgstr "\"بِالإِيمَانِ إِسْحَاقُ بَارَكَ يَعْقُوبَ وَعِيسُو مِنْ جِهَةِ أُمُورٍ عَتِيدَةٍ.\" (العبرانيين 11: 20) رغم الإنشقاق الذي حدث في بيت إسحاق، إلا أنه اتفق مع عهد الله وعرف أن هذا يعني بركة لابنيه. فلتغمر، يا رب، رغبتك يأن لا يهلك أحد بل أن يتوب الجميع، المؤمنين في [people_name] ليباركوا عائلاتهم بأن يخبروهم بالأخبار السارة بيسوع."
 
 #: admin/starter-content.php:245
 msgid "Jesus, we pray for believers in [location_name] to enjoy the intimate connection with you in the Lord’s supper, and know how to lead others in celebrating it too. https://zume.training/the-lords-supper-and-how-to-lead-it/"
-msgstr ""
+msgstr "يا يسوع، نصلي من أجل المؤمنين في [location_name] ليتمتعوا بالتواصل الحميم معك في العشاء الرباني، وليعرفوا كيف يقودون الآخرين ليحتفلوا به هم أيضًا. https://zume.training/the-lords-supper-and-how-to-lead-it/"
 
 #: admin/starter-content.php:248
 msgid "\"The Lord has made known his salvation; he has revealed his righteousness in the sight of the [people_name] nations.\" (Psalm 98:2)"
-msgstr ""
+msgstr "\"أَعْلَنَ الرَّبُّ خَلاَصَهُ. لِعُيُونِ الأُمَمِ [people_name] كَشَفَ بِرَّهُ.\" (مزمور 98: 2)"
 
 #: admin/starter-content.php:249
 msgid "\"He told them another parable. ’The kingdom of heaven is like leaven that a woman took and hid in three measures of flour, till it was all leavened.’\" (Matthew 13:33) Thank you Lord that you delight in using simple, ordinary people to display Your glory. May this kind of yeast rapidly grow throughout every place in [location_name].\""
-msgstr ""
+msgstr "\"قَالَ لَهُمْ مَثَلاً آخَرَ: «يُشْبِهُ مَلَكُوتُ السَّمَاوَاتِ خَمِيرَةً أَخَذَتْهَا امْرَأَةٌ وَخَبَّأَتْهَا فِي ثَلاَثَةِ أَكْيَالِ دَقِيق حَتَّى اخْتَمَرَ الْجَمِيعُ».\" (متَّى 13: 33) نشكرك يا رب أنك تُسَّر باستخدام الناس البسطاء العاديين لتُظهِر مجدك. فلينمُ هذا النوع من الخميرة في كل مكان في [location_name].\""
 
 #: admin/starter-content.php:250
 msgid "\"The Lord opened her (Lydia’s) heart to pay attention to what was said by Paul. And after she was baptized, and her household as well...\" (Acts 16:14-15) \"And he (the Philippian jailer) took them the same hour of the night and washed their wounds; and he was baptized at once, he and all his family.\" (Acts 16:33). Please repeat Lydia and the Philippian jailer’s stories over and over again in every region of [location_name]."
-msgstr ""
+msgstr "\"فَفَتَحَ الرَّبُّ قَلْبَهَا (ليديا) لِتُصْغِيَ إِلَى مَا كَانَ يَقُولُهُ بُولُسُ. فَلَمَّا اعْتَمَدَتْ هِيَ وَأَهْلُ بَيْتِهَا ... \" (الأعمال 16: 14-15) \"فَأَخَذَهُمَا فِي تِلْكَ السَّاعَةِ مِنَ اللَّيْلِ وَغَسَّلَهُمَا مِنَ الْجِرَاحَاتِ وَاعْتَمَدَ فِي الْحَالِ هُوَ وَالَّذِينَ لَهُ أَجْمَعُونَ.\" (الأعمال 16: 33). نصلي أن تُعاد قصتا ليديا وسجان فيلبي في كل منطقة في [location_name] مرات ومرات."
 
 #: admin/starter-content.php:251
 msgid "\"By faith Jacob, when dying, blessed each of the sons of Joseph, bowing in worship over the head of his staff.\" (Hebrews 11:21) May every believer in [location_name] have spiritual children that they can, by faith, impart the same blessing to -- that there may be a multitude of multiplying disciples in the land. (Genesis 49:16)"
-msgstr ""
+msgstr "\"بِالإِيمَانِ يَعْقُوبُ عِنْدَ مَوْتِهِ بَارَكَ كُلَّ وَاحِدٍ مِنِ ابْنَيْ يُوسُفَ، وَسَجَدَ عَلَى رَأْسِ عَصَاهُ.\"  (العبرانيين 11: 21) نصلي أن يكون لكل مؤمن في [location_name] أبناء روحيين حتى يقدر أن يباركهم حتى يوجد عدد متزايد من التلاميذ في الأرض. (التكوين 49: 16)"
 
 #: admin/starter-content.php:252
 msgid "God, we pray for believers in [location_name] to know how to pray for others, even as they walk around. https://zume.training/prayer-walking/"
-msgstr ""
+msgstr "يا رب، نحن نصلي من أجل المؤمنين في [location_name] أ، يعرفوا كيف يصلُّون من أجل الآخرين، حتى وهم يجوبون الشوارع. https://zume.training/prayer-walking/"
 
 #: admin/starter-content.php:255
 msgid "[people_name] \"Nations will fear the name of the Lord, and all the kings of the earth will fear your glory.\" (Psalm 102:15)"
-msgstr ""
+msgstr "\"فَتَخْشَى الأُمَمُ [people_name] اسْمَ الرَّبِّ، وَكُلُّ مُلُوكِ الأَرْضِ مَجْدَكَ.\" (مزمور 102: 15)"
 
 #: admin/starter-content.php:256
 msgid "(The Parable of the Hidden Treasure) \"The kingdom of heaven is like treasure hidden in a field, which a man found and covered up. Then in his joy he goes and sells all that he has and buys that field.\" (Matthew 13:44) We pray for many today to see You for the treasure You are. We pray for [people_name] in every segment of society to joyfully give up all they have in order to gain You."
-msgstr ""
+msgstr "(مثَل الكنز المخفي) \"أَيْضاً يُشْبِهُ مَلَكُوتُ السَّمَاوَاتِ كَنْزاً مُخْفىً فِي حَقْلٍ وَجَدَهُ إِنْسَانٌ فَأَخْفَاهُ. وَمِنْ فَرَحِهِ مَضَى وَبَاعَ كُلَّ مَا كَانَ لَهُ وَاشْتَرَى ذَلِكَ الْحَقْلَ.\" (متَّى 13: 44) نصلي أ،ن يراك كثيرون اليوم على حقيقتك وأنت الكنز. نصلي من أجل [people_name] في كل فئات المجتمع أن يتخلوا بفرح عن كل ما لديهم ليشتروك.\""
 
 #: admin/starter-content.php:257
 msgid "\"And he made from one man every nation of mankind to live on all the face of the earth, having determined allotted periods and their boundaries of their dwelling place, that they should seek God, and perhaps feel their way toward him and find him. Yet he is actually not far from each of us...\" (Acts 17:26-27) We confess your sovereignty in the midst of the uncertainties in [location_name] brought on by the coronavirus. We pray, Father, that you would use these circumstances to draw many [people_name] to yourself."
-msgstr ""
+msgstr "\"وَصَنَعَ مِنْ دَمٍ وَاحِدٍ كُلَّ أُمَّةٍ مِنَ النَّاسِ يَسْكُنُونَ عَلَى كُلِّ وَجْهِ الأَرْضِ وَحَتَمَ بِالأَوْقَاتِ الْمُعَيَّنَةِ وَبِحُدُودِ مَسْكَنِهِمْ، لِكَيْ يَطْلُبُوا اللهَ لَعَلَّهُمْ يَتَلَمَّسُونَهُ فَيَجِدُوهُ، مَعَ أَنَّهُ عَنْ كُلِّ وَاحِدٍ مِنَّا لَيْسَ بَعِيداً.\" (الأعمال 17: 26-27) نعترف بسيادتك وسط كل المخاوف التي جلبها فيروس كورونا في [location_name]. نصلي، يا أبانا، أن تستخدم هذه الظروف لتجذب الكثيرين من [people_name] لك."
 
 #: admin/starter-content.php:258
 msgid "\"By faith Joseph, at the end of his life, made mention of the exodus of the Israelites and gave directions concerning his bones.\" (Hebrews 11:22) We pray for believers in [location_name] to be so certain of Your promises, that they would have foresight now to prepare for the day when there are multiplying churches in every neighborhood in the country by training and equipping all believers in scalable ways."
-msgstr ""
+msgstr "\"بِالإِيمَانِ يُوسُفُ عِنْدَ مَوْتِهِ ذَكَرَ خُرُوجَ بَنِي إِسْرَائِيلَ وَأَوْصَى مِنْ جِهَةِ عِظَامِهِ.\" (الأعمال 11: 22) نصلي من أجل المؤمنين في [location_name] أن يكونوا متاكدين من وعودك، أن تكون لهم البصيرة الآن ليتحضروا لليوم حين يوجد عدد متزايد من الكنائس في كل منطقة في البلد وذلك بتدريب وتأهيل كل المؤمنين بطرق قابلة للتطور."
 
 #: admin/starter-content.php:259
 msgid "God, we pray for believers in [location_name] to know what a person of peace is, and where to find one. https://zume.training/a-person-of-peace-and-how-to-find-one/"
-msgstr ""
+msgstr "يا رب، نصلي من أجل المؤمنين في [location_name] ليعرفوك أنت إله السلام، وكيف يجدون السلام. https://zume.training/a-person-of-peace-and-how-to-find-one/"
 
 #: admin/starter-content.php:262
 msgid "\"I will give thanks to you, O Lord, among the peoples; I will sing praises to you among the [people_name] nations.\" (Psalm 108:3)"
-msgstr ""
+msgstr "\"أَحْمَدُكَ بَيْنَ الشُّعُوبِ يَا رَبُّ، وَأُرَنِّمُ لَكَ بَيْنَ الأُمَمِ [people_name].\" (مزمور 108: 3)"
 
 #: admin/starter-content.php:263
 msgid "(The Parable of the Pearl of Great Value) \"Again, the kingdom of heaven is like a merchant in search of fine pearls, who, on finding one pearl of great value, went and sold all that he had and bought it.\" (Matthew 13:45-46) Thank You for every man and woman in [location_name] who have found You to be the pearl of great price. We pray their valuing and treasuring of You, would lead many others to enter Your Kingdom."
-msgstr ""
+msgstr "(مثل اللؤلؤة كثيرة الثمن) \"أَيْضًا يُشْبِهُ مَلَكُوتُ السَّمَاوَاتِ إِنْسَانًا تَاجِرًا يَطْلُبُ لآلِئَ حَسَنَةً، فَلَمَّا وَجَدَ لُؤْلُؤَةً وَاحِدَةً كَثِيرَةَ الثَّمَنِ، مَضَى وَبَاعَ كُلَّ مَا كَانَ لَهُ وَاشْتَرَاهَا.\" (متَّى 13: 45-46) نشكرك من أجل كل رجل وامرأة في [location_name] وجد أنك أنت اللؤلؤة كثيرة الثمن. نصلي أن تكون رؤيتهم لك ككنز تقود الكثيرين ليدخلوا ملكوتك.\""
 
 #: admin/starter-content.php:264
 msgid "\"Crispus, the ruler of the synagogue, believed in the Lord, together with his entire household. And many of the Corinthians hearing Paul believed and were baptized.\" (Acts 18:8) We pray for many religious leaders in [location_name] to believe in You, together with their entire households, and may it lead to entire neighborhoods and cities being reached with the Gospel."
-msgstr ""
+msgstr "\"وَكِرِيسْبُسُ رَئِيسُ الْمَجْمَعِ آمَنَ بِالرَّبِّ مَعَ جَمِيعِ بَيْتِهِ وَكَثِيرُونَ مِنَ الْكُورِنْثِيِّينَ إِذْ سَمِعُوا آمَنُوا وَاعْتَمَدُوا.\" (الأعمال 18: 8) نصلي من أجل الكثير من القادة الدينيين في [location_name] ليؤمنوا بك، مع أهل بيوتهم، وليكن هذا بداية كرازة بالإنجيل لمناطق سكنية ومدن بأكملها."
 
 #: admin/starter-content.php:265
 msgid "\"By faith Moses, when he was born, was hidden for three months by his parents, because they saw that the child was beautiful, and they were not afraid of the king’s edict.\" (Hebrews 11:23)  Thank you Lord for the example of Moses’ parents. We pray for believers in [location_name] to fear God more than they fear anyone or anything else."
-msgstr ""
+msgstr "\"بِالإِيمَانِ مُوسَى، بَعْدَمَا وُلِدَ، أَخْفَاهُ أَبَوَاهُ ثَلاَثَةَ أَشْهُرٍ، لأَنَّهُمَا رَأَيَا الصَّبِيَّ جَمِيلاً، وَلَمْ يَخْشَيَا أَمْرَ الْمَلِكِ.\" (العبرانيين 11: 23) نشكرك يا رب من أجل مثال أبوَيّ موسى. نصلي أن يخاف المؤمنون في [location_name] الله أكثر من أيّ شخص أو أيّ شيء."
 
 #: admin/starter-content.php:266
 msgid "Father, we pray for believers in [location_name] to know areas they can pray for others, the BLESS Prayer Pattern. like https://zume.training/the-bless-prayer-pattern/"
-msgstr ""
+msgstr "يا أبانا، نصلي أن يعرف المؤمنون في [location_name] كيف يصلُّون من أجل الآخرين مثل نمط صلاة BLESS. https://zume.training/the-bless-prayer-pattern/"
 
 #: admin/starter-content.php:269
 msgid "\"From the rising of the sun to its setting, the name of the Lord is to be praised! The Lord is high above all [people_name] nations, and his glory above the heavens!\" (Psalm 113:3-4)"
-msgstr ""
+msgstr "\"مِنْ مَشْرِقِ الشَّمْسِ إِلَى مَغْرِبِهَا اسْمُ الرَّبِّ مُسَبَّحٌ. الرَّبُّ عَال فَوْقَ كُلِّ الأُمَمِ. فَوْقَ السَّمَاوَاتِ مَجْدُهُ.\" (مزمور 113: 3-4)\t"
 
 #: admin/starter-content.php:270
 msgid "(The Parable of the Net) \"Again, the kingdom of heaven is like a net that was thrown into the sea and gathered fish of every kind.\" (Matthew 13:47-50) Many [people_name] of every kind be brought in Your glorious Kingdom, even this month. We pray for wealthy and poor, educated and uneducated, religious and secular, young and old to be among the ’good fish’ at the end of the age."
-msgstr ""
+msgstr "(مثل الشبكة) \"أَيْضًا يُشْبِهُ مَلَكُوتُ السَّمَاوَاتِ شَبَكَةً مَطْرُوحَةً فِي الْبَحْرِ، وَجَامِعَةً مِنْ كُلِّ نَوْعٍ.\" (متَّى 13: 47-50) نصلي أن يأتي الكثيرون من [people_name] من كل نوع لملكوتك المجيد، حتى في هذا الشهر. نصلي من أجل الأغنياء والفقراء، المتعلمين وغير المتعلمين، الدينيين والعلمانيين، الصغار والكبار ليكونوا بين \"السمك الجيد\" في نهاية الأيام."
 
 #: admin/starter-content.php:271
 msgid "Paul reasoned daily in the hall of Tyrannnus and we’re told \"this continued for two years, so that all the residents of Asia heard the word of the Lord, both Jews and Greeks.\" (Acts 19:10) Empower believers in [location_name] to boldly, faithfully, and consistently proclaim the Gospel of the Kingdom so that all the residents of [location_name] would hear the word of the Lord and have an opportunity to respond to it."
-msgstr ""
+msgstr "كان بولس يناقش الناس في مدرسة تيرانس ومكتوب: \"وَكَانَ ذَلِكَ مُدَّةَ سَنَتَيْنِ حَتَّى سَمِعَ كَلِمَةَ الرَّبِّ يَسُوعَ جَمِيعُ السَّاكِنِينَ فِي أَسِيَّا مِنْ يَهُودٍ وَيُونَانِيِّينَ.\" (الأعمال  19: 10) أعطِ القوة للمؤمنين في [location_name] أ، يعلنوا إنجيل الملكوت بجرأة، وأمانة واستمرار حتى يسمع كل الساكنين في [location_name] كلمة الرب ويكون لهم الفرصة أن ينشروها."
 
 #: admin/starter-content.php:273
 msgid "Lord, we pray for believers in [location_name] to not only esteem knowing but also doing. https://zume.training/faithfulness-is-better-than-knowledge/"
-msgstr ""
+msgstr "يا رب، نصلي من أجل المؤمنين في [location_name] ألا يفرحوا بالوعرفة وحسب بل بالعمل أيضًا. https://zume.training/faithfulness-is-better-than-knowledge/"
 
 #: admin/starter-content.php:276
 msgid "\"Praise the Lord, all nations! Extol him, all peoples [people_name]!\" (Psalm 117:1)"
-msgstr ""
+msgstr "\"سَبِّحُوا الرَّبَّ يَا كُلَّ الأُمَمِ.  حَمِّدُوهُ يَا كُلَّ الشُّعُوبِ [people_name].\" (مزمور 117: 1)"
 
 #: admin/starter-content.php:277
 msgid "\"I will give you the keys of the kingdom of heaven, and whatever you bind on earth shall be bound in heaven, and whatever you loose on earth shall be loosed in heaven.\" (Matthew 16:19) As Your followers in [location_name] enter into spiritually dark places, may they exercise the Kingdom authority You have delegated to Your church through Christ Jesus."
-msgstr ""
+msgstr "\"وَأُعْطِيكَ مَفَاتِيحَ مَلَكُوتِ السَّمَاوَاتِ فَكُلُّ مَا تَرْبِطُهُ عَلَى الأَرْضِ يَكُونُ مَرْبُوطاً فِي السَّمَاوَاتِ. وَكُلُّ مَا تَحُلُّهُ عَلَى الأَرْضِ يَكُونُ مَحْلُولاً فِي السَّمَاوَاتِ.\" (متَّى 16: 19) نصلي أنه حين يدخل أتباعك في [location_name] أماكن مظلمة روحيًّا، أن يختبروا سلطان الملكوت الذي منحتَه لكنيستك في المسيح يسوع."
 
 #: admin/starter-content.php:278
 msgid "We pray that every believer in [location_name] would \"remember the words of the Lord Jesus, how he himself said, \"It is more blessed to give than to receive\". (Acts 20:35), especially when it comes to spiritual blessings. We pray that every believer would experience the deep joy of giving the gift of Christ to others. Bonus: Check out https://zume.training/the-kingdom-economy/Kingdom Economy  for more on this concept."
-msgstr ""
+msgstr "نصلي من أجل كل مؤمن في [location_name] أن يتذكر \"كَلِمَاتِ الرَّبِّ يَسُوعَ أَنَّهُ قَالَ: مَغْبُوطٌ هُوَ الْعَطَاءُ أَكْثَرُ مِنَ الأَخْذِ».\" (الأعمال 20: 35)، خصوصًا فيما يتعلق بالبركات الروحية. نصلي أن يختبر كل مؤمن الفرح العميق الذي في تقديم عطية المسيح للآخرين. https://zume.training/the-kingdom-economy/Kingdom"
 
 #: admin/starter-content.php:279
 msgid "\"He considered the reproach of Christ greater wealth than the treasures of Egypt, for he was looking to the reward.\" (Hebrews 11:26) Awaken [people_name] to the greater wealth of Christ. May multitudes esteem Him more than any treasure they can have here on earth."
-msgstr ""
+msgstr "\"حَاسِباً عَارَ الْمَسِيحِ غِنًى أَعْظَمَ مِنْ خَزَائِنِ مِصْرَ، لأَنَّهُ كَانَ يَنْظُرُ إِلَى الْمُجَازَاةِ.\" (العبرانيين 11: 26) أيقِظْ [people_name] على الغنى الجزيل الذي في المسيح. يرى الكثيرون يسوع أغلى من أيّ كنز يمكن أن ينالوه في الأرض."
 
 #: admin/starter-content.php:280
 msgid "Father, we pray for believers in [location_name] to know how to meet, pray, learn, grow, fellowship, and practice obeying and sharing in simple churches with the 3/3 Group Meeting Pattern. https://zume.training/3-3-group-meeting-pattern/"
-msgstr ""
+msgstr "يا أبانا، نصلي من أجل المؤمنين في [location_name] ليعرفوا كيف يتقابلون ويصلُّون ويتعلمون وينمون ويتمتعون بالشركة ويمارسون الطاعة والمشاركة في الكنائس البسيطة في نمط مقابلات المجموعة 3/3. https://zume.training/3-3-group-meeting-pattern/"
 
 #: admin/starter-content.php:283
 msgid "\"Sing praises to the Lord, who sits enthroned in Zion! Tell among the [people_name] peoples his deeds!\" (Psalm 9:11)"
-msgstr ""
+msgstr "\"رَنِّمُوا لِلرَّبِّ السَّاكِنِ فِي صِهْيَوْنَ،  أَخْبِرُوا بَيْنَ [people_name] الشُّعُوبِ بِأَفْعَالِهِ.\" (مزمور 9: 11)"
 
 #: admin/starter-content.php:284
 msgid "\"Truly, I say to you, unless you turn and become like children, you will never enter the kingdom of heaven.\" (Matthew 18:3) Father, please continue to teach and reveal Your upside-down and inside-out Kingdom priorities to every Christian in [location_name]. We pray that child-like faith would be used by You to bring many [people_name] into your presence."
-msgstr ""
+msgstr "\"اَلْحَقَّ أَقُولُ لَكُمْ: إِنْ لَمْ تَرْجِعُوا وَتَصِيرُوا مِثْلَ الأَوْلاَدِ فَلَنْ تَدْخُلُوا مَلَكُوتَ السَّمَاوَاتِ.\" (متَّى 18: 3.) يا أبانا، نصلي أن تستمر في التعليم والكشف عن أولويات الملكوت التي تقلب الأمور والأحوال لكل مؤمن في [location_name]. نصلي أن تستخدم إيمان الأطفال لتجلب الكثيرين في [people_name] لمحضرك."
 
 #: admin/starter-content.php:285
 msgid "\"After greeting them, he related one by one the things that God had done among the Gentiles through his ministry. And when they heard it, they glorified God.\" (Acts 21:19-20) May the retelling of the stories of grace in [people_name] lives result in great glory to God and spur on workers of the Gospel in neighboring lands like Libya and Algeria!"
-msgstr ""
+msgstr "\"فَبَعْدَ مَا سَلَّمَ عَلَيْهِمْ طَفِقَ يُحَدِّثُهُمْ شَيْئًا فَشَيْئًا بِكُلِّ مَا فَعَلَهُ اللهُ بَيْنَ الأُمَمِ بِوَاسِطَةِ خِدْمَتِهِ. فَلَمَّا سَمِعُوا كَانُوا يُمَجِّدُونَ الرَّبَّ.\" (الأعمال 21: 19-20) نصلي أن ينتج عن المشاركة بقصص النعمة في حياة [people_name] مجد عظيم لله وتحفيز خدام الإنجيل في الأراضي المجاورة مثل ليبيا والجزائر."
 
 #: admin/starter-content.php:286
 msgid "\"By faith he left Egypt, not being afraid of the anger of the king, for he endured as seeing him who is invisible.\" (Hebrews 11:27) Fear is a powerful weapon of the enemy in [location_name]. As You draw men and women to Yourself, Lord, help them fix their eyes on You instead of on their fears."
-msgstr ""
+msgstr "\"بِالإِيمَانِ تَرَكَ مِصْرَ غَيْرَ خَائِفٍ مِنْ غَضَبِ الْمَلِكِ، لأَنَّهُ تَشَدَّدَ، كَأَنَّهُ يَرَى مَنْ لاَ يُرَى.\" (العبرانيين 11: 27) الخوف سلاح قوي للعدو في [location_name]. حين تجذب لنفسك رجالًا ونساء، ساعدهم يا رب أن يركزوا أنظارهم عليك وليس على مخاوفهم."
 
 #: admin/starter-content.php:287
 msgid "God, we pray for believers in [location_name] to know how to apply the training cycle for maturing disciples. https://zume.training/training-cycle-for-maturing-disciples/"
-msgstr ""
+msgstr "يا رب، نحن نصلي من أجل المؤمنين في [location_name] أن يعرفوا كيف يطبقوا دورة التدريب لتنمية التلاميذ. https://zume.training/training-cycle-for-maturing-disciples/"
 
 #: admin/starter-content.php:290
 msgid "\"Clap your hands, all [people_name] peoples! Shout to God with loud songs of joy!\" (Psalm 47:1)"
-msgstr ""
+msgstr "\"يَا جَمِيعَ الأُمَمِ [people_name] صَفِّقُوا بِالأَيَادِي.  اهْتِفُوا للهِ بِصَوْتِ الابْتِهَاجِ.\" (مزمور 47: 1)"
 
 #: admin/starter-content.php:291
 msgid "\"Whoever humbles himself like this child is the greatest in the kingdom of heaven.\" (Matthew 18:4) May the humility of Christians in [location_name] testify to the power and the truth of Your Kingdom. We pray for Christ-like humility to define Your church in this nation."
-msgstr ""
+msgstr "\"فَمَنْ وَضَعَ نَفْسَهُ مِثْلَ هذَا الْوَلَدِ فَهُوَ الأَعْظَمُ فِي مَلَكُوتِ السَّمَاوَاتِ.\" (متَّى 18: 4) ليشهد تواضع المؤمنين في [location_name] عن قوة الملكوت وحقيقته. نصلي من أجل تواضع يشبه تواضع المسيح يكون مميِّزًا لكنيستك في هذه الأمة."
 
 #: admin/starter-content.php:292
 msgid "Paul was told by Ananias: \"for you will be a witness for him to everyone of what you have seen and heard.\" (Acts 22:15) We pray for every believer in [location_name] to be equipped to share their story (testimony) and Your story (the Gospel). We pray that every time the Gospel is shared in [location_name] that it would be the overflow of the speaker’s experience with You, the living God."
-msgstr ""
+msgstr "قال حنانيا لبولس: \"لأَنَّكَ سَتَكُونُ لَهُ شَاهِدًا لِجَمِيعِ النَّاسِ بِمَا رَأَيْتَ وَسَمِعْتَ.\" (الأعمال 22: 15) نصلي من أجل كل مؤمن في [location_name] ليكون مؤهَّلًا ليشارك بقصته (اختباره) وقصتك (الإنجيل). نصلي أنه في كل مرة تتم المشاركة بالإنجيل في [location_name] أن يكون هذا نابعًا من اختبار الفرد لك أنت الإله الحي."
 
 #: admin/starter-content.php:293
 msgid "\"By faith he kept the Passover and sprinkled the blood, so that the Destroyer of the firstborn might not touch them.\" (Hebrews 11:28) We pray for many in [location_name] to put their faith in Christ’s blood that was poured out for them. Let the power of Your death, burial, and resurrection convince them to put their faith in You and to be freed from the Destroyer."
-msgstr ""
+msgstr "\"بِالإِيمَانِ صَنَعَ الْفِصْحَ وَرَشَّ الدَّمَ لِئَلاَّ يَمَسَّهُمُ الَّذِي أَهْلَكَ الأَبْكَارَ.\" (العبرانيين 11: 28) نصلي من أجل يؤمن الكثيرون في [location_name] بدم المسيح المسفوك من أجلهم. اجعل قوة موتك ودفنك وقيامتك تقنعهم أن يؤمنوا بك وأ، يتحرروا من المُهلِك.\t"
 
 #: admin/starter-content.php:294
 msgid "Lord, we pray for believers in [location_name] to know how to develop as leaders by practicing serving. https://zume.training/leadership-cells/"
-msgstr ""
+msgstr "يا رب، نحن نصلي من أجل المؤمنين في [location_name] أن يعرفوا كيف يتطوروا كقادة بمارسة الخدمة. https://zume.training/leadership-cells/"
 
 #: admin/starter-content.php:297
 msgid "\"Bless our God, O [people_name] peoples; let the sound of his praise be heard,\" (Psalm 66:8)"
-msgstr ""
+msgstr "\"بَارِكُوا إِلهَنَا يَا أَيُّهَا الشُّعُوبُ، وَسَمِّعُوا صَوْتَ تَسْبِيحِهِ.\" (مزمور 66: 8)"
 
 #: admin/starter-content.php:298
 msgid "\"Jesus said, ’Let the little children come to me and do not hinder them, for to such belongs the kingdom of heaven.’\" (Matthew 19:14) We pray that nothing would hinder true seekers from entering into Your Kingdom —not gender, age, socioeconomic status, nationality, or education level."
-msgstr ""
+msgstr "\"أَمَّا يَسُوعُ فَقَالَ: «دَعُوا الأَوْلاَدَ يَأْتُونَ إِلَيَّ وَلاَ تَمْنَعُوهُمْ لأَنَّ لِمِثْلِ هؤُلاَءِ مَلَكُوتَ السَّمَاوَاتِ».\" (متَّى 19: 14) نصلي أن لا يعوق شيء الباحثين الحقيقيين عن دخول ملكوتك، لا الجنس، أو العُمر، أو الحالة الاجتماعية الاقتصادية، أو الجنسية، أو مستوى التعليم."
 
 #: admin/starter-content.php:299
 msgid "\"And looking intently at the council, Paul said, ’Brothers, I have lived my life before God in all good conscience up to this day.’\" (Acts 23:1) As believers in [location_name], abide in the Vine, may their lives continually grow into Christ’s until they, too, can make such a claim. May their consistency and integrity lead many [people_name] to faith in Christ."
-msgstr ""
+msgstr "\"فَتَفَرَّسَ بُولُسُ فِي الْمَجْمَعِ وَقَالَ: «أَيُّهَا الرِّجَالُ الإِخْوَةُ، إِنِّي بِكُلِّ ضَمِيرٍ صَالِحٍ قَدْ عِشْتُ للهِ إِلَى هذَا الْيَوْمِ».\" (الأعمال 23: 1) كمؤمنين في [location_name] فليثبتوا في الكرمة، ولتنمو حياتهم دائمًا ليصبحوا كيسوع، حتى يقدروا هم أيضًا أن يقولوا مثل بولس. وليكن اتساق حياتهم مع تعاليمهم ونزاهتهم سبب قيادة كثير من [people_name] للإيمان بالمسيح."
 
 #: admin/starter-content.php:301
 msgid "Father, we pray for believers in [location_name] to expect non-sequential growth in their disciple making. https://zume.training/expect-non-sequential-growth/"
-msgstr ""
+msgstr "يا أبانا، نصلي من أجل المؤمنين في [location_name] لينتظروا نموًا غير متسلسل في تلمذتهم للآخرين. https://zume.training/expect-non-sequential-growth/"
 
 #: admin/starter-content.php:304
 msgid "\"Let the [people_name] peoples praise you, O God; let all the peoples praise you!\" (Psalm 67:3)"
-msgstr ""
+msgstr "\"يَحْمَدُكَ الشُّعُوبُ [people_name] يَا اللهُ. يَحْمَدُكَ الشُّعُوبُ كُلُّهُمْ.\" (مزمور 67: 3)\t"
 
 #: admin/starter-content.php:305
 msgid "\"And Jesus said to his disciples, ’Truly, I say to you, only with difficulty will a rich person enter the kingdom of heaven.’\" (Matthew 19:23) We know nothing can hinder the Lord from saving (1 Samuel 14:6), so Lord we ask You to be working in the hearts of the wealthy in [location_name]. Soften them and open their spiritual eyes to see the truth of Your Word."
-msgstr ""
+msgstr "\"فَقَالَ يَسُوعُ لِتَلاَمِيذِهِ: «الْحَقَّ أَقُولُ لَكُمْ: إِنَّهُ يَعْسُرُ أَنْ يَدْخُلَ غَنِيٌّ إِلَى مَلَكُوتِ السَّمَاوَاتِ!\" (متَّى 19: 23) نعلم أنه ليس عند الرب مانع أن يخلِّص (1 صموئيل 14: 6)، لذلك يا رب نطلب منك أن تعمل في قلوب الأغنياء في [location_name]. اجعلهم يرقون وافتح عيونهم الروحية ليروا حقيقة كلمتك."
 
 #: admin/starter-content.php:306
 msgid "\"So I always take pains to have a clear conscience toward both God and man.\" (Acts 24:16) Lord, give believers in [location_name] perseverance in going to such pains as Paul describes here. May it result in many friends, family members, coworkers, and neighbors being drawn to a God who brings transformation from the inside out."
-msgstr ""
+msgstr "\"لِذلِكَ أَنَا أَيْضًا أُدَرِّبُ نَفْسِي لِيَكُونَ لِي دَائِمًا ضَمِيرٌ بِلاَ عَثْرَةٍ مِنْ نَحْوِ اللهِ وَالنَّاسِ.\" (الأعمال 24: 16) يا رب، أعطِ المؤمنين في [location_name] مثابرة في تحمُّل الآلام التي تكلم عنها بولس هنا. وليكن نتيجة ذلك انجذاب الكثير من الأصدقاء وأفراد العائلة وزملاء العمل والجيران إلى الله الذي يجلب التغيير القلبي."
 
 #: admin/starter-content.php:307
 msgid "\"By faith the walls of Jericho fell down after they had been encircled for seven days.\" (Hebrews 11:30) May every wall that separates [people_name] from Christ fall down as we faithfully pray and obey His commands."
-msgstr ""
+msgstr "\"بِالإِيمَانِ سَقَطَتْ أَسْوَارُ أَرِيحَا بَعْدَمَا طِيفَ حَوْلَهَا سَبْعَةَ أَيَّامٍ.\" (العبرانيين 11: 30) فلتسقط كل الأسوار التي تفصل [people_name] عن المسيح حين نصلي ونطيع وصايا الرب بأمانة."
 
 #: admin/starter-content.php:308
 msgid "Father, we pray for believers in [location_name] to understand why multiplying matters, and multiplying quickly matters even more. https://zume.training/pace-of-multiplication-matters/"
-msgstr ""
+msgstr "يا أبانا، نصلي من أجل المؤمنين في [location_name] ليفهموا أهمية التضاعف والأهمية الأكبر للتضاعف السريع. https://zume.training/pace-of-multiplication-matters/"
 
 #: admin/starter-content.php:311
 msgid "\"You are the God who works wonders; you have made known your might among the [people_name] peoples.\" (Psalm 77:14)"
-msgstr ""
+msgstr "\"أَنْتَ الإِلَهُ الصَّانِعُ الْعَجَائِبَ. عَرَّفْتَ بَيْنَ الشُّعُوبِ [people_name] قُوَّتَكَ.\" (مزمور 77: 14)"
 
 #: admin/starter-content.php:312
 msgid "(Laborers in the Vineyard) \"For the kingdom of heaven is like a master of a house who went out early in the morning to hire laborers for his vineyard.\" (Matthew 20:1) Your ways are not our ways. We praise You for Your generosity and ask that many [people_name] would enter Your Kingdom, even up until the last hour of the day."
-msgstr ""
+msgstr "(الفعلة في الكرم) \"فَإِنَّ مَلَكُوتَ السَّمَاوَاتِ يُشْبِهُ رَجُلًا رَبَّ بَيْتٍ خَرَجَ مَعَ الصُّبْحِ لِيَسْتَأْجِرَ فَعَلَةً لِكَرْمِهِ.\" (متَّى 20: 1) ليست طرقك كطرقنا. نحمدك من أجل كرمك ونطلب منك أن يدخل الكثير من [people_name] ملكوتك، حتى آخِر ساعة في اليوم."
 
 #: admin/starter-content.php:313
 msgid "\"So on the next day Agrippa and Bernice came with great pomp, and they entered the audience hall with the military tribunes and the prominent men of the city. Then, at the command of Festus, Paul was brought in.\" (Acts 25:23) Here Paul experienced Jesus’ words in Matthew 10:18, \"and you will be dragged before governors and kings for my sake, to bear witness before them and the Gentiles\". In the same way, may [people_name] believers, when this happens, experience Jesus’ promise as it was for Paul, \"do not be anxious how you are to speak or what you are to say, for what you are to say will be given you in that hour.\" (Matthew 10:19)"
-msgstr ""
+msgstr "\"فَفِي الْغَدِ لَمَّا جَاءَ أَغْرِيبَاسُ وَبَرْنِيكِي فِي احْتِفَال عَظِيمٍ، وَدَخَلاَ إِلَى دَارِ الاسْتِمَاعِ مَعَ الأُمَرَاءِ وَرِجَالِ الْمَدِينَةِ الْمُقَدَّمِينَ.\" أَمَرَ فَسْتُوسُ فَأُتِيَ بِبُولُسَ.\" (الأعمال 25: 23) اختبر بولس هنا كلمات يسوع الواردة في متَّى 10: 18: \"وَتُسَاقُونَ أَمَامَ وُلاَةٍ وَمُلُوكٍ مِنْ أَجْلِي شَهَادَةً لَهُمْ وَلِلأُمَمِ.\" بنفس الطريقة، حين يحدث هذا، نصلي أن يختبر المؤمنون [people_name] وعد يسوع، كما كان مع بولس: \"فَمَتَى أَسْلَمُوكُمْ فَلاَ تَهْتَمُّوا كَيْفَ أَوْ بِمَا تَتَكَلَّمُونَ، لأَنَّكُمْ تُعْطَوْنَ فِي تِلْكَ السَّاعَةِ مَا تَتَكَلَّمُونَ بِهِ.\" (متَّى 10: 19)"
 
 #: admin/starter-content.php:314
 msgid "\"By faith Rahab the prostitute did not perish with those who were disobedient, because she had given a friendly welcome to the spies.\" (Hebrews 11:31) Thank You Lord, for the reminder that no one is too far from Your saving grace. We pray for many [people_name], no matter their background, to be given new identities in Christ through faith."
-msgstr ""
+msgstr "\"بِالإِيمَانِ رَاحَابُ الزَّانِيَةُ لَمْ تَهْلِكْ مَعَ الْعُصَاةِ، إِذْ قَبِلَتِ الْجَاسُوسَيْنِ بِسَلاَمٍ.\" (العبرانيين 11: 31) نشكرك يا رب لأنك تذكِّرنا أنه لا يوجد أحد بعيد عن نعمتك المخلصة. نصلي من أجل الكثير من [people_name]، مهما كانت خلفيتهم، أن يحصلوا على هوية جديدة في المسيح بالإيمان."
 
 #: admin/starter-content.php:315
 msgid "Jesus, we pray for believers in [location_name] to know how to obey your commands by going AND staying. https://zume.training/always-part-of-two-churches/"
-msgstr ""
+msgstr "يا يسوع، نصلي من أجل المؤمنين في [location_name] ليعرفوا كيف يطيعون وصاياك بأن يذهبوا ويمكثوا. https://zume.training/always-part-of-two-churches/"
 
 #: admin/starter-content.php:318
 msgid "\"And they sing the song of Moses, the servant of God, and the song of the Lamb, saying, ’Great and amazing are your deeds, O Lord God the Almighty! Just and true are your ways, O King of the [people_name] nations!’\" (Revelation 15:3)"
-msgstr ""
+msgstr "\"وَهُمْ يُرَتِّلُونَ تَرْنِيمَةَ مُوسَى عَبْدِ اللهِ وَتَرْنِيمَةَ الْحَمَلِ قَائِلِينَ: «عَظِيمَةٌ وَعَجِيبَةٌ هِيَ أَعْمَالُكَ أَيُّهَا الرَّبُّ الْإِلَهُ الْقَادِرُ عَلَى كُلِّ شَيْءٍ. عَادِلَةٌ وَحَقٌّ هِيَ طُرُقُكَ يَا مَلِكَ [people_name] الْقِدِّيسِينَ.\" (الرؤيا 15: 3)."
 
 #: admin/starter-content.php:319
 msgid "\"But woe to you, scribes and Pharisees, hypocrites! For you shut the kingdom of heaven in people’s faces. For you neither enter yourselves nor allow those who would enter to go in.\" (Matthew 23:13) In Jesus’ day there were many opposed to the Kingdom, so today is no different. We appeal to Jesus, the One who opens and no one will shut (Revelation 3:7) to open the Kingdom to many in [location_name] today."
-msgstr ""
+msgstr "\"لكِنْ وَيْلٌ لَكُمْ أَيُّهَا الْكَتَبَةُ وَالْفَرِّيسِيُّونَ الْمُرَاؤُونَ!  لأَنَّكُمْ تُغْلِقُونَ مَلَكُوتَ السَّمَاوَاتِ قُدَّامَ النَّاسِ،  فَلاَ تَدْخُلُونَ أَنْتُمْ وَلاَ تَدَعُونَ الدَّاخِلِينَ يَدْخُلُونَ.\" (متَّى 23: 13) كان هناك الكثيرون في أيام يسوع يقاومون الملكوت، واليوم يحدث نفس الأمر. ونحن نصلي ليسوع، الذي يفتح ولا أحد يغلق (الرؤيا 3: 7) أن يفتح الملكوت أمام الكثيرين في [location_name] اليوم."
 
 #: admin/starter-content.php:320
 msgid "Jesus told Paul that \"I am sending you to open their eyes, so that they may turn from darkness to light and from the power of Satan to God, that they may receive forgiveness of sins and a place among those who are sanctified by faith in me.\" (Acts 26:18) We beseech You, Lord, to send many [people_name] Pauls to do the same throughout every corner of [location_name]."
-msgstr ""
+msgstr "قال يسوع لبولس: \"الَّذِينَ أَنَا الآنَ أُرْسِلُكَ إِلَيْهِمْ لِتَفْتَحَ عُيُونَهُمْ كَيْ يَرْجِعُوا مِنْ ظُلُمَاتٍ إِلَى نُورٍ وَمِنْ سُلْطَانِ الشَّيْطَانِ إِلَى اللهِ، حَتَّى يَنَالُوا بِالإِيمَانِ بِي غُفْرَانَ الْخَطَايَا وَنَصِيباً مَعَ الْمُقَدَّسِينَ.\" (الأعمال 26: 18) نتوسل لك يا رب أن ترسل الكثير من أشباه بولس من [people_name] ليقوموا بنفس هذا العمل في كل ركن من أركان [location_name]."
 
 #: admin/starter-content.php:322
 msgid "Lord, we pray for believers in [location_name] to be intentional in making disciples. https://zume.training/god-uses-ordinary-people/"
-msgstr ""
+msgstr "يا رب، نصلي من أجل المؤمنين في [location_name] ليكونوا فعالين في تلمذة الآخرين. https://zume.training/god-uses-ordinary-people/"
 
 #: admin/starter-content.php:325
 msgid "\"Who will not fear, O Lord, and glorify your name? For you alone are holy. All [people_name] nations will come and worship you, for your righteous acts have been revealed.\" (Revelation 15:4)"
-msgstr ""
+msgstr "مَنْ لاَ يَخَافُكَ يَا رَبُّ وَيُمَجِّدُ اسْمَكَ، لأَنَّكَ وَحْدَكَ قُدُّوسٌ، لأَنَّ جَمِيعَ الأُمَمِ [people_name] سَيَأْتُونَ وَيَسْجُدُونَ أَمَامَكَ، لأَنَّ أَحْكَامَكَ قَدْ أُظْهِرَتْ».\" (الرؤيا 15: 4).\t"
 
 #: admin/starter-content.php:326
 msgid "\"And this gospel of the kingdom will be proclaimed throughout the whole world as a testimony to all nations, and then the end will come.\" (Matthew 24:14) Father we pray for the Good News of the Kingdom to be shared in a clear, understandable, and reproducible way among all of the unengaged, unreached people groups in [location_name]."
-msgstr ""
+msgstr "\"وَيُكْرَزُ بِبِشَارَةِ الْمَلَكُوتِ هَذِهِ فِي كُلِّ الْمَسْكُونَةِ شَهَادَةً لِجَمِيعِ الأُمَمِ. ثُمَّ يَأْتِي الْمُنْتَهَى.\" (متَّى 24: 14) نصلي يا أبانا أن تتم المشاركة بأخبار الملكوت السارة بطريقة واضحة ومفهومة وقابلة للتكرار بين كل الشعوب المحرومة والمهمشة في [location_name]."
 
 #: admin/starter-content.php:327
 msgid "\"And when he had said these things, he took bread, and giving thanks to God in the presence of all he broke it and began to eat.\" (Acts 27:35) Lord, may believers in [location_name] exhibit such unshakeable confidence in Your Word and Your provision, that even in the scariest of circumstances they can still give thanks to You. We pray in the midst of the coronavirus pandemic that many will be drawn to Christ in [location_name] through believers’ firm faith in You."
-msgstr ""
+msgstr "\"وَلَمَّا قَالَ هَذَا أَخَذَ خُبْزاً وَشَكَرَ اللهَ أَمَامَ الْجَمِيعِ وَكَسَّرَ وَابْتَدَأَ يَأْكُلُ.\" (الأعمال 27: 35) يا رب، ليُظهِر المؤمنون في [location_name] هذه الثقة غير المتزعزعة في كلمتك ورعايتك، حتى أنهم في أكثر الظروف ترهيبًا يقدرون أن يشكروك. نصلي أنه وسط جائحة كورونا ينجذب الكثيرون في [location_name] للمسيح من خلال إيمان المؤمنين الثابت بك."
 
 #: admin/starter-content.php:329
 msgid "God, we pray for believers in [location_name] to know how to assess their strengths and vulnerabilities when it comes to making disciples who multiply. https://zume.training/coaching-checklist/"
-msgstr ""
+msgstr "يا رب، نصلي من أجل المؤمنين في [location_name] ليعرفوا كيف يقيِّمون نقاط القوة والضعف فيهم في موضوع إقامة تلاميذ يتضاعفون. https://zume.training/coaching-checklist/"
 
 #: admin/starter-content.php:333
 msgid "(The Parable of the Ten Virgins) \"Then the kingdom of heaven will be like ten virgins who took their lamps and went to meet the bridegroom.\" (Matthew 25:1) Prepare your Bride in [location_name] for Your return. We pray that every believer in this nation will be pursuing Your Kingdom and seeking opportunities to prepare their friends and family for Jesus’ return."
-msgstr ""
+msgstr "(مثل العشر عذارى) \"حِينَئِذٍ يُشْبِهُ مَلَكُوتُ السَّمَاوَاتِ عَشْرَ عَذَارَى، أَخَذْنَ مَصَابِيحَهُنَّ وَخَرَجْنَ لِلِقَاءِ الْعَرِيسِ.\" (متَّى 25: 1) جهِّز عروسك في [location_name] لمجيئك يا رب. نصلي من أجل كل مؤمن في هذه الأمة كي يطلب ملكوتك ويعسى وراء فرص ليجهز أصدقاءه وعائلته لمجيء يسوع."
 
 #: admin/starter-content.php:334
 msgid "\"From morning till evening he expounded to them, testifying to the kingdom of God and trying to convince them about Jesus both from the Law of Moses and from the Prophets.\" (Acts 28:23) Continue to equip believers throughout [location_name] to testify convincingly of Your Kingdom using Moses and the Prophets as needed. Soften hearts throughout the land to believe in this glorious message!"
-msgstr ""
+msgstr "\"فَطَفِقَ يَشْرَحُ لَهُمْ شَاهِداً بِمَلَكُوتِ اللهِ وَمُقْنِعاً إِيَّاهُمْ مِنْ نَامُوسِ مُوسَى وَالأَنْبِيَاءِ بِأَمْرِ يَسُوعَ مِنَ الصَّبَاحِ إِلَى الْمَسَاءِ.\" (الأعمال 28: 23) نطلب أن تستمر في إعداد المؤمنين في كل أنحاء [location_name] ليشهدوا بإقناع عن ملكوتك مستخمين موسى والأنبياء حين يحتاجون ذلك. اجعل القلوب ترِّق في كل أنحاء الأرض ليؤمنوا بهذه الرسالة المجيدة."
 
 #: admin/starter-content.php:336
 msgid "Father, we pray for believers in [location_name] to learn how multiplying churches stay connected and live life together as an extended, spiritual family. https://zume.training/leadership-in-networks/"
-msgstr ""
+msgstr "يا أبانا، نصلي من أجل المؤمنين في [location_name] ليتعلموا كيف تبقى الكنائس المتضاعفة متصلة ويحيون حياتهم معًا كعائلة روحية كبيرة."
 
 #: admin/starter-content.php:339
 msgid "\"And many [people_name] nations shall join themselves to the Lord in that day, and shall be my people. And I will dwell in your midst, and you shall know that the Lord of hosts has sent me to you.\" (Zechariah 2:11)"
-msgstr ""
+msgstr "\"فَيَتَّصِلُ أُمَمٌ كَثِيرَةٌ بِالرَّبِّ فِي ذلِكَ الْيَوْمِ، وَيَكُونُونَ لِي شَعْبًا فَأَسْكُنُ فِي وَسَطِكِ، فَتَعْلَمِينَ أَنَّ رَبَّ الْجُنُودِ قَدْ أَرْسَلَنِي إِلَيْكِ.\" (زكريا 2: 11)"
 
 #: admin/starter-content.php:340
 msgid "\"Then the King will say to those on his right, ’Come, you who are blessed by my Father, inherit the kingdom prepared for you from the foundation of the world.’\" (Matthew 25:34-36) Thank You Lord that you have prepared [people_name] to enter your kingdom from the foundation of the world. May every believer in this nation do the good works (feeding then hungry; giving water to the thirsty; etc.) that you prepared in advance for them to do (Ephesians 2:10)"
-msgstr ""
+msgstr "\"ثُمَّ يَقُولُ الْمَلِكُ لِلَّذِينَ عَنْ يَمِينِهِ: تَعَالَوْا يَا مُبَارَكِي أَبِي رِثُوا الْمَلَكُوتَ الْمُعَدَّ لَكُمْ مُنْذُ تَأْسِيسِ الْعَالَمِ.\" (متّى 25: 34-36) نشكرك يا رب أنك أعددت [people_name] لتدخل في ملكوتك منذ تأسيس العالم. نصلي أن يعمل كل مؤمن الأعمال الصالحة (إطعام الجائعين، تقديم المياه للعطشى، إلخ) التي أعددتها سابقًا لكي يسلك فيها (أفسس 2: 10)."
 
 #: admin/starter-content.php:341
 msgid "\"Proclaiming the kingdom of God and teaching about the Lord Jesus Christ with all boldness and without hindrance.\" (Acts 28:31) Just as the story of Acts ended with Paul living this verse out. We pray believers in [location_name] would proclaim the Kingdom of God and teach about the Lord with all boldness and without hindrance until their last breath."
-msgstr ""
+msgstr "\"كَارِزاً بِمَلَكُوتِ اللهِ وَمُعَلِّماً بِأَمْرِ الرَّبِّ يَسُوعَ الْمَسِيحِ بِكُلِّ مُجَاهَرَةٍ بِلاَ مَانِعٍ.\" (الأعمال 28: 31) كما أن قصة سفر الأعمال تنتهي ببولس وهو يعيش هذه الآية، فنحن نصلي أن يعلن المؤمنون في [location_name] ملكوت الله ويعلِّمون بأمر الرب بكل مجاهرة وبلا مانع حتى الرمق الأخير."
 
 #: admin/starter-content.php:342
 msgid "\"Some were tortured, refusing to accept release, so that they might rise again to a better life. Others suffered mocking and flogging, and even chains and imprisonment. They were stoned, they were sawn in two, they were killed with the sword.\" (Hebrews 11:35b-37) Give all believers in [location_name] perseverance in the face of persecution. Comfort them by the great cloud of witnesses that have gone before them, witnesses like those described in these verses."
-msgstr ""
+msgstr "\"وَآخَرُونَ عُذِّبُوا وَلَمْ يَقْبَلُوا النَّجَاةَ لِكَيْ يَنَالُوا قِيَامَةً أَفْضَلَ. وَآخَرُونَ تَجَرَّبُوا فِي هُزُءٍ وَجَلْدٍ، ثُمَّ فِي قُيُودٍ أَيْضاً وَحَبْسٍ. رُجِمُوا، نُشِرُوا، جُرِّبُوا، مَاتُوا قَتْلاً بِالسَّيْفِ،\" (العبرانيين 11: 32-35) أعطِ كل المؤمنين في [location_name] المثابرة في وجه الاضطهاد. أ‘طهم تعزية بسحابة الشهود الذين سبقوهم، شهود مثل المذكورين هنا في هذه الآيات."
 
 #: admin/starter-content.php:343
 msgid "God, we pray for believers in [location_name] to discover ways to assess the spiritual health of your work among churches they are starting. https://zume.training/peer-mentoring-groups/"
-msgstr ""
+msgstr "يا رب، نصلي من أجل المؤمنين في [location_name] ليكتشفوا طرقًا ليقيِّموا الصحية الروحية لعملك بين الكنائس التي ينشؤونها."
 
 #: admin/starter-content.php:346
 msgid "\"For from the rising of the sun to its setting my name will be great among the [people_name] nations, and in every place incense will be offered to my name, and a pure offering. For my name will be great among the [people_name] nations, says the Lord of hosts.\" (Malachi 1:11)"
-msgstr ""
+msgstr "\"لأَنَّهُ مِنْ مَشْرِقِ الشَّمْسِ إِلَى مَغْرِبِهَا اسْمِي عَظِيمٌ بَيْنَ الأُمَمِ  [people_name] وَفِي كُلِّ مَكَانٍ يُقَرَّبُ لاِسْمِي بَخُورٌ وَتَقْدِمَةٌ طَاهِرَةٌ. لأَنَّ اسْمِي عَظِيمٌ بَيْنَ الأُمَمِ  [people_name] قَالَ رَبُّ الْجُنُودِ.\" (ملاخي 1: 11)"
 
 #: admin/starter-content.php:347
 msgid "\"I tell you I will not drink again of this fruit of the vine until that day when I drink it new with you in my Father’s kingdom.\" (Matthew 26:29) Even more strongly than fasting [people_name] today long for their thirst to be quenched and their bellies to be filled with extravagant food, may your Church’s anticipation be growing for the day when Jesus drinks again of the fruit of the vine that He secured through His death, burial, and resurrection. We pray that there will be many [people_name] from every people group around that table."
-msgstr ""
+msgstr "\"وَأَقُولُ لَكُمْ: إِنِّي مِنَ الآنَ لاَ أَشْرَبُ مِنْ نِتَاجِ الْكَرْمَةِ هَذَا إِلَى ذَلِكَ الْيَوْمِ حِينَمَا أَشْرَبُهُ مَعَكُمْ جَدِيداً فِي مَلَكُوتِ أَبِي».\" (متَّى 26: 29) حتى أقوى من الصيام، [people_name] اليوم يريدون أن يرووا عطشهم ويملأوا بكونهم بالطعام الفاخر، نصلي أن ينمو اشتياق الكنيسة لليوم الذي يشرب فيه يسوع مرة أخرى من نتاج الكرمة الذي صنعه بموته ودفنه وقيامته. نصلي أن يوجد الكثيرون من [people_name]، من كل شعب على تلك المائدة.\""
 
 #: admin/starter-content.php:348
 msgid "Thank you Lord for the example of the book of Acts, continue these stories and events in [location_name] today. We pray for unprecedented Kingdom advance this year in [location_name]!"
-msgstr ""
+msgstr "نشكرك يا رب على النموذج الذي في سفر الأعمال، اجعل هذه القصص والأحداث تستمر في [location_name] إلى هذا اليوم. نصلي من أجل امتداد غير مسبوق للملكوت في [location_name] هذا العام."
 
 #: admin/starter-content.php:349
 msgid "\"They went about in skins of sheep and goats, destitute, afflicted, mistreated— of whom the world was not worthy—wandering about in deserts and mountains, and in dens and caves of the earth.\" (Hebrews 11:37-38) Thank you for our many brothers and sisters in [location_name] -- of whom the world is not worthy. Protect them from the evil one and preserve their faith. May every persecution only strengthen their resolve and demonstrate the treasure of Christ."
-msgstr ""
+msgstr "\"طَافُوا فِي جُلُودِ غَنَمٍ وَجُلُودِ مِعْزَى، مُعْتَازِينَ مَكْرُوبِينَ مُذَلِّينَ، وَهُمْ لَمْ يَكُنِ الْعَالَمُ مُسْتَحِقّاً لَهُمْ. تَائِهِينَ فِي بَرَارِيَّ وَجِبَالٍ وَمَغَايِرَ وَشُقُوقِ الأَرْضِ.\" (العبرانيين 11: 37-38) نشكرك من إجل إخوتنا وأخواتنا في [location_name] الذين لم يكن العالم مستحقًا لهم. احمِهم من الشرير واحفظ إيمانهم. نصلي أن يكون كل اضطهاد سبب تقوية لعزيمتهم وإعلانًا عن كنز المسيح."
 
 #: admin/starter-content.php:350
 msgid "Father, we pray for believers in [location_name] to learn simple tools like Four Fields to reflect on the status of current efforts and kingdom activity around them. https://zume.training/four-fields-tool/"
-msgstr ""
+msgstr "يا أبانا، نصلي من أجل المؤمنين في [location_name] ليتعلموا أدوات بسيطة مثل المجالات الأربعة ليتأملوا في البرامج الحالية وأعمال الملكوت التي حولهم."
 
 #: admin/starter-content.php:354
 msgid "\"And this gospel of the kingdom will be proclaimed throughout the whole world as a testimony to all nations, and then the end will come.\" (Matthew 24:14) Until you return, may the passion of Your church, both within [location_name] and beyond be the proclamation of the gospel of Your Kingdom among all nations."
-msgstr ""
+msgstr "\"وَيُكْرَزُ بِبِشَارَةِ الْمَلَكُوتِ هَذِهِ فِي كُلِّ الْمَسْكُونَةِ شَهَادَةً لِجَمِيعِ الأُمَمِ. ثُمَّ يَأْتِي الْمُنْتَهَى.\" (متَّى 24: 14) حتى ترجع، فليكن شغف كنيستك، في [location_name] وخارجها، هو إعلان إنجيل ملكوتك بين كل الأمم."
 
 #: admin/starter-content.php:355
 msgid "\"Now the full number of those who believed were of one heart and soul...\" (Acts 4:32a) We praise You Lord for the ways believers in [location_name] care for one another. We pray for your Bride in this land to continue to grow in unity and love for one another."
-msgstr ""
+msgstr "\"وَكَانَ لِجُمْهُورِ الَّذِينَ آمَنُوا قَلْبٌ وَاحِدٌ وَنَفْسٌ وَاحِدَةٌ ...\" (الأعمال 4: 32) نحمدك يا رب على طرق اعتناء المؤمنين في [location_name] ببعضهم البعض. نصلي من أجل عروسك في هذه الأرض أن تستمر في النمو في الوحدة والحب بعضهم لبعض."
 
 #: admin/starter-content.php:356
 msgid "\"And all these, though commended through their faith, did not receive what was promised, since God had provided something better for us, that apart from us they should not be made perfect.\" (Hebrews 11:39-40) Thank You Lord for the beautiful tapestry of faith you are weaving through believers across the centuries. We pray for many [people_name] to be brought into this promise, even during this month of Ramadan. Amen!"
-msgstr ""
+msgstr "\"فَهَؤُلاَءِ كُلُّهُمْ، مَشْهُوداً لَهُمْ بِالإِيمَانِ، لَمْ يَنَالُوا الْمَوْعِدَ، إِذْ سَبَقَ اللهُ فَنَظَرَ لَنَا شَيْئاً أَفْضَلَ، لِكَيْ لاَ يُكْمَلُوا بِدُونِنَا.\" (العبرانيين 11: 39-40) نشكرك يا رب من أجل نسيج الإيمان الجميل الذي تنسجه من خلال المؤمنين عبر القرون. نصلي من أجل الكثير من [people_name] ليدخلوا في هذا الوعد، حتى في شهر رمضان. آمين!"
 
 #: admin/starter-content.php:357
 msgid "Father, we pray for believers in [location_name] to have and use tools like Generational Maps to understand the growth of their disciples and churches. https://zume.training/generational-mapping/"
-msgstr ""
+msgstr "يا أبانا، نصلي من أجل المؤمنين في [location_name] أن يحصلوا على أدوات مثل خرائط الأجيال ويستخدموها ليدركوا حجم نمو تلاميذهم وكنائسهم. https://zume.training/generational-mapping/"
 
 #: admin/starter-content.php:380
 msgid "PRAISE"
-msgstr ""
+msgstr "تسبيح"
 
 #: admin/starter-content.php:388
 msgid "KINGDOM COME"
-msgstr ""
+msgstr "ياتي الملكوت"
 
 #: admin/starter-content.php:396
 msgid "PRAY THE BOOK OF ACTS"
-msgstr ""
+msgstr "صلِّي سفر الأعمال"
 
 #: admin/starter-content.php:404
 msgid "PRAY THE HALL OF FAITH"
-msgstr ""
+msgstr "صلّي في عِلّيَّةِ الإيمان"
 
 #: admin/starter-content.php:412
 msgid "PRAYER"
-msgstr ""
+msgstr "صلاة"
 
 #: admin/starter-content.php:143
 msgid "\"For this I will praise you, O Lord, among the nations in [location_name], and sing to your name. (Psalm 18:49)"
-msgstr ""
+msgstr "\"لذلكَ أحمَدُكَ يا رَبُّ في الأُمَمِ ،[location_name] وأُرَنِّمُ لاسمِكَ.\". (مزمور 18: 49)\n"
+""
 
 #: site/archive-body.php:84
 msgid "Today's Prayer Fuel"
-msgstr ""
+msgstr "وقود اليوم الصلاة"
 
 #: site/archive-body.php:104
 msgid "All Days"
@@ -790,33 +792,33 @@ msgstr "اقرأ"
 
 #: admin/starter-content.php:214
 msgid "\"From the days of John the Baptist until now the kingdom of heaven has suffered violence, and the violent take it by force.\" (Matthew 11:12) Today as another day of fasting and feasting passes, we take comfort in knowing nothing can hinder your Kingdom advancing among the nations. We pray for many in [location_name] to actively participate in bringing Your Kingdom among the nations."
-msgstr ""
+msgstr "\"وَمِنْ أَيَّامِ يُوحَنَّا الْمَعْمَدَانِ إِلَى الآنَ مَلَكُوتُ السَّمَاوَاتِ يُغْصَبُ، وَالْغَاصِبُونَ يَخْتَطِفُونَهُ.\" (متَّى 11: 12) اليوم، ويوم أخر من الصوم والاحتفال يمضي، نتعزى بالفكر أنه لا يوجد شيء بإمكانه أن يعوق ملكوتك من الامتداد للأمم. نصلي من أجل الكثيرين في [location_name] ليشتركوا بنشاط في تقديم ملكوتك لشعوب (أوروبا)."
 
 #: admin/starter-content.php:229
 msgid "\"I have made you a light for the Gentiles, that you may bring salvation to the ends of the earth... and the word of the Lord was spreading throughout the whole region.\" (Acts 13:47,49) Thank you that [location_name] is a part of those ’ends of the earth’. We agree with Your word today Lord and pray that it would spread throughout the whole region of [location_name]."
-msgstr ""
+msgstr "\"قَدْ أَقَمْتُكَ نُورًا لِلأُمَمِ، لِتَكُونَ أَنْتَ خَلاَصًا إِلَى أَقْصَى الأَرْضِ». .... وَانْتَشَرَتْ كَلِمَةُ الرَّبِّ فِي كُلِّ الْكُورَةِ.\" (الأعمال 13: 47، 49) نشكرك أن [location_name] تنتمي إلى \"أقصى الأرض.\" نحن نتفق مع كلمتك اليوم يا رب ونصلي أن تنتشر في كل منطقة [location_name] و (أوروبا)."
 
 #: admin/starter-content.php:272
 msgid "\"By faith Moses, when he was grown up, refused to be called the son of Pharaoh’s daughter, choosing rather to be mistreated with the people of God than to enjoy the fleeting pleasures of sin.\" (Hebrews 11:24-25) Lord, give all believers in [location_name] an eternal perspective to find pleasure in You more than in the fleeting pleasures of sin. As they do, may it be a powerful testimony to onlooking family and friends."
-msgstr ""
+msgstr "\"بِالإِيمَانِ مُوسَى، بَعْدَمَا وُلِدَ، أَخْفَاهُ أَبَوَاهُ ثَلاَثَةَ أَشْهُرٍ، لأَنَّهُمَا رَأَيَا الصَّبِيَّ جَمِيلاً، وَلَمْ يَخْشَيَا أَمْرَ الْمَلِكِ.\" (العبرانيين 11: 23) نشكرك يا رب من أجل مثال أبوَيّ موسى. نصلي أن يخاف المؤمنون في [location_name] الله أكثر من أيّ شخص أو أيّ شيء."
 
 #: admin/starter-content.php:300
 msgid "\"By faith the people crossed the Red Sea as on dry land, but the Egyptians, when they attempted to do the same, were drowned.\" (Hebrews 11:29) We pray for God’s miraculous works recorded in the Bible to stir believers in [location_name] to live by faith in ever-increasing measure."
-msgstr ""
+msgstr "\"بِالإِيمَانِ اجْتَازُوا فِي الْبَحْرِ الأَحْمَرِ كَمَا فِي الْيَابِسَةِ، الأَمْرُ الَّذِي لَمَّا شَرَعَ فِيهِ الْمِصْرِيُّونَ غَرِقُوا.\" (العبرانيين 11: 29) نصلي أن تثير أعمال الله المعجزيّة الواردة في الكتاب المقدس المؤمنين في [location_name] أن يعيشوا بالإيمان بازدياد."
 
 #: admin/starter-content.php:321
 msgid "\"And what more shall I say? For time would fail me to tell of Gideon...\" (Hebrews 11:32-35a) Gideon allowed God to dwindle an army of more than 30,000 to 300 so that God would receive all of the glory for the victory. Raise up leaders like Gideon in [location_name], men and women who will have more confidence in God than in their resources."
-msgstr ""
+msgstr "\"وَمَاذَا أَقُولُ أَيْضاً؟ لأَنَّهُ يُعْوِزُنِي الْوَقْتُ إِنْ أَخْبَرْتُ عَنْ جِدْعُونَ، ...\" (العبرانيين 11: 32-35) سمح جدعون لله يقلص جيشًا من 30 ألف جنديّ إلى 300 حتى يأخذ الله وحده المجد في الانتصار. أقِمْ قادة مثل جدعون في [location_name]، رجالًا ونساء يكون لديهم ثقة بالله أكبر من مواردهم."
 
 #: admin/starter-content.php:328
 msgid "\"And what more shall I say? For time would fail me to tell of... Barak...\" (Hebrews 11:32-35a) Though Barak stumbled with fear, he still led 10,000 people to victory and freedom for the people of God. We pray for godly [people_name] leaders to be used by God, despite their weaknesses, to free others from the bondage of sin."
-msgstr ""
+msgstr "\"وَمَاذَا أَقُولُ أَيْضاً؟ لأَنَّهُ يُعْوِزُنِي الْوَقْتُ إِنْ أَخْبَرْتُ عَنْ ...  وَبَارَاقَ ...\" (العبرانيين 11: 32-35) رغم أنَّ باراق كان يعاني من الخوف، لكنه قاد 10 آلاف شخص للنصر وحرية شعب الله. نصلي من أجل قادة [people_name] أتقياء يستخدمهم الله، بالرغم من ضعفاتهم، حتى يحرروا آخرين من عبودية الخطية."
 
 #: admin/starter-content.php:335
 msgid "\"And what more shall I say? For time would fail me to tell of... David...\" (Hebrews 11:32-35a) Please raise up many like David in [location_name], men and women after God’s own heart. As they chase after God’s heart, may they lead many others into relationship with Him."
-msgstr ""
+msgstr "\"وَمَاذَا أَقُولُ أَيْضاً؟ لأَنَّهُ يُعْوِزُنِي الْوَقْتُ إِنْ أَخْبَرْتُ عَنْ ... ... داود! (العبرانيين 11: 32-35) نصلي أن تقيم الكثيرين مثل داود في [location_name]، رجالًا ونساء، بجسب قلبك.  وحين يسعون وراء قلب الله، نصلي أن يقودوا آخرين كثيرين للعلاقة معه."
 
 #: admin/starter-content.php:353
 msgid "“O Lord, God of our fathers, are you not God in heaven? You rule over all the kingdoms of the [people_name] nations. In your hand are power and might, so that none is able to withstand you. (2 Chronicles 20:6)"
-msgstr ""
+msgstr "\"يَا رَبُّ إِلهَ آبَائِنَا، أَمَا أَنْتَ هُوَ اللهُ فِي السَّمَاءِ، وَأَنْتَ الْمُتَسَلِّطُ عَلَى جَمِيعِ مَمَالِكِ الأُمَمِ [people_name]،  وَبِيَدِكَ قُوَّةٌ وَجَبَرُوتٌ وَلَيْسَ مَنْ يَقِفُ مَعَكَ؟\" (2 أخبار الأيام 20: 6)"
 
