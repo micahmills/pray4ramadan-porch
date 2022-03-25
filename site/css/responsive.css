@@ -61,6 +61,11 @@
   .counters .facts-item {
     margin-bottom: 30px;
   }
+  #hero-area .contents h1 {
+      font-size: 3em;
+      font-weight: 600;
+      word-break: break-word;
+  }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .bg-faded {
