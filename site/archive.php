@@ -38,6 +38,7 @@ class P4_Ramadan_Porch_Landing_Archive extends DT_Magic_Url_Base
         // load if valid url
         add_action( 'dt_blank_body', [ $this, 'body' ] ); // body for no post key
 
+        require_once( 'landing-enqueue.php' );
         require_once( 'enqueue.php' );
         add_filter( 'dt_magic_url_base_allowed_css', [ $this, 'dt_magic_url_base_allowed_css' ], 10, 1 );
         add_filter( 'dt_magic_url_base_allowed_js', [ $this, 'dt_magic_url_base_allowed_js' ], 10, 1 );
