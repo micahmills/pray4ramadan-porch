@@ -39,15 +39,52 @@ if ( isset( $this->parts['post_id'] ) && ! empty( $this->parts['post_id'] ) ) {
         $content = str_replace( ']]>', ']]&gt;', $content );
     }
 }
-
-$args = array(
+// query for getting posts in the selected language.
+$lang_query = [
+    [
+        'key'     => 'post_language',
+        'value'   => $lang,
+        'compare' => '=',
+    ]
+];
+if ( $lang === "en_US" ){
+    $lang_query[] = [
+        'key'     => 'post_language',
+        'compare' => 'NOT EXISTS',
+    ];
+    $lang_query["relation"] = "OR";
+}
+$list = new WP_Query( [
     'post_type' => PORCH_LANDING_POST_TYPE,
-    'post_status' => 'publish',
+    'post_status' => [ 'publish' ],
     'posts_per_page' => -1,
     'orderby' => 'post_date',
-    'order' => 'DESC'
-);
-$list = new WP_Query( $args );
+    'order' => 'DESC',
+    'meta_query' => $lang_query
+] );
+
+if ( empty( $list->posts ) ){
+    $args = array(
+        'post_type' => PORCH_LANDING_POST_TYPE,
+        'post_status' => [ 'publish' ],
+        'posts_per_page' => -1,
+        'orderby' => 'post_date',
+        'order' => 'DESC',
+        'meta_query' => [
+            'relation' => 'OR',
+            [
+                'key'     => 'post_language',
+                'value'   => 'en_US',
+                'compare' => '=',
+            ],
+            [
+                'key'     => 'post_language',
+                'compare' => 'NOT EXISTS',
+            ],
+        ]
+    );
+    $list = new WP_Query( $args );
+}
 ?>
 
 
@@ -58,7 +95,7 @@ $list = new WP_Query( $args );
             <div class="col-md-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">
                 <div class="fuel-block">
                     <div class="section-header">
-                        <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Prayer <span>Fuel</span></h2>
+                        <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Prayer Fuel', 'pray4ramadan-porch' ); ?></h2>
                         <hr class="lines wow zoomIn" data-wow-delay="0.3s">
                     </div>
                     <div class="">
@@ -77,7 +114,7 @@ $list = new WP_Query( $args );
     <!-- Container Starts -->
     <div class="container">
         <div class="section-header">
-            <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">All <span>Days</span></h2>
+            <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'All Days', 'pray4ramadan-porch' ); ?></h2>
             <hr class="lines wow zoomIn" data-wow-delay="0.3s">
             <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Use these resources to help pray specifically each day for the month of Ramadan.', 'pray4ramadan-porch' ); ?></p>
         </div>
@@ -97,12 +134,12 @@ $list = new WP_Query( $args );
                                 <a href="#"><?php echo esc_html( $item->post_title ) ?></a>
                             </h3>
                             <div class="meta-tags">
-                                <span class="date"><i class="lnr lnr-calendar-full"></i>on <?php echo esc_html( $item->post_date ) ?></span>
+                                <span class="date"><i class="lnr lnr-calendar-full"></i>on <?php echo esc_html( gmdate( 'Y-m-d', strtotime( $item->post_date ) ) )  ?></span>
                             </div>
                             <p>
                                 <?php echo wp_kses_post( $item->post_excerpt ) ?>
                             </p>
-                            <a href="/prayer/fuel/<?php echo esc_attr( $public_key ) ?>" class="btn btn-common btn-rm">Read</a>
+                            <a href="/prayer/fuel/<?php echo esc_attr( $public_key ) ?>" class="btn btn-common btn-rm"><?php esc_html_e( 'Read', 'pray4ramadan-porch' ); ?></a>
                         </div>
                     </div>
                     <!-- Blog Item Wrapper Ends-->
@@ -112,56 +149,6 @@ $list = new WP_Query( $args );
     </div>
 </section>
 <!-- blog Section End -->
-
-
-<!-- COUNTER ROW -->
-<div class="counters section" data-stellar-background-ratio="0.5" >
-    <div class="overlay"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="wow fadeInUp" data-wow-delay=".2s">
-                    <div class="facts-item">
-                        <div class="icon">
-                            <i class="lnr lnr-calendar-full"></i>
-                        </div>
-                        <div class="fact-count">
-                            <h3><span class="counter">30</span></h3>
-                            <h4>Days</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="wow fadeInUp" data-wow-delay=".6s">
-                    <div class="facts-item">
-                        <div class="icon">
-                            <i class="lnr lnr-user"></i>
-                        </div>
-                        <div class="fact-count">
-                            <h3>720</h3>
-                            <h4>Hours of Prayer</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="wow fadeInUp" data-wow-delay=".8s">
-                    <div class="facts-item">
-                        <div class="icon">
-                            <i class="lnr lnr-heart"></i>
-                        </div>
-                        <div class="fact-count">
-                            <h3>2880</h3>
-                            <h4>Prayer Commitments Needed</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Counter Section End -->
 
 
 <!-- Footer Section Start -->
