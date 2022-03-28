@@ -22,8 +22,19 @@ class P4_Ramadan_Porch_Landing_Menu {
             return;
         }
 
-        add_action( "admin_menu", array( $this, "register_menu" ) );
-        add_action( 'admin_enqueue_scripts', [ $this, 'scripts' ] );
+        if ( isset( $_POST['install_campaign_nonce'], $_POST["download_csv"], $_POST['selected_campaign'] )
+            && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['install_campaign_nonce'] ) ), 'install_campaign_nonce' )
+        ){
+            add_action( "init", function (){
+                $campaign_id = sanitize_text_field( wp_unslash( $_POST['selected_campaign'] ) ); //phpcs:ignore
+                $this->download_campaign_csv( $campaign_id );
+                exit;
+            });
+        } else {
+            add_action( "admin_menu", array( $this, "register_menu" ) );
+            add_action( 'admin_enqueue_scripts', [ $this, 'scripts' ] );
+        }
+
 
     } // End __construct()
 
@@ -93,6 +104,35 @@ class P4_Ramadan_Porch_Landing_Menu {
         </div><!-- End wrap -->
 
         <?php
+    }
+
+
+    public function download_campaign_csv( $campaign_id, $filename = "subscribers.csv", $delimiter = "," ){
+        $subscribers = DT_Posts::list_posts( "subscriptions", [ "campaigns" => [ $campaign_id ], "status" => [ "active" ] ], false );
+        if ( is_wp_error( $subscribers ) ){
+            return;
+        }
+        header( 'Content-Type: application/csv' );
+        header( 'Content-Disposition: attachment; filename="' . $filename . '";' );
+        $f = fopen( 'php://output', 'w' );
+
+        $array = [
+            [ "Name", "Email" ],
+        ];
+        foreach ( $subscribers["posts"] as $sub ){
+            $a = [
+                $sub['name'],
+            ];
+            if ( isset( $sub['contact_email'][0]["value"] ) ){
+                $a[] = $sub['contact_email'][0]["value"];
+            } else {
+                $a[] = '';
+            }
+            $array[] = $a;
+        }
+        foreach ( $array as $line ){
+            fputcsv( $f, $line, $delimiter );
+        }
     }
 }
 P4_Ramadan_Porch_Landing_Menu::instance();
@@ -194,14 +234,16 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                                 </tr>
                             <?php endif;
                         endforeach; ?>
-                    <?php endif; ?>
-                    <?php if ( isset( $fields['ID'] ) ) : ?>
-                    <tr>
-                        <td>Edit Campaign Details</td>
-                        <td>
-                            <a href="<?php echo esc_html( site_url() . "/campaigns/" . $fields['ID'] ); ?>" target="_blank">Edit Campaign</a>
-                        </td>
-                    </tr>
+                        <tr>
+                            <td>Edit Campaign Details</td>
+                            <td>
+                                <a href="<?php echo esc_html( site_url() . "/campaigns/" . $fields['ID'] ); ?>" target="_blank">Edit Campaign</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Export Campaign Subscribers</td>
+                            <td><button type="submit" name="download_csv">Download CSV</td>
+                        </tr>
                     <?php endif; ?>
                 </tbody>
             </table>
