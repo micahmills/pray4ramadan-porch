@@ -102,3 +102,27 @@ function dt_ramadan_set_translation( $lang ){
         load_plugin_textdomain( 'pray4ramadan-porch', false, trailingslashit( dirname( plugin_basename( __FILE__ ), 2 ) ). 'support/languages' );
     }
 }
+
+
+/**
+ * Add iFrame to allowed wp_kses_post tags
+ *
+ * @param array  $tags Allowed tags, attributes, and/or entities.
+ * @param string $context Context to judge allowed tags by. Allowed values are 'post'.
+ *
+ * @return array
+ */
+function custom_wpkses_post_tags( $tags, $context ){
+    if ( 'post' === $context ){
+        $tags['iframe'] = [
+            'src' => true,
+            'height' => true,
+            'width' => true,
+            'frameborder' => true,
+            'allowfullscreen' => true,
+        ];
+    }
+
+    return $tags;
+}
+add_filter( 'wp_kses_allowed_html', 'custom_wpkses_post_tags', 10, 2 );
