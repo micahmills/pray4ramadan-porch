@@ -103,6 +103,24 @@ function dt_ramadan_set_translation( $lang ){
     }
 }
 
+function ramadan_custom_dir_attr( $lang ){
+    if ( is_admin() ) {
+        return $lang;
+    }
+
+    $lang = dt_ramadan_get_current_lang();
+
+    $translations = dt_ramadan_list_languages();
+    $dir = "ltr";
+    if ( isset( $translations[$lang]["dir"] ) && $translations[$lang]['dir'] === 'rtl' ){
+        $dir = "rtl";
+    }
+
+    $dir_attr = 'dir="' . $dir . '"';
+
+    return 'lang="' . $lang .'" ' .$dir_attr;
+}
+
 
 /**
  * Add iFrame to allowed wp_kses_post tags

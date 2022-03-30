@@ -44,6 +44,11 @@ class P4_Ramadan_Porch_Landing extends DT_Magic_Url_Base
         add_filter( 'dt_magic_url_base_allowed_css', [ $this, 'dt_magic_url_base_allowed_css' ], 10, 1 );
         add_filter( 'dt_magic_url_base_allowed_js', [ $this, 'dt_magic_url_base_allowed_js' ], 10, 1 );
         add_action( 'wp_enqueue_scripts', [ $this, 'wp_enqueue_scripts' ], 99 );
+        add_filter( 'language_attributes', [ $this, 'dt_custom_dir_attr' ] );
+    }
+
+    public function dt_custom_dir_attr( $lang ){
+        return ramadan_custom_dir_attr( $lang );
     }
 
     public function dt_magic_url_base_allowed_js( $allowed_js ) {
