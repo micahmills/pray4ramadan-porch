@@ -4,98 +4,98 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: Ramadan Landing Page\n"
+"Project-Id-Version: P4M Ramadan Landing Page\n"
 "Language: fr\n"
 
-#: site/home-body.php:41
+#: site/home-body.php:38
 msgid "Our"
 msgstr "Notre"
 
-#: site/home-body.php:41
+#: site/home-body.php:38
 msgid "Vision"
 msgstr "Vision"
 
-#: site/home-body.php:64
+#: site/home-body.php:61
 msgid "Extraordinary Prayer"
 msgstr "Prière extraordinaire"
 
-#: site/home-body.php:65
+#: site/home-body.php:62
 msgid "Every disciple making movement in history has happened in the context of extraordinary prayer."
-msgstr "Chaque mouvement de formation de disciples dans l'histoire s'est produit dans le contexte d'une prière extraordinaire."
+msgstr "Chaque mouvement de formation de disciples dans l'histoire s'est produit dans le contexte de prière extraordinaire."
 
-#: site/home-body.php:73
+#: site/home-body.php:70
 msgid "Movement Focused"
-msgstr "Concentré sur le mouvement"
+msgstr "Concentré sur un mouvement"
 
-#: site/home-body.php:74
+#: site/home-body.php:71
 msgid "Join us in asking, seeking, and knocking for streams of disciples and churches to be made."
-msgstr "Rejoignez-nous pour demander, chercher et frapper pour que des flots de disciples et d'églises soient créés."
+msgstr "Rejoignez-nous pour demander, chercher et frapper afin que des flots de disciples et d'églises fassent leur entrée dans le royaume."
 
-#: site/home-body.php:82
+#: site/home-body.php:79
 msgid "24/7 for 30 Days"
-msgstr "24/7 pour 30 jours"
+msgstr "24/7 pendant 30 jours"
 
-#: site/home-body.php:83
+#: site/home-body.php:80
 msgid "Choose a 15-minute (or more!) time slot that you can pray during each day. Invite someone else to sign up too."
-msgstr "Choisissez un créneau horaire de 15 minutes (ou plus !) que vous pouvez prier chaque jour. Invitez quelqu'un d'autre à s'inscrire également."
+msgstr "Choisissez un créneau de 15 minutes (ou plus !) durant lequel vous pouvez prier chaque jour. Invitez quelqu'un d'autre à s'inscrire également."
 
-#: site/home-body.php:88 site/top-section.php:56
+#: site/home-body.php:85 site/top-section.php:74
 msgid "Sign Up to Pray"
 msgstr "Inscrivez-vous pour prier"
 
-#: site/home-body.php:180
+#: site/home-body.php:189
 msgid "Sign Up to"
 msgstr "Inscrivez-vous pour"
 
-#: site/home-body.php:180
+#: site/home-body.php:189
 msgid "Pray"
 msgstr "Prier"
 
-#: site/home-body.php:186
+#: site/home-body.php:195
 msgid "here"
 msgstr "ici"
 
-#: site/home-body.php:215
+#: site/home-body.php:224
 msgid "Days"
 msgstr "Jours"
 
-#: site/home-body.php:228
+#: site/home-body.php:237
 msgid "Hours of Prayer"
 msgstr "Heures de prière"
 
-#: site/home-body.php:241
+#: site/home-body.php:250
 msgid "Prayer Commitments Needed"
-msgstr "Engagements de prière nécessaires"
+msgstr "Engagements à prier requis"
 
-#: site/home-body.php:256
+#: site/home-body.php:265
 msgid "15-Minute"
-msgstr "15-Minute"
+msgstr "15 minutes de prières"
 
-#: site/home-body.php:256 site/top-section.php:18
+#: site/home-body.php:265 site/top-section.php:29
 msgid "Prayer Fuel"
-msgstr "Carburant de prière"
+msgstr "Guide de Prière"
 
-#: site/home-body.php:258
+#: site/home-body.php:267
 msgid "Use these resources to help pray specifically each day for the month of Ramadan"
-msgstr "Utilisez ces ressources pour vous aider à prier spécifiquement chaque jour pour le mois de Ramadan"
+msgstr "Utilisez ces ressources pour vous aider à prier spécifiquement chaque jour pendant le mois de ramadan"
 
-#: site/home-body.php:259
+#: site/home-body.php:268
 msgid "View All"
 msgstr "Tout voir"
 
-#: site/top-section.php:12
+#: site/top-section.php:23
 msgid "Home"
 msgstr "Acceuil"
 
-#: site/top-section.php:15
+#: site/top-section.php:26
 msgid "Sign Up"
 msgstr "S'inscrire"
 
-#: site/top-section.php:48
+#: site/top-section.php:66
 msgid "Strategic prayer for a disciple making movement in %s"
 msgstr "Prière stratégique pour un mouvement faisant des disciples à %s"
 
-#: site/top-section.php:50
+#: site/top-section.php:68
 msgid "Strategic prayer for a disciple making movement"
 msgstr "Prière stratégique pour un mouvement de formation de disciples"
 
@@ -119,47 +119,739 @@ msgstr "Ceci est ce plugin de microsite pour soutenir la campagne Ramadan 24/7"
 msgid "https://github.com/DiscipleTools"
 msgstr "https://github.com/DiscipleTools"
 
-#: pray4ramadan-porch.php:413
+#. should be 24/7
+#: pray4ramadan-porch.php:418
 msgid "We want to cover the country of %s with continuous 24/7 prayer during the entire 30 days of Ramadan."
-msgstr "Nous voulons couvrir le pays de %s avec une prière 25/7 continuel pendent les 30 jours du Ramadan."
+msgstr "Nous voulons couvrir le pays de %s avec des prières 24/7 pendant les 30 jours du ramadan."
 
-#: site/home-body.php:146
+#: site/home-body.php:155
 msgid "Ramadan is Finished"
 msgstr "Le ramadan est fini"
 
-#: site/home-body.php:159
+#: site/home-body.php:168
 msgid "Ramadan Ends ..."
 msgstr "La fin du ramadan..."
 
-#: site/home-body.php:160 site/home-body.php:167
+#: site/home-body.php:169 site/home-body.php:176
 msgid "days"
 msgstr "jours"
 
-#: site/home-body.php:161 site/home-body.php:168
+#: site/home-body.php:170 site/home-body.php:177
 msgid "hours"
 msgstr "heures"
 
-#: site/home-body.php:162 site/home-body.php:169
+#: site/home-body.php:171 site/home-body.php:178
 msgid "minutes"
 msgstr "minutes"
 
-#: site/home-body.php:163 site/home-body.php:170
+#: site/home-body.php:172 site/home-body.php:179
 msgid "seconds"
 msgstr "secondes"
 
-#: site/home-body.php:166
+#: site/home-body.php:175
 msgid "Ramadan Begins ..."
-msgstr "Le Ramadan commence..."
+msgstr "Le ramadan commence..."
 
-#: pray4ramadan-porch.php:403
+#. "sont doivent" is not French.  to translate "are supposed to" you would use Les musulmans "devraient"
+#: pray4ramadan-porch.php:407
 msgid "Ramadan is one of the five requirements (or pillars) of Islam. During each of its 30 days, Muslims are obligated to fast from dawn until sunset. During this time they are supposed to abstain from food, drinking liquids, smoking, and sexual relations.\n"
 "\n"
 " In %1$s, women typically spend the afternoons preparing a big meal. At sunset, families often gather to break the fast. Traditionally the families break the fast with a drink of water, then three dried date fruits, and a multi-course meal. After watching the new Ramadan TV series, men (and some women) go out to coffee shops where they drink coffee, and smoke with friends until late into the night.\n"
 "\n"
 " Though many %2$s have stopped fasting in recent years, and lots of %2$s are turned off by the hypocrisy, increased crime rates, and rudeness that is pervasive through the month, lots of %2$s become more serious about religion during this time. Many attend the evening prayer services and do the other ritual prayers. Some even read the entire Quran (about a tenth the length of the Bible). This sincere seeking makes it a strategic time for us to pray for them."
-msgstr "Le ramadan est l'une des cinq exigences (ou piliers) de l'islam. Pendant chacun de ses 30 jours, les musulmans sont obligés de jeûner de l'aube au coucher du soleil. Pendant cette période, ils sont doivent s'abstenir de manger, de boire des liquides, de fumer et d'avoir des relations sexuelles.\n"
+msgstr "Le ramadan est l'une des cinq exigences (ou piliers) de l'islam. Pendant chacun de ses 30 jours, les musulmans sont obligés de jeûner de l'aube jusqu'au coucher du soleil. Pendant cette période, ils doivent s'abstenir de manger, de boire des liquides, de fumer et d'avoir des relations sexuelles.\n"
 "\n"
-"Dans %1$s, les femmes passent l'après-midi à préparer un gros repas. Au coucher du soleil, les familles se rassemblent souvent pour rompre le jeûne. Traditionnellement, les familles rompent le jeûne avec un verre d'eau, puis trois dattes séchées et un repas composé de plusieurs plats. Après avoir regardé la nouvelle série télévisée Ramadan, les hommes (et parfois les femmes) sortent dans des cafés où ils boivent du café et fument avec des amis jusque tard dans la nuit.\n"
+"Dans %1$s, les femmes passent l'après-midi à préparer un gros repas. Au coucher du soleil, les familles se rassemblent souvent pour rompre le jeûne. Traditionnellement, les familles rompent le jeûne avec un verre d'eau, puis trois dattes séchées et un repas composé de plusieurs plats. Après avoir regardé la nouvelle série télévisée du ramadan, les hommes (et parfois les femmes) sortent dans des cafés où ils boivent du café et fument avec des amis jusqu'à tard dans la nuit.\n"
 "\n"
-"Bien que de nombreux %2$s aient cessé de jeûner ces dernières années, et que beaucoup de %2$s soient découragés par l'hypocrisie, l'augmentation du taux de criminalité et l'impolitesse omniprésente tout au long du mois, beaucoup de %2$s pratiquent leur religiou plus sérieusement pendant le ramadan. Beaucoup assistent aux services de prière du soir et font les autres prières rituelles. Certains lisent même le Coran en entier (environ un dixième de la longueur de la Bible). Cette recherche sincère nous offre un temps stratégique pour prier pour eux."
+"Bien que de nombreux %2$s aient cessé de jeûner ces dernières années, et que beaucoup de %2$s soient découragés par l'hypocrisie, l'augmentation du taux de criminalité et l'impolitesse omniprésente tout au long du mois, beaucoup de %2$s pratiquent leur religion plus sérieusement pendant le ramadan. Beaucoup assistent aux services de prière du soir et font les autres rituels de prière. Certains lisent même le Coran en entier (environ un dixième de la longueur de la Bible). Cette recherche sincère nous offre un temps stratégique de prière pour eux."
+
+#: admin/campaigns-config.php:52
+msgid "Click here to see the prayer prompts for today: %s"
+msgstr "Cliquez ici pour voir le guide de prière d'aujourd'hui: %s"
+
+#: admin/starter-content.php:144
+msgid "\"And this gospel of the kingdom will be proclaimed throughout the whole world as a testimony to all nations, and then the end will come.\" (Matthew 24:14) With faith and confidence, we pray for the Gospel of the Kingdom to spread throughout the nation of [location_name]. We know it is not a question of ’if’, but a question of ’when’. Please Lord, let it happen in our generation."
+msgstr "« Cette bonne nouvelle du royaume sera proclamée dans le monde entier pour servir de témoignage à toutes les nations. Alors viendra la fin. » (Matthieu 24.14)\n"
+"Avec foi et confiance, nous prions pour que la bonne nouvelle du royaume soit répandu au travers de la nation de la [location_name]. Nous savons que ce n'est pas une question de « si », mais une question de « quand ». Seigneur, que cela arrive dans notre génération."
+
+#: admin/starter-content.php:145
+msgid "\"All these with one accord were devoting themselves to prayer...\" (Acts 1:14) Father, in this time of social distancing we thank you for the virtual prayer groups you are raising up among [people_name] believers and we pray the same abiding that happened among the early disciples would likewise result in bold proclamation and many turning to faith in Jesus in [location_name]."
+msgstr "« Tous d'un commun accord persévéraient dans la prière, avec les femmes, et Marie, mère de Jésus, et avec les frères de Jésus. » (Actes 1.14) Père, en ce temps de distanciation sociale, nous te remercions pour tous les groupes de prière virtuelles que tu élèves parmi les croyants [people_name]. Nous prions que cette même persévérance qu'avaient les disciples au tout début produise une courageuse proclamation et beaucoup de conversions à Jésus en [location_name]."
+
+#: admin/starter-content.php:146
+msgid "\"Now faith is the assurance of things hoped for, the conviction of things not seen. For by it the people of old received their commendation.\" (Hebrews 11:1-2) Give every believer in [location_name] courage to live by faith instead of by sight."
+msgstr "« Or la foi est une ferme assurance des choses qu'on espère, une démonstration de celles qu'on ne voit pas. Pour l'avoir possédée, les anciens ont obtenu un témoignage favorable. » (Hébreux 11.1-2) Donne à chaque croyant en [location_name] le courage de vivre par la foi et non par la vue."
+
+#: admin/starter-content.php:147
+msgid "Lord, help the people of [location_name] to discover the essence of being a disciple, making disciple, and what the church is. https://zume.training/definition-of-disciple-and-church/"
+msgstr "Seigneur, aide le peuple de [location_name] à découvrir ce qu'est l'essentiel dans le fait d'être un disciple, faire des disciples et aussi ce qu'est l'église. https://zume.training/definition-of-disciple-and-church-fr"
+
+#. Why is it written (People_name) nationSSS plural?
+#: admin/starter-content.php:150 admin/starter-content.php:332
+msgid "\"All the ends of the earth shall remember and turn to the Lord, and all the families of the [people_name] nations shall worship before you.\" (Psalm 22:27)"
+msgstr "« Toutes les extrémités de la terre penseront à l'Éternel et se tourneront vers lui ; Toutes les familles des nations [people_plural_feminine] se prosterneront devant ta face. » (Psaume 22.27)"
+
+#: admin/starter-content.php:151
+msgid "\"Repent, for the kingdom of heaven is at hand.\" (Matthew 3:2) Pray for [people_name] throughout the country to experience true repentance as they see the holy standard of a Righteous King and their inability to ever measure up."
+msgstr "\"Repentez-vous, car le royaume des cieux est proche.\" (Matthieu 3:2) \n"
+"Prions pour [people_name] que le pays expérimente une repentance totale et sincère quand ils voient le standard saint du Juste Roi qu’ils n’auront jamais la capacité de s’y mesurer."
+
+#: admin/starter-content.php:152
+msgid "\"And they were selling their possessions and belongings and distributing the proceeds to all, as any had need... and the Lord added to their number day by day those who were being saved.\" (Acts 2:42-47). As believers in [location_name] seek to be living out these verses, would you, Lord, please add daily those who are being saved."
+msgstr "\"Et ils vendaient leurs propriétés et leurs biens, ils en partageaient le produit entre tous, selon les besoins de chacun… Et le Seigneur ajoutait chaque jour a l'Église ceux qui étaient sauvés.\" (Acts 2:42-47). En tant que croyants en [location_name] cherchant à vivre selon ces versets, nous te supplions Seigneur d’ajouter tous les jours ceux qui sont sauvés.\n"
+""
+
+#. suggest removing underlined words:  Meditarranean, Sahara etc in.
+#: admin/starter-content.php:153
+msgid "\"By faith we understand that the universe was created by the word of God, so that what is seen was not made out of things that are visible.\" (Hebrews 11:3) As [people_name] encounter the beauty of your creation through Mediterranean beaches, Saharan desert dunes, and luscious green hills may they be drawn to the Word through whom You created the world."
+msgstr "\"C'est par la foi que nous reconnaissons que le monde a été formé par la parole de Dieu, en sorte que ce qu'on voit n'a pas été fait de choses visibles.\" (Hébreux 11:3) Pendant que [people_name] voient la beauté de ta création à travers les plages de la méditerrannée, les dunes du sahara et les montagnes recouverts de verdures, qu'ils soient attirés à ta Parole par laquelle tu les a créés.\n"
+""
+
+#: admin/starter-content.php:154
+msgid "God, please help the people of [location_name] to be disciples who hear from you and then obey you. https://zume.training/spiritual-breathing-is-hearing-and-obeying-god/"
+msgstr "Seigneur, s’il te plait, aide le people de [location_name] à être des disciples qui t’entendent et t’obéissent. https://zume.training/spiritual-breathing-is-hearing-and-obeying-god-fr"
+
+#: admin/starter-content.php:157
+msgid "For kingship belongs to the Lord, and he rules over the [people_name] nations. (Psalm 22:28)"
+msgstr "\"Car à l'Éternel appartient le règne: Il domine sur [people_name] les nations\" (Psaume 22:28)"
+
+#: admin/starter-content.php:158
+msgid "\"And he went throughout all Galilee, teaching in their synagogues and proclaiming the gospel of the kingdom and healing every disease and every affliction among the people.\" (Matthew 4:23) Pray for the proclamation of the Gospel to be accompanied by miracles and signs and wonders throughout [location_name]."
+msgstr "\"Jésus parcourait toute la Galilée, enseignant dans les synagogues, prêchant la bonne nouvelle du royaume, et guérissant toute maladie et toute infirmité parmi le peuple.\" (Matthieu 4:23) Prions pour que la proclamation de l’évangile soit accompagnée par des miracles, des signes et des prodiges partout dans [location_name]."
+
+#: admin/starter-content.php:159
+msgid "\"And in your offspring shall all the families of the earth be blessed.\" (Acts 3:25b) Lord, please fulfill your promise to Abraham among the many [people_name] families spread from the north to the south."
+msgstr "\"Toutes les familles de la terre seront bénies en ta postérité.\" (Actes 3:25b) Seigneur, nous te supplions d’accomplir ta promesse à Abraham parmi les nombreuses familles [people_plural_feminine] du nord au sud."
+
+#: admin/starter-content.php:160
+msgid "\"By faith Abel offered to God a more acceptable sacrifice than Cain, through which he was commended as righteous...\" (Hebrews 11:4a) Convict [people_name] this Ramadan, Lord, that we can only be made right before you on your terms through faith, not ours."
+msgstr "\"C'est par la foi qu'Abel offrit à Dieu un sacrifice plus excellent que celui de Caïn; c'est par elle qu'il fut déclaré juste...\" (Hébreux 11:4a).  Seigneur, convaincs [people_name] durant ce Ramadan que nous pouvons être justifiés à tes yeux seulement par le standard de la foi et non par nos œuvres."
+
+#: admin/starter-content.php:161
+msgid "Father, we pray that the people of [location_name] will learn to study the Bible, understand it, obey it, and share it. https://zume.training/soaps-bible-reading/"
+msgstr "Père, nous prions que le people de [location_name] apprenne à étudier la Bible, à la comprendre, à obéir et à la partager. https://zume.training/soaps-bible-reading-fr"
+
+#: admin/starter-content.php:164
+msgid "\"I will cause your name to be remembered in all generations; therefore nations (including [location_name]) will praise you forever and ever.\" (Psalm 45:17)"
+msgstr "\"Je rappellerai ton nom dans tous les âges: aussi les peuples te loueront éternellement et à jamais.\" (Psaume 45:17)"
+
+#: admin/starter-content.php:165
+msgid "\"Blessed are the poor in spirit, for theirs is the kingdom of heaven.\" (Matthew 5:3) May the [people_name] church joyfully demonstrate the blessing that comes from being poor in spirit. Pray for them to experience fuller measures of the Kingdom through their poverty of spirit.\""
+msgstr "\"Heureux les pauvres en esprit, car le royaume des cieux est à eux!\" (Matthieu 5:3)  Que l’église [people_plural_feminine] démontre avec joie la bénédiction qui vient de la pauvreté spirituelle. Prions qu'ils expérimentent pleinement toutes les mesures du royaume par leur pauvreté en esprit."
+
+#. The reference is actually acts 4:29-30
+#: admin/starter-content.php:166
+msgid "\"And now, Lord, look upon their threats and grant to your servants to continue to speak your word with all boldness, while you stretch out your hand to heal, and signs and wonders are performed through the name of your holy servant Jesus.\" (Acts 4:30-31) Do it, Lord, please!"
+msgstr "\"Et maintenant, Seigneur, vois leurs menaces, et donne à tes serviteurs d'annoncer ta parole avec une pleine assurance, en étendant ta main, pour qu'il se fasse des guérisons, des miracles et des prodiges, par le nom de ton saint serviteur Jésus.\" (Actes 4:29-30) Fais-le Seigneur, nous te supplions!"
+
+#: admin/starter-content.php:167
+msgid "\"...Now before he (Enoch) was taken he was commended as having pleased God.\" (Hebrews 11:5b) May believers in [location_name], through faith, seek commendation from You more than man. May they live their lives in pursuit of Your approval alone."
+msgstr "\"... avant son enlèvement, (Énoch) avait reçu le témoignage qu'il était agréable à Dieu.\" (Hébreux 11:5b). Que les croyants en [location_name] par la foi, cherchent la direction de Dieu plus que celle des hommes. Qu’ils vivent leur vie en poursuivant seulement ton approbation."
+
+#: admin/starter-content.php:168
+msgid "God, we pray both the men and women of [location_name] will find ways to meet in groups of two or three to encourage and correct one another. https://zume.training/accountability-groups/"
+msgstr "O Dieu, nous prions pour les hommes et les femmes de [location_name] de se retrouver dans des groupes [location_name] de deux ou de trois afin de s’encourager mutuellement. https://zume.training/accountability-groups-fr\n"
+""
+
+#: admin/starter-content.php:171
+msgid "“Be still, and know that I am God. I will be exalted among the [people_name] nations, I will be exalted in the earth!\" (Psalm 46:10)"
+msgstr "\"Arrêtez, et sachez que je suis Dieu: Je domine sur [people_name], je domine sur la terre.\" (Psaume 46:10)"
+
+#: admin/starter-content.php:172
+msgid "\"Blessed are those who are persecuted for righteousness sake, for theirs is the kingdom of heaven.\" (Matthew 5:10) Father, we intercede on behalf of every [people_name] brother and sister undergoing persecution for the sake of righteousness. Bless them with greater intimacy with You and give them perseverance in suffering."
+msgstr "\"Heureux ceux qui sont persécutés pour la justice, car le royaume des cieux est à eux!\" (Matthieu 5:10) Père, nous intercédons en faveur de tous les frères et soeurs [people_plural_masculine] persécutés à cause de la justice. Bénis-les avec une profonde intimité avec toi et donne-leur la persévérance dans la souffrance.\n"
+""
+
+#. Reference is acts 5:42
+#: admin/starter-content.php:173
+msgid "\"And every day, in the temple and from house to house, they did not cease teaching and preaching that the Christ is Jesus.\" (Acts 5:41) May believers in [location_name] saturate the country with the truth that Jesus is the Christ -- loaded with all the richness of that title from Scripture. May every home have an opportunity to hear this truth."
+msgstr "\"Et chaque jour, dans le temple et dans les maisons, ils ne cessaient d'enseigner, et d'annoncer la bonne nouvelle de Jésus Christ.\" (Actes 5:42). Que les croyants en [location_name] saturent le pays avec cette vérité que Jésus est le Christ—ce titre étant rempli de toute richesse dans les Ecritures. Que tous les foyers aient l’opportunité d’entendre cette vérité.\n"
+"\n"
+""
+
+#: admin/starter-content.php:174
+msgid "\"And without faith it is impossible to please him, for whoever would draw near to God must believe that he exists and that he rewards those who seek him.\" (Hebrews 11:6) Lord, please cause multitudes of [people_name] to seek You and experience the greatest reward -- Yourself!"
+msgstr "\"Or sans la foi il est impossible de lui être agréable; car il faut que celui qui s'approche de Dieu croie que Dieu existe, et qu'il est le rémunérateur de ceux qui le cherchent.\" (Hébreux 11:6) Seigneur, nous te supplions, dirige des multitudes de [people_name] à te chercher et à experimenter la meilleure récompense --Toi-même ! "
+
+#: admin/starter-content.php:175
+msgid "Lord, we pray for believers in [location_name] who will discover the ways you make us more like Jesus. https://zume.training/consumer-vs-producer-lifestyle/"
+msgstr "Seigneur, nous prions pour que les croyants en [location_name] découvrent  comment tu nous rends davantage semblable à Jesus. https://zume.training/consumer-vs-producer-lifestyle-fr"
+
+#: admin/starter-content.php:178
+msgid "\"God reigns over the [people_name] nations; God sits on his holy throne.\" (Psalm 47:8)"
+msgstr "\"Dieu règne sur les nations, Dieu a pour siège son saint trône.\" Psaume 47:8)"
+
+#: admin/starter-content.php:179
+msgid "\"For I tell you, unless your righteousness exceeds that of the scribes and Pharisees, you will never enter the kingdom of heaven.\" (Matthew 5:20) Many think that Christians have an easier ’religion’ because of misunderstanding the Gospel of grace through Christ Jesus. We pray for every believer in [location_name]’s holiness to shine forth and for many to be drawn to Jesus through the authentic witness of Christ in His disciples.\""
+msgstr "\"Car, je vous le dis, si votre justice ne surpasse celle des scribes et des pharisiens, vous n'entrerez point dans le royaume des cieux.\" (Matthieu 5:20). Beaucoup pensent que les chrétiens ont une religion facile à cause de la mauvaise compréhension de l’évangile de grâce par Jésus Christ. Nous prions pour tous les croyants en [location_name] que leur sainteté brille et touche beaucoup à venir à Christ au travers des témoignages authentiques dans la vie de ses disciples.\n"
+""
+
+#: admin/starter-content.php:180
+msgid "\"And the word of God continued to increase, and the number of the disciples multiplied greatly in Jerusalem, and a great many of the priests became obedient to the faith.\" (Acts 6:7) Through prayer, ministry of the Word, service, care for the widows, and faith multiply the number of disciples in [location_name], Lord."
+msgstr "\"La parole de Dieu se répandait de plus en plus, le nombre des disciples augmentait beaucoup à Jérusalem, et une grande foule de sacrificateurs obéissaient à la foi.\" (Actes 6:7) Par la prière, le ministère de la parole, le service, le soin des veuves, et la foi, Seigneur multiplie le nombre des disciples en [location_name]."
+
+#: admin/starter-content.php:181
+msgid "\"By faith Noah, being warned by God concerning events as yet unseen, in reverent fear constructed an ark for the saving of his household...\" (Hebrews 11:7a) We pray for many heads of household, who like Noah, would take outrageous risks for the sake of saving their families."
+msgstr "'C'est par la foi que Noé, divinement averti des choses qu'on ne voyait pas encore, et saisi d'une crainte respectueuse, construisit une arche pour sauver sa famille...\" (Hébreux 11:7a) Nous prions que beaucoup de chefs de famille, tout comme Noé, prennent de grands risques pour sauver leurs familles.\n"
+""
+
+#: admin/starter-content.php:182
+msgid "God, we pray for believers in [location_name] who will know how easy it is to spend an hour in prayer with you, and will do it. https://zume.training/how-to-spend-an-hour-in-prayer/"
+msgstr "Seigneur, nous prions pour les croyants en [location_name] pour qu’il sachent combien il est facile de passer une heure avec toi, et qu’ils le fasse. https://zume.training/how-to-spend-an-hour-in-prayer-fr\n"
+""
+
+#: admin/starter-content.php:185
+msgid "\"I will give thanks to you, O Lord, among the ([people_name]) peoples; I will sing praises to you among the nations.\" (Psalm 57:9)"
+msgstr "\"Je te louerai parmi les peuples [people_plural_masculine], Seigneur! Je te chanterai parmi les nations.\" (Psaume 57:9)"
+
+#: admin/starter-content.php:186
+msgid "\"Your kingdom come, your will be done, on earth as it is in heaven.\" (Matthew 6:10) Your ways are not our ways. Your Kingdom is unlike every earthly kingdom. We pray for your heavenly Kingdom to come in every home, neighborhood, city, and region throughout this land.\""
+msgstr "\"...que ton règne vienne; que ta volonté soit faite sur la terre comme au ciel.\" (Matthieu 6:10) Tes voies ne sont pas nos voies. Ton royaume n’est pas comme les royaumes terrestres. Nous prions que ton royaume céleste vienne dans tous les foyers, les voisinages, les villes, et dans toute la région de ce pays.\n"
+""
+
+#: admin/starter-content.php:187
+msgid "\"But he, full of the Holy Spirit gazed into heaven and saw the glory of God, and Jesus standing at the right hand of God...\" (Acts 7:56) Father, we pray for many Stephen-like believers in [location_name] -- men and women of good repute, full of the Spirit and of wisdom, and servants. May they be ready to do whatever you call them to at whatever cost because they are so gripped by Your glory."
+msgstr "\"Mais Étienne, rempli du Saint Esprit, et fixant les regards vers le ciel, vit la gloire de Dieu et Jésus debout à la droite de Dieu.\" (Actes 7:56) Père, nous prions pour beaucoup de croyants (comme Etienne) en [location_name]--des hommes et des femmes qui ont bonne réputation, remplis du Saint Esprit et de sagesse, et serviteurs. Qu’ils soient prêts à faire tout ce que tu les appelles à faire peu importe le prix à payer parce qu’ils sont saisis par ta gloire."
+
+#: admin/starter-content.php:188
+msgid "\"By faith Abraham obeyed when he was called to go out to a place that he was to receive as an inheritance. And he went out, not knowing where he was going.\" (Hebrews 11:8) May both seekers and believers in [location_name] be willing to start on a journey of obedience to You despite not knowing how it may turn out in this life."
+msgstr "\"C'est par la foi qu'Abraham, lors de sa vocation, obéit et partit pour un lieu qu'il devait recevoir en héritage, et qu'il partit sans savoir où il allait.\" (Hébreux 11:8) Que ceux qui cherchent et tous les croyants en [location_name] aient le désir de commencer un parcours d’obéissance à toi malgré qu’ils ne savent pas comment les choses peuvent tourner dans leurs vies.\n"
+""
+
+#: admin/starter-content.php:189
+msgid "Father, we pray for believers in [location_name] to be good stewards of their relationships. https://zume.training/relational-stewardship-list-of-100/"
+msgstr "Père, nous prions pour les croyants en [location_name] d’être de bons gérants des relations que tu leur as données.  https://zume.training/relational-stewardship-list-of-100-fr"
+
+#: admin/starter-content.php:192
+msgid "\"May God be gracious to us and bless us and make his face to shine upon us, that your way may be known on earth, your saving power among all [people_name] nations.\" (Psalm 67:2)"
+msgstr "\"Que Dieu nous accorde sa grâce et qu'il nous bénisse, qu'il fasse briller sur nous sa face afin que l'on connaisse ta voie sur la terre, ton salut parmi toutes les nations [people_plural_feminine!\" (Psaume 62:2-3 NBS)"
+
+#: admin/starter-content.php:193
+msgid "\"But seek first the kingdom of God and his righteousness, and all these things will be added to you.\" (Matthew 6:33) We pray that Your Kingdom would be our first priority. May Your Kingdom values and purposes be the primary focus of every Christian in [location_name]."
+msgstr "\"Cherchez premièrement le royaume et la justice de Dieu; et toutes ces choses vous seront données par-dessus.\" (Matthieu 6:33) Nous prions que ton royaume soit notre première priorité. Que les valeurs et les buts de ton royaume soient l’attention première de tous les chrétiens en [location_name].\n"
+""
+
+#: admin/starter-content.php:194
+msgid "\"But when they believed Philip as he preached good news about the kingdom of God and the name of Jesus Christ, they were baptized, both men and women.\" (Acts 8:12). Empower believers in [location_name] to preach the good news of the Kingdom and prepare multitudes of men and women to respond and be baptized."
+msgstr "\"Mais, quand ils eurent cru à Philippe, qui leur annonçait la bonne nouvelle du royaume de Dieu et du nom de Jésus Christ, hommes et femmes se firent baptiser.\" (Actes 8:12) Seigneur, équipe les croyants en [location_name] pour  prêcher la bonne nouvelle du royaume et prépare des multitudes d’hommes et de femmes pour répondre et être baptisés."
+
+#: admin/starter-content.php:195
+msgid "\"By faith he went to live in the land of promise as in a foreign land, living in tents with Isaac and Jacob, heirs with him of the same promise. For he was looking forward to the city that has foundations, whose designer and builder is God.\" (Hebrews 11:9-10) May [people_name] believers embrace their heavenly citizenship and being confirmed into heaven’s customs, language, priorities, and values in ever-increasing measures."
+msgstr "\"C'est par la foi qu'il vint s'établir dans la terre promise comme dans une terre étrangère, habitant sous des tentes, ainsi qu'Isaac et Jacob, les cohéritiers de la même promesse. Car il attendait la cité qui a de solides fondements, celle dont Dieu est l'architecte et le constructeur.\" (Hébreux 11:9-10) Que les croyants [people_plural_masculine] embrassent leur citoyenneté céleste et étant transformés dans les coutumes célestes, le language, les priorités, et les valeurs à outre mesure."
+
+#: admin/starter-content.php:196
+msgid "God, we pray for believers in [location_name] to be generous that you would desire to invest more into them. https://zume.training/the-kingdom-economy/"
+msgstr "O Dieu, nous prions pour tous les croyants en [location_name] d’être généreux et afin que tu investisses plus en eux. https://zume.training/the-kingdom-economy-fr"
+
+#: admin/starter-content.php:199
+msgid "\"Let the [people_name] nations be glad and sing for joy, for you judge the peoples with equity and guide the nations upon earth\" (Psalm 67:4)"
+msgstr "\"Les nations [people_plural_feminine] se réjouissent et sont dans l'allégresse; car tu juges les peuples avec droiture, et tu conduis les nations sur la terre.\" (Psaume 67:4)"
+
+#: admin/starter-content.php:200
+msgid "\"Not everyone who says to me, ’Lord, Lord,’ will enter the kingdom of heaven, but the one who does the will of my Father who is in heaven.\" (Matthew 7:21) Many God-fearing [people_name] seek to obey what they’ve been taught about Him by fasting during Ramadan. Father we pray that they would have an encounter with You, their true Heavenly Father during these thirty days and enter into Your family through Christ, our older brother."
+msgstr "\"Ceux qui me disent: Seigneur, Seigneur! n'entreront pas tous dans le royaume des cieux, mais celui-là seul qui fait la volonté de mon Père qui est dans les cieux.\" (Matthieu 7:21) Beaucoup de [people_name] craignent Dieu en cherchant l’obéissance par ce qu’on leur a enseigné à propos du jeûne durant le Ramadan. Père, nous prions qu’ils aient une rencontre avec toi, leur vrai Père céleste durant ces trente jours et qu’ils entrent dans ta famille par Jésus Christ.\n"
+""
+
+#: admin/starter-content.php:201
+msgid "\"So Ananias departed and entered the house. And laying his hands on him he said, ’Brother Saul, the Lord Jesus who appeared to you on the road by which you came has sent me so that you may regain your sight and be filled with the Holy Spirit.’\" (Acts 9:17) Lord, we ask for many Saul-like hearts in [location_name] to be brought to repentance and faith in You. We pray for many Ananias-like believers to openly receive those who were staunchly opposed to the Gospel into fellowship."
+msgstr "\"Ananias sortit; et, lorsqu'il fut arrivé dans la maison, il imposa les mains à Saul, en disant: Saul, mon frère, le Seigneur Jésus, qui t'est apparu sur le chemin par lequel tu venais, m'a envoyé pour que tu recouvres la vue et que tu sois rempli du Saint Esprit.\" (Actes 9:17) Seigneur, nous demandons beaucoup de personnes ayant le même coeur que Saul en [location_name] d’être amenés à la repentance et qu’ils croient en toi. Nous prions pour beaucoup de croyants comme Ananias afin de recevoir ceux qui étaient farouchement opposés à l’évangile."
+
+#: admin/starter-content.php:202
+msgid "\"By faith Sarah herself received power to conceive, even when she was past the age, since she considered him faithful who had promised.\" (Hebrews 11:11) Please give every believer in [location_name] spiritual children no matter how long they have in the faith. Let each one trust Your faithfulness that You will give them spiritual children as they obey You."
+msgstr "\"C'est par la foi que Sara elle-même, malgré son âge avancé, fut rendue capable d'avoir une postérité, parce qu'elle crut à la fidélité de celui qui avait fait la promesse.\" (Hébreux 11:11). Seigneur, nous te supplions, donne à tous les croyants en [location_name] des enfants spirituels peu importe leur âge dans la foi. Que chacun d’entre eux te fassent confiance que tu leur donnes des enfants spirituels puisqu’ils t'obéissent.\n"
+""
+
+#: admin/starter-content.php:203
+msgid "Lord, we pray for believers in [location_name] who will not only understand the Gospel, but know how to share it. https://zume.training/the-gospel-and-how-to-share-it/"
+msgstr "Seigneur, nous prions pour que tous les croyants en [location_name] non seulement comprennent l’évangile mais qu'ils sachent comment le partager. https://zume.training/the-gospel-and-how-to-share-it-fr\n"
+""
+
+#: admin/starter-content.php:206
+msgid "\"May all kings fall down before him, all [people_name] nations serve him!\" (Psalm 72:11)"
+msgstr "\"Tous les rois se prosterneront devant lui, Toutes les nations le serviront.\" (Psaumes 72:11)"
+
+#: admin/starter-content.php:207
+msgid "\"I tell you, many will come from east and west and recline at table with Abraham, Isaac, and Jacob in the kingdom of heaven\" (Matthew 8:11) We praise you Lord because you’ve called all nations to your table. We pray that many from the east, west, north, and south corners of [location_name] would join your Kingdom this month."
+msgstr "\"Or, je vous déclare que plusieurs viendront de l'orient et de l'occident, et seront à table avec Abraham, Isaac et Jacob, dans le royaume des cieux.\" (Matthieu 8:11)  Nous te louons Seigneur de ce que tu as appelé toutes les nations à ta table. Nous prions que beaucoup vienne de l’est et de l’ouest, du nord et du sud ; des coins de [location_name] et qu’ils joignent ton royaume ce mois.\n"
+""
+
+#: admin/starter-content.php:208
+msgid "\"So I sent for you at once, and you have been kind enough to come. Now therefore we are all here in the presence of God to hear all that you have been commanded by the Lord.\" (Acts 10:33) Father, please stir many hearts of heads of households in [location_name], like Cornelius, to gather their family to hear the message of the Good News of Jesus."
+msgstr "\"Aussitôt j'ai envoyé vers toi, et tu as bien fait de venir. Maintenant donc nous sommes tous devant Dieu, pour entendre tout ce que le Seigneur t'a ordonné de nous dire.\" (Actes 10:33) Père, réveille le coeur de beaucoup de chefs de familles en [location_name] comme Corneille, pour réunir leur famille pour entendre le message de la bonne nouvelle de Jésus."
+
+#: admin/starter-content.php:209
+msgid "\"Therefore from one man, and him as good as dead, were born descendents as many as the stars of heaven and as many as the innumerable grains of sand by the seashore.\" (Hebrews 11:12) Lord, you promised Abraham he would be the father of many nations. We ask for breakthrough among the 10 Unengaged, Unreached People Groups in [location_name]. May they be included in this promise in our generation."
+msgstr "\"C'est pourquoi d'un seul homme, déjà usé de corps, naquit une postérité nombreuse comme les étoiles du ciel, comme le sable qui est sur le bord de la mer et qu'on ne peut compter.\" (Hébreux 11:12) Seigneur, tu as promis à Abraham qu’il deviendrait le père d’une multitude de nations. Nous demandons une percée parmi les peuples non atteints, non engagés en [location_name] que ces peuples soient inclus dans cette promesse dans notre génération."
+
+#: admin/starter-content.php:210
+msgid "Jesus, we pray for believers in [location_name] to be baptized and know how to baptize. https://zume.training/baptism-and-how-to-do-it/"
+msgstr "Jésus, nous prions pour les croyants en [location_name] d’être baptisés et qu’ils sachent comment baptiser. https://zume.training/baptism-and-how-to-do-it-fr"
+
+#: admin/starter-content.php:213
+msgid "\"May his name endure forever, his fame continue as long as the sun! May people be blessed in him, all [people_name] nations call him blessed!\" (Psalm 72:17)"
+msgstr "\"Son nom subsistera toujours, aussi longtemps que le soleil, son nom se perpétuera. Par lui on se bénira mutuellement, et toutes les nations [people_plural_feminine] le diront heureux.\" (Psaume 72:17)"
+
+#: admin/starter-content.php:215
+msgid "\"And the hand of the Lord was with them, and a great number who believed turned to the Lord.\" (Acts 11:21) Even in the midst of persecution, you empowered your disciples to lead many to faith in you. Please do it again, Lord, in [location_name]."
+msgstr "\"La main du Seigneur était avec eux, et un grand nombre de personnes crurent et se convertirent au Seigneur.\" (Actes 11:21) Même en pleine persécution, tu as équipé tes disciples à conduire beaucoup à la foi en toi. Seigneur, fais-le encore en [location_name].\n"
+""
+
+#. Reference is actually Hebrews 11:13-14
+#: admin/starter-content.php:216
+msgid "\"These all died in faith, not having received the things promised, but having seen them and greeted them from afar, and having acknowledged that they were strangers and exiles on the earth.  For people who speak thus make it clear that they are seeking a homeland.\" (Hebrews 11:14) May [people_name] believers honorable and pure conduct make it clear to those watching them that they are strangers and exiles on the earth for Your glory."
+msgstr "\"C'est dans la foi qu'ils sont tous morts, sans avoir obtenu les choses promises; mais ils les ont vues et saluées de loin, reconnaissant qu'ils étaient étrangers et voyageurs sur la terre. Ceux qui parlent ainsi montrent qu'ils cherchent une patrie.\" (Hébreux 11:14) Que les croyants [people_plural_masculine] honorables et purs démontrent par leur conduite qu’ils sont étrangers et exiles sur la terre pour ta gloire."
+
+#: admin/starter-content.php:217
+msgid "Jesus, we pray for believers in [location_name] to know how to share testimonies about how you impacted their lives. https://zume.training/prepare-your-3-minute-testimony/"
+msgstr "Jésus, nous prions pour les croyants en [location_name] afin de savoir comment partager les témoignages de comment tu as impacté leur vie. https://zume.training/prepare-your-3-minute-testimony-fr"
+
+#: admin/starter-content.php:220
+msgid "\"Arise, O God, judge the earth; for you shall inherit all the [people_name] nations!\" (Psalm 82:8)"
+msgstr "\"Lève-toi, ô Dieu, juge la terre! Car toutes les nations t'appartiennent.\" [Psaume 82:8]"
+
+#: admin/starter-content.php:221
+msgid "\"Knowing their thoughts, he said to them, ’Every kingdom divided against itself is laid waste, and no city or house divided against itself will stand.’\" (Matthew 12:25) We pray for unity among your church in [location_name]. Though your followers in [location_name] may have differing strengths, gifts, and expressions of Your Spirit, may there be no division."
+msgstr "\"Comme Jésus connaissait leurs pensées, il leur dit: Tout royaume divisé contre lui-même est dévasté, et toute ville ou maison divisée contre elle-même ne peut subsister.\" (Matthieu 12:25) Nous prions pour l’unité dans ton église en [location_name]. Malgré que tes disciples en [location_name] peuvent avoir différentes forces et expressions de ton Esprit, qu’il n’y ait pas de division.\n"
+""
+
+#: admin/starter-content.php:222
+msgid "\"But the word of God increased and multiplied.\" (Acts 12:24) This verse comes in the context of an evil ruler bent on persecuting the church. No matter what the circumstances may be in [location_name], Lord, we pray the word of God would increase and multiply."
+msgstr "\"Cependant la parole de Dieu se répandait de plus en plus, et le nombre des disciples augmentait.\" (Actes 12:24) Ce verset vient dans le contexte d’un mauvais dirigeant focalisé sur la persécution de l’église. Peu importe comment les circonstances peuvent être en [location_name], Seigneur, nous prions que ta Parole prospère et se multiplie."
+
+#: admin/starter-content.php:223
+msgid "\"If they had been thinking of that land from which they had gone out, they would have had opportunity to return. But as it is, they desire a better country, that is, a heavenly one. Therefore God is not ashamed to be called their God, for he has prepared for them a city.\" (Hebrews 11:15-16) We cry out for You to raise up men and women from every region of [location_name] who desire a better country, a heavenly one. People who seek to store their treasure there, instead of here on earth."
+msgstr "\"S'ils avaient eu en vue celle d'où ils étaient sortis, ils auraient eu le temps d'y retourner. Mais maintenant ils en désirent une meilleure, c'est-à-dire une céleste. C'est pourquoi Dieu n'a pas honte d'être appelé leur Dieu, car il leur a préparé une cité.\" (Hébreux 11:15-16) Nous crions vers toi pour que tu suscites dans toutes les régions en [location_name] des hommes et des femmes qui désirent un meilleur pays, une patrie céleste. Des personnes qui cherchent à y amasser leur trésor, au lieu d’ici bas."
+
+#: admin/starter-content.php:224
+msgid "God, we pray for believers in [location_name] to know how to cast vision to others about forming spiritual families who multiply for generations to come. https://zume.training/vision-casting-the-greatest-blessing/"
+msgstr "Seigneur, nous prions pour les croyants en [location_name] de savoir comment passer la vision aux autres pour la formation spirituelle des familles qui se multiplient pour les générations à venir. https://zume.training/vision-casting-the-greatest-blessing-fr"
+
+#: admin/starter-content.php:227
+msgid "\"All the [people_name] nations you have made shall come and worship before you, O Lord, and shall glorify your name.\" (Psalm 86:9)"
+msgstr "\"Toutes les nations que tu as faites viendront se prosterner devant ta face, Seigneur, et rendre gloire à ton nom.\" (Psaume 86:9]"
+
+#: admin/starter-content.php:228
+msgid "\"When anyone hears the word of the kingdom and does not understand it, the evil one comes and snatches away what has been sown in his heart. This is what was sown along the path.\" (Matthew 13:19) We pray for many hearts in [location_name] to be receptive to the Kingdom seed that would take root, grow, and reproduce 30, 60, and 100 fold."
+msgstr "\"Lorsqu'un homme écoute la parole du royaume et ne la comprend pas, le malin vient et enlève ce qui a été semé dans son coeur: cet homme est celui qui a reçu la semence le long du chemin.\" (Matthieu 13:19] Nous prions que beaucoup de coeurs en [location_name] soient réceptifs à la semence du royaume qui prendra racine, grandira et se multipliera par 30, 60, et 100."
+
+#: admin/starter-content.php:230
+msgid "\"By faith Abraham, when he was tested, offered up Isaac, and he who had received the promises was in the act of offering up his only son, of whom it was said, ’Through Isaac shall your offspring be named’.\" (Hebrews 11:17-18) Lord, may [people_name] be like Abraham, exhibiting radical, immediate, and costly obedience."
+msgstr "\"C'est par la foi qu'Abraham offrit Isaac, lorsqu'il fut mis à l'épreuve, et qu'il offrit son fils unique, lui qui avait reçu les promesses, et à qui il avait été dit: En Isaac sera nommée pour toi une postérité.\" (Hébreux 11:17-18)  Seigneur, que -[people_name] soit comme Abraham, manifestant une obéissance immédiate, radicale et chère."
+
+#: admin/starter-content.php:231
+msgid "Lord, we pray for believers in [location_name] to be like ducklings in ways they make disciples. https://zume.training/duckling-discipleship-leading-sooner/"
+msgstr "Seigneur, nous prions en [location_name] d’être comme des canetons dans la manière de faire des disciples. https://zume.training/duckling-discipleship-leading-sooner-fr"
+
+#: admin/starter-content.php:234
+msgid "\"Declare his glory among the [people_name] nations, his marvelous works among all the peoples!\" (Psalm 96:3)"
+msgstr "\"Racontez parmi les nations sa gloire, parmi tous les peuples ses merveilles !\" ( Psaume 96:3)"
+
+#: admin/starter-content.php:235
+msgid "(The Parable of the Weeds) \"He put another parable before them, saying, ’The kingdom of heaven may be compared to a man who sowed good seed in his field’\" (Matthew 13:24-30) May the truth of this parable free Christians in [location_name] from fear of insincere seekers and those with evil intentions. We pray for far more reproducing good seed than weeds in this land. Give wisdom to your church, since only You can judge men’s hearts and motives."
+msgstr "(La parabole des mauvaises herbes) \"Il leur proposa une autre parabole, et il dit: Le royaume des cieux est semblable à un homme qui a semé une bonne semence dans son champ.\" (Matthieu 13:24-30)  Que la vérité de cette parabole libère les chrétiens de [location_name] de la peur des hommes non sincères et ceux qui ont une mauvaise intention. Nous prions pour plus de semences reproductrices dans ce pays. Donne la sagesse à ton église, parce que seulement toi peut juger le cœur des hommes et leur intention."
+
+#: admin/starter-content.php:236
+msgid "Paul and Barnabas returned to places they had preached \"strengthening the souls of the disciples, encouraging them to continue in the faith, and saying that through many tribulations we must enter the kingdom of God.\" (Acts 14:22) May every believer in [location_name] be rooted in this truth. As they persevere through tribulations, may it powerfully proclaim the Gospel to the people around them."
+msgstr "\"Paul et Barnabas retournèrent à Lystre, à Icone et à Antioche, fortifiant l'esprit des disciples, les exhortant à persévérer dans la foi, et disant que c'est par beaucoup de tribulations qu'il nous faut entrer dans le royaume de Dieu.\" (Actes 14:21-22) Que tous les croyants en [location_name] soient enracinés dans cette vérité. Pendant qu’ils persévèrent dans la tribulation, que cela proclame puissamment l’évangile autour d’eux."
+
+#: admin/starter-content.php:237
+msgid "\"He considered that God was able even to raise him from the dead, from which, figuratively speaking, he did receive him back.\" (Hebrews 11:19) Resurrected King, You conquered death on the cross! We pray for [people_name] to believe that reality and for it to free them from any fear of death -- be that physical or symbolic death to sin or of hopes and dreams."
+msgstr "\"Il pensait que Dieu est puissant, même pour ressusciter les morts; aussi le recouvra-t-il par une sorte de résurrection.\" (Hébreux 11:19)  O Ressuscité!  Tu as vaincu la mort sur la croix. Nous prions pour [people_name] de croire cette réalité et cela les libère des années de crainte de la mort, que cela soit la mort physique ou la mort symbolique au péché ou encore le désespoir, ou la mort des rêves."
+
+#: admin/starter-content.php:238
+msgid "Father, we pray for believers in [location_name] to have eyes that see where the Kingdom isn’t. https://zume.training/eyes-to-see-where-the-kingdom-isnt/"
+msgstr "Père, nous prions pour les chrétiens en [location_name] d’avoir des yeux qui voient les lieux ou le royaume n’y est pas encore. https://zume.training/eyes-to-see-where-the-kingdom-isnt-fr"
+
+#: admin/starter-content.php:241
+msgid "Say among the [people_name] nations, \"The Lord reigns! Yes, the world is established; it shall never be moved; he will judge the peoples with equity.\" (Psalm 96:10)"
+msgstr "\"Dites parmi les nations: L'Éternel règne; Aussi le monde est ferme, il ne chancelle pas; l'Éternel juge les peuples avec droiture.\" (Psaume 96:10)"
+
+#: admin/starter-content.php:242
+msgid "(The Mustard Seed and the Leaven ) \"He put another parable before them, saying, ’The kingdom of heaven is like a grain of mustard seed that a man took and sowed in his field.’\" (Matthew 13:31) Lord, may mustard seed-sized faith produce a great harvest in [location_name] for Your glory and for the powerful advancement of your Kingdom."
+msgstr "(La graine de sénevé et la levure) \"Il leur proposa une autre parabole, et il dit: Le royaume des cieux est semblable à un grain de sénevé qu'un homme a pris et semé dans son champ.\" (Matthieu 13:31) Seigneur, que la foi de la taille des graines de sénevé produise de grandes moissons en [location_name] pour ta gloire et l’avancement puissant de ton royaume."
+
+#: admin/starter-content.php:243
+msgid "\"And God, who knows the heart, bore witnes to them by giving them the Holy Spirit just as he did to us...\" (Acts 15:8) Thank You for the precious gift of the Holy Spirit! May every believer in [location_name] grow in discerning His leading and quickly obey all He tells them to do. May the Spirit give all believers in [location_name] grace toward one another resulting in the strengthening and multiplying of your Church in this land."
+msgstr "\"Et Dieu, qui connaît les coeurs, leur a rendu témoignage, en leur donnant le Saint Esprit comme à nous...\" (Actes 15:8). Merci, Seigneur, pour le don précieux du Saint Esprit! Que tous les croyants en [location_name] grandissent en discernant sa direction et obéissent rapidement à tout ce qu’il leur dit de faire. Que l’Esprit donne à tous les croyants de [location_name] la grâce envers l'un l'autre conduisant au renforcement et à la multiplication de ton église dans ce pays."
+
+#: admin/starter-content.php:244
+msgid "\"By faith Isaac invoked future blessings on Jacob and Esau.\" (Hebrews 11:20) Despite brokenness in their family, Isaac agreed with God’s covenant and knew it would mean blessing for his sons. May conviction of Your desire that none would perish but all come to repentance, compel [people_name] believers to bless their family by speaking the Good News of Jesus."
+msgstr "\"C'est par la foi qu'Isaac bénit Jacob et Ésaü, en vue des choses à venir.\" (Hébreux 11:20) Malgré que leur famille était brisée, Isaac croyait en l’alliance de Dieu et savait que cela signifiait la bénédiction pour ses fils. Que la conviction et le désir de ne voir aucun périr mais que tous viennent à la repentance, interpelle les croyants en [location_nom] pour bénir leur famille en proclamant la bonne nouvelle du royaume."
+
+#: admin/starter-content.php:245
+msgid "Jesus, we pray for believers in [location_name] to enjoy the intimate connection with you in the Lord’s supper, and know how to lead others in celebrating it too. https://zume.training/the-lords-supper-and-how-to-lead-it/"
+msgstr "Jesus, nous prions pour les croyants en [location_name] de se réjouir dans la connexion intime qui se trouve dans le repas du Seigneur et savoir comment guider les autres à le célébrer aussi. https://zume.training/the-lords-supper-and-how-to-lead-it-fr"
+
+#: admin/starter-content.php:248
+msgid "\"The Lord has made known his salvation; he has revealed his righteousness in the sight of the [people_name] nations.\" (Psalm 98:2)"
+msgstr "\"L'Éternel a manifesté son salut, Il a révélé sa justice aux yeux des nations [people_name].\" (Psaume 98:2)"
+
+#: admin/starter-content.php:249
+msgid "\"He told them another parable. ’The kingdom of heaven is like leaven that a woman took and hid in three measures of flour, till it was all leavened.’\" (Matthew 13:33) Thank you Lord that you delight in using simple, ordinary people to display Your glory. May this kind of yeast rapidly grow throughout every place in [location_name].\""
+msgstr "\"Il leur dit cette autre parabole: Le royaume des cieux est semblable à du levain qu'une femme a pris et mis dans trois mesures de farine, jusqu'à ce que la pâte soit toute levée.\" (Matthieu 13:33) Merci, Seigneur, car tu prends plaisir en utilisant des personnes ordinaires et simples pour manifester ta gloire. Que ce genre de levain se multiplie partout en [location_name].\n"
+""
+
+#: admin/starter-content.php:250
+msgid "\"The Lord opened her (Lydia’s) heart to pay attention to what was said by Paul. And after she was baptized, and her household as well...\" (Acts 16:14-15) \"And he (the Philippian jailer) took them the same hour of the night and washed their wounds; and he was baptized at once, he and all his family.\" (Acts 16:33). Please repeat Lydia and the Philippian jailer’s stories over and over again in every region of [location_name]."
+msgstr "\"Le Seigneur ouvrit le coeur (de Lydie), pour qu'elle fût attentive à ce que disait Paul. Lorsqu'elle eut été baptisée, avec sa famille,\" (Actes 16:14-15) \"Il les prit avec lui, à cette heure même de la nuit, il lava leurs plaies, et aussitôt il fut baptisé, lui et tous les siens.\" (Actes 16:33) Seigneur, nous plaidons que tu répètes l’histoire du gardien et de Lydia encore et encore dans toutes les régions de [location_name]."
+
+#: admin/starter-content.php:251
+msgid "\"By faith Jacob, when dying, blessed each of the sons of Joseph, bowing in worship over the head of his staff.\" (Hebrews 11:21) May every believer in [location_name] have spiritual children that they can, by faith, impart the same blessing to -- that there may be a multitude of multiplying disciples in the land. (Genesis 49:16)"
+msgstr "\"C'est par la foi que Jacob mourant bénit chacun des fils de Joseph, et qu'il adora, appuyé sur l'extrémité de son bâton.\" (Hébreux 11:21) Que tous les croyants en [location_name] aient des enfants qu’ils peuvent impacter par la même bénédiction afin que des multitudes de disciples se multiplient dans le pays. (Génèse 49:16)"
+
+#: admin/starter-content.php:252
+msgid "God, we pray for believers in [location_name] to know how to pray for others, even as they walk around. https://zume.training/prayer-walking/"
+msgstr "Seigneur, nous prions pour les croyants en [location_name] de savoir comment prier pour les autres, pendant qu’ils marchent.  https://zume.training/prayer-walking/"
+
+#: admin/starter-content.php:255
+msgid "[people_name] \"Nations will fear the name of the Lord, and all the kings of the earth will fear your glory.\" (Psalm 102:15)"
+msgstr "\"Alors les nations de [location_name] craindront le nom de l'Éternel, et tous les rois de la terre ta gloire.\" (Psaume 102:15)"
+
+#: admin/starter-content.php:256
+msgid "(The Parable of the Hidden Treasure) \"The kingdom of heaven is like treasure hidden in a field, which a man found and covered up. Then in his joy he goes and sells all that he has and buys that field.\" (Matthew 13:44) We pray for many today to see You for the treasure You are. We pray for [people_name] in every segment of society to joyfully give up all they have in order to gain You."
+msgstr "(La parabole du trésor caché) \"Le royaume des cieux est encore semblable à un trésor caché dans un champ. L'homme qui l'a trouvé le cache; et, dans sa joie, il va vendre tout ce qu'il a, et achète ce champ.\" (Matthieu 13:44)  Nous prions que beaucoup te voit comme le trésor que tu es. Nous prions pour [people_name] dans tous les secteurs de la société, que les gens abandonnent avec joie tout ce qu’ils ont pour t’avoir."
+
+#: admin/starter-content.php:257
+msgid "\"And he made from one man every nation of mankind to live on all the face of the earth, having determined allotted periods and their boundaries of their dwelling place, that they should seek God, and perhaps feel their way toward him and find him. Yet he is actually not far from each of us...\" (Acts 17:26-27) We confess your sovereignty in the midst of the uncertainties in [location_name] brought on by the coronavirus. We pray, Father, that you would use these circumstances to draw many [people_name] to yourself."
+msgstr "\"Il a fait que tous les hommes, sortis d'un seul sang, habitent sur toute la surface de la terre, ayant déterminé la durée des temps et les bornes de leur demeure; il a voulu qu'ils cherchent le Seigneur, et qu'ils s'efforcent de le trouver en tâtonnant, bien qu'il ne soit pas loin de chacun de nous,\" (Actes 17:26-27) Nous confessons ta souveraineté dans l’incertitude en [location_name] causée par coronavirus. Nous prions O Père, que tu utilises cette circonstance pour attirer beaucoup de [people_name] à toi-même."
+
+#: admin/starter-content.php:258
+msgid "\"By faith Joseph, at the end of his life, made mention of the exodus of the Israelites and gave directions concerning his bones.\" (Hebrews 11:22) We pray for believers in [location_name] to be so certain of Your promises, that they would have foresight now to prepare for the day when there are multiplying churches in every neighborhood in the country by training and equipping all believers in scalable ways."
+msgstr "\"C'est par la foi que Joseph mourant fit mention de la sortie des fils d'Israël, et qu'il donna des ordres au sujet de ses os.\" (Hébreux 11:22) Nous prions pour les croyants en [location_name] de croire fortement en tes promesses, qu’ils prévoient pour préparer le chemin pour le jour où il y aura des multiplications d’églises dans tous les voisinages du pays par la formation de tous les croyants."
+
+#: admin/starter-content.php:259
+msgid "God, we pray for believers in [location_name] to know what a person of peace is, and where to find one. https://zume.training/a-person-of-peace-and-how-to-find-one/"
+msgstr "Seigneur nous prions pour les croyants en [location_name] de savoir ce que c’est une personne de paix et où en trouver. https://zume.training/a-person-of-peace-and-how-to-find-one-fr"
+
+#: admin/starter-content.php:262
+msgid "\"I will give thanks to you, O Lord, among the peoples; I will sing praises to you among the [people_name] nations.\" (Psalm 108:3)"
+msgstr "\" Je te louerai parmi les peuples, Éternel! Je te chanterai parmi les nations [people_plural_feminine].\" (Psaume 108:3)\n"
+""
+
+#: admin/starter-content.php:263
+msgid "(The Parable of the Pearl of Great Value) \"Again, the kingdom of heaven is like a merchant in search of fine pearls, who, on finding one pearl of great value, went and sold all that he had and bought it.\" (Matthew 13:45-46) Thank You for every man and woman in [location_name] who have found You to be the pearl of great price. We pray their valuing and treasuring of You, would lead many others to enter Your Kingdom."
+msgstr "(La parabole de la perle de grand prix) \"Le royaume des cieux est encore semblable à un marchand qui cherche de belles perles. Il a trouvé une perle de grand prix; et il est allé vendre tout ce qu'il avait, et l'a achetée\" (Matthieu 13:45-46) Merci Seigneur pour chaque homme et femme dans [location_name] qui t’ont trouvé comme la perle rare. Nous prions qu’en te donnant de la valeur comme un trésor, que beaucoup retrouve ton royaume."
+
+#: admin/starter-content.php:264
+msgid "\"Crispus, the ruler of the synagogue, believed in the Lord, together with his entire household. And many of the Corinthians hearing Paul believed and were baptized.\" (Acts 18:8) We pray for many religious leaders in [location_name] to believe in You, together with their entire households, and may it lead to entire neighborhoods and cities being reached with the Gospel."
+msgstr "\"Cependant Crispus, le chef de la synagogue, crut au Seigneur avec toute sa famille. Et plusieurs Corinthiens, qui avaient entendu Paul, crurent aussi, et furent baptisés.\" (Actes 18:8) Nous prions que beaucoup de chefs religieux en [location_name] croient en toi avec toutes leurs familles et que cela provoque le salut de tout le voisinage et que toutes les villes soient atteintes par l’évangile.\n"
+""
+
+#: admin/starter-content.php:265
+msgid "\"By faith Moses, when he was born, was hidden for three months by his parents, because they saw that the child was beautiful, and they were not afraid of the king’s edict.\" (Hebrews 11:23)  Thank you Lord for the example of Moses’ parents. We pray for believers in [location_name] to fear God more than they fear anyone or anything else."
+msgstr "\"C'est par la foi que Moïse, à sa naissance, fut caché pendant trois mois par ses parents, parce qu'ils virent que l'enfant était beau, et qu'ils ne craignirent pas l'ordre du roi.\" (Hébreux 11:23) Merci, Seigneur, pour l’example des parents de Moïse. Nous prions pour les croyants en [location_name] de craindre Dieu plus qu’ils ne craignent qui ou quoi que ce soit."
+
+#: admin/starter-content.php:266
+msgid "Father, we pray for believers in [location_name] to know areas they can pray for others, the BLESS Prayer Pattern. like https://zume.training/the-bless-prayer-pattern/"
+msgstr "Père, nous prions pour les croyants en [location_name] de savoir les domaines où ils peuvent prier pour les autres selon le modèle de P.R.I.E.R. https://zume.training/the-bless-prayer-pattern-fr"
+
+#: admin/starter-content.php:269
+msgid "\"From the rising of the sun to its setting, the name of the Lord is to be praised! The Lord is high above all [people_name] nations, and his glory above the heavens!\" (Psalm 113:3-4)"
+msgstr "\"Du lever du soleil jusqu'à son couchant, que le nom de l'Éternel soit célébré. L'Éternel est élevé au-dessus de toutes les nations [people_plural_feminine], Sa gloire est au-dessus des cieux.\" (Psaume 113:3-4)"
+
+#: admin/starter-content.php:270
+msgid "(The Parable of the Net) \"Again, the kingdom of heaven is like a net that was thrown into the sea and gathered fish of every kind.\" (Matthew 13:47-50) Many [people_name] of every kind be brought in Your glorious Kingdom, even this month. We pray for wealthy and poor, educated and uneducated, religious and secular, young and old to be among the ’good fish’ at the end of the age."
+msgstr "(La parabole du filet) \"Le royaume des cieux est encore semblable à un filet jeté dans la mer et ramassant des poissons de toute espèce\" (Matthieu 13:47-50) Que beaucoup de [people_name] de toutes sortes soient emmenés dans ton glorieux royaume en ce mois. Nous prions pour les riches et les pauvres, intellectuels et illettrés, religieux et non religieux, jeunes et vieux d’être parmi les \"bons poissons\" à la fin des âges."
+
+#: admin/starter-content.php:271
+msgid "Paul reasoned daily in the hall of Tyrannnus and we’re told \"this continued for two years, so that all the residents of Asia heard the word of the Lord, both Jews and Greeks.\" (Acts 19:10) Empower believers in [location_name] to boldly, faithfully, and consistently proclaim the Gospel of the Kingdom so that all the residents of [location_name] would hear the word of the Lord and have an opportunity to respond to it."
+msgstr "Paul discourut dans l’école d’un nommé Tyrannus et nous comprenons que...\"cela dura deux ans, de sorte que tous ceux qui habitaient l'Asie, Juifs et Grecs, entendirent la parole du Seigneur.\" (Acts 19:10). Seigneur, équipe les croyants en [location_name] à proclamer fidèlement, avec courage et avec consistence l’évangile du royaume de sorte qu’en [location_name] tout le monde entende la parole du Seigneur et qu’ils aient l’opportunité d'y répondre."
+
+#: admin/starter-content.php:273
+msgid "Lord, we pray for believers in [location_name] to not only esteem knowing but also doing. https://zume.training/faithfulness-is-better-than-knowledge/"
+msgstr "Seigneur nous prions pour les croyants en [location_name] de valoriser non seulement la connaissance mais aussi la mettre en pratique. https://zume.training/faithfulness-is-better-than-knowledge-fr"
+
+#: admin/starter-content.php:276
+msgid "\"Praise the Lord, all nations! Extol him, all peoples [people_name]!\" (Psalm 117:1)"
+msgstr "\"Louez l'Éternel, vous toutes les nations, célébrez-le, vous tous les peuples! [people_plural_masculine]\" )Psaume 117:1)"
+
+#: admin/starter-content.php:277
+msgid "\"I will give you the keys of the kingdom of heaven, and whatever you bind on earth shall be bound in heaven, and whatever you loose on earth shall be loosed in heaven.\" (Matthew 16:19) As Your followers in [location_name] enter into spiritually dark places, may they exercise the Kingdom authority You have delegated to Your church through Christ Jesus."
+msgstr "\"Je te donnerai les clefs du royaume des cieux: ce que tu lieras sur la terre sera lié dans les cieux, et ce que tu délieras sur la terre sera délié dans les cieux.\" (Matthieu 16:19) Que tous les disciples en [location_name] entrent dans les lieux ténébreux spirituels, qu’ils manifestent l’autorité du royaume que tu as donnée à l’église par Jésus Christ.\n"
+""
+
+#: admin/starter-content.php:278
+msgid "We pray that every believer in [location_name] would \"remember the words of the Lord Jesus, how he himself said, \"It is more blessed to give than to receive\". (Acts 20:35), especially when it comes to spiritual blessings. We pray that every believer would experience the deep joy of giving the gift of Christ to others. Bonus: Check out https://zume.training/the-kingdom-economy/Kingdom Economy  for more on this concept."
+msgstr "Nous prions que tous les croyants en [location_name] se rappellent des paroles de Jésus, comment lui-même a dit « il y a plus de bonheur à donner qu’à recevoir ». (Acts 20:35), surtout quand il s’agit de bénédictions spirituelles. Nous prions tous les croyants expérimentent la joie profonde de donner le don de Christ aux autres. Bonus: https://zume.training/the-kingdom-economy-fr \n"
+""
+
+#: admin/starter-content.php:279
+msgid "\"He considered the reproach of Christ greater wealth than the treasures of Egypt, for he was looking to the reward.\" (Hebrews 11:26) Awaken [people_name] to the greater wealth of Christ. May multitudes esteem Him more than any treasure they can have here on earth."
+msgstr "Moïse regarda \"l'opprobre de Christ comme une richesse plus grande que les trésors de l'Égypte, car il avait les yeux fixés sur la rémunération.\" (Hébreux 11:26) Seigneur, réveille [people_name] pour plus de richesse de Christ. Que les multitudes le valorisent plus que tous les trésors qu’ils peuvent amasser ici sur la terre."
+
+#: admin/starter-content.php:280
+msgid "Father, we pray for believers in [location_name] to know how to meet, pray, learn, grow, fellowship, and practice obeying and sharing in simple churches with the 3/3 Group Meeting Pattern. https://zume.training/3-3-group-meeting-pattern/"
+msgstr "Nous prions que tous les croyants en [location_name] de savoir comment rencontrer, prier, apprendre, communier et pratiquer l’obéissance dans des églises simples avec le modèle de rencontre des groupes de 3/3. https://zume.training/3-3-group-meeting-pattern-fr"
+
+#: admin/starter-content.php:283
+msgid "\"Sing praises to the Lord, who sits enthroned in Zion! Tell among the [people_name] peoples his deeds!\" (Psalm 9:11)"
+msgstr "\"Chantez à l'Éternel, qui réside en Sion, publiez parmi les peuples [people_plural_masculine] ses hauts faits!\" (Psaume 9:11)"
+
+#: admin/starter-content.php:284
+msgid "\"Truly, I say to you, unless you turn and become like children, you will never enter the kingdom of heaven.\" (Matthew 18:3) Father, please continue to teach and reveal Your upside-down and inside-out Kingdom priorities to every Christian in [location_name]. We pray that child-like faith would be used by You to bring many [people_name] into your presence."
+msgstr "\"Je vous le dis en vérité, si vous ne vous convertissez et si vous ne devenez comme les petits enfants, vous n'entrerez pas dans le royaume des cieux.\" (Matthieu 18:3) Père, continu d’enseigner et de révéler les priorités de ton royaume à chaque chrétien en [location_name]. Nous prions que tu utilises la foi enfantine pour amener beaucoup de [people_name] dans ta présence."
+
+#. I removed Libya and Algeria.
+#: admin/starter-content.php:285
+msgid "\"After greeting them, he related one by one the things that God had done among the Gentiles through his ministry. And when they heard it, they glorified God.\" (Acts 21:19-20) May the retelling of the stories of grace in [people_name] lives result in great glory to God and spur on workers of the Gospel in neighboring lands like Libya and Algeria!"
+msgstr "\"Après les avoir salués, il raconta en détail ce que Dieu avait fait au milieu des païens par son ministère. Quand ils l'eurent entendu, ils glorifièrent Dieu.\" (Actes 21:19-20) Que la répétition des histoires de grâce dans les vies en [people_name] donne une grande gloire à Dieu et que cela stimule les ouvriers de l’évangile dans les pays voisins.\n"
+""
+
+#: admin/starter-content.php:286
+msgid "\"By faith he left Egypt, not being afraid of the anger of the king, for he endured as seeing him who is invisible.\" (Hebrews 11:27) Fear is a powerful weapon of the enemy in [location_name]. As You draw men and women to Yourself, Lord, help them fix their eyes on You instead of on their fears."
+msgstr "\"C'est par la foi que (Moïse) quitta l'Égypte, sans être effrayé de la colère du roi; car il se montra ferme, comme voyant celui qui est invisible.\" (Hébreux 11:27) La peur est une arme puissante de l’ennemi en [location_name]. Seigneur, attire des hommes et des femmes à toi et aide-leur à fixer leur yeux sur toi au lieu que sur leur crainte."
+
+#: admin/starter-content.php:287
+msgid "God, we pray for believers in [location_name] to know how to apply the training cycle for maturing disciples. https://zume.training/training-cycle-for-maturing-disciples/"
+msgstr "Seigneur, nous prions pour les croyants en [location_name] pour qu'ils comprennent comment appliquer le cycle de formation pour les disciples matures. https://zume.training/training-cycle-for-maturing-disciples-fr"
+
+#: admin/starter-content.php:290
+msgid "\"Clap your hands, all [people_name] peoples! Shout to God with loud songs of joy!\" (Psalm 47:1)"
+msgstr "\"Vous tous, [people_name], battez des mains! Poussez vers Dieu des cris de joie!\" (Psaume 47:1)"
+
+#: admin/starter-content.php:291
+msgid "\"Whoever humbles himself like this child is the greatest in the kingdom of heaven.\" (Matthew 18:4) May the humility of Christians in [location_name] testify to the power and the truth of Your Kingdom. We pray for Christ-like humility to define Your church in this nation."
+msgstr "\"C'est pourquoi, quiconque se rendra humble comme ce petit enfant sera le plus grand dans le royaume des cieux\" (Matthieu 18:4) Que l’humilité de chrétiens en [location_name] témoigne de la vérité et la puissance de ton royaume. Nous prions que l'humilité de Christ définisse ton église dans cette nation.\n"
+""
+
+#: admin/starter-content.php:292
+msgid "Paul was told by Ananias: \"for you will be a witness for him to everyone of what you have seen and heard.\" (Acts 22:15) We pray for every believer in [location_name] to be equipped to share their story (testimony) and Your story (the Gospel). We pray that every time the Gospel is shared in [location_name] that it would be the overflow of the speaker’s experience with You, the living God."
+msgstr "Paul à dit à Ananias: \"car tu lui serviras de témoin, auprès de tous les hommes, des choses que tu as vues et entendues.\" (Actes 22:15) Nous prions qu’à chaque fois que l’évangile est partagé en [location_name] qu’il y ait un débordement de l’expérience du messager avec toi, le Dieu vivant."
+
+#: admin/starter-content.php:293
+msgid "\"By faith he kept the Passover and sprinkled the blood, so that the Destroyer of the firstborn might not touch them.\" (Hebrews 11:28) We pray for many in [location_name] to put their faith in Christ’s blood that was poured out for them. Let the power of Your death, burial, and resurrection convince them to put their faith in You and to be freed from the Destroyer."
+msgstr "\"C'est par la foi qu'il fit la Pâque et l'aspersion du sang, afin que l'exterminateur ne touchât pas aux premiers-nés des Israélites.\" (Hébreux 11:28) Nous prions pour beaucoup en [location_name] de mettre leur foi dans le sang de Christ qui a été versé pour eux. Que la puissance de ta mort, ton ensevelissement et ta résurrection les convainque pour qu’ils mettent leur foi en toi et d’être libéré du destructeur."
+
+#: admin/starter-content.php:294
+msgid "Lord, we pray for believers in [location_name] to know how to develop as leaders by practicing serving. https://zume.training/leadership-cells/"
+msgstr "Seigneur, nous prions pour les croyants en [location_name] de savoir comment se développer en tant leaders serviteurs. https://zume.training/leadership-cells-fr"
+
+#: admin/starter-content.php:297
+msgid "\"Bless our God, O [people_name] peoples; let the sound of his praise be heard,\" (Psalm 66:8)"
+msgstr "\"[people_name], bénissez notre Dieu; faites retentir sa louange! (Psaume 66:8)"
+
+#: admin/starter-content.php:298
+msgid "\"Jesus said, ’Let the little children come to me and do not hinder them, for to such belongs the kingdom of heaven.’\" (Matthew 19:14) We pray that nothing would hinder true seekers from entering into Your Kingdom —not gender, age, socioeconomic status, nationality, or education level."
+msgstr "\"Et Jésus dit: Laissez les petits enfants, et ne les empêchez pas de venir à moi; car le royaume des cieux est pour ceux qui leur ressemblent.\" (Matthieu 19:14) Nous prions que rien ne bloque les vrais chercheurs d’entrer dans ton royaume—sans considérer le genre, l'âge, statut socio-économique, nationalité ou niveau d’éducation."
+
+#: admin/starter-content.php:299
+msgid "\"And looking intently at the council, Paul said, ’Brothers, I have lived my life before God in all good conscience up to this day.’\" (Acts 23:1) As believers in [location_name], abide in the Vine, may their lives continually grow into Christ’s until they, too, can make such a claim. May their consistency and integrity lead many [people_name] to faith in Christ."
+msgstr "\"Paul, les regards fixés sur le sanhédrin, dit: 'Hommes frères, c'est en toute bonne conscience que je me suis conduit jusqu'à ce jour devant Dieu.'\" (Actes 23:1) Comme les croyants en [location_name] demeurent connectés à la vigne, que leurs vies croissant continuellement en Christ au point où ils puissent également faire cette déclaration. Que leur consistence et intégrité conduisent beaucoup  de [people_name] à la foi en Christ."
+
+#: admin/starter-content.php:301
+msgid "Father, we pray for believers in [location_name] to expect non-sequential growth in their disciple making. https://zume.training/expect-non-sequential-growth/"
+msgstr "Père, nous prions pour les croyants en [location_name] à s’attendre aux développement non séquentiel dans la formation des disciples. https://zume.training/expect-non-sequential-growth-fr"
+
+#: admin/starter-content.php:304
+msgid "\"Let the [people_name] peoples praise you, O God; let all the peoples praise you!\" (Psalm 67:3)"
+msgstr "\" [people_name] te louent, ô Dieu! Tous les peuples te louent.\" (Psaume 67:3)"
+
+#: admin/starter-content.php:305
+msgid "\"And Jesus said to his disciples, ’Truly, I say to you, only with difficulty will a rich person enter the kingdom of heaven.’\" (Matthew 19:23) We know nothing can hinder the Lord from saving (1 Samuel 14:6), so Lord we ask You to be working in the hearts of the wealthy in [location_name]. Soften them and open their spiritual eyes to see the truth of Your Word."
+msgstr "\"Jésus dit à ses disciples: Je vous le dis en vérité, un riche entrera difficilement dans le royaume des cieux.\" (Matthieu 19:23) Nous savons que rien ne peut  empêcher le Seigneur de sauver. (1 Samuel 14:6). Alors nous te demandons, Seigneur, de travailler dans le cœur des riches en [location_name]. Donne-leur un cœur de chair et ouvre leurs yeux spirituels pour qu’ils voient la vérité de ta Parole."
+
+#: admin/starter-content.php:306
+msgid "\"So I always take pains to have a clear conscience toward both God and man.\" (Acts 24:16) Lord, give believers in [location_name] perseverance in going to such pains as Paul describes here. May it result in many friends, family members, coworkers, and neighbors being drawn to a God who brings transformation from the inside out."
+msgstr "\"C'est pourquoi je m'efforce d'avoir constamment une conscience sans reproche devant Dieu et devant les hommes\" (Actes 24:16) Seigneur, donne aux croyants de [location_name] la persévérance dans les douleurs dont Paul décrit ici. Que cela attire beaucoup d’amis, membres de familles, co-travailleurs et voisins à Dieu qui transforme à partir de l’intérieur jusqu’au dehors."
+
+#: admin/starter-content.php:307
+msgid "\"By faith the walls of Jericho fell down after they had been encircled for seven days.\" (Hebrews 11:30) May every wall that separates [people_name] from Christ fall down as we faithfully pray and obey His commands."
+msgstr "\"C'est par la foi que les murailles de Jéricho tombèrent, après qu'on en eut fait le tour pendant sept jours.\" (Hébreux 11:30) Que tout mur qui sépare [people_name] de Christ tombe par nos priéres de foi et notre obéissance à ses commandements."
+
+#: admin/starter-content.php:308
+msgid "Father, we pray for believers in [location_name] to understand why multiplying matters, and multiplying quickly matters even more. https://zume.training/pace-of-multiplication-matters/"
+msgstr "Père, nous prions pour tous les croyants en [location_name] comprennent  pourquoi se multiplier rapidement est important. https://zume.training/pace-of-multiplication-matters-fr"
+
+#: admin/starter-content.php:311
+msgid "\"You are the God who works wonders; you have made known your might among the [people_name] peoples.\" (Psalm 77:14)"
+msgstr "\"Tu es le Dieu qui fait des prodiges; Tu as manifesté parmi les peuples [people_plural_masculine] ta puissance.\" (Psaume 77:14)"
+
+#: admin/starter-content.php:312
+msgid "(Laborers in the Vineyard) \"For the kingdom of heaven is like a master of a house who went out early in the morning to hire laborers for his vineyard.\" (Matthew 20:1) Your ways are not our ways. We praise You for Your generosity and ask that many [people_name] would enter Your Kingdom, even up until the last hour of the day."
+msgstr "\"Car le royaume des cieux est semblable à un maître de maison qui sortit dès le matin, afin de louer des ouvriers pour sa vigne.\" (Matthieu 20:1) Seigneur, tes voies ne sont pas les nôtres. Nous te louons pour ta générosité et nous prions que beaucoup de [people_name] entrent dans ton royaume jusqu’à la dernière heure du jour."
+
+#: admin/starter-content.php:313
+msgid "\"So on the next day Agrippa and Bernice came with great pomp, and they entered the audience hall with the military tribunes and the prominent men of the city. Then, at the command of Festus, Paul was brought in.\" (Acts 25:23) Here Paul experienced Jesus’ words in Matthew 10:18, \"and you will be dragged before governors and kings for my sake, to bear witness before them and the Gentiles\". In the same way, may [people_name] believers, when this happens, experience Jesus’ promise as it was for Paul, \"do not be anxious how you are to speak or what you are to say, for what you are to say will be given you in that hour.\" (Matthew 10:19)"
+msgstr "\"Le lendemain donc, Agrippa et Bérénice vinrent en grande pompe, et entrèrent dans le lieu de l'audience avec les tribunes militaires et les hommes importants  de la ville. Sur l'ordre de Festus, Paul fut amené\" (Actes 25:23) Paul expérimenta les paroles de Jésus dans Matthieu 10:18; \"vous serez menés, à cause de moi, devant des gouverneurs et devant des rois, pour servir de témoignage à eux et aux païens\". De la même manière que les croyants [people_plural_masculine] expérimentent, quand ces choses se produiront, la promesse de Jésus comme pour Paul: \"...ne vous inquiétez ni de la manière dont vous parlerez ni de ce que vous direz: ce que vous aurez à dire vous sera donné à l'heure même.\" (Matthieu 10:19)"
+
+#: admin/starter-content.php:314
+msgid "\"By faith Rahab the prostitute did not perish with those who were disobedient, because she had given a friendly welcome to the spies.\" (Hebrews 11:31) Thank You Lord, for the reminder that no one is too far from Your saving grace. We pray for many [people_name], no matter their background, to be given new identities in Christ through faith."
+msgstr "\"C'est par la foi que Rahab la prostituée ne périt pas avec les rebelles, parce qu'elle avait reçu les espions avec bienveillance.\" (Hébreux 11:31) Merci, Seigneur, pour le rappel que personne n’est trop loin de ta grâce qui sauve. Nous prions pour beaucoup de [people_name] peu importe leur arrière plan, reçoivent une nouvelle identité en Christ par la foi."
+
+#: admin/starter-content.php:315
+msgid "Jesus, we pray for believers in [location_name] to know how to obey your commands by going AND staying. https://zume.training/always-part-of-two-churches/"
+msgstr "Jésus, nous prions pour les croyants en [location_name] de connaitre et obéir tes commandements en allant et en y restant. https://zume.training/always-part-of-two-churches-fr"
+
+#: admin/starter-content.php:318
+msgid "\"And they sing the song of Moses, the servant of God, and the song of the Lamb, saying, ’Great and amazing are your deeds, O Lord God the Almighty! Just and true are your ways, O King of the [people_name] nations!’\" (Revelation 15:3)"
+msgstr "\"Et ils chantent le cantique de Moïse, le serviteur de Dieu, et le cantique de l'agneau, en disant: Tes oeuvres sont grandes et admirables, Seigneur Dieu tout puissant! Tes voies sont justes et véritables, Roi des nations [people_name]\" Apocalypse 15:3"
+
+#: admin/starter-content.php:319
+msgid "\"But woe to you, scribes and Pharisees, hypocrites! For you shut the kingdom of heaven in people’s faces. For you neither enter yourselves nor allow those who would enter to go in.\" (Matthew 23:13) In Jesus’ day there were many opposed to the Kingdom, so today is no different. We appeal to Jesus, the One who opens and no one will shut (Revelation 3:7) to open the Kingdom to many in [location_name] today."
+msgstr "\"Et ils chantent le cantique de Moïse, le serviteur de Dieu, et le cantique de l'Agneau, en disant: Tes oeuvres sont grandes et admirables, Seigneur Dieu tout puissant! Tes voies sont justes et véritables, Roi des nations.\" (Matthieu 23:13) ). Au temps de Jésus beaucoup étaient opposés au royaume, et il n’y a aucune différence aujourd’hui. Nous faisons recours à Jésus qui ouvre les portes et que personne ne peut fermer. (Revelation 3:7) afin qu’il ouvre le royaume à beaucoup en [location_name] aujourd’hui."
+
+#: admin/starter-content.php:320
+msgid "Jesus told Paul that \"I am sending you to open their eyes, so that they may turn from darkness to light and from the power of Satan to God, that they may receive forgiveness of sins and a place among those who are sanctified by faith in me.\" (Acts 26:18) We beseech You, Lord, to send many [people_name] Pauls to do the same throughout every corner of [location_name]."
+msgstr "Jésus a dit à Paul que \"... tu leur ouvres les yeux, pour qu'ils passent des ténèbres à la lumière et de la puissance de Satan à Dieu, pour qu'ils reçoivent, par la foi en moi, le pardon des péchés et l'héritage avec les sanctifiés.\" (Actes 26:18) Nous te supplions, Seigneur, d’envoyer beaucoup de Pauls [people_plural_masculine] pour les mêmes oeuvres à toutes les extrémités de [location_name]."
+
+#: admin/starter-content.php:322
+msgid "Lord, we pray for believers in [location_name] to be intentional in making disciples. https://zume.training/god-uses-ordinary-people/"
+msgstr "Seigneur, nous prions pour tous les croyants en [location_name] de faire intentionnellement des disciples. https://zume.training/god-uses-ordinary-people-fr/"
+
+#: admin/starter-content.php:325
+msgid "\"Who will not fear, O Lord, and glorify your name? For you alone are holy. All [people_name] nations will come and worship you, for your righteous acts have been revealed.\" (Revelation 15:4)"
+msgstr "\"Qui ne craindrait, Seigneur, et ne glorifierait ton nom? Car seul tu es saint. Et toutes les nations [people_plural_feminine] viendront, et se prosterneront devant toi, parce que tes jugements ont été manifestés.\" (Apocalypse 15:4)"
+
+#: admin/starter-content.php:326
+msgid "\"And this gospel of the kingdom will be proclaimed throughout the whole world as a testimony to all nations, and then the end will come.\" (Matthew 24:14) Father we pray for the Good News of the Kingdom to be shared in a clear, understandable, and reproducible way among all of the unengaged, unreached people groups in [location_name]."
+msgstr "\"Cette bonne nouvelle du royaume sera prêchée dans le monde entier, pour servir de témoignage à toutes les nations. Alors viendra la fin.\" (Matthieu 24:14)\n"
+"Père, nous prions pour que la bonne nouvelle du royaume soit partagée d’une manière claire, compréhensible parmi tous les peuples non engagés et non atteints dans [location_name]."
+
+#: admin/starter-content.php:327
+msgid "\"And when he had said these things, he took bread, and giving thanks to God in the presence of all he broke it and began to eat.\" (Acts 27:35) Lord, may believers in [location_name] exhibit such unshakeable confidence in Your Word and Your provision, that even in the scariest of circumstances they can still give thanks to You. We pray in the midst of the coronavirus pandemic that many will be drawn to Christ in [location_name] through believers’ firm faith in You."
+msgstr "\"Ayant ainsi parlé, il prit du pain, et, après avoir rendu grâces à Dieu devant tous, il le rompit, et se mit à mange.\" (Actes 27:35) . Seigneur, que tous les croyants en [location_name] manifestent cette confiance inébranlable dans ta parole et ta provision, de sorte que les circonstances les plus effrayantes soient des sujets d’actions de grâces. Nous prions en cette période de corona virus que beaucoup soient attirés vers Christ en [location_name] au travers la foi inébranlable des croyants en toi."
+
+#: admin/starter-content.php:329
+msgid "God, we pray for believers in [location_name] to know how to assess their strengths and vulnerabilities when it comes to making disciples who multiply. https://zume.training/coaching-checklist/"
+msgstr "O Dieu, nous prions pour tous les croyants en [location_name] pour savoir comment estimer leur force et leurs vulnérabilites quand il s’agit de faire des disciples qui se multiplient. https://zume.training/coaching-checklist-fr"
+
+#: admin/starter-content.php:333
+msgid "(The Parable of the Ten Virgins) \"Then the kingdom of heaven will be like ten virgins who took their lamps and went to meet the bridegroom.\" (Matthew 25:1) Prepare your Bride in [location_name] for Your return. We pray that every believer in this nation will be pursuing Your Kingdom and seeking opportunities to prepare their friends and family for Jesus’ return."
+msgstr "(La parabole des dix vierges) \"Alors le royaume des cieux sera semblable à dix vierges qui, ayant pris leurs lampes, allèrent à la rencontre de l'époux.\" (Matthieu 25:1) Seigneur, prépare ton épouse en [location_name] pour ton retour. Nous prions que tous les croyants dans cette nation poursuivront ton royaume et chercheront des opportunités pour préparer leurs amis et familles pour le retour de Jésus."
+
+#: admin/starter-content.php:334
+msgid "\"From morning till evening he expounded to them, testifying to the kingdom of God and trying to convince them about Jesus both from the Law of Moses and from the Prophets.\" (Acts 28:23) Continue to equip believers throughout [location_name] to testify convincingly of Your Kingdom using Moses and the Prophets as needed. Soften hearts throughout the land to believe in this glorious message!"
+msgstr "\"Ils lui fixèrent un jour, et plusieurs vinrent le trouver dans son logis. Paul leur annonça le royaume de Dieu, en rendant témoignage, et en cherchant, par la loi de Moïse et par les prophètes, à les persuader de ce qui concerne Jésus.\" (Actes 28:23) Seigneur, continue d’équiper les croyants dans [location_name] à témoigner et à convaincre en utilisant la loi de Moïse et les prophètes si nécessaire. Donne un cœur de chair dans toute l’étendue du territoire afin qu’ils croient en ce glorieux message!"
+
+#: admin/starter-content.php:336
+msgid "Father, we pray for believers in [location_name] to learn how multiplying churches stay connected and live life together as an extended, spiritual family. https://zume.training/leadership-in-networks/"
+msgstr "Père, nous prions pour que tous les croyants en [location_name] apprennent comment les églises qui se multiplient restent liées et vivent une vie comme une grande famille spirituelle. https://zume.training/leadership-in-networks-fr"
+
+#: admin/starter-content.php:339
+msgid "\"And many [people_name] nations shall join themselves to the Lord in that day, and shall be my people. And I will dwell in your midst, and you shall know that the Lord of hosts has sent me to you.\" (Zechariah 2:11)"
+msgstr "\"Beaucoup de nations [people_plural_feminine] s'attacheront à l'Éternel en ce jour-là, et deviendront mon peuple. J'habiterai au milieu de toi, et tu sauras que l'Éternel des armées m'a envoyé vers toi.\" (Zacharie 2:11)"
+
+#: admin/starter-content.php:340
+msgid "\"Then the King will say to those on his right, ’Come, you who are blessed by my Father, inherit the kingdom prepared for you from the foundation of the world.’\" (Matthew 25:34-36) Thank You Lord that you have prepared [people_name] to enter your kingdom from the foundation of the world. May every believer in this nation do the good works (feeding then hungry; giving water to the thirsty; etc.) that you prepared in advance for them to do (Ephesians 2:10)"
+msgstr "\"Alors le Roi dira à ceux qui seront à sa droite: Venez, vous qui êtes bénis de mon Père; prenez possession du royaume qui vous a été préparé dès la fondation du monde.\" (Matthieu 25:34-36) Merci Seigneur car tu as preparé  [people_name] pour entrer dans ton royaume depuis avant la fondation du monde. Que tous les croyants de cette nation fassent les bonnes œuvres (nourrissant les affamés, donnant de l’eau à ceux qui ont soif, etc) que tu as préparées d'avance, afin que nous les pratiquions. (Ephésiens 2 :10)"
+
+#: admin/starter-content.php:341
+msgid "\"Proclaiming the kingdom of God and teaching about the Lord Jesus Christ with all boldness and without hindrance.\" (Acts 28:31) Just as the story of Acts ended with Paul living this verse out. We pray believers in [location_name] would proclaim the Kingdom of God and teach about the Lord with all boldness and without hindrance until their last breath."
+msgstr "\"[Paul] proclamait le règne de Dieu et enseignait ce qui concerne le Seigneur Jésus-Christ avec une entière assurance, sans empêchement.\" (Actes 28:31 Juste comme les Actes des Apôtres se terminent pendant que Paul nous laisse ce verset, nous prions que les croyants en [location_name] proclament le royaume de Dieu en enseignant sur le Seigneur avec toute l’audace et sans obstacle jusqu’à la mort."
+
+#: admin/starter-content.php:342
+msgid "\"Some were tortured, refusing to accept release, so that they might rise again to a better life. Others suffered mocking and flogging, and even chains and imprisonment. They were stoned, they were sawn in two, they were killed with the sword.\" (Hebrews 11:35b-37) Give all believers in [location_name] perseverance in the face of persecution. Comfort them by the great cloud of witnesses that have gone before them, witnesses like those described in these verses."
+msgstr "\"Mais d'autres furent torturés et n'acceptèrent pas de rédemption, afin d'accéder à une résurrection supérieure. Ils furent lapidés, sciés, tués par l'épée...\" (Hébreux 11:35b-37) Seigneur, donne à tous les croyants en [location_name] la persévérance en face de la persécution. Fortifie-les par la grande vague de témoins qui sont parties avant eux, qu’ils témoignent comme ceux cités dans ces versets."
+
+#: admin/starter-content.php:343
+msgid "God, we pray for believers in [location_name] to discover ways to assess the spiritual health of your work among churches they are starting. https://zume.training/peer-mentoring-groups/"
+msgstr "Oh Dieu, nous prions pour tous les croyants en [location_name] de découvrir le chemin qui donne l’accès à la santé spirituelle parmi les églises qu’ils commencent. https://zume.training/peer-mentoring-groups-fr"
+
+#: admin/starter-content.php:346
+msgid "\"For from the rising of the sun to its setting my name will be great among the [people_name] nations, and in every place incense will be offered to my name, and a pure offering. For my name will be great among the [people_name] nations, says the Lord of hosts.\" (Malachi 1:11)"
+msgstr "\"Car depuis le lever du soleil jusqu'à son couchant, Mon nom est grand parmi les nations [people_plural_feminine], et en tout lieu on brûle de l'encens en l'honneur de mon nom et l'on présente des offrandes pures. Car grand est mon nom parmi les nations [people_plural_feminine], dit l'Éternel des armées.\" Malachie 1:11"
+
+#: admin/starter-content.php:347
+msgid "\"I tell you I will not drink again of this fruit of the vine until that day when I drink it new with you in my Father’s kingdom.\" (Matthew 26:29) Even more strongly than fasting [people_name] today long for their thirst to be quenched and their bellies to be filled with extravagant food, may your Church’s anticipation be growing for the day when Jesus drinks again of the fruit of the vine that He secured through His death, burial, and resurrection. We pray that there will be many [people_name] from every people group around that table."
+msgstr "\"Je vous le dis, je ne boirai plus désormais de ce fruit de la vigne, jusqu'au jour où j'en boirai du nouveau avec vous dans le royaume de mon Père.\" (Matthieu 26:29) Plus encore que le jeûne, [people_name] aspire aujourd'hui à ce que sa soif soit étanchée et son ventre soit rempli d'une nourriture extravagante, que l'anticipation de l'Église grandisse pour le jour où Jésus boira à nouveau du fruit de la vigne qu'il a obtenu par sa mort, son enterrement et sa résurrection. Nous prions pour qu'il y ait beaucoup de [people_name] de chaque groupe de personnes autour de cette table."
+
+#: admin/starter-content.php:348
+msgid "Thank you Lord for the example of the book of Acts, continue these stories and events in [location_name] today. We pray for unprecedented Kingdom advance this year in [location_name]!"
+msgstr "Merci Seigneur pour l’exemple du livre des Actes, continue ces histoires et évènements en [location_name] aujourd’hui. Nous prions pour avancement sans précédent du royaume de Dieu en cette année."
+
+#: admin/starter-content.php:349
+msgid "\"They went about in skins of sheep and goats, destitute, afflicted, mistreated— of whom the world was not worthy—wandering about in deserts and mountains, and in dens and caves of the earth.\" (Hebrews 11:37-38) Thank you for our many brothers and sisters in [location_name] -- of whom the world is not worthy. Protect them from the evil one and preserve their faith. May every persecution only strengthen their resolve and demonstrate the treasure of Christ."
+msgstr "\"...ils menèrent une vie errante, vêtus de peaux de moutons et de peaux de chèvres, manquant de tout, opprimés, maltraités, — eux dont le monde n'était pas digne ! — errant dans les déserts, les montagnes, les cavernes et les antres de la terre.\" (Hébreux 11:37b-38NBS) Merci, Seigneur, pour la vie de beaucoup de frères et de soeurs en [location_name] de qui ce monde n’est pas digne. Protège-les du malin et préserve leur foi. Que toute persécution ne fasse que fortifier leur résolution et démontrer le trésor de Christ."
+
+#: admin/starter-content.php:350
+msgid "Father, we pray for believers in [location_name] to learn simple tools like Four Fields to reflect on the status of current efforts and kingdom activity around them. https://zume.training/four-fields-tool/"
+msgstr "Père, nous prions pour tous les croyants en [location_name] d’apprendre des outils simples comme les quatre champs afin de réfléchir sur le statut des efforts actuels et sur l'activité du royaume autour d’eux. https://zume.training/four-fields-tool-fr"
+
+#: admin/starter-content.php:354
+msgid "\"And this gospel of the kingdom will be proclaimed throughout the whole world as a testimony to all nations, and then the end will come.\" (Matthew 24:14) Until you return, may the passion of Your church, both within [location_name] and beyond be the proclamation of the gospel of Your Kingdom among all nations."
+msgstr "Cette bonne nouvelle du royaume sera prêchée dans le monde entier, pour servir de témoignage à toutes les nations. Alors viendra la fin.\" (Matthieu 24:14) Jusqu’à ton retour Seigneur, que la passion de ton église, à la fois en [location_name] et au-delà soit la proclamation de l’évangile de ton royaume parmi toutes les nations."
+
+#: admin/starter-content.php:355
+msgid "\"Now the full number of those who believed were of one heart and soul...\" (Acts 4:32a) We praise You Lord for the ways believers in [location_name] care for one another. We pray for your Bride in this land to continue to grow in unity and love for one another."
+msgstr "\"La multitude de ceux qui avaient cru était un seul coeur et une même âme.\" (Actes 4:32) Nous te louons, Seigneur, pour la manière dont les croyants en [location_name] prennent soin des uns des autres. Nous prions que l'Epouse dans ce pays continue de grandir en unité et en amour les uns les autres."
+
+#: admin/starter-content.php:356
+msgid "\"And all these, though commended through their faith, did not receive what was promised, since God had provided something better for us, that apart from us they should not be made perfect.\" (Hebrews 11:39-40) Thank You Lord for the beautiful tapestry of faith you are weaving through believers across the centuries. We pray for many [people_name] to be brought into this promise, even during this month of Ramadan. Amen!"
+msgstr "\"Tous ceux-là, à la foi desquels il a été rendu témoignage, n'ont pas obtenu ce qui leur était promis, Dieu ayant en vue quelque chose de meilleur pour nous, afin qu'ils ne parvinssent pas sans nous à la perfection.\" (Hébreux 11:39-40) Merci, Seigneur, pour la merveilleuses tapisserie de foi que tu tisses au travers des croyants durant ces siècles. Nous prions pour beaucoup de [people_name] d'être introduit dans cette promesse durant ce mois de Ramadan. Amen !"
+
+#: admin/starter-content.php:357
+msgid "Father, we pray for believers in [location_name] to have and use tools like Generational Maps to understand the growth of their disciples and churches. https://zume.training/generational-mapping/"
+msgstr "Père, nous prions pour les croyants en [location_name] d’avoir et d’utiliser des outils comme l’arbre généalogique pour comprendre la croissance de leurs disciples et églises. https://zume.training/generational-mapping-fr"
+
+#: admin/starter-content.php:380
+msgid "PRAISE"
+msgstr "LOUANGE"
+
+#: admin/starter-content.php:388
+msgid "KINGDOM COME"
+msgstr "QUE LE ROYAUME VIENNE"
+
+#: admin/starter-content.php:396
+msgid "PRAY THE BOOK OF ACTS"
+msgstr "PRIER LE LIVRE DES ACTES"
+
+#: admin/starter-content.php:404
+msgid "PRAY THE HALL OF FAITH"
+msgstr "PRIER LE TEMPLE DE LA RENOMMEE"
+
+#: admin/starter-content.php:412
+msgid "PRAYER"
+msgstr "PRIERE"
+
+#: admin/starter-content.php:143
+msgid "\"For this I will praise you, O Lord, among the nations in [location_name], and sing to your name. (Psalm 18:49)"
+msgstr "\"C'est pourquoi je te louerai parmi les nations en [location_name], ô Éternel! et je chanterai à la gloire de ton nom.\" (Psaume 18:49)"
+
+#: site/archive-body.php:84
+msgid "Today's Prayer Fuel"
+msgstr "Guide de prière pour aujourd'hui"
+
+#: site/archive-body.php:104
+msgid "All Days"
+msgstr "Tous les jours"
+
+#: site/archive-body.php:106 site/landing-body.php:100
+msgid "Use these resources to help pray specifically each day for the month of Ramadan."
+msgstr "Utilisez ces ressources pour prier de manière spécifique chaque jour pendant le mois de Ramadan."
+
+#: site/archive-body.php:132
+msgid "Read"
+msgstr "Lire"
+
+#: admin/starter-content.php:214
+msgid "\"From the days of John the Baptist until now the kingdom of heaven has suffered violence, and the violent take it by force.\" (Matthew 11:12) Today as another day of fasting and feasting passes, we take comfort in knowing nothing can hinder your Kingdom advancing among the nations. We pray for many in [location_name] to actively participate in bringing Your Kingdom among the nations."
+msgstr "\"Depuis le temps de Jean Baptiste jusqu'à présent, le royaume des cieux est forcé, et ce sont les violents qui s'en emparent.\" (Matthieu 11:12) Pendant qu’un jour de jeûne et de célébration passe, nous avons le plaisir de savoir que rien ne peut empêcher ton royaume de s’épanouir dans les nations. Nous prions pour beaucoup en [location_name] participent activement à l'épanouissement de ton royaume parmi les nations."
+
+#: admin/starter-content.php:229
+msgid "\"I have made you a light for the Gentiles, that you may bring salvation to the ends of the earth... and the word of the Lord was spreading throughout the whole region.\" (Acts 13:47,49) Thank you that [location_name] is a part of those ’ends of the earth’. We agree with Your word today Lord and pray that it would spread throughout the whole region of [location_name]."
+msgstr "\"Je t'ai établi pour être la lumière des nations, pour porter le salut jusqu'aux extrémités de la terre...La parole du Seigneur se répandait dans tout le pays.\" (Actes 13:47,49) Merci parce que [location_name] fait partie de ces extrémités de la terre. Nous sommes d’accord avec cette parole d'aujourd'hui et nous prions qu’elle soit annoncée partout dans toute la région de [location_name]."
+
+#: admin/starter-content.php:272
+msgid "\"By faith Moses, when he was grown up, refused to be called the son of Pharaoh’s daughter, choosing rather to be mistreated with the people of God than to enjoy the fleeting pleasures of sin.\" (Hebrews 11:24-25) Lord, give all believers in [location_name] an eternal perspective to find pleasure in You more than in the fleeting pleasures of sin. As they do, may it be a powerful testimony to onlooking family and friends."
+msgstr "\"C'est par la foi que Moïse, devenu grand, refusa d'être appelé fils de la fille de Pharaon, aimant mieux être maltraité avec le peuple de Dieu que d'avoir pour un temps la jouissance du péché.\" (Hébreux 11:24-25) Seigneur, donne à tous les croyants de [location_name] une perspective éternelle pour trouver le plaisir en toi que dans les richesses éphémères du péché. Pendant qu’ils agissent ainsi, que cela soit un puissant témoignage aux amis et aux familles perdues."
+
+#: admin/starter-content.php:300
+msgid "\"By faith the people crossed the Red Sea as on dry land, but the Egyptians, when they attempted to do the same, were drowned.\" (Hebrews 11:29) We pray for God’s miraculous works recorded in the Bible to stir believers in [location_name] to live by faith in ever-increasing measure."
+msgstr "\"C'est par la foi qu'ils traversèrent la Mer Rouge comme un lieu sec, tandis que les Égyptiens qui en firent la tentative furent engloutis.\" (Hébreux 11:29) Nous prions que les œuvres miraculeuses mentionnées dans la Bible se manifestent en tous les croyants de [location_name] pour vivre par la foi et qu’ils croissent à jamais."
+
+#: admin/starter-content.php:321
+msgid "\"And what more shall I say? For time would fail me to tell of Gideon...\" (Hebrews 11:32-35a) Gideon allowed God to dwindle an army of more than 30,000 to 300 so that God would receive all of the glory for the victory. Raise up leaders like Gideon in [location_name], men and women who will have more confidence in God than in their resources."
+msgstr "\"Et que dirai-je encore? Car le temps me manquerait pour parler de Gédéon...\" (Hébreux 11:32-35a) Gédéon a permis à Dieu de diminuer une armée de plus de 30 000 à 300 afin que Dieu reçoive toute la gloire pour la victoire. Suscite des dirigeants en [location_name], hommes et femmes qui auront confiance en Dieu plus que leurs richesses."
+
+#: admin/starter-content.php:328
+msgid "\"And what more shall I say? For time would fail me to tell of... Barak...\" (Hebrews 11:32-35a) Though Barak stumbled with fear, he still led 10,000 people to victory and freedom for the people of God. We pray for godly [people_name] leaders to be used by God, despite their weaknesses, to free others from the bondage of sin."
+msgstr "\"Et que dirai-je encore? Car le temps me manquerait pour parler de ...Barak...\" (Hébreux 11:32-35a) Même si Barak a trébuché de peur, il a conduit 10 000 personnes à la victoire et à la liberté du peuple de Dieu. Nous prions pour les dirigeants [people-name] qu'ils soient pieux et utilisés par Dieu malgré leurs faiblesses pour libérer d’autres de l’esclavage du péché/"
+
+#: admin/starter-content.php:335
+msgid "\"And what more shall I say? For time would fail me to tell of... David...\" (Hebrews 11:32-35a) Please raise up many like David in [location_name], men and women after God’s own heart. As they chase after God’s heart, may they lead many others into relationship with Him."
+msgstr "\"Et que dirai-je encore? Car le temps me manquerait pour parler de...Samuel...\" (Hébreux 11:32-35a) Seigneur, suscite beaucoup comme David en [location_name], des hommes et des femmes selon le cœur de Dieu. Pendant qu’ils cherchent ardemment le cœur de Dieu, donne-leur la capacité de conduire les autres à avoir une relation avec Jésus."
+
+#: admin/starter-content.php:353
+msgid "“O Lord, God of our fathers, are you not God in heaven? You rule over all the kingdoms of the [people_name] nations. In your hand are power and might, so that none is able to withstand you. (2 Chronicles 20:6)"
+msgstr "\"Éternel, Dieu de nos pères, n'es-tu pas Dieu dans les cieux, et n'est-ce pas toi qui domines sur tous les royaumes des nations [people_plural_feminine]? N'est-ce pas toi qui as en main la force et la puissance, et à qui nul ne peut résister?\" (2 Chroniques 20:6)"
 

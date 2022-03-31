@@ -56,7 +56,14 @@ function dt_ramadan_list_languages(){
             'flag' => '🇪🇬',
             'prayer_fuel' => true,
             'dir' => 'rtl'
-        ]
+        ],
+        'ru_RU' => [
+            'language' => 'ru_RU',
+            'english_name' => 'Russian',
+            'native_name' => 'русский',
+            'flag' => '🇷🇺',
+            'prayer_fuel' => false,
+        ],
     ];
 
     foreach ( $available_language_codes as $code ){
