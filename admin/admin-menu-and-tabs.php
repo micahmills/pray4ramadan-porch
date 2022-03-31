@@ -639,7 +639,7 @@ class P4_Ramadan_Porch_Landing_Tab_Starter_Content {
                             $delete_enabled = ( $installed_langs[$language_key] ?? 0 ) > 1
                             ?>
                             <tr>
-                                <td><?php echo esc_html( $language["flag"] ); ?></td>
+                                <td><?php echo esc_html( $language["flag"] ); ?> <?php echo esc_html( $language['english_name'] ); ?></td>
                                 <td><?php echo esc_html( $installed_langs[$language_key] ?? 0 ); ?></td>
                                 <td><input style="width:150px" name="<?php echo esc_html( $language_key ); ?>_location_name" value="<?php echo esc_html( $country_name ); ?>"></td>
 <!--                                <td><input style="width:150px" name="--><?php //echo esc_html( $language_key ); ?><!--_people_singular_masculine" value="--><?php //echo esc_html( $people_name ); ?><!--"></td>-->
