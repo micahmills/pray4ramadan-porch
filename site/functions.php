@@ -27,7 +27,8 @@ function dt_ramadan_list_languages(){
             'language' => 'fr_FR',
             'english_name' => 'French (France)',
             'native_name' => 'Français',
-            'flag' => '🇫🇷'
+            'flag' => '🇫🇷',
+            'prayer_fuel' => true
         ],
         'pt_PT' => [
             'language' => 'pt_PT',

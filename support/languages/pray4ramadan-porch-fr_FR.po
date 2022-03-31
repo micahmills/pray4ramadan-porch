@@ -440,7 +440,7 @@ msgstr "\"C'est par la foi qu'Abraham offrit Isaac, lorsqu'il fut mis à l'épre
 
 #: admin/starter-content.php:231
 msgid "Lord, we pray for believers in [location_name] to be like ducklings in ways they make disciples. https://zume.training/duckling-discipleship-leading-sooner/"
-msgstr "Seigneur, nous prions en [location_name] d’être comme des canetons dans la manière de faire des disciples. https://zume.training/duckling-discipleship-leading-sooner-fr"
+msgstr "Seigneur, nous prions en [location_name] d’être comme des canetons dans la manière de faire des disciples. https://zume.training/fr/duckling-discipleship-leading-immediately-fr/"
 
 #: admin/starter-content.php:234
 msgid "\"Declare his glory among the [people_name] nations, his marvelous works among all the peoples!\" (Psalm 96:3)"
@@ -480,7 +480,7 @@ msgstr "\"C'est par la foi qu'Isaac bénit Jacob et Ésaü, en vue des choses à
 
 #: admin/starter-content.php:245
 msgid "Jesus, we pray for believers in [location_name] to enjoy the intimate connection with you in the Lord’s supper, and know how to lead others in celebrating it too. https://zume.training/the-lords-supper-and-how-to-lead-it/"
-msgstr "Jesus, nous prions pour les croyants en [location_name] de se réjouir dans la connexion intime qui se trouve dans le repas du Seigneur et savoir comment guider les autres à le célébrer aussi. https://zume.training/the-lords-supper-and-how-to-lead-it-fr"
+msgstr "Jesus, nous prions pour les croyants en [location_name] de se réjouir dans la connexion intime qui se trouve dans le repas du Seigneur et savoir comment guider les autres à le célébrer aussi. https://zume.training/fr/the-lord_s-supper-and-how-to-lead-it-fr/"
 
 #: admin/starter-content.php:248
 msgid "\"The Lord has made known his salvation; he has revealed his righteousness in the sight of the [people_name] nations.\" (Psalm 98:2)"
@@ -572,7 +572,7 @@ msgstr "\"Je te donnerai les clefs du royaume des cieux: ce que tu lieras sur la
 
 #: admin/starter-content.php:278
 msgid "We pray that every believer in [location_name] would \"remember the words of the Lord Jesus, how he himself said, \"It is more blessed to give than to receive\". (Acts 20:35), especially when it comes to spiritual blessings. We pray that every believer would experience the deep joy of giving the gift of Christ to others. Bonus: Check out https://zume.training/the-kingdom-economy/Kingdom Economy  for more on this concept."
-msgstr "Nous prions que tous les croyants en [location_name] se rappellent des paroles de Jésus, comment lui-même a dit « il y a plus de bonheur à donner qu’à recevoir ». (Acts 20:35), surtout quand il s’agit de bénédictions spirituelles. Nous prions tous les croyants expérimentent la joie profonde de donner le don de Christ aux autres. Bonus: https://zume.training/the-kingdom-economy-fr \n"
+msgstr "Nous prions que tous les croyants en [location_name] se rappellent des paroles de Jésus, comment lui-même a dit « il y a plus de bonheur à donner qu’à recevoir ». (Acts 20:35), surtout quand il s’agit de bénédictions spirituelles. Nous prions tous les croyants expérimentent la joie profonde de donner le don de Christ aux autres. Bonus: https://zume.training/the-kingdom-economy-fr\n"
 ""
 
 #: admin/starter-content.php:279
@@ -581,7 +581,7 @@ msgstr "Moïse regarda \"l'opprobre de Christ comme une richesse plus grande que
 
 #: admin/starter-content.php:280
 msgid "Father, we pray for believers in [location_name] to know how to meet, pray, learn, grow, fellowship, and practice obeying and sharing in simple churches with the 3/3 Group Meeting Pattern. https://zume.training/3-3-group-meeting-pattern/"
-msgstr "Nous prions que tous les croyants en [location_name] de savoir comment rencontrer, prier, apprendre, communier et pratiquer l’obéissance dans des églises simples avec le modèle de rencontre des groupes de 3/3. https://zume.training/3-3-group-meeting-pattern-fr"
+msgstr "Nous prions que tous les croyants en [location_name] de savoir comment rencontrer, prier, apprendre, communier et pratiquer l’obéissance dans des églises simples avec le modèle de rencontre des groupes de 3/3. https://zume.training/fr/group-meeting-pattern-fr/"
 
 #: admin/starter-content.php:283
 msgid "\"Sing praises to the Lord, who sits enthroned in Zion! Tell among the [people_name] peoples his deeds!\" (Psalm 9:11)"
