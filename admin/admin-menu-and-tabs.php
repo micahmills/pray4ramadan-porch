@@ -352,7 +352,7 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                 <tr>
                     <th style="width:20%">Home Page Details</th>
                     <th style="width:50%"></th>
-                    <th ><span style="float:right;"><button type="submit" name="reset_values" value='delete'>Reset all to default</button></span></th>
+<!--                    <th ><span style="float:right;"><button type="submit" name="reset_values" value='delete'>Reset all to default</button></span></th>-->
                 </tr>
                 </thead>
                 <tbody>
