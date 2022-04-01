@@ -108,7 +108,7 @@ class P4_Ramadan_Porch_Landing_Menu {
 
 
     public function download_campaign_csv( $campaign_id, $filename = "subscribers.csv", $delimiter = "," ){
-        $subscribers = DT_Posts::list_posts( "subscriptions", [ "campaigns" => [ $campaign_id ], "status" => [ "active" ] ], false );
+        $subscribers = DT_Posts::list_posts( "subscriptions", [ "campaigns" => [ $campaign_id ], "status" => [ "active" ], 'limit' => 1000 ], false );
         if ( is_wp_error( $subscribers ) ){
             return;
         }
