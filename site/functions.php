@@ -65,6 +65,13 @@ function dt_ramadan_list_languages(){
             'flag' => '🇷🇺',
             'prayer_fuel' => false,
         ],
+//        'bn_BD' => [
+//            'language' => 'bn_BD',
+//            'english_name' => 'Bengali',
+//            'native_name' => 'বাংলা',
+//            'flag' => '🇧🇩',
+//            'prayer_fuel' => true,
+//        ],
     ];
 
     foreach ( $available_language_codes as $code ){

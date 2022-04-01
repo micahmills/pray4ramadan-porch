@@ -1,0 +1,1006 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: P4M Ramadan Landing Page\n"
+"Language: bn\n"
+
+#: site/home-body.php:38
+msgid "Our"
+msgstr "আমাদের"
+
+#: site/home-body.php:38
+msgid "Vision"
+msgstr "দৃষ্টি"
+
+#: site/home-body.php:61
+msgid "Extraordinary Prayer"
+msgstr "অসাধারণ প্রার্থনা"
+
+#: site/home-body.php:62
+msgid "Every disciple making movement in history has happened in the context of extraordinary prayer."
+msgstr "ইতিহাসের প্রতিটি শিষ্য তৈরির আন্দোলন অসাধারণ প্রার্থনার প্রেক্ষাপটে ঘটেছে।"
+
+#: site/home-body.php:70
+msgid "Movement Focused"
+msgstr "মুভমেন্ট ফোকাসড"
+
+#: site/home-body.php:71
+msgid "Join us in asking, seeking, and knocking for streams of disciples and churches to be made."
+msgstr "শিষ্যদের এবং গীর্জা তৈরি করার জন্য জিজ্ঞাসা, চাওয়া, এবং নক করার জন্য আমাদের সাথে যোগ দিন।"
+
+#: site/home-body.php:79
+msgid "24/7 for 30 Days"
+msgstr "24/7 30 দিনের জন্য"
+
+#: site/home-body.php:80
+msgid "Choose a 15-minute (or more!) time slot that you can pray during each day. Invite someone else to sign up too."
+msgstr "একটি 15-মিনিট (বা তার বেশি!) সময় স্লট চয়ন করুন যা আপনি প্রতিদিন প্রার্থনা করতে পারেন। সাইন আপ করতে অন্য কাউকে আমন্ত্রণ জানান।"
+
+#: site/home-body.php:85 site/top-section.php:74
+msgid "Sign Up to Pray"
+msgstr "প্রার্থনা করতে সাইন আপ করুন"
+
+#: site/home-body.php:189
+msgid "Sign Up to"
+msgstr "সাইন আপ করুন"
+
+#: site/home-body.php:189
+msgid "Pray"
+msgstr "প্রার্থনা করুন"
+
+#: site/home-body.php:195
+msgid "here"
+msgstr "এখানে"
+
+#: site/home-body.php:224
+msgid "Days"
+msgstr "দিন"
+
+#: site/home-body.php:237
+msgid "Hours of Prayer"
+msgstr "নামাজের ঘন্টা"
+
+#: site/home-body.php:250
+msgid "Prayer Commitments Needed"
+msgstr "প্রার্থনা অঙ্গীকার প্রয়োজন"
+
+#: site/home-body.php:265
+msgid "15-Minute"
+msgstr "15 মিনিট"
+
+#: site/home-body.php:265 site/top-section.php:29
+msgid "Prayer Fuel"
+msgstr "প্রার্থনা জ্বালানী"
+
+#: site/home-body.php:267
+msgid "Use these resources to help pray specifically each day for the month of Ramadan"
+msgstr "রমজান মাসের জন্য প্রতিদিন বিশেষভাবে প্রার্থনা করতে সাহায্য করার জন্য এই সংস্থানগুলি ব্যবহার করুন"
+
+#: site/home-body.php:268
+msgid "View All"
+msgstr "সব দেখ"
+
+#: site/top-section.php:23
+msgid "Home"
+msgstr "বাড়ি"
+
+#: site/top-section.php:26
+msgid "Sign Up"
+msgstr "নিবন্ধন করুন"
+
+#: site/top-section.php:66
+msgid "Strategic prayer for a disciple making movement in %s"
+msgstr "%s-এ শিষ্য তৈরির আন্দোলনের জন্য কৌশলগত প্রার্থনা"
+
+#: site/top-section.php:68
+msgid "Strategic prayer for a disciple making movement"
+msgstr "শিষ্য তৈরির আন্দোলনের জন্য কৌশলগত প্রার্থনা"
+
+#. Plugin Name of the plugin/theme
+#: 
+msgid "Pray4Ramadan Porch"
+msgstr "রমজানের বারান্দায় নামাজ পড়ুন"
+
+#. Plugin URI of the plugin/theme
+#: 
+msgid "https://github.com/Pray4Movement/pray4ramadan-porch"
+msgstr "https://github.com/Pray4Movement/pray4ramadan-porch"
+
+#. Description of the plugin/theme
+#: 
+msgid "This is this microsite plugin to support the Ramadan 24/7 Campaign"
+msgstr "রমজান 24/7 প্রচারণাকে সমর্থন করার জন্য এটি এই মাইক্রোসাইট প্লাগইন"
+
+#. Author URI of the plugin/theme
+#: 
+msgid "https://github.com/DiscipleTools"
+msgstr "https://github.com/DiscipleTools"
+
+#: pray4ramadan-porch.php:418
+msgid "We want to cover the country of %s with continuous 24/7 prayer during the entire 30 days of Ramadan."
+msgstr "আমরা রমজানের পুরো 30 দিন একটানা 24/7 নামাজের মাধ্যমে %s এর দেশকে কভার করতে চাই।"
+
+#: site/home-body.php:155
+msgid "Ramadan is Finished"
+msgstr "রমজান শেষ"
+
+#: site/home-body.php:168
+msgid "Ramadan Ends ..."
+msgstr "রমজান শেষ..."
+
+#: site/home-body.php:169 site/home-body.php:176
+msgid "days"
+msgstr "দিন"
+
+#: site/home-body.php:170 site/home-body.php:177
+msgid "hours"
+msgstr "ঘন্টার"
+
+#: site/home-body.php:171 site/home-body.php:178
+msgid "minutes"
+msgstr "মিনিট"
+
+#: site/home-body.php:172 site/home-body.php:179
+msgid "seconds"
+msgstr "সেকেন্ড"
+
+#: site/home-body.php:175
+msgid "Ramadan Begins ..."
+msgstr "রমজান শুরু..."
+
+#: pray4ramadan-porch.php:407
+msgid "Ramadan is one of the five requirements (or pillars) of Islam. During each of its 30 days, Muslims are obligated to fast from dawn until sunset. During this time they are supposed to abstain from food, drinking liquids, smoking, and sexual relations.\n"
+"\n"
+" In %1$s, women typically spend the afternoons preparing a big meal. At sunset, families often gather to break the fast. Traditionally the families break the fast with a drink of water, then three dried date fruits, and a multi-course meal. After watching the new Ramadan TV series, men (and some women) go out to coffee shops where they drink coffee, and smoke with friends until late into the night.\n"
+"\n"
+" Though many %2$s have stopped fasting in recent years, and lots of %2$s are turned off by the hypocrisy, increased crime rates, and rudeness that is pervasive through the month, lots of %2$s become more serious about religion during this time. Many attend the evening prayer services and do the other ritual prayers. Some even read the entire Quran (about a tenth the length of the Bible). This sincere seeking makes it a strategic time for us to pray for them."
+msgstr "রমজান ইসলামের পাঁচটি প্রয়োজনীয়তার (বা স্তম্ভ) একটি। প্রতিটি 30 দিনের মধ্যে, মুসলমানরা ভোর থেকে সূর্যাস্ত পর্যন্ত রোজা রাখতে বাধ্য। এই সময়ে তাদের খাদ্য, পানীয় তরল, ধূমপান এবং যৌন সম্পর্ক থেকে বিরত থাকার কথা।\n"
+"\n"
+" %1$s-এ, মহিলারা সাধারণত একটি বড় খাবার তৈরির জন্য বিকেল কাটান। সূর্যাস্তের সময়, পরিবারগুলি প্রায়শই উপবাস ভাঙতে জড়ো হয়। ঐতিহ্যগতভাবে পরিবারগুলি জল পান করে, তারপরে তিনটি শুকনো খেজুর এবং একটি মাল্টি-কোর্স খাবার দিয়ে উপবাস ভঙ্গ করে। নতুন রমজান টিভি সিরিজ দেখার পর, পুরুষরা (এবং কিছু মহিলা) কফির দোকানে যায় যেখানে তারা কফি পান করে এবং গভীর রাত পর্যন্ত বন্ধুদের সাথে ধূমপান করে।\n"
+"\n"
+" যদিও সাম্প্রতিক বছরগুলিতে অনেক %2$s উপবাস বন্ধ করে দিয়েছে, এবং অনেক %2$s ভণ্ডামি, অপরাধের হার বৃদ্ধি এবং মাসজুড়ে ছড়িয়ে থাকা অভদ্রতার কারণে বন্ধ হয়ে গেছে, অনেক %2$s এই বিষয়ে আরও গুরুতর হয়ে উঠেছে এই সময়ে ধর্ম। অনেকে সন্ধ্যার প্রার্থনা সেবায় যোগদান করে এবং অন্যান্য ধর্মীয় প্রার্থনা করে। কেউ কেউ পুরো কুরআনও পড়েন (বাইবেলের দৈর্ঘ্যের প্রায় দশমাংশ)। এই আন্তরিক চাওয়া আমাদের জন্য তাদের জন্য প্রার্থনা করার জন্য একটি কৌশলগত সময় করে তোলে।"
+
+#: admin/campaigns-config.php:52
+msgid "Click here to see the prayer prompts for today: %s"
+msgstr "আজকের জন্য প্রার্থনা প্রম্পট দেখতে এখানে ক্লিক করুন: %s"
+
+#: admin/starter-content.php:144
+msgid "\"And this gospel of the kingdom will be proclaimed throughout the whole world as a testimony to all nations, and then the end will come.\" (Matthew 24:14) With faith and confidence, we pray for the Gospel of the Kingdom to spread throughout the nation of [location_name]. We know it is not a question of ’if’, but a question of ’when’. Please Lord, let it happen in our generation."
+msgstr "'আর সর্ব জাতির নিকটে সাক্ষ্য দিবার নিমিত্ত রাজ্যের এই সুসমাচার সমুদয় জগতে প্রচার করা যাইবে; আর তখন শেষ উপস্থিত হইবে। ' মথি ২৪:১৪ \n"
+"\n"
+"বিশ্বাস এবং আত্মবিশ্বাসের সাথে, আমরা তোমার রাজ্যের সুসমাচার সমগ্র বাংলাদেশ জাতিতে ছড়িয়ে দেওয়ার জন্য প্রার্থনা করি। আমরা জানি এটি 'যদি' এর প্রশ্ন নয়, তবে 'কখন' এর প্রশ্ন। প্রভু, দয়া করে যেন এটি আমাদের প্রজন্মের মধ্যে ঘটতে দিন।"
+
+#: admin/starter-content.php:145
+msgid "\"All these with one accord were devoting themselves to prayer...\" (Acts 1:14) Father, in this time of social distancing we thank you for the virtual prayer groups you are raising up among [people_name] believers and we pray the same abiding that happened among the early disciples would likewise result in bold proclamation and many turning to faith in Jesus in [location_name]."
+msgstr "'ইঁহারা সকলে সঙ্গে এক চিত্তে প্রার্থনায় নিবিষ্ট রহিলেন। 'প্রেরিত্‌ ১:১৪ \n"
+"\n"
+"পিতা, সামাজিক দূরত্বের এই সময়ে আপনি বাংলাদেশী বিশ্বাসীদের মধ্যে যে ভার্চুয়াল প্রার্থনা দলগুলিকে গড়ে তুলছেন তার জন্য আমরা আপনাকে ধন্যবাদ জানাই এবং আমরা প্রার্থনা করি প্রাথমিক শিষ্যদের মধ্যে যা ঘটেছিল একইভাবে একই সাহসী ঘোষণার ফলে বাংলাদেশেও একইভাবে অনেককে যীশুর প্রতি বিশ্বাস আনবে।"
+
+#: admin/starter-content.php:146
+msgid "\"Now faith is the assurance of things hoped for, the conviction of things not seen. For by it the people of old received their commendation.\" (Hebrews 11:1-2) Give every believer in [location_name] courage to live by faith instead of by sight."
+msgstr "'আর বিশ্বাস প্রত্যাশিত বিষয়ের নিশ্চয়জ্ঞান, অদৃশ্য বিষয়ের প্র্রমাণপ্রাপ্তি। কারণ এই সম্বন্ধেই প্রাচীনগণের পক্ষে সাক্ষ্য দেওয়া হইয়াছিল। ' ইব্রীয় ১১:১-২\n"
+"\n"
+" বাংলাদেশের প্রতিটি বিশ্বাসীকে দৃশ্যত নয় কিন্তু বিশ্বাসের দ্বারা বেঁচে থাকার সাহস দিন। "
+
+#: admin/starter-content.php:147
+msgid "Lord, help the people of [location_name] to discover the essence of being a disciple, making disciple, and what the church is. https://zume.training/definition-of-disciple-and-church/"
+msgstr "প্রভু, শিষ্য হওয়ার নিষ্কর্ষতা, শিষ্য তৈরি এবং মণ্ডলী কী তা আবিষ্কার করতে বাংলাদেশের মানুষকে সাহায্য করুন। https://zume.training/definition-of-disciple-and-church/    https://zume.training/bn/ "
+
+#: admin/starter-content.php:150 admin/starter-content.php:332
+msgid "\"All the ends of the earth shall remember and turn to the Lord, and all the families of the [people_name] nations shall worship before you.\" (Psalm 22:27)"
+msgstr "'পৃথিবীর প্রান্তস্থিত সকলে স্মরণ করিয়া সদাপ্রভুর প্রতি ফিরিবে; জাতিগণের  (বিশেষভাবে বাংলাদেশের) সমস্ত গোষ্ঠী তোমার সম্মুখে প্রণিপাত করিবে। ' (গীত ২২:২৭) "
+
+#: admin/starter-content.php:151
+msgid "\"Repent, for the kingdom of heaven is at hand.\" (Matthew 3:2) Pray for [people_name] throughout the country to experience true repentance as they see the holy standard of a Righteous King and their inability to ever measure up."
+msgstr "'তিনি বলিলেন, ‘মন ফিরাও, কেননা স্বর্গ-রাজ্য সন্নিকট হইল।’ 'মথি ৩:২ \n"
+"\n"
+"সারাদেশে বাংলাদেশের জন্য প্রার্থনা করুন যেন তারা পবিত্র রাজার পবিত্রতা দেখে সত্যিকারের অনুতাপের অভিজ্ঞতা লাভ করে কারণ তারা একজন ধার্মিক রাজার পবিত্র মান এবং  যা তারা মাপতে পারেনা।"
+
+#: admin/starter-content.php:152
+msgid "\"And they were selling their possessions and belongings and distributing the proceeds to all, as any had need... and the Lord added to their number day by day those who were being saved.\" (Acts 2:42-47). As believers in [location_name] seek to be living out these verses, would you, Lord, please add daily those who are being saved."
+msgstr "'আর তাহারা প্রেরিতদের শিক্ষায় ও সহভাগিতায়, রুটি ভাঙ্গায় ও প্রার্থনায় নিবিষ্ট থাকিল। আর স্থাবর অস্থাবর সমপত্তি বিক্রয় করিয়া, যাহার যেমন প্রয়োজন, তদনুসারে সকলকে অংশ করিয়া দিত।...... আর যাহারা পরিত্রাণ পাইতেছিল, প্রভু দিন দিন তাহাদিগকে তাহাদের সহিত সংযুক্ত করিতেন। প্রেরিত্‌ ২:৪২-৪৭ \n"
+"\n"
+"যেহেতু বাংলাদেশের বিশ্বাসীরা এই বাক্যের আলোকে চলতে চায়, প্রভু, যারা পরিত্রাণ পাচ্ছে তাদেরকেও আপনি দিন দিন তাদের সঙ্গে সংযুক্ত করুন। "
+
+#: admin/starter-content.php:153
+msgid "\"By faith we understand that the universe was created by the word of God, so that what is seen was not made out of things that are visible.\" (Hebrews 11:3) As [people_name] encounter the beauty of your creation through Mediterranean beaches, Saharan desert dunes, and luscious green hills may they be drawn to the Word through whom You created the world."
+msgstr "'বিশ্বাসে আমরা বুঝিতে পারি যে, যুগকলাপ ঈশ্বরের বাক্য দ্বারা রচিত হইয়াছে, সুতরাং কোন প্রত্যক্ষ বস্তু হইতে এই সকল দৃশ্য বস্তুর উৎপত্তি হয় নাই। ' ইব্রীয় ১১:৩ \n"
+"\n"
+"বাংলাদেশ যেমন সমুদ্র সৈকত এবং মনোরম সবুজ পাহাড়ের সৌন্দর্যের মুখোমুখি হয়ে তোমার সৃষ্টির প্রশংসা করে, এমনই তারা যেন সেই বাক্যের  প্রতি আকৃষ্ট হয় যার মাধ্যমে আপনি এই বিশ্ব সৃষ্টি করেছেন।"
+
+#: admin/starter-content.php:154
+msgid "God, please help the people of [location_name] to be disciples who hear from you and then obey you. https://zume.training/spiritual-breathing-is-hearing-and-obeying-god/"
+msgstr "ঈশ্বর, দয়া করে বাংলাদেশের জনগণকে শিষ্য হতে সাহায্য করুন যারা আপনার কাছ থেকে শুনে এবং সেগুলো পালন করে। https://zume.training/spiritual-breathing-is-hearing-and-obeying-god/  https://zume.training/bn/ "
+
+#: admin/starter-content.php:157
+msgid "For kingship belongs to the Lord, and he rules over the [people_name] nations. (Psalm 22:28)"
+msgstr "'কেননা রাজত্ব সদাপ্রভুরই; তিনিই জাতিগণের  (বিশেষভাবে বাংলাদেশের) উপরে শাসনকর্তা। ' (গীত ২২:২৮)"
+
+#: admin/starter-content.php:158
+msgid "\"And he went throughout all Galilee, teaching in their synagogues and proclaiming the gospel of the kingdom and healing every disease and every affliction among the people.\" (Matthew 4:23) Pray for the proclamation of the Gospel to be accompanied by miracles and signs and wonders throughout [location_name]."
+msgstr "'পরে যীশু সমুদয় গালীলে ভ্রমণ করিতে লাগিলেন; তিনি লোকদের সমাজ-গৃহে সমাজ-গৃহে উপদেশ দিলেন, রাজ্যের সুসমাচার প্রচার করিলেন, এবং লোকদের সর্বপ্রকার রোগ ও সর্বপ্রকার পীড়া ভাল করিলেন। 'মথি ৪:২৩ \n"
+"\n"
+"সমগ্র বাংলাদেশ জুড়ে অলৌকিক ঘটনা, লক্ষণ এবং আশ্চর্যভাবে সুসমাচারের ঘোষণার জন্য প্রার্থনা করুন।"
+
+#: admin/starter-content.php:159
+msgid "\"And in your offspring shall all the families of the earth be blessed.\" (Acts 3:25b) Lord, please fulfill your promise to Abraham among the many [people_name] families spread from the north to the south."
+msgstr " ‘‘আর তোমার বংশে পৃথিবীস্থ সমস্ত পিতৃকুল আশীর্বাদ পাইবে।” 'প্রেরিত্‌ ৩:২৫ (শেষাংশ) \n"
+"\n"
+"প্রভু, উত্তর থেকে দক্ষিণে ছড়িয়ে থাকা অনেক বাংলাদেশী পরিবারের মধ্যে আব্রাহামের প্রতি আপনার প্রতিশ্রুতি পূরণ করুন।"
+
+#: admin/starter-content.php:160
+msgid "\"By faith Abel offered to God a more acceptable sacrifice than Cain, through which he was commended as righteous...\" (Hebrews 11:4a) Convict [people_name] this Ramadan, Lord, that we can only be made right before you on your terms through faith, not ours."
+msgstr "'বিশ্বাসে হেবল ঈশ্বরের উদ্দেশে কয়িন অপেক্ষা শ্রেষ্ঠ যজ্ঞ উৎসর্গ করিলেন, এবং তদ্দ্বারা তাহার পক্ষে এই সাক্ষ্য দেওয়া হইয়াছিল যে, তিনি ধার্মিক; ইব্রীয় ১১:৪ \n"
+"\n"
+"এই রমজানে বাংলাদেশিদের অপরাধী করুন। প্রভু, আমরা কেবল বিশ্বাসের মাধ্যমে আপনার ইচ্ছায় আপনার সামনে সঠিক হতে পারি, আমাদের ইচ্ছাতে নয়। "
+
+#: admin/starter-content.php:161
+msgid "Father, we pray that the people of [location_name] will learn to study the Bible, understand it, obey it, and share it. https://zume.training/soaps-bible-reading/"
+msgstr "পিতা, আমরা প্রার্থনা করি যে বাংলাদেশের মানুষ বাইবেল অধ্যয়ন করতে শিখবে, তা বুঝতে পারবে, মেনে চলবে এবং প্রচার করবে। https://zume.training/soaps-bible-reading/  https://zume.training/bn/ "
+
+#: admin/starter-content.php:164
+msgid "\"I will cause your name to be remembered in all generations; therefore nations (including [location_name]) will praise you forever and ever.\" (Psalm 45:17)"
+msgstr "'আমি তোমার নাম সমস্ত পুরুষপরম্পরায় স্মরণ করাইব, এই জন্য জাতিরা (বিশেষভাবে বাংলাদেশ) যুগে যুগে চিরকাল তোমার স্তব করিবে।' (গীত ৪৫:১৭) "
+
+#: admin/starter-content.php:165
+msgid "\"Blessed are the poor in spirit, for theirs is the kingdom of heaven.\" (Matthew 5:3) May the [people_name] church joyfully demonstrate the blessing that comes from being poor in spirit. Pray for them to experience fuller measures of the Kingdom through their poverty of spirit.\""
+msgstr "'ধন্য যাহারা আত্মাতে দীনহীন, কারণ স্বর্গ-রাজ্য তাহাদেরই। 'মথি ৫:৩ \n"
+"\n"
+"বাংলাদেশ মণ্ডলী আনন্দের সাথে সেই আশীর্বাদ প্রদর্শন করুক যা আত্মাতে দীনহীন হওয়ার ফলে আসে। তাদের জন্য প্রার্থনা করুন যেন তারা তাদের আত্মাতে দীনহীনটার মধ্য দিয়ে ঈশ্বরের রাজ্যের পরিপূর্ণতা পরিমাপের অভিজ্ঞতা লাভ করেন।”"
+
+#: admin/starter-content.php:166
+msgid "\"And now, Lord, look upon their threats and grant to your servants to continue to speak your word with all boldness, while you stretch out your hand to heal, and signs and wonders are performed through the name of your holy servant Jesus.\" (Acts 4:30-31) Do it, Lord, please!"
+msgstr "'আর এখন, হে প্রভু, উহাদের ভয় প্রদর্শনের প্রতি দৃষ্টিপাত কর; এবং তোমার এই দাসদিগকে সম্পূর্ণ সাহসের সহিত তোমার বাক্য বলিবার ক্ষমতা দেও, আরোগ্য-দানার্থে তোমার হস্ত বিস্তার কর; আর তোমার পবিত্র দাস যীশুর নামে যেন চিহ্ন-কার্য ও অদ্ভুত লক্ষণ সাধিত হয়। ' প্রেরিত্‌ ৪:২৯-৩০ \n"
+"\n"
+"ও প্রভু, দয়া করো, যেন এটাই হয়! "
+
+#: admin/starter-content.php:167
+msgid "\"...Now before he (Enoch) was taken he was commended as having pleased God.\" (Hebrews 11:5b) May believers in [location_name], through faith, seek commendation from You more than man. May they live their lives in pursuit of Your approval alone."
+msgstr ".... বস্তুতঃ লোকান্তরে নীত হইবার পূর্বে তাঁহার (হনোক) পক্ষে এই সাক্ষ্য দেওয়া হইয়াছিল যে, তিনি ঈশ্বরের প্রীতির পাত্র ছিলেন। 'ইব্রীয় ১১:৫ (শেষাংশ) \n"
+"\n"
+"বাংলাদেশের বিশ্বাসীরা, বিশ্বাসের মাধ্যমে, মানুষের চেয়ে আপনার কাছে বেশি প্রশংসা চাক।  যেন কেবল আপনার সমর্থনের সাধনায় তারা তাদের জীবনযাপন করুক।"
+
+#: admin/starter-content.php:168
+msgid "God, we pray both the men and women of [location_name] will find ways to meet in groups of two or three to encourage and correct one another. https://zume.training/accountability-groups/"
+msgstr "ঈশ্বর, আমরা প্রার্থনা করি বাংলাদেশের নারী-পুরুষ উভয়েই একে অপরকে উত্সাহিত ও সংশোধন করার জন্য দুই বা তিনজনের দলে মিলিত হওয়ার উপায় খুঁজে বের করবে। https://zume.training/accountability-groups/ https://zume.training/bn/ "
+
+#: admin/starter-content.php:171
+msgid "“Be still, and know that I am God. I will be exalted among the [people_name] nations, I will be exalted in the earth!\" (Psalm 46:10)"
+msgstr "'তোমরা ক্ষান্ত হও; জানিও, আমিই ঈশ্বর; আমি জাতিগণের (বিশেষভাবে বাংলাদেশের) মধ্যে উন্নত হইব, আমি পৃথিবীতে উন্নত হইব। ' (গীত ৪৬:১০) "
+
+#: admin/starter-content.php:172
+msgid "\"Blessed are those who are persecuted for righteousness sake, for theirs is the kingdom of heaven.\" (Matthew 5:10) Father, we intercede on behalf of every [people_name] brother and sister undergoing persecution for the sake of righteousness. Bless them with greater intimacy with You and give them perseverance in suffering."
+msgstr "'ধন্য যাহারা ধার্মিকতার জন্য তাড়িত হইয়াছে, কারণ স্বর্গ-রাজ্য তাহাদেরই। 'মথি ৫:১০\n"
+"\n"
+" পিতা, আমরা ধার্মিকতার জন্য নির্যাতিত প্রতিটি বাংলাদেশী ভাই ও বোনের পক্ষে সুপারিশ করছি। আশীর্বাদ করুন যেন তাদের  সঙ্গে আপনার  সম্পর্ক আরও গভীর হয় এবং তাদের কষ্টে সহ্য করার ক্ষমতা দিন।"
+
+#: admin/starter-content.php:173
+msgid "\"And every day, in the temple and from house to house, they did not cease teaching and preaching that the Christ is Jesus.\" (Acts 5:41) May believers in [location_name] saturate the country with the truth that Jesus is the Christ -- loaded with all the richness of that title from Scripture. May every home have an opportunity to hear this truth."
+msgstr "'আর তাঁহারা প্রতিদিন ধর্মধামে ও বাটীতে উপদেশ দিতেন, এবং যীশুই যে খ্রীষ্ট, এই সুসমাচার প্রচার করিতেন, ক্ষান্ত হইতেন না।' প্রেরিত্‌ ৫:৪২\n"
+"\n"
+"বাংলাদেশের বিশ্বাসীরা দেশকে এই সত্যে পরিপূর্ণ করুক যে যীশুই হলেন খ্রীষ্ট  —  বাইবেল থেকে সেই শিরোনামের সমৃদ্ধিতে পরিপূর্ণ হোক। প্রতিটি ঘরে এই সত্য শোনার সুযোগ হোক।"
+
+#: admin/starter-content.php:174
+msgid "\"And without faith it is impossible to please him, for whoever would draw near to God must believe that he exists and that he rewards those who seek him.\" (Hebrews 11:6) Lord, please cause multitudes of [people_name] to seek You and experience the greatest reward -- Yourself!"
+msgstr "'কিন্তু বিনা বিশ্বাসে প্রীতির পাত্র হওয়া কাহারও সাধ্য নয়; কারণ যে ব্যক্তি ঈশ্বরের নিকটে উপস্থিত হয়, তাহার ইহা বিশ্বাস করা আবশ্যক যে ঈশ্বর আছেন, এবং যাহারা তাঁহার অন্বেষণ করে, তিনি তাহাদের পুরস্কারদাতা। ' ইব্রীয় ১১;৬\n"
+"\n"
+"প্রভু, আপনি নিজেই অনুগ্রহ করে বাংলাদেশের বহু সংখ্যক মানুষকে আপনার সন্ধান করতে এবং সর্বশ্রেষ্ঠ পুরস্কারের অভিজ্ঞতা দিন!"
+
+#: admin/starter-content.php:175
+msgid "Lord, we pray for believers in [location_name] who will discover the ways you make us more like Jesus. https://zume.training/consumer-vs-producer-lifestyle/"
+msgstr "প্রভু, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি যারা সেইসব উপায়গুলো অনুসন্ধান করবে যেগুলো  আমাদেরকে যীশুর মতো আপনি তরী করেছেন। https://zume.training/consumer-vs-producer-lifestyle/ https://zume.training/bn/ "
+
+#: admin/starter-content.php:178
+msgid "\"God reigns over the [people_name] nations; God sits on his holy throne.\" (Psalm 47:8)"
+msgstr "'ঈশ্বর জাতিগণের (বিশেষভাবে বাংলাদেশের) উপরে রাজত্ব করেন; ঈশ্বর আপন পবিত্র সিংহাসনে উপবিষ্ট। ' (গীত ৪৭:৮)"
+
+#: admin/starter-content.php:179
+msgid "\"For I tell you, unless your righteousness exceeds that of the scribes and Pharisees, you will never enter the kingdom of heaven.\" (Matthew 5:20) Many think that Christians have an easier ’religion’ because of misunderstanding the Gospel of grace through Christ Jesus. We pray for every believer in [location_name]’s holiness to shine forth and for many to be drawn to Jesus through the authentic witness of Christ in His disciples.\""
+msgstr "'কেননা আমি তোমাদিগকে কহিতেছি, অধ্যাপক ও ফরীশীদের অপেক্ষা তোমাদের ধার্মিকতা যদি অধিক না হয়, তবে তোমরা কোন মতে স্বর্গ-রাজ্যে প্রবেশ করিতে পারিবে না। 'মথি ৫:২০ \n"
+"\n"
+"অনেকে মনে করেন যে খৃস্ট যীশুর মাধ্যমে অনুগ্রহে প্রাপ্ত সুসমাচার ভুল বোঝার কারণে খ্রিস্টানদের  'ধর্ম' অত্যন্ত সহজ। আমরা প্রার্থনা করি বাংলাদেশের প্রতি  বিশ্বাসী পবিত্রতায়   উজ্জ্বল হয়ে উঠুক এবং তাঁর শিষ্যদের মধ্যে সত্যিকারের সাক্ষী হয়ে অনেককে যীশুর প্রতি আকৃষ্ট করতে পারে।"
+
+#: admin/starter-content.php:180
+msgid "\"And the word of God continued to increase, and the number of the disciples multiplied greatly in Jerusalem, and a great many of the priests became obedient to the faith.\" (Acts 6:7) Through prayer, ministry of the Word, service, care for the widows, and faith multiply the number of disciples in [location_name], Lord."
+msgstr "'আর ঈশ্বরের বাক্য ব্যাপিয়া গেল, এবং যিরূশালেমে শিষ্যদের সংখ্যা অতিশয় বৃদ্ধি পাইতে লাগিল; আর যাজকদের মধ্যে বিস্তর লোক বিশ্বাসের বশবর্তী হইল। ' প্রেরিত্‌ ৬:৭ \n"
+"\n"
+"প্রভু, যেন প্রার্থনা, বাক্যের পরিচর্যার, বিধবাদের যত্ন এবং বিশ্বাসের মাধ্য দিয়ে বাংলাদেশে শিষ্যের সংখ্যা বহুগুণ বেড়ে যায়। "
+
+#: admin/starter-content.php:181
+msgid "\"By faith Noah, being warned by God concerning events as yet unseen, in reverent fear constructed an ark for the saving of his household...\" (Hebrews 11:7a) We pray for many heads of household, who like Noah, would take outrageous risks for the sake of saving their families."
+msgstr "'বিশ্বাসে নোহ, যাহা যাহা তখন দেখা যাইতেছিল না, এমন বিষয়ে আদেশ পাইয়া ভক্তিযুক্ত ভয়ে আবিষ্ট হইয়া আপন পরিবারের ত্রাণার্থে এক জাহাজ নির্মাণ করিলেন,\" \" ইব্রীয় ১১:৭ (প্রথমাংশ) \n"
+"\n"
+"আমরা অনেক পরিবারের প্রধানদের জন্য প্রার্থনা করি, যারা নোহের মতো, তাদের পরিবারকে বাঁচানোর জন্য দুর্দান্ত ঝুঁকি নিতে পারে।"
+
+#: admin/starter-content.php:182
+msgid "God, we pray for believers in [location_name] who will know how easy it is to spend an hour in prayer with you, and will do it. https://zume.training/how-to-spend-an-hour-in-prayer/"
+msgstr "ঈশ্বর, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি যারা আপনার সাথে এক ঘন্টা প্রার্থনা করা কতটা সহজ তা জানবে এবং তা করবে। https://zume.training/how-to-spend-an-hour-in-prayer/  https://zume.training/bn/ "
+
+#: admin/starter-content.php:185
+msgid "\"I will give thanks to you, O Lord, among the ([people_name]) peoples; I will sing praises to you among the nations.\" (Psalm 57:9)"
+msgstr "'হে প্রভু, আমি জাতিগণের মধ্যে তোমার স্তব করিব, আমি লোকবৃন্দের (বিশেষভাবে বাংলাদেশের) মধ্যে তোমার প্রশংসা গাহিব। ' (গীত ৫৭:৯) "
+
+#: admin/starter-content.php:186
+msgid "\"Your kingdom come, your will be done, on earth as it is in heaven.\" (Matthew 6:10) Your ways are not our ways. Your Kingdom is unlike every earthly kingdom. We pray for your heavenly Kingdom to come in every home, neighborhood, city, and region throughout this land.\""
+msgstr "'তোমার রাজ্য আইসুক, তোমার ইচ্ছা সিদ্ধ হউক, যেমন স্বর্গে তেমনি পৃথিবীতেও হউক; 'মথি ৬:১০\n"
+"\n"
+"তোমার পথ আমাদের পথ নয়। তোমার রাজ্য পৃথিবীর সমস্ত রাজ্যের থেকে আলাদা। আমরা প্রার্থনা করি তোমার স্বর্গ রাজ্য যেন এই দেশের প্রতিটি বাড়িতে, পাড়ায়, শহর এবং অঞ্চলে আসে।”"
+
+#: admin/starter-content.php:187
+msgid "\"But he, full of the Holy Spirit gazed into heaven and saw the glory of God, and Jesus standing at the right hand of God...\" (Acts 7:56) Father, we pray for many Stephen-like believers in [location_name] -- men and women of good repute, full of the Spirit and of wisdom, and servants. May they be ready to do whatever you call them to at whatever cost because they are so gripped by Your glory."
+msgstr "'আর তিনি বলিলেন, দেখ, আমি দেখিতেছি, স্বর্গ খোলা রহিয়াছে, এবং মনুষ্যপুত্র ঈশ্বরের দক্ষিণে দাঁড়াইয়া আছেন। ' প্রেরিত্‌ ৭:৫৬ \n"
+"\n"
+"পিতা, আমরা বাংলাদেশে স্টিফেনের মতো অনেক বিশ্বাসীদের জন্য প্রার্থনা করি — স্বনামধন্য পুরুষ ও মহিলা, যারা আত্মায় ও জ্ঞানে পূর্ণ এবং দাস, যেন তারা তোমার আহ্বানে আহুত হয়ে যেকোনো কাজ যেকোনো মূল্যে করতে প্রস্তুত থাকে। "
+
+#: admin/starter-content.php:188
+msgid "\"By faith Abraham obeyed when he was called to go out to a place that he was to receive as an inheritance. And he went out, not knowing where he was going.\" (Hebrews 11:8) May both seekers and believers in [location_name] be willing to start on a journey of obedience to You despite not knowing how it may turn out in this life."
+msgstr "'বিশ্বাসে অব্রাহাম, যখন আহূত হইলেন, তখন যে স্থান অধিকারার্থে প্রাপ্ত হইবেন, সেই স্থানে যাইবার আজ্ঞা মান্য করিলেন, এবং কোথায় যাইতেছেন, তাহা না জানিয়া যাত্রা করিলেন। ' ইব্রীয় ১১:৮ \n"
+"\n"
+"বাংলাদেশের সন্ধানকারী এবং বিশ্বাসী উভয়ই পরিণতি না জানা সত্যেও তোমার বাধ্যতার পথে চলা শুরু করতে ইচ্ছুক হোক। "
+
+#: admin/starter-content.php:189
+msgid "Father, we pray for believers in [location_name] to be good stewards of their relationships. https://zume.training/relational-stewardship-list-of-100/"
+msgstr "পিতা, আমরা বাংলাদেশে বিশ্বাসীদের জন্য প্রার্থনা করি তারা যেন সম্পর্কের বিষয়ে বিশ্বস্ত হয় । https://zume.training/relational-stewardship-list-of-100/. https://zume.training/bn/"
+
+#: admin/starter-content.php:192
+msgid "\"May God be gracious to us and bless us and make his face to shine upon us, that your way may be known on earth, your saving power among all [people_name] nations.\" (Psalm 67:2)"
+msgstr "'এইরূপে যেন পৃথিবীতে তোমার পথ, ও সমস্ত জাতির (বিশেষভাবে বাংলাদেশের) মধ্যে তোমার পরিত্রাণ বিদিত হয়। ' (গীত ৬৭:২) "
+
+#: admin/starter-content.php:193
+msgid "\"But seek first the kingdom of God and his righteousness, and all these things will be added to you.\" (Matthew 6:33) We pray that Your Kingdom would be our first priority. May Your Kingdom values and purposes be the primary focus of every Christian in [location_name]."
+msgstr "'কিন্তু তোমরা প্রথমে তাঁহার রাজ্য ও তাঁহার ধার্মিকতার বিষয়ে চেষ্টা কর, তাহা হইলে ঐ সকল দ্রব্যও তোমাদিগকে দেওয়া হইবে। 'মথি ৬:৩৩\n"
+"\n"
+" আমরা প্রার্থনা করি সবকিছুর আগে তোমার রাজ্য প্রাধান্য পায়। তোমার রাজ্যের মূল্যবোধ এবং উদ্দেশ্য বাংলাদেশের প্রতিটি খৃস্ট বিশ্বাসীর সর্বপ্রথম বিষয় হোক।"
+
+#: admin/starter-content.php:194
+msgid "\"But when they believed Philip as he preached good news about the kingdom of God and the name of Jesus Christ, they were baptized, both men and women.\" (Acts 8:12). Empower believers in [location_name] to preach the good news of the Kingdom and prepare multitudes of men and women to respond and be baptized."
+msgstr "'কিন্তু ফিলিপ ঈশ্বরের রাজ্য ও যীশু খ্রীষ্টের নাম বিষয়ক সুসমাচার প্রচার করিলে তাহারা যখন তাঁহার কথায় বিশ্বাস করিল, তখন পুরুষ ও স্ত্রীলোকেরাও বাপ্তাইজিত হইতে লাগিল। ' প্রেরিত্‌ ৮:১২ \n"
+"\n"
+"পিতা, বাংলাদেশের বিশ্বাসীদেরকে শক্তিশালী করুন যেন তারা রাজ্যের সুসমাচার প্রচার করতে এবং তাতে সাড়া দেওয়ার জন্য ও বাপ্তিস্ম নেওয়ার জন্য অসংখ্য পুরুষ ও নারীকে প্রস্তুত করতে সক্ষম হন।"
+
+#: admin/starter-content.php:195
+msgid "\"By faith he went to live in the land of promise as in a foreign land, living in tents with Isaac and Jacob, heirs with him of the same promise. For he was looking forward to the city that has foundations, whose designer and builder is God.\" (Hebrews 11:9-10) May [people_name] believers embrace their heavenly citizenship and being confirmed into heaven’s customs, language, priorities, and values in ever-increasing measures."
+msgstr "'বিশ্বাসে তিনি বিদেশের ন্যায় প্রতিজ্ঞাত দেশে প্রবাসী হইলেন, তিনি সেই প্রতিজ্ঞার সহাধিকারী ইস্‌হাক ও যাকোবের সহিত তাম্বুতেই বাস করিতেন; কারণ তিনি ভিত্তিমূল বিশিষ্ট সেই নগরের অপেক্ষা করিতেছিলেন, যাহার স্থাপনকর্তা ও নির্মাতা ঈশ্বর। 'ইব্রীয় ১১:৯-১০ \n"
+"\n"
+"বাংলাদেশী বিশ্বাসীরা যেন তাদের স্বর্গীয় নাগরিকত্ব গ্রহণ করে এবং স্বর্গের রীতিনীতি, ভাষা, অগ্রাধিকার এবং মূল্যবোধ বৃদ্ধি নিশ্চিত হতে পারে।"
+
+#: admin/starter-content.php:196
+msgid "God, we pray for believers in [location_name] to be generous that you would desire to invest more into them. https://zume.training/the-kingdom-economy/"
+msgstr "ঈশ্বর, আমরা বাংলাদেশের বিশ্বাসীদের জন্য উদার হওয়ার জন্য প্রার্থনা করি যেন আপনি তাদের মধ্যে আরও বিনিয়োগ করতে পারে। https://zume.training/the-kingdom-economy/ https://zume.training/bn/"
+
+#: admin/starter-content.php:199
+msgid "\"Let the [people_name] nations be glad and sing for joy, for you judge the peoples with equity and guide the nations upon earth\" (Psalm 67:4)"
+msgstr "'এইরূপে যেন পৃথিবীতে তোমার পথ, ও সমস্ত জাতির (বিশেষভাবে বাংলাদেশের) মধ্যে তোমার পরিত্রাণ বিদিত হয়। লোকবৃন্দ আহ্লাদিত হইয়া আনন্দগান করুক; যেহেতু তুমি ন্যায়ে জাতিগণের বিচার করিবে, পৃথিবীতে লোকবৃন্দের শাসন করিবে। [সেলা] ' (গীত ৬৭:২) "
+
+#: admin/starter-content.php:200
+msgid "\"Not everyone who says to me, ’Lord, Lord,’ will enter the kingdom of heaven, but the one who does the will of my Father who is in heaven.\" (Matthew 7:21) Many God-fearing [people_name] seek to obey what they’ve been taught about Him by fasting during Ramadan. Father we pray that they would have an encounter with You, their true Heavenly Father during these thirty days and enter into Your family through Christ, our older brother."
+msgstr "'যাহারা আমাকে হে প্রভু, হে প্রভু বলে, তাহারা সকলেই যে স্বর্গ-রাজ্যে প্রবেশ করিতে পারিবে, এমন নয়, কিন্তু যে ব্যক্তি আমার স্বর্গস্থ পিতার ইচ্ছা পালন করে, সেই পারিবে। ' মথি ৭:২১\n"
+"\n"
+" অনেক ঈশ্বরভীরু বাংলাদেশি রমজানে রোজা রাখার মাধ্যমে তোমার সম্পর্কে যা শেখানো হয়েছে তা মানতে চায়। পিতা আমরা প্রার্থনা করি যে তারা এই ত্রিশ দিনে তোমার সাথে, তাদের প্রকৃত স্বর্গীয় পিতার সাথে সাক্ষাৎ করবে এবং আমাদের বড় ভাই খ্রীষ্টের মাধ্যমে তোমার পরিবারে প্রবেশ করবে।"
+
+#: admin/starter-content.php:201
+msgid "\"So Ananias departed and entered the house. And laying his hands on him he said, ’Brother Saul, the Lord Jesus who appeared to you on the road by which you came has sent me so that you may regain your sight and be filled with the Holy Spirit.’\" (Acts 9:17) Lord, we ask for many Saul-like hearts in [location_name] to be brought to repentance and faith in You. We pray for many Ananias-like believers to openly receive those who were staunchly opposed to the Gospel into fellowship."
+msgstr "'তখন অননিয় চলিয়া গিয়া সেই বাটীতে প্রবেশ করিলেন, এবং তাঁহার উপরে হস্তার্পণ করিয়া কহিলেন, ভ্রাতঃ শৌল, প্রভু, সেই যীশু, যিনি তোমার আসিবার পথে তোমাকে দর্শন দিলেন, তিনি আমাকে প্রেরণ করিয়াছেন, যেন তুমি দৃষ্টি পাও এবং পবিত্র আত্মায় পরিপূর্ণ হও।' প্রেরিত্‌ ৯:১৭ \n"
+"\n"
+"প্রভু, আমরা যাচ্ঞা করছি, যেন বাংলাদেশে অনেক শৌল-সদৃশ হৃদয় অনুতপ্ত হয় এবং আপনার প্রতি বিশ্বাস ফিরিয়ে আনে। আমরা অননিয়র মত অনেক বিশ্বাসীদের জন্য প্রার্থনা করি যাতে তারা খোলাখুলিভাবে যারা সুসমাচারের বিরোধী ছিল তাদেরকে সহভাগীতায় গ্রহণ করে।"
+
+#: admin/starter-content.php:202
+msgid "\"By faith Sarah herself received power to conceive, even when she was past the age, since she considered him faithful who had promised.\" (Hebrews 11:11) Please give every believer in [location_name] spiritual children no matter how long they have in the faith. Let each one trust Your faithfulness that You will give them spiritual children as they obey You."
+msgstr "'বিশ্বাসে স্বয়ং সারাও বংশ উৎপাদনের শক্তি পাইলেন, যদিও তাঁহার অতিরিক্ত বয়স হইয়াছিল, কেননা তিনি প্রতিজ্ঞাকারীকে বিশ্বাস্য জ্ঞান করিয়াছিলেন। ' ইব্রীয় ১১:১১ \n"
+"\n"
+"অনুগ্রহ করে বাংলাদেশের প্রত্যেক বিশ্বাসীকে আত্মিক সন্তান দান করুন, তারা যতদিনই বিশ্বাসে থাকুক না কেন। প্রত্যেকে আপনার বিশ্বস্ততার উপর আস্থা রাখুক যে আপনি তাদের আত্মিক সন্তান দেবেন কারণ তারা আপনার আনুগত্য।"
+
+#: admin/starter-content.php:203
+msgid "Lord, we pray for believers in [location_name] who will not only understand the Gospel, but know how to share it. https://zume.training/the-gospel-and-how-to-share-it/"
+msgstr "প্রভু, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি যারা কেবল সুসমাচারই বুঝবে না, কিন্তু কীভাবে এটি প্রচার করতে হবে তাও জানবে। https://zume.training/the-gospel-and-how-to-share-it/   https://zume.training/bn/"
+
+#: admin/starter-content.php:206
+msgid "\"May all kings fall down before him, all [people_name] nations serve him!\" (Psalm 72:11)"
+msgstr "'হাঁ, সমুদয় রাজা তাঁহার কাছে প্রণিপাত করিবেন; সমুদয় জাতি (বিশেষভাবে বাংলাদেশ)  তাঁহার দাস হইবে। ' গীত ৭২:১১)"
+
+#: admin/starter-content.php:207
+msgid "\"I tell you, many will come from east and west and recline at table with Abraham, Isaac, and Jacob in the kingdom of heaven\" (Matthew 8:11) We praise you Lord because you’ve called all nations to your table. We pray that many from the east, west, north, and south corners of [location_name] would join your Kingdom this month."
+msgstr "'আর আমি তোমাদিগকে বলিতেছি, অনেকে পূর্ব ও পশ্চিম হইতে আসিবে, এবং অব্রাহাম, ইস্‌হাক ও যাকোবের সহিত স্বর্গ-রাজ্যে একত্রে বসিবে; 'মথি ৮:১১ \n"
+"\n"
+"আমরা তোমার প্রশংসা করি প্রভু কারণ আপনি সমস্ত জাতিকে আপনার টেবিলে ডেকেছেন। আমরা প্রার্থনা করি যে বাংলাদেশের পূর্ব, পশ্চিম, উত্তর এবং দক্ষিণ কোণ থেকে অনেকেই এই মাসে তোমার রাজ্যে যোগ দিবে।"
+
+#: admin/starter-content.php:208
+msgid "\"So I sent for you at once, and you have been kind enough to come. Now therefore we are all here in the presence of God to hear all that you have been commanded by the Lord.\" (Acts 10:33) Father, please stir many hearts of heads of households in [location_name], like Cornelius, to gather their family to hear the message of the Good News of Jesus."
+msgstr "'এই নিমিত্ত আমি অবিলম্বে আপনার নিকটে লোক পাঠাইয়া দিলাম; আপনি আসিয়াছেন, ভালই করিয়াছেন। অতএব এখন আমরা সকলে ঈশ্বরের সাক্ষাতে উপস্থিত আছি; প্রভু আপনাকে যে সকল আদেশ করিয়াছেন, তাহা শুনিব। ' প্রেরিত্‌  ১০:৩৩ \n"
+"\n"
+"পিতা, দয়া করে কর্নেলিয়াসের মতো বাংলাদেশের অনেক পরিবারের প্রধানদের হৃদয়কে আলোড়িত করুন, যেন তারা তাদের পরিবারবর্গদের যীশুর সুসংবাদ শোনার জন্য জড়ো করতে পারেন। "
+
+#: admin/starter-content.php:209
+msgid "\"Therefore from one man, and him as good as dead, were born descendents as many as the stars of heaven and as many as the innumerable grains of sand by the seashore.\" (Hebrews 11:12) Lord, you promised Abraham he would be the father of many nations. We ask for breakthrough among the 10 Unengaged, Unreached People Groups in [location_name]. May they be included in this promise in our generation."
+msgstr "'এই জন্য এক ব্যক্তি হইতে, এমন কি, মৃতকল্প ব্যক্তি হইতে, এত লোক উৎপন্ন হইল, যাহারা সংখ্যায় আকাশের তারাগণের তুল্য, এবং সমুদ্রতীরস্থ গণনাতীত বালুকার তুল্য। ' ইব্রীয় ১১:১২ \n"
+"\n"
+"প্রভু, আপনি আব্রাহামকে প্রতিশ্রুতি দিয়েছিলেন যে তিনি অনেক জাতির পিতা হবেন। আমরা বাংলাদেশের ১০ টি অসম্পৃক্ত, যাদের এখন সুসমারচার পৌঁছায়নি এমন গোত্রের মধ্যে বৃহৎ সফলতা অর্জন দেকতে চাই। আমাদের প্রজন্মের মধ্যেই যেন তার এই প্রতিশ্রুতির অন্তর্ভুক্ত হয়।"
+
+#: admin/starter-content.php:210
+msgid "Jesus, we pray for believers in [location_name] to be baptized and know how to baptize. https://zume.training/baptism-and-how-to-do-it/"
+msgstr "যীশু, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি যেন তারা বাপ্তিস্ম নেয় এবং কীভাবে বাপ্তিস্ম দিতে হয় তাও জানবে। https://zume.training/baptism-and-how-to-do-it/. https://zume.training/bn/"
+
+#: admin/starter-content.php:213
+msgid "\"May his name endure forever, his fame continue as long as the sun! May people be blessed in him, all [people_name] nations call him blessed!\" (Psalm 72:17)"
+msgstr "'তাঁহার নাম অনন্তকাল থাকিবে; সূর্যের স্থিতি পর্যন্ত তাঁহার নাম সতেজ থাকিবে; মনুষ্যেরা তাঁহাতে আশীর্বাদ পাইবে; সমুদয় জাতি (বিশেষভাবে বাংলাদেশ) তাঁহাকে ধন্য ধন্য বলিবে। ' (গীত ৭২:১৭)"
+
+#: admin/starter-content.php:215
+msgid "\"And the hand of the Lord was with them, and a great number who believed turned to the Lord.\" (Acts 11:21) Even in the midst of persecution, you empowered your disciples to lead many to faith in you. Please do it again, Lord, in [location_name]."
+msgstr "'আর প্রভুর হস্ত তাহাদের সহবর্তী ছিল, এবং বহুসংখ্যক লোক বিশ্বাস করিয়া প্রভুর প্রতি ফিরিল। ' প্রেরিত্‌  ১১:২১ \n"
+"\n"
+"এমনকি নিপীড়নের মধ্যেও, আপনি আপনার শিষ্যদের আরও অনেককে আপনার প্রতি বিশ্বাস ফিরিয়ে আনতে ক্ষমতা দিয়েছিলেন। প্রভু, বাংলাদেশেও তেমটি দেখতে চাই। "
+
+#: admin/starter-content.php:216
+msgid "\"These all died in faith, not having received the things promised, but having seen them and greeted them from afar, and having acknowledged that they were strangers and exiles on the earth.  For people who speak thus make it clear that they are seeking a homeland.\" (Hebrews 11:14) May [people_name] believers honorable and pure conduct make it clear to those watching them that they are strangers and exiles on the earth for Your glory."
+msgstr "'বিশ্বাসানুরূপে ইঁহারা সকলে মরিলেন; ইঁহারা প্রতিজ্ঞাকলাপের ফল প্রাপ্ত হন নাই, কিন্তু দূর হইতে তাহা দেখিতে পাইয়া সাদর সম্ভাষণ করিয়াছিলেন, এবং আপনারা যে পৃথিবীতে বিদেশী ও প্রবাসী, ইহা স্বীকার করিয়াছিলেন। কারণ যাঁহারা এইরূপ কথা বলেন, তাঁহারা যে নিজ দেশের অন্বেষণ করিতেছেন, ইহাই স্পষ্ট ব্যক্ত করেন।\" ইব্রীয় ১১:১৩-১৪\n"
+"\n"
+"বাংলাদেশী বিশ্বাসীদের সম্মানজনক এবং বিশুদ্ধ আচার-আচরণ যেন যারা তাদের দেখে তাদের কাছে স্পষ্ট করে দেয় যে তারা আপনার গৌরবের জন্য পৃথিবীতে অপরিচিত এবং নির্বাসিত।"
+
+#: admin/starter-content.php:217
+msgid "Jesus, we pray for believers in [location_name] to know how to share testimonies about how you impacted their lives. https://zume.training/prepare-your-3-minute-testimony/"
+msgstr "যীশু, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি, আপনি তাদের জীবনে যা করেছেন এবং কীভাবে সেই সাক্ষ্যগুলো অন্যদের কাছে প্রচার করবেন তা জানতে পারে।  https://zume.training/prepare-your-3-minute-testimony/   https://zume.training/bn/"
+
+#: admin/starter-content.php:220
+msgid "\"Arise, O God, judge the earth; for you shall inherit all the [people_name] nations!\" (Psalm 82:8)"
+msgstr "'হে ঈশ্বর, উঠ, পৃথিবীর বিচার কর; কারণ তুমিই সমস্ত জাতিকে (বিশেষভাবে বাংলাদেশকে) অধিকার করিবে।' গীত ৮২:৮) "
+
+#: admin/starter-content.php:221
+msgid "\"Knowing their thoughts, he said to them, ’Every kingdom divided against itself is laid waste, and no city or house divided against itself will stand.’\" (Matthew 12:25) We pray for unity among your church in [location_name]. Though your followers in [location_name] may have differing strengths, gifts, and expressions of Your Spirit, may there be no division."
+msgstr "'তাহাদের চিন্তা জানিয়া তিনি তাহাদিগকে কহিলেন, যে কোন রাজ্য আপনার বিপক্ষে ভিন্ন হয়, তাহা উচ্ছিন্ন হয়; এবং যে কোন নগর কিম্বা পরিবার আপনার বিপক্ষে ভিন্ন হয়, তাহা স্থির থাকিবে না। ' মথি ১২:২৫ \n"
+"\n"
+"আমরা বাংলাদেশে তোমার মণ্ডলীগুলোর মধ্যে ঐক্যের জন্য প্রার্থনা করি। যদিও বাংলাদেশে তোমার অনুগামীদের ভিন্ন ভিন্ন শক্তি, দান এবং তোমার  আত্মার অভিব্যক্তি থাকতে পারে, সেখানে যেন কোনো বিভাজন না থাকে। "
+
+#: admin/starter-content.php:222
+msgid "\"But the word of God increased and multiplied.\" (Acts 12:24) This verse comes in the context of an evil ruler bent on persecuting the church. No matter what the circumstances may be in [location_name], Lord, we pray the word of God would increase and multiply."
+msgstr "'কিন্তু ঈশ্বরের বাক্য বৃদ্ধি পাইতে ও ব্যাপ্ত হইতে থাকিল।' প্রেরিত্‌ ১২:২৪ \n"
+"\n"
+"বাইবেলের এই পদটি একজন মন্দ শাসকের প্রেক্ষাপট থেকে এসেছে যিনি মণ্ডলীকে নিপীড়ন করতে চাইতো। বাংলাদেশের পরিস্থিতি যাই হোক না কেন, প্রভু, আমরা প্রার্থনা করি যেন তোমার বাক্য বৃদ্ধি পায় এবং বহুগুণ ছাড়িয়ে যায় পায়।"
+
+#: admin/starter-content.php:223
+msgid "\"If they had been thinking of that land from which they had gone out, they would have had opportunity to return. But as it is, they desire a better country, that is, a heavenly one. Therefore God is not ashamed to be called their God, for he has prepared for them a city.\" (Hebrews 11:15-16) We cry out for You to raise up men and women from every region of [location_name] who desire a better country, a heavenly one. People who seek to store their treasure there, instead of here on earth."
+msgstr "'আর যে দেশ হইতে বাহির হইয়াছিলেন, সেই দেশ যদি মনে রাখিতেন, তবে ফিরিয়া যাইবার সুযোগ অবশ্য পাইতেন। কিন্তু এখন তাঁহারা আরও উত্তম দেশের, অর্থাৎ স্বর্গীয় দেশের, আকাঙ্ক্ষা করিতেছেন। এই জন্য ঈশ্বর তাঁহাদের ঈশ্বর বলিয়া আখ্যাত হইতে, তাঁহাদের বিষয়ে লজ্জিত নহেন; কারণ তিনি তাঁহাদের নিমিত্ত এক নগর প্রস্তুত করিয়াছেন। ' ইব্রীয় ১১:১৫-১৬ \n"
+"\n"
+"আমরা বাংলাদেশের প্রতিটি অঞ্চল থেকে নারী ও পুরুষকে গড়ে তোলার জন্য আপনার কাছে  ক্রন্দন করছি, যারা একটি উন্নত এবং একটি স্বর্গীয় দেশ চায়। যারা এই পৃথিবীর পরিবর্তে সেখানে ধন সঞ্চয় করতে চায়। "
+
+#: admin/starter-content.php:224
+msgid "God, we pray for believers in [location_name] to know how to cast vision to others about forming spiritual families who multiply for generations to come. https://zume.training/vision-casting-the-greatest-blessing/"
+msgstr "ঈশ্বর, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি যে আধ্যাত্মিক পরিবার গঠনের বিষয়ে কীভাবে অন্যদের দিকে নজর দিতে হয় যারা আগামী প্রজন্মের জন্য সংখ্যাবৃদ্ধিতে ভূমিকা রাখবে। https://zume.training/vision-casting-the-greatest-blessing/   https://zume.training/bn/ "
+
+#: admin/starter-content.php:227
+msgid "\"All the [people_name] nations you have made shall come and worship before you, O Lord, and shall glorify your name.\" (Psalm 86:9)"
+msgstr "'হে প্রভু, তোমার বিরচিত সর্বজাতি (বিশেষভাবে বাংলাদেশ) আসিয়া তোমার সম্মুখে প্রণিপাত করিবে, তাহারা তোমার নামের গৌরব করিবে। ' (গীত ৮৬:৯)"
+
+#: admin/starter-content.php:228
+msgid "\"When anyone hears the word of the kingdom and does not understand it, the evil one comes and snatches away what has been sown in his heart. This is what was sown along the path.\" (Matthew 13:19) We pray for many hearts in [location_name] to be receptive to the Kingdom seed that would take root, grow, and reproduce 30, 60, and 100 fold."
+msgstr "'যখন কেহ সেই রাজ্যের বাক্য শুনিয়া না বুঝে, তখন সেই পাপাত্মা আসিয়া, তাহার হৃদয়ে যাহা বপন করা হইয়াছিল, তাহা হরণ করিয়া লয়; এ সেই, যাহা পথের পার্শ্বে উপ্ত। ' মথি  ১৩:১৯ \n"
+"\n"
+"আমরা বাংলাদেশের অনেক হৃদয়ের জন্য প্রার্থনা করি যাতে তারা ঈশ্বরের রাজ্যের বীজের গ্রহন করতে সমর্থ হয়, শিকড় ছাড়ে, বৃদ্ধি পায়, যা  ৩০, ৬০ এবং ১০০ গুণ পুনরুত্পাদন করতে সমর্থ হয়।"
+
+#: admin/starter-content.php:230
+msgid "\"By faith Abraham, when he was tested, offered up Isaac, and he who had received the promises was in the act of offering up his only son, of whom it was said, ’Through Isaac shall your offspring be named’.\" (Hebrews 11:17-18) Lord, may [people_name] be like Abraham, exhibiting radical, immediate, and costly obedience."
+msgstr "'বিশ্বাসে অব্রাহাম পরীক্ষিত হইয়া ইস্‌হাককে উৎসর্গ করিয়াছিলেন; এমন কি, যিনি প্রতিজ্ঞা সকল সানন্দে গ্রহণ করিয়াছিলেন, তিনি আপনার সেই একজাত পুত্রকে উৎসর্গ করিতেছিলেন, যাঁহার বিষয়ে তাঁহাকে বলা হইয়াছিল, ‘‘ইস্‌হাকে তোমার বংশ আখ্যাত হইবে”; 'ইব্রীয় ১১:১৭-১৮ \n"
+"\n"
+"প্রভু, বাংলাদেশিরা যেন আব্রাহামের মতো হতে পারে, আমূল, ত্বরিত এবং বহুমূল্য বাধ্যটা প্রদর্শন করে।"
+
+#: admin/starter-content.php:231
+msgid "Lord, we pray for believers in [location_name] to be like ducklings in ways they make disciples. https://zume.training/duckling-discipleship-leading-sooner/"
+msgstr "প্রভু, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি যেন তারা শিষ্য তৈরিতে হাঁসের বাচ্চাদের বৃদ্ধি কৌশল অনুসরণ করে। https://zume.training/duckling-discipleship-leading-sooner/.  https://zume.training/bn/"
+
+#: admin/starter-content.php:234
+msgid "\"Declare his glory among the [people_name] nations, his marvelous works among all the peoples!\" (Psalm 96:3)"
+msgstr "'প্রচার কর জাতিগণের (বিশেষভাবে বাংলাদেশের) মধ্যে তাঁহার গৌরব, সমস্ত লোক-সমাজে তাঁহার আশ্চর্য কর্ম সকল। ' (গীত ৯৬:৩) "
+
+#: admin/starter-content.php:235
+msgid "(The Parable of the Weeds) \"He put another parable before them, saying, ’The kingdom of heaven may be compared to a man who sowed good seed in his field’\" (Matthew 13:24-30) May the truth of this parable free Christians in [location_name] from fear of insincere seekers and those with evil intentions. We pray for far more reproducing good seed than weeds in this land. Give wisdom to your church, since only You can judge men’s hearts and motives."
+msgstr "(আগাছার দৃষ্টান্ত) 'পরে তিনি তাহাদের নিকটে আর এক দৃষ্টান্ত উপস্থিত করিলেন, কহিলেন, স্বর্গ-রাজ্যকে এমন এক ব্যক্তির সহিত তুলনা করা যায়, যিনি আপন ক্ষেত্রে ভাল বীজ বপন করিলেন। ' মথি ১৩:২৪-৩০ \n"
+"\n"
+"এই দৃষ্টান্তের সত্যতা বাংলাদেশের খৃস্ট বিশ্বাসীদের অসৎ এবং খারাপ উদ্দেশ্যের অনুসন্ধানকারীদের ভয় থেকে মুক্ত করুক। আমরা এই  দেশে আগাছার চেয়ে অনেক বেশি ভালো বীজ উৎপাদনের জন্য প্রার্থনা করি। তোমার মণ্ডলীকে প্রজ্ঞা দেও, কারণ শুধুমাত্র তুমিই মানুষের হৃদয় এবং উদ্দেশ্য বিচার করতে পার।"
+
+#: admin/starter-content.php:236
+msgid "Paul and Barnabas returned to places they had preached \"strengthening the souls of the disciples, encouraging them to continue in the faith, and saying that through many tribulations we must enter the kingdom of God.\" (Acts 14:22) May every believer in [location_name] be rooted in this truth. As they persevere through tribulations, may it powerfully proclaim the Gospel to the people around them."
+msgstr "'যাইতে যাইতে তাঁহারা শিষ্যদের মন সুস্থির করিলেন, এবং তাঁহাদিগকে আশ্বাস দিতে লাগিলেন, যেন তাহারা বিশ্বাসে স্থির থাকে, আর কহিলেন, অনেক ক্লেশের মধ্য দিয়া আমাদিগকে ঈশ্বরের রাজ্যে প্রবেশ করিতে হইবে। ' প্রেরিত্‌  ১৪:২২ \n"
+"\n"
+"বাংলাদেশের প্রতিটি বিশ্বাসী এই সত্যে বদ্ধমূল হোক। যেহেতু তারা ক্লেশের মধ্য দিয়ে উদ্যমী,  যেন শক্তিশালীভাবে তারা তাদের চারপাশের লোকেদের কাছে সুসমাচার ঘোষণা করে।"
+
+#: admin/starter-content.php:237
+msgid "\"He considered that God was able even to raise him from the dead, from which, figuratively speaking, he did receive him back.\" (Hebrews 11:19) Resurrected King, You conquered death on the cross! We pray for [people_name] to believe that reality and for it to free them from any fear of death -- be that physical or symbolic death to sin or of hopes and dreams."
+msgstr "'তিনি মনে স্থির করিয়াছিলেন, ঈশ্বর মৃতগণের মধ্য হইতেও উত্থাপন করিতে সমর্থ; আবার তিনি তথা হইতে দৃষ্টান্তরূপে তাঁহাকে ফিরিয়া পাইলেন। ' ইব্রীয় ১১:১৯\n"
+"\n"
+"পুনরুত্থিত রাজা, আপনি ক্রুশে মৃত্যুকে জয় করেছেন! আমরা বাংলাদেশকে সেই বাস্তবতায় বিশ্বাস করার জন্য এবং মৃত্যুর ভয় থেকে তাদের মুক্ত করার জন্য প্রার্থনা করি - সেই শারীরিক বা প্রতীকী মৃত্যু হোক পাপের বা আশা ও স্বপ্নের। "
+
+#: admin/starter-content.php:238
+msgid "Father, we pray for believers in [location_name] to have eyes that see where the Kingdom isn’t. https://zume.training/eyes-to-see-where-the-kingdom-isnt/"
+msgstr "পিতা, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি যাতে তারা দেখতে পায় যে ঈশ্বরের রাজ্য কোথায় অনুপস্থিত । https://zume.training/eyes-to-see-where-the-kingdom-isnt/.  https://zume.training/bn/ "
+
+#: admin/starter-content.php:241
+msgid "Say among the [people_name] nations, \"The Lord reigns! Yes, the world is established; it shall never be moved; he will judge the peoples with equity.\" (Psalm 96:10)"
+msgstr "'জাতিগণের মধ্যে বল, সদাপ্রভু রাজত্ব করেন; জগৎও অটল, তাহা বিচলিত হইবে না; তিনি ন্যায়ে জাতিগণের বিচার করিবেন। ' গীত 96:10 https://my.bible.com/bible/1791/PSA.96.10"
+
+#: admin/starter-content.php:242
+msgid "(The Mustard Seed and the Leaven ) \"He put another parable before them, saying, ’The kingdom of heaven is like a grain of mustard seed that a man took and sowed in his field.’\" (Matthew 13:31) Lord, may mustard seed-sized faith produce a great harvest in [location_name] for Your glory and for the powerful advancement of your Kingdom."
+msgstr "(সরিষার বীজ এবং খামির)'তিনি আর এক দৃষ্টান্ত তাহাদের কাছে উপস্থিত করিলেন, কহিলেন, স্বর্গ-রাজ্য এমন একটি সরিষা-দানার তুল্য, যাহা কোন ব্যক্তি লইয়া আপন ক্ষেত্রে বপন করিল। ' মথি  ১৩:৩১ \n"
+"\n"
+"প্রভু, আপনার গৌরবের জন্য এবং আপনার রাজ্যের শক্তিশালী অগ্রগতির জন্য সরিষা দানার আকারের বিশ্বাস বাংলাদেশে প্রচুর ফসল আনুক।"
+
+#: admin/starter-content.php:243
+msgid "\"And God, who knows the heart, bore witnes to them by giving them the Holy Spirit just as he did to us...\" (Acts 15:8) Thank You for the precious gift of the Holy Spirit! May every believer in [location_name] grow in discerning His leading and quickly obey all He tells them to do. May the Spirit give all believers in [location_name] grace toward one another resulting in the strengthening and multiplying of your Church in this land."
+msgstr "'আর ঈশ্বর, যিনি অন্তঃকরণ জানেন, তিনি তাহাদের পক্ষে সাক্ষ্য দিয়াছেন, আমাদিগকে যেমন, তেমনি তাহাদিগকেও পবিত্র আত্মা দান করিয়াছেন; ' প্রেরিত্‌  ১৫ঃ৮ \n"
+"\n"
+"পবিত্র আত্মার মূল্যবান উপহারের জন্য আপনাকে ধন্যবাদ! বাংলাদেশের প্রতিটি বিশ্বাসী যেন তাঁর নেতৃত্বকে উপলব্ধি করতে পারে এবং তিনি তাদের যা করতে বলেন তা দ্রুত মেনে চলে। পবিত্র আত্মা যেন বাংলাদেশের সকল বিশ্বাসীকে একে অপরের প্রতি সহানুভূতিশীল করেন যাতে তারা এই দেশে আপনার মণ্ডলীকে শক্তিশালী ও বহুগুণ বৃদ্ধিদানে সক্ষম হয়। "
+
+#: admin/starter-content.php:244
+msgid "\"By faith Isaac invoked future blessings on Jacob and Esau.\" (Hebrews 11:20) Despite brokenness in their family, Isaac agreed with God’s covenant and knew it would mean blessing for his sons. May conviction of Your desire that none would perish but all come to repentance, compel [people_name] believers to bless their family by speaking the Good News of Jesus."
+msgstr "'বিশ্বাসে ইস্‌হাক আগামী বিষয়ের উদ্দেশেও যাকোবকে ও এষৌকে আশীর্বাদ করিলেন। ' ইব্রীয় ১১:২০ \n"
+"\n"
+"পারিবারিক ভাঙ্গন সত্ত্বেও, ইসহাক ঈশ্বরের চুক্তির সাথে একমত হয়েছিল এবং তিনি জানতেন যে এটি তার পুত্রদের জন্য আশীর্বাদের বিষয় হবে। আপনার দৃঢ় ইচ্ছা যেন কেউ বিনষ্ট না হয় কিন্তু সবাই অনুতপ্ত হয়, বাংলাদেশী বিশ্বাসীরা যীশুর সুসংবাদ বলার মাধ্যমে তাদের পরিবারগুলোকে আশীর্বাদ করতে বাধ্য হবে। "
+
+#: admin/starter-content.php:245
+msgid "Jesus, we pray for believers in [location_name] to enjoy the intimate connection with you in the Lord’s supper, and know how to lead others in celebrating it too. https://zume.training/the-lords-supper-and-how-to-lead-it/"
+msgstr "যীশু, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি যেন তারা প্রভুর ভোজে আপনার নৈকট্য উপভোগ করেন এবং এটি আয়োজনে অন্যদেরকে কীভাবে নেতৃত্ব দিতে হয় তাও জানতে পারেন। https://zume.training/the-lords-supper-and-how-to-lead-it/.  https://zume.training/bn/"
+
+#: admin/starter-content.php:248
+msgid "\"The Lord has made known his salvation; he has revealed his righteousness in the sight of the [people_name] nations.\" (Psalm 98:2)"
+msgstr "'সদাপ্রভু আপনার পরিত্রাণ জ্ঞাত করিয়াছেন, তিনি জাতিগণের (বিশেষভাবে বাংলাদেশের) দৃষ্টিগোচরে আপন ধর্মশীলতা প্রকাশ করিয়াছেন। ' (গীত ৯৮:২) "
+
+#: admin/starter-content.php:249
+msgid "\"He told them another parable. ’The kingdom of heaven is like leaven that a woman took and hid in three measures of flour, till it was all leavened.’\" (Matthew 13:33) Thank you Lord that you delight in using simple, ordinary people to display Your glory. May this kind of yeast rapidly grow throughout every place in [location_name].\""
+msgstr "'তিনি তাহাদিগকে আর এক দৃষ্টান্ত কহিলেন, স্বর্গ-রাজ্য এমন তাড়ীর তুল্য, যাহা কোন স্ত্রীলোক লইয়া তিন মাণ ময়দার মধ্যে ঢাকিয়া রাখিল, শেষে সমস্তই তাড়ীময় হইয়া উঠিল। ' মথি  ১৩:৩৩\n"
+"\n"
+"প্রভু তোমাকে ধন্যবাদ যে তুমি তোমার মহিমা প্রদর্শনের জন্য অতি সাধারণ লোকদের ব্যবহার করে আনন্দিত। এই ধরনের খামি বাংলাদেশের সব জায়গায় দ্রুত বৃদ্ধি পেতে পাক।\""
+
+#: admin/starter-content.php:250
+msgid "\"The Lord opened her (Lydia’s) heart to pay attention to what was said by Paul. And after she was baptized, and her household as well...\" (Acts 16:14-15) \"And he (the Philippian jailer) took them the same hour of the night and washed their wounds; and he was baptized at once, he and all his family.\" (Acts 16:33). Please repeat Lydia and the Philippian jailer’s stories over and over again in every region of [location_name]."
+msgstr "'আর প্রভু তাঁহার হৃদয় খুলিয়া দিলেন, যেন তিনি পৌলের কথায় মনোযোগ করেন। তিনি ও তাঁহার পরিবার বাপ্তাইজিত হইলে ......... প্রেরিত্‌ ১৬:১৪-১৫, 'আর রাত্রির সেই দণ্ডেই সে (ফিলিপীয় কারাপরিদর্শক) তাঁহাদিগকে লইয়া তাঁহাদের প্রহারের ক্ষত সকল ধৌত করিল; এবং সে নিজে ও তাহার সকল লোক অবিলম্বে বাপ্তাইজিত হইল। ' প্রেরিত্‌ ১৬:৩৩ \n"
+"\n"
+"অনুগ্রহ করে বাংলাদেশের প্রতিটি অঞ্চলে লিডিয়া এবং ফিলিপীয় কারাপরিদর্শকের গল্প বারবার বলুন। "
+
+#: admin/starter-content.php:251
+msgid "\"By faith Jacob, when dying, blessed each of the sons of Joseph, bowing in worship over the head of his staff.\" (Hebrews 11:21) May every believer in [location_name] have spiritual children that they can, by faith, impart the same blessing to -- that there may be a multitude of multiplying disciples in the land. (Genesis 49:16)"
+msgstr "'বিশ্বাসে যাকোব মৃত্যুকালে যোষেফের উভয় পুত্রকে আশীর্বাদ করিলেন, এবং আপন যষ্টির অগ্রভাগে নির্ভর করিয়া ভজনা করিলেন। ' ইব্রীয়  ১১:২১  \n"
+"\n"
+"বাংলাদেশের প্রতিটি বিশ্বাসীর আত্মিক সন্তান হোক যেন তারা বিশ্বাসের দ্বারা এই একই আশীর্বাদ দিতে পারে - যাতে দেশে বহুসংখ্যক শিষ্য তৈরি হয়।  (আদিপুস্তক ৪৯:১৬) "
+
+#: admin/starter-content.php:252
+msgid "God, we pray for believers in [location_name] to know how to pray for others, even as they walk around. https://zume.training/prayer-walking/"
+msgstr "ঈশ্বর, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি যেন তারা ঘুরে বেড়াতে গিয়েও কিভাবে অন্যদের জন্য প্রার্থনা করতে হয় তা জানতে পারে। https://zume.training/prayer-walking/.  https://zume.training/bn/"
+
+#: admin/starter-content.php:255
+msgid "[people_name] \"Nations will fear the name of the Lord, and all the kings of the earth will fear your glory.\" (Psalm 102:15)"
+msgstr "'ইহাতে জাতিগণ (বিশেষভাবে বাংলাদেশ) সদাপ্রভুর নাম ভয় করিবে, পৃথিবীর সমস্ত রাজা তোমার প্রতাপে ভীত হইবে। ' (গীত ১০২:১৫ )"
+
+#: admin/starter-content.php:256
+msgid "(The Parable of the Hidden Treasure) \"The kingdom of heaven is like treasure hidden in a field, which a man found and covered up. Then in his joy he goes and sells all that he has and buys that field.\" (Matthew 13:44) We pray for many today to see You for the treasure You are. We pray for [people_name] in every segment of society to joyfully give up all they have in order to gain You."
+msgstr "(গুপ্তধনের দৃষ্টান্ত) 'স্বর্গ-রাজ্য ক্ষেত্রমধ্যে গুপ্ত এমন ধনের তুল্য, যাহা দেখিতে পাইয়া এক ব্যক্তি গোপন করিয়া রাখিল, পরে আনন্দ হেতু গিয়া সর্বস্ব বিক্রয় করিয়া সেই ক্ষেত্র ক্রয় করিল। ' মথি ১৩:৪৪ \n"
+"\n"
+"আমরা আজ অনেকের জন্য প্রার্থনা করি যে তুমি সেই ধনটির জন্য আপনাকে দেখতে পাবেন। আমরা সমাজের প্রতিটি অংশে বাংলাদেশীদের জন্য প্রার্থনা করি যেন তারা আপনাকে পাওয়ার জন্য আনন্দের সাথে তাদের সমস্ত কিছু ছেড়ে দেয়।"
+
+#: admin/starter-content.php:257
+msgid "\"And he made from one man every nation of mankind to live on all the face of the earth, having determined allotted periods and their boundaries of their dwelling place, that they should seek God, and perhaps feel their way toward him and find him. Yet he is actually not far from each of us...\" (Acts 17:26-27) We confess your sovereignty in the midst of the uncertainties in [location_name] brought on by the coronavirus. We pray, Father, that you would use these circumstances to draw many [people_name] to yourself."
+msgstr "'আর তিনি এক ব্যক্তি হইতে মনুষ্যদের সকল জাতিকে উৎপন্ন করিয়াছেন, যেন তাহারা সমস্ত ভূতলে বাস করে; তিনি তাহাদের নির্দিষ্ট কাল ও নিবাসের সীমা স্থির করিয়া দিয়াছেন; যেন তাহারা ঈশ্বরের অন্বেষণ করে, যদি কোন মতে হাতড়াইয়া হাতড়াইয়া তাঁহার উদ্দেশ পায়; অথচ তিনি আমাদের কাহারও হইতে দূরে নহেন। ' প্রেরিত্‌ ১৭:২৬-২৭\n"
+"\n"
+"করোনাভাইরাসের কারণে বাংলাদেশে যে অনিশ্চয়তার সৃষ্টি হয়েছে তার মধ্যেও আমরা আপনার সার্বভৌমত্ব স্বীকার করছি। আমরা প্রার্থনা করি, পিতা, আপনি এই পরিস্থিতিকে ব্যবহার করে অনেক বাংলাদেশিকে নিজের কাছে টানবেন।"
+
+#: admin/starter-content.php:258
+msgid "\"By faith Joseph, at the end of his life, made mention of the exodus of the Israelites and gave directions concerning his bones.\" (Hebrews 11:22) We pray for believers in [location_name] to be so certain of Your promises, that they would have foresight now to prepare for the day when there are multiplying churches in every neighborhood in the country by training and equipping all believers in scalable ways."
+msgstr "'বিশ্বাসে যোষেফ মৃত্যুকালে ইস্রায়েল-সন্তানগণের প্রস্থানের বিষয়ে উল্লেখ করিলেন, এবং আপন অস্থিসমূহের বিষয়ে আদেশ দিলেন। ' ইব্রীয় ১১:২২ \n"
+"\n"
+"আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি, এবং আপনার প্রতিশ্রুতির বিষয়ে এতটাই নিস্চিত হতে চাই, যেদিন তাদের দূরদৃষ্টি থাকবে যে সমস্ত বিশ্বাসীদেরকে যোগ্যরূপে  প্রশিক্ষিত ও সুসজ্জিত করার মধ্যে দিয়ে দেশের  প্রতিটি পাড়া মহল্লায় মন্ডলীর সংখ্যাবৃদ্ধি হচ্ছে।"
+
+#: admin/starter-content.php:259
+msgid "God, we pray for believers in [location_name] to know what a person of peace is, and where to find one. https://zume.training/a-person-of-peace-and-how-to-find-one/"
+msgstr "ঈশ্বর, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি যে শান্তির লোক কে এবং কোথায় পাওয়া যাবে। https://zume.training/a-person-of-peace-and-how-to-find-one/. https://zume.training/bn/"
+
+#: admin/starter-content.php:262
+msgid "\"I will give thanks to you, O Lord, among the peoples; I will sing praises to you among the [people_name] nations.\" (Psalm 108:3)"
+msgstr "'সদাপ্রভু, আমি জাতিগণের (বিশেষভাবে বাংলাদেশের) মধ্যে তোমার স্তব করিব, আমি লোকবৃন্দের মধ্যে তোমার প্রশংসা গাহিব। ' (গীত ১০৮:৩)"
+
+#: admin/starter-content.php:263
+msgid "(The Parable of the Pearl of Great Value) \"Again, the kingdom of heaven is like a merchant in search of fine pearls, who, on finding one pearl of great value, went and sold all that he had and bought it.\" (Matthew 13:45-46) Thank You for every man and woman in [location_name] who have found You to be the pearl of great price. We pray their valuing and treasuring of You, would lead many others to enter Your Kingdom."
+msgstr "(উত্তম মুক্তার দৃষ্টান্ত) 'আবার স্বর্গ-রাজ্য এমন এক বণিকের তুল্য, যে উত্তম উত্তম মুক্তা অন্বেষণ করিতেছিল, সে একটি মহামূল্য মুক্তা দেখিতে পাইয়া গিয়া সর্বস্ব বিক্রয় করিয়া তাহা ক্রয় করিল। ' মথি ১৩:৪৫-৪৬ \n"
+"\n"
+"বাংলাদেশের প্রত্যেক নারী ও পুরুষের জন্য তোমাকে ধন্যবাদ যারা তোমাকে মহামূল্যবান মুক্তা হিসেবে খুঁজে পেয়েছে। আমরা প্রার্থনা করি তাদের মূল্যায়ন এবং তোমার গুপ্তধনের জন্য জা অন্য অনেককে তোমার রাজ্যে প্রবেশ করতে নেতৃত্ব দিবে।"
+
+#: admin/starter-content.php:264
+msgid "\"Crispus, the ruler of the synagogue, believed in the Lord, together with his entire household. And many of the Corinthians hearing Paul believed and were baptized.\" (Acts 18:8) We pray for many religious leaders in [location_name] to believe in You, together with their entire households, and may it lead to entire neighborhoods and cities being reached with the Gospel."
+msgstr "'আর সমাজাধ্যক্ষ ক্রীষ্প সমস্ত পরিবারের সহিত প্রভুতে বিশ্বাস করিলেন; এবং করিন্থীয়দের মধ্যে অনেক লোক শুনিয়া বিশ্বাস করিল, ও বাপ্তাইজিত হইল। ' প্রেরিত্‌ ১৮:৮ \n"
+"\n"
+"আমরা বাংলাদেশের অনেক ধর্মীয় নেতাদের জন্য প্রার্থনা করি যেন তারা আপনার উপর বিশ্বাস করেন, তাদের পুরো পরিবার সহ, এবং এর ফলে সমগ্র পাড়া এবং শহরগুলিতে যেন সুসমাচার পৌঁছে যায়।"
+
+#: admin/starter-content.php:265
+msgid "\"By faith Moses, when he was born, was hidden for three months by his parents, because they saw that the child was beautiful, and they were not afraid of the king’s edict.\" (Hebrews 11:23)  Thank you Lord for the example of Moses’ parents. We pray for believers in [location_name] to fear God more than they fear anyone or anything else."
+msgstr "'বিশ্বাসে, মোশি জন্মিলে পর, তিন মাস পর্যন্ত পিতামাতা কর্তৃক গোপনে রক্ষিত হইলেন, কেননা তাঁহারা দেখিলেন, শিশুটি সুন্দর; আর রাজার আজ্ঞাতে ভীত হইলেন না। ' ইব্রীয় ১১:২৩ \n"
+"\n"
+"মোশির পিতামাতার উদাহরণের জন্য প্রভুকে ধন্যবাদ। আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি যে তারা অন্য কাউকে বা অন্য কিছুকে যতটা ভয় পায় তার চেয়ে বেশি ঈশ্বরকে ভয় করে।"
+
+#: admin/starter-content.php:266
+msgid "Father, we pray for believers in [location_name] to know areas they can pray for others, the BLESS Prayer Pattern. like https://zume.training/the-bless-prayer-pattern/"
+msgstr "বাবা, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি যাতে তারা অন্যদের জন্য প্রার্থনা করতে পারে, যেমন BLESS প্রার্থনা আদর্শ। https://zume.training/the-bless-prayer-pattern/.  https://zume.training/bn/"
+
+#: admin/starter-content.php:269
+msgid "\"From the rising of the sun to its setting, the name of the Lord is to be praised! The Lord is high above all [people_name] nations, and his glory above the heavens!\" (Psalm 113:3-4)"
+msgstr "'সূর্যের উদয়স্থান অবধি তাহার অস্তস্থান পর্যন্ত, সদাপ্রভুর নাম কীর্তনীয়। সদাপ্রভু সর্বজাতির (বিশেষভাবে বাংলাদেশের) উপরে উন্নত, তাঁহার গৌরব আকাশমণ্ডলের উপরে উন্নত। ' (গীত ১১৩:৩-৪) "
+
+#: admin/starter-content.php:270
+msgid "(The Parable of the Net) \"Again, the kingdom of heaven is like a net that was thrown into the sea and gathered fish of every kind.\" (Matthew 13:47-50) Many [people_name] of every kind be brought in Your glorious Kingdom, even this month. We pray for wealthy and poor, educated and uneducated, religious and secular, young and old to be among the ’good fish’ at the end of the age."
+msgstr "(টানা জালের দৃষ্টান্ত) 'আবার স্বর্গ-রাজ্য এমন এক টানা জালের তুল্য, যাহা সমুদ্রে ফেলিয়া দেওয়া হইলে সর্বপ্রকার মাছ সংগ্রহ করিল। ' মথি ১৩:৪৭-৫০ \n"
+"\n"
+"তোমার গৌরবের রাজ্যে অনেক বাংলাদেশিকে আনা হোক, এমনকি এই মাসেও। আমরা ধনী এবং দরিদ্র, শিক্ষিত এবং অশিক্ষিত, ধর্মীয় এবং ধর্মনিরপেক্ষ, যুবক এবং বৃদ্ধ বয়সের শেষ সময়েও ‘ভাল মাছের’ হিসেবে থাকার জন্য প্রার্থনা করি।"
+
+#: admin/starter-content.php:271
+msgid "Paul reasoned daily in the hall of Tyrannnus and we’re told \"this continued for two years, so that all the residents of Asia heard the word of the Lord, both Jews and Greeks.\" (Acts 19:10) Empower believers in [location_name] to boldly, faithfully, and consistently proclaim the Gospel of the Kingdom so that all the residents of [location_name] would hear the word of the Lord and have an opportunity to respond to it."
+msgstr "'এইরূপে দুই বৎসর কাল চলিল; তাহাতে এশিয়া-নিবাসী যিহূদী ও গ্রীক সকলেই প্রভুর বাক্য শুনিতে পাইল। '  প্রেরিত্‌ ১৯:১০ \n"
+"\n"
+"বাংলাদেশের বিশ্বাসীদেরকে সাহসের সাথে, বিশ্বস্ততার সাথে এবং অবিরত আপনার রাজ্যের সুসমাচার প্রচার করার ক্ষমতা দিন যাতে বাংলাদেশের সমস্ত বাসিন্দা প্রভুর বাক্য শুনতে পায় এবং তাতে সাড়া দেওয়ার সুযোগ পায়।"
+
+#: admin/starter-content.php:273
+msgid "Lord, we pray for believers in [location_name] to not only esteem knowing but also doing. https://zume.training/faithfulness-is-better-than-knowledge/"
+msgstr "প্রভু, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি যে তারা কেবল জেনেই নয় কিন্তু বাস্তবিক কাজকেও শ্রদ্ধা করবে। https://zume.training/faithfulness-is-better-than-knowledge/.  https://zume.training/bn/"
+
+#: admin/starter-content.php:276
+msgid "\"Praise the Lord, all nations! Extol him, all peoples [people_name]!\" (Psalm 117:1)"
+msgstr "'সমস্ত জাতি, সদাপ্রভুর প্রশংসা কর; বাংলাদেশর সমস্ত লোকবৃন্দ, তাঁহার সঙ্কীর্তন কর। ' গীত ১১৭:১ "
+
+#: admin/starter-content.php:277
+msgid "\"I will give you the keys of the kingdom of heaven, and whatever you bind on earth shall be bound in heaven, and whatever you loose on earth shall be loosed in heaven.\" (Matthew 16:19) As Your followers in [location_name] enter into spiritually dark places, may they exercise the Kingdom authority You have delegated to Your church through Christ Jesus."
+msgstr "'আমি তোমাকে স্বর্গরাজ্যের চাবিগুলি দিব; আর তুমি পৃথিবীতে যাহা কিছু বদ্ধ করিবে, তাহা স্বর্গে বদ্ধ হইবে, এবং পৃথিবীতে যাহা কিছু মুক্ত করিবে, তাহা স্বর্গে মুক্ত হইবে। 'মথি ১৬:১৯\n"
+"\n"
+"বাংলাদেশে আপনার অনুসারীরা আধ্যাত্মিকভাবে অন্ধকার স্থানে প্রবেশের সাথে সাথে, তারা যেন খ্রীষ্ট যীশুর মাধ্যমে তোমার মণ্ডলীতে অর্পিত রাজ্যের কর্তৃত্ব অনুশীলন করে।"
+
+#: admin/starter-content.php:278
+msgid "We pray that every believer in [location_name] would \"remember the words of the Lord Jesus, how he himself said, \"It is more blessed to give than to receive\". (Acts 20:35), especially when it comes to spiritual blessings. We pray that every believer would experience the deep joy of giving the gift of Christ to others. Bonus: Check out https://zume.training/the-kingdom-economy/Kingdom Economy  for more on this concept."
+msgstr "আমরা প্রার্থনা করি যে বাংলাদেশের প্রতিটি বিশ্বাসী \"প্রভু যীশুর বাক্য স্মরণ করা উচিত, কেননা তিনি নিজে বলিয়াছেন, গ্রহণ করা অপেক্ষা বরং দান করা ধন্য হইবার বিষয়। ' (প্রেরিত্‌ ২০:৩৫)  বিশেষ করে যখন আত্মিক আশীর্বাদের কথা আসে। আমরা প্রার্থনা করি যে প্রত্যেক বিশ্বাসী অন্যদের কাছে খ্রীষ্টের উপহার দেওয়ার গভীর আনন্দ অনুভব করবে। বোনাস: এই ধারণা সম্পর্কে আরও জানতে কিংডম ইকোনমি দেখুন।"
+
+#: admin/starter-content.php:279
+msgid "\"He considered the reproach of Christ greater wealth than the treasures of Egypt, for he was looking to the reward.\" (Hebrews 11:26) Awaken [people_name] to the greater wealth of Christ. May multitudes esteem Him more than any treasure they can have here on earth."
+msgstr "'তিনি মিসরের সমস্ত ধন অপেক্ষা খ্রীষ্টের দুর্নাম মহাধন জ্ঞান করিলেন, কেননা, তিনি পুরস্কারদানের প্রতি দৃষ্টি রাখিতেন। ' ইব্রীয় ১১:২৬ \n"
+"\n"
+"খ্রীষ্টের মহা প্রাচুর্যে বাংলাদেশিরা জেগে উঠুক। যেন এই পৃথিবীর যেকোনো ধনের চেয়েও বহু মানুষ তাঁকেই সম্মান করে। "
+
+#: admin/starter-content.php:280
+msgid "Father, we pray for believers in [location_name] to know how to meet, pray, learn, grow, fellowship, and practice obeying and sharing in simple churches with the 3/3 Group Meeting Pattern. https://zume.training/3-3-group-meeting-pattern/"
+msgstr "পিত, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি যে কীভাবে সাক্ষাৎ করতে হয়, প্রার্থনা করতে হয়, শিখতে হয়, বড় হতে হয়, সহভাগিতায় মিলিত হতে হয় এবং ৩/৩ গ্রুপ মিটিং পদ্ধতির মধ্য দিয়ে সাধারণ মণ্ডলীগুলোতে বাক্য পালনে বাধ্যতা এবং প্রচার কাজ অনুশীলন করা যায়। https://zume.training/3-3-group-meeting-pattern/. https://zume.training/bn/"
+
+#: admin/starter-content.php:283
+msgid "\"Sing praises to the Lord, who sits enthroned in Zion! Tell among the [people_name] peoples his deeds!\" (Psalm 9:11)"
+msgstr "'তোমরা সিয়োন-নিবাসী সদাপ্রভুর প্রশংসা গাও; জাতিগণের (বিশেষভাবে বাংলাদেশের) মধ্যে তাঁহার ক্রিয়া সকল জ্ঞাত কর। ' গীত ৯:১১ "
+
+#: admin/starter-content.php:284
+msgid "\"Truly, I say to you, unless you turn and become like children, you will never enter the kingdom of heaven.\" (Matthew 18:3) Father, please continue to teach and reveal Your upside-down and inside-out Kingdom priorities to every Christian in [location_name]. We pray that child-like faith would be used by You to bring many [people_name] into your presence."
+msgstr "'এবং কহিলেন, আমি তোমাদিগকে সত্য কহিতেছি, তোমরা যদি না ফির ও শিশুদের ন্যায় না হইয়া উঠ, তবে কোন মতে স্বর্গ-রাজ্যে প্রবেশ করিতে পারিবে না। \n"
+"মথি ১৮:৩ \n"
+"\n"
+"পিতা, অনুগ্রহ করে বাংলাদেশের প্রতিটি  খৃস্ট বিশ্বাসীর কাছে তোমার রাজ্যের ভিতর-বাহির, উপড়ে-নিচে অগ্রাধিকারমূলক বিষয়গুলো প্রকাশ করো এবং শিক্ষা দেও। আমরা প্রার্থনা করি যে শিশুর মতো বিশ্বাস  অনেক বাংলাদেশিকে তোমার উপস্থিতিতে আনতে সাহায্য করবে।"
+
+#: admin/starter-content.php:285
+msgid "\"After greeting them, he related one by one the things that God had done among the Gentiles through his ministry. And when they heard it, they glorified God.\" (Acts 21:19-20) May the retelling of the stories of grace in [people_name] lives result in great glory to God and spur on workers of the Gospel in neighboring lands like Libya and Algeria!"
+msgstr "'পরে তিনি তাঁহাদিগকে মঙ্গলবাদ করিয়া, ঈশ্বর তাঁহার পরিচর্যা দ্বারা পরজাতিগণের মধ্যে যে সকল কার্য সাধন করিয়াছিলেন, তাহার বৃত্তান্ত এক একটি করিয়া তাঁহাদিগকে জানাইলেন। আর তাহা শুনিয়া তাঁহারা ঈশ্বরের গৌরব করিলেন, ' প্রেরিত্‌ ২১:১৯-২০ \n"
+"\n"
+"বাংলাদেশিদের জীবনে ঈশ্বরের অনুগ্রহের সাক্ষ্য তাঁর গৌরব প্রকাশ করুক এবং ভারত ও মালদ্বীপের মতো প্রতিবেশী দেশগুলিতে সুসমাচারের কর্মীদের উৎসাহিত করুক!"
+
+#: admin/starter-content.php:286
+msgid "\"By faith he left Egypt, not being afraid of the anger of the king, for he endured as seeing him who is invisible.\" (Hebrews 11:27) Fear is a powerful weapon of the enemy in [location_name]. As You draw men and women to Yourself, Lord, help them fix their eyes on You instead of on their fears."
+msgstr "'বিশ্বাসে তিনি মিসর ত্যাগ করিলেন, রাজার কোপ হইতে ভীত হন নাই, কারণ যিনি অদৃশ্য, তাঁহাকে যেন দেখিয়াই স্থির থাকিলেন। ' ইব্রীয় ১১:২৭ \n"
+"\n"
+"ভয় বাংলাদেশে শত্রুর একটি শক্তিশালী অস্ত্র। প্রভু আপনি যখন পুরুষ ও মহিলাদেরকে নিজের দিকে আকৃষ্ট করেন, তাদের ভয়ের পরিবর্তে তাদের দৃষ্টি আপনার দিকে নিবদ্ধ করতে সাহায্য করুন। "
+
+#: admin/starter-content.php:287
+msgid "God, we pray for believers in [location_name] to know how to apply the training cycle for maturing disciples. https://zume.training/training-cycle-for-maturing-disciples/"
+msgstr "ঈশ্বর, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি যে কিভাবে শিষ্যদের পরিপক্বতা দানে প্রশিক্ষণ চক্র পক্রিয়া প্রয়োগ করতে হয় তা জানতে পারে। https://zume.training/training-cycle-for-maturing-disciples/  https://zume.training/bn/"
+
+#: admin/starter-content.php:290
+msgid "\"Clap your hands, all [people_name] peoples! Shout to God with loud songs of joy!\" (Psalm 47:1)"
+msgstr "'হে সমুদয় জাতি (বিশেষভাবে বাংলাদেশ), করতালি দেও; আনন্দরবে ঈশ্বরের উদ্দেশে জয়ধ্বনি কর। ' গীত ৪৭:১ "
+
+#: admin/starter-content.php:291
+msgid "\"Whoever humbles himself like this child is the greatest in the kingdom of heaven.\" (Matthew 18:4) May the humility of Christians in [location_name] testify to the power and the truth of Your Kingdom. We pray for Christ-like humility to define Your church in this nation."
+msgstr "\"অতএব যে কেহ আপনাকে এই শিশুর মত নত করে, সেই স্বর্গ-রাজ্যে শ্রেষ্ঠ। ' মথি  ১৮:৪ \n"
+"\n"
+"বাংলাদেশের খৃস্ট বিশ্বাসীগনের নম্রতা তোমার রাজ্যের শক্তি এবং সত্যের সাক্ষ্য দেয়। এই জাতির মধ্যে তোমার মন্ডলীকে সংজ্ঞায়িত করতে খৃস্টীয়  নম্রতার জন্যও প্রার্থনা করছি। \""
+
+#: admin/starter-content.php:292
+msgid "Paul was told by Ananias: \"for you will be a witness for him to everyone of what you have seen and heard.\" (Acts 22:15) We pray for every believer in [location_name] to be equipped to share their story (testimony) and Your story (the Gospel). We pray that every time the Gospel is shared in [location_name] that it would be the overflow of the speaker’s experience with You, the living God."
+msgstr "পৌলকে অননিয় বলেছিলেন: 'কারণ তুমি যাহা যাহা দেখিয়াছ ও শুনিয়াছ, সেই বিষয়ে সকল মনুষ্যের নিকটে তাঁহার সাক্ষী হইবে। ' প্রেরিত্‌ ২২:১৫ \n"
+"\n"
+"আমরা বাংলাদেশের প্রত্যেক বিশ্বাসীর জন্য তাদের গল্প (সাক্ষ্য) এবং আপনার গল্প (গসপেল) শেয়ার করার জন্য সজ্জিত হওয়ার জন্য প্রার্থনা করি। আমরা প্রার্থনা করি যে যখনই বাংলাদেশে সুসমাচার প্রচার করা হয়, জীবিত ঈশ্বর যেন এটি আপনার সঙ্গে প্রচারকের অভিজ্ঞতার অনুভূতি উপচে পড়ে।"
+
+#: admin/starter-content.php:293
+msgid "\"By faith he kept the Passover and sprinkled the blood, so that the Destroyer of the firstborn might not touch them.\" (Hebrews 11:28) We pray for many in [location_name] to put their faith in Christ’s blood that was poured out for them. Let the power of Your death, burial, and resurrection convince them to put their faith in You and to be freed from the Destroyer."
+msgstr "'বিশ্বাসে তিনি নিস্তারপর্ব ও রক্তের প্রোক্ষণ স্থাপন করিলেন, যেন প্রথমজাতদের সংহারকর্তা তাহাদিগকে স্পর্শ না করেন। ' ইব্রীয় ১১:২৮ \n"
+"\n"
+"আমরা বাংলাদেশের অনেকের জন্য প্রার্থনা করি যেন তারা খ্রীস্টের রক্তে তাদের বিশ্বাস স্থাপন করে যা তাদের জন্য ঢেলে দেওয়া হয়েছিল। আপনার মৃত্যু, দাফন এবং পুনরুত্থানের শক্তি তাদেরকে আপনার উপর বিশ্বাস রাখতে এবং ধ্বংসকারীদের হাত থেকে মুক্ত হতে সাহসী করে তুলুন।"
+
+#: admin/starter-content.php:294
+msgid "Lord, we pray for believers in [location_name] to know how to develop as leaders by practicing serving. https://zume.training/leadership-cells/"
+msgstr "প্রভু, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি সেবাদান অনুশীলনের মাধ্যমে নেতা হিসাবে কীভাবে বিকাশ করা যায় তারা যেন তা জানতে পারে। https://zume.training/leadership-cells/. https://zume.training/bn/  "
+
+#: admin/starter-content.php:297
+msgid "\"Bless our God, O [people_name] peoples; let the sound of his praise be heard,\" (Psalm 66:8)"
+msgstr "'হে জাতিগণ (বিশেষভাবে বাংলাদেশ), আমাদের ঈশ্বরের ধন্যবাদ কর, তাঁহার প্রশংসাধ্বনি শ্রবণ করাও। ' (গীত ৬৬:৮)"
+
+#: admin/starter-content.php:298
+msgid "\"Jesus said, ’Let the little children come to me and do not hinder them, for to such belongs the kingdom of heaven.’\" (Matthew 19:14) We pray that nothing would hinder true seekers from entering into Your Kingdom —not gender, age, socioeconomic status, nationality, or education level."
+msgstr "'কিন্তু যীশু কহিলেন, শিশুদিগকে আমার নিকটে আসিতে দেও, বারণ করিও না; কেননা স্বর্গ-রাজ্য এই মত লোকদেরই। ' মথি ১৯:১৪ \n"
+"\n"
+"আমরা প্রার্থনা করি যে কোন কিছুই সত্য সন্ধানকারীদের আপনার রাজ্যে প্রবেশ করতে বাধা না দেয় - লিঙ্গ, বয়স, আর্থ-সামাজিক অবস্থা, জাতীয়তা বা শিক্ষার স্তর কোনও কিছুই যেন বাধার কারণ না হয়।"
+
+#: admin/starter-content.php:299
+msgid "\"And looking intently at the council, Paul said, ’Brothers, I have lived my life before God in all good conscience up to this day.’\" (Acts 23:1) As believers in [location_name], abide in the Vine, may their lives continually grow into Christ’s until they, too, can make such a claim. May their consistency and integrity lead many [people_name] to faith in Christ."
+msgstr "'আর পৌল মহাসভার দিকে একদৃষ্টে চাহিয়া কহিলেন, হে ভ্রাতৃগণ, অদ্য পর্যন্ত আমি সর্ব বিষয়ে সৎবিবেকে ঈশ্বরের প্রজারূপে আচরণ করিয়া আসিতেছি। ' প্রেরিত্‌ ২৩:১ \n"
+"\n"
+"বাংলাদেশে বিশ্বাসী হিসেবে, দ্রাক্ষালতায় সংযুক্ত থেকে তাদের জীবন ক্রমাগতভাবে খ্রিস্টের হয়ে উঠতে পারে,  যতক্ষণ না তারাও এই ধরনের দাবি করতে পারে। তাদের ধারাবাহিকতা এবং সততা অনেক বাংলাদেশীকে খ্রীষ্ট বিশ্বাসের দিকে পরিচালিত করুক।"
+
+#: admin/starter-content.php:301
+msgid "Father, we pray for believers in [location_name] to expect non-sequential growth in their disciple making. https://zume.training/expect-non-sequential-growth/"
+msgstr "পিতা, আমরা বাংলাদেশের বিশ্বাসীদের জন্য তাদের শিষ্য তৈরিতে অনুক্রমিক বৃদ্ধি আশা করার জন্য প্রার্থনা করি। https://zume.training/expect-non-sequential-growth/. https://zume.training/bn/ "
+
+#: admin/starter-content.php:304
+msgid "\"Let the [people_name] peoples praise you, O God; let all the peoples praise you!\" (Psalm 67:3)"
+msgstr "'হে ঈশ্বর, জাতিগণ (বিশেষভাবে বাংলাদেশ)  তোমার স্তব করুক, সমস্ত জাতি তোমার স্তব করুক। ' গীত ৬৭:৩ "
+
+#: admin/starter-content.php:305
+msgid "\"And Jesus said to his disciples, ’Truly, I say to you, only with difficulty will a rich person enter the kingdom of heaven.’\" (Matthew 19:23) We know nothing can hinder the Lord from saving (1 Samuel 14:6), so Lord we ask You to be working in the hearts of the wealthy in [location_name]. Soften them and open their spiritual eyes to see the truth of Your Word."
+msgstr "'তখন যীশু আপন শিষ্যদিগকে কহিলেন, আমি তোমাদিগকে সত্য কহিতেছি, ধনবানের পক্ষে স্বর্গ-রাজ্যে প্রবেশ করা দুষ্কর। ' মথি ১৯:২৩ \n"
+"\n"
+"আমরা জানি কোন কিছুই প্রভুর প্ররিত্রানকে বাধাগ্রস্থ করতে পারেনা (১ শমুয়েল  ১৪:৬), তাই প্রভু আমরা আপনাকে বাংলাদেশের ধনীদের হৃদয়ে কাজ করার জন্য অনুরোধ করছি। তাদের নরম করুন এবং আপনার বাক্যের সত্য দেখতে তাদের আধ্যাত্মিক চোখ খুলে দিন। "
+
+#: admin/starter-content.php:306
+msgid "\"So I always take pains to have a clear conscience toward both God and man.\" (Acts 24:16) Lord, give believers in [location_name] perseverance in going to such pains as Paul describes here. May it result in many friends, family members, coworkers, and neighbors being drawn to a God who brings transformation from the inside out."
+msgstr "'আর এই বিষয়ে আমিও ঈশ্বরের ও মনুষ্যের প্রতি বিঘ্নহীন সংবেদ রক্ষা করিতে নিরন্তর যত্ন করিয়া থাকি। ' প্রেরিত্‌ ২৪:১৬ \n"
+"\n"
+"প্রভু, পৌল এখানে যেভাবে তার বেদনার কোথা বর্ণনা করেছেন সেভাবে বাংলাদেশে বিশ্বাসীদেরকে এমন বেদনার মধ্যে যাওয়ার অধ্যবসায় দিন। এর ফলে অনেক বন্ধু, পরিবারের সদস্য, সহকর্মী এবং প্রতিবেশীরা এমন একজন ঈশ্বরের প্রতি আকৃষ্ট হবেন যিনি ভেতর থেকে রূপান্তর আনতে সক্ষম।"
+
+#: admin/starter-content.php:307
+msgid "\"By faith the walls of Jericho fell down after they had been encircled for seven days.\" (Hebrews 11:30) May every wall that separates [people_name] from Christ fall down as we faithfully pray and obey His commands."
+msgstr "'বিশ্বাসে যিরীহোর প্রাচীর, সাত দিন প্রদক্ষিণ করা হইলে পর, পড়িয়া গেল। '\n"
+"ইব্রীয় ১১:৩০ \n"
+"\n"
+"প্রতিটি প্রাচীর যা বাংলাদেশীকে খ্রীষ্ট থেকে পৃথক করে,  আমরা বিশ্বস্তভাবে প্রার্থনা করি এবং তাঁর আদেশ পালন করি যেন সেগুলো ভেঙ্গে যায়। "
+
+#: admin/starter-content.php:308
+msgid "Father, we pray for believers in [location_name] to understand why multiplying matters, and multiplying quickly matters even more. https://zume.training/pace-of-multiplication-matters/"
+msgstr "পিত, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি, কেন বৃদ্ধিদান গুরুত্বপূর্ণ এবং দ্রুত বৃদ্ধিদান আরও বেশী গুরুত্বপূর্ণ যেন তারা বুঝতে পারে। https://zume.training/pace-of-multiplication-matter/. https://zume.training/bn/  "
+
+#: admin/starter-content.php:311
+msgid "\"You are the God who works wonders; you have made known your might among the [people_name] peoples.\" (Psalm 77:14)"
+msgstr "'তুমিই আশ্চর্য-কার্যকারী ঈশ্বর, তুমি জাতিগণের (বিশেষভাবে বাংলাদেশের) মধ্যে তোমার পরাক্রম জ্ঞাত করিয়াছ। ' (গীত ৭৭:১৪ )"
+
+#: admin/starter-content.php:312
+msgid "(Laborers in the Vineyard) \"For the kingdom of heaven is like a master of a house who went out early in the morning to hire laborers for his vineyard.\" (Matthew 20:1) Your ways are not our ways. We praise You for Your generosity and ask that many [people_name] would enter Your Kingdom, even up until the last hour of the day."
+msgstr "(দ্রাক্ষাক্ষেত্রে শ্রমিকরা) 'কেননা স্বর্গ-রাজ্য এমন একজন গৃহকর্তার তুল্য, যিনি প্রভাত কালে আপন দ্রাক্ষাক্ষেত্রে মজুর লাগাইবার জন্য বাহিরে গেলেন। ' মথি ২০:১\n"
+"\n"
+"তোমার পথ আমাদের পথ নয়। আমরা আপনার উদারতার জন্য আপনার প্রশংসা করি এবং অনুরোধ করি যেন অনেক বাংলাদেশী আপনার রাজ্যে প্রবেশ করতে পারে, এমনকি দিনের শেষ ঘন্টা পর্যন্ত। "
+
+#: admin/starter-content.php:313
+msgid "\"So on the next day Agrippa and Bernice came with great pomp, and they entered the audience hall with the military tribunes and the prominent men of the city. Then, at the command of Festus, Paul was brought in.\" (Acts 25:23) Here Paul experienced Jesus’ words in Matthew 10:18, \"and you will be dragged before governors and kings for my sake, to bear witness before them and the Gentiles\". In the same way, may [people_name] believers, when this happens, experience Jesus’ promise as it was for Paul, \"do not be anxious how you are to speak or what you are to say, for what you are to say will be given you in that hour.\" (Matthew 10:19)"
+msgstr "'অতএব পরদিন আগ্রিপ্প ও বর্ণীকী মহা আড়ম্বরের সহিত আসিলেন, এবং সহস্রপতিগণের ও নগরের প্রধান লোকদের সহিত সভাস্থলে প্রবিষ্ট হইলেন, আর ফীষ্টের আজ্ঞায় পৌল আনীত হইলেন। 'প্রেরিত্‌ ২৫:২৩ \n"
+"\n"
+"এখানে পৌল মথি ১০:১৮ উল্লেখিত যীশুর এই কথাগুলি অনুভব করেছিলেন 'এমন কি, আমার জন্য তোমরা দেশাধ্যক্ষ ও রাজাদের সম্মুখে, তাহাদের ও পরজাতিগণের কাছে সাক্ষ্য দিবার জন্য, নীত হইবে। '। একইভাবে, বাংলাদেশী বিশ্বাসীরা, যখন এটি ঘটবে, যীশুর প্রতিশ্রুতির অভিজ্ঞতা লাভ করুক যেমনটি সাধু পৌলের জন্য হয়েছিল, 'কিন্তু যখন লোকে তোমাদিগকে সমর্পণ করিবে, তখন তোমরা কিরূপে কি বলিবে, সেই বিষয়ে চিন্তিত হইও না; কারণ তোমাদের যাহা বলিবার, তাহা সেই দণ্ডেই তোমাদিগকে দান করা যাইবে। ' মথি ১০:১৯ "
+
+#: admin/starter-content.php:314
+msgid "\"By faith Rahab the prostitute did not perish with those who were disobedient, because she had given a friendly welcome to the spies.\" (Hebrews 11:31) Thank You Lord, for the reminder that no one is too far from Your saving grace. We pray for many [people_name], no matter their background, to be given new identities in Christ through faith."
+msgstr "'বিশ্বাসে রাহব বেশ্যা, শান্তির সহিত চরদের অভ্যর্থনা করাতে, অবাধ্যদের সহিত বিনষ্ট হইল না। ' ইব্রীয় ১১:৩১ \n"
+"\n"
+"প্রভু, আপনাকে ধন্যবাদ, এই স্মরণীয় ঘটনার জন্য যে কেউ আপনার  অনুগ্রহরূপ পরিত্রাণ থেকে খুব বেশি দূরে নয়। আমরা অনেক বাংলাদেশীর জন্য প্রার্থনা করি, তাদের পটভূমি যেমনই হোক না কেন, বিশ্বাসের মাধ্যমে খ্রীস্টে তাদের নতুন পরিচয় হোক।"
+
+#: admin/starter-content.php:315
+msgid "Jesus, we pray for believers in [location_name] to know how to obey your commands by going AND staying. https://zume.training/always-part-of-two-churches/"
+msgstr "যীশু, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি যে কীভাবে যাওয়া এবং থাকার মাধ্যমে আপনার আদেশগুলি মেনে চলতে হয়। https://zume.training/always-part-of-two-churches/   https://zume.training/bn/"
+
+#: admin/starter-content.php:318
+msgid "\"And they sing the song of Moses, the servant of God, and the song of the Lamb, saying, ’Great and amazing are your deeds, O Lord God the Almighty! Just and true are your ways, O King of the [people_name] nations!’\" (Revelation 15:3)"
+msgstr "'আর তাহারা ঈশ্বরের দাস মোশির গীত ও মেষশাবকের গীত গায়, বলে, ‘‘মহৎ ও আশ্চর্য তোমার ক্রিয়া সকল, হে প্রভু ঈশ্বর, সর্বশক্তিমান; ন্যায্য ও সত্য তোমার মার্গ সকল, হে জাতিগণের (বিশেষভাবে বাংলাদেশের)  রাজন্‌! ' (প্রকাশিত বাক্য ১৫:৩)"
+
+#: admin/starter-content.php:319
+msgid "\"But woe to you, scribes and Pharisees, hypocrites! For you shut the kingdom of heaven in people’s faces. For you neither enter yourselves nor allow those who would enter to go in.\" (Matthew 23:13) In Jesus’ day there were many opposed to the Kingdom, so today is no different. We appeal to Jesus, the One who opens and no one will shut (Revelation 3:7) to open the Kingdom to many in [location_name] today."
+msgstr "'কিন্তু, হা অধ্যাপক ও ফরীশীগণ, কপটীরা, ধিক্‌ তোমাদিগকে! কারণ তোমরা মনুষ্যদের সম্মুখে স্বর্গরাজ্য রুদ্ধ করিয়া থাক; ' মথি ২৩:১৩ \n"
+"\n"
+"যীশুর সময়েও অনেকেই ঈশ্বরের রাজ্যের বিরোধিতা করেছিল, আজও তার বাতিক্রম নয়। আজ বাংলাদেশে অনেকের জন্য তাঁর রাজ্যে প্রবেশের দ্বার খুলে দেওয়ার জন্য আমরা যীশুর কাছে নিবেদন করি, যিনি দ্বার খুলেন এবং কেউ সেটি বন্ধ করে না (প্রকাশিত বাক্য ৩:৭)। "
+
+#: admin/starter-content.php:320
+msgid "Jesus told Paul that \"I am sending you to open their eyes, so that they may turn from darkness to light and from the power of Satan to God, that they may receive forgiveness of sins and a place among those who are sanctified by faith in me.\" (Acts 26:18) We beseech You, Lord, to send many [people_name] Pauls to do the same throughout every corner of [location_name]."
+msgstr "যীশু পৌলকে বললেন, \"যেন তুমি তাহাদের চক্ষু খুলিয়া দেও, যেন তাহারা অন্ধকার হইতে জ্যোতির প্রতি, এবং শয়তানের কর্তৃত্ব হইতে ঈশ্বরের প্রতি ফিরিয়া আইসে, যেন আমাতে বিশ্বাস করণ দ্বারা পাপের মোচন ও পবিত্রীকৃত লোকদের মধ্যে অধিকার প্রাপ্ত হয়।\" 'প্রেরিত্‌ ২৬:১৮ \n"
+"\n"
+"প্রভু, আমরা আপনাকে অনুরোধ করছি, বাংলাদেশের প্রতিটি কোণে একই কাজ করার জন্য অনেক বাংলাদেশী পৌলকে পাঠান।"
+
+#: admin/starter-content.php:322
+msgid "Lord, we pray for believers in [location_name] to be intentional in making disciples. https://zume.training/god-uses-ordinary-people/"
+msgstr "প্রভু, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি যেন তারা স্বেচ্ছায় শিষ্য তৈরিতে আগ্রহী হয়। https://zume.training/god-uses-ordinary-people/  https://zume.training/bn/ "
+
+#: admin/starter-content.php:325
+msgid "\"Who will not fear, O Lord, and glorify your name? For you alone are holy. All [people_name] nations will come and worship you, for your righteous acts have been revealed.\" (Revelation 15:4)"
+msgstr "'হে প্রভু, কে না ভীত হইবে? এবং তোমার নামের গৌরব কে না করিবে? কেননা একমাত্র তুমিই সাধু, কেননা সমস্ত জাতি (বিশেষভাবে বাংলাদেশ) আসিয়া তোমার সম্মুখে ভজনা করিবে, কেননা তোমার ধর্মক্রিয়া সকল প্রকাশিত হইয়াছে।” ' (প্রকাশিত বাক্য ১৫:৪)"
+
+#: admin/starter-content.php:326
+msgid "\"And this gospel of the kingdom will be proclaimed throughout the whole world as a testimony to all nations, and then the end will come.\" (Matthew 24:14) Father we pray for the Good News of the Kingdom to be shared in a clear, understandable, and reproducible way among all of the unengaged, unreached people groups in [location_name]."
+msgstr "'আর সর্ব জাতির নিকটে সাক্ষ্য দিবার নিমিত্ত রাজ্যের এই সুসমাচার সমুদয় জগতে প্রচার করা যাইবে; আর তখন শেষ উপস্থিত হইবে। ' মথি ২৪:১৪ \n"
+"\n"
+"পিত আমরা প্রার্থনা করি রাজ্যের সুসমাচার বাংলাদেশের সকল অসংলগ্ন, অপ্রকাশিত জনগোষ্ঠীর মধ্যে একটি পরিষ্কার, বোধগম্য এবং পুনুরবৃদ্ধিযোগ্য উপায়ে প্রচারিত হউক। "
+
+#: admin/starter-content.php:327
+msgid "\"And when he had said these things, he took bread, and giving thanks to God in the presence of all he broke it and began to eat.\" (Acts 27:35) Lord, may believers in [location_name] exhibit such unshakeable confidence in Your Word and Your provision, that even in the scariest of circumstances they can still give thanks to You. We pray in the midst of the coronavirus pandemic that many will be drawn to Christ in [location_name] through believers’ firm faith in You."
+msgstr "'ইহা বলিয়া পৌল রুটি লইয়া সকলের সাক্ষাতে ঈশ্বরের ধন্যবাদ করিলেন, পরে তাহা ভাঙ্গিয়া ভোজন করিতে আরম্ভ করিলেন। ' প্রেরিত্‌ ২৭:৩৫ \n"
+"\n"
+"প্রভু, বাংলাদেশের বিশ্বাসীরা আপনার বাক্য এবং আপনার বিধানের প্রতি এমন অটুট আস্থা প্রদর্শন করুক, যেন ভয়ানক পরিস্থিতিতেও তারা আপনাকে ধন্যবাদ জানাতে পারে। আমরা করোনভাইরাস মহামারীর মধ্যে প্রার্থনা করি যে আপনার প্রতি বিশ্বাসীদের দৃঢ় বিশ্বাসের মাধ্যমে বাংলাদেশে অনেকেই  খ্রীষ্টের প্রতি অনুরক্ত হবে।"
+
+#: admin/starter-content.php:329
+msgid "God, we pray for believers in [location_name] to know how to assess their strengths and vulnerabilities when it comes to making disciples who multiply. https://zume.training/coaching-checklist/"
+msgstr "ঈশ্বর, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি যাতে তারা জানতে পারে যে কিভাবে সংখ্যাবৃদ্ধিকারী শিষ্য তৈরির ক্ষেত্রে তাদের শক্তি এবং দুর্বলতাগুলি মূল্যায়ন করতে হয়। https://zume.training/coaching-checklist/. https://zume.training/bn/ "
+
+#: admin/starter-content.php:333
+msgid "(The Parable of the Ten Virgins) \"Then the kingdom of heaven will be like ten virgins who took their lamps and went to meet the bridegroom.\" (Matthew 25:1) Prepare your Bride in [location_name] for Your return. We pray that every believer in this nation will be pursuing Your Kingdom and seeking opportunities to prepare their friends and family for Jesus’ return."
+msgstr "(দশ কুমারীর দৃষ্টান্ত) 'তখন স্বর্গ-রাজ্য এমন দশ জন কুমারীর তুল্য বলিতে হইবে, যাহারা আপন আপন প্রদীপ লইয়া বরের সহিত সাক্ষাৎ করিতে বাহির হইল। ' মথি ২৫:১ \n"
+"\n"
+"আপনার দ্বিতীয় আগমনের জন্য বাংলাদেশে আপনার বধূকে প্রস্তুত করুন। আমরা প্রার্থনা করি যে এই জাতির প্রতিটি বিশ্বাসী আপনার রাজ্যের অনুসরণ করবে এবং যীশুর দ্বিতীয় আগমনের জন্য তাদের বন্ধু এবং পরিবারকে প্রস্তুত করার সুযোগ খুঁজবে।"
+
+#: admin/starter-content.php:334
+msgid "\"From morning till evening he expounded to them, testifying to the kingdom of God and trying to convince them about Jesus both from the Law of Moses and from the Prophets.\" (Acts 28:23) Continue to equip believers throughout [location_name] to testify convincingly of Your Kingdom using Moses and the Prophets as needed. Soften hearts throughout the land to believe in this glorious message!"
+msgstr "'পরে তাহারা একটি দিন নিরূপণ করিয়া সেই দিন অনেকে তাঁহার বাসায় তাঁহার কাছে আসিলেন; তাঁহাদের কাছে তিনি প্রাতঃকাল অবধি সন্ধ্যা পর্যন্ত ব্যাখ্যা করিয়া ঈশ্বরের রাজ্যের বিষয়ে সাক্ষ্য দিলেন, এবং মোশির ব্যবস্থা ও ভাববাদিগণের গ্রন্থ লইয়া যীশুর বিষয়ে তাঁহাদিগকে বুঝাইতে চেষ্টা করিলেন। ' প্রেরিত্‌ ২৮:২৩ \n"
+"\n"
+"প্রয়োজনে মোশি এবং ভাববাদীগনের গ্রন্থ ব্যবহার করে আপনার রাজ্যের দৃঢ় বিশ্বাসের সাক্ষ্য দেওয়ার জন্য সারা বাংলাদেশে বিশ্বাসীদের অবিরতভাবে সজ্জিত করতে থাকুন। এই মহিমার বাক্যে বিশ্বাস করার জন্য দেশজুড়ে সকল মানুষের হৃদয়কে নম্র করুন!"
+
+#: admin/starter-content.php:336
+msgid "Father, we pray for believers in [location_name] to learn how multiplying churches stay connected and live life together as an extended, spiritual family. https://zume.training/leadership-in-networks/"
+msgstr "পিত, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি যে কিভাবে সংখ্যাবৃদ্ধিকারী মণ্ডলীগুলো একসঙ্গে সংযুক্ত থাকে এবং  আত্মিক পরিবার হিসাবে একসাথে সুদীর্ঘ জীবনযাপন করা যায় তা শিখতে পারে। https://zume.training/leadership-in-networks/   https://zume.training/bn/"
+
+#: admin/starter-content.php:339
+msgid "\"And many [people_name] nations shall join themselves to the Lord in that day, and shall be my people. And I will dwell in your midst, and you shall know that the Lord of hosts has sent me to you.\" (Zechariah 2:11)"
+msgstr "'সেই দিনে অনেক জাতি (বিশেষভাবে বাংলাদেশ)  সদাপ্রভুতে আসক্ত হইবে, আমার প্রজা হইবে; এবং আমি তোমার মধ্যে বাস করিব, তাহাতে তুমি জানিবে যে, বাহিনীগণের সদাপ্রভুই আমাকে তোমার নিকটে পাঠাইয়াছেন। ' (সখরিয় ২:১১) "
+
+#: admin/starter-content.php:340
+msgid "\"Then the King will say to those on his right, ’Come, you who are blessed by my Father, inherit the kingdom prepared for you from the foundation of the world.’\" (Matthew 25:34-36) Thank You Lord that you have prepared [people_name] to enter your kingdom from the foundation of the world. May every believer in this nation do the good works (feeding then hungry; giving water to the thirsty; etc.) that you prepared in advance for them to do (Ephesians 2:10)"
+msgstr "'তখন রাজা আপনার দক্ষিণ দিকে স্থিত লোকদিগকে বলিবেন, আইস, আমার পিতার আশীর্বাদ-পাত্রেরা, জগতের পত্তনাবধি যে রাজ্য তোমাদের জন্য প্রস্তুত করা গিয়াছে, তাহার অধিকারী হও। ' মথি ২৫:৩৪-৩৬ \n"
+"\n"
+"প্রভু আপনাকে ধন্যবাদ যে আপনি জগত পত্তন থেকে বাংলাদেশকে আপনার রাজ্যে প্রবেশের জন্য প্রস্তুত করেছেন। এই জাতির প্রতিটি বিশ্বাসী ভালো কাজ করুক (ক্ষুধার্তকে খাওয়ানো; তৃষ্ণার্তদের জল দেওয়া; ইত্যাদি) যা আপনি তাদের করার জন্য আগে থেকেই প্রস্তুত করেছেন (ইফিষীয় ২:১০)। "
+
+#: admin/starter-content.php:341
+msgid "\"Proclaiming the kingdom of God and teaching about the Lord Jesus Christ with all boldness and without hindrance.\" (Acts 28:31) Just as the story of Acts ended with Paul living this verse out. We pray believers in [location_name] would proclaim the Kingdom of God and teach about the Lord with all boldness and without hindrance until their last breath."
+msgstr "\"ঈশ্বরের রাজ্যের কথা প্রচার করিতেন, এবং প্রভু যীশু খ্রীষ্টের বিষয়ে উপদেশ দিতেন, কেহ তাঁহাকে বাধা দিত না।\" প্রেরিত্‌ ২৮:২৯-৩০ \n"
+"\n"
+"ঠিক যেমনভাবে প্রেরিত কাহিনী সাধু পৌলের এই কথার মধ্যে দিয়ে শেষ হয়েছে। আমরা প্রার্থনা করি বাংলাদেশে বিশ্বাসীরা ঈশ্বরের রাজ্য প্রচার করবে এবং তাদের শেষ নিঃশ্বাস পর্যন্ত সমস্ত সাহসিকতার সাথে এবং বাধা ছাড়াই প্রভু সম্পর্কে শিক্ষা দেবে।"
+
+#: admin/starter-content.php:342
+msgid "\"Some were tortured, refusing to accept release, so that they might rise again to a better life. Others suffered mocking and flogging, and even chains and imprisonment. They were stoned, they were sawn in two, they were killed with the sword.\" (Hebrews 11:35b-37) Give all believers in [location_name] perseverance in the face of persecution. Comfort them by the great cloud of witnesses that have gone before them, witnesses like those described in these verses."
+msgstr " \"....অন্যেরা প্রহার দ্বারা নিহত হইলেন, মুক্তি গ্রহণ করেন নাই, যেন শ্রেষ্ঠ পুনরুত্থানের ভাগী হইতে পারেন।'আর অন্যেরা বিদ্রূপের ও কশাঘাতের, অধিকন্তু বন্ধনের ও কারাগারের পরীক্ষা ভোগ করিলেন; তাঁহারা প্রস্তরাঘাতে হত, পরীক্ষিত, করাত দ্বারা বিদীর্ণ, খড়্‌গ দ্বারা নিহত হইলেন; ' ইব্রীয় ১১:৩৫-৩৭ \n"
+"\n"
+"নিপীড়নের মুখে বাংলাদেশের সকল বিশ্বাসীদের ধৈর্যশীল করুন। সাক্ষরূপ বিশাল মেঘের দ্বারা তাদের সান্ত্বনা দিন যা তাদের আগে চলে গেছে, এই বাক্যাংশকে বর্ণিত সাক্ষীদের মতো।"
+
+#: admin/starter-content.php:343
+msgid "God, we pray for believers in [location_name] to discover ways to assess the spiritual health of your work among churches they are starting. https://zume.training/peer-mentoring-groups/"
+msgstr "ঈশ্বর, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি তারা যেন মণ্ডলীগুলোতে আপনার আত্মিক কাজের গতি বা অবস্থা মূল্যায়নের পন্থাগুলো আবিষ্কার করতে পারে। https://zume.training/peer-mentoring-groups/. https://zume.training/bn/ "
+
+#: admin/starter-content.php:346
+msgid "\"For from the rising of the sun to its setting my name will be great among the [people_name] nations, and in every place incense will be offered to my name, and a pure offering. For my name will be great among the [people_name] nations, says the Lord of hosts.\" (Malachi 1:11)"
+msgstr "'কারণ সূর্যের উদয়স্থান অবধি তাহার অস্তগমনস্থান পর্যন্ত জাতিগণের মধ্যে আমার নাম মহৎ এবং প্রত্যেক স্থানে আমার নামের উদ্দেশে ধূপদাহ ও শুচি নৈবেদ্য উৎসৃষ্ট হইতেছে; কেননা জাতিগণের (বিশেষভাবে বাংলাদেশের) মধ্যে আমার নাম মহৎ, ইহা বাহিনীগণের সদাপ্রভু কহেন। ' (মালাখি ১:১১)"
+
+#: admin/starter-content.php:347
+msgid "\"I tell you I will not drink again of this fruit of the vine until that day when I drink it new with you in my Father’s kingdom.\" (Matthew 26:29) Even more strongly than fasting [people_name] today long for their thirst to be quenched and their bellies to be filled with extravagant food, may your Church’s anticipation be growing for the day when Jesus drinks again of the fruit of the vine that He secured through His death, burial, and resurrection. We pray that there will be many [people_name] from every people group around that table."
+msgstr "'আর আমি তোমাদিগকে কহিতেছি, এখন অবধি আমি এই দ্রাক্ষাফলের রস আর কখনও পান করিব না, সেই দিন পর্যন্ত, যখন আমি আপন পিতার রাজ্যে তোমাদের সঙ্গে ইহা নূতনভাবে পান করিব। ' মথি ২৬:২৯ \n"
+"\n"
+"আজকে রোজাদার বাংলাদেশিরা তাদের তৃষ্ণা নিবারণের জন্য এবং তাদের পেট অযৌক্তিক খাবারে পূর্ণ করার জন্য আকাঙ্ক্ষা করে,  তার চেয়েও বেশি আপনার মণ্ডলীর প্রত্যাশা সেই দিনটির জন্য বৃদ্ধি পেতে পারে যেদিন যীশু তার মৃত্যু, কবরস্থ এবং পুনুরুত্থানের মাধ্যমে সুরক্ষিত দ্রাক্ষাফলের রস আবার পান করবেন। আমরা প্রার্থনা করি যে সেই টেবিলের চারপাশে প্রতিটি মানব গোষ্ঠীর মধ্যে অনেক বাংলাদেশীও থাকবে।"
+
+#: admin/starter-content.php:348
+msgid "Thank you Lord for the example of the book of Acts, continue these stories and events in [location_name] today. We pray for unprecedented Kingdom advance this year in [location_name]!"
+msgstr "প্রেরিত পুস্তকের উদাহরণের জন্য প্রভুকে ধন্যবাদ জানাই, আজ বাংলাদেশে এই কাহিনী এবং ঘটনাগুলির প্রচার চালিয়ে যান। আমরা এই বছর বাংলাদেশে ঈশ্বরের রাজ্যের অভূতপূর্ব বৃদ্ধির জন্য প্রার্থনা করি!"
+
+#: admin/starter-content.php:349
+msgid "\"They went about in skins of sheep and goats, destitute, afflicted, mistreated— of whom the world was not worthy—wandering about in deserts and mountains, and in dens and caves of the earth.\" (Hebrews 11:37-38) Thank you for our many brothers and sisters in [location_name] -- of whom the world is not worthy. Protect them from the evil one and preserve their faith. May every persecution only strengthen their resolve and demonstrate the treasure of Christ."
+msgstr "\"...তাঁহারা মেষের ও ছাগের চর্ম পরিয়া বেড়াইতেন, দীনহীন, ক্লিষ্ট, উপদ্রুত হইতেন; এই জগৎ যাঁহাদের যোগ্য ছিল না, তাহারা প্রান্তরে প্রান্তরে, পাহাড়ে পাহাড়ে, গুহায় গুহায় ও পৃথিবীর গহ্বরে গহ্বরে ভ্রমণ করিতেন। 'ইব্রীয় ১১:৩৭-৩৮ \n"
+"\n"
+"বাংলাদেশে আমাদের অনেক ভাই ও বোনের জন্য আপনাকে ধন্যবাদ — যাদের জন্য এই জগৎ যোগ্য নয়। তাদের মন্দ থেকে রক্ষা করুন এবং তাদের বিশ্বাস রক্ষা করুন। প্রতিটি অত্যাচার কেবল তাদের সংকল্পকে শক্তিশালী করে এবং খ্রীষ্টের ধন প্রদর্শন করে। "
+
+#: admin/starter-content.php:350
+msgid "Father, we pray for believers in [location_name] to learn simple tools like Four Fields to reflect on the status of current efforts and kingdom activity around them. https://zume.training/four-fields-tool/"
+msgstr "পিত, আমরা বাংলাদেশের বিশ্বাসীদের জন্য প্রার্থনা করি যেন তারা তাদের চারপাশে বর্তমান প্রচেষ্টা এবং ঈশ্বরের রাজ্যের কার্যকলাপের অবস্থা প্রতিফলিত করার জন্য ফোর ফিল্ডের মতো সহজ কর্মপন্থাগুলো শিখতে পারে। https://zume.training/four-fields-tool/    https://zume.training/bn/\n"
+""
+
+#: admin/starter-content.php:354
+msgid "\"And this gospel of the kingdom will be proclaimed throughout the whole world as a testimony to all nations, and then the end will come.\" (Matthew 24:14) Until you return, may the passion of Your church, both within [location_name] and beyond be the proclamation of the gospel of Your Kingdom among all nations."
+msgstr "'আর সর্ব জাতির নিকটে সাক্ষ্য দিবার নিমিত্ত রাজ্যের এই সুসমাচার সমুদয় জগতে প্রচার করা যাইবে; আর তখন শেষ উপস্থিত হইবে। ' মথি ২৪:১৪\n"
+"\n"
+"আপনি ফিরে না আসা পর্যন্ত, বাংলাদেশের অভ্যন্তরে এবং এর বাইরেও সমস্ত জাতির মধ্যে আপনার রাজ্যের সুসমাচারের ঘোষণা হোক। এটিই আপনার মণ্ডলীর ঐকান্তিক ইচ্ছা। "
+
+#: admin/starter-content.php:355
+msgid "\"Now the full number of those who believed were of one heart and soul...\" (Acts 4:32a) We praise You Lord for the ways believers in [location_name] care for one another. We pray for your Bride in this land to continue to grow in unity and love for one another."
+msgstr "'আর যে বহুসংখ্যক লোক বিশ্বাস করিয়াছিল, তাহারা একচিত্ত ও একপ্রাণ ছিল।  প্রেরিত্‌ ৪:৩২ (প্রথমাংশ) \n"
+"\n"
+"বাংলাদেশে বিশ্বাসীরা যেভাবে একে অপরের যত্ন নেয় তার জন্য, প্রভু, আমরা তোমার প্রশংসা করি। আমরা এই দেশে আপনার কনের জন্য প্রার্থনা করি যাতে একে অপরের জন্য একতা এবং ভালবাসা বৃদ্ধি পায়।"
+
+#: admin/starter-content.php:356
+msgid "\"And all these, though commended through their faith, did not receive what was promised, since God had provided something better for us, that apart from us they should not be made perfect.\" (Hebrews 11:39-40) Thank You Lord for the beautiful tapestry of faith you are weaving through believers across the centuries. We pray for many [people_name] to be brought into this promise, even during this month of Ramadan. Amen!"
+msgstr "'আর বিশ্বাস প্রযুক্ত ইঁহাদের সকলের পক্ষে সাক্ষ্য দেওয়া হইয়াছিল, কিন্তু ইঁহারা প্রতিজ্ঞার ফলপ্রাপ্ত হন নাই; কেননা ঈশ্বর আমাদের নিমিত্ত পূর্বাবধি কোন শ্রেষ্ঠ বিষয় লক্ষ্য করিয়াছিলেন, যেন তাঁহারা আমাদের ব্যতিরেকে সিদ্ধি না পান।' ইব্রীয় ১১:৩৯-৪০ \n"
+"\n"
+"শত শত বছর ধরে বিশ্বাসীদের মাধ্যমে আপনি যে বিশ্বাসের সুন্দর নকশিকাঁথা বুনছেন তার জন্য প্রভু আপনাকে ধন্যবাদ। আমরা এই রমজান মাসেও অনেক বাংলাদেশিকে এই প্রতিশ্রুতির মধ্যে আনার জন্য প্রার্থনা করি। আমেন!"
+
+#: admin/starter-content.php:357
+msgid "Father, we pray for believers in [location_name] to have and use tools like Generational Maps to understand the growth of their disciples and churches. https://zume.training/generational-mapping/"
+msgstr "পিত, আমরা বাংলাদেশের বিশ্বাসীদের জন্য তাদের শিষ্য এবং মণ্ডলীর বৃদ্ধি বুঝতে জেনারেশনাল ম্যাপের মতো পদ্ধতি ব্যবহার করার জন্য প্রার্থনা করি। https://zume.training/generational-mapping/. https://zume.training/bn/"
+
+#: admin/starter-content.php:380
+msgid "PRAISE"
+msgstr "প্রশংসা"
+
+#: admin/starter-content.php:388
+msgid "KINGDOM COME"
+msgstr "কিংডম আস"
+
+#: admin/starter-content.php:396
+msgid "PRAY THE BOOK OF ACTS"
+msgstr "আইনের বই প্রার্থনা করুন"
+
+#: admin/starter-content.php:404
+msgid "PRAY THE HALL OF FAITH"
+msgstr "বিশ্বাস হল প্রার্থনা"
+
+#: admin/starter-content.php:412
+msgid "PRAYER"
+msgstr "প্রার্থনা"
+
+#: admin/starter-content.php:143
+msgid "\"For this I will praise you, O Lord, among the nations in [location_name], and sing to your name. (Psalm 18:49)"
+msgstr "'এই কারণ, হে সদাপ্রভু, আমি জাতিগণের  (বিশেষভাবে বাংলাদেশের) মধ্যে তোমার স্তব করিব, তোমার নামের উদ্দেশে স্তোত্র গান করিব। ' (গীত ১৮:৪৯) "
+
+#: site/archive-body.php:84
+msgid "Today's Prayer Fuel"
+msgstr "আজকের নামাজের জ্বালানি"
+
+#: site/archive-body.php:104
+msgid "All Days"
+msgstr "সব দিন"
+
+#: site/archive-body.php:106 site/landing-body.php:100
+msgid "Use these resources to help pray specifically each day for the month of Ramadan."
+msgstr "রমজান মাসের জন্য প্রতিদিন বিশেষভাবে প্রার্থনা করতে সাহায্য করার জন্য এই সংস্থানগুলি ব্যবহার করুন।"
+
+#: site/archive-body.php:132
+msgid "Read"
+msgstr "পড়ুন"
+
+#: admin/starter-content.php:214
+msgid "\"From the days of John the Baptist until now the kingdom of heaven has suffered violence, and the violent take it by force.\" (Matthew 11:12) Today as another day of fasting and feasting passes, we take comfort in knowing nothing can hinder your Kingdom advancing among the nations. We pray for many in [location_name] to actively participate in bringing Your Kingdom among the nations."
+msgstr "'আর যোহন বাপ্তাইজকের কাল হইতে এখন পর্যন্ত স্বর্গ-রাজ্য বলে আক্রান্ত হইতেছে, এবং আক্রমণকারীরা সবলে তাহা অধিকার করিতেছে। ' মথি ১১:১২ \n"
+"\n"
+"আজকে উপবাস ও ভোজের আরেকটি দিন চলে যাচ্ছে, আমরা এটা জেনে সান্ত্বনা পাই যে কোনো কিছুই জাতিগণকে তোমার রাজ্যের মধ্যে অগ্রসর হতে বাধা দিতে পারে না। আমরা বাংলাদেশের অনেকের জন্য প্রার্থনা করি যাতে বিশ্বের মানুষের কাছে তোমার রাজ্য নিয়ে আসতে সক্রিয়ভাবে অংশগ্রহণ করতে পারে।"
+
+#: admin/starter-content.php:229
+msgid "\"I have made you a light for the Gentiles, that you may bring salvation to the ends of the earth... and the word of the Lord was spreading throughout the whole region.\" (Acts 13:47,49) Thank you that [location_name] is a part of those ’ends of the earth’. We agree with Your word today Lord and pray that it would spread throughout the whole region of [location_name]."
+msgstr "'কেননা প্রভু আমাদিগকে এইরূপ আজ্ঞা দিয়াছেন, ‘‘আমি তোমাকে জাতিগণের দীপ্তিস্বরূপ করিয়াছি, যেন তুমি পৃথিবীর সীমা পর্যন্ত পরিত্রাণস্বরূপ হও।.......” আর প্রভুর বাক্য সেই দেশের সর্বত্র ব্যাপিয়া গেল।' প্রেরিত্‌ ১৩:৪৭, ৪৯ \n"
+"\n"
+"আপনাকে ধন্যবাদ যে বাংলাদেশ ‘পৃথিবীর সেই সকল প্রান্তের’ একটি অংশ।  প্রভু আজ আমরা আপনার পবিত্র বাক্যর সঙ্গে একমত এবং প্রার্থনা করি যে এটি বাংলাদেশ এবং এশিয়ার সমগ্র অঞ্চলে ছড়িয়ে পড়ুক।"
+
+#: admin/starter-content.php:272
+msgid "\"By faith Moses, when he was grown up, refused to be called the son of Pharaoh’s daughter, choosing rather to be mistreated with the people of God than to enjoy the fleeting pleasures of sin.\" (Hebrews 11:24-25) Lord, give all believers in [location_name] an eternal perspective to find pleasure in You more than in the fleeting pleasures of sin. As they do, may it be a powerful testimony to onlooking family and friends."
+msgstr "'বিশ্বাসে মোশি বয়ঃপ্রাপ্ত হইলে পর ফরৌণের কন্যার পুত্র বলিয়া আখ্যাত হইতে অস্বীকার করিলেন; তিনি পাপজাত ক্ষণিক সুখভোগ অপেক্ষা বরং ঈশ্বরের প্রজাবৃন্দের সঙ্গে দুঃখভোগ মনোনীত করিলেন; ' ইব্রীয় ১১:২৪-২৫ \n"
+"\n"
+"প্রভু, বাংলাদেশের সমস্ত বিশ্বাসীদেরকে পাপের ক্ষণস্থায়ী আনন্দের চেয়ে আপনার মধ্যে আনন্দ পাওয়ার জন্য একটি চিরন্তন দৃষ্টিভঙ্গি দিন।  তারা যেন পরিবার এবং বন্ধুদের জন্য একটি শক্তিশালী সাক্ষ্য হতে পারে, যারা তাদের প্রতিনিয়ত প্রত্যক্ষ করে।"
+
+#: admin/starter-content.php:300
+msgid "\"By faith the people crossed the Red Sea as on dry land, but the Egyptians, when they attempted to do the same, were drowned.\" (Hebrews 11:29) We pray for God’s miraculous works recorded in the Bible to stir believers in [location_name] to live by faith in ever-increasing measure."
+msgstr "'বিশ্বাসে লোকেরা শুষ্কভূমির ন্যায় লোহিত সমুদ্রের মধ্য দিয়া গমন করিল, কিন্তু মিসরীয়গণ সেই চেষ্টা করিতে গিয়া কবলিত হইল। ' ইব্রীয় ১১:২৯ \n"
+"\n"
+"আমরা বাইবেলে লিপিবদ্ধ ঈশ্বরের অলৌকিক কাজের জন্য প্রার্থনা করি যাতে বাংলাদেশে বিশ্বাসীদেরকে ক্রমাগত ক্রমবর্ধমান পরিমাপে বিশ্বাসের দ্বারা বাঁচতে উদ্বুদ্ধ করা যায়।"
+
+#: admin/starter-content.php:321
+msgid "\"And what more shall I say? For time would fail me to tell of Gideon...\" (Hebrews 11:32-35a) Gideon allowed God to dwindle an army of more than 30,000 to 300 so that God would receive all of the glory for the victory. Raise up leaders like Gideon in [location_name], men and women who will have more confidence in God than in their resources."
+msgstr "'আর অধিক কি বলিব?  ..... এই সকলের বৃত্তান্ত বলিতে গেলে সময়ের অকুলান হইবে......গিদিয়োন। ' ইব্রীয় ১১:৩২-৩৫ (প্রথমাংশ) \n"
+"\n"
+"গিদিয়োন ঈশ্বরকে ৩০,০০০ থেকে ৩০০ জনেরও বেশি বাহিনীকে হ্রাস করার অনুমতি দিয়েছিলেন যাতে ঈশ্বর বিজয়ের জন্য সমস্ত গৌরব অর্জন করেন। বাংলাদেশে গিদিয়োনের মতো নেতা গড়ে তুলুন, নারী এবং পুরুষ যারা তাদের সম্পদের চেয়ে ঈশ্বরের ওপর বেশি আস্থা রাখবে।"
+
+#: admin/starter-content.php:328
+msgid "\"And what more shall I say? For time would fail me to tell of... Barak...\" (Hebrews 11:32-35a) Though Barak stumbled with fear, he still led 10,000 people to victory and freedom for the people of God. We pray for godly [people_name] leaders to be used by God, despite their weaknesses, to free others from the bondage of sin."
+msgstr "'আর অধিক কি বলিব?  ..... এই সকলের বৃত্তান্ত বলিতে গেলে সময়ের অকুলান হইবে... বারক। ' ইব্রীয় ১১:৩২-৩৫ (প্রথমাংশ) \n"
+"\n"
+"যদিও বারাক ভয়ে হোঁচট খেয়েছিলেন, তবুও তিনি ১০,০০০ লোককে ঈশ্বরের লোকেদের জন্য বিজয় ও স্বাধীনতার দিকে পরিচালিত করেছিলেন। আমরা ধার্মিক বাংলাদেশী নেতাদের জন্য প্রার্থনা করি যে, তাদের দুর্বলতা সত্ত্বেও, অন্যদের পাপের দাসত্ব থেকে মুক্ত করার জন্য ঈশ্বরের দ্বারা ব্যাবহৃত হোক। "
+
+#: admin/starter-content.php:335
+msgid "\"And what more shall I say? For time would fail me to tell of... David...\" (Hebrews 11:32-35a) Please raise up many like David in [location_name], men and women after God’s own heart. As they chase after God’s heart, may they lead many others into relationship with Him."
+msgstr "'আর অধিক কি বলিব?  ..... এই সকলের বৃত্তান্ত বলিতে গেলে সময়ের অকুলান হইবে ... দায়ূদ । ' ইব্রীয় ১১:৩২-৩৫ (প্রথমাংশ) \n"
+"\n"
+"দয়া করে বাংলাদেশে দায়ূদের মতো অনেক পুরুষ ও নারীকে ঈশ্বরের নিজের হৃদয়ের কাছে তুলে ধরুন। তারা যখন ঈশ্বরের হৃদয়ের অনুসরণ করে, তারা যেন সেই সঙ্গে আরো অনেককে ঈশ্বরের কাছে টেনে নিতে পারে।"
+
+#: admin/starter-content.php:353
+msgid "“O Lord, God of our fathers, are you not God in heaven? You rule over all the kingdoms of the [people_name] nations. In your hand are power and might, so that none is able to withstand you. (2 Chronicles 20:6)"
+msgstr "'আর কহিলেন, হে আমাদের পিতৃপুরুষদের ঈশ্বর সদাপ্রভু, তুমি কি স্বর্গস্থ ঈশ্বর নহ? তুমি কি জাতিগণের (বিশেষভাবে বাংলাদেশের) সমস্ত রাজ্যের কর্তা নহ? আর শক্তি ও পরাক্রম তোমারই হস্তে, তোমার বিপক্ষে দাঁড়াইতে কাহারও সাধ্য নাই। ' (২ বংশাবলি ২০:৬)"
+
