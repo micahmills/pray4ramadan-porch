@@ -80,7 +80,7 @@ function dt_ramadan_list_languages(){
             $available_translations[$code] = $translations[$code];
         }
     }
-    return $available_translations;
+    return apply_filters( 'dt_ramadan_list_languages', $available_translations );
 }
 
 function get_field_translation( $field, $code ){
