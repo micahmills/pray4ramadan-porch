@@ -110,9 +110,11 @@ add_action( 'wp_head', 'og_protocol' );
                         <hr class="lines wow zoomIn" data-wow-delay="0.3s">
                     </div>
                     <div class="">
-                        <?php foreach ( $today->posts as $item ) : ?>
-                            <?php echo wp_kses_post( $item->post_content ) ?>
-                        <?php endforeach; ?>
+                        <?php foreach ( $today->posts as $item ) :
+                            $content = apply_filters( 'the_content', $item->post_content );
+                            $content = str_replace( ']]>', ']]&gt;', $content );
+                            echo wp_kses_post( $content );
+                        endforeach; ?>
                     </div>
                     <?php
                     if ( !isset( $porch_fields['show_prayer_timer']['value'] ) || empty( $porch_fields['show_prayer_timer']['value'] ) || $porch_fields['show_prayer_timer']['value'] === 'yes' ) :
