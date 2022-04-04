@@ -63,7 +63,7 @@ function dt_ramadan_list_languages(){
             'english_name' => 'Russian',
             'native_name' => 'русский',
             'flag' => '🇷🇺',
-            'prayer_fuel' => false,
+            'prayer_fuel' => true,
         ],
 //        'bn_BD' => [
 //            'language' => 'bn_BD',

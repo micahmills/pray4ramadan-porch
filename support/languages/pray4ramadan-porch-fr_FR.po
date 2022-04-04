@@ -227,11 +227,11 @@ msgstr "\"Toutes les familles de la terre seront bénies en ta postérité.\" (A
 
 #: admin/starter-content.php:160
 msgid "\"By faith Abel offered to God a more acceptable sacrifice than Cain, through which he was commended as righteous...\" (Hebrews 11:4a) Convict [people_name] this Ramadan, Lord, that we can only be made right before you on your terms through faith, not ours."
-msgstr "\"C'est par la foi qu'Abel offrit à Dieu un sacrifice plus excellent que celui de Caïn; c'est par elle qu'il fut déclaré juste...\" (Hébreux 11:4a).  Seigneur, convaincs [people_name] durant ce Ramadan que nous pouvons être justifiés à tes yeux seulement par le standard de la foi et non par nos œuvres."
+msgstr "\"C'est par la foi qu'Abel offrit à Dieu un sacrifice plus excellent que celui de Caïn; c'est par elle qu'il fut déclaré juste...\" (Hébreux 11:4a).  Seigneur, convaincs les [people_name] durant ce Ramadan que nous pouvons être justifiés dans tes yeux seulement par le standard de la foi et non par nos œuvres."
 
 #: admin/starter-content.php:161
 msgid "Father, we pray that the people of [location_name] will learn to study the Bible, understand it, obey it, and share it. https://zume.training/soaps-bible-reading/"
-msgstr "Père, nous prions que le people de [location_name] apprenne à étudier la Bible, à la comprendre, à obéir et à la partager. https://zume.training/soaps-bible-reading-fr"
+msgstr "Père, nous prions que le peuple de [location_name] apprenne à étudier la Bible, à la comprendre, à obéir et à la partager. https://zume.training/soaps-bible-reading-fr"
 
 #: admin/starter-content.php:164
 msgid "\"I will cause your name to be remembered in all generations; therefore nations (including [location_name]) will praise you forever and ever.\" (Psalm 45:17)"
@@ -248,11 +248,11 @@ msgstr "\"Et maintenant, Seigneur, vois leurs menaces, et donne à tes serviteur
 
 #: admin/starter-content.php:167
 msgid "\"...Now before he (Enoch) was taken he was commended as having pleased God.\" (Hebrews 11:5b) May believers in [location_name], through faith, seek commendation from You more than man. May they live their lives in pursuit of Your approval alone."
-msgstr "\"... avant son enlèvement, (Énoch) avait reçu le témoignage qu'il était agréable à Dieu.\" (Hébreux 11:5b). Que les croyants en [location_name] par la foi, cherchent la direction de Dieu plus que celle des hommes. Qu’ils vivent leur vie en poursuivant seulement ton approbation."
+msgstr "\"... avant son enlèvement, (Énoch) avait reçu le témoignage qu'il était agréable à Dieu.\" (Hébreux 11:5b). Que les croyants en [location_name], par la foi, cherchent la direction de Dieu plus que celle des hommes. Qu’ils vivent leur vie en poursuivant seulement ton approbation."
 
 #: admin/starter-content.php:168
 msgid "God, we pray both the men and women of [location_name] will find ways to meet in groups of two or three to encourage and correct one another. https://zume.training/accountability-groups/"
-msgstr "O Dieu, nous prions pour les hommes et les femmes de [location_name] de se retrouver dans des groupes [location_name] de deux ou de trois afin de s’encourager mutuellement. https://zume.training/accountability-groups-fr\n"
+msgstr "O Dieu, nous prions pour les hommes et les femmes de [location_name] de se retrouver dans des groupes de deux ou de trois afin de s’encourager mutuellement. https://zume.training/accountability-groups-fr\n"
 ""
 
 #: admin/starter-content.php:171
