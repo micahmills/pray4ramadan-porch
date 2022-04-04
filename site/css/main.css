@@ -90,6 +90,9 @@ ul {
 ul li {
   list-style: none;
 }
+.prayer-fuel ul li {
+    list-style: disc;
+}
 a:hover,
 a:focus {
   text-decoration: none;
