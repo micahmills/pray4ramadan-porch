@@ -92,6 +92,8 @@ ul li {
 }
 .fuel-block ul li {
     list-style: disc !important;
+    padding-left: 1em !important;
+    margin-left: 1em !important;
 }
 a:hover,
 a:focus {
