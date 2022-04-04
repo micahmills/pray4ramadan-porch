@@ -90,8 +90,8 @@ ul {
 ul li {
   list-style: none;
 }
-.prayer-fuel ul li {
-    list-style: disc;
+.fuel-block ul li {
+    list-style: disc !important;
 }
 a:hover,
 a:focus {
