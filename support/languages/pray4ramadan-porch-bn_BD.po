@@ -924,15 +924,15 @@ msgstr "প্রশংসা"
 
 #: admin/starter-content.php:388
 msgid "KINGDOM COME"
-msgstr "কিংডম আস"
+msgstr "রাজ্য আইসুক"
 
 #: admin/starter-content.php:396
 msgid "PRAY THE BOOK OF ACTS"
-msgstr "আইনের বই প্রার্থনা করুন"
+msgstr "প্রেরিত পুস্তকের আলোকে প্রার্থনা করুন"
 
 #: admin/starter-content.php:404
 msgid "PRAY THE HALL OF FAITH"
-msgstr "বিশ্বাস হল প্রার্থনা"
+msgstr "বিশ্বাসে বীরদের ন্যায় প্রার্থনা"
 
 #: admin/starter-content.php:412
 msgid "PRAYER"
