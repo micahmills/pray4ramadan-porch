@@ -241,6 +241,12 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                             </td>
                         </tr>
                         <tr>
+                            <td>See subscribers</td>
+                            <td>
+                                <a href="<?php echo esc_html( site_url() . "/subscriptions/" ); ?>" target="_blank">See Subscribers</a>
+                            </td>
+                        </tr>
+                        <tr>
                             <td>Export Campaign Subscribers</td>
                             <td><button type="submit" name="download_csv">Download CSV</td>
                         </tr>
