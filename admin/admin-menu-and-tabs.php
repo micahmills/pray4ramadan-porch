@@ -348,6 +348,14 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                 update_option( 'p4r_porch_fields', [] );
                 $fields = p4r_porch_fields();
             }
+            if ( isset( $_POST['night_of_power'] ) ){
+                $post_fields = dt_recursive_sanitize_array( $_POST );
+                $fields["power"]["value"]["start"] = $post_fields["start"];
+                $fields["power"]["value"]["start_time"] = $post_fields["start_time"];
+                $fields["power"]["value"]["end"] = $post_fields["end"];
+                $fields["power"]["value"]["end_time"] = $post_fields["end_time"];
+                update_option( 'p4r_porch_fields', $fields );
+            }
         }
         ?>
         <form method="post" class="metabox-table">
@@ -480,6 +488,80 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                         </td>
                         <td></td>
                     </tr>
+                </tbody>
+            </table>
+            <br>
+            <!-- End Box -->
+        </form>
+
+        <form method="post" class="metabox-table">
+            <?php wp_nonce_field( 'ramadan_settings', 'ramadan_settings_nonce' );
+            $power_fields = $fields["power"]["value"];
+            $start_time = (int) $power_fields["start_time"];
+            $end_time = (int) $power_fields["end_time"];
+
+
+            ?>
+            <!-- Box -->
+            <table class="widefat striped">
+                <thead>
+                <tr>
+                    <th style="width:20%">Night of Power</th>
+                    <th style="width:50%"></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Link</td>
+                    <td><a href="<?php echo esc_html( home_url( '/prayer/power' ) ); ?>"><?php echo esc_html( home_url( '/prayer/power' ) ); ?></a></td>
+                </tr>
+                <tr>
+                    <td>Enabled</td>
+                    <td><input type="checkbox" <?php checked( $power_fields["enabled"] ); ?> style="width:fit-content"></td>
+                </tr>
+                <tr>
+                    <td>
+                        Start time
+                    </td>
+                    <td>
+                        <input type="date" name="start"
+                               value="<?php echo esc_html( $power_fields["start"] ); ?>"><br>
+                        <select name="start_time">
+                            <?php
+                            $int = 0;
+                            while ( $int < DAY_IN_SECONDS ): ?>
+                                <option value="<?php echo esc_html( $int ); ?>" <?php selected( $int === $start_time ) ?>> <?php echo esc_html( gmdate( 'h:i a', $int ) ) ?></option>
+                                <?php
+                                $int += 30 * MINUTE_IN_SECONDS;
+                            endwhile; ?>
+                        </select>
+                        <br>
+                        Suggestion: Night of Power 7pm
+                    </td>
+                </tr>
+                <tr>
+                    <td>End time</td>
+                    <td>
+                        <input type="date" name="end" value="<?php echo esc_html( $power_fields["end"] ); ?>">
+                        <select name="end_time">
+                            <?php
+                            $int = 0;
+                            while ( $int < DAY_IN_SECONDS ): ?>
+                                <option value="<?php echo esc_html( $int ); ?>" <?php selected( $int === $end_time ) ?>> <?php echo esc_html( gmdate( 'h:i a', $int ) ) ?></option>
+                                <?php
+                                $int += 30 * MINUTE_IN_SECONDS;
+                            endwhile; ?>
+                        </select>
+                        <br>
+                        Suggestion: Night of Power 4am
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button class="button" type="submit" name="night_of_power">Update</button>
+                    </td>
+                    <td></td>
+                </tr>
                 </tbody>
             </table>
             <br>

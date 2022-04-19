@@ -165,6 +165,7 @@ class P4_Ramadan_Porch {
         // MICROSITE Magic Links
         require_once( 'site/home.php' );
         require_once( 'site/archive.php' );
+        require_once( 'site/power.php' );
         require_once( 'site/landing.php' );
         require_once( 'site/rest.php' );
 
@@ -467,6 +468,10 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
                 'value' => '',
                 'type' => 'default_language_select',
             ],
+            'power' => [
+                'label' => "Night of power",
+                'type' => "array",
+            ]
         ];
 
         $defaults = apply_filters( 'p4r_porch_fields', $defaults );
@@ -484,6 +489,25 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
             !empty( $country_name ) ? $country_name : "COUNTRY",
             !empty( $people_name ) ? $people_name : "PEOPLE"
         );
+
+        if ( !isset( $saved_fields["power"] ) ){
+            $campaign = p4r_get_campaign();
+            $start = time();
+            if ( isset( $campaign["start_date"]["timestamp"] ) ){
+                $start = $campaign["start_date"]["timestamp"];
+            } else if ( isset( $campaign["start_date"] ) ){
+                $start = $campaign["start_date"];
+            }
+            $saved_fields["power"] = $defaults["power"];
+            $saved_fields["power"]["value"] = [
+                "start" => dt_format_date( $start + DAY_IN_SECONDS * 27 ),
+                "start_time" => 19 * HOUR_IN_SECONDS,
+                "end" => dt_format_date( $start + DAY_IN_SECONDS * 28 ),
+                "end_time" => (int) ( 4.5 * HOUR_IN_SECONDS ),
+                "enabled" => true
+            ];
+            update_option( 'p4r_porch_fields', $saved_fields );
+        }
 
         return p4r_recursive_parse_args( $saved_fields, $defaults );
     }
