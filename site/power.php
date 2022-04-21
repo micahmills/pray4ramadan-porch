@@ -158,6 +158,10 @@ class P4_Ramadan_Porch_Power extends DT_Magic_Url_Base
         </section>
         <section class="section" data-stellar-background-ratio="0.2" style="padding-bottom: 0">
             <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Sign Up to', 'pray4ramadan-porch' ); ?> <span><?php esc_html_e( 'Pray', 'pray4ramadan-porch' ); ?></span></h2>
+                    <hr class="lines wow zoomIn" data-wow-delay="0.3s">
+                </div>
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
                         <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
@@ -215,12 +219,8 @@ class P4_Ramadan_Porch_Power extends DT_Magic_Url_Base
             </div>
         </section>
 
-        <section class="section" data-stellar-background-ratio="0.2">
+        <section class="section" data-stellar-background-ratio="0.2" style="padding-top:40px">
             <div id="sign-up" name="sign-up" class="container">
-                <div class="section-header">
-                    <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Sign Up to', 'pray4ramadan-porch' ); ?> <span><?php esc_html_e( 'Pray', 'pray4ramadan-porch' ); ?></span></h2>
-                    <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-                </div>
                 <div class="row">
                     <?php
                     if ( empty( $dt_ramadan_selected_campaign_magic_link_settings ) ) :?>
@@ -249,6 +249,10 @@ class P4_Ramadan_Porch_Power extends DT_Magic_Url_Base
                 let power_end = <?php echo esc_html( $end ); ?>;
                 let end_date = window.luxon.DateTime.fromSeconds(power_end).setZone(power_current_time_zone)
                 $('#power_end_time').html(end_date.toFormat('MMMM dd hh:mm a'))
+
+                //configure campaigns tool
+                $('#open-select-times-button').attr('data-open', 'cp-choose-individual-times').text('Select a time during the Night of Power')
+                $('#cp-choose-individual-times .cp-close-button').hide()
             })
         </script>
         <?php
