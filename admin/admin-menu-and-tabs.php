@@ -500,6 +500,11 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
             $start_time = (int) $power_fields["start_time"];
             $end_time = (int) $power_fields["end_time"];
 
+            $campaign_fields = p4r_get_campaign();
+            $timezone = "America/Chicago";
+            if ( isset( $campaign_fields["campaign_timezone"]["key"] ) ){
+                $timezone = $campaign_fields["campaign_timezone"]["key"];
+            }
 
             ?>
             <!-- Box -->
@@ -515,10 +520,10 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                     <td>Link</td>
                     <td><a href="<?php echo esc_html( home_url( '/prayer/power' ) ); ?>"><?php echo esc_html( home_url( '/prayer/power' ) ); ?></a></td>
                 </tr>
-                <tr>
-                    <td>Enabled</td>
-                    <td><input type="checkbox" <?php checked( $power_fields["enabled"] ); ?> style="width:fit-content"></td>
-                </tr>
+<!--                <tr>-->
+<!--                    <td>Enabled</td>-->
+<!--                    <td><input type="checkbox" --><?php //checked( $power_fields["enabled"] ); ?><!-- style="width:fit-content"></td>-->
+<!--                </tr>-->
                 <tr>
                     <td>
                         Start time
@@ -537,6 +542,8 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                         </select>
                         <br>
                         Suggestion: Night of Power 7pm
+                        <br>
+                        Set times according to <?php echo esc_html( $timezone ); ?> timezone
                     </td>
                 </tr>
                 <tr>
@@ -554,6 +561,8 @@ class P4_Ramadan_Porch_Landing_Tab_Home {
                         </select>
                         <br>
                         Suggestion: Night of Power 4am
+                        <br>
+                        Set times according to <?php echo esc_html( $timezone ); ?> timezone
                     </td>
                 </tr>
                 <tr>
