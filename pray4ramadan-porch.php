@@ -491,22 +491,20 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
         );
 
         if ( !isset( $saved_fields["power"] ) ){
-            $campaign = p4r_get_campaign();
-            $start = time();
-            if ( isset( $campaign["start_date"]["timestamp"] ) ){
-                $start = $campaign["start_date"]["timestamp"];
-            } else if ( isset( $campaign["start_date"] ) ){
-                $start = $campaign["start_date"];
+            $selected_campaign = get_option( 'pray4ramadan_selected_campaign', false );
+            $start = get_post_meta( $selected_campaign, 'start_date', true );
+            $end = get_post_meta( $selected_campaign, 'end_date', true );
+            if ( !empty( $selected_campaign ) && !empty( $start ) && !empty( $end ) ){
+                $saved_fields["power"] = $defaults["power"];
+                $saved_fields["power"]["value"] = [
+                    "start" => dt_format_date( $start + DAY_IN_SECONDS * 26 ),
+                    "start_time" => 19 * HOUR_IN_SECONDS,
+                    "end" => dt_format_date( $start + DAY_IN_SECONDS * 27 ),
+                    "end_time" => (int) ( 4.5 * HOUR_IN_SECONDS ),
+                    "enabled" => true
+                ];
+                update_option( 'p4r_porch_fields', $saved_fields );
             }
-            $saved_fields["power"] = $defaults["power"];
-            $saved_fields["power"]["value"] = [
-                "start" => dt_format_date( $start + DAY_IN_SECONDS * 26 ),
-                "start_time" => 19 * HOUR_IN_SECONDS,
-                "end" => dt_format_date( $start + DAY_IN_SECONDS * 27 ),
-                "end_time" => (int) ( 4.5 * HOUR_IN_SECONDS ),
-                "enabled" => true
-            ];
-            update_option( 'p4r_porch_fields', $saved_fields );
         }
 
         return p4r_recursive_parse_args( $saved_fields, $defaults );
