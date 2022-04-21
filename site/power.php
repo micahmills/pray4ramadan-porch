@@ -65,7 +65,7 @@ class P4_Ramadan_Porch_Power extends DT_Magic_Url_Base
     }
 
     public function body(){
-        require_once( 'top-section.php' );
+//        require_once( 'top-section.php' );
 
         $porch_fields = p4r_porch_fields();
         $campaign_fields = p4r_get_campaign();
@@ -126,14 +126,29 @@ class P4_Ramadan_Porch_Power extends DT_Magic_Url_Base
         }
 
         ?>
+
+<!--        <section class="section">-->
+<!--        </section>-->
+        <div class="container">
+            <img src="<?php echo esc_html( plugin_dir_url( __File__ ) . 'img/night-of-power.png' ); ?>" alt="night of power" style="width:100%">
+        </div>
+
         <section class="section" data-stellar-background-ratio="0.2" style="padding-bottom: 0">
-            <div id="sign-up" name="sign-up" class="container">
+            <div class="container">
                 <div class="section-header">
                     <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Night Of Power', 'pray4ramadan-porch' ); ?></h2>
                     <hr class="lines wow zoomIn" data-wow-delay="0.3s">
                 </div>
+                <p>
+                    Ramadan is the most important month of the Islamic calendar for Muslims, however, there is one night considered more important than all the others -- Laylat al-Qadr (Night of Power). This is the night Muslims believe Mohammed began to receive the Qu’ran. Though Mohammed did not remember which night this happened exactly, most Muslims believe it was the 27th night of Ramadan. Any good deed performed on this one night -- giving of charity, praying, reciting the Qu’ran -- is considered better than a thousand months. Muslims believe the throne of God is opened on this night and if one is found praying, the chances of receiving their requests are increased.
+                </p>
+                <p>The Night of Power is a significant time for Christians to engage in extraordinary prayer for Muslims. As ones who already have access to the throne of God (Hebrews 4:16), let us pray fervently for Jesus to make Himself known to Muslims this night.</p>
+            </div>
+        </section>
+        <section class="section" data-stellar-background-ratio="0.2" style="padding-bottom: 0">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-3 col-sm-6">
                         <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
                             <div class="icon">
                                 <img style="height: 40px; margin-top:10px" src="<?php echo esc_html( plugin_dir_url( __File__ ) . 'img/calendar.svg' ) ?>" alt="Praying hands icon"/>
@@ -146,7 +161,7 @@ class P4_Ramadan_Porch_Power extends DT_Magic_Url_Base
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-3 col-sm-6">
                         <div class="item-boxes wow fadeInDown" data-wow-delay="0.4s">
                             <div class="icon">
                                 <img style="height: 40px; margin-top:10px" src="<?php echo esc_html( plugin_dir_url( __File__ ) . 'img/calendar.svg' ) ?>" alt="a network icon indicating movement"/>
@@ -159,7 +174,7 @@ class P4_Ramadan_Porch_Power extends DT_Magic_Url_Base
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-3 col-sm-6">
                         <div class="item-boxes wow fadeInDown" data-wow-delay="0.6s">
                             <div class="icon">
                                 <img style="height: 40px; margin-top:10px" src="<?php echo esc_html( plugin_dir_url( __File__ ) . 'img/24_7.svg' ) ?>" alt="clock icon"/>
@@ -172,7 +187,7 @@ class P4_Ramadan_Porch_Power extends DT_Magic_Url_Base
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-3 col-sm-6">
                         <div class="item-boxes wow fadeInDown" data-wow-delay="0.6s">
                             <div class="icon">
                                 <img style="height: 40px; margin-top:10px" src="<?php echo esc_html( plugin_dir_url( __File__ ) . 'img/24_7.svg' ) ?>" alt="clock icon"/>
