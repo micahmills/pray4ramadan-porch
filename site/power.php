@@ -73,8 +73,20 @@ class P4_Ramadan_Porch_Power extends DT_Magic_Url_Base
         $post_id = $campaign_fields["ID"];
 
         $power_fields = $porch_fields["power"]["value"];
-        $start = strtotime( $power_fields["start"] ) + $power_fields["start_time"];
-        $end = strtotime( $power_fields["end"] ) + $power_fields["end_time"];
+        $timezone = "America/Chicago";
+        if ( isset( $campaign_fields["campaign_timezone"]["key"] ) ){
+            $timezone = $campaign_fields["campaign_timezone"]["key"];
+        }
+        $dt_now = new DateTime();
+        $dt_now->setTimezone( new DateTimeZone( $timezone ) );
+        $dt_now->setTimestamp( strtotime( $power_fields["start"] ) );
+        $off = $dt_now->getOffset();
+        $stamp = $dt_now->getTimestamp() - $off;
+        $start = $stamp + $power_fields["start_time"];
+        $dt_now->setTimestamp( strtotime( $power_fields["end"] ) );
+        $off = $dt_now->getOffset();
+        $stamp = $dt_now->getTimestamp() - $off;
+        $end = $stamp + $power_fields["end_time"];
 
         $min_time_duration = 15;
         if ( isset( $campaign_fields["min_time_duration"]["key"] ) ){
@@ -93,10 +105,7 @@ class P4_Ramadan_Porch_Power extends DT_Magic_Url_Base
         }
         $committed_time_in_hours = $power_prayer_slots_committed * $min_time_duration / 60;
 
-        $timezone = "America/Chicago";
-        if ( isset( $campaign_fields["campaign_timezone"]["key"] ) ){
-            $timezone = $campaign_fields["campaign_timezone"]["key"];
-        }
+
 
         $lang = dt_ramadan_get_current_lang();
 
@@ -136,13 +145,15 @@ class P4_Ramadan_Porch_Power extends DT_Magic_Url_Base
         <section class="section" data-stellar-background-ratio="0.2" style="padding-bottom: 0">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Night Of Power', 'pray4ramadan-porch' ); ?></h2>
+                    <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'How many hours of prayer can we mobilize for this night?', 'pray4ramadan-porch' ); ?></h2>
                     <hr class="lines wow zoomIn" data-wow-delay="0.3s">
                 </div>
                 <p>
-                    Ramadan is the most important month of the Islamic calendar for Muslims, however, there is one night considered more important than all the others -- Laylat al-Qadr (Night of Power). This is the night Muslims believe Mohammed began to receive the Qu’ran. Though Mohammed did not remember which night this happened exactly, most Muslims believe it was the 27th night of Ramadan. Any good deed performed on this one night -- giving of charity, praying, reciting the Qu’ran -- is considered better than a thousand months. Muslims believe the throne of God is opened on this night and if one is found praying, the chances of receiving their requests are increased.
+                    <?php esc_html_e( 'Ramadan is the most important month of the Islamic calendar for Muslims, however, there is one night considered more important than all the others -- Laylat al-Qadr (Night of Power). This is the night Muslims believe Mohammed began to receive the Qu’ran. Though Mohammed did not remember which night this happened exactly, most Muslims believe it was the 27th night of Ramadan. Any good deed performed on this one night -- giving of charity, praying, reciting the Qu’ran -- is considered better than a thousand months. Muslims believe the throne of God is opened on this night and if one is found praying, the chances of receiving their requests are increased.', 'pray4ramadan-porch' ); ?>
                 </p>
-                <p>The Night of Power is a significant time for Christians to engage in extraordinary prayer for Muslims. As ones who already have access to the throne of God (Hebrews 4:16), let us pray fervently for Jesus to make Himself known to Muslims this night.</p>
+                <p>
+                    <?php esc_html_e( 'The Night of Power is a significant time for Christians to engage in extraordinary prayer for Muslims. As ones who already have access to the throne of God (Hebrews 4:16), let us pray fervently for Jesus to make Himself known to Muslims this night.', 'pray4ramadan-porch' ); ?>
+                </p>
             </div>
         </section>
         <section class="section" data-stellar-background-ratio="0.2" style="padding-bottom: 0">
@@ -155,9 +166,9 @@ class P4_Ramadan_Porch_Power extends DT_Magic_Url_Base
                             </div>
                             <h4><?php esc_html_e( 'Starting', 'pray4ramadan-porch' ); ?></h4>
                             <p>
-                                <strong style="font-weight: 600"><?php echo esc_html( dt_format_date( $start, 'long' ) ); ?></strong>
+                                <strong style="font-weight: 600" id="power_start_time"></strong>
                                 <br>
-                                <?php echo esc_html( $timezone ); ?> time
+                                <span class="timezone-disp"><?php echo esc_html( $timezone ); ?></span> <?php esc_html_e( 'time', 'pray4ramadan-porch' ); ?>
                             </p>
                         </div>
                     </div>
@@ -168,9 +179,9 @@ class P4_Ramadan_Porch_Power extends DT_Magic_Url_Base
                             </div>
                             <h4><?php esc_html_e( 'Ending', 'pray4ramadan-porch' ); ?></h4>
                             <p>
-                                <strong style="font-weight: 600"><?php echo esc_html( dt_format_date( $end, 'long' ) ); ?></strong>
+                                <strong style="font-weight: 600" id="power_end_time"></strong>
                                 <br>
-                                <?php echo esc_html( $timezone ); ?> time
+                                <span class="timezone-disp"><?php echo esc_html( $timezone ); ?></span> <?php esc_html_e( 'time', 'pray4ramadan-porch' ); ?>
                             </p>
                         </div>
                     </div>
@@ -183,7 +194,7 @@ class P4_Ramadan_Porch_Power extends DT_Magic_Url_Base
                             <p>
                                 <strong style="font-weight: 600"><?php echo esc_html( $hours ); ?></strong>
                                 <br>
-                                Hours
+                                <?php esc_html_e( 'Hours', 'pray4ramadan-porch' ); ?>
                             </p>
                         </div>
                     </div>
@@ -196,7 +207,7 @@ class P4_Ramadan_Porch_Power extends DT_Magic_Url_Base
                             <p>
                                 <strong style="font-weight: 600"><?php echo esc_html( $committed_time_in_hours ); ?></strong>
                                 <br>
-                                Hours
+                                <?php esc_html_e( 'Hours', 'pray4ramadan-porch' ); ?>
                             </p>
                         </div>
                     </div>
@@ -215,7 +226,6 @@ class P4_Ramadan_Porch_Power extends DT_Magic_Url_Base
                     if ( empty( $dt_ramadan_selected_campaign_magic_link_settings ) ) :?>
                         <p style="margin:auto">Choose campaign in settings <a href="<?php echo esc_html( admin_url( 'admin.php?page=dt_porch_template&tab=general' ) );?>"><?php esc_html_e( 'here', 'pray4ramadan-porch' ); ?></a></p>
                     <?php else :
-
                         $dt_ramadan_selected_campaign_magic_link_settings["section"] = "sign_up";
                         echo dt_24hour_campaign_shortcode( //phpcs:ignore
                             $dt_ramadan_selected_campaign_magic_link_settings
@@ -225,6 +235,22 @@ class P4_Ramadan_Porch_Power extends DT_Magic_Url_Base
                 </div>
             </div>
         </section>
+
+        <script>
+            jQuery(document).ready(function($) {
+                let power_current_time_zone = Intl.DateTimeFormat().resolvedOptions().timeZone || 'America/Chicago'
+                $('.timezone-disp').html( power_current_time_zone );
+
+
+                let power_start = <?php echo esc_html( $start ); ?>;
+                let start_date = window.luxon.DateTime.fromSeconds(power_start).setZone(power_current_time_zone)
+                $('#power_start_time').html(start_date.toFormat('MMMM dd hh:mm a'))
+
+                let power_end = <?php echo esc_html( $end ); ?>;
+                let end_date = window.luxon.DateTime.fromSeconds(power_end).setZone(power_current_time_zone)
+                $('#power_end_time').html(end_date.toFormat('MMMM dd hh:mm a'))
+            })
+        </script>
         <?php
     }
 
