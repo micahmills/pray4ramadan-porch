@@ -500,9 +500,9 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
             }
             $saved_fields["power"] = $defaults["power"];
             $saved_fields["power"]["value"] = [
-                "start" => dt_format_date( $start + DAY_IN_SECONDS * 27 ),
+                "start" => dt_format_date( $start + DAY_IN_SECONDS * 26 ),
                 "start_time" => 19 * HOUR_IN_SECONDS,
-                "end" => dt_format_date( $start + DAY_IN_SECONDS * 28 ),
+                "end" => dt_format_date( $start + DAY_IN_SECONDS * 27 ),
                 "end_time" => (int) ( 4.5 * HOUR_IN_SECONDS ),
                 "enabled" => true
             ];
