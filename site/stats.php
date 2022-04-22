@@ -187,9 +187,10 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
                                 </div>
                                 <div class="col-md-6 col-sm-6">
                                     <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
-                                        <h4><?php esc_html_e( 'Hours Committed', 'pray4ramadan-porch' ); ?></h4>
+                                        <h4><?php esc_html_e( 'Time Committed', 'pray4ramadan-porch' ); ?></h4>
                                         <p>
-                                            <?php echo esc_html( $total_mins_prayed / 60 ); ?> <?php esc_html_e( 'hours', 'pray4ramadan-porch' ); ?>
+                                            <?php echo esc_html( $total_mins_prayed / 60 ); ?> <?php esc_html_e( 'hours', 'pray4ramadan-porch' ); ?><br>
+                                            (<?php echo esc_html( round( $total_mins_prayed / 60 / 24, 2 ) ); ?> <?php esc_html_e( 'days', 'pray4ramadan-porch' ); ?>)
                                         </p>
                                     </div>
                                 </div>
@@ -234,8 +235,9 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
                 </div>
             </section>
         </div>
-        <?php endif;
+        <?php endif; ?>
 
+        <?php
         do_action( 'pray4ramadan_porch_stats_page' );
     }
 
