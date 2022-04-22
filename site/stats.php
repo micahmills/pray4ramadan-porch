@@ -137,98 +137,103 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
             .wow p {
                 font-weight: 600;
             }
+            #ramadan-stats .center {
+￼                text-align: center;
+            }
         </style>
-        <section class="section" data-stellar-background-ratio="0.2" style="padding-bottom: 0; min-height: 800px">
-            <div class="container">
-                <div class="section-header" style="padding-bottom: 40px;">
-                    <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Campaign Stats', 'pray4ramadan-porch' ); ?></h2>
-                    <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-                </div>
-                <p class="center"><?php echo esc_html( $thank_you ); ?></p>
+        <div id="ramadan-stats">
+            <section class="section" data-stellar-background-ratio="0.2" style="padding-bottom: 0; min-height: 800px">
+                <div class="container">
+                    <div class="section-header" style="padding-bottom: 40px;">
+                        <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Campaign Stats', 'pray4ramadan-porch' ); ?></h2>
+                        <hr class="lines wow zoomIn" data-wow-delay="0.3s">
+                    </div>
+                    <p class="center"><?php echo esc_html( $thank_you ); ?></p>
 
-                <div class="row" style="padding-top:40px">
-                    <div class="col-sm-12 col-md-9">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6">
-                                <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
-                                    <h4><?php esc_html_e( 'Number of People who Prayed', 'pray4ramadan-porch' ); ?></h4>
-                                    <p>
-                                        <?php echo esc_html( $subscribers_count ); ?>
-                                    </p>
+                    <div class="row" style="padding-top:40px">
+                        <div class="col-sm-12 col-md-9">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
+                                        <h4><?php esc_html_e( 'Number of People who Prayed', 'pray4ramadan-porch' ); ?></h4>
+                                        <p>
+                                            <?php echo esc_html( $subscribers_count ); ?>
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
-                                    <h4><?php esc_html_e( 'Time Slots to Cover', 'pray4ramadan-porch' ); ?></h4>
-                                    <p>
-                                        <?php echo esc_html( $total_number_of_time_slots ); ?>
-                                    </p>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
+                                        <h4><?php esc_html_e( 'Time Slots to Cover', 'pray4ramadan-porch' ); ?></h4>
+                                        <p>
+                                            <?php echo esc_html( $total_number_of_time_slots ); ?>
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
-                                    <h4><?php esc_html_e( 'Percentage Covered', 'pray4ramadan-porch' ); ?></h4>
-                                    <p>
-                                        <?php echo esc_html( $coverage_percent ); ?>%
-                                    </p>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
+                                        <h4><?php esc_html_e( 'Percentage Covered', 'pray4ramadan-porch' ); ?></h4>
+                                        <p>
+                                            <?php echo esc_html( $coverage_percent ); ?>%
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
-                                    <h4><?php esc_html_e( 'Time Slots Committed', 'pray4ramadan-porch' ); ?></h4>
-                                    <p>
-                                        <?php echo esc_html( $committed_time_slots ); ?> <?php esc_html_e( 'time slots', 'pray4ramadan-porch' ); ?>
-                                    </p>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
+                                        <h4><?php esc_html_e( 'Time Slots Committed', 'pray4ramadan-porch' ); ?></h4>
+                                        <p>
+                                            <?php echo esc_html( $committed_time_slots ); ?> <?php esc_html_e( 'time slots', 'pray4ramadan-porch' ); ?>
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
-                                    <h4><?php esc_html_e( 'Hours Committed', 'pray4ramadan-porch' ); ?></h4>
-                                    <p>
-                                        <?php echo esc_html( $total_mins_prayed / 60 ); ?> <?php esc_html_e( 'hours', 'pray4ramadan-porch' ); ?>
-                                    </p>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
+                                        <h4><?php esc_html_e( 'Hours Committed', 'pray4ramadan-porch' ); ?></h4>
+                                        <p>
+                                            <?php echo esc_html( $total_mins_prayed / 60 ); ?> <?php esc_html_e( 'hours', 'pray4ramadan-porch' ); ?>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="col-sm-12 col-md-3">
+                            <?php
+                            if ( empty( $dt_ramadan_selected_campaign_magic_link_settings ) ) :?>
+                                <p style="margin:auto">Choose campaign in settings <a href="<?php echo esc_html( admin_url( 'admin.php?page=dt_porch_template&tab=general' ) );?>"><?php esc_html_e( 'here', 'pray4ramadan-porch' ); ?></a></p>
+                            <?php else :
+                                $dt_ramadan_selected_campaign_magic_link_settings["section"] = "calendar";
+                                echo dt_24hour_campaign_shortcode( //phpcs:ignore
+                                    $dt_ramadan_selected_campaign_magic_link_settings
+                                );
+                            endif;
+                            ?>
+                        </div>
                     </div>
-                    <div class="col-sm-12 col-md-3">
-                        <?php
-                        if ( empty( $dt_ramadan_selected_campaign_magic_link_settings ) ) :?>
-                            <p style="margin:auto">Choose campaign in settings <a href="<?php echo esc_html( admin_url( 'admin.php?page=dt_porch_template&tab=general' ) );?>"><?php esc_html_e( 'here', 'pray4ramadan-porch' ); ?></a></p>
-                        <?php else :
-                            $dt_ramadan_selected_campaign_magic_link_settings["section"] = "calendar";
-                            echo dt_24hour_campaign_shortcode( //phpcs:ignore
-                                $dt_ramadan_selected_campaign_magic_link_settings
-                            );
-                        endif;
-                        ?>
+
+                </div>
+            </section>
+
+
+            <?php if ( $porch_fields["stats-p4m"]["value"] === "yes" ) : ?>
+            <section class="section" data-stellar-background-ratio="0.2" style="padding-top: 0;">
+                <div class="container">
+                    <div class="section-header" style="padding-bottom: 40px;">
+                        <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'More Prayer Opportunities', 'pray4ramadan-porch' ); ?></h2>
+                        <hr class="lines wow zoomIn" data-wow-delay="0.3s">
+                    </div>
+
+                        <p class="center"><?php esc_html_e( 'Would you like to hear about other prayer efforts and opportunities with Pray4Movement.org?', 'pray4ramadan-porch' ); ?></p>
+                        <p class="center">
+                            <a class="btn btn-common" href="https://pray4movement.org/subscribe/" style="font-weight: bold">
+                                <?php esc_html_e( 'Sign Up', 'pray4ramadan-porch' ); ?>
+                            </a>
+                        </p>
+                    <div class="row">
+                        <div class="center">
+                        </div>
                     </div>
                 </div>
-
-            </div>
-        </section>
-
-
-        <?php if ( $porch_fields["stats-p4m"]["value"] === "yes" ) : ?>
-        <section class="section" data-stellar-background-ratio="0.2" style="padding-top: 0;">
-            <div class="container">
-                <div class="section-header" style="padding-bottom: 40px;">
-                    <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'More Prayer Opportunities', 'pray4ramadan-porch' ); ?></h2>
-                    <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-                </div>
-
-                    <p class="center"><?php esc_html_e( 'Would you like to hear about other prayer efforts and opportunities with Pray4Movement.org?', 'pray4ramadan-porch' ); ?></p>
-                    <p class="center">
-                        <a class="btn btn-common" href="https://pray4movement.org/subscribe/" style="font-weight: bold">
-                            <?php esc_html_e( 'Sign Up', 'pray4ramadan-porch' ); ?>
-                        </a>
-                    </p>
-                <div class="row">
-                    <div class="center">
-                    </div>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
         <?php endif;
 
         do_action( 'pray4ramadan_porch_stats_page' );
