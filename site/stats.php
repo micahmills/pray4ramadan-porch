@@ -138,7 +138,7 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
                 font-weight: 600;
             }
             #ramadan-stats .center {
-￼                text-align: center;
+                text-align: center;
             }
         </style>
         <div id="ramadan-stats">
