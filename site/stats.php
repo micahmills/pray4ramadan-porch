@@ -91,7 +91,10 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
 
         arsort( $current_commitments );
         $total_mins_prayed = 0;
-        $committed_time_slots = DT_Campaigns_Base::query_total_events_count( $post_id );
+        $committed_time_slots = 0;
+        if ( method_exists( "DT_Campaigns_Base", "query_total_events_count" ) ){
+            $committed_time_slots = DT_Campaigns_Base::query_total_events_count( $post_id );
+        }
         foreach ( $coverage_levels as $level ){
             $total_mins_prayed += $level["blocks_covered"] * $min_time_duration;
         }
