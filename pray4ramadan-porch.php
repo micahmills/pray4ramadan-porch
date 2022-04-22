@@ -472,6 +472,12 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
             'power' => [
                 'label' => "Night of power",
                 'type' => "array",
+            ],
+            'stats-p4m' => [
+                'label' => 'Show Pray4Movement Sign up on ' . esc_html( home_url( '/prayer/power' ) ),
+                'default' => __( 'Yes', 'pray4ramadan-porch' ),
+                'value' => 'yes',
+                'type' => 'prayer_timer_toggle',
             ]
         ];
 

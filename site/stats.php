@@ -122,6 +122,12 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
             $dt_ramadan_selected_campaign_magic_link_settings["color"] = '#4676fa';
         }
 
+        $thank_you = "";
+        if ( !empty( $porch_fields["people_name"]["value"] ) && !empty( $porch_fields["country_name"]["value"] ) ){
+            $thank_you = sprintf( _x( 'Thank you for joining us in prayer for the %1$s in %2$s.', 'Thank you for joining us in prayer for the French in France.', 'pray4ramadan-porch' ), $porch_fields["people_name"]["value"], $porch_fields["country_name"]["value"] );
+        } else {
+            $thank_you = __( 'Thank you for praying with us.', 'pray4ramadan-porch' );
+        }
         ?>
 
         <style>
@@ -135,8 +141,9 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
                     <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Campaign Stats', 'pray4ramadan-porch' ); ?></h2>
                     <hr class="lines wow zoomIn" data-wow-delay="0.3s">
                 </div>
+                <p class="center"><?php echo esc_html( $thank_you ); ?></p>
 
-                <div class="row">
+                <div class="row" style="padding-top:40px">
                     <div class="col-sm-12 col-md-9">
                         <div class="row">
                             <div class="col-md-6 col-sm-6">
@@ -167,7 +174,7 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
                                 <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
                                     <h4><?php esc_html_e( 'Time Slots Committed', 'pray4ramadan-porch' ); ?></h4>
                                     <p>
-                                        <?php echo esc_html( $committed_time_slots ); ?> time slots
+                                        <?php echo esc_html( $committed_time_slots ); ?> <?php esc_html_e( 'time slots', 'pray4ramadan-porch' ); ?>
                                     </p>
                                 </div>
                             </div>
@@ -175,7 +182,7 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
                                 <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
                                     <h4><?php esc_html_e( 'Hours Committed', 'pray4ramadan-porch' ); ?></h4>
                                     <p>
-                                        <?php echo esc_html( $total_mins_prayed / 60 ); ?> hours
+                                        <?php echo esc_html( $total_mins_prayed / 60 ); ?> <?php esc_html_e( 'hours', 'pray4ramadan-porch' ); ?>
                                     </p>
                                 </div>
                             </div>
@@ -199,12 +206,28 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
         </section>
 
 
-        <script>
+        <?php if ( $porch_fields["stats-p4m"]["value"] === "yes" ) : ?>
+        <section class="section" data-stellar-background-ratio="0.2" style="padding-top: 0;">
+            <div class="container">
+                <div class="section-header" style="padding-bottom: 40px;">
+                    <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'More Prayer Opportunities', 'pray4ramadan-porch' ); ?></h2>
+                    <hr class="lines wow zoomIn" data-wow-delay="0.3s">
+                </div>
 
-        </script>
+                    <p class="center"><?php esc_html_e( 'Would you like to hear about other prayer efforts and opportunities with Pray4Movement.org?', 'pray4ramadan-porch' ); ?></p>
+                    <p class="center">
+                        <a class="btn btn-common" href="https://pray4movement.org/subscribe/" style="font-weight: bold">
+                            <?php esc_html_e( 'Sign Up', 'pray4ramadan-porch' ); ?>
+                        </a>
+                    </p>
+                <div class="row">
+                    <div class="center">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <?php endif;
 
-
-        <?php
         do_action( 'pray4ramadan_porch_stats_page' );
     }
 
