@@ -155,15 +155,7 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
                                     <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
-                                        <h4><?php esc_html_e( 'Number of People who Prayed', 'pray4ramadan-porch' ); ?></h4>
-                                        <p>
-                                            <?php echo esc_html( $subscribers_count ); ?>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
-                                        <h4><?php esc_html_e( 'Time Slots to Cover', 'pray4ramadan-porch' ); ?></h4>
+                                        <h4><?php esc_html_e( 'Prayer Commitments Needed', 'pray4ramadan-porch' ); ?></h4>
                                         <p>
                                             <?php echo esc_html( $total_number_of_time_slots ); ?>
                                         </p>
@@ -179,9 +171,9 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
                                 </div>
                                 <div class="col-md-6 col-sm-6">
                                     <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
-                                        <h4><?php esc_html_e( 'Time Slots Committed', 'pray4ramadan-porch' ); ?></h4>
+                                        <h4><?php esc_html_e( 'Prayer Commitments', 'pray4ramadan-porch' ); ?></h4>
                                         <p>
-                                            <?php echo esc_html( $committed_time_slots ); ?> <?php esc_html_e( 'time slots', 'pray4ramadan-porch' ); ?>
+                                            <?php echo esc_html( $committed_time_slots ); ?>
                                         </p>
                                     </div>
                                 </div>
@@ -191,6 +183,14 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
                                         <p>
                                             <?php echo esc_html( $total_mins_prayed / 60 ); ?> <?php esc_html_e( 'hours', 'pray4ramadan-porch' ); ?><br>
                                             (<?php echo esc_html( round( $total_mins_prayed / 60 / 24, 2 ) ); ?> <?php esc_html_e( 'days', 'pray4ramadan-porch' ); ?>)
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
+                                        <h4><?php esc_html_e( 'Number of People who Prayed', 'pray4ramadan-porch' ); ?></h4>
+                                        <p>
+                                            <?php echo esc_html( $subscribers_count ); ?>
                                         </p>
                                     </div>
                                 </div>

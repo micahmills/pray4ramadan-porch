@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pray4Ramadan Porch\n"
-"POT-Creation-Date: 2022-04-26 12:35+0100\n"
+"POT-Creation-Date: 2022-04-26 12:58+0100\n"
 "PO-Revision-Date: 2018-01-29 05:53-0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1509,7 +1509,7 @@ msgstr ""
 msgid "Hours of Prayer"
 msgstr ""
 
-#: site/home-body.php:247
+#: site/home-body.php:247 site/stats.php:166
 msgid "Prayer Commitments Needed"
 msgstr ""
 
@@ -1545,20 +1545,12 @@ msgstr ""
 msgid "Number of People who Prayed"
 msgstr ""
 
-#: site/stats.php:166
-msgid "Time Slots to Cover"
-msgstr ""
-
 #: site/stats.php:174
 msgid "Percentage Covered"
 msgstr ""
 
 #: site/stats.php:182
-msgid "Time Slots Committed"
-msgstr ""
-
-#: site/stats.php:184
-msgid "time slots"
+msgid "Prayer Commitments"
 msgstr ""
 
 #: site/stats.php:190
