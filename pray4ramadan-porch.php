@@ -413,7 +413,7 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
             ],
             'show_prayer_timer' => [
                 'label' => 'Show Prayer Timer',
-                'default' => __( 'Yes', 'pray4ramadan-porch' ),
+                'default' => 'Yes',
                 'value' => 'yes',
                 'type' => 'prayer_timer_toggle',
             ],
@@ -475,7 +475,7 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
             ],
             'stats-p4m' => [
                 'label' => 'Show Pray4Movement Sign up on ' . esc_html( home_url( '/prayer/stats' ) ),
-                'default' => __( 'Yes', 'pray4ramadan-porch' ),
+                'default' => 'Yes',
                 'value' => 'yes',
                 'type' => 'prayer_timer_toggle',
             ]

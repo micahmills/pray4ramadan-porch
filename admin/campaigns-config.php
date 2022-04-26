@@ -146,7 +146,7 @@ class DT_Campaigns_Config {
         }
         $to = implode( ',', $to );
 
-        $subject = __( 'Thank you for praying with us!', 'disciple-tools-prayer-campaigns' );
+        $subject = __( 'Thank you for praying with us!', 'pray4ramadan-porch' );
 
         if ( !empty( $porch_fields["country_name"]["value"] ) ) {
             $tag = sprintf( __( 'Strategic prayer for a disciple making movement in %s', 'pray4ramadan-porch' ), get_field_translation( $porch_fields["country_name"], $record["lang"] ?? 'en_US' ) );
@@ -157,7 +157,7 @@ class DT_Campaigns_Config {
         $url = trailingslashit( site_url() ) . 'prayer/stats';
 
         $message = '
-            <h3>' . sprintf( __( 'Hello %s,', 'disciple-tools-prayer-campaigns' ), esc_html( $record["name"] ) ) . '</h3>
+            <h3>' . sprintf( __( 'Hello %s,', 'pray4ramadan-porch' ), esc_html( $record["name"] ) ) . '</h3>
             <p>' . sprintf( __( 'Thank you for joining %1$s in %2$s. You are a part of something extraordinary!', 'pray4ramadan-porch' ), esc_html( $porch_fields["title"]["value"] ), $tag ) . '</p>
             <p>' . __( 'Click the link to see the bigger picture:', 'pray4ramadan-porch' ) . '</p>
             <p><a href="'. $url .'">' . $url . '</a></p>

@@ -129,7 +129,7 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
         if ( !empty( $porch_fields["people_name"]["value"] ) && !empty( $porch_fields["country_name"]["value"] ) ){
             $thank_you = sprintf( _x( 'Thank you for joining us in prayer for the %1$s in %2$s.', 'Thank you for joining us in prayer for the French in France.', 'pray4ramadan-porch' ), $porch_fields["people_name"]["value"], $porch_fields["country_name"]["value"] );
         } else {
-            $thank_you = __( 'Thank you for praying with us.', 'pray4ramadan-porch' );
+            $thank_you = __( 'Thank you for praying with us!', 'pray4ramadan-porch' );
         }
         ?>
 
