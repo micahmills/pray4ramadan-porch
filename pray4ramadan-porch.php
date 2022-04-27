@@ -474,7 +474,7 @@ if ( ! function_exists( 'p4r_porch_fields' ) ) {
                 'type' => "array",
             ],
             'stats-p4m' => [
-                'label' => 'Show Pray4Movement Sign up on ' . esc_html( home_url( '/prayer/stats' ) ),
+                'label' => 'Show Pray4Movement sign-up on ' . esc_html( home_url( '/prayer/stats' ) ),
                 'default' => 'Yes',
                 'value' => 'yes',
                 'type' => 'prayer_timer_toggle',
