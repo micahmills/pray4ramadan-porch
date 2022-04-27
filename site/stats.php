@@ -19,6 +19,7 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
 
     public function __construct() {
         parent::__construct();
+        add_action( 'rest_api_init', [ $this, 'add_endpoints' ] );
 
         /**
          * tests if other URL
@@ -213,6 +214,60 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
                 </div>
             </section>
 
+            <section class="section" data-stellar-background-ratio="0.2">
+                <div class="container">
+                    <div class="section-header" style="padding-bottom: 40px;">
+                        <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Share with us your Prayer Stories', 'pray4ramadan-porch' ); ?></h2>
+                        <hr class="lines wow zoomIn" data-wow-delay="0.3s">
+                    </div>
+                    <form onSubmit="submit_feedback_form();return false;" id="form-content">
+                        <p>
+                            <label style="width: 100%">
+                                <?php esc_html_e( 'Email', 'pray4ramadan-porch' ); ?>
+                                <br>
+                                <input type="email" id="email" style="display: none">
+                                <input type="email" id="email-2" required style="width: 100%">
+                            </label>
+                        </p>
+                        <p>
+                            <label style="width: 100%">
+                                <?php esc_html_e( 'Share with us about your Ramadan prayer time (E.g. testimonies, insights, blessings, etc)', 'pray4ramadan-porch' ); ?>
+                                <br>
+                                <textarea id="ramadan-stories" required rows="4" type="text" style="width: 100%"></textarea>
+                            </label>
+                            <button id="stories-submit-button" class="btn btn-common loader" style="font-weight: bold">
+                                <?php esc_html_e( 'Submit', 'pray4ramadan-porch' ); ?>
+                            </button>
+                        </p>
+                    </form>
+                    <div id="form-confirm" class="center" style="display: none">
+                        <h3><?php esc_html_e( 'Thank You!', 'disciple_tools' ); ?></h3>
+                    </div>
+                </div>
+            </section>
+            <script>
+
+                let submit_feedback_form = function (){
+
+                    $('#stories-submit-button').addClass("loading")
+                    let honey = $('#email').val();
+                    if ( honey ){
+                        return;
+                    }
+
+                    let email = $('#email-2').val();
+                    let story = $('#ramadan-stories').val()
+                    window.makeRequest( "POST", '/stories', { parts: jsObject.parts, email, story }, jsObject.parts.root + /v1/ + jsObject.parts.type ).done(function(data){
+                        $('#form-content').hide()
+                        $('#form-confirm').show()
+                    })
+                    .fail(function(e) {
+                        // jQuery('#error').html(e)
+                    })
+                }
+
+            </script>
+
 
             <?php if ( $porch_fields["stats-p4m"]["value"] === "yes" ) : ?>
             <section class="section" data-stellar-background-ratio="0.2" style="padding-top: 0;">
@@ -248,5 +303,36 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
     public function header_javascript(){
         require_once( 'header.php' );
     }
+
+    public function add_endpoints() {
+        $namespace = $this->root . '/v1/'. $this->type;
+        register_rest_route(
+            $namespace, 'stories', [
+                [
+                    'methods'  => "POST",
+                    'callback' => [ $this, 'add_story' ],
+                    'permission_callback' => '__return_true',
+                ],
+            ]
+        );
+    }
+
+    public function add_story( WP_REST_Request $request ) {
+        $params = $request->get_params();
+        $params = dt_recursive_sanitize_array( $params );
+        if ( !isset( $params["story"], $params["email"] ) ){
+            return false;
+        }
+        $params["story"] = wp_kses_post( $request->get_params()["story"] );
+
+        $campaign_fields = p4r_get_campaign();
+        $post_id = $campaign_fields["ID"];
+
+        $comment = "Story feedback from " . site_url( "prayer/stats" ) . " by " . $params["email"] . ": \n" . $params["story"];
+        DT_Posts::add_post_comment( "campaigns", $post_id, $comment, 'stories' );
+
+        return true;
+    }
+
 }
 P4_Ramadan_Porch_Stats::instance();
