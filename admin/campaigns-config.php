@@ -148,7 +148,7 @@ class DT_Campaigns_Config {
 
         $subject = __( 'Thank you for praying with us!', 'pray4ramadan-porch' );
 
-        if ( !empty( $porch_fields["country_name"]["value"] ) ) {
+        if ( !empty( $porch_fields["country_name"]["value"] ) ){
             $tag = sprintf( __( 'Strategic prayer for a disciple making movement in %s', 'pray4ramadan-porch' ), get_field_translation( $porch_fields["country_name"], $record["lang"] ?? 'en_US' ) );
         } else {
             $tag = __( 'Strategic prayer for a disciple making movement', 'pray4ramadan-porch' );
@@ -160,9 +160,11 @@ class DT_Campaigns_Config {
             <h3>' . sprintf( __( 'Hello %s,', 'pray4ramadan-porch' ), esc_html( $record["name"] ) ) . '</h3>
             <p>' . sprintf( __( 'Thank you for joining %1$s in %2$s. You are a part of something extraordinary!', 'pray4ramadan-porch' ), esc_html( $porch_fields["title"]["value"] ), $tag ) . '</p>
             <p>' . __( 'Click the link to see the bigger picture:', 'pray4ramadan-porch' ) . '</p>
-            <p><a href="'. $url .'">' . $url . '</a></p>
-            <p>' . __( 'While there, make sure to sign-up to receive notifications of future prayer opportunities.', 'pray4ramadan-porch' ) . '</p>
-            <p>' . __( 'Blessings,', 'pray4ramadan-porch' ) . '<br>
+            <p><a href="' . $url . '">' . $url . '</a></p>';
+        if ( isset( $porch_fields["stats-p4m"]["value"] ) && $porch_fields["stats-p4m"]["value"] === "yes" ){
+            $message .= '<p>' . __( 'While there, make sure to sign-up to receive notifications of future prayer opportunities.', 'pray4ramadan-porch' ) . '</p>';
+        }
+        $message .= '<p>' . __( 'Blessings,', 'pray4ramadan-porch' ) . '<br>
             ' . $porch_fields["title"]["value"] . '</p>
         ';
 
