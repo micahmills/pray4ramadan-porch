@@ -158,7 +158,7 @@ class DT_Campaigns_Config {
 
         $message = '
             <h3>' . sprintf( __( 'Hello %s,', 'pray4ramadan-porch' ), esc_html( $record["name"] ) ) . '</h3>
-            <p>' . sprintf( __( 'Thank you for joining %1$s in %2$s. You are a part of something extraordinary!', 'pray4ramadan-porch' ), esc_html( $porch_fields["title"]["value"] ), $tag ) . '</p>
+            <p>' . sprintf( __( 'Thank you for joining %1$s in %2$s. You are a part of something extraordinary!', 'pray4ramadan-porch' ), esc_html( $porch_fields["title"]["value"] ), lcfirst( $tag ) ) . '</p>
             <p>' . __( 'Click the link to see the bigger picture:', 'pray4ramadan-porch' ) . '</p>
             <p><a href="' . $url . '">' . $url . '</a></p>';
         if ( isset( $porch_fields["stats-p4m"]["value"] ) && $porch_fields["stats-p4m"]["value"] === "yes" ){
