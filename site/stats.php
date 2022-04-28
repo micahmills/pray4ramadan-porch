@@ -235,8 +235,9 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
                                 <br>
                                 <textarea id="ramadan-stories" required rows="4" type="text" style="width: 100%"></textarea>
                             </label>
-                            <button id="stories-submit-button" class="btn btn-common loader" style="font-weight: bold">
+                            <button id="stories-submit-button" class="btn btn-common" style="font-weight: bold">
                                 <?php esc_html_e( 'Submit', 'pray4ramadan-porch' ); ?>
+                                <img id="stories-submit-spinner" style="display: none; margin-left: 10px" src="<?php echo esc_url( trailingslashit( get_stylesheet_directory_uri() ) ) ?>spinner.svg" width="22px;" alt="spinner "/>
                             </button>
                         </p>
                     </form>
@@ -249,7 +250,7 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
 
                 let submit_feedback_form = function (){
 
-                    $('#stories-submit-button').addClass("loading")
+                    $('#stories-submit-spinner').show()
                     let honey = $('#email').val();
                     if ( honey ){
                         return;
@@ -258,6 +259,7 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
                     let email = $('#email-2').val();
                     let story = $('#ramadan-stories').val()
                     window.makeRequest( "POST", '/stories', { parts: jsObject.parts, email, story }, jsObject.parts.root + /v1/ + jsObject.parts.type ).done(function(data){
+                        $('#stories-submit-spinner').show()
                         $('#form-content').hide()
                         $('#form-confirm').show()
                     })
@@ -329,7 +331,12 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
         $post_id = $campaign_fields["ID"];
 
         $comment = "Story feedback from " . site_url( "prayer/stats" ) . " by " . $params["email"] . ": \n" . $params["story"];
-        DT_Posts::add_post_comment( "campaigns", $post_id, $comment, 'stories' );
+        DT_Posts::add_post_comment( "campaigns", $post_id, $comment, 'stories', [], false );
+
+        $subs = DT_Posts::list_posts( "subscriptions", [ "campaigns" => [ $post_id ], "contact_email" => [ $params["email"] ] ], false );
+        if ( sizeof( $subs["posts"] ) === 1 ){
+            DT_Posts::add_post_comment( "subscriptions", $subs["posts"][0]["ID"], $comment, 'stories', [], false, true );
+        }
 
         return true;
     }
