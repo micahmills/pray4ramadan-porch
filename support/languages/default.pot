@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pray4Ramadan Porch\n"
-"POT-Creation-Date: 2022-04-26 12:58+0100\n"
+"POT-Creation-Date: 2022-04-28 11:54+0100\n"
 "PO-Revision-Date: 2018-01-29 05:53-0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -29,7 +29,7 @@ msgstr ""
 msgid "Click here to see the prayer prompts for today: %s"
 msgstr ""
 
-#: admin/campaigns-config.php:149 site/stats.php:132
+#: admin/campaigns-config.php:149 site/stats.php:133
 msgid "Thank you for praying with us!"
 msgstr ""
 
@@ -58,13 +58,13 @@ msgstr ""
 msgid "Click the link to see the bigger picture:"
 msgstr ""
 
-#: admin/campaigns-config.php:164
+#: admin/campaigns-config.php:165
 msgid ""
 "While there, make sure to sign-up to receive notifications of future "
 "prayer opportunities."
 msgstr ""
 
-#: admin/campaigns-config.php:165
+#: admin/campaigns-config.php:167
 msgid "Blessings,"
 msgstr ""
 
@@ -1469,11 +1469,11 @@ msgstr ""
 msgid "Ramadan Ends ..."
 msgstr ""
 
-#: site/home-body.php:168 site/home-body.php:175 site/stats.php:193
+#: site/home-body.php:168 site/home-body.php:175 site/stats.php:186
 msgid "days"
 msgstr ""
 
-#: site/home-body.php:169 site/home-body.php:176 site/stats.php:192
+#: site/home-body.php:169 site/home-body.php:176 site/stats.php:185
 msgid "hours"
 msgstr ""
 
@@ -1497,7 +1497,7 @@ msgstr ""
 msgid "Pray"
 msgstr ""
 
-#: site/home-body.php:194 site/stats.php:202
+#: site/home-body.php:194 site/stats.php:203
 msgid "here"
 msgstr ""
 
@@ -1509,7 +1509,7 @@ msgstr ""
 msgid "Hours of Prayer"
 msgstr ""
 
-#: site/home-body.php:247 site/stats.php:166
+#: site/home-body.php:247 site/stats.php:159
 msgid "Prayer Commitments Needed"
 msgstr ""
 
@@ -1531,43 +1531,65 @@ msgstr ""
 msgid "View All"
 msgstr ""
 
-#: site/stats.php:130
+#: site/stats.php:131
 #, php-format
 msgctxt "Thank you for joining us in prayer for the French in France."
 msgid "Thank you for joining us in prayer for the %1$s in %2$s."
 msgstr ""
 
-#: site/stats.php:148
+#: site/stats.php:149
 msgid "Campaign Stats"
 msgstr ""
 
-#: site/stats.php:158
-msgid "Number of People who Prayed"
-msgstr ""
-
-#: site/stats.php:174
+#: site/stats.php:167
 msgid "Percentage Covered"
 msgstr ""
 
-#: site/stats.php:182
+#: site/stats.php:175
 msgid "Prayer Commitments"
 msgstr ""
 
-#: site/stats.php:190
+#: site/stats.php:183
 msgid "Time Committed"
 msgstr ""
 
-#: site/stats.php:221
+#: site/stats.php:192
+msgid "Number of People who Prayed"
+msgstr ""
+
+#: site/stats.php:220
+msgid "Share with us your Prayer Stories"
+msgstr ""
+
+#: site/stats.php:226
+msgid "Email"
+msgstr ""
+
+#: site/stats.php:234
+msgid ""
+"Share with us about your Ramadan prayer time (E.g. testimonies, insights, "
+"blessings, etc)"
+msgstr ""
+
+#: site/stats.php:239
+msgid "Submit"
+msgstr ""
+
+#: site/stats.php:245
+msgid "Thank You!"
+msgstr ""
+
+#: site/stats.php:278
 msgid "More Prayer Opportunities"
 msgstr ""
 
-#: site/stats.php:225
+#: site/stats.php:282
 msgid ""
 "Would you like to hear about other prayer efforts and opportunities with "
 "Pray4Movement.org?"
 msgstr ""
 
-#: site/stats.php:228 site/top-section.php:26
+#: site/stats.php:285 site/top-section.php:26
 msgid "Sign Up"
 msgstr ""
 
