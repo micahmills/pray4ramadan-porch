@@ -141,13 +141,30 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
             #ramadan-stats .center {
                 text-align: center;
             }
+            #ramadan-stats .dt-magic-link-language-selector {
+                border: 1px solid black;
+                background-color: transparent;
+                color: black;
+                border-radius: 5px;
+                padding: 5px;
+                margin-inline-start: 1em;
+            }
         </style>
         <div id="ramadan-stats">
             <section class="section" data-stellar-background-ratio="0.2" style="padding-bottom: 0; min-height: 800px">
                 <div class="container">
-                    <div class="section-header" style="padding-bottom: 40px;">
+                    <div class="section-header" style="margin-bottom: 20px">
                         <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Campaign Stats', 'pray4ramadan-porch' ); ?></h2>
                         <hr class="lines wow zoomIn" data-wow-delay="0.3s">
+                    </div>
+                    <div class="center" style="margin: 30px">
+                        <select class="dt-magic-link-language-selector">
+                            <?php foreach ( $langs as $code => $language ) : ?>
+                                <option value="<?php echo esc_html( $code ); ?>" <?php selected( $lang === $code ) ?>>
+                                    <?php echo esc_html( $language["flag"] ); ?> <?php echo esc_html( $language["native_name"] ); ?>
+                                </option>
+                            <?php endforeach; ?>
+                        </select>
                     </div>
                     <p class="center"><?php echo esc_html( $thank_you ); ?></p>
 

@@ -887,21 +887,21 @@ msgstr "Compromisos de Oración"
 
 #: site/stats.php:220
 msgid "Share with us your Prayer Stories"
-msgstr ""
+msgstr "Compártenos tus Historias de Oración"
 
 #: site/stats.php:226
 msgid "Email"
-msgstr ""
+msgstr "Correo Electrónico"
 
 #: site/stats.php:234
 msgid "Share with us about your Ramadan prayer time (E.g. testimonies, insights, blessings, etc)"
-msgstr ""
+msgstr "Compártenos acerca de tu tiempo de oración por Ramadán (por ej. testimonios, aprendizajes, bendiciones, etc.)"
 
 #: site/stats.php:239
 msgid "Submit"
-msgstr ""
+msgstr "Enviar"
 
 #: site/stats.php:245
 msgid "Thank You!"
-msgstr ""
+msgstr "¡Gracias!"
 

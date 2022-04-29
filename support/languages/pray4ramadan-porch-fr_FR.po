@@ -916,21 +916,21 @@ msgstr "Egagements de prière"
 
 #: site/stats.php:220
 msgid "Share with us your Prayer Stories"
-msgstr ""
+msgstr "Partagez vos histoires de prière avec nous."
 
 #: site/stats.php:226
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: site/stats.php:234
 msgid "Share with us about your Ramadan prayer time (E.g. testimonies, insights, blessings, etc)"
-msgstr ""
+msgstr "Partagez avec nous votre temps de prière du Ramadan (par exemple, des témoignages, des idées, des bénédictions, etc.)"
 
 #: site/stats.php:239
 msgid "Submit"
-msgstr ""
+msgstr "Soumettre"
 
 #: site/stats.php:245
 msgid "Thank You!"
-msgstr ""
+msgstr "Merci!"
 
