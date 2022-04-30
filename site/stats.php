@@ -345,6 +345,7 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
                                         <p>We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. <a href="https://mailchimp.com/legal/terms" target="_blank">Learn more about Mailchimp's privacy practices here.</a></p>
                                     </div>
                                 </div>
+                                <div hidden="true"><input type="hidden" name="tags" value="7237301,7236505"></div>
                                 <div id="mce-responses" class="clear">
                                     <div class="response" id="mce-error-response" style="display:none"></div>
                                     <div class="response" id="mce-success-response" style="display:none"></div>
