@@ -11,7 +11,7 @@ class DT_Campaigns_Config {
         if ( !wp_next_scheduled( 'dt_ramadan_prayer_campaign_daily' ) ) {
             wp_schedule_event( time(), 'daily', 'dt_ramadan_prayer_campaign_daily' );
         }
-        add_action( 'dt_ramadan_prayer_campaign_daily', 'dt_end_of_prayer_campaign_email' );
+        add_action( 'dt_ramadan_prayer_campaign_daily', [ $this, 'dt_end_of_prayer_campaign_email' ] );
     }
 
     //Set ramadan prayer fuel content url
