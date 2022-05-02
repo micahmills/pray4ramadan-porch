@@ -72,6 +72,8 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
         $campaign_fields = p4r_get_campaign();
         $langs = dt_ramadan_list_languages();
         $post_id = $campaign_fields["ID"];
+        $lang = dt_ramadan_get_current_lang();
+        dt_ramadan_set_translation( $lang );
 
 
         $timezone = "America/Chicago";
