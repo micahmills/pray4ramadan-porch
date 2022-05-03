@@ -98,7 +98,7 @@ class DT_Campaigns_Config {
         foreach ( $active_ended_campaigns as $campaign ){
             //find subscribers and send emails
             $campaign_post = DT_Posts::get_post( "campaigns", $campaign["ID"], true, false );
-            if ( !in_array( "end-of-campaign-email-sent", $campaign_post['tags'], true ) ){
+            if ( !in_array( "end-of-campaign-email-sent", $campaign_post['tags'] ?? [], true ) ){
                 $subscribers = $campaign_post["subscriptions"] ?? [];
                 foreach ( $subscribers as $sub ){
                     $this::end_of_campaign_email( $sub["ID"], $campaign["ID"] );
