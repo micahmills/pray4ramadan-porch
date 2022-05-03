@@ -172,7 +172,7 @@ class DT_Campaigns_Config {
         if ( ! $sent ){
             dt_write_log( __METHOD__ . ': Unable to send email. ' . $to );
         } else {
-            DT_Posts::add_post_comment( "subscribers", $subscriber_id, "Send end of campaign email" );
+            DT_Posts::add_post_comment( "subscribers", $subscriber_id, "Sent end of campaign email", 'comment', [], false );
         }
     }
 }
