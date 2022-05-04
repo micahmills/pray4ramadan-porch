@@ -348,7 +348,7 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
                     </section>
                     <?php
                 }
-            ?>
+                ?>
 
             <section class="section" data-stellar-background-ratio="0.2" style="padding-top: 0;">
                 <div class="container">
@@ -421,8 +421,8 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
 
                 </div>
             </section>
+            <?php endif; ?>
         </div>
-        <?php endif; ?>
 
         <?php
         do_action( 'pray4ramadan_porch_stats_page' );
