@@ -623,3 +623,22 @@ if ( ! function_exists( 'p4r_recursive_parse_args' ) ) {
     }
 }
 
+if ( !function_exists( "dt_cached_api_call" ) ){
+    function dt_cached_api_call( $url, $type = "GET", $args = [], $duration = HOUR_IN_SECONDS, $use_cache = true ){
+        $data = get_transient( "dt_cached_" . esc_url( $url ) );
+        if ( !$use_cache || empty( $data ) ){
+            if ( $type === "GET" ){
+                $response = wp_remote_get( $url );
+            } else {
+                $response = wp_remote_post( $url, $args );
+            }
+            if ( is_wp_error( $response ) || isset( $response["response"]["code"] ) && $response["response"]["code"] !== 200 ){
+                return false;
+            }
+            $data = wp_remote_retrieve_body( $response );
+
+            set_transient( "dt_cached_" .  esc_url( $url ), $data, $duration );
+        }
+        return $data;
+    }
+}

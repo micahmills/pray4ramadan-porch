@@ -290,7 +290,66 @@ class P4_Ramadan_Porch_Stats extends DT_Magic_Url_Base
             </script>
 
 
-            <?php if ( $porch_fields["stats-p4m"]["value"] === "yes" ) : ?>
+            <?php if ( $porch_fields["stats-p4m"]["value"] === "yes" ) :
+                $p4m_stats = dt_cached_api_call( "https://pray4movement.org/wp-json/p4m/maps/p4m-stats" );
+                $p4m_stats = json_decode( $p4m_stats, true );
+                if ( isset( $p4m_stats["minutes_prayed"] ) ){
+                    $time_committed = $p4m_stats["minutes_prayed"];
+
+                    $days_committed = round( $time_committed / 60 / 24, 2 ) % 365;
+                    $years_committed = floor( $time_committed / 60 / 24 / 365 );
+
+                    ?>
+                    <section class="section" data-stellar-background-ratio="0.2" style="padding-top: 0;">
+                        <div class="container">
+                            <div class="section-header" style="padding-bottom: 40px;">
+                                <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Global Ramadan Prayer Campaigns Stats', 'pray4ramadan-porch' ); ?></h2>
+                                <p class="center" style="color: black">See <a target="_blank" href="https://pray4movement.org/ramadan/"> https://pray4movement.org/ramadan/</a> for more.</p>
+                                <hr class="lines wow zoomIn" data-wow-delay="0.3s">
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
+                                        <h4><?php esc_html_e( 'Number of Prayer Campaigns', 'pray4ramadan-porch' ); ?></h4>
+                                        <p>
+                                            <?php echo esc_html( $p4m_stats["campaigns"] ?? "" ); ?>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
+                                        <h4><?php esc_html_e( 'Countries Prayed For', 'pray4ramadan-porch' ); ?></h4>
+                                        <p>
+                                            <?php echo esc_html( $p4m_stats["countries_prayed_for"] ?? "" ); ?>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
+                                        <h4><?php esc_html_e( 'Number of People who Prayed', 'pray4ramadan-porch' ); ?></h4>
+                                        <p>
+                                            <?php echo esc_html( number_format( $p4m_stats["prayers_count"] ?? "" ) ); ?>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
+                                        <h4><?php esc_html_e( 'Time Prayed', 'pray4ramadan-porch' ); ?></h4>
+                                        <p>
+                                            <?php if ( !empty( $years_committed ) ) :
+                                                echo esc_html( $years_committed . " year" . ( $years_committed > 1 ? 's' : '' ) );
+                                            endif;
+                                            echo esc_html( ' ' . $days_committed ); ?> days
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <?php
+                }
+            ?>
+
             <section class="section" data-stellar-background-ratio="0.2" style="padding-top: 0;">
                 <div class="container">
                     <div class="section-header" style="padding-bottom: 40px;">
