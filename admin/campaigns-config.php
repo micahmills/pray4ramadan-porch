@@ -8,10 +8,10 @@ class DT_Campaigns_Config {
         add_filter( 'dt_campaign_reminder_prayer_content', [ $this, 'dt_campaign_reminder_prayer_content' ] );
         add_filter( 'prayer_campaign_info_response', [ $this, 'prayer_campaign_info_response' ] );
 
-        if ( !wp_next_scheduled( 'dt_ramadan_prayer_campaign_daily' ) ) {
-            wp_schedule_event( time(), 'daily', 'dt_ramadan_prayer_campaign_daily' );
-        }
-        add_action( 'dt_ramadan_prayer_campaign_daily', [ $this, 'dt_end_of_prayer_campaign_email' ] );
+//        if ( !wp_next_scheduled( 'dt_ramadan_prayer_campaign_daily' ) ) {
+//            wp_schedule_event( time(), 'daily', 'dt_ramadan_prayer_campaign_daily' );
+//        }
+//        add_action( 'dt_ramadan_prayer_campaign_daily', [ $this, 'dt_end_of_prayer_campaign_email' ] );
     }
 
     //Set ramadan prayer fuel content url
@@ -99,13 +99,14 @@ class DT_Campaigns_Config {
             //find subscribers and send emails
             $campaign_post = DT_Posts::get_post( "campaigns", $campaign["ID"], true, false );
             if ( !in_array( "end-of-campaign-email-sent", $campaign_post['tags'] ?? [], true ) ){
+                //close campaign
+                DT_Posts::update_post( "campaigns", $campaign["ID"], [ "status" => "inactive", "tags" => [ "values" => [ [ "value" => "end-of-campaign-email-sent" ] ] ] ], true, false );
                 $subscribers = $campaign_post["subscriptions"] ?? [];
+//                @todo change to queue or don't send email twice
                 foreach ( $subscribers as $sub ){
                     $this::end_of_campaign_email( $sub["ID"], $campaign["ID"] );
                 }
             }
-            //close campaign
-            DT_Posts::update_post( "campaigns", $campaign["ID"], [ "status" => "inactive", "tags" => [ "values" => [ [ "value" => "end-of-campaign-email-sent" ] ] ] ], true, false );
         }
 
     }
