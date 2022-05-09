@@ -87,13 +87,14 @@ class DT_Campaigns_Config {
     public function dt_end_of_prayer_campaign_email(){
         global $wpdb;
         //get all the campaigns that are after the end date and that are still active.
+        //@todo, only if end of campaign recent
         $active_ended_campaigns = $wpdb->get_results( $wpdb->prepare( "
-        SELECT p.ID
-        FROM $wpdb->postmeta pm
-        INNER JOIN $wpdb->posts p ON ( p.ID = pm.post_ID AND p.post_type = 'campaigns' )
-        INNER JOIN $wpdb->postmeta active_campaign_meta on ( active_campaign_meta.post_ID = p.ID AND active_campaign_meta.meta_key = 'status' AND active_campaign_meta.meta_value = 'active' )
-        WHERE pm.meta_key = 'end_date' AND pm.meta_value < %s
-    ", time() ), ARRAY_A );
+            SELECT p.ID
+            FROM $wpdb->postmeta pm
+            INNER JOIN $wpdb->posts p ON ( p.ID = pm.post_ID AND p.post_type = 'campaigns' )
+            INNER JOIN $wpdb->postmeta active_campaign_meta on ( active_campaign_meta.post_ID = p.ID AND active_campaign_meta.meta_key = 'status' AND active_campaign_meta.meta_value = 'active' )
+            WHERE pm.meta_key = 'end_date' AND pm.meta_value < %s
+        ", time() ), ARRAY_A );
 
         foreach ( $active_ended_campaigns as $campaign ){
             //find subscribers and send emails
