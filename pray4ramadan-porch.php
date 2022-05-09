@@ -5,7 +5,7 @@
  * Description: This is this microsite plugin to support the Ramadan 24/7 Campaign
  * Text Domain: pray4ramadan-porch
  * Domain Path: /languages
- * Version:  0.4.2
+ * Version:  0.4.3
  * Author URI: https://github.com/DiscipleTools
  * GitHub Plugin URI: https://github.com/Pray4Movement/pray4ramadan-porch
  * Requires at least: 4.7.0
