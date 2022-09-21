@@ -2,10 +2,10 @@
 /**
  * Plugin Name: Pray4Ramadan Porch
  * Plugin URI: https://github.com/Pray4Movement/pray4ramadan-porch
- * Description: This is this microsite plugin to support the Ramadan 24/7 Campaign
+ * Description: This plugin is replaced by the Prayer Campaigns v2 Plugin
  * Text Domain: pray4ramadan-porch
  * Domain Path: /languages
- * Version:  0.4.3
+ * Version:  0.5
  * Author URI: https://github.com/DiscipleTools
  * GitHub Plugin URI: https://github.com/Pray4Movement/pray4ramadan-porch
  * Requires at least: 4.7.0
@@ -22,6 +22,17 @@
 if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly
 }
+
+$dt_plugins = apply_filters( 'dt_plugins', [] );
+
+if ( isset( $dt_plugins['disciple-tools-prayer-campaigns'] ) ){
+    add_action( 'after_setup_theme', function (){
+        require_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+        deactivate_plugins( plugin_basename( __FILE__ ), false );
+    });
+    return;
+}
+
 
 /**
  * Gets the instance of the `P4_Ramadan_Porch` class.
